@@ -36,13 +36,16 @@ npm run build
 | `/recommendations` | How agents file process-improvement findings |
 | `/repos` | Dual-repo commit/push split (this repo vs verticals) |
 
-Agents: open a GitHub Issue with the `agent-recommendation` template, or PR into
+**Other agents:** start at [/implement](https://sovereigncontent.messmass.com/implement). Canonical
+recommendation (dual-repo, archive-backup, quality reliability):
+[/recommendations](https://sovereigncontent.messmass.com/recommendations) · inbox file
+`recommendations/inbox/rec-dual-repo-quality-reliability.md`.
+
+New process findings: GitHub Issue with the `agent-recommendation` template, or PR into
 `recommendations/inbox/`. Schema: `/schemas/agent-recommendation.schema.json`.
 
 **Push rule:** process docs → `sovereign.content` **`main`**. Vertical code / content archive →
 management padel branch → `release/padel-africa`.
-
-**Other agents:** start at [/implement](https://sovereigncontent.messmass.com/implement).
 
 ## Related
 

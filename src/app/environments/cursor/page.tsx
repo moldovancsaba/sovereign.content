@@ -80,7 +80,9 @@ npm run catalog:media-curate -- --limit 15`}</pre>
       <h2>Agent operating rules</h2>
       <ul>
         <li>
-          Never commit listing About, curated maps, or media binaries to the vertical repo.
+          Never commit listing About, curated maps, or media <em>binaries</em> as live content.
+          Optional dated JSON archive-backup via <code>catalog:archive-snapshot</code> on the
+          vertical branch is allowed (URLs + facts only).
         </li>
         <li>
           Prefer structured headers + research prose over free-text LLM for publish.
@@ -90,6 +92,10 @@ npm run catalog:media-curate -- --limit 15`}</pre>
         </li>
         <li>
           Treat empty job queues as success (zero-cost ticks), not failures.
+        </li>
+        <li>
+          Dual-repo: process docs → <code>sovereign.content</code> <code>main</code>; vertical code
+          / archive → feature branch. Full playbook: <Link href="/implement">Implement</Link>.
         </li>
         <li>
           When adding a new vertical capability, document the CLI here (SSOT) and in the vertical

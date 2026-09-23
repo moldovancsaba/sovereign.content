@@ -18,6 +18,9 @@ export default function HomePage() {
           <Link className="btn btn-ghost" href="/implement">
             Implement guide
           </Link>
+          <Link className="btn btn-ghost" href="/recommendations">
+            Agent recommendation
+          </Link>
         </div>
       </section>
 

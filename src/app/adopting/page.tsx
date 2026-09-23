@@ -109,7 +109,12 @@ npm run catalog:about-curate -- --list`}</pre>
       </p>
       <ul>
         <li>
-          <code>https://sovereigncontent.messmass.com</code> — doctrine + environment selector
+          <code>https://sovereigncontent.messmass.com/implement</code> — dual-repo + archive +
+          quality playbook
+        </li>
+        <li>
+          <code>https://sovereigncontent.messmass.com/recommendations</code> — canonical
+          recommendation + feedback channel
         </li>
         <li>
           <code>https://sovereigncontent.messmass.com/environments/cursor</code> — runtime playbook
@@ -119,10 +124,12 @@ npm run catalog:about-curate -- --list`}</pre>
         </li>
       </ul>
 
-      <h2>7. Keep content out of PRs</h2>
+      <h2>7. Keep content out of SSOT PRs</h2>
       <p>
-        CI or review heuristics should reject PRs that add bulk listing prose or media folders.
-        Content improvements land in Mongo; code improvements land in git.
+        CI or review heuristics should reject PRs into <code>sovereign.content</code> that add bulk
+        listing prose or media. Content improvements land in Mongo. Vertical repos may commit dated{" "}
+        <code>archive/&lt;vertical&gt;/content/</code> JSON snapshots (URLs + facts) — never
+        binaries as live content.
       </p>
 
       <h2>8. Feed process findings back</h2>

@@ -11,21 +11,95 @@ export default function RecommendationsPage() {
     <DocShell current="/recommendations">
       <h1>Recommendations</h1>
       <p>
-        Other agents — on Cursor or any future environment — should feed process improvements back
-        into this SSOT. Catalogue content still stays in the vertical&apos;s data store;{" "}
-        <strong>recommendations are about the system</strong> (jobs, playbooks, doctrine gaps).
+        Two layers live here: the <strong>canonical recommendation</strong> every agent should
+        implement (dual-repo, content archive-backup, quality reliability), and the{" "}
+        <strong>feedback channel</strong> for filing new process findings back into this SSOT.
       </p>
 
       <div className="callout">
-        Preferred channel: open a GitHub Issue on{" "}
-        <a href="https://github.com/moldovancsaba/sovereign.content/issues/new?template=agent-recommendation.md">
-          moldovancsaba/sovereign.content
-        </a>{" "}
-        using the <code>agent-recommendation</code> template. Optional: PR a file into{" "}
-        <code>recommendations/inbox/</code>.
+        Start here if you are a new agent: follow the canonical recommendation end-to-end via{" "}
+        <Link href="/implement">Implement</Link>. Catalogue content still stays in the vertical&apos;s
+        data store — recommendations are about the <em>system</em>.
       </div>
 
-      <h2>How to collect</h2>
+      <h2>Canonical recommendation (implement this)</h2>
+      <p>
+        Accepted standing guidance from the Padel Africa / Cursor reference run. Full copy also in{" "}
+        <code>recommendations/inbox/rec-dual-repo-quality-reliability.md</code>.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Pillar</th>
+            <th>What to do</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <strong>Dual-repo</strong>
+            </td>
+            <td>
+              Process SSOT → <code>sovereign.content</code> <code>main</code>. Vertical engine +
+              archive → vertical feature branch → release branch. Separate commits/pushes. Detail:{" "}
+              <Link href="/repos">Repos</Link>.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Live content</strong>
+            </td>
+            <td>
+              Listings, About, media, cards, lessons → Mongo (day-to-day SSOT). Never bulk About or
+              media binaries into either git tree as live content.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Archive-backup</strong>
+            </td>
+            <td>
+              After large curate passes: <code>npm run catalog:archive-snapshot</code> → commit{" "}
+              <code>archive/&lt;vertical&gt;/content/&lt;stamp&gt;/</code> on the{" "}
+              <em>vertical</em> branch only (JSON + media URLs, no binaries).
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Quality stack</strong>
+            </td>
+            <td>
+              Minimum: <code>about-curate</code>, <code>quality-loop</code>,{" "}
+              <code>media-curate</code>, <code>archive-snapshot</code>. Add{" "}
+              <code>autopilot</code> / <code>hygiene</code> when cards exist. Contracts:{" "}
+              <Link href="/jobs">Jobs</Link>.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Reliability</strong>
+            </td>
+            <td>
+              Dry-run → write → timer. Evidence over LLM. No invented facts. Media: R2 → ImgBB →
+              https. Empty queues are success. Pin Node <code>22.x</code> on the SSOT site.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Feedback</strong>
+            </td>
+            <td>
+              File further process gaps as Issues below — scan open Issues before inventing a second
+              vocabulary.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <Link href="/implement">Open the full Implement playbook →</Link>
+      </p>
+
+      <h2>How to collect new findings</h2>
       <ol>
         <li>
           Finish the job or adoption pass first. Dry-run / write counts go in Evidence — not as a
@@ -45,6 +119,7 @@ export default function RecommendationsPage() {
         <li>
           Name the SSOT landing page that should absorb the change (
           <Link href="/doctrine">doctrine</Link>, <Link href="/jobs">jobs</Link>,{" "}
+          <Link href="/implement">implement</Link>,{" "}
           <Link href="/environments/cursor">Cursor</Link>, <Link href="/adopting">adopting</Link>,
           or this page).
         </li>
@@ -86,7 +161,7 @@ export default function RecommendationsPage() {
         </tbody>
       </table>
 
-      <h2>Required fields</h2>
+      <h2>Required fields (new findings)</h2>
       <ul>
         <li>
           <strong>Summary</strong> — one sentence
@@ -101,7 +176,7 @@ export default function RecommendationsPage() {
           <strong>Proposed change</strong> — concrete SSOT or CLI contract edit
         </li>
         <li>
-          <strong>Doctrine check</strong> — no invented facts; no catalogue content in git
+          <strong>Doctrine check</strong> — no invented facts; no catalogue content in SSOT git
         </li>
       </ul>
 
@@ -120,7 +195,7 @@ gh issue create -R moldovancsaba/sovereign.content \\
         <li>Triage Issues labeled <code>agent-recommendation</code>.</li>
         <li>
           Accept → fold into <Link href="/doctrine">Doctrine</Link> / <Link href="/jobs">Jobs</Link>{" "}
-          / environment playbooks and close the Issue.
+          / <Link href="/implement">Implement</Link> / environment playbooks and close the Issue.
         </li>
         <li>Reject → comment with doctrine conflict or duplicate link; close.</li>
       </ol>
@@ -129,7 +204,8 @@ gh issue create -R moldovancsaba/sovereign.content \\
         <a href="https://github.com/moldovancsaba/sovereign.content/labels/agent-recommendation">
           agent-recommendation
         </a>{" "}
-        Issues before inventing a parallel process.
+        Issues before inventing a parallel process — and treat the canonical dual-repo recommendation
+        above as already accepted.
       </p>
     </DocShell>
   );

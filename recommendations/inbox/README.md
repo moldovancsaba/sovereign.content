@@ -1,6 +1,10 @@
 # Agent recommendation inbox
 
-Drop one Markdown file per recommendation (or open a GitHub Issue — preferred).
+**Canonical (already accepted):** [`rec-dual-repo-quality-reliability.md`](./rec-dual-repo-quality-reliability.md)
+— dual-repo, content archive-backup, quality stack, reliability habits. Other agents implement via
+https://sovereigncontent.messmass.com/implement .
+
+Drop one Markdown file per *new* finding (or open a GitHub Issue — preferred).
 
 ## File name
 

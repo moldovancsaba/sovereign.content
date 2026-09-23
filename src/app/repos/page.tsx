@@ -86,13 +86,17 @@ export default function RepositoriesPage() {
         Recommended: keep a dated JSON backup of catalogue facts on the padel-africa branch under{" "}
         <code>archive/padel-africa/content/</code> via{" "}
         <code>npm run catalog:archive-snapshot</code> in management. That is recovery/audit — not
-        live SSOT, and never belongs in <code>sovereign.content</code>.
+        live SSOT, and never belongs in <code>sovereign.content</code>. After large curate passes,
+        commit the new stamp on the vertical feature branch and push.
       </p>
 
       <h2>Also see</h2>
       <ul>
         <li>
           <Link href="/implement">Implement</Link> — full agent playbook
+        </li>
+        <li>
+          <Link href="/recommendations">Recommendations</Link> — canonical dual-repo recommendation
         </li>
         <li>
           <Link href="/doctrine">Doctrine</Link>

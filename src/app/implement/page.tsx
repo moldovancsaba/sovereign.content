@@ -17,9 +17,11 @@ export default function ImplementPage() {
       </p>
 
       <div className="callout">
-        Reference vertical: management / Padel Africa. Copy <em>patterns</em>, not padel domain
-        data. Process SSOT is this site; live catalogue is Mongo; optional JSON backup is on the
-        vertical GitHub branch only.
+        Canonical recommendation text:{" "}
+        <code>recommendations/inbox/rec-dual-repo-quality-reliability.md</code> · summary on{" "}
+        <Link href="/recommendations">Recommendations</Link>. Reference vertical: management /
+        Padel Africa. Copy <em>patterns</em>, not padel domain data. Process SSOT is this site; live
+        catalogue is Mongo; optional JSON backup is on the vertical GitHub branch only.
       </div>
 
       <h2>0. Mental model</h2>
@@ -72,7 +74,44 @@ export default function ImplementPage() {
         <Link href="/jobs">Jobs</Link>
       </p>
 
-      <h2>1. Dual-repo setup (required)</h2>
+      <h2>1. Day-one bootstrap (other agents)</h2>
+      <ol>
+        <li>
+          Clone <strong>both</strong> repos. Work SSOT changes in a{" "}
+          <code>sovereign.content</code> checkout; work vertical changes in the product checkout.
+        </li>
+        <li>
+          Confirm write access: push to SSOT <code>main</code> (or open a PR that merges to{" "}
+          <code>main</code>), and push a feature branch on the vertical. If the GitHub App cannot
+          write the SSOT repo, use a PAT scoped to that repo (env e.g.{" "}
+          <code>SOVEREIGN_CONTENT_GITHUB_TOKEN</code>) — do not stall process docs.
+        </li>
+        <li>
+          Paste the dual-repo table into the vertical <code>AGENTS.md</code> (see §7) and link this
+          page.
+        </li>
+        <li>
+          Wire secrets in the agent environment (§3). Prove <code>MONGODB_URI</code> with a dry-run
+          before any write tick.
+        </li>
+        <li>
+          Implement or verify the quality CLIs (§2). Document flags in vertical{" "}
+          <code>docs/operations.md</code>.
+        </li>
+        <li>
+          Run the prove sequence (§4). Only then subscribe timers.
+        </li>
+        <li>
+          Take one <code>catalog:archive-snapshot</code>, commit the stamp on the vertical branch,
+          push. You now have a recoverable backup on GitHub.
+        </li>
+        <li>
+          Scan open <code>agent-recommendation</code> Issues; file new process findings via{" "}
+          <Link href="/recommendations">Recommendations</Link>.
+        </li>
+      </ol>
+
+      <h2>2. Dual-repo setup (required)</h2>
       <ol>
         <li>
           Keep (or create) a <strong>process SSOT repo</strong> like this one — docs site on Vercel
@@ -96,9 +135,14 @@ export default function ImplementPage() {
           engine code across remotes. Push SSOT to <code>main</code>; push vertical to its feature
           branch.
         </li>
+        <li>
+          <strong>Vercel:</strong> SSOT project deploys from <code>main</code> only (git push —
+          avoid aborted manual deploys). Pin <code>engines.node: &quot;22.x&quot;</code> +{" "}
+          <code>.nvmrc</code>.
+        </li>
       </ol>
 
-      <h2>2. Implement the quality stack on the vertical</h2>
+      <h2>3. Implement the quality stack on the vertical</h2>
       <p>Wire CLIs that match the <Link href="/jobs">Jobs</Link> contracts:</p>
       <ol>
         <li>
@@ -127,7 +171,7 @@ export default function ImplementPage() {
         Document flags in the vertical <code>docs/operations.md</code>.
       </p>
 
-      <h2>3. Secrets & hosts</h2>
+      <h2>4. Secrets & hosts</h2>
       <ul>
         <li>
           Required: <code>MONGODB_URI</code>, <code>MONGODB_DB</code> / <code>VERTICAL</code>
@@ -140,12 +184,42 @@ export default function ImplementPage() {
           Optional: <code>AI_GATEWAY_API_KEY</code> only for free-text cards
         </li>
         <li>
+          Dual-repo push: GitHub App access to both remotes, or{" "}
+          <code>SOVEREIGN_CONTENT_GITHUB_TOKEN</code> / <code>GH_TOKEN</code> for SSOT{" "}
+          <code>main</code>
+        </li>
+        <li>
           Vercel on the SSOT site: public URL vars only — no catalogue secrets required for the docs
           site
         </li>
       </ul>
 
-      <h2>4. Prove, then automate (Cursor)</h2>
+      <h2>5. Content archive-backup (vertical branch only)</h2>
+      <p>
+        Mongo remains live SSOT. GitHub holds a recoverable audit copy of facts — not binaries, not
+        a second write path for day-to-day edits.
+      </p>
+      <pre>{`VERTICAL=<id> MONGODB_DB=<id> npm run catalog:archive-snapshot
+# writes archive/<vertical>/content/<timestamp>/
+# then: git add archive/ && commit + push on the vertical feature branch`}</pre>
+      <ul>
+        <li>
+          Include: listing About + media <strong>URLs</strong>, curated abouts, quality rows, card
+          state summary
+        </li>
+        <li>
+          Exclude: image binaries, secrets, full research dumps that duplicate Mongo without need
+        </li>
+        <li>
+          Cadence: after every large curate / media pass; also periodically when timers have been
+          writing for a while
+        </li>
+        <li>
+          Never commit archive trees into <code>sovereign.content</code>
+        </li>
+      </ul>
+
+      <h2>6. Prove, then automate (Cursor)</h2>
       <pre>{`# Dry-runs first
 npm run catalog:quality-loop -- --dry-run --score-limit 20 --improve-limit 10
 npm run catalog:media-curate -- --dry-run --limit 5
@@ -165,7 +239,7 @@ npm run catalog:archive-snapshot   # then commit archive/ on the vertical branch
         Full runtime notes: <Link href="/environments/cursor">Cursor</Link>.
       </p>
 
-      <h2>5. Reliability habits</h2>
+      <h2>7. Reliability habits</h2>
       <ul>
         <li>
           <strong>Idempotent ticks</strong> — stable recommendation ids; empty queue is OK
@@ -191,39 +265,53 @@ npm run catalog:archive-snapshot   # then commit archive/ on the vertical branch
         <li>
           <strong>Separate PRs</strong> — vertical PR ≠ SSOT push to <code>main</code>
         </li>
+        <li>
+          <strong>Git-only SSOT deploys</strong> — push <code>main</code>; do not rely on aborted
+          manual Vercel deploys
+        </li>
+        <li>
+          <strong>Scan before inventing</strong> — read open{" "}
+          <code>agent-recommendation</code> Issues and this playbook first
+        </li>
       </ul>
 
-      <h2>6. Feed findings back</h2>
+      <h2>8. Feed findings back</h2>
       <p>
         After a tick or adoption pass, file process improvements via{" "}
         <Link href="/recommendations">Recommendations</Link> (GitHub Issue template{" "}
         <code>agent-recommendation</code>). Scan open Issues before inventing a second vocabulary.
+        The dual-repo / archive / quality recommendation is already accepted — file deltas only.
       </p>
       <pre>{`gh issue create -R moldovancsaba/sovereign.content \\
   --label agent-recommendation \\
   --title "rec: <short slug>" \\
   --body-file ./rec-body.md`}</pre>
 
-      <h2>7. Agent checklist (copy into vertical AGENTS.md)</h2>
+      <h2>9. Agent checklist (copy into vertical AGENTS.md)</h2>
       <pre>{`## Sovereign dual-repo
 - Process SSOT: https://sovereigncontent.messmass.com (push moldovancsaba/sovereign.content main)
 - Implement guide: https://sovereigncontent.messmass.com/implement
+- Canonical rec: https://sovereigncontent.messmass.com/recommendations
 - Vertical work: this repo → release/<vertical>
 - Live content: Mongo only; archive via npm run catalog:archive-snapshot → archive/<vertical>/content/
-- Recommendations: https://sovereigncontent.messmass.com/recommendations`}</pre>
+- Recommendations: file agent-recommendation Issues on sovereign.content`}</pre>
 
-      <h2>8. Done when</h2>
+      <h2>10. Done when</h2>
       <ul>
         <li>Dry-runs and write ticks report JSON cleanly</li>
         <li>Timers run without asking the operator each hour</li>
         <li>About quality scores mostly already-good; media coverage complete or draining</li>
         <li>SSOT site documents the vertical; vertical AGENTS.md links the SSOT</li>
         <li>At least one content archive stamp exists on the vertical branch</li>
-        <li>Agents know to file <code>agent-recommendation</code> Issues here</li>
+        <li>Agents know the canonical dual-repo recommendation and how to file deltas</li>
       </ul>
 
       <h2>Also see</h2>
       <ul>
+        <li>
+          <Link href="/recommendations">Recommendations</Link> — canonical pillars + feedback
+          channel
+        </li>
         <li>
           <Link href="/adopting">Adopting</Link> — shorter checklist
         </li>
