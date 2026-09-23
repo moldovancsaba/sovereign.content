@@ -13,7 +13,7 @@ priority: high
 ssotLanding: jobs
 doctrineOk: true
 observedAt: 2026-09-23T15:10:00Z
-status: accepted-partial-ship
+status: shipped-2026-09-23
 sources:
   - https://github.com/moldovancsaba/sovereign.content/issues/6
   - https://github.com/moldovancsaba/sovereign.content/issues/7
@@ -75,3 +75,7 @@ npm run catalog:quality-loop -- --dry-run --score-limit 20
 ```
 
 Engine landing: management PR https://github.com/moldovancsaba/management/pull/225
+
+**Issue close-out (2026-09-23):** #6–#8, #10–#17, #19–#21 closed `completed` after Jobs/Cursor/adopting
+contracts + engine where SC owns the job. #18 closed `not_planned` (deferred until a martial-family
+vertical adopts). Live: https://sovereigncontent.messmass.com/jobs
