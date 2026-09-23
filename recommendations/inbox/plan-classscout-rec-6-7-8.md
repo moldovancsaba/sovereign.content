@@ -146,3 +146,9 @@ ClassScout alignment for cross-vertical agents. Padel scripts already use native
 - Forcing generated art on padel-africa
 - Committing listing About / media binaries into either git tree
 - Inventing court counts, prices, or venues to “fix” address detectors
+
+## Related: Sportolok gate feedback
+
+Evaluated separately in [`plan-sportolok-gate-feedback.md`](./plan-sportolok-gate-feedback.md).
+Street gate (#6) and media policy (#8) are prerequisites for the accepted sportolok geo/media
+items; do **not** implement sportolok’s proposed `%` autonomyThreshold.
