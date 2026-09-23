@@ -104,7 +104,8 @@ export default function RecommendationsPage() {
       </p>
       <ul>
         <li>
-          <Link href="/jobs">Jobs</Link> — <code>catalog:find</code>, contact pass, About target 75
+          <Link href="/jobs">Jobs</Link> — <code>catalog:find</code>, contact pass, About target 75;
+          content ticks are Mongo-only (GDS/pack load = optional serving refresh)
         </li>
         <li>
           <Link href="/environments/cursor">Cursor</Link> — FIND playbook (no Ollama)
