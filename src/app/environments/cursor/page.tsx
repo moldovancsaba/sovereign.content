@@ -133,6 +133,13 @@ Report counts only. Do not open PRs for content.`}</pre>
         </tbody>
       </table>
 
+      <h2>Feed findings back</h2>
+      <p>
+        After a tick or adoption pass, file process improvements via the{" "}
+        <Link href="/recommendations">recommendations</Link> channel (GitHub Issue template{" "}
+        <code>agent-recommendation</code>). Do not invent a parallel feedback loop.
+      </p>
+
       <h2>Next environments</h2>
       <p>
         When Cursor is boringly reliable on a vertical, port the same CLIs to OpenClaw workers,

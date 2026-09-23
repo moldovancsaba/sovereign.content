@@ -6,6 +6,7 @@ const DOC_LINKS = [
   { href: "/jobs", label: "Jobs" },
   { href: "/environments/cursor", label: "Cursor" },
   { href: "/adopting", label: "Adopting" },
+  { href: "/recommendations", label: "Recommend" },
 ];
 
 export function DocShell({

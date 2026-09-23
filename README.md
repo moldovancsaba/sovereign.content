@@ -32,6 +32,10 @@ npm run build
 | `/jobs` | Portable `catalog:*` contracts |
 | `/environments/cursor` | Cloud Agent playbook |
 | `/adopting` | Bring another project onto the loop |
+| `/recommendations` | How agents file process-improvement findings |
+
+Agents: open a GitHub Issue with the `agent-recommendation` template, or PR into
+`recommendations/inbox/`. Schema: `/schemas/agent-recommendation.schema.json`.
 
 ## Related
 

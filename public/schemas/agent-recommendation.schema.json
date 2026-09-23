@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sovereigncontent.messmass.com/schemas/agent-recommendation.schema.json",
+  "title": "Sovereign Content agent recommendation",
+  "description": "Machine-readable process-improvement recommendation from an agent run. Catalogue content (About, media bytes, listings) must not appear here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "summary",
+    "finding",
+    "evidence",
+    "proposedChange",
+    "environment",
+    "priority",
+    "doctrineOk"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^rec_[a-z0-9-]{4,64}$",
+      "description": "Stable id, e.g. rec_media-host-r2-gap"
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "finding": {
+      "type": "string",
+      "maxLength": 4000
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["notes"],
+      "properties": {
+        "vertical": { "type": "string" },
+        "repo": { "type": "string" },
+        "jobs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "runId": { "type": "string" },
+        "observedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": { "type": ["number", "string"] }
+        },
+        "sampleIds": {
+          "type": "array",
+          "items": { "type": "string" },
+          "maxItems": 20
+        },
+        "notes": { "type": "string", "maxLength": 4000 }
+      }
+    },
+    "proposedChange": {
+      "type": "string",
+      "maxLength": 4000
+    },
+    "environment": {
+      "type": "string",
+      "enum": ["cursor", "openclaw", "local-daemon", "vercel-cron", "other"]
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["blocker", "high", "medium", "low"]
+    },
+    "ssotLanding": {
+      "type": "string",
+      "enum": ["doctrine", "jobs", "environments/cursor", "adopting", "recommendations", "new"]
+    },
+    "doctrineOk": {
+      "type": "boolean",
+      "description": "True only if the proposal keeps content out of git and does not invent catalogue facts"
+    },
+    "links": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" },
+      "maxItems": 10
+    }
+  }
+}

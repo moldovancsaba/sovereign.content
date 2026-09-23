@@ -124,6 +124,12 @@ npm run catalog:about-curate -- --list`}</pre>
         Content improvements land in Mongo; code improvements land in git.
       </p>
 
+      <h2>8. Feed process findings back</h2>
+      <p>
+        When another agent discovers a better tactic, missing job flag, or playbook gap, file it via{" "}
+        <Link href="/recommendations">Recommendations</Link> — do not fork the doctrine silently.
+      </p>
+
       <h2>Reference vertical</h2>
       <p>
         Management / Padel Africa on branch <code>release/padel-africa</code> is the working
