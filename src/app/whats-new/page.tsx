@@ -17,11 +17,31 @@ export default function WhatsNewPage() {
       <DocCallout title="2026-09-23 (later)">
         Padel Africa unstarve + <code>catalog:find</code>: About target 75 / capped locality bonus;
         hygiene <code>contact</code> enrich; Cloud Agent FIND research job. Live FIND: Dakar Padel
-        Club + REBEL PADEL Sahm (management{" "}
-        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>). No Ollama on
-        Cursor Cloud ticks. Content jobs are Mongo-only — GDS / pack load is optional serving
-        refresh only.
+        Club + REBEL PADEL Sahm; Tanzania Slipway + Hub Bwejuu; Zambia Xtreme (management{" "}
+        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>). Soft Abouts
+        stuck at 70 cleared by address backfill + curated drafts. No Ollama on Cursor Cloud ticks.
+        Content jobs are Mongo-only — GDS / pack load is optional serving refresh only.
       </DocCallout>
+
+      <h2>2026-09-23 — About debt @70 + more FIND</h2>
+      <ul>
+        <li>
+          Soft Abouts scoring 70 (length + tone + chrome, no locality) unstuck by backfilling{" "}
+          <code>venue.address</code> from evidence and applying curated recommendation Abouts
+        </li>
+        <li>
+          Quality snapshot falls back to <code>territory.settlement</code> /{" "}
+          <code>territory.country</code> when locality is nested
+        </li>
+        <li>
+          FIND: Tanzania 1→3 published (Padel Centre TZ Slipway + The Hub Bwejuu); Zambia +Xtreme
+          Emmasdale; catalogue 152→155
+        </li>
+      </ul>
+      <p>
+        Contracts: <Link href="/jobs">Jobs</Link> · playbook:{" "}
+        <Link href="/environments/cursor">Cursor</Link>.
+      </p>
 
       <h2>2026-09-23 — Content ticks ≠ GDS</h2>
       <p>

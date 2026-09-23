@@ -111,7 +111,7 @@ export default function RecommendationsPage() {
           <Link href="/environments/cursor">Cursor</Link> — FIND playbook (no Ollama)
         </li>
         <li>
-          Live FIND: Dakar Padel Club + REBEL PADEL Sahm
+          Live FIND: Dakar / REBEL PADEL; Tanzania Slipway + Hub Bwejuu; Zambia Xtreme
         </li>
       </ul>
 

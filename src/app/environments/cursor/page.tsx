@@ -103,7 +103,8 @@ npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json --d
         </li>
       </ol>
       <p>
-        Padel Africa FIND proof: Dakar Padel Club + REBEL PADEL Sahm (management{" "}
+        Padel Africa FIND proof: Dakar Padel Club + REBEL PADEL Sahm; Tanzania Slipway + Hub
+        Bwejuu; Zambia Xtreme (management{" "}
         <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>). Jobs contract:{" "}
         <Link href="/jobs">Jobs</Link>.
       </p>

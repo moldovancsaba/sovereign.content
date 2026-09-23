@@ -32,7 +32,12 @@ remained (soft Abouts false-greened by locality bonus; contact fields outside th
 | FIND | `catalog:find` — `--status` → research fixture → dry-run → seed (not NYC fair-use) |
 
 **Live FIND proof (padel-africa Mongo):** `research-sen-ven-002` Dakar Padel Club, `research-sen-ven-003`
-REBEL PADEL Sahm. Catalogue 150→152.
+REBEL PADEL Sahm; later `research-tza-ven-001`/`002` (Padel Centre TZ Slipway + The Hub Bwejuu),
+`research-zmb-ven-003` Xtreme Padel Zambia. Catalogue 150→155.
+
+**About debt @70:** listings missing `venue.address.locality` scored length+tone+chrome=70 and could
+not clear target 75. Fix: backfill address from evidence + curated recommendation Abouts; quality
+store falls back to `territory.settlement` / `territory.country` when locality is nested.
 
 **Dry-run checks**
 
