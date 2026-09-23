@@ -152,10 +152,20 @@ export default function JobsPage() {
         Publish authority is the binary gate (<code>pass</code> / <code>blocker</code> /{" "}
         <code>flag</code>), not a float like <code>autonomyThreshold: 0.95</code>. Gate-clean cards
         auto-publish; soft-incomplete cards land at <code>REVIEW_READY</code> with a real listing
-        (publish-now-enrich-later). Recoverable families include media + completeness. Sportolok
-        feedback that proposed lowering a pack % is evaluated in{" "}
-        <code>recommendations/inbox/plan-sportolok-gate-feedback.md</code> — accept soft-media /
-        Nominatim enrichment / review “to reach publish”; reject parallel % auto-publish.
+        (publish-now-enrich-later). Recoverable families include media + completeness.
+      </p>
+
+      <h2>Activity completeness (always on)</h2>
+      <p>
+        Every vertical pack declares <code>activityCompleteness</code> keyed by taxonomy slug (plus a
+        default). <code>checkCompleteness</code> always resolves the listing&apos;s lead activity →
+        required vs soft fields (description, schedule, price, geo, media). This is the unified
+        substitute for sportolok&apos;s “weighted % gates” ask — hard vs soft per activity, not a
+        second publish authority. Padel Africa ships profiles for{" "}
+        <code>padel-club</code> / courts / coaching / tournaments / shops on day one; adding{" "}
+        <code>tennis-club</code> or <code>squash-club</code> is a new taxonomy row + profile (often
+        reuse the court-venue profile). Plan:{" "}
+        <code>recommendations/inbox/plan-sportolok-gate-feedback.md</code>.
       </p>
 
       <h2>catalog:repair-structured-geo</h2>

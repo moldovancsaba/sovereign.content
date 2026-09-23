@@ -152,26 +152,25 @@ export default function RecommendationsPage() {
         </tbody>
       </table>
 
-      <h2>Sportolok gate feedback (2026-09-23)</h2>
+      <h2>Sportolok gate feedback (2026-09-23, revised)</h2>
       <p>
         Real sportolok queue pressure (459 listings / 954 cards). Full accept/reject table:{" "}
         <code>recommendations/inbox/plan-sportolok-gate-feedback.md</code>.
       </p>
       <ul>
         <li>
-          <strong>Accept:</strong> soft images, Nominatim auto-geo (with street gate), actionable
-          “to reach publish” from verdicts, taxonomy completeness in the vertical pack, queue
-          filters by blocker family, learn from staff overrides.
+          <strong>Unified activity completeness (always on):</strong> every pack — including
+          padel-africa — declares per-taxonomy required vs soft fields so tennis/squash can extend
+          without forking the gate. Replaces “sportolok-only category gates.”
+        </li>
+        <li>
+          <strong>Also accept:</strong> Nominatim auto-geo (with street gate), actionable “to reach
+          publish” from verdicts, queue filters by family + activity, override learning.
         </li>
         <li>
           <strong>Reject:</strong> inventing <code>autonomyThreshold</code> % auto-publish, replacing
           the binary gate with weighted % scores, Google Maps / Facebook / Instagram as portable
           enrichment defaults.
-        </li>
-        <li>
-          Engine already does publish-now-enrich-later (soft-incomplete →{" "}
-          <code>REVIEW_READY</code>). A full escalate queue is usually missing geo/media/completeness
-          — not a hidden 0.95 float.
         </li>
       </ul>
 

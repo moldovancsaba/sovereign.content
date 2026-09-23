@@ -147,8 +147,11 @@ ClassScout alignment for cross-vertical agents. Padel scripts already use native
 - Committing listing About / media binaries into either git tree
 - Inventing court counts, prices, or venues to “fix” address detectors
 
-## Related: Sportolok gate feedback
+## Related: Sportolok gate feedback (revised)
 
-Evaluated separately in [`plan-sportolok-gate-feedback.md`](./plan-sportolok-gate-feedback.md).
-Street gate (#6) and media policy (#8) are prerequisites for the accepted sportolok geo/media
-items; do **not** implement sportolok’s proposed `%` autonomyThreshold.
+See [`plan-sportolok-gate-feedback.md`](./plan-sportolok-gate-feedback.md).
+
+**Unified activity completeness** is always-on for every pack (including padel-africa) so tennis /
+squash can extend taxonomy without forking the gate. Street gate (#6) feeds geo for activities that
+mark `geo: required`. Media policy (#8) stays the vertical scrape policy; profiles only say whether
+media is soft or required for completeness — do **not** implement sportolok’s `%` autonomyThreshold.
