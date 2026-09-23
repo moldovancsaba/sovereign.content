@@ -17,16 +17,17 @@ export default function DoctrinePage() {
 
       <div className="callout">
         This repository is knowledge only. Listings, About prose, curated overrides, media URLs, and
-        lessons live in the project&apos;s data store. Adopters copy patterns and CLIs — never seed
-        content into this repo.
+        lessons live in the project&apos;s data store. Optional GitHub archive-backup belongs on the{" "}
+        <em>vertical</em> branch only — see <a href="/repos">Repositories</a>. Adopters copy
+        patterns and CLIs; never seed live catalogue content into this repo.
       </div>
 
       <h2>Non-negotiables</h2>
       <ol>
         <li>
-          <strong>Content stays out of git.</strong> About text, curated overrides, and media
-          attachments are Mongo (or equivalent) documents. The agent writes there; PRs carry code and
-          docs only.
+          <strong>Content stays out of this SSOT repo.</strong> About text, curated overrides, and
+          media attachments are Mongo (or equivalent) documents for day-to-day work. Verticals may
+          keep dated JSON archive-backups on their own branch; PRs here carry process docs only.
         </li>
         <li>
           <strong>Jobs are CLI twins of crons.</strong> Every Cloud Agent tick maps to an{" "}

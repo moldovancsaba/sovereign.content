@@ -7,6 +7,7 @@ const DOC_LINKS = [
   { href: "/environments/cursor", label: "Cursor" },
   { href: "/adopting", label: "Adopting" },
   { href: "/recommendations", label: "Recommend" },
+  { href: "/repos", label: "Repos" },
 ];
 
 export function DocShell({

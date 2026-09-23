@@ -33,9 +33,13 @@ npm run build
 | `/environments/cursor` | Cloud Agent playbook |
 | `/adopting` | Bring another project onto the loop |
 | `/recommendations` | How agents file process-improvement findings |
+| `/repos` | Dual-repo commit/push split (this repo vs verticals) |
 
 Agents: open a GitHub Issue with the `agent-recommendation` template, or PR into
 `recommendations/inbox/`. Schema: `/schemas/agent-recommendation.schema.json`.
+
+**Push rule:** process docs → `sovereign.content` **`main`**. Vertical code / content archive →
+management padel branch → `release/padel-africa`.
 
 ## Related
 
