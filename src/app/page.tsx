@@ -24,14 +24,15 @@ export default function HomePage() {
             variant: "primary",
           },
           {
-            label: "Agent recommendation",
-            href: "/recommendations",
+            label: "What's new",
+            href: "/whats-new",
             variant: "secondary",
           },
         ]}
         meta={[
           { id: "gds", label: "GDS 6.7 editorial" },
           { id: "vertical", label: "Vertical ref · padel-africa" },
+          { id: "new", label: "Activity completeness shipped" },
         ]}
         media={
           <Box

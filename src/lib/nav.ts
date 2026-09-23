@@ -1,5 +1,6 @@
 export const DOC_NAV = [
   { href: "/", label: "Environments", id: "home" },
+  { href: "/whats-new", label: "What's new", id: "whats-new" },
   { href: "/doctrine", label: "Doctrine", id: "doctrine" },
   { href: "/jobs", label: "Jobs", id: "jobs" },
   { href: "/implement", label: "Implement", id: "implement" },

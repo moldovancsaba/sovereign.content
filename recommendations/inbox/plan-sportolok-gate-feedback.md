@@ -13,7 +13,7 @@ ssotLanding: jobs
 doctrineOk: true
 observedAt: 2026-09-23T13:20:00Z
 revisedAt: 2026-09-23T13:25:00Z
-status: evaluated-with-plan
+status: shipped-engine-2026-09-23
 companion: plan-classscout-rec-6-7-8.md
 evidenceNote: 459 listings / 954 cards (sportolok live test, 2026-09-23)
 revisionNote: Activity completeness is always-on for every vertical (incl. padel-africa) so tennis/squash can extend taxonomy without forking the gate.

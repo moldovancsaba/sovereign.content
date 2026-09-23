@@ -16,9 +16,11 @@ export default function ImplementPage() {
 
       <DocCallout>Canonical recommendation text:{" "}
         <code>recommendations/inbox/rec-dual-repo-quality-reliability.md</code> · summary on{" "}
-        <Link href="/recommendations">Recommendations</Link>. Reference vertical: management /
-        Padel Africa. Copy <em>patterns</em>, not padel domain data. Process SSOT is this site; live
-        catalogue is Mongo; optional JSON backup is on the vertical GitHub branch only.</DocCallout>
+        <Link href="/recommendations">Recommendations</Link>. Latest shipped contracts:{" "}
+        <Link href="/whats-new">What&apos;s new</Link> (unified activity completeness). Reference
+        vertical: management / Padel Africa. Copy <em>patterns</em>, not padel domain data. Process
+        SSOT is this site; live catalogue is Mongo; optional JSON backup is on the vertical GitHub
+        branch only.</DocCallout>
 
       <h2>0. Mental model</h2>
       <table>
