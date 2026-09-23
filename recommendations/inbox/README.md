@@ -7,6 +7,10 @@ https://sovereigncontent.messmass.com/implement .
 **ClassScout #6–#8 (accepted, phased):** [`plan-classscout-rec-6-7-8.md`](./plan-classscout-rec-6-7-8.md)
 — street/chrome detectors, job alias twins (docs), media-curate policy hook.
 
+**Sportolok gate feedback (evaluated):** [`plan-sportolok-gate-feedback.md`](./plan-sportolok-gate-feedback.md)
+— accept soft-media / Nominatim auto-geo / review “to reach publish” / taxonomy completeness;
+reject parallel `%` autonomyThreshold and Google/FB/IG as portable defaults.
+
 Drop one Markdown file per *new* finding (or open a GitHub Issue — preferred).
 
 ## File name

@@ -147,6 +147,17 @@ export default function JobsPage() {
         </li>
       </ul>
 
+      <h2>Autonomy model (not a % threshold)</h2>
+      <p>
+        Publish authority is the binary gate (<code>pass</code> / <code>blocker</code> /{" "}
+        <code>flag</code>), not a float like <code>autonomyThreshold: 0.95</code>. Gate-clean cards
+        auto-publish; soft-incomplete cards land at <code>REVIEW_READY</code> with a real listing
+        (publish-now-enrich-later). Recoverable families include media + completeness. Sportolok
+        feedback that proposed lowering a pack % is evaluated in{" "}
+        <code>recommendations/inbox/plan-sportolok-gate-feedback.md</code> — accept soft-media /
+        Nominatim enrichment / review “to reach publish”; reject parallel % auto-publish.
+      </p>
+
       <h2>catalog:repair-structured-geo</h2>
       <p>
         One-shot repair for structured-header cards that have research prose but empty Address /
