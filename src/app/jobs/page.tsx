@@ -7,13 +7,11 @@ export const metadata: Metadata = {
 
 export default function JobsPage() {
   return (
-    <DocShell current="/jobs">
-      <h1>Jobs</h1>
-      <p>
-        Portable job contracts. Adopter verticals implement these as <code>npm run catalog:*</code>{" "}
-        scripts (and optional HTTP cron twins). Agents call the CLI form — no CRON_SECRET required
-        for Cloud Agent ticks.
-      </p>
+    <DocShell
+      current="/jobs"
+      title={`Jobs`}
+      lead={`Portable job contracts. Adopter verticals implement these as npm run catalog:*{{" "}} scripts (and optional HTTP cron twins). Agents call the CLI form — no CRON_SECRET required for Cloud Agent ticks.`}
+    >
 
       <h2>catalog:quality-loop</h2>
       <p>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DocShell } from "@/components/DocShell";
+import { DocShell, DocCallout } from "@/components/DocShell";
 
 export const metadata: Metadata = {
   title: "Repositories",
@@ -8,19 +8,15 @@ export const metadata: Metadata = {
 
 export default function RepositoriesPage() {
   return (
-    <DocShell current="/repos">
-      <h1>Repositories</h1>
-      <p>
-        The sovereign system spans two GitHub repositories. Agents must commit and push them{" "}
-        <strong>separately</strong> — never mix process SSOT into a vertical tree or park vertical
-        code only in this docs repo.
-      </p>
+    <DocShell
+      current="/repos"
+      title={`Repositories`}
+      lead={`The sovereign system spans two GitHub repositories. Agents must commit and push them{{" "}} separately — never mix process SSOT into a vertical tree or park vertical code only in this docs repo.`}
+    >
 
-      <div className="callout">
-        This site (<code>sovereign.content</code> → <code>main</code>) is process transfer knowledge.
+      <DocCallout>This site (<code>sovereign.content</code> → <code>main</code>) is process transfer knowledge.
         Live catalogue content stays in each vertical&apos;s Mongo. Optional GitHub archive-backup of
-        content lives on the <em>vertical</em> branch only.
-      </div>
+        content lives on the <em>vertical</em> branch only.</DocCallout>
 
       <h2>Split</h2>
       <table>

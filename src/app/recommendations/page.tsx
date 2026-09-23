@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DocShell } from "@/components/DocShell";
+import { DocShell, DocCallout } from "@/components/DocShell";
 
 export const metadata: Metadata = {
   title: "Recommendations",
@@ -8,19 +8,15 @@ export const metadata: Metadata = {
 
 export default function RecommendationsPage() {
   return (
-    <DocShell current="/recommendations">
-      <h1>Recommendations</h1>
-      <p>
-        Two layers live here: the <strong>canonical recommendation</strong> every agent should
-        implement (dual-repo, content archive-backup, quality reliability), and the{" "}
-        <strong>feedback channel</strong> for filing new process findings back into this SSOT.
-      </p>
+    <DocShell
+      current="/recommendations"
+      title={`Recommendations`}
+      lead={`Two layers live here: the canonical recommendation every agent should implement (dual-repo, content archive-backup, quality reliability), and the{{" "}} feedback channel for filing new process findings back into this SSOT.`}
+    >
 
-      <div className="callout">
-        Start here if you are a new agent: follow the canonical recommendation end-to-end via{" "}
+      <DocCallout>Start here if you are a new agent: follow the canonical recommendation end-to-end via{" "}
         <Link href="/implement">Implement</Link>. Catalogue content still stays in the vertical&apos;s
-        data store — recommendations are about the <em>system</em>.
-      </div>
+        data store — recommendations are about the <em>system</em>.</DocCallout>
 
       <h2>Canonical recommendation (implement this)</h2>
       <p>

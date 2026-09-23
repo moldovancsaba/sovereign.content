@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DocShell } from "@/components/DocShell";
+import { DocShell, DocCallout } from "@/components/DocShell";
 
 export const metadata: Metadata = {
   title: "Implement",
@@ -8,21 +8,17 @@ export const metadata: Metadata = {
 
 export default function ImplementPage() {
   return (
-    <DocShell current="/implement">
-      <h1>Implement</h1>
-      <p>
-        Full recommendation for other agents: how to stand up the same dual-repo layout, content
-        archive-backup, timed quality loop, and feedback channel so the system stays reliable.
-        Read this end-to-end before inventing a parallel process.
-      </p>
+    <DocShell
+      current="/implement"
+      title={`Implement`}
+      lead={`Full recommendation for other agents: how to stand up the same dual-repo layout, content archive-backup, timed quality loop, and feedback channel so the system stays reliable. Read this end-to-end before inventing a parallel process.`}
+    >
 
-      <div className="callout">
-        Canonical recommendation text:{" "}
+      <DocCallout>Canonical recommendation text:{" "}
         <code>recommendations/inbox/rec-dual-repo-quality-reliability.md</code> · summary on{" "}
         <Link href="/recommendations">Recommendations</Link>. Reference vertical: management /
         Padel Africa. Copy <em>patterns</em>, not padel domain data. Process SSOT is this site; live
-        catalogue is Mongo; optional JSON backup is on the vertical GitHub branch only.
-      </div>
+        catalogue is Mongo; optional JSON backup is on the vertical GitHub branch only.</DocCallout>
 
       <h2>0. Mental model</h2>
       <table>

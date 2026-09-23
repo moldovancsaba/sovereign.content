@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { DocShell } from "@/components/DocShell";
+import { DocShell, DocCallout } from "@/components/DocShell";
 
 export const metadata: Metadata = {
   title: "Cursor environment",
@@ -8,19 +8,15 @@ export const metadata: Metadata = {
 
 export default function CursorEnvironmentPage() {
   return (
-    <DocShell current="/environments/cursor">
-      <h1>Cursor</h1>
-      <p>
-        First environment. Cursor Cloud Agents proved the sovereign loop: timed Mongo jobs,
-        research-grounded About, media rehost, and PR delivery — without putting catalogue content
-        in git.
-      </p>
+    <DocShell
+      current="/environments/cursor"
+      title={`Cursor`}
+      lead={`First environment. Cursor Cloud Agents proved the sovereign loop: timed Mongo jobs, research-grounded About, media rehost, and PR delivery — without putting catalogue content in git.`}
+    >
 
-      <div className="callout">
-        Use this playbook when the vertical repo is already linked to a Cursor Cloud environment
+      <DocCallout>Use this playbook when the vertical repo is already linked to a Cursor Cloud environment
         with Mongo credentials and (optionally) R2 / ImgBB. Start here before OpenClaw, local
-        daemons, or Vercel Cron.
-      </div>
+        daemons, or Vercel Cron.</DocCallout>
 
       <h2>What Cursor owns</h2>
       <ul>

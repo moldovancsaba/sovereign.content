@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DocShell } from "@/components/DocShell";
+import { DocShell, DocCallout } from "@/components/DocShell";
 
 export const metadata: Metadata = {
   title: "Doctrine",
@@ -7,20 +7,16 @@ export const metadata: Metadata = {
 
 export default function DoctrinePage() {
   return (
-    <DocShell current="/doctrine">
-      <h1>Doctrine</h1>
-      <p>
-        Sovereign Content is the transfer layer for an agentic catalogue system that already proved
-        itself on live verticals (Padel Africa management): timed jobs, Mongo as content store,
-        deterministic quality loops, and media rehost — without parking catalogue copy in git.
-      </p>
+    <DocShell
+      current="/doctrine"
+      title={`Doctrine`}
+      lead={`Sovereign Content is the transfer layer for an agentic catalogue system that already proved itself on live verticals (Padel Africa management): timed jobs, Mongo as content store, deterministic quality loops, and media rehost — without parking catalogue copy in git.`}
+    >
 
-      <div className="callout">
-        This repository is knowledge only. Listings, About prose, curated overrides, media URLs, and
+      <DocCallout>This repository is knowledge only. Listings, About prose, curated overrides, media URLs, and
         lessons live in the project&apos;s data store. Optional GitHub archive-backup belongs on the{" "}
         <em>vertical</em> branch only — see <a href="/repos">Repositories</a>. Adopters copy
-        patterns and CLIs; never seed live catalogue content into this repo.
-      </div>
+        patterns and CLIs; never seed live catalogue content into this repo.</DocCallout>
 
       <h2>Non-negotiables</h2>
       <ol>

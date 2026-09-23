@@ -18,10 +18,17 @@ environment. OpenClaw, local daemons, and Vercel Cron are stubs until their play
 ## Local
 
 ```bash
-npm install
+npm install   # uses vendor/*.tgz for @sovereignsquad/gds-* (no GitHub Packages needed)
 npm run dev   # http://localhost:3010
 npm run build
 ```
+
+## UI
+
+Pages use the [General Design System](https://sovereignsquad.github.io/general-design-system)
+(`@sovereignsquad/gds-theme` + `@sovereignsquad/gds-core` 6.7.0, editorial public theme):
+`GdsProvider`, `DocsShell`, `DocsPageShell`, `EditorialHero`, `EditorialCard`, `FeatureBand`,
+`InlineAlert`. Adoption manifest: `gds-adoption.json`.
 
 ## Structure
 

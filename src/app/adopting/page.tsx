@@ -8,13 +8,11 @@ export const metadata: Metadata = {
 
 export default function AdoptingPage() {
   return (
-    <DocShell current="/adopting">
-      <h1>Adopting</h1>
-      <p>
-        Bring another project onto the sovereign content loop. For the full agent playbook (dual
-        repo, archive-backup, timers, reliability habits), start at{" "}
-        <Link href="/implement">Implement</Link>. This page is the short checklist.
-      </p>
+    <DocShell
+      current="/adopting"
+      title={`Adopting`}
+      lead={`Bring another project onto the sovereign content loop. For the full agent playbook (dual repo, archive-backup, timers, reliability habits), start at{{" "}} Implement. This page is the short checklist.`}
+    >
 
       <h2>1. Decide the environment</h2>
       <p>
