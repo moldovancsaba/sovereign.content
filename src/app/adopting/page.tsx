@@ -11,8 +11,9 @@ export default function AdoptingPage() {
     <DocShell current="/adopting">
       <h1>Adopting</h1>
       <p>
-        Bring another project onto the sovereign content loop. This is a transfer checklist — not a
-        monorepo merge.
+        Bring another project onto the sovereign content loop. For the full agent playbook (dual
+        repo, archive-backup, timers, reliability habits), start at{" "}
+        <Link href="/implement">Implement</Link>. This page is the short checklist.
       </p>
 
       <h2>1. Decide the environment</h2>

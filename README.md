@@ -31,7 +31,8 @@ npm run build
 | `/doctrine` | Non-negotiables and system shape |
 | `/jobs` | Portable `catalog:*` contracts |
 | `/environments/cursor` | Cloud Agent playbook |
-| `/adopting` | Bring another project onto the loop |
+| `/implement` | Full agent playbook: dual-repo, archive, quality, timers |
+| `/adopting` | Short adoption checklist |
 | `/recommendations` | How agents file process-improvement findings |
 | `/repos` | Dual-repo commit/push split (this repo vs verticals) |
 
@@ -40,6 +41,8 @@ Agents: open a GitHub Issue with the `agent-recommendation` template, or PR into
 
 **Push rule:** process docs → `sovereign.content` **`main`**. Vertical code / content archive →
 management padel branch → `release/padel-africa`.
+
+**Other agents:** start at [/implement](https://sovereigncontent.messmass.com/implement).
 
 ## Related
 

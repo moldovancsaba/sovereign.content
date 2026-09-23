@@ -35,6 +35,7 @@ export const metadata: Metadata = {
 const NAV = [
   { href: "/doctrine", label: "Doctrine" },
   { href: "/jobs", label: "Jobs" },
+  { href: "/implement", label: "Implement" },
   { href: "/environments/cursor", label: "Cursor" },
   { href: "/adopting", label: "Adopting" },
   { href: "/recommendations", label: "Recommend" },

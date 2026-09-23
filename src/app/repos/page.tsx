@@ -92,6 +92,9 @@ export default function RepositoriesPage() {
       <h2>Also see</h2>
       <ul>
         <li>
+          <Link href="/implement">Implement</Link> — full agent playbook
+        </li>
+        <li>
           <Link href="/doctrine">Doctrine</Link>
         </li>
         <li>

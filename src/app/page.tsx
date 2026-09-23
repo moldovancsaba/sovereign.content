@@ -15,8 +15,8 @@ export default function HomePage() {
           <a className="btn btn-primary" href="#environments">
             Choose environment
           </a>
-          <Link className="btn btn-ghost" href="/doctrine">
-            Read doctrine
+          <Link className="btn btn-ghost" href="/implement">
+            Implement guide
           </Link>
         </div>
       </section>
