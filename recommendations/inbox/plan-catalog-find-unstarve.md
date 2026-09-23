@@ -43,4 +43,9 @@ npm run catalog:about-curate -- --list
 npm run catalog:hygiene -- --dry-run --passes contact
 ```
 
+**Clarification (2026-09-23):** Content ticks do **not** need GDS. Pack load is only for optional
+`listings_serving` refresh. `vertical pack unavailable … continuing without serving refresh` is
+expected on incomplete Cloud Agent installs — not a content failure. Use `serving:reconcile` when
+pack load works.
+
 **Out of scope:** Ollama (unused on Cursor Cloud ticks); enabling `CURATOR_ENABLED` (ops).

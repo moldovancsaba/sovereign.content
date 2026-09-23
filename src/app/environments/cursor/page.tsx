@@ -147,7 +147,12 @@ npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json --d
           Prefer structured headers + research prose over free-text LLM for publish.
         </li>
         <li>
-          After About or media writes, confirm serving refresh / public card when the pack loads.
+          <strong>Content does not need GDS.</strong> Pack-load / serving-refresh failures are
+          optional noise — keep writing Mongo; reconcile serving later if needed.
+        </li>
+        <li>
+          After About or media writes, confirm serving refresh / public card{" "}
+          <em>when the pack loads</em>; skip that check when pack load warns.
         </li>
         <li>
           Treat empty job queues as success (zero-cost ticks), not failures.

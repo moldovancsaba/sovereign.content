@@ -31,8 +31,14 @@ export default function JobsPage() {
           <strong>Tactics:</strong> strip chrome → curated About (Mongo) → fact composer
         </li>
         <li>
-          <strong>Writes:</strong> recommendations, <code>listings.description</code>, serving,
-          lessons
+          <strong>Writes (required):</strong> recommendations, <code>listings.description</code>,
+          lessons — <strong>Mongo only</strong>
+        </li>
+        <li>
+          <strong>Serving refresh:</strong> optional best-effort after a description write. Needs the
+          vertical pack (and thus a complete install).{" "}
+          <strong>Not required for content.</strong> Missing GDS / pack load → warn and continue;
+          never block score / improve / encode.
         </li>
         <li>
           <strong>Flags:</strong> <code>--dry-run</code>, <code>--score-limit</code>,{" "}
@@ -44,11 +50,23 @@ export default function JobsPage() {
         </li>
       </ul>
 
+      <h2>Content jobs do not need GDS</h2>
+      <p>
+        GDS is a UI primitives package. Catalogue content ticks (
+        <code>about-curate</code>, <code>quality-loop</code>, <code>media-curate</code>,{" "}
+        <code>hygiene</code>, <code>find</code>, <code>autopilot</code>) write Mongo. Pack load is
+        only used to refresh <code>listings_serving</code> for the public card. A Cloud Agent env
+        without private GDS packages is expected to print{" "}
+        <code>vertical pack unavailable … continuing without serving refresh</code> — that is noise,
+        not a content failure. Use <code>serving:reconcile</code> later when pack load works.
+      </p>
+
       <h2>catalog:about-curate</h2>
       <p>
         Agent twin of fixing one provider About by hand. Drafts recommendation-tone prose from
         listing facts + research <code>sourceText</code>, upserts{" "}
-        <code>listing_curated_abouts</code>, writes description, refreshes serving.
+        <code>listing_curated_abouts</code>, writes description. Serving refresh only when the pack
+        loads — content succeeds without it.
       </p>
       <ul>
         <li>

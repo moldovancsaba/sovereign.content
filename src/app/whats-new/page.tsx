@@ -19,8 +19,18 @@ export default function WhatsNewPage() {
         hygiene <code>contact</code> enrich; Cloud Agent FIND research job. Live FIND: Dakar Padel
         Club + REBEL PADEL Sahm (management{" "}
         <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>). No Ollama on
-        Cursor Cloud ticks.
+        Cursor Cloud ticks. Content jobs are Mongo-only — GDS / pack load is optional serving
+        refresh only.
       </DocCallout>
+
+      <h2>2026-09-23 — Content ticks ≠ GDS</h2>
+      <p>
+        Agents must not treat <code>vertical pack unavailable (… continent)</code> as a content
+        blocker. Score / improve / encode / about-curate / media / hygiene / find write Mongo
+        without GDS. Serving projection refresh is best-effort; run{" "}
+        <code>serving:reconcile</code> when pack load works. Contract:{" "}
+        <Link href="/jobs">Jobs</Link>.
+      </p>
 
       <h2>2026-09-23 — catalog:find + empty-tick fixes</h2>
       <ul>
