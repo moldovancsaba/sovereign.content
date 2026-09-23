@@ -15,10 +15,19 @@ export default function WhatsNewPage() {
       footerNext={{ label: "Jobs", href: "/jobs" }}
     >
       <DocCallout title="2026-09-23">
-        Unified activity completeness + ClassScout/Sportolok process plans landed on SSOT{" "}
-        <code>main</code> and in the management engine. P1/P2 twins, geo promote, and Lesson effects
-        shipped on management PR #225.
+        ClassScout #6–#21 portable contracts absorbed on Jobs / Cursor / adopting. Engine fixes for
+        delivery labels (#19), contact reject (#17), weak-About chrome (#20), hygiene exit (#13) on
+        management PR #225.
       </DocCallout>
+
+      <h2>2026-09-23 — ClassScout #6–#21 contracts</h2>
+      <p>
+        Live Find/Improve + YourField audit recommendations folded into SSOT. High: street/chrome,
+        media policy, Find enrich order, sourceUrl dedupe, quality-loop settle, ages, contacts,
+        delivery labels, weak-About, schema-subset repair. Deferred: Martial Arts collective (#18)
+        until a multi-sport vertical needs it. Plan:{" "}
+        <code>recommendations/inbox/plan-classscout-recs-6-21.md</code>.
+      </p>
 
       <h2>2026-09-23 — P1/P2 cron twins, geo promote, Lesson effects</h2>
       <ul>

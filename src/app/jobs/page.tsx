@@ -242,6 +242,145 @@ export default function JobsPage() {
       <p>
         Wire these via <code>subscribe_timer</code> in the Cursor Cloud Agent playbook.
       </p>
+
+      <h2>Portable contracts from ClassScout live audits (#6–#21)</h2>
+      <p>
+        Absorbed as SSOT so every vertical inherits them. Evidence: ClassScout Find/Improve +
+        YourField client-feedback audit 2026-09-23. Do not port NYC fair-use feeders or{" "}
+        <code>forever.sh</code> as-is — port the contracts. Plan:{" "}
+        <code>recommendations/inbox/plan-classscout-recs-6-21.md</code>.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Issue</th>
+            <th>Contract</th>
+            <th>Dry-run check</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#6</td>
+            <td>
+              Street-line accept (Court/Terrace/Concourse/… Way) + reject CSS/prose; weak-copy
+              chrome (<code>{"{tokens}"}</code>, Contact-form). Engine: <code>isStreetLevel</code>{" "}
+              before Nominatim.
+            </td>
+            <td>
+              <code>catalog:hygiene --dry-run --passes geo</code> skips non-street line1
+            </td>
+          </tr>
+          <tr>
+            <td>#7</td>
+            <td>
+              Vertical twins: thin npm aliases to SC <code>catalog:*</code> names; dry-run first;
+              sparse-timer vs forever.
+            </td>
+            <td>See Adopting / Cursor</td>
+          </tr>
+          <tr>
+            <td>#8</td>
+            <td>
+              <code>media-curate --policy allow_og_scrape|generated_art_only</code>
+            </td>
+            <td>
+              <code>--dry-run --policy generated_art_only</code> → applied=0 scrape
+            </td>
+          </tr>
+          <tr>
+            <td>#10</td>
+            <td>
+              Find/autopilot: deep multi-page enrich <strong>before</strong> street gate; prefer
+              /contact /locations; page streets rank above seed.address.
+            </td>
+            <td>Find ports: page street wins over junk seed</td>
+          </tr>
+          <tr>
+            <td>#11</td>
+            <td>
+              Dedupe <code>sourceUrls</code> within-doc before upsert; do not mark seeds done on
+              within-doc duplicate rejects; revive false <code>duplicate_source_url</code> dones.
+            </td>
+            <td>Autopilot/Find dry-run does not retire seeds on within-doc dupes</td>
+          </tr>
+          <tr>
+            <td>#12</td>
+            <td>
+              Quality-loop: open recs for priority public gaps; Improve consumes open recs before
+              oldest soft blanks; settle applied/skipped/failed (+ cooldown). Optional{" "}
+              <code>CATALOG_IMPROVE_PREFER_LANE</code> after recs — soft blanks stay soft.
+            </td>
+            <td>
+              <code>catalog:quality-loop --dry-run</code>
+            </td>
+          </tr>
+          <tr>
+            <td>#13</td>
+            <td>
+              Hygiene must <code>close()</code> Mongo in <code>finally</code> and exit 0/1 — hung
+              after green summary = client leak.
+            </td>
+            <td>
+              <code>catalog:hygiene --dry-run --limit 1</code> returns &lt;30s
+            </td>
+          </tr>
+          <tr>
+            <td>#15</td>
+            <td>
+              Region from pack territory ladder / registry before free-text city; outside primary
+              market → hide or inventory-only (padel: continent Africa scope).
+            </td>
+            <td>Territory gate / quarantine-outside-territory dry-run</td>
+          </tr>
+          <tr>
+            <td>#16</td>
+            <td>
+              Never invent default age search buckets. Empty ages = “Age not confirmed”; Improve
+              fills from official pages only.
+            </td>
+            <td>No invented 3–5/6–8/9–12 triples on blank sources</td>
+          </tr>
+          <tr>
+            <td>#17</td>
+            <td>
+              Reject placeholder emails/phones (<code>your@email.com</code>, all-zero) at
+              Find/upsert; clear &gt; publish.
+            </td>
+            <td>Structured extract drops <code>+18000000000</code></td>
+          </tr>
+          <tr>
+            <td>#19</td>
+            <td>
+              Delivery labels: <code>host_sites</code> = “Partner venues”; only{" "}
+              <code>in_home</code> = “Comes to you”.
+            </td>
+            <td>Card fact for host_sites ≠ Comes to you</td>
+          </tr>
+          <tr>
+            <td>#20</td>
+            <td>
+              Quarantine weak-About (store-policy / careers / DONATE / April Fool); strong-identity
+              dupe (same phone+street) → hide weaker twin.
+            </td>
+            <td>
+              <code>validatePublicDescription</code> flags careers/donate chrome
+            </td>
+          </tr>
+          <tr>
+            <td>#21</td>
+            <td>
+              Direct-Mongo repair = schema-subset only. Repair notes in script report — never{" "}
+              <code>$set</code> audit keys like <code>lastContentRepair*</code> that break ingest
+              422.
+            </td>
+            <td>Repair script report-only; ingest Improve accepts patch</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <strong>#18 Martial Arts collective mark:</strong> deferred — only for multi-sport verticals
+        with a martial-family taxonomy. Padel Africa does not declare one.
+      </p>
     </DocShell>
   );
 }

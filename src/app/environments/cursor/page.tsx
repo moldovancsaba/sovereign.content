@@ -82,9 +82,24 @@ npm run catalog:media-curate -- --limit 15`}</pre>
         </a>
         . Media policy there is <code>generated_art_only</code> (coverage, no venue-photo scrape);
         Padel Africa keeps default <code>allow_og_scrape</code>. Street + chrome detector contract:{" "}
-        <Link href="/jobs">Jobs</Link>. Implementation plan:{" "}
-        <code>recommendations/inbox/plan-classscout-rec-6-7-8.md</code>.
+        <Link href="/jobs">Jobs</Link>. Plans:{" "}
+        <code>recommendations/inbox/plan-classscout-rec-6-7-8.md</code>,{" "}
+        <code>plan-classscout-recs-6-21.md</code>.
       </p>
+
+      <h2>Reliability: hygiene must exit (SC #13)</h2>
+      <p>
+        After <code>catalog:hygiene</code> prints its JSON summary the process must exit 0/1. A hung
+        tick with a green summary is a Mongo client leak — not an outage. Prefer{" "}
+        <code>finally</code> closing the client on every backfill pass.
+      </p>
+
+      <h2>Find / autopilot ordering (SC #10 / #11)</h2>
+      <ol>
+        <li>Deep multi-page enrich (prefer /contact, /locations) before the street gate</li>
+        <li>Page street candidates rank above seed.address</li>
+        <li>Dedupe sourceUrls within-doc; never mark seeds done on within-doc duplicate rejects</li>
+      </ol>
 
       <h2>Agent operating rules</h2>
       <ul>

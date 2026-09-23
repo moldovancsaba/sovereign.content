@@ -11,7 +11,8 @@ priority: high
 ssotLanding: jobs
 doctrineOk: true
 observedAt: 2026-09-23T13:15:00Z
-status: accepted-implementation-plan
+status: shipped-engine-2026-09-23
+shippedNote: Phase B street/chrome + media policy on management; #6–#21 portable contracts on Jobs/Cursor (plan-classscout-recs-6-21.md).
 sources:
   - https://github.com/moldovancsaba/sovereign.content/issues/6
   - https://github.com/moldovancsaba/sovereign.content/issues/7
