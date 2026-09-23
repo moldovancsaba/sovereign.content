@@ -14,13 +14,13 @@ export default function WhatsNewPage() {
       lead={`Shipped process contracts and engine changes agents should pick up. Catalogue content still lives in Mongo — this page is transfer knowledge only.`}
       footerNext={{ label: "Jobs", href: "/jobs" }}
     >
-      <DocCallout title="2026-09-23 (later)">
-        Padel Africa unstarve + <code>catalog:find</code>: About target 75 / capped locality bonus;
-        hygiene <code>contact</code> enrich; Cloud Agent FIND research job. Live FIND: Dakar Padel
-        Club + REBEL PADEL Sahm; Tanzania Slipway + Hub Bwejuu; Zambia Xtreme (management{" "}
-        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>). Soft Abouts
-        stuck at 70 cleared by address backfill + curated drafts. No Ollama on Cursor Cloud ticks.
-        Content jobs are Mongo-only — GDS / pack load is optional serving refresh only.
+      <DocCallout title="2026-09-23 (recommended order)">
+        Delivered: (1) About@70 debt cleared; (2) FIND Libya Zeyani + Mendoza and GQ Ukomba Bata;
+        (3–4) contact enrich (no_evidence leftovers) + media applied on new finds; (5) docs/SSOT.
+        Continent map expanded to full UN M49 Africa (ZM/GA/CD/…). Catalogue{" "}
+        <strong>158 PUBLISHED / 42 countries</strong> (management{" "}
+        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>). No Ollama on
+        Cursor Cloud ticks. Content jobs Mongo-only — GDS optional for serving refresh.
       </DocCallout>
 
       <h2>2026-09-23 — About debt @70 + more FIND</h2>

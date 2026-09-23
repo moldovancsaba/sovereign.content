@@ -32,8 +32,11 @@ remained (soft Abouts false-greened by locality bonus; contact fields outside th
 | FIND | `catalog:find` — `--status` → research fixture → dry-run → seed (not NYC fair-use) |
 
 **Live FIND proof (padel-africa Mongo):** `research-sen-ven-002` Dakar Padel Club, `research-sen-ven-003`
-REBEL PADEL Sahm; later `research-tza-ven-001`/`002` (Padel Centre TZ Slipway + The Hub Bwejuu),
-`research-zmb-ven-003` Xtreme Padel Zambia. Catalogue 150→155.
+REBEL PADEL Sahm; `research-tza-ven-001`/`002` (Padel Centre TZ Slipway + The Hub Bwejuu);
+`research-zmb-ven-003` Xtreme Padel Zambia; `research-lby-ven-002`/`003` (Zeyani Padel Zone +
+Mendoza Club LY); `research-gnq-ven-002` Ukomba Sport Padel Club (Bata). Catalogue 150→158.
+Continent map (`CONTINENT_BY_COUNTRY`) expanded to full UN M49 Africa set so ZM/GA/CD/LY/GQ label
+on hygiene/backfill.
 
 **About debt @70:** listings missing `venue.address.locality` scored length+tone+chrome=70 and could
 not clear target 75. Fix: backfill address from evidence + curated recommendation Abouts; quality
