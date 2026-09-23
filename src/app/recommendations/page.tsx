@@ -95,6 +95,25 @@ export default function RecommendationsPage() {
         <Link href="/implement">Open the full Implement playbook →</Link>
       </p>
 
+      <h2>Accepted — catalog:find + empty-tick unstarve (2026-09-23)</h2>
+      <p>
+        Padel Africa Cloud Agent ticks were empty while soft Abouts and contact gaps remained, and
+        autopilot could not invent venues with an empty card queue. Plan:{" "}
+        <code>recommendations/inbox/plan-catalog-find-unstarve.md</code>. Engine: management{" "}
+        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>.
+      </p>
+      <ul>
+        <li>
+          <Link href="/jobs">Jobs</Link> — <code>catalog:find</code>, contact pass, About target 75
+        </li>
+        <li>
+          <Link href="/environments/cursor">Cursor</Link> — FIND playbook (no Ollama)
+        </li>
+        <li>
+          Live FIND: Dakar Padel Club + REBEL PADEL Sahm
+        </li>
+      </ul>
+
       <h2>Accepted ClassScout findings (2026-09-23)</h2>
       <p>
         Live Improve/Find evidence from ClassScout (PR{" "}

@@ -98,8 +98,10 @@ export default function AdoptingPage() {
       <h2>5. Prove dry-runs</h2>
       <pre>{`npm run catalog:quality-loop -- --dry-run --score-limit 20 --improve-limit 10
 npm run catalog:media-curate -- --dry-run --limit 5
-npm run catalog:about-curate -- --list`}</pre>
-      <p>Only then enable writes and timers.</p>
+npm run catalog:about-curate -- --list
+npm run catalog:hygiene -- --dry-run --passes contact --limit 5
+npm run catalog:find -- --status`}</pre>
+      <p>Only then enable writes and timers. Use <code>catalog:find</code> when the card queue is empty and new venues are needed.</p>
 
       <h2>5b. Vertical twins (existing runners ↔ SC names)</h2>
       <p>
@@ -154,9 +156,10 @@ npm run catalog:about-curate -- --list`}</pre>
       <h2>Reference vertical</h2>
       <p>
         Management / Padel Africa on branch <code>release/padel-africa</code> is the working
-        reference: 148 published listings, media coverage via page-snapshot + host hierarchy, and
-        Cloud Agent timers for about / quality / autopilot / hygiene / media. Copy the pattern, not
-        the padel domain data.
+        reference: 150+ published listings, media coverage via page-snapshot + host hierarchy, Cloud
+        Agent timers for about / quality / autopilot / hygiene / media, and{" "}
+        <code>catalog:find</code> for evidence-only research FIND. Copy the pattern, not the padel
+        domain data.
       </p>
     </DocShell>
   );

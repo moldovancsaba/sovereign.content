@@ -14,11 +14,36 @@ export default function WhatsNewPage() {
       lead={`Shipped process contracts and engine changes agents should pick up. Catalogue content still lives in Mongo — this page is transfer knowledge only.`}
       footerNext={{ label: "Jobs", href: "/jobs" }}
     >
-      <DocCallout title="2026-09-23">
-        ClassScout #6–#21 portable contracts absorbed on Jobs / Cursor / adopting. Engine fixes for
-        delivery labels (#19), contact reject (#17), weak-About chrome (#20), hygiene exit (#13) on
-        management PR #225.
+      <DocCallout title="2026-09-23 (later)">
+        Padel Africa unstarve + <code>catalog:find</code>: About target 75 / capped locality bonus;
+        hygiene <code>contact</code> enrich; Cloud Agent FIND research job. Live FIND: Dakar Padel
+        Club + REBEL PADEL Sahm (management{" "}
+        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>). No Ollama on
+        Cursor Cloud ticks.
       </DocCallout>
+
+      <h2>2026-09-23 — catalog:find + empty-tick fixes</h2>
+      <ul>
+        <li>
+          <code>catalog:find</code> — status → evidence fixture → dry-run → seed (portable FIND; not
+          NYC fair-use)
+        </li>
+        <li>
+          About quality: <code>ABOUT_QUALITY_TARGET = 75</code>; locality name-drop alone must not
+          clear the bar (was starving about-curate)
+        </li>
+        <li>
+          <code>catalog:hygiene</code> <code>contact</code> pass + <code>catalog:contact-enrich</code>{" "}
+          — phone/website/email from card headers or promotable sourceUrl only
+        </li>
+        <li>
+          Findings: Senegal 1→3 published research venues; catalogue 150→152
+        </li>
+      </ul>
+      <p>
+        Contracts: <Link href="/jobs">Jobs</Link> · playbook:{" "}
+        <Link href="/environments/cursor">Cursor</Link>.
+      </p>
 
       <h2>2026-09-23 — ClassScout #6–#21 contracts</h2>
       <p>

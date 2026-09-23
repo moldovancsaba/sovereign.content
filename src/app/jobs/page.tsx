@@ -76,17 +76,58 @@ export default function JobsPage() {
 
       <h2>catalog:hygiene</h2>
       <p>
-        Twin of catalog-backfill: geo (Nominatim), price, venue-model, age, territory drains. No
-        Google key, no AI Gateway.
+        Twin of catalog-backfill: geo (Nominatim), price, venue-model, age, territory,{" "}
+        <strong>contact</strong> drains. No Google key, no AI Gateway, no Ollama.
       </p>
       <ul>
         <li>
-          Flags: <code>--passes geo,price,...</code>, <code>--dry-run</code>
+          Flags: <code>--passes geo,price,contact,...</code>, <code>--dry-run</code>
         </li>
         <li>
           Sets a default <code>GEOCODER_USER_AGENT</code> when unset
         </li>
+        <li>
+          <strong>contact</strong> fills blank phone / website / email from linked card{" "}
+          <code>sourceText</code> headers or a promotable <code>source.sourceUrl</code> (never
+          OSM/Maps search; never invents). Also: <code>catalog:contact-enrich</code>.
+        </li>
       </ul>
+
+      <h2>catalog:find</h2>
+      <p>
+        Cloud Agent <strong>FIND</strong> for <em>new</em> venues — portable research path,{" "}
+        <strong>not</strong> ClassScout NYC fair-use / forever Find. Evidence-only: status →
+        web-research official pages → research fixture → dry-run → seed.
+      </p>
+      <pre>{`npm run catalog:find -- --status
+npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json --dry-run
+npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json`}</pre>
+      <ul>
+        <li>
+          <code>--status</code> lists published count, missing African countries, and sparse
+          countries (≤2 listings) so the next tick has a target.
+        </li>
+        <li>
+          Apply wraps the vertical research seeder (same Mongo upsert as country audits). Dry-run
+          first.
+        </li>
+        <li>
+          Still obey SC #10/#11 when enriching pages: deep enrich before street gate; page streets
+          over seed; within-doc <code>sourceUrls</code> dedupe.
+        </li>
+        <li>
+          Padel Africa proof (2026-09-23): <code>research-sen-ven-002</code> Dakar Padel Club +{" "}
+          <code>research-sen-ven-003</code> REBEL PADEL Sahm — management{" "}
+          <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>.
+        </li>
+      </ul>
+
+      <h2>About quality bar (do not false-green soft copy)</h2>
+      <p>
+        <code>ABOUT_QUALITY_TARGET = 75</code>. Locality name-drop alone must not clear the bar
+        (soft ~55 Abouts were scoring 55+15=70 and starving about-curate / quality-loop). Soft Abouts
+        without recommendation tone stay in the improve queue. Engine: management PR #227.
+      </p>
 
       <h2>catalog:media-curate</h2>
       <p>Fill PUBLISHED listings with empty media arrays (when policy allows scrape).</p>
@@ -381,6 +422,25 @@ export default function JobsPage() {
         <strong>#18 Martial Arts collective mark:</strong> deferred — only for multi-sport verticals
         with a martial-family taxonomy. Padel Africa does not declare one.
       </p>
+
+      <h2>Empty-tick bottleneck → FIND + contact (2026-09-23)</h2>
+      <p>
+        When about/media/quality ticks return considered=0 / scanned=0 / alreadyGood=100, check:
+      </p>
+      <ol>
+        <li>
+          About false-green (fixed: target 75 + capped locality bonus) — re-run{" "}
+          <code>about-curate --list</code>
+        </li>
+        <li>
+          Contact gaps outside About jobs — run <code>catalog:hygiene --passes contact</code> or{" "}
+          <code>catalog:contact-enrich</code>
+        </li>
+        <li>
+          Empty <code>content_cards</code> work queue — autopilot cannot invent venues; use{" "}
+          <code>catalog:find</code> research FIND (or enable curator later)
+        </li>
+      </ol>
     </DocShell>
   );
 }

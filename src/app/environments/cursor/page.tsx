@@ -25,9 +25,13 @@ export default function CursorEnvironmentPage() {
         </li>
         <li>
           <code>subscribe_timer</code> for recurring ticks (about / quality / autopilot / hygiene /
-          media)
+          media) — and on-demand <code>catalog:find</code> for new venues
         </li>
         <li>Research passes that upsert structured cards or curated About into Mongo</li>
+        <li>
+          Evidence-only FIND: web-research official pages → research fixture →{" "}
+          <code>catalog:find --fixture=…</code> (never invent phones/emails/ages)
+        </li>
         <li>Code fixes and docs via feature branches + PRs into the vertical&apos;s release branch</li>
       </ul>
 
@@ -67,11 +71,42 @@ npm run catalog:quality-loop -- --score-limit 50 --improve-limit 20
 # Structured card publish machine
 npm run catalog:autopilot -- --ticks 10 --requeue-limit 10
 
-# Nominatim hygiene drains
-npm run catalog:hygiene -- --passes geo,price,venueModel,age,territory
+# Nominatim hygiene drains (+ contact enrich)
+npm run catalog:hygiene -- --passes geo,price,venueModel,age,territory,contact
 
 # Empty media → R2 / ImgBB / https passthrough
-npm run catalog:media-curate -- --limit 15`}</pre>
+npm run catalog:media-curate -- --limit 15
+
+# FIND new venues (on-demand, evidence-only research — not ClassScout forever Find)
+npm run catalog:find -- --status
+npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json --dry-run`}</pre>
+
+      <h2>FIND playbook (Cloud Agent)</h2>
+      <ol>
+        <li>
+          <code>catalog:find -- --status</code> — pick a missing or sparse country
+        </li>
+        <li>
+          Web-research official club / booking pages; collect Name, Address, Phone, Website, Email
+          only from evidence
+        </li>
+        <li>
+          Append a research fixture row; Nominatim street/locality pin with{" "}
+          <code>geoNote</code> when not rooftop
+        </li>
+        <li>
+          Dry-run then apply via <code>catalog:find --fixture=…</code>
+        </li>
+        <li>
+          Do <strong>not</strong> use Ollama for these Cursor Cloud jobs — structured headers +
+          research fixtures only
+        </li>
+      </ol>
+      <p>
+        Padel Africa FIND proof: Dakar Padel Club + REBEL PADEL Sahm (management{" "}
+        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>). Jobs contract:{" "}
+        <Link href="/jobs">Jobs</Link>.
+      </p>
 
       <h2>Cross-vertical: ClassScout twins</h2>
       <p>
