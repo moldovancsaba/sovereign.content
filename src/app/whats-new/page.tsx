@@ -16,8 +16,29 @@ export default function WhatsNewPage() {
     >
       <DocCallout title="2026-09-23">
         Unified activity completeness + ClassScout/Sportolok process plans landed on SSOT{" "}
-        <code>main</code> and in the management engine.
+        <code>main</code> and in the management engine. P1/P2 twins, geo promote, and Lesson effects
+        shipped on management PR #225.
       </DocCallout>
+
+      <h2>2026-09-23 — P1/P2 cron twins, geo promote, Lesson effects</h2>
+      <ul>
+        <li>
+          <code>check:cron-cli-twins</code> — every vercel cron must have an npm CLI twin (Doctrine)
+        </li>
+        <li>
+          Geographic-gap boost on <code>popularityRank</code> — promote only, never publish authority
+        </li>
+        <li>
+          <code>SovereignLesson</code> effects <code>suggest-config</code> |{" "}
+          <code>soften-required</code> | <code>none</code> via <code>catalog:lessons</code> /
+          override-insights — never silent blocker mutation
+        </li>
+      </ul>
+      <p>
+        Engine: management{" "}
+        <a href="https://github.com/moldovancsaba/management/pull/225">PR #225</a>. Contracts:{" "}
+        <Link href="/jobs">Jobs</Link>.
+      </p>
 
       <h2>2026-09-23 — Unified activity completeness</h2>
       <p>

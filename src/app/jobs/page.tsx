@@ -175,6 +175,29 @@ export default function JobsPage() {
         <code>--run-autopilot</code>.
       </p>
 
+      <h2>Cron ↔ CLI twins (required check)</h2>
+      <p>
+        Doctrine: every scheduled HTTP cron must have an <code>npm run</code> twin agents can call
+        without <code>CRON_SECRET</code>. Management enforces this with{" "}
+        <code>npm run check:cron-cli-twins</code> (gauntlet). Prefer <code>catalog:*</code> names for
+        content jobs; serving / curator may keep established names.
+      </p>
+
+      <h2>catalog:lessons / override-insights</h2>
+      <p>
+        Force-publish waiver patterns become <code>SovereignLesson</code> rows with effects{" "}
+        <code>suggest-config</code> | <code>soften-required</code> | <code>none</code>. Effects are
+        hints only — humans accept pack PRs. <code>real-address</code> / territory / safety /
+        knowledge always get <code>none</code> (never silent blocker mutation).
+      </p>
+
+      <h2>Promote scoring (not publish)</h2>
+      <p>
+        Geographic-gap boost on popularity rank may raise listings in sparse country/locality cells
+        so visitors discover underserved places. Allowed for delivery. Forbidden as publish
+        authority.
+      </p>
+
       <h2>Suggested timer cadence (Cursor)</h2>
       <table>
         <thead>

@@ -112,7 +112,8 @@ npm run catalog:about-curate -- --list`}</pre>
         (PR{" "}
         <a href="https://github.com/moldovancsaba/classscout/pull/934">#934</a>
         ). Dry-run first; sparse-timer vs forever are ClassScout&apos;s two runtimes. Padel Africa /
-        management already uses native <code>catalog:*</code> — no twin layer needed there.
+        management already uses native <code>catalog:*</code> — and{" "}
+        <code>check:cron-cli-twins</code> fails when a vercel cron lacks its npm twin.
       </p>
 
       <h2>6. Point agents at this SSOT</h2>
