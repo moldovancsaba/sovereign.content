@@ -101,6 +101,20 @@ npm run catalog:media-curate -- --dry-run --limit 5
 npm run catalog:about-curate -- --list`}</pre>
       <p>Only then enable writes and timers.</p>
 
+      <h2>5b. Vertical twins (existing runners ↔ SC names)</h2>
+      <p>
+        If the vertical already has battle-tested runners under other npm names, expose{" "}
+        <strong>thin one-way aliases</strong> that match this SSOT&apos;s <code>catalog:*</code>{" "}
+        vocabulary — do not rename the SC contracts. ClassScout reference map:{" "}
+        <a href="https://github.com/moldovancsaba/classscout/blob/cursor/sovereign-content-align-b289/docs/sovereign-content-alignment.md">
+          docs/sovereign-content-alignment.md
+        </a>{" "}
+        (PR{" "}
+        <a href="https://github.com/moldovancsaba/classscout/pull/934">#934</a>
+        ). Dry-run first; sparse-timer vs forever are ClassScout&apos;s two runtimes. Padel Africa /
+        management already uses native <code>catalog:*</code> — no twin layer needed there.
+      </p>
+
       <h2>6. Point agents at this SSOT</h2>
       <p>
         In the vertical&apos;s agent instructions (AGENTS.md / Cloud Agent brief), link:

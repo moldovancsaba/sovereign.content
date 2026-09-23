@@ -73,6 +73,19 @@ npm run catalog:hygiene -- --passes geo,price,venueModel,age,territory
 # Empty media → R2 / ImgBB / https passthrough
 npm run catalog:media-curate -- --limit 15`}</pre>
 
+      <h2>Cross-vertical: ClassScout twins</h2>
+      <p>
+        Agents that also work ClassScout call the same <code>catalog:*</code> names via thin npm
+        twins — see ClassScout{" "}
+        <a href="https://github.com/moldovancsaba/classscout/blob/cursor/sovereign-content-align-b289/docs/sovereign-content-alignment.md">
+          sovereign-content-alignment.md
+        </a>
+        . Media policy there is <code>generated_art_only</code> (coverage, no venue-photo scrape);
+        Padel Africa keeps default <code>allow_og_scrape</code>. Street + chrome detector contract:{" "}
+        <Link href="/jobs">Jobs</Link>. Implementation plan:{" "}
+        <code>recommendations/inbox/plan-classscout-rec-6-7-8.md</code>.
+      </p>
+
       <h2>Agent operating rules</h2>
       <ul>
         <li>

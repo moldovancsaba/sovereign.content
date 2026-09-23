@@ -4,6 +4,9 @@
 — dual-repo, content archive-backup, quality stack, reliability habits. Other agents implement via
 https://sovereigncontent.messmass.com/implement .
 
+**ClassScout #6–#8 (accepted, phased):** [`plan-classscout-rec-6-7-8.md`](./plan-classscout-rec-6-7-8.md)
+— street/chrome detectors, job alias twins (docs), media-curate policy hook.
+
 Drop one Markdown file per *new* finding (or open a GitHub Issue — preferred).
 
 ## File name

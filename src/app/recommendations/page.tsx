@@ -95,6 +95,63 @@ export default function RecommendationsPage() {
         <Link href="/implement">Open the full Implement playbook →</Link>
       </p>
 
+      <h2>Accepted ClassScout findings (2026-09-23)</h2>
+      <p>
+        Live Improve/Find evidence from ClassScout (PR{" "}
+        <a href="https://github.com/moldovancsaba/classscout/pull/934">#934</a>
+        ). All three help the portable system — implementation plan in{" "}
+        <code>recommendations/inbox/plan-classscout-rec-6-7-8.md</code>.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Issue</th>
+            <th>Decision</th>
+            <th>Landing</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://github.com/moldovancsaba/sovereign.content/issues/6">#6</a> street +
+              chrome detectors
+            </td>
+            <td>
+              <strong>Accept</strong> — SSOT contract + management <code>isStreetLevel</code> /
+              chrome expand
+            </td>
+            <td>
+              <Link href="/jobs">Jobs</Link> · Phase B in plan
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/moldovancsaba/sovereign.content/issues/7">#7</a>{" "}
+              <code>catalog:*</code> alias twins
+            </td>
+            <td>
+              <strong>Accept (docs)</strong> — twin pattern for ClassScout; padel already native
+            </td>
+            <td>
+              <Link href="/adopting">Adopting</Link> ·{" "}
+              <Link href="/environments/cursor">Cursor</Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://github.com/moldovancsaba/sovereign.content/issues/8">#8</a>{" "}
+              <code>generated_art_only</code>
+            </td>
+            <td>
+              <strong>Accept hook</strong> — optional policy; padel keeps OG scrape default
+            </td>
+            <td>
+              <Link href="/jobs">Jobs</Link> media-curate · Phase B2
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
       <h2>How to collect new findings</h2>
       <ol>
         <li>
