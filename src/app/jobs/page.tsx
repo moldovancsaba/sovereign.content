@@ -35,10 +35,9 @@ export default function JobsPage() {
           lessons — <strong>Mongo only</strong>
         </li>
         <li>
-          <strong>Serving refresh:</strong> optional best-effort after a description write. Needs the
-          vertical pack (and thus a complete install).{" "}
-          <strong>Not required for content.</strong> Missing GDS / pack load → warn and continue;
-          never block score / improve / encode.
+          <strong>No GDS / pack load</strong> on this tick. There is no{" "}
+          <code>--with-serving</code> flag. Refresh public cards afterward with{" "}
+          <code>serving:reconcile</code>.
         </li>
         <li>
           <strong>Flags:</strong> <code>--dry-run</code>, <code>--score-limit</code>,{" "}
@@ -54,19 +53,50 @@ export default function JobsPage() {
       <p>
         GDS is a UI primitives package. Catalogue content ticks (
         <code>about-curate</code>, <code>quality-loop</code>, <code>media-curate</code>,{" "}
-        <code>hygiene</code>, <code>find</code>, <code>autopilot</code>) write Mongo. Pack load is
-        only used to refresh <code>listings_serving</code> for the public card. A Cloud Agent env
-        without private GDS packages is expected to print{" "}
-        <code>vertical pack unavailable … continuing without serving refresh</code> — that is noise,
-        not a content failure. Use <code>serving:reconcile</code> later when pack load works.
+        <code>hygiene</code>, <code>find</code>, <code>self-heal</code>, <code>autopilot</code>)
+        write Mongo only. Use <code>serving:reconcile</code> when public cards need a projection
+        refresh. Do not treat pack-load failures as content failures.
       </p>
+
+      <h2>Worked example — Padel Africa reference tick</h2>
+      <p>
+        Copy this pattern into other verticals. Full walkthrough with JSON shapes: management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
+          docs/padel-africa-jobs.md
+        </a>{" "}
+        (PR{" "}
+        <a href="https://github.com/moldovancsaba/management/pull/227">#227</a>
+        ).
+      </p>
+      <pre>{`npm run catalog:self-heal -- --status
+npm run catalog:about-curate -- --limit 15
+npm run catalog:quality-loop -- --score-limit 100 --improve-limit 40
+npm run catalog:media-curate -- --limit 25          # R2 primary / ImgBB backup
+npm run catalog:hygiene
+npm run serving:reconcile -- --limit 200
+npm run catalog:find -- --until-found --max-cells 8 # agent executes briefs
+npm run catalog:autopilot -- --ticks 10 --requeue-limit 10`}</pre>
+      <ul>
+        <li>
+          Settled ticks (<code>considered=0</code> / <code>alreadyGood=100</code> /{" "}
+          <code>ranTicks=0</code>) are normal — grow with FIND, never invent venues.
+        </li>
+        <li>
+          Media hosts: Cloudflare <strong>R2 primary</strong>, <strong>ImgBB backup</strong>, else
+          https passthrough. Scripts load <code>.env.local</code>.
+        </li>
+        <li>
+          FIND: CLI plans/seeds; agent WebSearches <code>firstBrief</code>, verifies evidence bar,
+          records <code>seeded</code> or <code>zero-result</code>, stops on first seed.
+        </li>
+      </ul>
 
       <h2>catalog:about-curate</h2>
       <p>
         Agent twin of fixing one provider About by hand. Drafts recommendation-tone prose from
         listing facts + research <code>sourceText</code>, upserts{" "}
-        <code>listing_curated_abouts</code>, writes description. Serving refresh only when the pack
-        loads — content succeeds without it.
+        <code>listing_curated_abouts</code>, writes description. <strong>Mongo only</strong> — no
+        GDS. Refresh cards with <code>serving:reconcile</code> afterward.
       </p>
       <ul>
         <li>
@@ -77,6 +107,16 @@ export default function JobsPage() {
         </li>
         <li>Rules: ~300–450 chars when curated; no inline URLs or phones</li>
       </ul>
+
+      <h2>catalog:self-heal</h2>
+      <p>
+        Unified About + research debt status. When debt is hot, FIND{" "}
+        <code>--until-found</code> defers and prints heal-first briefs. Record process lessons with{" "}
+        <code>--record-process</code>. Guide (management):{" "}
+        <code>docs/padel-africa-self-heal.md</code>.
+      </p>
+      <pre>{`npm run catalog:self-heal -- --status
+npm run catalog:self-heal -- --brief`}</pre>
 
       <h2>catalog:autopilot</h2>
       <p>
@@ -114,30 +154,32 @@ export default function JobsPage() {
       <h2>catalog:find</h2>
       <p>
         Cloud Agent <strong>FIND</strong> for <em>new</em> venues — portable research path,{" "}
-        <strong>not</strong> ClassScout NYC fair-use / forever Find. Evidence-only: status →
-        web-research official pages → research fixture → dry-run → seed.
+        <strong>not</strong> ClassScout NYC fair-use / forever Find. Evidence-only. Prefer{" "}
+        <code>--until-found</code> (do-until-seed campaign); CLI plans/seeds only — the agent must
+        WebSearch and verify the evidence bar.
       </p>
-      <pre>{`npm run catalog:find -- --status
-npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json --dry-run
-npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json`}</pre>
+      <pre>{`npm run catalog:find -- --until-found --max-cells 8
+# Agent: execute firstBrief cells → seed OR zero-result → stop on seeded
+npm run catalog:find -- --fixture=scripts/data/<country>-verified.json --dry-run
+npm run catalog:find -- --fixture=scripts/data/<country>-verified.json
+npm run catalog:find -- --record-attempt --cc=XX --city="City" --outcome=seeded`}</pre>
       <ul>
         <li>
-          <code>--status</code> lists published count, missing African countries, and sparse
-          countries (≤2 listings) so the next tick has a target.
+          Never invent phones, emails, ages, or court counts. Honest{" "}
+          <code>zero-result</code> when no evidence-grade venue appears.
         </li>
         <li>
-          Apply wraps the vertical research seeder (same Mongo upsert as country audits). Dry-run
-          first.
+          On <code>seeded</code>: apply fixture, record attempt, <strong>STOP</strong> the campaign.
         </li>
         <li>
-          Still obey SC #10/#11 when enriching pages: deep enrich before street gate; page streets
-          over seed; within-doc <code>sourceUrls</code> dedupe.
-        </li>
-        <li>
-          Padel Africa proof (2026-09-23): <code>research-sen-ven-002</code> Dakar Padel Club +{" "}
-          <code>research-sen-ven-003</code> REBEL PADEL Sahm; later Tanzania Slipway + Hub Bwejuu +
-          Zambia Xtreme — management{" "}
-          <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>.
+          Padel Africa proof: EG Giza, NG Ibadan (Padel Pro Club), SN Dakar, TZ/ZM/LY/GQ seeds —
+          management{" "}
+          <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>. Worked
+          example:{" "}
+          <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
+            padel-africa-jobs.md
+          </a>
+          .
         </li>
       </ul>
 
@@ -153,11 +195,12 @@ npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json`}</
       <ol>
         <li>Prefer website <code>og:image</code> / large images</li>
         <li>Else listing page Open Graph snapshot from the public site</li>
-        <li>Rehost bytes: R2 primary → ImgBB backup → https passthrough if neither host set</li>
+        <li>Rehost bytes: <strong>R2 primary</strong> → ImgBB backup → https passthrough if neither host set</li>
       </ol>
       <ul>
         <li>
-          Host env: <code>R2_*</code> and/or <code>IMGBB_API_KEY</code>
+          Host env: <code>R2_*</code> (primary) and/or <code>IMGBB_API_KEY</code> (backup). Scripts
+          load <code>.env.local</code> / <code>.env</code>.
         </li>
         <li>
           Optional <code>PUBLIC_SITE_ORIGIN</code> for page-snapshot fallback
@@ -269,6 +312,12 @@ npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json`}</
         <tbody>
           <tr>
             <td>
+              <code>catalog:self-heal</code>
+            </td>
+            <td>Before FIND when debt is hot; otherwise status-only</td>
+          </tr>
+          <tr>
+            <td>
               <code>catalog:about-curate</code>
             </td>
             <td>Every few hours while About debt remains</td>
@@ -281,21 +330,27 @@ npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json`}</
           </tr>
           <tr>
             <td>
-              <code>catalog:autopilot</code>
-            </td>
-            <td>Every 15–60 minutes while cards are queued</td>
-          </tr>
-          <tr>
-            <td>
-              <code>catalog:hygiene</code>
-            </td>
-            <td>Daily</td>
-          </tr>
-          <tr>
-            <td>
               <code>catalog:media-curate</code>
             </td>
             <td>Until media coverage is complete, then weekly</td>
+          </tr>
+          <tr>
+            <td>
+              <code>catalog:hygiene</code> + <code>serving:reconcile</code>
+            </td>
+            <td>Daily / after About–media batches</td>
+          </tr>
+          <tr>
+            <td>
+              <code>catalog:find --until-found</code>
+            </td>
+            <td>Recurring while sparse/missing markets remain (agent executes briefs)</td>
+          </tr>
+          <tr>
+            <td>
+              <code>catalog:autopilot</code>
+            </td>
+            <td>Every 15–60 minutes while cards are queued</td>
           </tr>
         </tbody>
       </table>

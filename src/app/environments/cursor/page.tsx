@@ -60,52 +60,66 @@ export default function CursorEnvironmentPage() {
       <h2>Reference timer set</h2>
       <p>
         Pattern used on Padel Africa (management / <code>release/padel-africa</code>). Adjust
-        intervals per vertical debt — not calendar dogma.
+        intervals per vertical debt — not calendar dogma. Worked examples:{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
+          padel-africa-jobs.md
+        </a>
+        .
       </p>
-      <pre>{`# About debt → curated Mongo overrides + description apply
+      <pre>{`# Self-heal status (defer FIND when debt is hot)
+npm run catalog:self-heal -- --status
+
+# About debt → curated Mongo overrides + description apply
 npm run catalog:about-curate -- --limit 15
 
-# Score → improve → encode
-npm run catalog:quality-loop -- --score-limit 50 --improve-limit 20
+# Score → improve → encode (Mongo only — no GDS)
+npm run catalog:quality-loop -- --score-limit 100 --improve-limit 40
 
-# Structured card publish machine
-npm run catalog:autopilot -- --ticks 10 --requeue-limit 10
+# Empty media → R2 primary / ImgBB backup / https passthrough
+npm run catalog:media-curate -- --limit 25
 
 # Nominatim hygiene drains (+ contact enrich)
-npm run catalog:hygiene -- --passes geo,price,venueModel,age,territory,contact
+npm run catalog:hygiene
 
-# Empty media → R2 / ImgBB / https passthrough
-npm run catalog:media-curate -- --limit 15
+# Public card projection after About/media
+npm run serving:reconcile -- --limit 200
 
-# FIND new venues (on-demand, evidence-only research — not ClassScout forever Find)
-npm run catalog:find -- --status
-npm run catalog:find -- --fixture=scripts/data/<country>-padel-verified.json --dry-run`}</pre>
+# FIND until one evidence-grade seed (agent executes firstBrief)
+npm run catalog:find -- --until-found --max-cells 8
+
+# Structured card publish machine (no-op when queue empty)
+npm run catalog:autopilot -- --ticks 10 --requeue-limit 10`}</pre>
 
       <h2>FIND playbook (Cloud Agent)</h2>
       <ol>
         <li>
-          <code>catalog:find -- --status</code> — pick a missing or sparse country
+          <code>catalog:find -- --until-found --max-cells 8</code> — read campaign +{" "}
+          <code>firstBrief</code>
         </li>
         <li>
-          Web-research official club / booking pages; collect Name, Address, Phone, Website, Email
-          only from evidence
+          WebSearch each <code>searchQueries</code> entry; open official / directory pages from{" "}
+          <code>sourcesToCheck</code>
         </li>
         <li>
-          Append a research fixture row; Nominatim street/locality pin with{" "}
-          <code>geoNote</code> when not rooftop
+          Evidence bar: named venue, location pin, contact or first-party URL, prefer two sources.
+          Never invent phones/emails/ages/court counts
         </li>
         <li>
-          Dry-run then apply via <code>catalog:find --fixture=…</code>
+          Seed: append fixture → dry-run → apply →{" "}
+          <code>--record-attempt --outcome=seeded</code> → <strong>STOP</strong>
         </li>
         <li>
-          Do <strong>not</strong> use Ollama for these Cursor Cloud jobs — structured headers +
-          research fixtures only
+          Zero: <code>--record-attempt --outcome=zero-result</code> → next cell; all dry →{" "}
+          <code>budget_exhausted</code>
+        </li>
+        <li>
+          Do <strong>not</strong> use Ollama / AI Gateway for these Cursor Cloud FIND ticks
         </li>
       </ol>
       <p>
-        Padel Africa FIND proof: Dakar Padel Club + REBEL PADEL Sahm; Tanzania Slipway + Hub
-        Bwejuu; Zambia Xtreme (management{" "}
-        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>). Jobs contract:{" "}
+        Padel Africa FIND proof: NG Ibadan (Padel Pro Club), EG Giza, SN Dakar, TZ/ZM/LY/GQ —
+        management{" "}
+        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>. Jobs contract:{" "}
         <Link href="/jobs">Jobs</Link>.
       </p>
 

@@ -14,6 +14,41 @@ export default function WhatsNewPage() {
       lead={`Shipped process contracts and engine changes agents should pick up. Catalogue content still lives in Mongo — this page is transfer knowledge only.`}
       footerNext={{ label: "Jobs", href: "/jobs" }}
     >
+      <DocCallout title="2026-09-24 (recommended order)">
+        Delivered: (1) Mongo-only quality-loop / about / media — GDS fully removed from content
+        ticks; use <code>serving:reconcile</code>; (2) R2 primary + ImgBB backup wired; (3) FIND{" "}
+        <code>--until-found</code> + self-heal bind; (4) worked job examples for other agents —
+        management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
+          docs/padel-africa-jobs.md
+        </a>{" "}
+        + this site&apos;s <Link href="/jobs">Jobs</Link> /{" "}
+        <Link href="/environments/cursor">Cursor</Link> pages (management{" "}
+        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>).
+      </DocCallout>
+
+      <h2>2026-09-24 — Padel Africa job examples + R2 primary</h2>
+      <ul>
+        <li>
+          Worked CLI examples (tick order, JSON shapes, FIND until-found, media hosts) for other
+          agents to copy
+        </li>
+        <li>
+          Quality-loop / about-curate never load GDS; media-curate loads <code>.env.local</code>
+        </li>
+        <li>
+          Image host hierarchy: Cloudflare R2 primary → ImgBB backup → https passthrough
+        </li>
+        <li>
+          FIND prefer <code>--until-found</code>; self-heal defers FIND when debt is hot
+        </li>
+      </ul>
+      <p>
+        Contracts: <Link href="/jobs">Jobs</Link> · playbook:{" "}
+        <Link href="/environments/cursor">Cursor</Link> · adopting:{" "}
+        <Link href="/adopting">Adopting</Link>.
+      </p>
+
       <DocCallout title="2026-09-23 (recommended order)">
         Delivered: (1) About@70 debt cleared; (2) FIND Libya Zeyani + Mendoza and GQ Ukomba Bata;
         (3–4) contact enrich (no_evidence leftovers) + media applied on new finds; (5) docs/SSOT.

@@ -141,23 +141,36 @@ export default function ImplementPage() {
       </ol>
 
       <h2>3. Implement the quality stack on the vertical</h2>
-      <p>Wire CLIs that match the <Link href="/jobs">Jobs</Link> contracts:</p>
+      <p>
+        Wire CLIs that match the <Link href="/jobs">Jobs</Link> contracts. Worked Padel Africa
+        examples (tick order + JSON shapes):{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
+          docs/padel-africa-jobs.md
+        </a>
+        .
+      </p>
       <ol>
         <li>
           <code>catalog:about-curate</code> — grounded About → Mongo curated + description
         </li>
         <li>
-          <code>catalog:quality-loop</code> — score → improve → encode (never invent amenities)
+          <code>catalog:quality-loop</code> — score → improve → encode (never invent amenities;
+          Mongo only — no GDS)
         </li>
         <li>
           <code>catalog:media-curate</code> — website OG / page-snapshot; R2 → ImgBB → https
           passthrough
         </li>
         <li>
-          <code>catalog:autopilot</code> — structured-header cards only without AI Gateway
+          <code>catalog:hygiene</code> + <code>serving:reconcile</code> — Nominatim + contact;
+          public card refresh
         </li>
         <li>
-          <code>catalog:hygiene</code> — Nominatim geo / price / venue / age / territory
+          <code>catalog:self-heal</code> + <code>catalog:find --until-found</code> — debt bind +
+          evidence-only growth (agent executes briefs)
+        </li>
+        <li>
+          <code>catalog:autopilot</code> — structured-header cards only without AI Gateway
         </li>
         <li>
           <code>catalog:archive-snapshot</code> — dated JSON under{" "}
@@ -165,8 +178,9 @@ export default function ImplementPage() {
         </li>
       </ol>
       <p>
-        Minimum for improvement-only: about-curate + quality-loop + media-curate + archive-snapshot.
-        Document flags in the vertical <code>docs/operations.md</code>.
+        Minimum for improvement-only: about-curate + quality-loop + media-curate + hygiene +
+        archive-snapshot. Add FIND when the card queue cannot grow the catalogue. Document flags
+        in the vertical <code>docs/operations.md</code>.
       </p>
 
       <h2>4. Secrets & hosts</h2>

@@ -46,11 +46,19 @@ export default function AdoptingPage() {
         <li>
           <code>catalog:media-curate</code>
         </li>
+        <li>
+          <code>catalog:hygiene</code> + <code>serving:reconcile</code>
+        </li>
       </ol>
       <p>
-        Add <code>catalog:autopilot</code>, <code>catalog:hygiene</code>, and{" "}
-        <code>catalog:repair-structured-geo</code> when ingest / structured cards exist. Contracts:{" "}
-        <Link href="/jobs">Jobs</Link>.
+        Add <code>catalog:autopilot</code>, <code>catalog:self-heal</code>,{" "}
+        <code>catalog:find --until-found</code>, and <code>catalog:repair-structured-geo</code> when
+        ingest / structured cards / geographic gaps exist. Contracts:{" "}
+        <Link href="/jobs">Jobs</Link>. Worked Padel Africa tick (copy the pattern):{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
+          management docs/padel-africa-jobs.md
+        </a>
+        .
       </p>
 
       <h2>4. Wire secrets</h2>
@@ -100,8 +108,12 @@ export default function AdoptingPage() {
 npm run catalog:media-curate -- --dry-run --limit 5
 npm run catalog:about-curate -- --list
 npm run catalog:hygiene -- --dry-run --passes contact --limit 5
-npm run catalog:find -- --status`}</pre>
-      <p>Only then enable writes and timers. Use <code>catalog:find</code> when the card queue is empty and new venues are needed.</p>
+npm run catalog:find -- --until-found --max-cells 8`}</pre>
+      <p>
+        Only then enable writes and timers. Prefer <code>--until-found</code> over bare{" "}
+        <code>--status</code> for growth ticks — the agent executes <code>firstBrief</code> cells
+        until one seeds (or budget exhausted). Never invent contacts.
+      </p>
 
       <h2>5b. Vertical twins (existing runners ↔ SC names)</h2>
       <p>
@@ -156,10 +168,14 @@ npm run catalog:find -- --status`}</pre>
       <h2>Reference vertical</h2>
       <p>
         Management / Padel Africa on branch <code>release/padel-africa</code> is the working
-        reference: 150+ published listings, media coverage via page-snapshot + host hierarchy, Cloud
-        Agent timers for about / quality / autopilot / hygiene / media, and{" "}
-        <code>catalog:find</code> for evidence-only research FIND. Copy the pattern, not the padel
-        domain data.
+        reference: published listings across Africa, R2 primary + ImgBB backup media rehost, Cloud
+        Agent timers for about / quality / media / hygiene / FIND / autopilot, Mongo-only content
+        ticks (no GDS), and <code>catalog:find --until-found</code> for evidence-only research FIND.
+        Worked CLI examples:{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
+          docs/padel-africa-jobs.md
+        </a>
+        . Copy the pattern, not the padel domain data.
       </p>
     </DocShell>
   );
