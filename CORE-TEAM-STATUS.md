@@ -8,7 +8,7 @@
 
 | Requirement | Status |
 | --- | --- |
-| `sportolok/` top-level client folder | **Done** — agent workspace + migrated `src/lib/sovereign/*`, APIs, crons, scripts, docs |
+| `content.sportolok/` top-level client folder | **Done** — agent workspace + migrated `src/lib/sovereign/*`, APIs, crons, scripts, docs |
 | `content.padelafrica/` top-level client folder | **Done** — agent workspace: docs, timers, ingest client, schedule contract mirror |
 | `content.classscout/` top-level client folder | **Done** — ClassScout / Your Field agent: catalog-loop runners, ingest client, ClassScout schedule contract, docs (product remains `moldovancsaba/classscout`) |
 | Clients do not import each other | **Done** — duplicated ingest/schedule helpers per client |
@@ -17,7 +17,7 @@
 
 ## What we did **not** do (per your instructions)
 
-- **Did not** rewrite or force-push `release/sportolok`. That branch still contains the in-engine sovereign agent and the divergent commits. **Please reconcile it back to a fast-forward from `main`** now that copies live here under `sportolok/`.
+- **Did not** rewrite or force-push `release/sportolok`. That branch still contains the in-engine sovereign agent and the divergent commits. **Please reconcile it back to a fast-forward from `main`** now that copies live here under `content.sportolok/`.
 - **Did not** delete files from `release/sportolok` ourselves.
 
 ## Files that must leave `management` on reconcile (sportolok)
@@ -41,4 +41,4 @@ classscout. Transitional product-repo copies may remain until cutover; **canonic
 
 When you have reconciled `release/sportolok`, please close the loop with us. Agent ownership for
 clients is now **`sovereign.content/<client>/`** (`content.classscout`, `content.padelafrica`,
-`sportolok`).
+`content.sportolok`).

@@ -17,5 +17,5 @@
     "paths": { "@/*": ["./src/*"] }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "content.classscout", "content.padelafrica", "sportolok"]
+  "exclude": ["node_modules", "content.classscout", "content.padelafrica", "content.sportolok"]
 }

@@ -4,7 +4,7 @@ This repository has two layers:
 
 1. **SSOT docs site** (repo root Next.js app) — doctrine, Jobs, Cursor, Adopting.
 2. **Per-client agent workspaces** — top-level `content.classscout/`, `content.padelafrica/`, and
-   `sportolok/` (independent; no cross-imports).
+   `content.sportolok/` (independent; no cross-imports).
 
 ## Rules
 
@@ -25,6 +25,6 @@ This repository has two layers:
 | --- | --- |
 | ClassScout / Your Field | [`content.classscout/AGENTS.md`](./content.classscout/AGENTS.md) |
 | Padel Africa | [`content.padelafrica/AGENTS.md`](./content.padelafrica/AGENTS.md) |
-| Sportolok | [`sportolok/AGENTS.md`](./sportolok/AGENTS.md) |
+| Sportolok | [`content.sportolok/AGENTS.md`](./content.sportolok/AGENTS.md) |
 | Core-team separation status | [`CORE-TEAM-STATUS.md`](./CORE-TEAM-STATUS.md) |
 | Site | `/jobs`, `/implement`, `/environments/cursor`, `/adopting` |

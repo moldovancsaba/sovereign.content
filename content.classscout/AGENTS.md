@@ -14,7 +14,7 @@
    `moldovancsaba/management` either.
 3. **Do not** write the product Mongo database from this agent as the steady-state path. Use
    `POST /api/ingest` and `POST /api/ingest/upload` with `INGEST_API_KEY` (Bearer).
-4. **Do not** import from `../sportolok/` or `../content.padelafrica/`.
+4. **Do not** import from `../content.sportolok/` or `../content.padelafrica/`.
 5. Schedule / listing fields must match [`ingest/content-data-contract.md`](./ingest/content-data-contract.md)
    — ClassScout `recurringPrograms[].daysOfWeek` (full English day names), **not** management’s
    `RecurringSlot` / `weekday` / `weekdays[]` shapes.
