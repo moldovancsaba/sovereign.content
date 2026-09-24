@@ -21,6 +21,7 @@ Jobs that look **across** all content agents:
 
 ## Start
 
-1. Read [`RESEARCH-2026-09-24.md`](./RESEARCH-2026-09-24.md)
-2. Read the plan in recommendations inbox
-3. Skim `profiles/*.json`
+1. Read [`CONTENT-CLIENTS-WORKFLOW-COMPARISON.md`](./CONTENT-CLIENTS-WORKFLOW-COMPARISON.md) — padel vs sportolok vs classscout workflow audit
+2. Read [`RESEARCH-2026-09-24.md`](./RESEARCH-2026-09-24.md)
+3. Read the plan in recommendations inbox
+4. Skim `profiles/*.json`
