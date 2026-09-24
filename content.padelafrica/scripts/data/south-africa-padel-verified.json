@@ -122,5 +122,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-24",
     "researchNotes": "FIND until-found deepen_large tick 2026-09-24 (Pretoria). Fixture written in content.padelafrica only — live Mongo apply deferred pending ingest (management quarantine). Not in excludeNames."
+  },
+  {
+    "recordId": "ZAF-VEN-006",
+    "name": "ClubPadel Stellenbosch",
+    "city": "Stellenbosch",
+    "region": "Western Cape",
+    "countryCode": "ZA",
+    "line1": "The Woodmill Lifestyle Centre, Vredenburg Road",
+    "lat": -33.934444,
+    "lng": 18.869167,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Stellenbosch locality pin — Woodmill exact building not resolved",
+    "website": "https://clubpadel.co.za/",
+    "phone": "+27 72 758 3239",
+    "email": "stellies@clubpadel.co.za",
+    "venueModel": "own_premises",
+    "seasonNote": "Book via Playtomic; hours published on directory cards as daily morning–evening",
+    "description": "ClubPadel Stellenbosch is a public bookable padel club at The Woodmill Lifestyle Centre on Vredenburg Road, with Playtomic court booking and a published Stellenbosch front-desk phone and email on the ClubPadel site. A clear recommendation when you want Winelands padel beyond Cape Town sample clubs. Call or book ahead for court time.",
+    "primarySourceUrl": "https://clubpadel.co.za/locations",
+    "secondarySourceUrl": "https://playtomic.com/clubs/club-padel-stellenbosch-stellenbosch",
+    "sourceTypes": "ClubPadel locations+contact pages (address+phone+email); Playtomic Stellenbosch club card",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-24",
+    "researchNotes": "FIND until-found deepen_large tick 2026-09-24 (Stellenbosch). Fixture-only pending ingest. Phone +27 72 758 3239 / stellies@clubpadel.co.za from clubpadel.co.za/contact. Court count from marketing copy not asserted in description."
   }
 ]

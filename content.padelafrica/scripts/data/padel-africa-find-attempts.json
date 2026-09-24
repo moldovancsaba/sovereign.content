@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T22:15:14.752Z",
+  "updatedAt": "2026-09-24T23:04:43.755Z",
   "attempts": [
     {
       "cc": "CF",
@@ -252,6 +252,13 @@
       "city": "Pretoria",
       "outcome": "seeded",
       "at": "2026-09-24T22:15:14.752Z",
+      "note": "fixture_only_pending_ingest"
+    },
+    {
+      "cc": "ZA",
+      "city": "Stellenbosch",
+      "outcome": "seeded",
+      "at": "2026-09-24T23:04:43.755Z",
       "note": "fixture_only_pending_ingest"
     }
   ]
