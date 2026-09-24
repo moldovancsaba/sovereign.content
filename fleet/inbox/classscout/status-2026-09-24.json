@@ -1,6 +1,6 @@
 {
   "clientId": "classscout",
-  "observedAt": "2026-09-24T20:57:52Z",
+  "observedAt": "2026-09-24T21:21:07Z",
   "source": "product-catalog-loop-forever",
   "workingEnv": {
     "timerSubscribed": false,
@@ -9,20 +9,28 @@
     "canonicalAgentHome": "sovereign.content/content.classscout",
     "cutoverComplete": false,
     "ingestOnly": "partial",
-    "tickCompleted": true
+    "tickCompleted": true,
+    "productPointerPr": "https://github.com/moldovancsaba/classscout/pull/967"
   },
   "outcomes": {
     "lasting_public_rate": 0.9003115264797508,
     "find_lasting_public": "289/321",
+    "lasting_public_404_cohort": 32,
     "find_smoke_pass": 0,
     "find_smoke_fail": 37,
+    "find_smoke_fail_classes": {
+      "reclassify_watch_404": "dominant",
+      "reclassify_watch_config_hidden_404": "secondary",
+      "region_not_public_skip": "reclassify-watch-last",
+      "lasting_public_cohort_still_404": 32
+    },
     "find_publish_total": 0,
-    "improve_fill_rate": 1.0,
-    "improve_with_evidence": 8,
+    "improve_fill_rate": 0.875,
+    "improve_with_evidence": 7,
     "improve_investigated": 8,
     "public_listings": 822,
-    "seeds_pending": 202,
-    "fair_use_funnel": "3\u21920 seeds / 2 rejects",
+    "seeds_pending": 203,
+    "fair_use_funnel": "0\u21920 seeds / 0 rejects",
     "scarcity_brief_freshness": "hourly",
     "tier_a_auto_pause_health": "active"
   },
@@ -42,10 +50,15 @@
     {
       "kind": "find_cycle_published",
       "n": 0
+    },
+    {
+      "kind": "lasting_public_404",
+      "n": 32
     }
   ],
   "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/classscout.md",
     "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/CLIENT-COMPARISON.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.classscout/docs/cutover-status.md"
+    "https://github.com/moldovancsaba/classscout/pull/967"
   ]
 }
