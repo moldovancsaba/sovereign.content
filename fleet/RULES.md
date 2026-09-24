@@ -18,6 +18,7 @@ If a local doc conflicts with this file, **this file wins**. Fix the local doc t
 | ClassScout product UI / ingest validation | `moldovancsaba/classscout` | Putting ClassScout product into management |
 | Live catalogue prose, Mongo dumps, media binaries | Product DB / object storage only | Anywhere in `sovereign.content` docs tree |
 | Cross-client audits / SWOT / maturity scorecards | **`fleet/`** only | Root scatter; management release branches; inside one `content.*` as if it were global SSOT |
+| SC ↔ client next-step back-and-forth | **`fleet/coordination/<client>.md`** on `main` | Slack-only truth; release-branch chore threads; parallel unofficial trackers |
 
 **Hard rule:** Never publish a “system comparison” or “SSOT compliance %” under `management/release/*`. Those branches are product pointers, not the content-agent knowledge base.
 
@@ -94,3 +95,17 @@ If you find a doc that:
 - invents a new comparison file outside `fleet/CLIENT-COMPARISON.md`,
 
 then: write the fix on `sovereign.content` `main`, link this rules file, and tell the operator which forbidden path to delete on reconcile.
+
+---
+
+## 8. SC ↔ client coordination threads
+
+Shared editable files (both sides read/write on `main`):
+
+| Client | Thread |
+| --- | --- |
+| Padel | [`coordination/padelafrica.md`](./coordination/padelafrica.md) |
+| Sportolok | [`coordination/sportolok.md`](./coordination/sportolok.md) |
+| ClassScout | [`coordination/classscout.md`](./coordination/classscout.md) |
+
+Protocol: [`coordination/README.md`](./coordination/README.md). Append dated turns; check off open items; do not fork a second tracker. After catalog ticks: machine JSON in `fleet/inbox/` **and** a short human turn in the coordination thread when an ask is open.

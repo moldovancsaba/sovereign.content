@@ -1,7 +1,18 @@
 # Prompts to give client / peer agents (copy-paste)
 
-**Purpose:** Correct the three divergent comparison feedbacks and bind everyone to one delivery + honesty model.  
-**Rules + SSOT (read before sending):**
+**Prefer the shared threads** (both sides keep updating the same file):
+
+| Client | Coordination thread |
+| --- | --- |
+| Padel | https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/padelafrica.md |
+| Sportolok | https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/sportolok.md |
+| ClassScout | https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/classscout.md |
+
+Protocol: https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/README.md  
+
+**Purpose of this file:** one-shot paste prompts if a chat has never seen fleet SSOT. After first bind, use the coordination thread instead of new mega-prompts.
+
+**Rules + SSOT:**
 
 - https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/RULES.md  
 - https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/CLIENT-COMPARISON.md  
