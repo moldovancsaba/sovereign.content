@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "id": "cpl_8e302a71aa27",
+      "job": "catalog:find",
+      "kind": "success",
+      "message": "seeded ZA Durban PadelNation Durban Country Club (research-zaf-ven-004) from padelnation.co.za + Playtomic",
+      "evidence": [
+        "listing:research-zaf-ven-004",
+        "cc:ZA",
+        "city:Durban"
+      ],
+      "createdAt": "2026-09-24T21:17:22.462Z"
+    },
+    {
+      "id": "cpl_3f2bfdca8689",
+      "job": "catalog:find",
+      "kind": "success",
+      "message": "seeded MU Cascavelle SPARC Mauritius (research-mus-ven-002) from sparc.mu + Padel Lands for Flic en Flac deepen cell",
+      "evidence": [
+        "listing:research-mus-ven-002",
+        "cc:MU",
+        "city:Cascavelle",
+        "cell:Flic en Flac"
+      ],
+      "createdAt": "2026-09-24T20:20:33.076Z"
+    },
+    {
+      "id": "cpl_b57a5f36a666",
+      "job": "catalog:find",
+      "kind": "success",
+      "message": "seeded KE Nakuru Royal Padelzone Pavilion (research-ken-ven-007) from royalpadelzone.co.ke + Nation",
+      "evidence": [],
+      "createdAt": "2026-09-24T19:18:07.389Z"
+    },
+    {
+      "id": "cpl_8627cbccdbaf",
+      "job": "catalog:find",
+      "kind": "success",
+      "message": "seeded AO Lubango Kimbo do Soba (AGO-VEN-016)",
+      "evidence": [],
+      "createdAt": "2026-09-24T17:13:05.679Z"
+    },
+    {
+      "id": "cpl_a9ef69d35640",
+      "job": "catalog:find",
+      "kind": "success",
+      "message": "seeded NG Kano Extreme Arena (NGA-VEN-008)",
+      "evidence": [],
+      "createdAt": "2026-09-24T16:06:59.599Z"
+    },
+    {
+      "id": "cpl_065e996a4a0e",
+      "job": "catalog:find",
+      "kind": "success",
+      "message": "seeded NG Ibadan Padel Pro Club (NGA-VEN-007)",
+      "evidence": [],
+      "createdAt": "2026-09-24T14:47:57.328Z"
+    },
+    {
+      "id": "cpl_0b1e90df27bc",
+      "job": "catalog:self-heal",
+      "kind": "success",
+      "message": "Cleared contact debt: 28 already-had-contact + Padel Factory Agadir phone/website",
+      "evidence": [
+        "closed:28",
+        "padel-factory:+212633809981"
+      ],
+      "createdAt": "2026-09-24T14:26:43.553Z"
+    },
+    {
+      "id": "cpl_ec583047bf26",
+      "job": "catalog:find",
+      "kind": "defer_find",
+      "message": "open research debt 30 ≥ 8 — clear evidence-wall gaps before continent FIND",
+      "evidence": [
+        "openAbout:0",
+        "openResearch:30"
+      ],
+      "createdAt": "2026-09-24T14:07:15.663Z"
+    },
+    {
+      "id": "cpl_2281aae82aa2",
+      "job": "catalog:contact-enrich",
+      "kind": "evidence_wall",
+      "message": "contact enrich left 15 listings with no_evidence",
+      "evidence": [
+        "scanned:15",
+        "applied:0",
+        "no_evidence:15"
+      ],
+      "createdAt": "2026-09-24T14:07:14.149Z"
+    }
+  ]
+}

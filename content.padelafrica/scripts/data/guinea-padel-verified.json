@@ -1,0 +1,27 @@
+[
+  {
+    "recordId": "GIN-VEN-001",
+    "name": "Riviera Padel",
+    "city": "Conakry",
+    "region": "Conakry",
+    "countryCode": "GN",
+    "line1": "Riviera Royal Hotel, Avenue du Port",
+    "lat": 9.583132,
+    "lng": -13.6647267,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Riviera Royal Hotel pin — hotel wellness page hosts Riviera Padel",
+    "website": "https://rivieraroyalhotel.com/en/wellness",
+    "phone": "+224 613 13 13 37",
+    "email": "info@rivieraroyalhotel.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet.",
+    "description": "Riviera Padel is the dedicated padel club at Riviera Royal Hotel in Conakry — outdoor premium courts inside the hotel’s wellness programme. A clear recommendation for Guinea when you want a named Conakry address with a published padel contact rather than an anonymous pitch. Call the padel desk before you travel; hotel general line stays in research notes.",
+    "primarySourceUrl": "https://rivieraroyalhotel.com/en/wellness",
+    "secondarySourceUrl": "https://padellands.com/en/alojamientos-pistas/otros-paises-al/guinea-conakry/",
+    "sourceTypes": "Riviera Royal first-party wellness page; Padel Lands",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-22",
+    "researchNotes": "Padel Lands lists padel phone +224 613 13 13 37 and hotel +224 610 99 99 99; padel number retained as primary"
+  }
+]

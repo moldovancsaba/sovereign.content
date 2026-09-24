@@ -1,0 +1,20 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "Guinea-Bissau",
+  "iso3": "GNB",
+  "countryCode": "GW",
+  "verifiedEntityCount": 0,
+  "verifiedActiveVenueCount": 0,
+  "verifiedFederationCount": 0,
+  "verifiedLeagueOrCompetitionCount": 0,
+  "verifiedCityCount": 0,
+  "lastVerifiedUtc": "2026-09-22",
+  "timeCapMinutes": 5,
+  "conclusion": "Zero verifiable padel clubs, venues, federations, leagues or competitions found in Guinea-Bissau; no entity rows were invented.",
+  "seededListingIds": [],
+  "notes": [
+    "Padel Without Borders describes future/private potential only — no named Bissau court",
+    "Antula Sports Complex and Lino Correia projects are football/multi-sport without padel",
+    "Fondazione Grandi padel tournaments for Guinea-Bissau causes were held in Brussels, not Bissau"
+  ]
+}

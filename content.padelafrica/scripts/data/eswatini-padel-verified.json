@@ -1,0 +1,27 @@
+[
+  {
+    "recordId": "SWZ-VEN-001",
+    "name": "LivPadel Malkerns",
+    "city": "Malkerns",
+    "region": "Manzini",
+    "countryCode": "SZ",
+    "line1": "Malkerns Square",
+    "lat": -26.531888,
+    "lng": 31.189006,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Malkerns town pin — Malkerns Square named on operator site; plus code F5GV+FR2 cited by a directory but not independently reverse-geocoded",
+    "website": "https://livpadel.co.za/malkerns-eswatini",
+    "phone": "+268 7802 2034",
+    "email": "malkerns@livpadel.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 06:00–22:00",
+    "description": "LivPadel Malkerns brings three purpose-built padel courts to Malkerns Square — Eswatini’s first dedicated LivPadel site with PadelMates booking, racket hire and on-site amenities. A clear recommendation when you want bookable padel in the Manzini belt rather than crossing into South Africa. Reserve ahead for evening lights; opening coverage places the courts as the country’s debut facility.",
+    "primarySourceUrl": "https://livpadel.co.za/malkerns-eswatini",
+    "secondarySourceUrl": "https://eswatini-edge.beehiiv.com/p/malkerns-square-unveils-world-class-livpadel-courts",
+    "sourceTypes": "LivPadel first-party club page; local launch coverage; TrustPadel",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-22",
+    "researchNotes": "Three courts from July 2025 launch coverage; operator hours 06:00–22:00 on club page"
+  }
+]

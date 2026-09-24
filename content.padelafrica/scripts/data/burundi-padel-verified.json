@@ -1,0 +1,27 @@
+[
+  {
+    "recordId": "BDI-VEN-001",
+    "name": "Padel Club de Bujumbura",
+    "city": "Bujumbura",
+    "region": "Bujumbura Mairie",
+    "countryCode": "BI",
+    "line1": "Entente Sportive de Bujumbura, Avenue du Stade",
+    "lat": -3.377531,
+    "lng": 29.3602645,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Entente Sportive de Bujumbura / Avenue du Stade — same site as the federation courts (not double-counted)",
+    "website": "https://padellands.com/en/padel-courts/padel-club-de-bujumbura/",
+    "phone": "+257 62 356 542",
+    "facebook": "https://www.facebook.com/p/Bujumbura-PadelClub-61593477013091/",
+    "venueModel": "own_premises",
+    "seasonNote": "Monday–Friday 06:00–21:00; Saturday–Sunday 09:00–17:00",
+    "description": "Padel Club de Bujumbura plays on two courts at Entente Sportive de Bujumbura on Avenue du Stade — a multi-sport club setting with tennis, pool and gym around the session. The clear recommendation for Burundi padel: a named club that has represented the country at continental events, with weekday early-morning to evening hours. Call ahead for open play; unfinished project courts nearby are not counted as active.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/padel-club-de-bujumbura/",
+    "secondarySourceUrl": "https://tennisburundi.com/",
+    "sourceTypes": "Padel Lands; federation site; CourtPro; Waze",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-22",
+    "researchNotes": "Federation-hosted padel inventory is the same two courts — BDI-ORG-001 not seeded as a second venue"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "Chad",
+  "iso3": "TCD",
+  "countryCode": "TD",
+  "verifiedEntityCount": 0,
+  "verifiedActiveVenueCount": 0,
+  "verifiedFederationCount": 0,
+  "verifiedLeagueOrCompetitionCount": 0,
+  "verifiedCityCount": 0,
+  "lastVerifiedUtc": "2026-09-22",
+  "timeCapMinutes": 5,
+  "conclusion": "Zero verifiable named padel clubs, venues, federations, leagues or competitions found; no entity rows were invented.",
+  "seededListingIds": [],
+  "notes": [
+    "Padel Without Borders describes N'Djamena padel as limited to unnamed private/expatriate networks — no named court or booking page verified",
+    "Club MCM N'Djamena lists multi-sport activities but does not publish padel",
+    "WePadel / Integral Group 2023 Chad stadium MOU is a construction agreement, not an operating padel venue",
+    "No FIP Chad federation or African Padel Confederation tournament surfaced within the cap"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "recordId": "RWA-VEN-001",
+    "name": "Bounce Kiyovu",
+    "city": "Kigali",
+    "region": "City of Kigali",
+    "countryCode": "RW",
+    "line1": "16 KN 47 Street, Kiyovu",
+    "lat": -1.9557698,
+    "lng": 30.0659408,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "16 KN 47 Street pin (Baso café adjacent — same civic address as club listings)",
+    "website": "https://www.bouncerw.com/f/bouncerw",
+    "phone": "+250 795 465 297",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet.",
+    "description": "Bounce Kiyovu is a Kigali padel and tennis address on KN 47 Street in Kiyovu, with published phone and app booking. A clear recommendation when you want a named Rwanda padel stop in the city centre rather than an informal court. Confirm padel court availability and open play before you go — coaching and junior clinics are also listed.",
+    "primarySourceUrl": "https://www.bouncerw.com/f/bouncerw",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/rwanda/",
+    "sourceTypes": "Bounce club page; Padel Lands Rwanda",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-22",
+    "researchNotes": "Other Kigali venues (e.g. Mamba) noted in travel blogs but not double-sourced within this audit pass"
+  }
+]

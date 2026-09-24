@@ -16,7 +16,8 @@ runs its `catalog:*` loop. Portable contracts live on the process SSOT
 | **sovereign.content site / fleet / other `content.*`** | **SC-central** — out of scope for the padel chat |
 | **GDS / vertical pack** | UI + serving projection only |
 
-**Padel Africa only.** Rid of sovereign-direct / multi-client ownership from this chat — see [`../AGENTS.md`](../AGENTS.md).
+**Padel Africa only.** Rid of sovereign-direct / multi-client ownership from this chat — see
+https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/AGENTS.md
 
 **Agent writes** go through `POST /api/ingest` from `sovereign.content/content.padelafrica/ingest/`.
 Schedule patches must use singular `weekday` RecurringSlots (see that folder’s content-data-contract).

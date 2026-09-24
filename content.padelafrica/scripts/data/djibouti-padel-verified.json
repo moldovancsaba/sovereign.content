@@ -1,0 +1,26 @@
+[
+  {
+    "recordId": "DJI-VEN-001",
+    "name": "Djibouti Padel One",
+    "city": "Djibouti",
+    "region": "Djibouti",
+    "countryCode": "DJ",
+    "line1": "Djibouti",
+    "lat": 11.5936903,
+    "lng": 43.1472724,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "City-level pin — first-party app and registry confirm the operator and four courts but no street address within the audit window",
+    "website": "https://apps.apple.com/mr/app/djibouti-padel-one/id6740589373",
+    "email": "djiboutipadelone@gmail.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet. Pay on site after app booking.",
+    "description": "Djibouti Padel One operates four bookable padel courts in Djibouti with a dedicated reservation app for level matching and partner play — pay at reception after you book. A clear recommendation when you want the country’s visible padel home rather than hunting anonymous pitches. City pin only until a street address is published; email the club before you travel.",
+    "primarySourceUrl": "https://www.smartapp.mu/apphelp/djiboutipadelonesupport_en.html",
+    "secondarySourceUrl": "https://apps.apple.com/mr/app/djibouti-padel-one/id6740589373",
+    "sourceTypes": "First-party booking app support; App Store; ODPIC company registry; Padel Without Borders",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-22",
+    "researchNotes": "DJIBOUTI PADEL ONE SARL is registered on ODPIC; Balbala locality circulated in secondary notes but was not confirmed on a first-party page — city pin retained"
+  }
+]

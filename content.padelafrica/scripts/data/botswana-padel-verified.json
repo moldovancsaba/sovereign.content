@@ -1,0 +1,27 @@
+[
+  {
+    "recordId": "BWA-VEN-001",
+    "name": "Gamecity Padel",
+    "city": "Gaborone",
+    "region": "South-East",
+    "countryCode": "BW",
+    "line1": "Game City, Western Bypass",
+    "lat": -24.6866328,
+    "lng": 25.8789722,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Nominatim pin for Game City mall (Gamecity Shopping Centre) — club operates covered courts on site",
+    "website": "https://gamecitypadel.co.bw/",
+    "phone": "+267 71 311 311",
+    "email": "info@gamecitypadel.co.bw",
+    "venueModel": "own_premises",
+    "seasonNote": "Covered courts — play in any weather; book online via club site",
+    "description": "Gamecity Padel brings covered padel to Game City on Gaborone's Western Bypass — two doubles courts plus Botswana's first dedicated singles court. A clear recommendation when you want bookable Gaborone padel under cover rather than an open pitch, with coaching, memberships, and online court booking on the club site.",
+    "primarySourceUrl": "https://gamecitypadel.co.bw/",
+    "secondarySourceUrl": "https://gamecitypadel.co.bw/about/",
+    "sourceTypes": "Club site About page",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-23",
+    "researchNotes": "First Botswana research seed — country had zero published listings before this pass"
+  }
+]

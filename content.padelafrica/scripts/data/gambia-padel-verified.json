@@ -1,0 +1,27 @@
+[
+  {
+    "recordId": "GMB-VEN-001",
+    "name": "Kololi Beach Resort Padel",
+    "city": "Kololi",
+    "region": "West Coast",
+    "countryCode": "GM",
+    "line1": "Kololi Beach Resort, Senegambia Strip",
+    "lat": 13.4402487,
+    "lng": -16.7252946,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Kololi Beach Resort pin — distinct from OSM Seaview Plaza Padel Club Gambia",
+    "website": "https://kololi.com/padel-court/",
+    "phone": "+220 215 8781",
+    "email": "bookings@kololi.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 09:00–20:00; reserve via reception",
+    "description": "Kololi Beach Resort hosts a beachfront padel court on the Senegambia Strip — sea-breeze sessions with published day and evening rates and reception booking. A clear recommendation when you want resort padel in Kololi distinct from the Seaview Plaza OSM pin. Reserve ahead; payment is required in advance per the resort page.",
+    "primarySourceUrl": "https://kololi.com/padel-court/",
+    "secondarySourceUrl": "https://kololi.com/contact/",
+    "sourceTypes": "Kololi Beach Resort first-party padel and contact pages",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-22",
+    "researchNotes": "Not a duplicate of osm-way-1503420104 (Seaview Plaza) — different host property"
+  }
+]

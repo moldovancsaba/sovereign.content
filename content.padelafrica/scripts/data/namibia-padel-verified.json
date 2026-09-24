@@ -1,0 +1,27 @@
+[
+  {
+    "recordId": "NAM-VEN-001",
+    "name": "Namibia Padel Windhoek",
+    "city": "Windhoek",
+    "region": "Khomas",
+    "countryCode": "NA",
+    "line1": "Corner of Sean McBride and Tennis Street, Olympia",
+    "lat": -22.6070985,
+    "lng": 17.0935109,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Tennis Street Olympia pin near Sean McBride corner — club lists cnr Sean McBride & Tennis Street",
+    "website": "https://namibiapadel.com/",
+    "phone": "+264 81 444 2827",
+    "email": "manager@namibiapadel.com",
+    "venueModel": "outdoors",
+    "seasonNote": "Daily 06:00–23:00",
+    "description": "Namibia Padel Windhoek is the capital’s four-court Olympia club on the corner of Sean McBride and Tennis Street, opposite the DTS grounds. A clear recommendation for Windhoek players who want bookable padel with published hours, phone and email. Distinct from the Swakopmund Namibia Padel courts already live on OSM.",
+    "primarySourceUrl": "https://namibiapadel.com/",
+    "secondarySourceUrl": "https://namibiapadel.com/Pages/11-the_club_namibia_padel",
+    "sourceTypes": "Namibia Padel official site",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-22",
+    "researchNotes": "Swakopmund site is OSM osm-node-12477757278 — enrich only, do not duplicate"
+  }
+]

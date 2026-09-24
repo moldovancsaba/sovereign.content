@@ -53,3 +53,6 @@ export async function ingestPatch(cfg: IngestConfig, body: IngestPatchBody): Pro
   if (!res.ok) throw new Error(`ingest patch failed ${res.status}: ${JSON.stringify(json)}`);
   return json;
 }
+
+/** Alias used by quality-loop ingest stub */
+export const ingestListingPatch = ingestPatch;

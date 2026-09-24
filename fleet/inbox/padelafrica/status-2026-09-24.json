@@ -1,35 +1,38 @@
 {
   "clientId": "padelafrica",
   "observedAt": "2026-09-24T21:17:23Z",
-  "source": "padel-find-tick",
+  "source": "padel-find-tick+migration",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
     "ingestOnlyDoctrine": true,
     "ingestOnlyReality": false,
-    "writesPath": "management_catalog_clis_mongo",
+    "writesPath": "migrating_to_ingest_mongo_quarantined",
     "tickCompleted": true,
-    "healBeforeFind": true,
-    "docsMatchJobs": true,
-    "agentHomeScripts": 0
+    "agentCodeMigratedToContentPadelafrica": true,
+    "awaitingCoreReconcileReleasePadelAfrica": true
   },
   "outcomes": {
     "findSeeded": 1,
     "findZeroResult": 1,
     "findCellSeeded": { "cc": "ZA", "city": "Durban", "outcome": "seeded", "listingId": "research-zaf-ven-004" },
-    "findCellZeroResult": { "cc": "MU", "city": "Flic en Flac", "outcome": "zero-result", "note": "second_pass_no_new_in_town_venue" },
+    "findCellZero": { "cc": "MU", "city": "Flic en Flac", "outcome": "zero-result" },
     "aboutDebtOpen": 0,
     "researchDebtOpen": 0,
     "hitlBacklog": 0,
     "publishedTotal": 171,
     "mediaAppliedThisTick": 4,
     "mediaHostPrimary": "r2",
-    "settledEmptyQualityTick": true,
-    "qualityScoreAlreadyGood": 100
+    "migrationCopyComplete": true,
+    "mongoQualityLoopQuarantined": true
   },
-  "openDebt": [],
+  "openDebt": [
+    "ingest_backed_quality_loop_full_rewrite",
+    "core_reconcile_release_padel_africa"
+  ],
   "links": [
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/RULES.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/CLIENT-COMPARISON.md"
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/STATUS-FOR-CORE.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/MIGRATION-FROM-MANAGEMENT.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/src/QUARANTINE.md"
   ]
 }

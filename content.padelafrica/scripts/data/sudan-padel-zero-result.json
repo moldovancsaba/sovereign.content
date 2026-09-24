@@ -1,0 +1,19 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "Sudan",
+  "iso3": "SDN",
+  "countryCode": "SD",
+  "verifiedEntityCount": 0,
+  "verifiedActiveVenueCount": 0,
+  "verifiedFederationCount": 0,
+  "verifiedLeagueOrCompetitionCount": 0,
+  "verifiedCityCount": 0,
+  "lastVerifiedUtc": "2026-09-22",
+  "timeCapMinutes": 5,
+  "conclusion": "Zero verifiable named padel clubs, venues, federations, leagues or competitions found; no entity rows were invented.",
+  "seededListingIds": [],
+  "notes": [
+    "No named Khartoum padel club or booking page verified within the cap",
+    "Padel Without Borders describes Sudan padel as niche/private without naming a court"
+  ]
+}

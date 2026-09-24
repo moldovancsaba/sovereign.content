@@ -1,0 +1,165 @@
+{
+  "BJ": {
+    "type": "node",
+    "id": 13440135409,
+    "lat": 6.3494355,
+    "lon": 2.3203894,
+    "tags": {
+      "leisure": "sports_centre",
+      "name": "Cotonou Padel Club",
+      "sport": "padel",
+      "addr:city": "Togbin-Fandji",
+      "addr:street": "Route des Pêches",
+      "addr:country": "BJ",
+      "addr:state": "Atlantique"
+    },
+    "_nominatim": {
+      "display_name": "Cotonou Padel Club, Route des Pêches, Togbin-Fandji, Abomey-Calavi, Atlantique, Bénin",
+      "address": {
+        "leisure": "Cotonou Padel Club",
+        "road": "Route des Pêches",
+        "village": "Togbin-Fandji",
+        "county": "Abomey-Calavi",
+        "state": "Atlantique",
+        "ISO3166-2-lvl4": "BJ-AQ",
+        "country": "Bénin",
+        "country_code": "bj"
+      }
+    },
+    "_source": "nominatim-lookup+osm-api"
+  },
+  "CM": {
+    "type": "way",
+    "id": 1524068106,
+    "lat": 3.9055814,
+    "lon": 11.5163925,
+    "tags": {
+      "access": "customers",
+      "bar": "yes",
+      "building": "yes",
+      "club": "sport",
+      "name": "Elite Padel",
+      "phone": "+2370674 85 87 28",
+      "sport": "padel",
+      "website": "https://www.instagram.com/elitepadelyde/",
+      "addr:city": "Yaoundé",
+      "addr:street": "Rue 1.991",
+      "addr:country": "CM",
+      "addr:state": "Centre"
+    },
+    "_nominatim": {
+      "display_name": "Elite Padel, Rue 1.991, Mballa, Yaoundé I, Communauté urbaine de Yaoundé, Mfoundi, Centre, Cameroun",
+      "address": {
+        "club": "Elite Padel",
+        "road": "Rue 1.991",
+        "suburb": "Mballa",
+        "city_district": "Yaoundé I",
+        "city": "Communauté urbaine de Yaoundé",
+        "county": "Mfoundi",
+        "state": "Centre",
+        "ISO3166-2-lvl4": "CM-CE",
+        "country": "Cameroun",
+        "country_code": "cm"
+      }
+    },
+    "_source": "nominatim-lookup+osm-api"
+  },
+  "MG": {
+    "type": "node",
+    "id": 11844432371,
+    "lat": -18.882046,
+    "lon": 47.5738123,
+    "tags": {
+      "name": "Lamakoo Padel center",
+      "tourism": "attraction",
+      "sport": "padel",
+      "addr:city": "Antananarivo",
+      "addr:street": "Rocade d'Iarivo",
+      "addr:country": "MG",
+      "addr:state": "Analamanga",
+      "addr:postcode": "103"
+    },
+    "_nominatim": {
+      "display_name": "Lamakoo Padel center, Rocade d'Iarivo, Ankandrina, Soamanandrariny, Antananarivo Avaradrano, Analamanga, Province d’Antananarivo, 103, Madagasikara / Madagascar",
+      "address": {
+        "tourism": "Lamakoo Padel center",
+        "road": "Rocade d'Iarivo",
+        "neighbourhood": "Ankandrina",
+        "suburb": "Soamanandrariny",
+        "county": "Antananarivo Avaradrano",
+        "state": "Analamanga",
+        "ISO3166-2-lvl3": "MG-T",
+        "postcode": "103",
+        "country": "Madagasikara / Madagascar",
+        "country_code": "mg"
+      }
+    },
+    "_source": "nominatim-lookup+osm-api"
+  },
+  "GM": {
+    "type": "way",
+    "id": 1503420104,
+    "lat": 13.4479698,
+    "lon": -16.7193592,
+    "tags": {
+      "leisure": "pitch",
+      "name": "Padel Club Gambia",
+      "sport": "padel",
+      "addr:city": "Sukuta",
+      "addr:street": "Seaview Plazza",
+      "addr:country": "GM",
+      "addr:state": "West Coast"
+    },
+    "_nominatim": {
+      "display_name": "Padel Club Gambia, Seaview Plazza, Kololi, Sukuta, Kombo North, Brikama, West Coast, Gambia",
+      "address": {
+        "leisure": "Padel Club Gambia",
+        "road": "Seaview Plazza",
+        "suburb": "Kololi",
+        "town": "Sukuta",
+        "county": "Kombo North",
+        "state_district": "Brikama",
+        "state": "West Coast",
+        "ISO3166-2-lvl4": "GM-W",
+        "country": "Gambia",
+        "country_code": "gm"
+      }
+    },
+    "_source": "nominatim-lookup+osm-api"
+  },
+  "ZW": {
+    "type": "way",
+    "id": 443984820,
+    "lat": -17.7747821,
+    "lon": 31.0654456,
+    "tags": {
+      "leisure": "sports_centre",
+      "name": "Old Georgians Sports Club",
+      "sport": "padel",
+      "addr:city": "Harare",
+      "addr:street": "Wycombe Avenue",
+      "addr:country": "ZW",
+      "addr:state": "Harare Province"
+    },
+    "_nominatim": {
+      "display_name": "Old Georgians Sports Club, Wycombe Avenue, Mount Pleasant, Harare, Harare Province, Zimbabwe",
+      "address": {
+        "leisure": "Old Georgians Sports Club",
+        "road": "Wycombe Avenue",
+        "suburb": "Mount Pleasant",
+        "city": "Harare",
+        "county": "Harare",
+        "state": "Harare Province",
+        "ISO3166-2-lvl4": "ZW-HA",
+        "country": "Zimbabwe",
+        "country_code": "zw"
+      }
+    },
+    "_source": "nominatim-lookup+osm-api",
+    "_padel_pitch_ids": [
+      "way/1306304670",
+      "way/1306304671"
+    ],
+    "_padel_pitch_note": "sport=padel pitches inside this sports_centre polygon"
+  }
+}

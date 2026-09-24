@@ -1,11 +1,12 @@
 {
   "client": "padel-africa",
+  "agentFolder": "content.padelafrica",
   "managementRepo": "moldovancsaba/management",
   "managementBranch": "release/padel-africa",
   "siteUrl": "https://padel-africa.doneisbetter.com",
-  "mongoNote": "Agents must not open Mongo; use POST /api/ingest only",
+  "mongoNote": "Agents must not open Mongo; use POST /api/ingest only. Migrated listingQuality is quarantined — see src/QUARANTINE.md",
   "ingestPath": "/api/ingest",
   "ssotSite": "https://sovereigncontent.messmass.com",
-  "agentFolder": "content.padelafrica",
-  "vertical": "padel-africa"
+  "vertical": "padel-africa",
+  "migration": "see MIGRATION-FROM-MANAGEMENT.md + STATUS-FOR-CORE.md — await core reconcile of release/padel-africa (PRs #222/#227)"
 }

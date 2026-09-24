@@ -1,0 +1,20 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "Central African Republic",
+  "iso3": "CAF",
+  "countryCode": "CF",
+  "verifiedEntityCount": 0,
+  "verifiedActiveVenueCount": 0,
+  "verifiedFederationCount": 0,
+  "verifiedLeagueOrCompetitionCount": 0,
+  "verifiedCityCount": 0,
+  "lastVerifiedUtc": "2026-09-22",
+  "timeCapMinutes": 5,
+  "conclusion": "Zero verifiable padel clubs, venues, federations, leagues or competitions found; no entity rows were invented.",
+  "seededListingIds": [],
+  "notes": [
+    "Padel Without Borders mentioned Bangui only as a possible future starting point, not an existing venue",
+    "PadelReserve country directory did not list Central African Republic",
+    "No FIP or African Padel Confederation CAF federation/tournament surfaced within the cap"
+  ]
+}

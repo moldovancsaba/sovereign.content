@@ -1,0 +1,20 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "Liberia",
+  "iso3": "LBR",
+  "countryCode": "LR",
+  "verifiedEntityCount": 0,
+  "verifiedActiveVenueCount": 0,
+  "verifiedFederationCount": 0,
+  "verifiedLeagueOrCompetitionCount": 0,
+  "verifiedCityCount": 0,
+  "lastVerifiedUtc": "2026-09-22",
+  "timeCapMinutes": 5,
+  "conclusion": "Zero verifiable named padel clubs, venues, federations, leagues or competitions found; no entity rows were invented.",
+  "seededListingIds": [],
+  "notes": [
+    "GoAfricaOnline boilerplate mentions racket sports without a named Monrovia padel club",
+    "Invincible Sports Park lists tennis/football/basketball — not padel",
+    "No FIP Liberia federation or APC tournament surfaced within the cap"
+  ]
+}

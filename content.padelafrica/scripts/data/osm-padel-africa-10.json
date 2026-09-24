@@ -1,0 +1,318 @@
+{
+  "MZ": {
+    "type": "way",
+    "id": 1183409068,
+    "lat": -25.9449749,
+    "lon": 32.6171254,
+    "tags": {
+      "name": "Padel Club Maputo",
+      "phone": "+258853588341",
+      "sport": "padel",
+      "website": "https://www.padelclub.co.mz/",
+      "opening_hours": "Mo-Su 06:00-22:00",
+      "addr:street": "Rua 3.896",
+      "addr:city": "Cidade de Maputo",
+      "addr:country": "MZ"
+    },
+    "_nominatim": {
+      "display_name": "Padel Club Maputo, Rua 3.896, Polana Cani\u00e7o \"B\", Distrito Municipal de KaMaxakeni, Cidade de Maputo, Zona Sul, 0103-07, Mo\u00e7ambique",
+      "address": {
+        "club": "Padel Club Maputo",
+        "road": "Rua 3.896",
+        "neighbourhood": "Polana Cani\u00e7o \"B\"",
+        "city_district": "Distrito Municipal de KaMaxakeni",
+        "city": "Cidade de Maputo",
+        "ISO3166-2-lvl4": "MZ-MPM",
+        "region": "Zona Sul",
+        "postcode": "0103-07",
+        "country": "Mo\u00e7ambique",
+        "country_code": "mz"
+      }
+    },
+    "_source": "nominatim-search"
+  },
+  "ZA": {
+    "type": "way",
+    "id": 1266919001,
+    "lat": -33.908555,
+    "lon": 18.4140381,
+    "tags": {
+      "name": "Africa Padel V&A",
+      "fee": "yes",
+      "sport": "padel",
+      "access": "customers",
+      "indoor": "no",
+      "website": "https://www.africapadel.com/",
+      "addr:street": "Portswood Road",
+      "addr:city": "Cape Town",
+      "addr:country": "ZA"
+    },
+    "_nominatim": {
+      "display_name": "Africa Padel V&A, Portswood Road, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8005, South Africa",
+      "address": {
+        "leisure": "Africa Padel V&A",
+        "road": "Portswood Road",
+        "suburb": "Cape Town Ward 115",
+        "city": "Cape Town",
+        "county": "City of Cape Town",
+        "state": "Western Cape",
+        "ISO3166-2-lvl4": "ZA-WC",
+        "postcode": "8005",
+        "country": "South Africa",
+        "country_code": "za"
+      }
+    },
+    "_source": "nominatim-search"
+  },
+  "AO": {
+    "type": "way",
+    "id": 1333292737,
+    "lat": -8.9103168,
+    "lon": 13.2023357,
+    "tags": {
+      "name": "Clube de Padel de Angola (CPA)",
+      "sport": "padel",
+      "website": "https://www.instagram.com/cpa_clube_padel_angola/",
+      "addr:street": "Rua Reino do Bailundo",
+      "addr:city": "Talatona",
+      "addr:country": "AO"
+    },
+    "_nominatim": {
+      "display_name": "Clube de Padel de Angola (CPA), Rua Reino do Bailundo, Talatona, Munic\u00edpio do Talatona, Luanda, Angola",
+      "address": {
+        "leisure": "Clube de Padel de Angola (CPA)",
+        "road": "Rua Reino do Bailundo",
+        "suburb": "Talatona",
+        "county": "Munic\u00edpio do Talatona",
+        "state": "Luanda",
+        "ISO3166-2-lvl4": "AO-LUA",
+        "country": "Angola",
+        "country_code": "ao"
+      }
+    },
+    "_source": "nominatim-search"
+  },
+  "CI": {
+    "type": "node",
+    "id": 12650488436,
+    "lat": 5.2735422,
+    "lon": -3.9745183,
+    "tags": {
+      "name": "Ace padel",
+      "sport": "padel",
+      "addr:street": "Rue Yves Mankambou",
+      "addr:city": "Marcory",
+      "addr:country": "CI"
+    },
+    "_nominatim": {
+      "display_name": "Ace padel, Rue Yves Mankambou, Les Grands Moulins, Ancien Koumassi, Marcory, Abia-Abety, Abidjan, C\u00f4te d\u2019Ivoire",
+      "address": {
+        "leisure": "Ace padel",
+        "road": "Rue Yves Mankambou",
+        "neighbourhood": "Les Grands Moulins",
+        "quarter": "Ancien Koumassi",
+        "suburb": "Marcory",
+        "village": "Abia-Abety",
+        "state": "Abidjan",
+        "ISO3166-2-lvl4": "CI-AB",
+        "country": "C\u00f4te d\u2019Ivoire",
+        "country_code": "ci"
+      }
+    },
+    "_source": "nominatim-search"
+  },
+  "MA": {
+    "type": "node",
+    "id": 13300140471,
+    "lat": 30.4196084,
+    "lon": -9.5784152,
+    "tags": {
+      "access": "customers",
+      "addr:city": "Agadir",
+      "addr:postcode": "80000",
+      "addr:street": "Rue Ibn Al Arabi",
+      "fee": "yes",
+      "image": "https://harriahola.kuvat.fi/kuvat/Morocco+\u2013+Marokko/Agadir/Padel+Factoryn+kent\u00e4t.jpg",
+      "leisure": "pitch",
+      "lit": "yes",
+      "name": "Padel Factory",
+      "payment:contactless": "yes",
+      "sport": "padel",
+      "addr:state": "Souss-Massa \u2d59\u2d53\u2d59\u2d59-\u2d4e\u2d30\u2d59\u2d59\u2d30 \u0633\u0648\u0633-\u0645\u0627\u0633\u0629",
+      "addr:country": "MA"
+    },
+    "_source": "overpass",
+    "_nominatim": {
+      "display_name": "Padel Factory, Rue Ibn Al Arabi, \u0627\u0644\u062d\u064a \u0627\u0644\u0635\u0646\u0627\u0639\u064a, Amsernate \u2d30\u2d4e\u2d59\u2d30\u2d54\u2d4f\u2d30\u2d5c \u0623\u0645\u0633\u0631\u0646\u0627\u062a, Agadir \u2d30\u2d33\u2d30\u2d37\u2d49\u2d54 \u0623\u0643\u0627\u062f\u064a\u0631, Pachalik d'Agadir \u2d4d\u2d31\u2d30\u2d5b\u2d30\u2d61\u2d49\u2d62\u2d30 \u2d4f \u2d30\u2d33\u2d30\u2d37\u2d49\u2d54 \u0628\u0627\u0634\u0648\u064a\u0629 \u0623\u0643\u0627\u062f\u064a\u0631, Pr\u00e9fecture d'Agadir Ida-Outanane \u2d4d\u2d44\u2d30\u2d4e\u2d30\u2d4d\u2d30 \u2d4f \u2d30\u2d33\u2d30\u2d37\u2d49\u2d54 \u2d49\u2d37\u2d30 \u2d61\u2d5c\u2d30\u2d4f\u2d30\u2d4f \u0639\u0645\u0627\u0644\u0629 \u0623\u0643\u0627\u062f\u064a\u0631 \u0625\u062f\u0627 \u0648\u062a\u0646\u0627\u0646, Souss-Massa \u2d59\u2d53\u2d59\u2d59-\u2d4e\u2d30\u2d59\u2d59\u2d30 \u0633\u0648\u0633-\u0645\u0627\u0633\u0629, 80000, Maroc \u2d4d\u2d4e\u2d56\u2d54\u2d49\u2d31 \u0627\u0644\u0645\u063a\u0631\u0628",
+      "address": {
+        "leisure": "Padel Factory",
+        "road": "Rue Ibn Al Arabi",
+        "industrial": "\u0627\u0644\u062d\u064a \u0627\u0644\u0635\u0646\u0627\u0639\u064a",
+        "suburb": "Amsernate \u2d30\u2d4e\u2d59\u2d30\u2d54\u2d4f\u2d30\u2d5c \u0623\u0645\u0633\u0631\u0646\u0627\u062a",
+        "city": "Agadir \u2d30\u2d33\u2d30\u2d37\u2d49\u2d54 \u0623\u0643\u0627\u062f\u064a\u0631",
+        "county": "Pachalik d'Agadir \u2d4d\u2d31\u2d30\u2d5b\u2d30\u2d61\u2d49\u2d62\u2d30 \u2d4f \u2d30\u2d33\u2d30\u2d37\u2d49\u2d54 \u0628\u0627\u0634\u0648\u064a\u0629 \u0623\u0643\u0627\u062f\u064a\u0631",
+        "state_district": "Pr\u00e9fecture d'Agadir Ida-Outanane \u2d4d\u2d44\u2d30\u2d4e\u2d30\u2d4d\u2d30 \u2d4f \u2d30\u2d33\u2d30\u2d37\u2d49\u2d54 \u2d49\u2d37\u2d30 \u2d61\u2d5c\u2d30\u2d4f\u2d30\u2d4f \u0639\u0645\u0627\u0644\u0629 \u0623\u0643\u0627\u062f\u064a\u0631 \u0625\u062f\u0627 \u0648\u062a\u0646\u0627\u0646",
+        "ISO3166-2-lvl5": "MA-AGD",
+        "state": "Souss-Massa \u2d59\u2d53\u2d59\u2d59-\u2d4e\u2d30\u2d59\u2d59\u2d30 \u0633\u0648\u0633-\u0645\u0627\u0633\u0629",
+        "ISO3166-2-lvl4": "MA-09",
+        "postcode": "80000",
+        "country": "Maroc \u2d4d\u2d4e\u2d56\u2d54\u2d49\u2d31 \u0627\u0644\u0645\u063a\u0631\u0628",
+        "country_code": "ma"
+      }
+    }
+  },
+  "TN": {
+    "type": "node",
+    "id": 14065918067,
+    "lat": 36.728518,
+    "lon": 10.2209549,
+    "tags": {
+      "leisure": "sports_centre",
+      "name": "Padel in Mourouj",
+      "phone": "+216 25 444 423",
+      "sport": "padel",
+      "addr:street": "RR36",
+      "addr:state": "\u0648\u0644\u0627\u064a\u0629 \u0628\u0646 \u0639\u0631\u0648\u0633",
+      "addr:country": "TN",
+      "addr:city": "Mourouj"
+    },
+    "_nominatim": {
+      "display_name": "\u0641\u0631\u062d\u0627\u062a \u062d\u0634\u0627\u062f, \u0645\u0639\u062a\u0645\u062f\u064a\u0629 \u0627\u0644\u0645\u0631\u0648\u062c, \u0648\u0644\u0627\u064a\u0629 \u0628\u0646 \u0639\u0631\u0648\u0633, 2059, \u062a\u0648\u0646\u0633",
+      "address": {
+        "county": "\u0641\u0631\u062d\u0627\u062a \u062d\u0634\u0627\u062f",
+        "state_district": "\u0645\u0639\u062a\u0645\u062f\u064a\u0629 \u0627\u0644\u0645\u0631\u0648\u062c",
+        "state": "\u0648\u0644\u0627\u064a\u0629 \u0628\u0646 \u0639\u0631\u0648\u0633",
+        "ISO3166-2-lvl4": "TN-13",
+        "postcode": "2059",
+        "country": "\u062a\u0648\u0646\u0633",
+        "country_code": "tn"
+      }
+    },
+    "_source": "overpass+reverse"
+  },
+  "NA": {
+    "type": "node",
+    "id": 12477757278,
+    "lat": -22.6463414,
+    "lon": 14.5266302,
+    "tags": {
+      "leisure": "pitch",
+      "lit": "yes",
+      "name": "Namibia Padel",
+      "sport": "padel",
+      "addr:street": "Tsavorite Street",
+      "addr:city": "Swakopmund",
+      "addr:state": "Erongo Region",
+      "addr:country": "NA"
+    },
+    "_nominatim": {
+      "display_name": "Namibia Padel, Tsavorite Street, Hage Heights, Swakopmund, Erongo Region, 13004, Namibia",
+      "address": {
+        "leisure": "Namibia Padel",
+        "road": "Tsavorite Street",
+        "suburb": "Hage Heights",
+        "city": "Swakopmund",
+        "state": "Erongo Region",
+        "ISO3166-2-lvl4": "NA-ER",
+        "postcode": "13004",
+        "country": "Namibia",
+        "country_code": "na"
+      }
+    },
+    "_source": "overpass+reverse"
+  },
+  "KE": {
+    "type": "way",
+    "id": 1317470888,
+    "lat": -1.2327661,
+    "lon": 36.8066719,
+    "tags": {
+      "name": "Pulse Padel Gigiri",
+      "building": "sports_hall",
+      "addr:street": "UN Close",
+      "addr:city": "Nairobi",
+      "addr:country": "KE"
+    },
+    "_nominatim": {
+      "display_name": "Pulse Padel Gigiri, UN Close, Karura sublocation, Highridge location, Highridge division, Westlands, Nairobi, 00601, Kenya",
+      "address": {
+        "building": "Pulse Padel Gigiri",
+        "road": "UN Close",
+        "city_block": "Karura sublocation",
+        "neighbourhood": "Highridge location",
+        "suburb": "Highridge division",
+        "city_district": "Westlands",
+        "city": "Nairobi",
+        "state": "Nairobi",
+        "ISO3166-2-lvl4": "KE-30",
+        "postcode": "00601",
+        "country": "Kenya",
+        "country_code": "ke"
+      }
+    },
+    "_source": "nominatim-search"
+  },
+  "TZ": {
+    "type": "node",
+    "id": 13937004559,
+    "lat": -6.7586067,
+    "lon": 39.2748089,
+    "tags": {
+      "name": "Padel Sports Africa",
+      "sport": "paddle_tennis",
+      "covered": "yes",
+      "addr:street": "Kimweri Avenue",
+      "addr:city": "Dar es Salaam",
+      "addr:country": "TZ"
+    },
+    "_nominatim": {
+      "display_name": "Padel Sports Africa, Kimweri Avenue, Hillview Apartments, Msasani Peninsula, Oysterbay, Kinondoni Municipal, Dar es Salaam, Coastal Zone, 23083, Tanzania",
+      "address": {
+        "leisure": "Padel Sports Africa",
+        "road": "Kimweri Avenue",
+        "neighbourhood": "Hillview Apartments",
+        "suburb": "Msasani Peninsula",
+        "city_district": "Kinondoni Municipal",
+        "city": "Dar es Salaam",
+        "ISO3166-2-lvl4": "TZ-02",
+        "region": "Coastal Zone",
+        "postcode": "23083",
+        "country": "Tanzania",
+        "country_code": "tz"
+      }
+    },
+    "_source": "nominatim-search"
+  },
+  "EG": {
+    "type": "way",
+    "id": 1233805697,
+    "center": {
+      "lat": 30.0830893,
+      "lon": 31.5016151
+    },
+    "tags": {
+      "leisure": "sports_centre",
+      "name": "Neon Padel",
+      "sport": "tennis",
+      "addr:street": "\u0637\u0631\u064a\u0642 \u0627\u0644\u0642\u0627\u0647\u0631\u0629, \u0627\u0644\u0633\u0648\u064a\u0633",
+      "addr:city": "Cairo",
+      "addr:state": "\u0627\u0644\u0642\u0627\u0647\u0631\u0629",
+      "addr:country": "EG"
+    },
+    "_nominatim": {
+      "display_name": "Neon Padel, \u0637\u0631\u064a\u0642 \u0627\u0644\u0642\u0627\u0647\u0631\u0629, \u0627\u0644\u0633\u0648\u064a\u0633, \u0627\u0644\u062a\u062c\u0645\u0639 \u0627\u0644\u0623\u0648\u0644, \u0627\u0644\u0642\u0627\u0647\u0631\u0629, 11841, \u0645\u0635\u0631",
+      "address": {
+        "leisure": "Neon Padel",
+        "road": "\u0637\u0631\u064a\u0642 \u0627\u0644\u0642\u0627\u0647\u0631\u0629, \u0627\u0644\u0633\u0648\u064a\u0633",
+        "village": "\u0627\u0644\u062a\u062c\u0645\u0639 \u0627\u0644\u0623\u0648\u0644",
+        "city": "\u0627\u0644\u0642\u0627\u0647\u0631\u0629",
+        "state": "\u0627\u0644\u0642\u0627\u0647\u0631\u0629",
+        "ISO3166-2-lvl4": "EG-C",
+        "postcode": "11841",
+        "country": "\u0645\u0635\u0631",
+        "country_code": "eg"
+      }
+    },
+    "_source": "overpass+reverse"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "Ethiopia",
+  "iso3": "ETH",
+  "countryCode": "ET",
+  "verifiedEntityCount": 0,
+  "verifiedActiveVenueCount": 0,
+  "verifiedFederationCount": 0,
+  "verifiedLeagueOrCompetitionCount": 0,
+  "verifiedCityCount": 0,
+  "lastVerifiedUtc": "2026-09-22",
+  "timeCapMinutes": 5,
+  "conclusion": "Zero verifiable active (playable) padel venues found; launching-only evidence was not seeded as Active.",
+  "seededListingIds": [],
+  "notes": [
+    "Addis Padel Club August 2025 sales hiring describes a launching premium facility — no first-party booking page, court count, or open-hours confirmation within the cap",
+    "Addis Ababa Golf Club (Mauritania Street / Lideta) is a mapped golf course; padel on that site was not independently verified as open",
+    "Directory shells (Padel Frens Ethiopia) list the country without naming a bookable court",
+    "No FIP Ethiopia federation or African Padel Confederation tournament surfaced within the cap — re-audit when a first-party open venue is published"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "Lesotho",
+  "iso3": "LSO",
+  "countryCode": "LS",
+  "verifiedEntityCount": 0,
+  "verifiedActiveVenueCount": 0,
+  "verifiedFederationCount": 0,
+  "verifiedLeagueOrCompetitionCount": 0,
+  "verifiedCityCount": 0,
+  "lastVerifiedUtc": "2026-09-22",
+  "timeCapMinutes": 5,
+  "conclusion": "Zero verifiable named padel clubs, venues, federations, leagues or competitions found; no entity rows were invented.",
+  "seededListingIds": [],
+  "notes": [
+    "Padel Without Borders describes emerging/private potential in Maseru without naming a bookable court",
+    "No FIP Lesotho federation or APC tournament surfaced within the cap"
+  ]
+}

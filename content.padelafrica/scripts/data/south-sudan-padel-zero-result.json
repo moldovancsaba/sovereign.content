@@ -1,0 +1,19 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "South Sudan",
+  "iso3": "SSD",
+  "countryCode": "SS",
+  "verifiedEntityCount": 0,
+  "verifiedActiveVenueCount": 0,
+  "verifiedFederationCount": 0,
+  "verifiedLeagueOrCompetitionCount": 0,
+  "verifiedCityCount": 0,
+  "lastVerifiedUtc": "2026-09-22",
+  "timeCapMinutes": 5,
+  "conclusion": "Zero verifiable named padel clubs, venues, federations, leagues or competitions found; no entity rows were invented.",
+  "seededListingIds": [],
+  "notes": [
+    "No named Juba padel court or booking page verified within the cap",
+    "Grab Padel Club Southsum appears to be a workplace social group, not a public venue"
+  ]
+}

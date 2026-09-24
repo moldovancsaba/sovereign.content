@@ -1,0 +1,21 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "Eritrea",
+  "iso3": "ERI",
+  "countryCode": "ER",
+  "verifiedEntityCount": 0,
+  "verifiedActiveVenueCount": 0,
+  "verifiedFederationCount": 0,
+  "verifiedLeagueOrCompetitionCount": 0,
+  "verifiedCityCount": 0,
+  "lastVerifiedUtc": "2026-09-22",
+  "timeCapMinutes": 5,
+  "conclusion": "Zero verifiable Eritrea padel clubs, venues, federations, leagues or competitions found; no entity rows were invented.",
+  "seededListingIds": [],
+  "notes": [
+    "Reclub hits for ADUH! Padel Club and Panah Asmara Padel Club use Indonesian organisers and Bahasa copy — false positives on the word Asmara, not Eritrea venues",
+    "Padel Without Borders describes Eritrea as without a visible court network or federation structure",
+    "GoAfricaOnline generic racket-sport boilerplate for Asmara does not name a verifiable padel club",
+    "No FIP Eritrea federation or African Padel Confederation tournament surfaced within the cap"
+  ]
+}

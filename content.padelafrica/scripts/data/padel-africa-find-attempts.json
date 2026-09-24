@@ -1,0 +1,251 @@
+{
+  "updatedAt": "2026-09-24T21:17:16.882Z",
+  "attempts": [
+    {
+      "cc": "CF",
+      "city": "Bangui",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "TD",
+      "city": "N'Djamena",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "KM",
+      "city": "Moroni",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "ER",
+      "city": "Asmara",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "GW",
+      "city": "Bissau",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "LS",
+      "city": "Maseru",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "LR",
+      "city": "Monrovia",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "ML",
+      "city": "Bamako",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "NE",
+      "city": "Niamey",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "SS",
+      "city": "Juba",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "SD",
+      "city": "Khartoum",
+      "at": "2026-09-22T12:00:00.000Z",
+      "outcome": "zero-result"
+    },
+    {
+      "cc": "ST",
+      "city": "São Tomé",
+      "outcome": "zero-result",
+      "at": "2026-09-24T09:42:02.233Z"
+    },
+    {
+      "cc": "KE",
+      "city": "Mombasa",
+      "outcome": "seeded",
+      "at": "2026-09-24T09:43:04.311Z"
+    },
+    {
+      "cc": "BJ",
+      "city": "Porto-Novo",
+      "outcome": "zero-result",
+      "at": "2026-09-24T10:00:44.053Z"
+    },
+    {
+      "cc": "GH",
+      "city": "Kumasi",
+      "outcome": "zero-result",
+      "at": "2026-09-24T10:01:28.611Z"
+    },
+    {
+      "cc": "GN",
+      "city": "Kindia",
+      "outcome": "zero-result",
+      "at": "2026-09-24T10:15:42.809Z"
+    },
+    {
+      "cc": "MR",
+      "city": "Nouadhibou",
+      "outcome": "zero-result",
+      "at": "2026-09-24T10:30:52.853Z"
+    },
+    {
+      "cc": "BI",
+      "city": "Gitega",
+      "outcome": "zero-result",
+      "at": "2026-09-24T10:45:52.791Z"
+    },
+    {
+      "cc": "DJ",
+      "city": "Djibouti City",
+      "outcome": "zero-result",
+      "at": "2026-09-24T11:00:49.837Z"
+    },
+    {
+      "cc": "EG",
+      "city": "Giza",
+      "outcome": "seeded",
+      "at": "2026-09-24T11:42:36.299Z"
+    },
+    {
+      "cc": "EG",
+      "city": "Hurghada",
+      "outcome": "seeded",
+      "at": "2026-09-24T12:10:08.966Z"
+    },
+    {
+      "cc": "EG",
+      "city": "Sharm El Sheikh",
+      "outcome": "seeded",
+      "at": "2026-09-24T13:17:34.549Z"
+    },
+    {
+      "cc": "CI",
+      "city": "Yamoussoukro",
+      "outcome": "zero-result",
+      "at": "2026-09-24T14:10:02.649Z"
+    },
+    {
+      "cc": "CI",
+      "city": "Bouaké",
+      "outcome": "zero-result",
+      "at": "2026-09-24T14:10:15.626Z"
+    },
+    {
+      "cc": "CI",
+      "city": "San-Pédro",
+      "outcome": "zero-result",
+      "at": "2026-09-24T14:10:16.140Z"
+    },
+    {
+      "cc": "GH",
+      "city": "Tema",
+      "outcome": "zero-result",
+      "at": "2026-09-24T14:10:31.809Z"
+    },
+    {
+      "cc": "GH",
+      "city": "Cape Coast",
+      "outcome": "zero-result",
+      "at": "2026-09-24T14:10:47.039Z"
+    },
+    {
+      "cc": "NG",
+      "city": "Abuja",
+      "outcome": "seeded",
+      "at": "2026-09-24T14:11:11.115Z"
+    },
+    {
+      "cc": "NG",
+      "city": "Port Harcourt",
+      "outcome": "zero-result",
+      "at": "2026-09-24T14:29:16.998Z"
+    },
+    {
+      "cc": "ET",
+      "city": "Dire Dawa",
+      "outcome": "zero-result",
+      "at": "2026-09-24T14:29:17.530Z"
+    },
+    {
+      "cc": "NG",
+      "city": "Owerri",
+      "outcome": "seeded",
+      "at": "2026-09-24T14:29:49.353Z"
+    },
+    {
+      "cc": "NG",
+      "city": "Ibadan",
+      "outcome": "seeded",
+      "at": "2026-09-24T14:47:56.651Z"
+    },
+    {
+      "cc": "NG",
+      "city": "Kano",
+      "outcome": "seeded",
+      "at": "2026-09-24T16:06:58.914Z"
+    },
+    {
+      "cc": "AO",
+      "city": "Benguela",
+      "outcome": "zero-result",
+      "at": "2026-09-24T17:11:26.694Z"
+    },
+    {
+      "cc": "AO",
+      "city": "Lobito",
+      "outcome": "zero-result",
+      "at": "2026-09-24T17:12:14.631Z"
+    },
+    {
+      "cc": "AO",
+      "city": "Lubango",
+      "outcome": "seeded",
+      "at": "2026-09-24T17:13:00.922Z"
+    },
+    {
+      "cc": "KE",
+      "city": "Kisumu",
+      "outcome": "zero-result",
+      "at": "2026-09-24T18:13:01.134Z"
+    },
+    {
+      "cc": "KE",
+      "city": "Nakuru",
+      "outcome": "seeded",
+      "at": "2026-09-24T19:17:39.808Z"
+    },
+    {
+      "cc": "MU",
+      "city": "Flic en Flac",
+      "outcome": "seeded",
+      "at": "2026-09-24T20:20:06.096Z"
+    },
+    {
+      "cc": "MU",
+      "city": "Flic en Flac",
+      "outcome": "zero-result",
+      "at": "2026-09-24T21:16:20.881Z"
+    },
+    {
+      "cc": "ZA",
+      "city": "Durban",
+      "outcome": "seeded",
+      "at": "2026-09-24T21:17:16.882Z"
+    }
+  ]
+}

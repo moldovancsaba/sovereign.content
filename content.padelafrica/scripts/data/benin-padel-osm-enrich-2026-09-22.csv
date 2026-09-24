@@ -1,0 +1,2 @@
+record_kind,country,iso3,outcome,osm_listing_id,last_verified_utc,notes
+country_audit_summary,Benin,BEN,osm_enrich_only,osm-node-13440135409,2026-09-22,No additional named Active venues beyond OSM Cotonou Padel Club verified within the cap; contacts enriched from club Carrd/Doinsport/Padel Lands
