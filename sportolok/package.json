@@ -1,0 +1,46 @@
+{
+  "name": "@sovereign/sportolok",
+  "version": "1.0.0",
+  "description": "Sovereign content agent for sportolok vertical",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "catalog:self-heal": "npx tsx scripts/catalog-self-heal.mts",
+    "catalog:self-heal-smart": "npx tsx scripts/catalog-self-heal-smart.mts",
+    "catalog:media-curate": "npx tsx scripts/catalog-media-curate.mts",
+    "catalog:about-curate": "npx tsx scripts/catalog-about-curate.mts",
+    "catalog:quality-improve": "npx tsx scripts/catalog-quality-improve.mts",
+    "catalog:quality-loop": "npx tsx scripts/catalog-quality-loop.mts",
+    "catalog:autopilot": "npx tsx scripts/catalog-autopilot.mts",
+    "catalog:hygiene": "npx tsx scripts/catalog-hygiene.mts",
+    "catalog:find": "npx tsx scripts/catalog-find.mts",
+    "catalog:image-audit": "npx tsx scripts/catalog-image-audit.ts",
+    "catalog:image-backfill": "npx tsx scripts/catalog-image-backfill.ts",
+    "catalog:image-remediate": "npx tsx scripts/catalog-image-remediate.ts",
+    "catalog:quarantine-by-id": "npx tsx scripts/catalog-quarantine-by-id.ts",
+    "catalog:quarantine-outside-territory": "npx tsx scripts/catalog-quarantine-outside-territory.ts",
+    "catalog:quarantine-empty-images": "npx tsx scripts/catalog-quarantine-empty-images.ts",
+    "catalog:quarantine-explicit": "npx tsx scripts/catalog-quarantine-explicit.ts",
+    "catalog:remediation-report": "npx tsx scripts/catalog-remediation-report.ts",
+    "catalog:sweep-description-chrome": "npx tsx scripts/catalog-sweep-description-chrome.ts",
+    "catalog:sweep-inappropriate": "npx tsx scripts/catalog-sweep-inappropriate.ts",
+    "catalog:watchdog": "npx tsx scripts/catalog-watchdog.ts",
+    "seed:lessons": "npx tsx scripts/seed-quality-lessons.mts",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "mongodb": "^6.11.0",
+    "zod": "^3.23.8",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "typescript": "^5.7.3",
+    "tsx": "^4.19.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
