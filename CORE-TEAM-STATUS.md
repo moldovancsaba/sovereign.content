@@ -29,3 +29,6 @@ Full list: [`content.sportolok/MIGRATION-FROM-MANAGEMENT.md`](./content.sportolo
 ## Confirm
 
 When you have reconciled `release/sportolok`, close the loop with us. Agent ownership is **`sovereign.content/content.<client>/`**.
+
+**Maturity snapshot** (forever / scripts / cutover vs ClassScout workflow):
+[`CLIENT-FOLDER-COMPARISON.md`](./CLIENT-FOLDER-COMPARISON.md).
