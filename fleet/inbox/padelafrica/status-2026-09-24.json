@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-24T20:20:33Z",
+  "observedAt": "2026-09-24T21:17:23Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -15,13 +15,14 @@
   },
   "outcomes": {
     "findSeeded": 1,
-    "findZeroResult": 0,
-    "findCell": { "cc": "MU", "city": "Flic en Flac", "outcome": "seeded", "listingId": "research-mus-ven-002" },
+    "findZeroResult": 1,
+    "findCellSeeded": { "cc": "ZA", "city": "Durban", "outcome": "seeded", "listingId": "research-zaf-ven-004" },
+    "findCellZeroResult": { "cc": "MU", "city": "Flic en Flac", "outcome": "zero-result", "note": "second_pass_no_new_in_town_venue" },
     "aboutDebtOpen": 0,
     "researchDebtOpen": 0,
     "hitlBacklog": 0,
-    "publishedTotal": 170,
-    "mediaAppliedThisTick": 9,
+    "publishedTotal": 171,
+    "mediaAppliedThisTick": 4,
     "mediaHostPrimary": "r2",
     "settledEmptyQualityTick": true,
     "qualityScoreAlreadyGood": 100
@@ -29,7 +30,6 @@
   "openDebt": [],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/RULES.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/CLIENT-COMPARISON.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/AGENTS.md"
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/CLIENT-COMPARISON.md"
   ]
 }
