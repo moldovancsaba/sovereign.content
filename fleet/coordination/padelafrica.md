@@ -25,7 +25,7 @@ Keep FIND/quality ticks honest; **refresh inbox status every tick**; start closi
 - [x] Management-core separation: copy agent code → `content.padelafrica/`; quarantine Mongo; publish `MIGRATION-FROM-MANAGEMENT.md` + `STATUS-FOR-CORE.md` (`83e3a9c`)
 - [ ] Await core reconcile of `release/padel-africa` (delete §A + revert §B incl. `verticals/sportolok/index.ts`)
 - [ ] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — blocked on `INGEST_API_KEY` in Cloud Agent env
-- [ ] Live-apply pending fixtures via ingest (`ZAF-VEN-005` The Net Social Club Pretoria)
+- [ ] Live-apply pending fixtures via ingest (`ZAF-VEN-005` The Net Social Club Pretoria; `ZAF-VEN-006` ClubPadel Stellenbosch)
 - [ ] Day-2 + day-3 inbox status (build toward 3 consecutive days)
 
 ---
@@ -61,3 +61,12 @@ Do **not** claim ingest-only reality until `writesPath` is ingest.
 **Timer drift:** delivered prompt had reverted to old Mongo CLI list; re-subscribed ingest/quarantine prompt.  
 
 **Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-24.json` (`writesPath: fixture_only_mongo_quarantined`, `hitlBacklog: 0`). aboutDebt/publishedTotal omitted (no Mongo read).
+
+### 2026-09-24 — padelafrica (tick ~23:03 UTC)
+
+**Skipped** management Mongo `catalog:*`. Quality: ingest stub dry-run; **`INGEST_API_KEY` still missing**.  
+
+**FIND:** Stellenbosch deepen — fixture **`ZAF-VEN-006` ClubPadel Stellenbosch** (clubpadel.co.za locations+contact + Playtomic); fixture-only, pending ingest. Pending live apply: `ZAF-VEN-005`, `ZAF-VEN-006`.  
+
+**Timer:** ingest/quarantine prompt confirmed subscribed. HiTL none. Inbox refreshed.
+

@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-24T22:15:14Z",
+  "observedAt": "2026-09-24T23:04:43Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -18,25 +18,26 @@
     "findLiveMongoApply": 0,
     "findCell": {
       "cc": "ZA",
-      "city": "Pretoria",
+      "city": "Stellenbosch",
       "outcome": "seeded_fixture_pending_ingest",
-      "recordId": "ZAF-VEN-005",
-      "name": "The Net Social Club"
+      "recordId": "ZAF-VEN-006",
+      "name": "ClubPadel Stellenbosch"
     },
-    "aboutDebtOpen": null,
-    "researchDebtOpen": null,
+    "pendingIngestFixtures": ["ZAF-VEN-005", "ZAF-VEN-006"],
     "hitlBacklog": 0,
+    "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "aboutDebt/publishedTotal omitted — no Mongo read from agent home this tick"
+    "note": "aboutDebt/publishedTotal omitted — no Mongo read from agent home"
   },
   "openDebt": [
     "INGEST_API_KEY_missing",
+    "live_apply_ZAF-VEN-005_via_ingest",
+    "live_apply_ZAF-VEN-006_via_ingest",
     "ingest_backed_quality_loop_full_rewrite",
-    "core_reconcile_release_padel_africa",
-    "live_apply_ZAF-VEN-005_via_ingest"
+    "core_reconcile_release_padel_africa"
   ],
   "links": [
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/STATUS-FOR-CORE.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/padelafrica.md"
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/padelafrica.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/STATUS-FOR-CORE.md"
   ]
 }
