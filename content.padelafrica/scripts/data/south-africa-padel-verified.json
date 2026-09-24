@@ -97,5 +97,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-24",
     "researchNotes": "FIND until-found deepen_large tick 2026-09-24 (Durban). Not in excludeNames. Phone +27 87 820 5544 / info@padelnation.co.za from padelnation.co.za contact; street pin Nominatim Durban Country Club."
+  },
+  {
+    "recordId": "ZAF-VEN-005",
+    "name": "The Net Social Club",
+    "city": "Pretoria",
+    "region": "Gauteng",
+    "countryCode": "ZA",
+    "line1": "438 Mackenzie Street, Menlo Park",
+    "lat": -25.7693177,
+    "lng": 28.2579186,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Mackenzie Street Menlo Park residential way centroid — club lists 438 Mackenzie St",
+    "website": "https://netpadel.co.za/",
+    "phone": "+27 81 671 4995",
+    "email": "info@netpadel.co.za",
+    "venueModel": "own_premises",
+    "seasonNote": "Mon–Fri 05:00–22:00; Sat–Sun 06:00–22:00 (first-party)",
+    "description": "The Net Social Club is a Menlo Park Pretoria padel destination on Mackenzie Street with Playtomic booking, café and restaurant on site, and published phone and email on the operator site. A clear recommendation when you want Gauteng padel in Pretoria beyond Sandton sample clubs. Book ahead for evening courts.",
+    "primarySourceUrl": "https://netpadel.co.za/",
+    "secondarySourceUrl": "https://playtomic.com/clubs/the-net-social-club",
+    "sourceTypes": "The Net first-party (address+phone+email+hours); Playtomic club card",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-24",
+    "researchNotes": "FIND until-found deepen_large tick 2026-09-24 (Pretoria). Fixture written in content.padelafrica only — live Mongo apply deferred pending ingest (management quarantine). Not in excludeNames."
   }
 ]

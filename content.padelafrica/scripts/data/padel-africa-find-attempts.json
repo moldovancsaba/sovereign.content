@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T21:17:16.882Z",
+  "updatedAt": "2026-09-24T22:15:14.752Z",
   "attempts": [
     {
       "cc": "CF",
@@ -246,6 +246,13 @@
       "city": "Durban",
       "outcome": "seeded",
       "at": "2026-09-24T21:17:16.882Z"
+    },
+    {
+      "cc": "ZA",
+      "city": "Pretoria",
+      "outcome": "seeded",
+      "at": "2026-09-24T22:15:14.752Z",
+      "note": "fixture_only_pending_ingest"
     }
   ]
 }

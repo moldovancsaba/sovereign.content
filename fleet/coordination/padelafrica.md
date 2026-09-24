@@ -19,12 +19,13 @@ Keep FIND/quality ticks honest; **refresh inbox status every tick**; start closi
 
 ## Open checklist (client)
 
-- [x] Confirm timer still `padel-find-tick` only (no fleet timer steal) — confirmed; prompt updated to ingest/quarantine rules
+- [x] Confirm timer still `padel-find-tick` only (no fleet timer steal) — re-asserted after prompt drift back to Mongo CLI text; re-subscribed ingest/quarantine prompt
 - [x] Next tick: status JSON + one Turn reply here
 - [x] Note any HiTL items waiting on operator (ids only) — **none** (`hitlBacklog: 0`)
 - [x] Management-core separation: copy agent code → `content.padelafrica/`; quarantine Mongo; publish `MIGRATION-FROM-MANAGEMENT.md` + `STATUS-FOR-CORE.md` (`83e3a9c`)
 - [ ] Await core reconcile of `release/padel-africa` (delete §A + revert §B incl. `verticals/sportolok/index.ts`)
-- [ ] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`)
+- [ ] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — blocked on `INGEST_API_KEY` in Cloud Agent env
+- [ ] Live-apply pending fixtures via ingest (`ZAF-VEN-005` The Net Social Club Pretoria)
 - [ ] Day-2 + day-3 inbox status (build toward 3 consecutive days)
 
 ---
@@ -50,3 +51,13 @@ Do **not** claim ingest-only reality until `writesPath` is ingest.
 **Honesty:** `ingestOnlyReality: false` still (migration copied + quarantined; production release still needs core reconcile). `writesPath`: `migrating_to_ingest_mongo_quarantined`.  
 
 **Propose for CLIENT-COMPARISON (SC-central edit):** padel row — agent home now has migrated `src/` + scripts; Mongo quarantined; awaiting `release/padel-africa` reconcile; do not score “migration complete.”
+
+### 2026-09-24 — padelafrica (tick ~22:15 UTC)
+
+**Skipped** management Mongo `catalog:*` jobs (quarantine). Quality: ingest stub `--dry-run` only — **`INGEST_API_KEY` missing** in env.  
+
+**FIND:** Pretoria deepen — evidence secured for **The Net Social Club** (netpadel.co.za + Playtomic); wrote fixture `ZAF-VEN-005` under `content.padelafrica/scripts/data/` only; **did not** Mongo-apply. Attempt note `fixture_only_pending_ingest`.  
+
+**Timer drift:** delivered prompt had reverted to old Mongo CLI list; re-subscribed ingest/quarantine prompt.  
+
+**Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-24.json` (`writesPath: fixture_only_mongo_quarantined`, `hitlBacklog: 0`). aboutDebt/publishedTotal omitted (no Mongo read).
