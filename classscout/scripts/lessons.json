@@ -1,0 +1,1325 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-24T13:04:31.871Z",
+  "notes": "Lesson log for the catalog find+improve loop. Each lesson maps a real failure to an encoded gate or ops action. Extend when event classification finds a new repeated signature; do not invent contacts to 'fix' a lesson.",
+  "lessons": [
+    {
+      "id": "lesson-public-target-regions",
+      "incidentAt": "2026-09-20",
+      "summary": "SI/Queens/birthday upserts were invisible on public Find while runtime toggles hid those cells.",
+      "failureMode": "inventory_counted_as_public_win",
+      "encode": {
+        "tier": "B",
+        "actions": [
+          "Require publicTarget only for Manhattan/Brooklyn and Classes|Camps|Drop-In Activities",
+          "Exclude inventory-only upserts from find_public_new KPI"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-birthday-reclassify",
+      "incidentAt": "2026-09-20",
+      "summary": "Class finds mentioning birthday parties were reclassified to Birthday Parties and public-404'd.",
+      "failureMode": "reclassify_to_disabled_category",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Strip birthday marketing from Class find descriptions",
+          "reclassify-watch every cycle"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-false-street-address",
+      "incidentAt": "2026-09-21",
+      "summary": "Aqua-Tots national homepage yielded address fragment '15 minutes. Please'.",
+      "failureMode": "address_regex_false_positive",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Require leading street number + street-type token",
+          "Reject schedule words (minutes, hours, please, register)",
+          "Pause national homepage seeds without location URL",
+          "Fixture scripts/catalog-loop/fixtures/address/aqua-tots-false-street.html"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-aqua-tots-brooklyn"
+      ]
+    },
+    {
+      "id": "lesson-nanp-area-code",
+      "incidentAt": "2026-09-21",
+      "summary": "Extractor accepted invalid US phone with area code starting with 1.",
+      "failureMode": "invalid_e164_area",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Reject +1 numbers whose area code starts with 0 or 1",
+          "Fixture scripts/catalog-loop/fixtures/phone/invalid-area-code.html"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-activity-not-public",
+      "incidentAt": "2026-09-21",
+      "summary": "Diller-Quaile / PLAYDAY / A Rosie Day upserted OK but public GET 404 because Music/Art were config-disabled.",
+      "failureMode": "smoke_not_public_activity",
+      "encode": {
+        "tier": "B",
+        "actions": [
+          "Fetch /api/public/runtime-config once per cycle and LABEL a write lasting-public or inventory from it — never skip the upsert (superseded 2026-09-24, business-rules rule 441: produce everything evidenced, the client decides show/hide)",
+          "Report upserted and lasting-public smoke 200 separately; a client-hidden write is inventory, not a failed Find",
+          "Do not treat ingest ok alone as a public win; require smoke 200"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-a-rosie-day-williamsburg",
+        "prov-diller-quaile-school-of-music",
+        "prov-playday-cobble-hill",
+        "prov-playday-park-slope",
+        "prov-playday-ues",
+        "prov-playday-uws"
+      ]
+    },
+    {
+      "id": "lesson-dry-trial-improve",
+      "incidentAt": "2026-09-21",
+      "summary": "Improve cycles correctly applied 0 when trial blanks lacked published trial text.",
+      "failureMode": "improve_lane_exhausted",
+      "encode": {
+        "tier": "B",
+        "actions": [
+          "Treat to-apply 0 as healthy when scans ran",
+          "Improve lanes: trial, sessions, contacts, price, age (improve-cycle.cjs scheduler)"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-auto-britishswimschool-com-http_blocked",
+      "incidentAt": "2026-09-21",
+      "summary": "Auto-paused seeds on britishswimschool.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host britishswimschool.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-british-swim-school-brooklyn"
+      ]
+    },
+    {
+      "id": "lesson-auto-littlekickers-com-http_not_found",
+      "incidentAt": "2026-09-21",
+      "summary": "Auto-paused seeds on littlekickers.com after 3× http_not_found in 24h.",
+      "failureMode": "http_not_found",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host littlekickers.com",
+          "reason http_not_found"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-little-kickers-nyc"
+      ]
+    },
+    {
+      "id": "lesson-auto-skyzone-com-http_not_found",
+      "incidentAt": "2026-09-21",
+      "summary": "Auto-paused seeds on skyzone.com after 3× http_not_found in 24h.",
+      "failureMode": "http_not_found",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host skyzone.com",
+          "reason http_not_found"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-sky-zone-brooklyn"
+      ]
+    },
+    {
+      "id": "lesson-auto-wa-me-no_street_address",
+      "incidentAt": "2026-09-21",
+      "summary": "Auto-paused seeds on wa.me after 4× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host wa.me",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-mommy-poppins-ultimate-guide-to-crafts-for-kids-thousands-of-c"
+      ]
+    },
+    {
+      "id": "lesson-auto-92ny-org-no_street_address",
+      "incidentAt": "2026-09-21",
+      "summary": "Auto-paused seeds on 92ny.org after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host 92ny.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-92ny-kids-classes"
+      ]
+    },
+    {
+      "id": "lesson-auto-sportlsp-com-http_blocked",
+      "incidentAt": "2026-09-21",
+      "summary": "Auto-paused seeds on sportlsp.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host sportlsp.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-lsp-martial-arts-east-66th"
+      ]
+    },
+    {
+      "id": "lesson-auto-christinasdreamdance-com-no_street_address",
+      "incidentAt": "2026-09-21",
+      "summary": "Auto-paused seeds on christinasdreamdance.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host christinasdreamdance.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-christinas-dream-dance-brooklyn"
+      ]
+    },
+    {
+      "id": "lesson-auto-bax-org-http_blocked",
+      "incidentAt": "2026-09-21",
+      "summary": "Auto-paused seeds on bax.org after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host bax.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-bax-youth-park-slope"
+      ]
+    },
+    {
+      "id": "lesson-generated-image-enrichment",
+      "incidentAt": "2026-09-21",
+      "summary": "Find skipped publicTarget seeds with no_image even though the site shows generated listing art when provider photos are off.",
+      "failureMode": "no_image_hard_skip",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "When official page has no photograph, render listingBackgroundSvg at 1200x800 and upload via ingest",
+          "Emit find_image_fallback; continue upsert",
+          "Keep page photograph preferred when present"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-auto-commonpointqueens-org-http_blocked",
+      "incidentAt": "2026-09-21",
+      "summary": "Auto-paused seeds on commonpointqueens.org after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host commonpointqueens.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-rqk-commonpoint-queens-at-tanenbaum-family-pool"
+      ]
+    },
+    {
+      "id": "lesson-public-copy-no-urls",
+      "incidentAt": "2026-09-21",
+      "summary": "Fair-use/RQK seeds failed ingest with longDescription containing citation and official URLs.",
+      "failureMode": "ingest_reject_chrome",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Strip URLs/source lines via publicCopyHygiene before upsert",
+          "Seed builder keeps links only in researchSources/website",
+          "Tier A pauses hosts after 3x ingest_reject_chrome"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-no-martial-arts-default",
+      "incidentAt": "2026-09-21",
+      "summary": "mapActivityTypes defaulted unknown leads to Martial Arts (Sprout events).",
+      "failureMode": "no_activity_mapped",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Return empty activity list when unmapped",
+          "Reject seed with no_activity_mapped",
+          "Never invent a default activity tag"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-reject-one-off-events",
+      "incidentAt": "2026-09-21",
+      "summary": "Sprout/Mommy Poppins event and guide pages entered the provider seed queue.",
+      "failureMode": "one_off_event",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "leadQuality rejects /event/ and festival-like names",
+          "Reject guide_or_hub_name and out_of_market",
+          "deadHubPatterns drops Timeout/PSP 404 hubs"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-fair-use-events-ssot",
+      "incidentAt": "2026-09-21",
+      "summary": "Fair-use rejects lived only in rqk-fair-use/state.json so rollup/Tier A never saw them.",
+      "failureMode": "unobserved_discovery_failures",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Emit fair_use_attempt|reject|seed into events.jsonl",
+          "quality-rollup fair_use_funnel fields",
+          "Document in catalog-loop-error-playbook.md"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-auto-fair-use-sprout-one_off_event",
+      "incidentAt": "2026-09-21",
+      "summary": "Fair-use source sprout hit 6× one_off_event in 24h — tighten harvest / dead-hub list.",
+      "failureMode": "one_off_event",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Review sprout discovery/queue patterns",
+          "Ensure deadHubPatterns.cjs covers repeated 404 hubs",
+          "Reject one_off_event at leadQuality before seed append"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-auto-fair-use-mommy-poppins-one_off_event",
+      "incidentAt": "2026-09-21",
+      "summary": "Fair-use source mommy-poppins hit 3× one_off_event in 24h — tighten harvest / dead-hub list.",
+      "failureMode": "one_off_event",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Review mommy-poppins discovery/queue patterns",
+          "Ensure deadHubPatterns.cjs covers repeated 404 hubs",
+          "Reject one_off_event at leadQuality before seed append"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-auto-fair-use-mommy-poppins-guide_or_hub_name",
+      "incidentAt": "2026-09-22",
+      "summary": "Fair-use source mommy-poppins hit 3× guide_or_hub_name in 24h — tighten harvest / dead-hub list.",
+      "failureMode": "guide_or_hub_name",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Review mommy-poppins discovery/queue patterns",
+          "Ensure deadHubPatterns.cjs covers repeated 404 hubs",
+          "Reject guide_or_hub_name at leadQuality before seed append"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-auto-dancewithmissrachel-com-ingest_reject_chrome",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on dancewithmissrachel.com after 4× ingest_reject_chrome in 24h.",
+      "failureMode": "ingest_reject_chrome",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host dancewithmissrachel.com",
+          "reason ingest_reject_chrome"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-dance-with-miss-rachel"
+      ]
+    },
+    {
+      "id": "lesson-auto-hisawyer-com-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on hisawyer.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host hisawyer.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-tiny-tunes-studio-brooklyn-crossing"
+      ]
+    },
+    {
+      "id": "lesson-auto-soccerstars-com-ingest_reject_chrome",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on soccerstars.com after 3× ingest_reject_chrome in 24h.",
+      "failureMode": "ingest_reject_chrome",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host soccerstars.com",
+          "reason ingest_reject_chrome"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-super-soccer-stars-ues"
+      ]
+    },
+    {
+      "id": "lesson-auto-brooklynballet-org-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on brooklynballet.org after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host brooklynballet.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-brooklyn-ballet-school"
+      ]
+    },
+    {
+      "id": "lesson-improve-recommendation-self-improvement",
+      "incidentAt": "2026-09-22",
+      "summary": "Improve rotated oldest blanks and lessons encoded Find skips, but live cards had no durable recommendation records for Improve to prioritize and close.",
+      "failureMode": "no_recommendation_feedback_loop",
+      "encode": {
+        "tier": "B",
+        "actions": [
+          "recommend-improve opens only bad_address/blank_contacts; soft blanks use oldest-blank Improve",
+          "settle resolved/resolved_priority/soft_deferred/progress/exhausted",
+          "do not reopen resolved or exhausted on soft blanks alone"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": []
+    },
+    {
+      "id": "lesson-auto-entertainmentcalendar-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on entertainmentcalendar.com after 4× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host entertainmentcalendar.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-kids-out-and-about-queens-summer-camps-for-ages-9-12"
+      ]
+    },
+    {
+      "id": "lesson-auto-esscp-org-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on esscp.org after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host esscp.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-eckford-street-studio"
+      ]
+    },
+    {
+      "id": "lesson-auto-musictogethernyc-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on musictogethernyc.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host musictogethernyc.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-music-together-in-the-city"
+      ]
+    },
+    {
+      "id": "lesson-auto-nyplays-org-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on nyplays.org after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host nyplays.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-new-york-society-of-play"
+      ]
+    },
+    {
+      "id": "lesson-auto-img1-wsimg-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on img1.wsimg.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host img1.wsimg.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-bayonne-blades-skate-school"
+      ]
+    },
+    {
+      "id": "lesson-auto-nebula-wsimg-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on nebula.wsimg.com after 4× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host nebula.wsimg.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-liddle-bites-play-cafe"
+      ]
+    },
+    {
+      "id": "lesson-auto-wrarts-org-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on wrarts.org after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host wrarts.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-wr-arts"
+      ]
+    },
+    {
+      "id": "lesson-auto-feroxathletics-com-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on feroxathletics.com after 4× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host feroxathletics.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-ferox-athletics"
+      ]
+    },
+    {
+      "id": "lesson-auto-thelittlegym-com-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on thelittlegym.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host thelittlegym.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-the-little-gym-brooklyn-heights"
+      ]
+    },
+    {
+      "id": "lesson-auto-playkids-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on playkids.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host playkids.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-play-kids-brooklyn"
+      ]
+    },
+    {
+      "id": "lesson-auto-ymcanyc-org-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on ymcanyc.org after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host ymcanyc.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-dodge-ymca"
+      ]
+    },
+    {
+      "id": "lesson-auto-internationalkaratecenters-com-fetch_error",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on internationalkaratecenters.com after 4× fetch_error in 24h.",
+      "failureMode": "fetch_error",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host internationalkaratecenters.com",
+          "reason fetch_error"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-international-karate-center"
+      ]
+    },
+    {
+      "id": "lesson-auto-completeplayground-com-fetch_error",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on completeplayground.com after 3× fetch_error in 24h.",
+      "failureMode": "fetch_error",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host completeplayground.com",
+          "reason fetch_error"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-complete-playground"
+      ]
+    },
+    {
+      "id": "lesson-auto-familiesfirstbrooklyn-org-fetch_error",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on familiesfirstbrooklyn.org after 4× fetch_error in 24h.",
+      "failureMode": "fetch_error",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host familiesfirstbrooklyn.org",
+          "reason fetch_error"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-families-first-brooklyn"
+      ]
+    },
+    {
+      "id": "lesson-auto-chelseapiers-com-http_not_found",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on chelseapiers.com after 3× http_not_found in 24h.",
+      "failureMode": "http_not_found",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host chelseapiers.com",
+          "reason http_not_found"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-chelsea-piers-brooklyn-classes"
+      ]
+    },
+    {
+      "id": "lesson-auto-cobblehillmartialarts-com-fetch_error",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on cobblehillmartialarts.com after 3× fetch_error in 24h.",
+      "failureMode": "fetch_error",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host cobblehillmartialarts.com",
+          "reason fetch_error"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-cobble-hill-martial-arts"
+      ]
+    },
+    {
+      "id": "lesson-auto-olslittleleague-org-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on olslittleleague.org after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host olslittleleague.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-les-ols-little-league-sparkle"
+      ]
+    },
+    {
+      "id": "lesson-auto-nyclions-nyc-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on nyclions.nyc after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host nyclions.nyc",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-nyc-lions-youth-football"
+      ]
+    },
+    {
+      "id": "lesson-auto-budonyc-com-fetch_error",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on budonyc.com after 3× fetch_error in 24h.",
+      "failureMode": "fetch_error",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host budonyc.com",
+          "reason fetch_error"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-budo-nyc-brooklyn"
+      ]
+    },
+    {
+      "id": "lesson-auto-dematkd-com-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on dematkd.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host dematkd.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-dominguez-expert-martial-arts-tae-kwon-do"
+      ]
+    },
+    {
+      "id": "lesson-auto-downtowndancefactory-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on downtowndancefactory.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host downtowndancefactory.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-downtown-dance-factory"
+      ]
+    },
+    {
+      "id": "lesson-auto-newarkmuseumart-org-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on newarkmuseumart.org after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host newarkmuseumart.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-dreyfuss-planetarium"
+      ]
+    },
+    {
+      "id": "lesson-auto-heartandbeatmusic-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on heartandbeatmusic.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host heartandbeatmusic.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-heart-amp-beat-music"
+      ]
+    },
+    {
+      "id": "lesson-auto-newarknj-gov-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on newarknj.gov after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host newarknj.gov",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-john-f-kennedy-recreation-amp-aquatic-center"
+      ]
+    },
+    {
+      "id": "lesson-auto-dannygreenbergstudio-com-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on dannygreenbergstudio.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host dannygreenbergstudio.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-park-slope-conservatory"
+      ]
+    },
+    {
+      "id": "lesson-auto-saebo-org-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on saebo.org after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host saebo.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-s-b-arts"
+      ]
+    },
+    {
+      "id": "lesson-auto-armonkoutdoorartshow-org-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on armonkoutdoorartshow.org after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host armonkoutdoorartshow.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-the-armonk-outdoor-art-show"
+      ]
+    },
+    {
+      "id": "lesson-auto-barrowgroup-org-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on barrowgroup.org after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host barrowgroup.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-the-barrow-group-kids-teens"
+      ]
+    },
+    {
+      "id": "lesson-auto-brooklynappleacademy-com-fetch_error",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on brooklynappleacademy.com after 3× fetch_error in 24h.",
+      "failureMode": "fetch_error",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host brooklynappleacademy.com",
+          "reason fetch_error"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-brooklyn-apple-academy"
+      ]
+    },
+    {
+      "id": "lesson-auto-clayspace1205-com-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on clayspace1205.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host clayspace1205.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-clay-space-1205-kids"
+      ]
+    },
+    {
+      "id": "lesson-auto-msmnyc-edu-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on msmnyc.edu after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host msmnyc.edu",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-manhattan-school-of-music"
+      ]
+    },
+    {
+      "id": "lesson-auto-musepaintbar-com-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on musepaintbar.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host musepaintbar.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-muse-paintbar-white-plains"
+      ]
+    },
+    {
+      "id": "lesson-auto-account-asphaltgreen-org-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on account.asphaltgreen.org after 5× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host account.asphaltgreen.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-asphalt-green-play-days"
+      ]
+    },
+    {
+      "id": "lesson-auto-bluepearltheatrics-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on bluepearltheatrics.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host bluepearltheatrics.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-blue-pearl-theatrics"
+      ]
+    },
+    {
+      "id": "lesson-auto-brooklynmuseum-org-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on brooklynmuseum.org after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host brooklynmuseum.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-brooklyn-museum-family-programs"
+      ]
+    },
+    {
+      "id": "lesson-auto-southstreetseaportmuseum-org-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on southstreetseaportmuseum.org after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host southstreetseaportmuseum.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-south-street-seaport-museum"
+      ]
+    },
+    {
+      "id": "lesson-auto-downtowngiants-com-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on downtowngiants.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host downtowngiants.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-downtown-giants-youth-football"
+      ]
+    },
+    {
+      "id": "lesson-auto-manhattanpatriots-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on manhattanpatriots.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host manhattanpatriots.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-manhattan-patriots-football-cheer"
+      ]
+    },
+    {
+      "id": "lesson-auto-issuu-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on issuu.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host issuu.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-new-york-family-directory-birthday-parties-mitzvahs"
+      ]
+    },
+    {
+      "id": "lesson-auto-i9sports-com-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on i9sports.com after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host i9sports.com",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-i9-sports-manhattan"
+      ]
+    },
+    {
+      "id": "lesson-auto-sportsunitedny-org-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on sportsunitedny.org after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host sportsunitedny.org",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-sports-united-ny"
+      ]
+    },
+    {
+      "id": "lesson-auto-sfxyouthsports-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on sfxyouthsports.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host sfxyouthsports.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-sfx-youth-sports-baseball"
+      ]
+    },
+    {
+      "id": "lesson-auto-nycskylinebasketball-com-http_not_found",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on nycskylinebasketball.com after 3× http_not_found in 24h.",
+      "failureMode": "http_not_found",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host nycskylinebasketball.com",
+          "reason http_not_found"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-nyc-skyline-flag-football"
+      ]
+    },
+    {
+      "id": "lesson-auto-manhattanyouth-org-http_blocked",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on manhattanyouth.org after 3× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host manhattanyouth.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-tinyout-manhattan-youth-downtown-community-center"
+      ]
+    },
+    {
+      "id": "lesson-auto-nyflagfootballclub-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on nyflagfootballclub.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host nyflagfootballclub.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-nyc-flag-football-club"
+      ]
+    },
+    {
+      "id": "lesson-auto-bedstuysports-com-no_street_address",
+      "incidentAt": "2026-09-22",
+      "summary": "Auto-paused seeds on bedstuysports.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host bedstuysports.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-bed-stuy-sports"
+      ]
+    },
+    {
+      "id": "lesson-auto-fair-use-new-york-family-directory-guide_or_hub_name",
+      "incidentAt": "2026-09-24",
+      "summary": "Fair-use source new-york-family-directory hit 3× guide_or_hub_name in 24h — tighten harvest / dead-hub list.",
+      "failureMode": "guide_or_hub_name",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Review new-york-family-directory discovery/queue patterns",
+          "Ensure deadHubPatterns.cjs covers repeated 404 hubs",
+          "Reject guide_or_hub_name at leadQuality before seed append"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-auto-nycfooty-com-no_street_address",
+      "incidentAt": "2026-09-24",
+      "summary": "Auto-paused seeds on nycfooty.com after 3× no_street_address in 24h.",
+      "failureMode": "no_street_address",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host nycfooty.com",
+          "reason no_street_address"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-drive-sheets-nyc-footy-kids-youth-programs"
+      ]
+    },
+    {
+      "id": "lesson-auto-fair-use-new-york-family-directory-one_off_event",
+      "incidentAt": "2026-09-24",
+      "summary": "Fair-use source new-york-family-directory hit 8× one_off_event in 24h — tighten harvest / dead-hub list.",
+      "failureMode": "one_off_event",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "Review new-york-family-directory discovery/queue patterns",
+          "Ensure deadHubPatterns.cjs covers repeated 404 hubs",
+          "Reject one_off_event at leadQuality before seed append"
+        ]
+      },
+      "status": "encoded"
+    },
+    {
+      "id": "lesson-auto-ymcala-org-http_blocked",
+      "incidentAt": "2026-09-24",
+      "summary": "Auto-paused seeds on ymcala.org after 4× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host ymcala.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-la-culver-palms-family-ymca"
+      ]
+    },
+    {
+      "id": "lesson-auto-ymcaboston-org-http_blocked",
+      "incidentAt": "2026-09-24",
+      "summary": "Auto-paused seeds on ymcaboston.org after 7× http_blocked in 24h.",
+      "failureMode": "http_blocked",
+      "encode": {
+        "tier": "A",
+        "actions": [
+          "paused seed(s) matching host ymcaboston.org",
+          "reason http_blocked"
+        ]
+      },
+      "status": "encoded",
+      "relatedIds": [
+        "prov-bos-wang-ymca-chinatown"
+      ]
+    }
+  ]
+}

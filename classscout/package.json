@@ -1,0 +1,18 @@
+{
+  "name": "sovereign-content-classscout",
+  "private": true,
+  "description": "ClassScout / Your Field sovereign catalog agent (independent of docs site)",
+  "scripts": {
+    "catalog-loop:forever": "bash scripts/forever.sh",
+    "catalog-loop:sparse-timer": "bash scripts/sparse-timer.sh",
+    "catalog:self-heal": "node scripts/sovereign-self-heal.cjs",
+    "catalog:about-curate": "node scripts/sovereign-about-curate.cjs",
+    "catalog:quality-loop": "node scripts/sovereign-quality-loop.cjs",
+    "catalog:hygiene": "node scripts/sovereign-hygiene.cjs",
+    "catalog:media-curate": "node scripts/sovereign-media-curate.cjs",
+    "catalog:find": "node scripts/sovereign-find-until.cjs",
+    "catalog:autopilot": "node scripts/sovereign-autopilot.cjs",
+    "catalog:archive-snapshot": "node scripts/sovereign-archive-snapshot.cjs",
+    "catalog:contact-enrich": "node scripts/contact-enrich.cjs"
+  }
+}
