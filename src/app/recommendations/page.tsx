@@ -115,7 +115,19 @@ export default function RecommendationsPage() {
         </li>
       </ul>
 
-            <h2>Accepted — ClassScout twin orchestration (2026-09-24)</h2>
+                  <h2>Accepted plan — Sovereign self-improve loop (2026-09-24)</h2>
+      <p>
+        Close the feedback loop above self-heal: digest listing debt + process lessons + FIND
+        yields + SSOT inbox; wire orphan <code>media_thin</code> / <code>geo_weak</code>; never
+        invent contacts. Plan:{" "}
+        <code>recommendations/inbox/plan-sovereign-self-improve-loop.md</code>. Audit: management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-self-heal-feedback-audit-2026-09-24.md">
+          self-heal-feedback-audit
+        </a>
+        .
+      </p>
+
+<h2>Accepted — ClassScout twin orchestration (2026-09-24)</h2>
       <p>
         Do not merge engines. Keep forever Find + <code>generated_art_only</code>; adopt SC
         self-heal / About≥75 / reconcile / archive / until-found sparse complement /

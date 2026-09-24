@@ -1,0 +1,174 @@
+---
+id: plan_sovereign-self-improve-loop-2026-09-24
+environment: cursor
+vertical: padel-africa
+repo: moldovancsaba/sovereign.content
+jobs:
+  - catalog:self-heal
+  - catalog:quality-loop
+  - catalog:find
+  - catalog:media-curate
+  - catalog:hygiene
+priority: high
+ssotLanding: jobs
+doctrineOk: true
+observedAt: 2026-09-24T17:50:00Z
+status: accepted-plan-2026-09-24
+sources:
+  - https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-self-heal-feedback-audit-2026-09-24.md
+  - https://sovereigncontent.messmass.com/jobs
+---
+
+# Plan — Sovereign self-heal → self-improve loop (2026-09-24)
+
+Status: **accepted plan** (docs first). Implement on management; portable contracts land on Jobs.
+
+## Problem
+
+Self-heal **detects and records** well for About debt and FIND attempts, but process feedback
+(process lessons, FIND source yields, media/geo orphans, SSOT inbox, operator notes) is mostly
+**write-only**. There is no job that asks: “is there new feedback, and what should we do?”
+
+Audit: management
+[`docs/padel-africa-self-heal-feedback-audit-2026-09-24.md`](https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-self-heal-feedback-audit-2026-09-24.md).
+
+## Goal
+
+A portable **self-improve** layer on top of self-heal:
+
+```
+detect → recommend → classify → apply|brief|propose-contract → encode → steer next
+```
+
+Honesty bar unchanged: never invent contacts, phones, ages, court counts, or venues.
+
+## Architecture (three feedback lanes)
+
+| Lane | Examples | Auto-apply? | Encode to |
+| --- | --- | --- | --- |
+| **A — Listing debt** | About kinds, `operator_feedback`, wired `media_thin` / `geo_weak` / `contact_gap` | Yes where evidence exists (quality-loop, media-curate, contact-enrich); else agent `--brief` | `listing_quality_lessons` + attempt files |
+| **B — Process residue** | process-lessons.json, FIND source yields, timer failures, ops_block | No invent; **digest → actionable briefs or SSOT draft recs** | process lessons + SSOT inbox drafts |
+| **C — Portable contracts** | SSOT Issues / inbox MD | Never auto-merge to `main`; agent proposal + human accept | Jobs / Cursor / Adopting |
+
+## New / extended jobs
+
+### 1. `catalog:self-heal --digest` (or `catalog:self-improve`)
+
+Bounded tick that **reads** feedback stores and prints a machine-readable plan:
+
+```json
+{
+  "job": "catalog:self-improve",
+  "since": "ISO",
+  "lanes": {
+    "listing": { "open": [], "healFirst": [] },
+    "process": { "newLessons": [], "suggestedActions": [] },
+    "contracts": { "inboxPending": [], "draftRecs": [] }
+  },
+  "instructions": ["…ordered agent steps…"]
+}
+```
+
+Sources to scan:
+
+- Mongo open `listing_quality_recommendations` (all kinds)
+- `card_feedback` not yet bridged
+- `padel-africa-process-lessons.json` newer than last digest watermark
+- `padel-africa-find-attempts.json` — aggregate zero-result patterns by city/source
+- Optional: local checkout of `sovereign.content/recommendations/inbox/` (status ≠ shipped)
+
+Watermark: `scripts/data/padel-africa-self-improve-cursor.json` (`lastDigestAt`, `seenLessonIds`, `seenAttemptKeys`).
+
+### 2. Wire orphan debt producers (lane A)
+
+| Fix | Change |
+| --- | --- |
+| Media → `media_thin` | Call `recommendationsFromMediaCurate` from `catalog:media-curate` on failed/empty (not `already_has_media`) |
+| Hygiene geo → `geo_weak` | Open when Nominatim fails / non-street line1 after retries |
+| Sibling close bug | On About apply, **do not** skip `contact_gap` / `media_thin` / `geo_weak` / `research_needed` siblings |
+| Lesson steer | Use `preferredTacticOrder` inside improve tactic selection (not summary-only) |
+| Operator feedback | Optionally bridge `global`+`instruction` as process lesson (not About paste) |
+
+### 3. FIND source yield memory (lane A/B)
+
+Extend `--record-attempt` (or sibling flag):
+
+```bash
+npm run catalog:find -- --record-attempt --cc=AO --city=Lubango --outcome=seeded \
+  --source-label="LNL review" --source-url="https://…"
+```
+
+Store on attempt; brief builder ranks sources that previously seeded that country.
+
+### 4. Process → SSOT draft (lane B→C)
+
+When digest sees repeated patterns (e.g. ≥3 zero-results same city class, or `ops_block` R2):
+
+- Write **draft** `recommendations/inbox/rec-<slug>.md` (or print the file body for the agent to commit on SSOT `main`)
+- Never invent portable contracts without evidence + `doctrineOk`
+- ClassScout / Sportolok twin: same digest shape via thin aliases
+
+### 5. Timer cadence
+
+| Timer | Cadence | Prompt gist |
+| --- | --- | --- |
+| Existing quality / about / media / hygiene / FIND / autopilot | keep | unchanged |
+| **New:** `padel-self-improve-tick` | 6–12h | Run `catalog:self-heal --digest` (or `catalog:self-improve`). If `healFirst` non-empty → run those CLIs. If `draftRecs` → agent opens SSOT inbox file on `main`. Report JSON. Leave subscribed. |
+
+## Phased delivery
+
+### Phase 0 — Docs (this plan + audit) ✅
+
+Ship audit + Jobs pointer + inbox plan.
+
+### Phase 1 — Close honesty bugs (management)
+
+1. Sibling-close exclude research kinds  
+2. Wire `media_thin` from media-curate  
+3. Open `geo_weak` from hygiene unresolved street-level failures  
+4. Apply `preferredTacticOrder` in improve  
+
+Acceptance: unit tests; dry-run media/hygiene show debt opens; improve no longer skips contact siblings.
+
+### Phase 2 — Digest CLI
+
+1. `catalog:self-heal --digest` (+ watermark file)  
+2. Instructions merge healFirst + process actions + optional SSOT drafts  
+3. Cloud Agent timer  
+
+Acceptance: digest JSON stable; empty digest is success (settled).
+
+### Phase 3 — FIND source yields + SSOT draft emit
+
+1. Attempt `sourceLabel` / `sourceUrl`  
+2. Brief ranking by yield  
+3. Optional `--emit-ssot-draft` writing inbox MD body  
+
+Acceptance: one seeded cell records source; next brief for that country lists it first among equals.
+
+### Phase 4 — Cross-vertical twins
+
+Document aliases on ClassScout / Sportolok adopting pages; do not merge engines.
+
+## Non-goals
+
+- Auto-merge SSOT `main` without agent/human review  
+- Auto-invent venues or contacts from process lessons  
+- Replace forever Find on ClassScout  
+- LLM-required digest (structured rules first; AI Gateway optional later)
+
+## Acceptance (system)
+
+An agent can answer from one digest tick:
+
+1. What new feedback arrived since last run?  
+2. What listing debt to heal now (commands)?  
+3. What process pattern to remember or propose as a portable contract?  
+4. What must stay agent-brief (research evidence wall)?
+
+## Related
+
+- Audit: management `docs/padel-africa-self-heal-feedback-audit-2026-09-24.md`  
+- Self-heal guide: `docs/padel-africa-self-heal.md`  
+- Jobs: https://sovereigncontent.messmass.com/jobs  
+- Twin: management `docs/classscout-sovereign-twin.md`

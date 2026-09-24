@@ -28,6 +28,30 @@ export default function WhatsNewPage() {
         <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>).
       </DocCallout>
 
+      <h2>2026-09-24 — Self-heal feedback audit + self-improve plan</h2>
+      <ul>
+        <li>
+          Audit: About quality-loop is closed; process lessons, FIND source yields, media/geo debt
+          kinds, and SSOT inbox are mostly write-only — no digest job yet
+        </li>
+        <li>
+          Plan: <code>catalog:self-heal --digest</code> / <code>catalog:self-improve</code> with
+          three lanes (listing debt, process residue, portable contracts)
+        </li>
+        <li>
+          Phase 1 honesty fixes: wire <code>media_thin</code>, open <code>geo_weak</code>, stop
+          sibling-skip of research debt, apply lesson tactic order
+        </li>
+      </ul>
+      <p>
+        Audit: management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-self-heal-feedback-audit-2026-09-24.md">
+          self-heal-feedback-audit
+        </a>
+        · plan: <code>plan-sovereign-self-improve-loop.md</code> ·{" "}
+        <Link href="/recommendations">Recommendations</Link>.
+      </p>
+
       <h2>2026-09-24 — ClassScout dense-US twin knowledge</h2>
       <ul>
         <li>

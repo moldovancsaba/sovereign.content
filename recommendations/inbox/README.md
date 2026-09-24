@@ -1,5 +1,8 @@
 # Agent recommendation inbox
 
+**Self-improve loop (accepted plan):** [`plan-sovereign-self-improve-loop.md`](./plan-sovereign-self-improve-loop.md)
+— digest new feedback → heal / brief / propose portable contracts.
+
 **Canonical (already accepted):** [`rec-dual-repo-quality-reliability.md`](./rec-dual-repo-quality-reliability.md)
 — dual-repo, content archive-backup, quality stack, reliability habits. Other agents implement via
 https://sovereigncontent.messmass.com/implement .

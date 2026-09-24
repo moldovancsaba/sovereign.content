@@ -187,6 +187,25 @@ npm run catalog:autopilot -- --ticks 10 --requeue-limit 10`}</pre>
       </p>
       <pre>{`npm run catalog:self-heal -- --status
 npm run catalog:self-heal -- --brief`}</pre>
+      <p>
+        Feedback audit (what is collected vs consumed): management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-self-heal-feedback-audit-2026-09-24.md">
+          padel-africa-self-heal-feedback-audit-2026-09-24.md
+        </a>
+        . About has a closed quality-loop; process lessons / FIND yields / SSOT inbox are mostly
+        write-only today. Planned digest:{" "}
+        <code>recommendations/inbox/plan-sovereign-self-improve-loop.md</code> (
+        <Link href="/recommendations">Recommendations</Link>).
+      </p>
+
+      <h2>Self-improve (planned) — digest new feedback</h2>
+      <p>
+        Portable follow-on to self-heal: a bounded <code>--digest</code> /{" "}
+        <code>catalog:self-improve</code> tick that scans listing debt, process lessons, FIND
+        attempts, and SSOT inbox drafts, then prints ordered heal / brief / propose-contract
+        instructions. Does <strong>not</strong> invent venues or contacts. Phase plan: inbox{" "}
+        <code>plan-sovereign-self-improve-loop.md</code>.
+      </p>
 
       <h2>catalog:autopilot</h2>
       <p>
