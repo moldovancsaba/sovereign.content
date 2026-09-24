@@ -26,6 +26,7 @@ This repository has two layers:
 | **[`HANDOVER.md`](./HANDOVER.md)** | **New SC-central agent — read first** (state, open work, first hour) |
 | **[`fleet/RULES.md`](./fleet/RULES.md)** | **Rigid** dual-repo delivery + comparison honesty (binding) |
 | **[`fleet/CLIENT-COMPARISON.md`](./fleet/CLIENT-COMPARISON.md)** | **Only** cross-client maturity/workflow comparison SSOT |
+| **[`fleet/coordination/`](./fleet/coordination/)** | Shared next-step threads SC ↔ each client agent |
 | **[`fleet/`](./fleet/)** | Cross-agent jobs (`fleet:daily-swot`) — not a client folder |
 | ClassScout / Your Field | [`content.classscout/AGENTS.md`](./content.classscout/AGENTS.md) |
 | Padel Africa | [`content.padelafrica/AGENTS.md`](./content.padelafrica/AGENTS.md) |

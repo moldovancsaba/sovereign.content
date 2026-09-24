@@ -26,4 +26,5 @@ Jobs that look **across** all content agents:
 2. Read [`RESEARCH-2026-09-24.md`](./RESEARCH-2026-09-24.md)
 3. Read the plan in recommendations inbox
 4. Skim `profiles/*.json`
-5. Operator prompts for peer agents: [`PROMPTS-TO-CLIENT-AGENTS.md`](./PROMPTS-TO-CLIENT-AGENTS.md)
+5. Operator prompts (one-shot paste): [`PROMPTS-TO-CLIENT-AGENTS.md`](./PROMPTS-TO-CLIENT-AGENTS.md)
+6. **Ongoing back-and-forth:** [`coordination/`](./coordination/) — shared MD threads SC ↔ each client

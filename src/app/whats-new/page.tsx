@@ -25,6 +25,17 @@ export default function WhatsNewPage() {
         <code>fleet/</code>, inbox plan) for the SC-central agent.
       </DocCallout>
 
+      <h2>2026-09-24 — Fleet coordination threads</h2>
+      <ul>
+        <li>
+          Shared back-and-forth MD per client under <code>fleet/coordination/</code> (SC-central and
+          client agents both append turns on <code>main</code>)
+        </li>
+        <li>
+          Protocol: <code>fleet/coordination/README.md</code>
+        </li>
+      </ul>
+
       <h2>2026-09-24 — Fleet comparison SSOT + rigid rules</h2>
       <ul>
         <li>
