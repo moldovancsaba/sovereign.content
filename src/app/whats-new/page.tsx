@@ -25,18 +25,19 @@ export default function WhatsNewPage() {
         <code>fleet/</code>, inbox plan) for the SC-central agent.
       </DocCallout>
 
-      <h2>2026-09-24 — Fleet daily SWOT (plan)</h2>
+      <h2>2026-09-24 — Fleet daily SWOT (Phase 1 shipped)</h2>
       <ul>
         <li>
-          New SC-central job <code>fleet:daily-swot</code>: collect agent signals, SWOT each
-          client, compare working-environment fitness vs content-type-normalized outcomes
+          Job <code>fleet:daily-swot</code>: collect agent signals, SWOT each client, compare
+          working-environment fitness vs content-type-normalized outcomes
         </li>
         <li>
-          Scaffold: <code>fleet/profiles/</code>, schema, inbox/outbox/digests, timer prompt
+          Run: <code>npm run fleet:daily-swot</code> · first digest{" "}
+          <code>fleet/digests/2026-09-24.md</code>
         </li>
         <li>
-          Research + phased plan: <code>fleet/RESEARCH-2026-09-24.md</code>,{" "}
-          <code>plan-fleet-daily-swot.md</code>
+          No content-outcome winner without inbox snapshots; sportolok efficiency capped by
+          quarantine
         </li>
       </ul>
 

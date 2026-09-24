@@ -9,17 +9,20 @@ priority: high
 ssotLanding: jobs
 doctrineOk: true
 observedAt: 2026-09-24T19:40:00Z
-status: proposed-plan
+status: phase-1-shipped-2026-09-24
 sources:
   - https://github.com/moldovancsaba/sovereign.content/blob/main/HANDOVER.md
   - https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/RESEARCH-2026-09-24.md
+  - https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/digests/2026-09-24.md
   - https://sovereigncontent.messmass.com/jobs
 ---
 
 # Plan — Daily fleet SWOT + cross-agent recommendations
 
-**Status:** proposed plan (docs first). Owner: **SC-central agent** on `sovereign.content` `main`.  
-**Research:** [`fleet/RESEARCH-2026-09-24.md`](../../fleet/RESEARCH-2026-09-24.md)
+**Status:** Phase 0–1 shipped (research + first digest + collector). Owner: **SC-central agent**.  
+**Research:** [`fleet/RESEARCH-2026-09-24.md`](../../fleet/RESEARCH-2026-09-24.md)  
+**First digest:** [`fleet/digests/2026-09-24.md`](../../fleet/digests/2026-09-24.md)  
+**Run:** `npm run fleet:daily-swot`
 
 ## Problem
 
@@ -175,25 +178,23 @@ One SC-central subscription (~86400s), name e.g. `fleet-daily-swot`. Prompt in
 
 ## Phased delivery
 
-### Phase 0 — Research + plan (this commit) ✅
+### Phase 0 — Research + plan ✅
 
 - Research brief + this plan + profile stubs + Jobs/Whats-new pointers
 
-### Phase 1 — Profiles, schema, first manual digest
+### Phase 1 — Profiles, schema, first digest + script ✅ (2026-09-24)
 
-1. Finalize three JSON profiles
-2. Ship `daily-swot.schema.json`
-3. Manual collect + write first `fleet/digests/YYYY-MM-DD.*` from available signals
-4. Document snapshot drop format in `fleet/inbox/README.md`
+1. Profiles + schema shipped
+2. Collector `fleet/scripts/daily-swot.mjs` + `npm run fleet:daily-swot`
+3. First digest `fleet/digests/2026-09-24.{md,json}` + memory + outbox packets
+4. Snapshot drop format documented in `fleet/inbox/README.md`
 
-Acceptance: one digest that refuses unfair winners and marks sportolok migration gaps honestly.
+Acceptance met: digest refuses unfair winners; sportolok migration/quarantine gaps scored honestly; outcomes `insufficient_signal` without inventing Mongo KPIs.
 
-### Phase 2 — Script + daily timer
+### Phase 2 — Daily timer
 
-1. `fleet/scripts/daily-swot.mjs` (or tsx) — collect → analyze → write
-2. npm script `fleet:daily-swot` at repo root (docs site package.json)
-3. Subscribe SC-central timer; leave subscribed
-4. Exclude `fleet/scripts` from Next build if needed (`tsconfig.exclude`)
+1. Subscribe SC-central timer `fleet-daily-swot` (~86400s) using `fleet/timers/orchestrator.md`
+2. Second consecutive digest with trend deltas in `memory/latest.json` history array
 
 Acceptance: two consecutive daily digests with trend deltas in `memory/latest.json`.
 

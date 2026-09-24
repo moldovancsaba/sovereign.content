@@ -1,4 +1,4 @@
-# sportolok — sovereign content agent
+# content.sportolok — sovereign content agent
 
 **Owner:** content-agent team  
 **Repo:** `moldovancsaba/sovereign.content` → this folder  

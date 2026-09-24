@@ -82,7 +82,7 @@ Sportolok delete list for reconcile: [`content.sportolok/MIGRATION-FROM-MANAGEME
 - [ ] **Rewrite sportolok automation** to call ingest end-to-end (replace quarantined executor call sites)
 - [ ] **Wire ClassScout catalog-loop runners** fully to classscout ingest (cutover from product-repo copies)
 - [ ] **Publish / link** management `docs/content-data-contract.md` when core adds it
-- [ ] **`fleet:daily-swot` Phases 1–4** — profiles/schema/plan shipped; first digest + script + daily timer still open ([`fleet/`](./fleet/), [`plan-fleet-daily-swot.md`](./recommendations/inbox/plan-fleet-daily-swot.md))
+- [ ] **`fleet:daily-swot` Phases 2–4** — Phase 1 shipped (first digest + `npm run fleet:daily-swot`); still open: daily timer subscribe, inbox snapshots from client chats, `/fleet` index, recurring→HiTL contracts ([`fleet/digests/2026-09-24.md`](./fleet/digests/2026-09-24.md))
 - [ ] Optional: single Cursor orchestrator timers **owned from** each `content.*/timers/` (padel still has a live `padel-find-tick` on the **padel Cloud Agent** chat — do not steal that session’s timer without coordinating)
 
 ### Split of ownership with the padel chat
@@ -99,7 +99,7 @@ Padel live tip (context only): catalogue ~169 PUBLISHED; orchestrator timer seed
 
 ## 5. Open work queue (priority)
 
-1. **`fleet:daily-swot` Phase 1** — first real digest from profiles + available signals; then Phase 2 script + daily timer (`fleet/`).
+1. **`fleet:daily-swot` Phase 2+** — subscribe daily timer; pull client `fleet/inbox` snapshots; grow digests ([`fleet/digests/2026-09-24.md`](./fleet/digests/2026-09-24.md)).
 2. **Chase core** on `release/sportolok` reconcile using `CORE-TEAM-STATUS.md` + migration list (paths under `content.sportolok/`).
 3. **Prove ingest** on sportolok and padel with a dry safe patch (schedule-shaped listing or sourceText card) — store lessons in the client folder, not Mongo from agent.
 4. **Sportolok:** replace quarantined executor flows with ingest + `scheduleToRecurringSlots`; keep historical `src/` as reference only until rewritten.

@@ -19,4 +19,4 @@ Timed job tick (SC-central — sovereign.content/fleet):
 8) Never invent catalogue KPIs; insufficient_signal when evidence missing.
 ```
 
-Status: Phase 0 plan shipped — subscribe when Phase 2 script exists.
+Status: Phase 2 plan shipped — run `npm run fleet:daily-swot` daily; subscribe when operator approves.

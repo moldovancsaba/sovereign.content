@@ -213,6 +213,11 @@ npm run catalog:self-heal -- --brief`}</pre>
       </p>
       <ul>
         <li>
+          <strong>Run:</strong> <code>npm run fleet:daily-swot</code> → writes{" "}
+          <code>fleet/digests/YYYY-MM-DD.&#123;md,json&#125;</code>,{" "}
+          <code>fleet/memory/latest.json</code>, <code>fleet/outbox/</code>
+        </li>
+        <li>
           <strong>Profiles binding:</strong> <code>fleet/profiles/*.json</code> — never rank sparse
           Africa FIND seeds against dense-US forever-loop volume
         </li>
@@ -225,9 +230,9 @@ npm run catalog:self-heal -- --brief`}</pre>
           <code>fleet-daily-swot</code>) — do not fold into padel/classscout orchestrators
         </li>
         <li>
-          <strong>Plan:</strong>{" "}
-          <code>recommendations/inbox/plan-fleet-daily-swot.md</code> · research:{" "}
-          <code>fleet/RESEARCH-2026-09-24.md</code> (<Link href="/recommendations">Recommendations</Link>
+          <strong>Plan / first digest:</strong>{" "}
+          <code>recommendations/inbox/plan-fleet-daily-swot.md</code> ·{" "}
+          <code>fleet/digests/2026-09-24.md</code> (<Link href="/recommendations">Recommendations</Link>
           )
         </li>
       </ul>

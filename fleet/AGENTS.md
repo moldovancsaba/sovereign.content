@@ -9,7 +9,7 @@ Jobs that look **across** all content agents:
 
 | Job | Cadence | Status |
 | --- | --- | --- |
-| `fleet:daily-swot` | Daily UTC | Plan — [`../recommendations/inbox/plan-fleet-daily-swot.md`](../recommendations/inbox/plan-fleet-daily-swot.md) |
+| `fleet:daily-swot` | Daily UTC | **Phase 1 shipped** — `npm run fleet:daily-swot` · digests in `digests/` · [plan](../recommendations/inbox/plan-fleet-daily-swot.md) |
 
 ## Rules
 

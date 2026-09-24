@@ -1,12 +1,42 @@
 {
   "job": "fleet:daily-swot",
-  "updatedAt": null,
-  "lastDigestDate": null,
+  "updatedAt": "2026-09-24T19:43:51.934Z",
+  "lastDigestDate": "2026-09-24",
   "watermark": {
-    "inboxRecommendations": null,
-    "gitSince": null
+    "inboxRecommendations": 20,
+    "gitSince": "48 hours ago"
   },
   "rolling": {
-    "note": "Filled after first digest run (Phase 1+)"
+    "environmentLead": "content.padelafrica",
+    "environmentScores": {
+      "content.padelafrica": {
+        "value": 100,
+        "note": "7/7: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, playbook_docs=ok, heal_before_find_documented=ok"
+      },
+      "content.sportolok": {
+        "value": 89,
+        "note": "8/9: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, quarantine_documented=ok, migration_note_in_pointers=ok, no_live_mongo_executor=ok, ingest_rewrite_complete=gap"
+      },
+      "content.classscout": {
+        "value": 100,
+        "note": "8/8: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, forever_runner=ok, lessons_log=ok, schedule_family_classscout=ok"
+      }
+    },
+    "openThemes": [
+      "sportolok_ingest_rewrite",
+      "fleet_inbox_snapshots",
+      "classscout_cutover_confirmation"
+    ],
+    "history": [
+      {
+        "date": "2026-09-24",
+        "bestFitFolder": "content.padelafrica",
+        "insufficientOutcomeClients": [
+          "content.padelafrica",
+          "content.sportolok",
+          "content.classscout"
+        ]
+      }
+    ]
   }
 }
