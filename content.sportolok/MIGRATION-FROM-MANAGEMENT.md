@@ -1,6 +1,6 @@
 # Files to remove from `moldovancsaba/management` when reconciling `release/sportolok`
 
-These were copied into `sovereign.content/sportolok/` on 2026-09-24. They must not remain
+These were copied into `sovereign.content/content.sportolok/` on 2026-09-24. They must not remain
 in the management app deployment.
 
 ## Sovereign agent runtime

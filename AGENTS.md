@@ -21,8 +21,9 @@ This repository has two layers:
 
 ## Start here
 
-| Client | Folder |
+| Doc | Role |
 | --- | --- |
+| **[`HANDOVER.md`](./HANDOVER.md)** | **New SC-central agent — read first** (state, open work, first hour) |
 | ClassScout / Your Field | [`content.classscout/AGENTS.md`](./content.classscout/AGENTS.md) |
 | Padel Africa | [`content.padelafrica/AGENTS.md`](./content.padelafrica/AGENTS.md) |
 | Sportolok | [`content.sportolok/AGENTS.md`](./content.sportolok/AGENTS.md) |
