@@ -1,12 +1,12 @@
 # Cursor timer — classscout orchestrator (single subscription)
 
-Name: `classscout-catalog-orchestrator`  
+Name: `content-classscout-catalog-orchestrator`  
 Interval: ~3600s (or dense forever in the cloud VM — see docs)
 
 `subscribe_timer` only enqueues a prompt — do not chain timers.
 
 ```
-Timed job tick (classscout agent — sovereign.content/classscout):
+Timed job tick (content.classscout agent — sovereign.content/content.classscout):
 1) Listing writes ONLY via POST /api/ingest (+ upload) with Bearer INGEST_API_KEY.
 2) Prefer scripts/ under this folder: about-curate → quality-loop / improve → self-heal status →
    (apply-auto when deferFind) → find → encode → hourly report/push-stats.

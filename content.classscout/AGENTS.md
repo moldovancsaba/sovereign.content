@@ -1,4 +1,4 @@
-# classscout — sovereign content agent
+# content.classscout — sovereign content agent
 
 **Owner:** content-agent team  
 **Repo:** `moldovancsaba/sovereign.content` → this folder  

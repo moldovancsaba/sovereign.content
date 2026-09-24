@@ -1,7 +1,7 @@
 # Sovereign Content alignment (ClassScout)
 
 **Storage (BINDING):** [`sovereign-content-storage.md`](sovereign-content-storage.md) — product vs
-`sovereign.content/classscout/` agent home · migration inventory
+`sovereign.content/content.classscout/` agent home · migration inventory
 [`reports/sovereign-content-classscout-migration.md`](reports/sovereign-content-classscout-migration.md) ·
 rule **454**.
 
@@ -16,7 +16,7 @@ rule **454**.
 
 ClassScout keeps its battle-tested Find/Improve forever loop. Sovereign Content supplies the
 portable job vocabulary and adoption playbook used across verticals (Padel Africa / management
-first). **Agent runners are migrating to `sovereign.content/classscout/`** (client-folder model);
+first). **Agent runners are migrating to `sovereign.content/content.classscout/`** (client-folder model);
 today they still run from `scripts/catalog-loop/` in this product repo (transitional). This doc is
 the **alias map + how we run the SC job names here** — not a second doctrine.
 Copy contracts from padel job examples; do **not** copy padel fixtures or switch media to OG scrape.
@@ -135,7 +135,7 @@ npm run catalog:archive-snapshot
 ```
 
 Mongo remains live SSOT. Snapshots hold listing facts + media URLs — never binaries.
-**Agent code TARGET** is `sovereign.content/classscout/` (rule 454); process doctrine stays on the
+**Agent code TARGET** is `sovereign.content/content.classscout/` (rule 454); process doctrine stays on the
 SC site root. Do not park listing About/media in `sovereign.content`.
 
 ## Cron ↔ CLI twins
@@ -167,7 +167,7 @@ File process (not catalog) recommendations so other verticals inherit them — e
 
 **Filed 2026-09-24** — #22 city/borough · #23 chatbot About · #24 self-heal/archive twins ·
 [#25 until-found / contact enrich / cron-cli-twins](https://github.com/moldovancsaba/sovereign.content/issues/25) ·
-[#27 client folders (`classscout/` / `sportolok/` / `padel-africa/`)](https://github.com/moldovancsaba/sovereign.content/issues/27)
+[#27 client folders (`content.classscout/` / `sportolok/` / `padel-africa/`)](https://github.com/moldovancsaba/sovereign.content/issues/27)
 (storage model; #26 was an accidental probe).
 
 ## Agent pointers

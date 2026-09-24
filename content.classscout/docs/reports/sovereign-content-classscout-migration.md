@@ -1,4 +1,4 @@
-# ClassScout agent → `sovereign.content/classscout/` migration
+# ClassScout agent → `sovereign.content/content.classscout/` migration
 
 **Date:** 2026-09-24 · **Status:** PLAN + inventory (runnable code still transitional in-repo)  
 **Binding storage SSOT:** [`../sovereign-content-storage.md`](../sovereign-content-storage.md) · rule **454**  
@@ -36,7 +36,7 @@ No imports across client folders.
 
 ---
 
-## Inventory — move to `sovereign.content/classscout/`
+## Inventory — move to `sovereign.content/content.classscout/`
 
 ### Runners (from `scripts/catalog-loop/`)
 
@@ -104,8 +104,8 @@ Several runners still read/write Mongo for Improve/self-heal scans (`getyourfiel
 
 ## Definition of done (ClassScout-aligned)
 
-- [ ] `sovereign.content` has top-level `classscout/` (and siblings per SC maintainers)
-- [ ] Catalog-loop runners + agent docs live under `classscout/`; product keeps pointers only
+- [ ] `sovereign.content` has top-level `content.classscout/` (and siblings per SC maintainers)
+- [ ] Catalog-loop runners + agent docs live under `content.classscout/`; product keeps pointers only
 - [ ] Agent deployment is independent; calls ClassScout ingest API only for listing writes
 - [ ] Schedule/recurring conversion matches ClassScout contract; verified with a real submission
 - [ ] No ClassScout agent code in `moldovancsaba/management` (already true — keep it that way)

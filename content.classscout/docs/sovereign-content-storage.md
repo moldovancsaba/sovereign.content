@@ -19,7 +19,7 @@ Client-folder recommendation: [sovereign.content#27](https://github.com/moldovan
 | `padel-africa/` | Sibling client on management packs — **not us** |
 | Product / “management app” | **`moldovancsaba/classscout`** — the Your Field / ClassScout product |
 | Agent / “sovereign agent” | Catalog Find→Improve→self-heal forever (`catalog:*` / `catalog-loop:*`) |
-| Client folder in `sovereign.content` | **`classscout/`** (folder id = GitHub product repo name) |
+| Client folder in `sovereign.content` | **`content.classscout/`** (folder id = GitHub product repo name) |
 | Public write API | ClassScout **`POST /api/ingest`** (+ upload) with `INGEST_API_KEY` |
 | Content data contract | ClassScout validated provider/meetup ingest path (`validateProviderDocument`, types in `src/types/provider.ts`, `docs/data-model.md`) — **not** management’s content-data-contract doc |
 
@@ -38,16 +38,16 @@ archive/classscout/content/       → Optional JSON fact stamps on the product b
 | Lives in… | May contain | Must not contain |
 | --- | --- | --- |
 | **`classscout` product repo** | Next.js app, admin, public APIs, ingest validation, Lite product integration, product `docs/*` (business-rules, architecture, API contracts), board #44 | Cross-client agent engines; other verticals’ folders; parking agent-only forever-loop as if it were product code long-term |
-| **`sovereign.content/classscout/`** | Find/Improve/self-heal runners, forever/sparse-timer, fair-use feeder, agent ops docs, migration reports, client-local config | Product UI; other clients’ imports; catalog row content; media binaries |
+| **`sovereign.content/content.classscout/`** | Find/Improve/self-heal runners, forever/sparse-timer, fair-use feeder, agent ops docs, migration reports, client-local config | Product UI; other clients’ imports; catalog row content; media binaries |
 | **`sovereign.content` site root** | Portable `catalog:*` contracts, Cursor/adopting playbooks | Client-specific runners; listing content |
 
-**No client folder may import from or depend on another.** `classscout/` never imports `padel-africa/` or `sportolok/`.
+**No client folder may import from or depend on another.** `content.classscout/` never imports `padel-africa/` or `sportolok/`.
 
 ---
 
 ## How the agent may talk to the product
 
-Once the agent runs from `sovereign.content/classscout/` (or from this repo during migration), it may touch live ClassScout **only** through:
+Once the agent runs from `sovereign.content/content.classscout/` (or from this repo during migration), it may touch live ClassScout **only** through:
 
 1. **`POST /api/ingest`** / **`POST /api/ingest/upload`** with a scoped ingest key — the **validated** write path.
 2. Documented public/admin APIs that already exist for ops (e.g. catalog-loop stats ingest), still authenticated.
@@ -75,11 +75,11 @@ If an extractor produces free-text schedule lines, convert them to ClassScout’
 
 | Asset | Today (transitional) | Target |
 | --- | --- | --- |
-| Forever / Find / Improve / self-heal | `scripts/catalog-loop/` in **this** repo | `sovereign.content/classscout/` |
-| SC job aliases (`catalog:*`) | `package.json` in this repo | Agent package.json under `sovereign.content/classscout/` (product may keep thin wrappers that shell out or document the external runner) |
-| Agent ops docs (`catalog-find-improve-loop.md`, error playbook, quality plan, self-heal plans) | `docs/` in this repo | Prefer `sovereign.content/classscout/docs/`; product keeps a **pointer** only |
+| Forever / Find / Improve / self-heal | `scripts/catalog-loop/` in **this** repo | `sovereign.content/content.classscout/` |
+| SC job aliases (`catalog:*`) | `package.json` in this repo | Agent package.json under `sovereign.content/content.classscout/` (product may keep thin wrappers that shell out or document the external runner) |
+| Agent ops docs (`catalog-find-improve-loop.md`, error playbook, quality plan, self-heal plans) | `docs/` in this repo | Prefer `sovereign.content/content.classscout/docs/`; product keeps a **pointer** only |
 | Product docs (business-rules, architecture, API, DoD) | `docs/` here | **Stay here forever** |
-| Process doctrine / portable jobs | sovereigncontent.messmass.com | **Stay** at site root (not under `classscout/`) |
+| Process doctrine / portable jobs | sovereigncontent.messmass.com | **Stay** at site root (not under `content.classscout/`) |
 | Live listings | Mongo via product | **Stay** in Mongo; archive JSON optional under `archive/classscout/content/` |
 
 During transition, `scripts/catalog-loop/` remains the runnable home so production forever does not break. Every agent change must keep the **ingest-only write rule** and the inventory in the migration report current.
@@ -101,7 +101,7 @@ During transition, `scripts/catalog-loop/` remains the runnable home so producti
 ```
 ## Sovereign storage (ClassScout)
 - Product code/docs: moldovancsaba/classscout
-- Agent TARGET: moldovancsaba/sovereign.content/classscout/
+- Agent TARGET: moldovancsaba/sovereign.content/content.classscout/
 - Process SSOT site: https://sovereigncontent.messmass.com
 - Writes: POST /api/ingest (+ upload) only — match ClassScout provider contract
 - Never: management release branches; other clients’ folders; invent schedule shapes

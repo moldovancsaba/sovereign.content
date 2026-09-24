@@ -9,7 +9,7 @@ Live docs: [https://sovereigncontent.messmass.com](https://sovereigncontent.mess
 1. **Transfer knowledge** (Next.js site at repo root): doctrine, portable job contracts, environment
    playbooks, adoption checklists.
 2. **Client agent folders** (top-level, independent):
-   - [`classscout/`](./classscout/) — ClassScout / Your Field agent (`moldovancsaba/classscout`)
+   - [`content.classscout/`](./content.classscout/) — ClassScout / Your Field agent (`moldovancsaba/classscout`)
    - [`padel-africa/`](./padel-africa/) — padel-africa agent
    - [`sportolok/`](./sportolok/) — sportolok agent (migrated out of management)
 
@@ -24,7 +24,7 @@ npm run dev   # http://localhost:3010
 npm run build
 ```
 
-`tsconfig.json` excludes `classscout/`, `padel-africa/`, and `sportolok/` so agent TypeScript does
+`tsconfig.json` excludes `content.classscout/`, `padel-africa/`, and `sportolok/` so agent TypeScript does
 not enter the docs build.
 
 ## Structure
@@ -33,7 +33,7 @@ not enter the docs build.
 | --- | --- |
 | `/` (site) | Environment selector |
 | `/doctrine` `/jobs` `/implement` `/adopting` … | Process SSOT pages |
-| `classscout/` | ClassScout / Your Field agent workspace |
+| `content.classscout/` | ClassScout / Your Field agent workspace |
 | `padel-africa/` | Padel Africa agent workspace |
 | `sportolok/` | Sportolok agent workspace |
 | `recommendations/inbox/` | Accepted plans + new findings |
