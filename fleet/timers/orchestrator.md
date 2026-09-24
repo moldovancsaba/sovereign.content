@@ -1,22 +1,21 @@
 # Cursor timer — fleet daily SWOT (SC-central)
 
 Name: `fleet-daily-swot`  
-Interval: ~86400s (once per UTC day)
+Interval: cron `0 6 * * *` (06:00 UTC daily)  
+Subscription: active on SC-central Cloud Agent (`sub_2d708b6a-cf71-41de-82b1-715d0dca2f16`)
 
 Own this on the **sovereign.content central** Cloud Agent only. Do not attach to padel / classscout /
 sportolok catalog orchestrators.
 
 ```
 Timed job tick (SC-central — sovereign.content/fleet):
-1) Read fleet/AGENTS.md + recommendations/inbox/plan-fleet-daily-swot.md.
-2) Load fleet/profiles/*.json (content-type awareness is binding).
-3) Collect signals: content.*/ pointers+timers+recent docs, fleet/inbox snapshots, git --since=24h,
-   optional HTTP smoke of siteUrls, recommendations/inbox watermark, fleet/memory/latest.json.
-4) Produce SWOT + two scorecards (environment vs outcomes). Never unfair-compare raw publish counts.
-5) Write fleet/digests/YYYY-MM-DD.md + .json, update fleet/memory/latest.json, write fleet/outbox/*.
+1) Pull moldovancsaba/sovereign.content main.
+2) Read fleet/AGENTS.md + recommendations/inbox/plan-fleet-daily-swot.md.
+3) Load fleet/profiles/*.json (content-type awareness is binding).
+4) Run npm run fleet:daily-swot
+5) Review digest; never invent catalogue KPIs; never unfair-compare raw publish counts.
 6) If portable contract needed, draft recommendations/inbox/rec-fleet-*.md as hitl_review.
 7) Commit/push main. Report executive brief. Leave this timer subscribed.
-8) Never invent catalogue KPIs; insufficient_signal when evidence missing.
 ```
 
-Status: Phase 2 plan shipped — run `npm run fleet:daily-swot` daily; subscribe when operator approves.
+Status: **Phase 2 subscribed** — fires daily 06:00 UTC; run `npm run fleet:daily-swot` also works on demand.

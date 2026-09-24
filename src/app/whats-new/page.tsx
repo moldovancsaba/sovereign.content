@@ -25,7 +25,7 @@ export default function WhatsNewPage() {
         <code>fleet/</code>, inbox plan) for the SC-central agent.
       </DocCallout>
 
-      <h2>2026-09-24 — Fleet daily SWOT (Phase 1 shipped)</h2>
+      <h2>2026-09-24 — Fleet daily SWOT (Phase 2 — timer live)</h2>
       <ul>
         <li>
           Job <code>fleet:daily-swot</code>: collect agent signals, SWOT each client, compare
@@ -34,6 +34,9 @@ export default function WhatsNewPage() {
         <li>
           Run: <code>npm run fleet:daily-swot</code> · first digest{" "}
           <code>fleet/digests/2026-09-24.md</code>
+        </li>
+        <li>
+          Timer <code>fleet-daily-swot</code> subscribed — cron <code>0 6 * * *</code> (06:00 UTC)
         </li>
         <li>
           No content-outcome winner without inbox snapshots; sportolok efficiency capped by

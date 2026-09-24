@@ -9,7 +9,7 @@ priority: high
 ssotLanding: jobs
 doctrineOk: true
 observedAt: 2026-09-24T19:40:00Z
-status: phase-1-shipped-2026-09-24
+status: phase-2-timer-subscribed-2026-09-24
 sources:
   - https://github.com/moldovancsaba/sovereign.content/blob/main/HANDOVER.md
   - https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/RESEARCH-2026-09-24.md
@@ -19,10 +19,11 @@ sources:
 
 # Plan — Daily fleet SWOT + cross-agent recommendations
 
-**Status:** Phase 0–1 shipped (research + first digest + collector). Owner: **SC-central agent**.  
+**Status:** Phase 0–2 shipped (research + digest + collector + **daily timer subscribed**). Owner: **SC-central agent**.  
 **Research:** [`fleet/RESEARCH-2026-09-24.md`](../../fleet/RESEARCH-2026-09-24.md)  
 **First digest:** [`fleet/digests/2026-09-24.md`](../../fleet/digests/2026-09-24.md)  
-**Run:** `npm run fleet:daily-swot`
+**Run:** `npm run fleet:daily-swot`  
+**Timer:** `fleet-daily-swot` · cron `0 6 * * *` (06:00 UTC)
 
 ## Problem
 
@@ -191,12 +192,12 @@ One SC-central subscription (~86400s), name e.g. `fleet-daily-swot`. Prompt in
 
 Acceptance met: digest refuses unfair winners; sportolok migration/quarantine gaps scored honestly; outcomes `insufficient_signal` without inventing Mongo KPIs.
 
-### Phase 2 — Daily timer
+### Phase 2 — Daily timer ✅ (2026-09-24)
 
-1. Subscribe SC-central timer `fleet-daily-swot` (~86400s) using `fleet/timers/orchestrator.md`
-2. Second consecutive digest with trend deltas in `memory/latest.json` history array
+1. Subscribed SC-central timer `fleet-daily-swot` cron `0 6 * * *` (06:00 UTC)
+2. Second consecutive digest + trend deltas still open until first automated wake
 
-Acceptance: two consecutive daily digests with trend deltas in `memory/latest.json`.
+Acceptance partial: timer live; trend history fills on next daily runs.
 
 ### Phase 3 — Agent-emitted status + outbox routing
 

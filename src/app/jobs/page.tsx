@@ -226,8 +226,8 @@ npm run catalog:self-heal -- --brief`}</pre>
           <code>fleet/inbox/</code> status snapshots + public HTTP smoke
         </li>
         <li>
-          <strong>Timer:</strong> separate daily subscription on the SC-central agent (
-          <code>fleet-daily-swot</code>) — do not fold into padel/classscout orchestrators
+          <strong>Timer:</strong> subscribed on SC-central — <code>fleet-daily-swot</code> cron{" "}
+          <code>0 6 * * *</code> (06:00 UTC). Do not fold into padel/classscout orchestrators.
         </li>
         <li>
           <strong>Plan / first digest:</strong>{" "}
