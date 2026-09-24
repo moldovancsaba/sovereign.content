@@ -115,7 +115,20 @@ export default function RecommendationsPage() {
         </li>
       </ul>
 
-      <h2>Accepted ClassScout findings (2026-09-23)</h2>
+            <h2>Accepted — ClassScout twin orchestration (2026-09-24)</h2>
+      <p>
+        Do not merge engines. Keep forever Find + <code>generated_art_only</code>; adopt SC
+        self-heal / About≥75 / reconcile / archive / until-found sparse complement /
+        cron-cli-twins. Plan:{" "}
+        <code>recommendations/inbox/plan-classscout-twin-orchestration.md</code>. Landing:{" "}
+        <Link href="/jobs">Jobs</Link> “Dense-US twin” · management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/classscout-sovereign-twin.md">
+          classscout-sovereign-twin.md
+        </a>
+        .
+      </p>
+
+<h2>Accepted ClassScout findings (2026-09-23)</h2>
       <p>
         Live Improve/Find evidence from ClassScout (PR{" "}
         <a href="https://github.com/moldovancsaba/classscout/pull/934">#934</a>

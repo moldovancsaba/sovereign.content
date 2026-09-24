@@ -17,15 +17,40 @@ export default function WhatsNewPage() {
       <DocCallout title="2026-09-24 (recommended order)">
         Delivered: (1) Mongo-only quality-loop / about / media — GDS fully removed from content
         ticks; use <code>serving:reconcile</code>; (2) R2 primary + ImgBB backup wired; (3) FIND{" "}
-        <code>--until-found</code> + self-heal bind; (4) worked job examples for other agents —
-        management{" "}
-        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
-          docs/padel-africa-jobs.md
-        </a>{" "}
-        + this site&apos;s <Link href="/jobs">Jobs</Link> /{" "}
-        <Link href="/environments/cursor">Cursor</Link> pages (management{" "}
+        <code>--until-found</code> + self-heal bind; (4) worked job examples for other agents; (5)
+        ClassScout ↔ SC ↔ Padel twin knowledge (do not merge engines) —{" "}
+        <Link href="/jobs">Jobs</Link> “Dense-US twin”, management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/classscout-sovereign-twin.md">
+          classscout-sovereign-twin.md
+        </a>
+        , <Link href="/environments/cursor">Cursor</Link> /{" "}
+        <Link href="/adopting">Adopting</Link> (management{" "}
         <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>).
       </DocCallout>
+
+      <h2>2026-09-24 — ClassScout dense-US twin knowledge</h2>
+      <ul>
+        <li>
+          Intentional diffs documented: forever Find + <code>generated_art_only</code> stay on
+          ClassScout; padel keeps research <code>--until-found</code> + OG scrape → R2
+        </li>
+        <li>
+          Orchestration to export into ClassScout: self-heal (incl.{" "}
+          <code>openOperatorFeedback</code>), About bar ~75, <code>serving:reconcile</code>,
+          archive-snapshot, until-found sparse complement, cron-cli-twins
+        </li>
+        <li>
+          Copy-hygiene depth (FAQ / chatbot / translate-consent) absorbed into portable validation
+        </li>
+      </ul>
+      <p>
+        Contracts: <Link href="/jobs">Jobs</Link> · playbook:{" "}
+        <Link href="/environments/cursor">Cursor</Link> · twin doc:{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/classscout-sovereign-twin.md">
+          classscout-sovereign-twin.md
+        </a>
+        .
+      </p>
 
       <h2>2026-09-24 — Padel Africa job examples + R2 primary</h2>
       <ul>

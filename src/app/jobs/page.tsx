@@ -89,7 +89,74 @@ npm run catalog:autopilot -- --ticks 10 --requeue-limit 10`}</pre>
           FIND: CLI plans/seeds; agent WebSearches <code>firstBrief</code>, verifies evidence bar,
           records <code>seeded</code> or <code>zero-result</code>, stops on first seed.
         </li>
+        <li>
+          Copy hygiene includes careers/donate <strong>and</strong> chatbot / FAQ /
+          translate-consent chrome (ClassScout depth absorbed into the portable validator).
+        </li>
       </ul>
+
+      <h2>Dense-US twin — ClassScout (do not merge engines)</h2>
+      <p>
+        ClassScout keeps <strong>forever Find</strong> and{" "}
+        <code>generated_art_only</code> media as product defaults. Padel keeps research{" "}
+        <code>--until-found</code> and OG scrape → R2. Export <em>orchestration</em>, not domain
+        fixtures.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Adopt from SC / padel</th>
+            <th>Keep ClassScout-local</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <code>catalog:self-heal</code> (pause Find when About debt hot; surface operator
+              feedback)
+            </td>
+            <td>
+              <code>catalog-loop:forever</code> / fair-use seed queue
+            </td>
+          </tr>
+          <tr>
+            <td>About quality bar ~75; locality name-drop alone ≠ pass</td>
+            <td>Multi-city ↔ borough integrity / mis-geo hide</td>
+          </tr>
+          <tr>
+            <td>
+              <code>serving:reconcile</code> in sparse-timer after about/media
+            </td>
+            <td>
+              <code>generated_art_only</code> media default
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>catalog:archive-snapshot</code>; contact enrich hygiene;{" "}
+              <code>check:cron-cli-twins</code>
+            </td>
+            <td>Strict ingest schema / E.164 product gate</td>
+          </tr>
+          <tr>
+            <td>
+              <code>--until-found</code> as <em>complement</em> when seed queue idles
+            </td>
+            <td>Client-feedback P0/P1 hygiene depth beyond base SC contract</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Vertical alias map: ClassScout{" "}
+        <a href="https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md">
+          docs/sovereign-content-alignment.md
+        </a>
+        . Twin knowledge + results lens: management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/classscout-sovereign-twin.md">
+          docs/classscout-sovereign-twin.md
+        </a>
+        . Refresh the ClassScout alignment doc when twins land.
+      </p>
 
       <h2>catalog:about-curate</h2>
       <p>
@@ -111,7 +178,10 @@ npm run catalog:autopilot -- --ticks 10 --requeue-limit 10`}</pre>
       <h2>catalog:self-heal</h2>
       <p>
         Unified About + research debt status. When debt is hot, FIND{" "}
-        <code>--until-found</code> defers and prints heal-first briefs. Record process lessons with{" "}
+        <code>--until-found</code> defers and prints heal-first briefs.{" "}
+        <code>--status</code> reports <code>openOperatorFeedback</code> (
+        <code>/stats</code> card notes) and instructs <code>catalog:quality-loop</code> — never
+        paste the operator note into About. Record process lessons with{" "}
         <code>--record-process</code>. Guide (management):{" "}
         <code>docs/padel-africa-self-heal.md</code>.
       </p>

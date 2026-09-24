@@ -182,6 +182,14 @@ export default function ImplementPage() {
         archive-snapshot. Add FIND when the card queue cannot grow the catalogue. Document flags
         in the vertical <code>docs/operations.md</code>.
       </p>
+      <p>
+        Dense-US ClassScout twin: keep forever Find + <code>generated_art_only</code>; adopt SC
+        orchestration from <Link href="/jobs">Jobs</Link> “Dense-US twin” and management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/classscout-sovereign-twin.md">
+          classscout-sovereign-twin.md
+        </a>
+        — do not merge engines.
+      </p>
 
       <h2>4. Secrets & hosts</h2>
       <ul>

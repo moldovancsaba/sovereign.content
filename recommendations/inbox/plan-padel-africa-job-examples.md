@@ -18,6 +18,9 @@ without copying padel domain fixtures.
 | SSOT `/adopting` | Points at padel-africa-jobs.md; expanded day-one CLIs |
 | SSOT `/environments/cursor` | Full reference timer set + FIND until-found playbook |
 | SSOT `/whats-new` | 2026-09-24 entry |
+| SSOT `/jobs` Dense-US twin | ClassScout keep vs adopt table |
+| management `docs/classscout-sovereign-twin.md` | Twin knowledge + orchestration list |
+| `plan-classscout-twin-orchestration.md` | Accepted ClassScout process plan |
 
 ## Agent contract (portable)
 

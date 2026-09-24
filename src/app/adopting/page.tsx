@@ -120,7 +120,7 @@ npm run catalog:find -- --until-found --max-cells 8`}</pre>
         If the vertical already has battle-tested runners under other npm names, expose{" "}
         <strong>thin one-way aliases</strong> that match this SSOT&apos;s <code>catalog:*</code>{" "}
         vocabulary — do not rename the SC contracts. ClassScout reference map:{" "}
-        <a href="https://github.com/moldovancsaba/classscout/blob/cursor/sovereign-content-align-b289/docs/sovereign-content-alignment.md">
+        <a href="https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md">
           docs/sovereign-content-alignment.md
         </a>{" "}
         (PR{" "}
@@ -174,6 +174,11 @@ npm run catalog:find -- --until-found --max-cells 8`}</pre>
         Worked CLI examples:{" "}
         <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
           docs/padel-africa-jobs.md
+        </a>
+        . ClassScout is the dense-US twin — adopt SC orchestration, keep forever Find; see{" "}
+        <Link href="/jobs">Jobs</Link> “Dense-US twin” and management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/classscout-sovereign-twin.md">
+          classscout-sovereign-twin.md
         </a>
         . Copy the pattern, not the padel domain data.
       </p>

@@ -125,16 +125,23 @@ npm run catalog:autopilot -- --ticks 10 --requeue-limit 10`}</pre>
 
       <h2>Cross-vertical: ClassScout twins</h2>
       <p>
-        Agents that also work ClassScout call the same <code>catalog:*</code> names via thin npm
-        twins — see ClassScout{" "}
-        <a href="https://github.com/moldovancsaba/classscout/blob/cursor/sovereign-content-align-b289/docs/sovereign-content-alignment.md">
-          sovereign-content-alignment.md
+        Do <strong>not</strong> merge engines. ClassScout keeps forever Find +{" "}
+        <code>generated_art_only</code>; Padel keeps <code>--until-found</code> + OG scrape → R2.
+        Agents on ClassScout call the same <code>catalog:*</code> names via thin npm twins — see
+        ClassScout{" "}
+        <a href="https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md">
+          docs/sovereign-content-alignment.md
         </a>
-        . Media policy there is <code>generated_art_only</code> (coverage, no venue-photo scrape);
-        Padel Africa keeps default <code>allow_og_scrape</code>. Street + chrome detector contract:{" "}
-        <Link href="/jobs">Jobs</Link>. Plans:{" "}
+        . Orchestration ClassScout should adopt (self-heal, About≥75, reconcile, archive,
+        until-found sparse complement, cron-cli-twins):{" "}
+        <Link href="/jobs">Jobs</Link> “Dense-US twin” and management{" "}
+        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/classscout-sovereign-twin.md">
+          classscout-sovereign-twin.md
+        </a>
+        . Street + chrome contract: <Link href="/jobs">Jobs</Link>. Plans:{" "}
         <code>recommendations/inbox/plan-classscout-rec-6-7-8.md</code>,{" "}
-        <code>plan-classscout-recs-6-21.md</code>.
+        <code>plan-classscout-recs-6-21.md</code>,{" "}
+        <code>plan-classscout-twin-orchestration.md</code>.
       </p>
 
       <h2>Reliability: hygiene must exit (SC #13)</h2>
