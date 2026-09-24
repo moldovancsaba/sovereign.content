@@ -22,7 +22,7 @@
 
 ## Files that must leave `management` on reconcile (sportolok)
 
-Full list: [`sportolok/MIGRATION-FROM-MANAGEMENT.md`](./sportolok/MIGRATION-FROM-MANAGEMENT.md).
+Full list: [`content.sportolok/MIGRATION-FROM-MANAGEMENT.md`](./content.sportolok/MIGRATION-FROM-MANAGEMENT.md).
 
 Shared engine edits that were sportolok-only (e.g. `vercel.json` media-curate / sovereign-delivery crons, `pipeline/extraction` / hygiene / pack / flags if touched) must return to `main` via normal reviewed PRs — never via the release branch.
 

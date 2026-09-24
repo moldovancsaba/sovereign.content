@@ -11,7 +11,7 @@ Live docs: [https://sovereigncontent.messmass.com](https://sovereigncontent.mess
 2. **Client agent folders** (top-level, independent):
    - [`content.classscout/`](./content.classscout/) — ClassScout / Your Field agent (`moldovancsaba/classscout`)
    - [`content.padelafrica/`](./content.padelafrica/) — padel-africa agent
-   - [`content.sportolok/`](./sportolok/) — sportolok agent (migrated out of management)
+   - [`content.sportolok/`](./content.sportolok/) — sportolok agent (migrated out of management)
 
 **Catalogue content (About, media, cards) never lives in the docs site.** Agents write live apps
 only via documented public APIs (`POST /api/ingest`). See [`CORE-TEAM-STATUS.md`](./CORE-TEAM-STATUS.md).
