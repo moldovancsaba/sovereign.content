@@ -37,6 +37,7 @@ TypeScript does not enter the docs build.
 | `content.classscout/` | ClassScout / Your Field agent workspace |
 | `content.padelafrica/` | Padel Africa agent workspace |
 | `content.sportolok/` | Sportolok agent workspace |
+| [`CLIENT-FOLDER-COMPARISON.md`](./CLIENT-FOLDER-COMPARISON.md) | How the three client folders compare to ClassScout forever workflow |
 | `recommendations/inbox/` | Accepted plans + new findings |
 
 **Push rule:** everything in this repo → **`main`**. Management engine changes → PR to
