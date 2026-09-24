@@ -2,8 +2,11 @@
 
 **Folder:** `content.padelafrica/` only  
 **Owner chat:** **Padel Africa Cloud Agent** (this vertical’s chat)  
-**Repo touch surface:** `moldovancsaba/sovereign.content` → **`content.padelafrica/` exclusively**  
+**Repo touch surface:** `moldovancsaba/sovereign.content` → **`content.padelafrica/`** (+ optional `fleet/inbox/padelafrica/` status JSON)  
 **Live app:** `padel-africa.doneisbetter.com` (`moldovancsaba/management`, vertical `padel-africa`)
+
+**Fleet SSOT (read-only for this chat — do not edit comparisons):**  
+[`fleet/RULES.md`](../fleet/RULES.md) · [`fleet/CLIENT-COMPARISON.md`](../fleet/CLIENT-COMPARISON.md) · [`fleet/profiles/padelafrica.json`](../fleet/profiles/padelafrica.json)
 
 ## Scope (binding)
 
@@ -12,39 +15,46 @@ This agent works **only on Padel Africa**.
 | In scope | Out of scope (hand off) |
 | --- | --- |
 | Padel FIND / about / quality / media / hygiene / self-heal digests | Sportolok, ClassScout, or any other vertical |
-| Docs, timers, ingest helpers, research notes **inside `content.padelafrica/`** | Editing `content.sportolok/`, `content.classscout/`, `fleet/`, site root (`src/app`), `HANDOVER.md`, `CORE-TEAM-STATUS.md`, recommendations inbox |
-| Management engine CLIs / fixtures on `release/padel-africa` workstreams | Management `release/sportolok`, classscout product repo, SSOT doctrine pages |
-| Slim padel status snapshots **written into** `fleet/inbox/padelafrica/` when the fleet contract asks | Owning or running `fleet:daily-swot`, SC-central timers, or multi-client architecture |
+| Docs, timers, ingest helpers **inside `content.padelafrica/`** | Editing `content.sportolok/`, `content.classscout/`, `fleet/` (except inbox snapshots), site root, `HANDOVER.md`, recommendations |
+| Management engine CLIs / fixtures on `release/padel-africa` workstreams | `release/sportolok`, classscout product repo, cross-client comparison docs |
+| Slim status → `fleet/inbox/padelafrica/status-YYYY-MM-DD.json` | Owning `fleet:daily-swot`, SC-central timers, or `fleet/CLIENT-COMPARISON.md` |
 
-**Rid of sovereign-direct / SC-central work from this chat.** The central sovereign.content system (Jobs site, fleet SWOT, other `content.*` cutovers) is owned by the **SC-central** Cloud Agent — see root [`HANDOVER.md`](../HANDOVER.md). Do not expand this chat into that role.
+**Rid of sovereign-direct / SC-central work.** Do not publish new comparison files; never extend root/workflow stubs. Canonical comparison is `fleet/CLIENT-COMPARISON.md` only.
 
-When committing to `sovereign.content` `main`, change **only paths under `content.padelafrica/`** (plus optional `fleet/inbox/padelafrica/` status JSON). Never “drive-by” edit sibling clients or the docs site from the padel chat.
+## Doctrine vs reality (writes)
+
+| Column | Truth |
+| --- | --- |
+| **Doctrine** | Agent writes via `POST /api/ingest` from `ingest/client.ts` |
+| **Reality today** | Orchestrator ticks still run management **`catalog:*` Mongo CLIs** as product operator tools |
+| **Honest claim** | Ingest-only is the target steady-state — **not** current tick reality. Do not claim “API-only enforced” until writes go through `content.padelafrica/ingest/` |
 
 ## Rules (non-negotiable)
 
-1. **This folder is the home** for padel-africa agent docs, timer prompts, research playbooks, and ingest-side automation.
-2. **Do not** add routes, libs, or crons to `moldovancsaba/management` for agent features. Engine CLIs that already exist there (`catalog:quality-loop`, etc.) are management product surfaces — new agent automation calls public APIs from here.
-3. **Do not** write the shared Mongo database from this agent as the steady-state path. Prefer `POST /api/ingest` (and other documented public APIs) with a scoped machine token. Operator hygiene may still invoke existing management `catalog:*` CLIs — do not add new Mongo writers here.
+1. **This folder is the home** for padel-africa agent docs, timer prompts, and ingest-side automation.
+2. **Do not** add routes, libs, or crons to `moldovancsaba/management` for agent features. Engine CLIs (`catalog:quality-loop`, etc.) are management product surfaces.
+3. Prefer ingest for new agent automation; operator ticks may use existing management `catalog:*` — track the gap (above). Never invent phones/emails/ages/court counts.
 4. **Do not** import from `../content.sportolok/` or `../content.classscout/`.
-5. Schedule / listing patches must match [`ingest/content-data-contract.md`](./ingest/content-data-contract.md) (`RecurringSlot` = singular `weekday`).
+5. Schedule patches must match [`ingest/content-data-contract.md`](./ingest/content-data-contract.md) (`RecurringSlot` = singular `weekday`).
 6. **Do not** merge ClassScout forever-Find with padel until-found engines.
+7. Keep timer `padel-find-tick` on **this** chat. Do not touch `fleet-daily-swot`.
 
 ## Layout
 
-| Path | Purpose |
-| --- | --- |
-| `docs/` | Jobs, FIND, self-heal, twin, dual-repo (agent-facing copies) |
-| `timers/` | Single orchestrator Cursor timer prompt |
-| `ingest/` | Ingest client + schedule conversion + content contract mirror |
-| `research/` | Research notes / attempt summaries (no live catalogue dump) |
-| `scripts/` | Agent helpers that call ingest / report only |
+| Path | Purpose | Status |
+| --- | --- | --- |
+| `docs/` | Jobs, FIND, self-heal, dual-repo (agent-facing copies) | populated |
+| `timers/` | Single orchestrator Cursor timer prompt | populated |
+| `ingest/` | Ingest client + schedule conversion + contract mirror | populated |
+| `research/` | Optional research notes (no catalogue dump) | **empty** — add files when needed; not required |
+| `scripts/` | Optional ingest/report helpers | **empty** — ticks use management `catalog:*` today |
 
 ## Engine vs agent
 
 | Concern | Where |
 | --- | --- |
 | Vertical pack, listing UI, engine `catalog:*` CLIs + crons | `management` → `release/padel-africa` |
-| Agent orchestration, FIND playbooks, HiTL digests, timer prompts | **`content.padelafrica/` only** |
-| Portable process contracts / fleet / other clients | SC-central agent + SSOT site root — **not this chat** |
+| Agent playbooks, HiTL digests, timer prompts | **`content.padelafrica/`** |
+| Portable process / fleet comparison / other clients | SC-central — **not this chat** |
 
-Canonical worked examples also remain linked from management docs until release branch catches up; **edit agent how-to here first**.
+**Edit agent how-to here first.** Cross-client maturity edits → propose to SC-central for `fleet/CLIENT-COMPARISON.md` (do not fork a local comparison).

@@ -1,0 +1,35 @@
+{
+  "clientId": "padelafrica",
+  "observedAt": "2026-09-24T20:20:33Z",
+  "source": "padel-find-tick",
+  "workingEnv": {
+    "timerSubscribed": true,
+    "timerName": "padel-find-tick",
+    "ingestOnlyDoctrine": true,
+    "ingestOnlyReality": false,
+    "writesPath": "management_catalog_clis_mongo",
+    "tickCompleted": true,
+    "healBeforeFind": true,
+    "docsMatchJobs": true,
+    "agentHomeScripts": 0
+  },
+  "outcomes": {
+    "findSeeded": 1,
+    "findZeroResult": 0,
+    "findCell": { "cc": "MU", "city": "Flic en Flac", "outcome": "seeded", "listingId": "research-mus-ven-002" },
+    "aboutDebtOpen": 0,
+    "researchDebtOpen": 0,
+    "hitlBacklog": 0,
+    "publishedTotal": 170,
+    "mediaAppliedThisTick": 9,
+    "mediaHostPrimary": "r2",
+    "settledEmptyQualityTick": true,
+    "qualityScoreAlreadyGood": 100
+  },
+  "openDebt": [],
+  "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/RULES.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/CLIENT-COMPARISON.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/AGENTS.md"
+  ]
+}
