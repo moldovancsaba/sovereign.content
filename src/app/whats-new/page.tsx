@@ -49,16 +49,20 @@ export default function WhatsNewPage() {
       <h2>2026-09-24 — Self-heal feedback audit + self-improve plan</h2>
       <ul>
         <li>
-          Audit: About quality-loop is closed; process lessons, FIND source yields, media/geo debt
-          kinds, and SSOT inbox are mostly write-only — no digest job yet
+          Audit (historical): About quality-loop closed; process lessons / FIND yields / media-geo
+          debt / SSOT inbox were write-mostly at snapshot time
         </li>
         <li>
-          Plan: <code>catalog:self-heal --digest</code> / <code>catalog:self-improve</code> with
-          three lanes (listing debt, process residue, portable contracts)
+          <strong>Digest shipped same day:</strong> <code>catalog:self-heal --digest</code> with
+          HiTL classes (report label <code>catalog:self-improve</code> is not an npm script)
         </li>
         <li>
-          Phase 1 honesty fixes: wire <code>media_thin</code>, open <code>geo_weak</code>, stop
+          Phase 1 honesty still open: wire <code>media_thin</code>, open <code>geo_weak</code>, stop
           sibling-skip of research debt, apply lesson tactic order
+        </li>
+        <li>
+          Timer: fold digest into the <strong>single catalog orchestrator</strong> — do not add a
+          sixth <code>padel-self-improve-tick</code> unless forced
         </li>
       </ul>
       <p>

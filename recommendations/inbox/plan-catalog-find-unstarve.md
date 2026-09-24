@@ -29,7 +29,7 @@ remained (soft Abouts false-greened by locality bonus; contact fields outside th
 | --- | --- |
 | About bar | `ABOUT_QUALITY_TARGET = 75`; locality bonus capped — soft Abouts re-enter curate/quality |
 | Contact | Hygiene `contact` pass + `catalog:contact-enrich` (headers / promotable sourceUrl only) |
-| FIND | `catalog:find` — `--status` → research fixture → dry-run → seed (not NYC fair-use) |
+| FIND | `catalog:find --until-found --max-cells N` + agent executes cells (fixture path still for apply); not NYC fair-use |
 
 **Live FIND proof (padel-africa Mongo):** `research-sen-ven-002` Dakar Padel Club, `research-sen-ven-003`
 REBEL PADEL Sahm; `research-tza-ven-001`/`002` (Padel Centre TZ Slipway + The Hub Bwejuu);
@@ -45,7 +45,7 @@ store falls back to `territory.settlement` / `territory.country` when locality i
 **Dry-run checks**
 
 ```bash
-npm run catalog:find -- --status
+npm run catalog:find -- --until-found --max-cells 8
 npm run catalog:find -- --fixture=scripts/data/senegal-padel-verified.json --dry-run
 npm run catalog:about-curate -- --list
 npm run catalog:hygiene -- --dry-run --passes contact

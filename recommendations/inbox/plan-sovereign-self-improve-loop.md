@@ -78,7 +78,10 @@ Engine: management `src/lib/catalogSelfHeal/hitlDelivery.ts` + `--digest`. Guide
 
 ## New / extended jobs
 
-### 1. `catalog:self-heal --digest` (or `catalog:self-improve`)
+### 1. `catalog:self-heal --digest`
+
+CLI mode on the existing `catalog:self-heal` script (there is **no** `catalog:self-improve` npm
+script). Digest JSON may include `"job": "catalog:self-improve"` as a **report label** only.
 
 Bounded tick that **reads** feedback stores and prints a machine-readable plan:
 
@@ -136,10 +139,13 @@ When digest sees repeated patterns (e.g. ≥3 zero-results same city class, or `
 
 ### 5. Timer cadence
 
+Prefer **one** orchestrator timer (see management `docs/padel-africa-jobs.md`). Do not add a sixth
+`padel-self-improve-tick` while MCP rejects new subscription names — fold digest into the existing
+orchestrator prompt as the last step.
+
 | Timer | Cadence | Prompt gist |
 | --- | --- | --- |
-| Existing quality / about / media / hygiene / FIND / autopilot | keep | unchanged |
-| **New:** `padel-self-improve-tick` | 6–12h | Run `catalog:self-heal --digest` (or `catalog:self-improve`). If `healFirst` non-empty → run those CLIs. If `draftRecs` → agent opens SSOT inbox file on `main`. Report JSON. Leave subscribed. |
+| **Single:** `padel-find-tick` (orchestrator) | ~3600s | about → quality → media → autopilot → hygiene/reconcile → FIND `--until-found` → `catalog:self-heal --digest`. Run auto/agent_execute; queue hitl_review. Leave subscribed. |
 
 ## Phased delivery
 

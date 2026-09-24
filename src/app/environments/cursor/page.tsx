@@ -24,8 +24,9 @@ export default function CursorEnvironmentPage() {
           Long-running agent sessions that call <code>npm run catalog:*</code>
         </li>
         <li>
-          <code>subscribe_timer</code> for recurring ticks (about / quality / autopilot / hygiene /
-          media) — and on-demand <code>catalog:find</code> for new venues
+          One <code>subscribe_timer</code> orchestrator that runs about → quality → media →
+          autopilot → hygiene → FIND <code>--until-found</code> → <code>catalog:self-heal --digest</code>{" "}
+          in a single turn (not one timer per job; not on-demand-only FIND)
         </li>
         <li>Research passes that upsert structured cards or curated About into Mongo</li>
         <li>
@@ -59,36 +60,24 @@ export default function CursorEnvironmentPage() {
 
       <h2>Reference timer set</h2>
       <p>
-        Pattern used on Padel Africa (management / <code>release/padel-africa</code>). Adjust
-        intervals per vertical debt — not calendar dogma. Worked examples:{" "}
+        Prefer <strong>one</strong> orchestrator subscription (~3600s) whose prompt runs the steps
+        below in order. Pattern used on Padel Africa (
+        <code>padel-find-tick</code> on management / <code>release/padel-africa</code>). Worked
+        examples:{" "}
         <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
           padel-africa-jobs.md
         </a>
         .
       </p>
-      <pre>{`# Self-heal status (defer FIND when debt is hot)
-npm run catalog:self-heal -- --status
-
-# About debt → curated Mongo overrides + description apply
+      <pre>{`# Single wake — run in order (empty sub-steps OK)
 npm run catalog:about-curate -- --limit 15
-
-# Score → improve → encode (Mongo only — no GDS)
 npm run catalog:quality-loop -- --score-limit 100 --improve-limit 40
-
-# Empty media → R2 primary / ImgBB backup / https passthrough
 npm run catalog:media-curate -- --limit 25
-
-# Nominatim hygiene drains (+ contact enrich)
+npm run catalog:autopilot -- --ticks 10 --requeue-limit 10
 npm run catalog:hygiene
-
-# Public card projection after About/media
 npm run serving:reconcile -- --limit 200
-
-# FIND until one evidence-grade seed (agent executes firstBrief)
-npm run catalog:find -- --until-found --max-cells 8
-
-# Structured card publish machine (no-op when queue empty)
-npm run catalog:autopilot -- --ticks 10 --requeue-limit 10`}</pre>
+npm run catalog:find -- --until-found --max-cells 8   # agent executes; stop on seed
+npm run catalog:self-heal -- --digest                # HiTL classes; leave timer subscribed`}</pre>
 
       <h2>FIND playbook (Cloud Agent)</h2>
       <ol>
@@ -191,13 +180,15 @@ npm run catalog:autopilot -- --ticks 10 --requeue-limit 10`}</pre>
 
       <h2>Wiring subscribe_timer</h2>
       <p>
-        From a Cloud Agent session with cursor-subscriptions MCP authenticated, subscribe one timer
-        per job class. Keep the prompt short: name the script, flags, env vertical, and the rule
-        “Mongo only — no git content.” Example intent (not a vendor API dump):
+        From a Cloud Agent session with cursor-subscriptions MCP authenticated, subscribe{" "}
+        <strong>one</strong> recurring orchestrator timer. Timers only enqueue prompts — they do not
+        hand off to the next job. Keep the prompt ordered: about → quality → media → autopilot →
+        hygiene/reconcile → FIND until-found → self-heal digest. Rule: “Mongo only — no git content;
+        no AI Gateway on these ticks.” Example intent (not a vendor API dump):
       </p>
-      <pre>{`Every 4 hours: in the vertical checkout,
-VERTICAL=<id> npm run catalog:quality-loop -- --score-limit 50 --improve-limit 20
-Report counts only. Do not open PRs for content.`}</pre>
+      <pre>{`Every ~1h: in the vertical checkout, run the catalog orchestrator
+(about → quality → media → autopilot → hygiene → FIND --until-found →
+catalog:self-heal --digest). Report one combined summary. Leave this timer subscribed.`}</pre>
 
       <h2>Delivery boundary</h2>
       <table>
@@ -236,7 +227,7 @@ Report counts only. Do not open PRs for content.`}</pre>
       <p>
         When Cursor is boringly reliable on a vertical, port the same CLIs to OpenClaw workers,
         local daemons, or Vercel Cron using the stubs on the{" "}
-        <Link href="/#environments">environment selector</Link>. Do not invent a second job
+        <Link href="/">environment selector</Link>. Do not invent a second job
         vocabulary.
       </p>
     </DocShell>

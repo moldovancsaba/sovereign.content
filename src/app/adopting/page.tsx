@@ -98,7 +98,10 @@ export default function AdoptingPage() {
             <td>
               <code>AI_GATEWAY_API_KEY</code>
             </td>
-            <td>Optional free-text autopilot only</td>
+            <td>
+              Optional free-text autopilot only — <strong>do not</strong> use on Cloud Agent
+              about/quality/media/hygiene/FIND/digest ticks
+            </td>
           </tr>
         </tbody>
       </table>
@@ -168,10 +171,11 @@ npm run catalog:find -- --until-found --max-cells 8`}</pre>
       <h2>Reference vertical</h2>
       <p>
         Management / Padel Africa on branch <code>release/padel-africa</code> is the working
-        reference: published listings across Africa, R2 primary + ImgBB backup media rehost, Cloud
-        Agent timers for about / quality / media / hygiene / FIND / autopilot, Mongo-only content
-        ticks (no GDS), and <code>catalog:find --until-found</code> for evidence-only research FIND.
-        Worked CLI examples:{" "}
+        reference: published listings across Africa, R2 primary + ImgBB backup media rehost,{" "}
+        <strong>one</strong> Cloud Agent orchestrator timer (about → quality → media → autopilot →
+        hygiene → FIND → digest), Mongo-only content ticks (no GDS / no AI Gateway on those ticks),
+        and <code>catalog:find --until-found</code> for evidence-only research FIND. Worked CLI
+        examples:{" "}
         <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-jobs.md">
           docs/padel-africa-jobs.md
         </a>

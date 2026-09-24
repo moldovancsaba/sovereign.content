@@ -85,7 +85,10 @@ export default function DoctrinePage() {
       </table>
 
       <h2>Proven reference loop</h2>
-      <p>On Padel Africa the closed loop that agents run on a timer looks like this:</p>
+      <p>
+        On Padel Africa the closed loop agents run on <strong>one</strong> orchestrator timer looks
+        like this (heal → fill → find → digest):
+      </p>
       <ol>
         <li>
           <code>catalog:about-curate</code> — draft grounded About into Mongo
@@ -94,18 +97,27 @@ export default function DoctrinePage() {
           <code>catalog:quality-loop</code> — score → improve → encode lessons
         </li>
         <li>
+          <code>catalog:media-curate</code> — fill empty media (R2 → ImgBB → https passthrough)
+        </li>
+        <li>
           <code>catalog:autopilot</code> — advance structured content cards toward publish
         </li>
         <li>
-          <code>catalog:hygiene</code> — geo / price / venue-model drains via Nominatim
+          <code>catalog:hygiene</code> + <code>serving:reconcile</code> — Nominatim / contact +
+          public refresh
         </li>
         <li>
-          <code>catalog:media-curate</code> — fill empty media (R2 → ImgBB → https passthrough)
+          <code>catalog:find --until-found</code> — evidence-only growth (agent executes; stop on
+          first seed). Defers only when open About ≥ 3.
+        </li>
+        <li>
+          <code>catalog:self-heal --digest</code> — smart report + HiTL (
+          <code>auto</code> / <code>agent_execute</code> / <code>hitl_review</code>)
         </li>
       </ol>
       <p>
         Full contracts live on <a href="/jobs">Jobs</a>. The first runtime playbook is{" "}
-        <a href="/environments/cursor">Cursor</a>.
+        <a href="/environments/cursor">Cursor</a>. Do not use AI Gateway / Ollama on these ticks.
       </p>
     </DocShell>
   );

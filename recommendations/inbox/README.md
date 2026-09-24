@@ -1,7 +1,15 @@
 # Agent recommendation inbox
 
 **Self-improve loop (accepted plan):** [`plan-sovereign-self-improve-loop.md`](./plan-sovereign-self-improve-loop.md)
-— digest new feedback → heal / brief / propose portable contracts.
+— digest new feedback → heal / brief / propose portable contracts. CLI: `catalog:self-heal --digest`
+(not `catalog:self-improve`).
+
+**ClassScout twin orchestration:** [`plan-classscout-twin-orchestration.md`](./plan-classscout-twin-orchestration.md)
+
+**Padel job examples / FIND unstarve:** [`plan-padel-africa-job-examples.md`](./plan-padel-africa-job-examples.md),
+[`plan-catalog-find-unstarve.md`](./plan-catalog-find-unstarve.md)
+
+**ClassScout #6–#21 portable contracts:** [`plan-classscout-recs-6-21.md`](./plan-classscout-recs-6-21.md)
 
 **Canonical (already accepted):** [`rec-dual-repo-quality-reliability.md`](./rec-dual-repo-quality-reliability.md)
 — dual-repo, content archive-backup, quality stack, reliability habits. Other agents implement via

@@ -178,9 +178,10 @@ export default function ImplementPage() {
         </li>
       </ol>
       <p>
-        Minimum for improvement-only: about-curate + quality-loop + media-curate + hygiene +
-        archive-snapshot. Add FIND when the card queue cannot grow the catalogue. Document flags
-        in the vertical <code>docs/operations.md</code>.
+        Day-one growth stack: about-curate + quality-loop + media-curate + hygiene + self-heal +
+        FIND <code>--until-found</code> + digest + archive-snapshot. Improvement-only subsets may
+        omit FIND when coverage is already dense. Document flags in the vertical{" "}
+        <code>docs/operations.md</code>.
       </p>
       <p>
         Dense-US ClassScout twin: keep forever Find + <code>generated_art_only</code>; adopt SC
@@ -244,19 +245,25 @@ export default function ImplementPage() {
 npm run catalog:quality-loop -- --dry-run --score-limit 20 --improve-limit 10
 npm run catalog:media-curate -- --dry-run --limit 5
 npm run catalog:about-curate -- --list
+npm run catalog:self-heal -- --digest
+npm run catalog:find -- --until-found --max-cells 8
 npm run catalog:archive-snapshot -- --dry-run
 
-# Writes when counts look sane
+# Writes when counts look sane (or let the orchestrator timer run the same order)
 npm run catalog:about-curate -- --limit 15
 npm run catalog:quality-loop -- --score-limit 100 --improve-limit 40
 npm run catalog:media-curate -- --limit 25
 npm run catalog:autopilot -- --ticks 10 --requeue-limit 10
 npm run catalog:hygiene
+npm run serving:reconcile -- --limit 200
+npm run catalog:find -- --until-found --max-cells 8   # agent executes; stop on seed
+npm run catalog:self-heal -- --digest
 npm run catalog:archive-snapshot   # then commit archive/ on the vertical branch`}</pre>
       <p>
-        Subscribe <code>subscribe_timer</code> ticks only after dry-runs succeed. Empty queues (
-        <code>scanned: 0</code> / <code>ranTicks: 0</code>) are success — leave timers subscribed.
-        Full runtime notes: <Link href="/environments/cursor">Cursor</Link>.
+        Subscribe <strong>one</strong> <code>subscribe_timer</code> orchestrator only after dry-runs
+        succeed. Empty sub-steps (<code>scanned: 0</code> / <code>ranTicks: 0</code>) are success —
+        leave that timer subscribed. Full runtime notes:{" "}
+        <Link href="/environments/cursor">Cursor</Link>.
       </p>
 
       <h2>7. Reliability habits</h2>

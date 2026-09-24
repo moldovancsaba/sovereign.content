@@ -65,10 +65,10 @@ export default function RecommendationsPage() {
               <strong>Quality stack</strong>
             </td>
             <td>
-              Minimum: <code>about-curate</code>, <code>quality-loop</code>,{" "}
-              <code>media-curate</code>, <code>archive-snapshot</code>. Add{" "}
-              <code>autopilot</code> / <code>hygiene</code> when cards exist. Contracts:{" "}
-              <Link href="/jobs">Jobs</Link>.
+              Day-one: <code>about-curate</code>, <code>quality-loop</code>,{" "}
+              <code>media-curate</code>, <code>hygiene</code>, <code>self-heal --digest</code>,{" "}
+              <code>find --until-found</code>, <code>archive-snapshot</code>. Add{" "}
+              <code>autopilot</code> when cards exist. Contracts: <Link href="/jobs">Jobs</Link>.
             </td>
           </tr>
           <tr>

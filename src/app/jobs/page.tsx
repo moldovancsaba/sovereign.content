@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { DocShell } from "@/components/DocShell";
 
 export const metadata: Metadata = {
@@ -188,12 +189,14 @@ npm run catalog:autopilot -- --ticks 10 --requeue-limit 10`}</pre>
       <pre>{`npm run catalog:self-heal -- --status
 npm run catalog:self-heal -- --brief`}</pre>
       <p>
-        Feedback audit (what is collected vs consumed): management{" "}
+        Feedback audit (historical collectors vs consumers): management{" "}
         <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-self-heal-feedback-audit-2026-09-24.md">
           padel-africa-self-heal-feedback-audit-2026-09-24.md
         </a>
-        . About has a closed quality-loop; process lessons / FIND yields / SSOT inbox are mostly
-        write-only today. Planned digest:{" "}
+        . <strong>Digest is shipped</strong> — use{" "}
+        <code>catalog:self-heal --digest</code> below (not a separate npm script). Remaining Phase
+        1 gaps: tactic-order apply, <code>media_thin</code>/<code>geo_weak</code> openers,
+        sibling-close honesty. Plan:{" "}
         <code>recommendations/inbox/plan-sovereign-self-improve-loop.md</code> (
         <Link href="/recommendations">Recommendations</Link>).
       </p>
@@ -201,8 +204,9 @@ npm run catalog:self-heal -- --brief`}</pre>
       <h2>Self-improve — smart digest + HiTL delivery</h2>
       <p>
         <code>catalog:self-heal --digest</code> prints an agent-quality report (executive brief +
-        per-item situation → evidence → analysis → recommendation), not a counter dump. Each item
-        is classified:
+        per-item situation → evidence → analysis → recommendation), not a counter dump. Digest JSON
+        may label <code>&quot;job&quot;:&quot;catalog:self-improve&quot;</code> — that is a report
+        field only; the npm script remains <code>catalog:self-heal</code>. Each item is classified:
       </p>
       <ul>
         <li>
@@ -407,60 +411,37 @@ npm run catalog:find -- --record-attempt --cc=XX --city="City" --outcome=seeded`
       </p>
 
       <h2>Suggested timer cadence (Cursor)</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Job</th>
-            <th>Suggested interval</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <code>catalog:self-heal</code>
-            </td>
-            <td>Before FIND when debt is hot; otherwise status-only</td>
-          </tr>
-          <tr>
-            <td>
-              <code>catalog:about-curate</code>
-            </td>
-            <td>Every few hours while About debt remains</td>
-          </tr>
-          <tr>
-            <td>
-              <code>catalog:quality-loop</code>
-            </td>
-            <td>Daily (or after each about-curate batch)</td>
-          </tr>
-          <tr>
-            <td>
-              <code>catalog:media-curate</code>
-            </td>
-            <td>Until media coverage is complete, then weekly</td>
-          </tr>
-          <tr>
-            <td>
-              <code>catalog:hygiene</code> + <code>serving:reconcile</code>
-            </td>
-            <td>Daily / after About–media batches</td>
-          </tr>
-          <tr>
-            <td>
-              <code>catalog:find --until-found</code>
-            </td>
-            <td>Recurring while sparse/missing markets remain (agent executes briefs)</td>
-          </tr>
-          <tr>
-            <td>
-              <code>catalog:autopilot</code>
-            </td>
-            <td>Every 15–60 minutes while cards are queued</td>
-          </tr>
-        </tbody>
-      </table>
       <p>
-        Wire these via <code>subscribe_timer</code> in the Cursor Cloud Agent playbook.
+        <strong>Prefer one orchestrator timer</strong> (~3600s).{" "}
+        <code>subscribe_timer</code> only enqueues a prompt — it cannot chain job A → job B. Many
+        per-job timers contend for the same agent and can hit MCP caps on <em>new</em> timer names.
+        Reference name on padel-africa: <code>padel-find-tick</code> (orchestrator prompt, not
+        FIND-only). Guide: management <code>docs/padel-africa-jobs.md</code> § timer orchestration.
+      </p>
+      <p>One wake, run in order:</p>
+      <ol>
+        <li>
+          <code>catalog:about-curate</code> → <code>catalog:quality-loop</code>
+        </li>
+        <li>
+          <code>catalog:media-curate</code>
+        </li>
+        <li>
+          <code>catalog:autopilot</code>
+        </li>
+        <li>
+          <code>catalog:hygiene</code> → <code>serving:reconcile</code>
+        </li>
+        <li>
+          <code>catalog:find --until-found</code> (agent executes; stop on first seed)
+        </li>
+        <li>
+          <code>catalog:self-heal --digest</code> (HiTL classes; leave this one timer subscribed)
+        </li>
+      </ol>
+      <p>
+        Empty sub-steps inside that wake are success. Do <strong>not</strong> subscribe a separate{" "}
+        <code>padel-self-improve-tick</code> unless the orchestrator is unavailable.
       </p>
 
       <h2>Portable contracts from ClassScout live audits (#6–#21)</h2>
