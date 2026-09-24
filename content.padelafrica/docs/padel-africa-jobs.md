@@ -12,9 +12,11 @@ runs its `catalog:*` loop. Portable contracts live on the process SSOT
 | --- | --- |
 | **Mongo** (`padel-africa`) | Live catalogue — agents must not open it; management engine owns it |
 | **management** repo | Engine UI, pack, public `/api/ingest`, operator `catalog:*` CLIs |
-| **sovereign.content/`content.padelafrica/`** | **Agent home** — timers, ingest client, FIND/self-heal playbooks |
-| **sovereign.content site** | Doctrine / Jobs / Cursor — never listing prose |
+| **sovereign.content/`content.padelafrica/`** | **Only agent folder this chat may edit** — timers, ingest, FIND/self-heal playbooks |
+| **sovereign.content site / fleet / other `content.*`** | **SC-central** — out of scope for the padel chat |
 | **GDS / vertical pack** | UI + serving projection only |
+
+**Padel Africa only.** Rid of sovereign-direct / multi-client ownership from this chat — see [`../AGENTS.md`](../AGENTS.md).
 
 **Agent writes** go through `POST /api/ingest` from `sovereign.content/content.padelafrica/ingest/`.
 Schedule patches must use singular `weekday` RecurringSlots (see that folder’s content-data-contract).

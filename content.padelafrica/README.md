@@ -1,6 +1,7 @@
 # content.padelafrica
 
-Dedicated content-project folder for the **padel-africa** vertical agent.
+**Padel Africa only.** This is the sole `sovereign.content` folder the Padel Africa Cloud Agent may edit.
 
-See [AGENTS.md](./AGENTS.md). Process SSOT site remains at repo root; this folder owns
-padel-africa agent ops only. Live app / Mongo vertical id remains `padel-africa`.
+- Live app / vertical id: `padel-africa` → `padel-africa.doneisbetter.com`
+- Agent how-to: [AGENTS.md](./AGENTS.md) (scope binding — no SC-central, no sibling `content.*`)
+- Process SSOT site (Jobs / Implement) stays at repo root and is owned by the **SC-central** agent, not this chat

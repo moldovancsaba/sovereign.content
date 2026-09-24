@@ -4,13 +4,16 @@
 sovereign agent code must not live inside `moldovancsaba/management` client release branches;
 agents talk to live apps only through documented public APIs.
 
+**Padel Africa Cloud Agent:** work **only** on padel-africa. In `sovereign.content`, edit **`content.padelafrica/` only**. Do not own the SSOT site, `fleet/`, or sibling `content.*` folders (SC-central chat). See [`../AGENTS.md`](../AGENTS.md).
+
 ## Where things live
 
 | Concern | Repository | Path / branch | Notes |
 | --- | --- | --- | --- |
-| **Process SSOT site** | [`sovereign.content`](https://github.com/moldovancsaba/sovereign.content) | `main` → site root (`/jobs`, `/implement`, …) | Doctrine + portable contracts |
-| **Padel Africa agent** | `sovereign.content` | **`content.padelafrica/`** on `main` | Timers, ingest client, FIND/self-heal playbooks, HiTL |
-| **Sportolok agent** | `sovereign.content` | **`sportolok/`** on `main` | Migrated sovereign runtime (quarantined Mongo writers) + ingest |
+| **Process SSOT site** | [`sovereign.content`](https://github.com/moldovancsaba/sovereign.content) | `main` → site root (`/jobs`, `/implement`, …) | Doctrine + portable contracts — **SC-central** |
+| **Padel Africa agent** | `sovereign.content` | **`content.padelafrica/`** on `main` | **Only folder the padel chat may edit** |
+| **Sportolok agent** | `sovereign.content` | **`content.sportolok/`** on `main` | Other chat / SC-central |
+| **ClassScout agent** | `sovereign.content` | **`content.classscout/`** on `main` | Other chat / SC-central |
 | **Management engine** | [`management`](https://github.com/moldovancsaba/management) | Feature → **`main`** (reviewed); release branches are **fast-forward only** | Vertical packs, UI, pipeline, public `/api/ingest` |
 | **Live catalogue** | Mongo (per vertical) | — | Agents must **not** open Mongo |
 
