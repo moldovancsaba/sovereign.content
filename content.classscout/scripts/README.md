@@ -1,6 +1,6 @@
 # ClassScout catalog-loop runners
 
-**Home:** `sovereign.content/classscout/scripts/`  
+**Home:** `sovereign.content/content.classscout/scripts/`  
 **Product:** set `CLASSSCOUT_PRODUCT_ROOT` to a `moldovancsaba/classscout` checkout (defaults to `/workspace` in Cloud Agent VMs).
 
 Listing writes: `POST /api/ingest` (+ upload) only — see `../ingest/content-data-contract.md`.

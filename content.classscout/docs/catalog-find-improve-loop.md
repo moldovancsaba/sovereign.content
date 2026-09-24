@@ -2,7 +2,7 @@
 
 **Status:** LIVE as of 2026-09-21 in the ClassScout cloud-agent environment.
 **Scope (owner):** this environment only · find new listings · improve existing listings.
-**Storage:** TARGET home is `sovereign.content/classscout/` ([`sovereign-content-storage.md`](sovereign-content-storage.md),
+**Storage:** TARGET home is `sovereign.content/content.classscout/` ([`sovereign-content-storage.md`](sovereign-content-storage.md),
 rule 454). Runners remain in `scripts/catalog-loop/` until that cutover.
 **Not this doc:** ClassScout Lite daemon design, OpenClaw/`researchandenrich` internals, board
 planning — those remain in their own SSOTs. This loop is an **ops runner** that writes through the
