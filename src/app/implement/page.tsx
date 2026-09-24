@@ -16,11 +16,11 @@ export default function ImplementPage() {
 
       <DocCallout>Canonical recommendation text:{" "}
         <code>recommendations/inbox/rec-dual-repo-quality-reliability.md</code> · summary on{" "}
-        <Link href="/recommendations">Recommendations</Link>. Latest shipped contracts:{" "}
-        <Link href="/whats-new">What&apos;s new</Link> (unified activity completeness). Reference
-        vertical: management / Padel Africa. Copy <em>patterns</em>, not padel domain data. Process
-        SSOT is this site; live catalogue is Mongo; optional JSON backup is on the vertical GitHub
-        branch only.</DocCallout>
+        <Link href="/recommendations">Recommendations</Link>.{" "}
+        <strong>2026-09-24 separation:</strong> agent code lives in top-level{" "}
+        <code>padel-africa/</code> and <code>sportolok/</code> in this repo; management release
+        branches are fast-forward only; agents write via <code>POST /api/ingest</code> only. See{" "}
+        <code>CORE-TEAM-STATUS.md</code>.</DocCallout>
 
       <h2>0. Mental model</h2>
       <table>
@@ -36,33 +36,44 @@ export default function ImplementPage() {
             <td>Process SSOT</td>
             <td>Doctrine, jobs, playbooks, recommendations</td>
             <td>
-              <code>sovereign.content</code> → <code>main</code> → this site
+              <code>sovereign.content</code> site root → <code>main</code>
+            </td>
+          </tr>
+          <tr>
+            <td>Client agent</td>
+            <td>Timers, ingest client, FIND/self-heal playbooks, (sportolok) sovereign runtime</td>
+            <td>
+              <code>sovereign.content/padel-africa/</code> or <code>sportolok/</code> on{" "}
+              <code>main</code>
             </td>
           </tr>
           <tr>
             <td>Vertical engine</td>
             <td>
-              <code>catalog:*</code> CLIs, crons, schema, public site
+              UI, pack, pipeline, public <code>/api/ingest</code>, operator <code>catalog:*</code>
             </td>
-            <td>Vertical repo (e.g. management) → release branch</td>
+            <td>
+              <code>management</code> → PR to <code>main</code> (release = fast-forward)
+            </td>
           </tr>
           <tr>
             <td>Live content</td>
-            <td>Listings, About, media, cards, lessons</td>
-            <td>Mongo (or equivalent)</td>
+            <td>Listings / cards</td>
+            <td>Mongo — agents must not open it; use ingest API</td>
           </tr>
           <tr>
             <td>Archive-backup</td>
-            <td>Dated JSON recovery copy</td>
+            <td>Dated JSON recovery copy (engine/ops)</td>
             <td>
-              Vertical branch <code>archive/&lt;vertical&gt;/content/</code>
+              Management branch <code>archive/&lt;vertical&gt;/content/</code>
             </td>
           </tr>
           <tr>
             <td>Agent runtime</td>
-            <td>Timers, dry-runs, PRs</td>
+            <td>Timers, ingest, playbooks</td>
             <td>
-              Start with <Link href="/environments/cursor">Cursor</Link>
+              <code>padel-africa/</code> or <code>sportolok/</code> ·{" "}
+              <Link href="/environments/cursor">Cursor</Link>
             </td>
           </tr>
         </tbody>

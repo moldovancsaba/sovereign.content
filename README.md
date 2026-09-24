@@ -1,21 +1,21 @@
 # Sovereign Content
 
-**SSOT** for sovereign agentic catalogue systems.
+**SSOT** for sovereign agentic catalogue systems — plus **per-client agent workspaces**.
 
 Live docs: [https://sovereigncontent.messmass.com](https://sovereigncontent.messmass.com)
 
 ## What this repo is
 
-Transfer knowledge only: doctrine, portable job contracts, environment playbooks, and adoption
-checklists. **Catalogue content (About, media, cards) never lives here** — it stays in each
-vertical's data store.
+1. **Transfer knowledge** (Next.js site at repo root): doctrine, portable job contracts, environment
+   playbooks, adoption checklists.
+2. **Client agent folders** (top-level, independent):
+   - [`padel-africa/`](./padel-africa/) — padel-africa agent
+   - [`sportolok/`](./sportolok/) — sportolok agent (migrated out of management)
 
-## Root = environment selector
+**Catalogue content (About, media, cards) never lives in the docs site.** Agents write live apps
+only via documented public APIs (`POST /api/ingest`). See [`CORE-TEAM-STATUS.md`](./CORE-TEAM-STATUS.md).
 
-The site home asks **where to build**. [Cursor](/environments/cursor) is the first ready
-environment. OpenClaw, local daemons, and Vercel Cron are stubs until their playbooks land.
-
-## Local
+## Local (docs site)
 
 ```bash
 npm install   # uses vendor/*.tgz for @sovereignsquad/gds-* (no GitHub Packages needed)
@@ -23,38 +23,23 @@ npm run dev   # http://localhost:3010
 npm run build
 ```
 
-## UI
-
-Pages use the [General Design System](https://sovereignsquad.github.io/general-design-system)
-(`@sovereignsquad/gds-theme` + `@sovereignsquad/gds-core` 6.7.0, editorial public theme):
-`GdsProvider`, `DocsShell`, `DocsPageShell`, `EditorialHero`, `EditorialCard`, `FeatureBand`,
-`InlineAlert`. Adoption manifest: `gds-adoption.json`.
+`tsconfig.json` excludes `padel-africa/` and `sportolok/` so agent TypeScript does not enter the
+docs build.
 
 ## Structure
 
 | Path | Purpose |
 | --- | --- |
-| `/` | Environment selector |
-| `/doctrine` | Non-negotiables and system shape |
-| `/jobs` | Portable `catalog:*` contracts |
-| `/environments/cursor` | Cloud Agent playbook |
-| `/implement` | Full agent playbook: dual-repo, archive, quality, timers |
-| `/adopting` | Short adoption checklist |
-| `/recommendations` | How agents file process-improvement findings |
-| `/repos` | Dual-repo commit/push split (this repo vs verticals) |
+| `/` (site) | Environment selector |
+| `/doctrine` `/jobs` `/implement` `/adopting` … | Process SSOT pages |
+| `padel-africa/` | Padel Africa agent workspace |
+| `sportolok/` | Sportolok agent workspace |
+| `recommendations/inbox/` | Accepted plans + new findings |
 
-**Other agents:** start at [/implement](https://sovereigncontent.messmass.com/implement). Canonical
-recommendation (dual-repo, archive-backup, quality reliability):
-[/recommendations](https://sovereigncontent.messmass.com/recommendations) · inbox file
-`recommendations/inbox/rec-dual-repo-quality-reliability.md`.
-
-New process findings: GitHub Issue with the `agent-recommendation` template, or PR into
-`recommendations/inbox/`. Schema: `/schemas/agent-recommendation.schema.json`.
-
-**Push rule:** process docs → `sovereign.content` **`main`**. Vertical code / content archive →
-management padel branch → `release/padel-africa`.
+**Push rule:** everything in this repo → **`main`**. Management engine changes → PR to
+`moldovancsaba/management` **`main`** only (release branches are fast-forward pointers).
 
 ## Related
 
-- Vertical reference: management / Padel Africa (`release/padel-africa`)
-- Vercel project: `narimato/sovereign.content`
+- Management engine: `moldovancsaba/management`
+- Vercel project (docs site): `narimato/sovereign.content`

@@ -18,15 +18,30 @@ export default function WhatsNewPage() {
         Delivered: (1) Mongo-only quality-loop / about / media — GDS fully removed from content
         ticks; use <code>serving:reconcile</code>; (2) R2 primary + ImgBB backup wired; (3) FIND{" "}
         <code>--until-found</code> + self-heal bind; (4) worked job examples for other agents; (5)
-        ClassScout ↔ SC ↔ Padel twin knowledge (do not merge engines) —{" "}
-        <Link href="/jobs">Jobs</Link> “Dense-US twin”, management{" "}
-        <a href="https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/classscout-sovereign-twin.md">
-          classscout-sovereign-twin.md
-        </a>
-        , <Link href="/environments/cursor">Cursor</Link> /{" "}
-        <Link href="/adopting">Adopting</Link> (management{" "}
-        <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>).
+        ClassScout ↔ SC ↔ Padel twin knowledge (do not merge engines); (6){" "}
+        <strong>client separation</strong> — top-level <code>padel-africa/</code> +{" "}
+        <code>sportolok/</code> agent folders; ingest-only writes; sportolok sovereign migrated out
+        of management (await core reconcile of <code>release/sportolok</code>) — see{" "}
+        <code>CORE-TEAM-STATUS.md</code>.
       </DocCallout>
+
+      <h2>2026-09-24 — Separate agents from management engine</h2>
+      <ul>
+        <li>
+          Top-level <code>padel-africa/</code> and <code>sportolok/</code> workspaces (no
+          cross-imports)
+        </li>
+        <li>
+          Sportolok <code>src/lib/sovereign/*</code> + APIs/crons/docs migrated here; Mongo
+          executors quarantined
+        </li>
+        <li>
+          Ingest clients + <code>scheduleToRecurringSlots</code> (singular <code>weekday</code>)
+        </li>
+        <li>
+          Management dual-repo docs updated — agents must not commit onto client release branches
+        </li>
+      </ul>
 
       <h2>2026-09-24 — Smart digest + HiTL delivery</h2>
       <ul>

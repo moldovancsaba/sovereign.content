@@ -1,0 +1,9 @@
+{
+  "client": "padel-africa",
+  "managementRepo": "moldovancsaba/management",
+  "managementBranch": "release/padel-africa",
+  "siteUrl": "https://padel-africa.doneisbetter.com",
+  "mongoNote": "Agents must not open Mongo; use POST /api/ingest only",
+  "ingestPath": "/api/ingest",
+  "ssotSite": "https://sovereigncontent.messmass.com"
+}

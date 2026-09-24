@@ -1,0 +1,10 @@
+{
+  "client": "sportolok",
+  "managementRepo": "moldovancsaba/management",
+  "managementBranch": "release/sportolok",
+  "siteUrl": "https://sport.doneisbetter.com",
+  "mongoNote": "Agents must not open Mongo; use POST /api/ingest only",
+  "ingestPath": "/api/ingest",
+  "ssotSite": "https://sovereigncontent.messmass.com",
+  "migration": "see MIGRATION-FROM-MANAGEMENT.md — await core reconcile of release/sportolok"
+}
