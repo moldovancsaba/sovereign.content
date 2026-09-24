@@ -4,7 +4,7 @@
 **For:** the next agent owning **`moldovancsaba/sovereign.content`** as the central system for every content agent.  
 **Not for:** day-to-day padel-africa catalogue FIND/quality ticks (those continue in a **separate padel chat** against management + `content.padelafrica/` pointers).
 
-If you read nothing else: **§1 orientation**, **§3 non-negotiables**, **§5 open work**, **§8 first hour**.
+If you read nothing else: **§1 orientation**, **§3 non-negotiables**, **[`fleet/RULES.md`](./fleet/RULES.md)**, **§5 open work**, **§8 first hour**.
 
 ---
 
@@ -58,7 +58,8 @@ Sportolok delete list for reconcile: [`content.sportolok/MIGRATION-FROM-MANAGEME
    - Management clients (padel, sportolok): `RecurringSlot` — singular `weekday`, `HH:MM` — see `ingest/content-data-contract.md` + `scheduleToRecurringSlots.ts`
    - ClassScout: `recurringPrograms[].daysOfWeek` (Monday…Sunday) — see `content.classscout/ingest/content-data-contract.md`
 6. **Management `docs/content-data-contract.md`** was **missing on `main`** at migration; agents use the per-client mirror until core publishes the atomic doc.
-7. Root `tsconfig.json` **excludes** all `content.*` folders so agent TS does not break the docs build.
+7. Root `tsconfig.json` **excludes** all `content.*` folders and `fleet/` so agent/fleet TS does not break the docs build.
+8. Cross-client comparisons / “SSOT %” scorecards → **`fleet/CLIENT-COMPARISON.md`** + [`fleet/RULES.md`](./fleet/RULES.md) only — never under management `release/*`.
 
 ---
 
@@ -116,7 +117,7 @@ sovereign.content/                    # main
 ├── HANDOVER.md                       # this file
 ├── CORE-TEAM-STATUS.md
 ├── AGENTS.md / README.md
-├── fleet/                            # SC-central cross-agent jobs (daily SWOT)
+├── fleet/                            # SC-central: RULES, CLIENT-COMPARISON, daily SWOT
 ├── src/app/…                         # docs site
 ├── recommendations/inbox/
 ├── content.padelafrica/

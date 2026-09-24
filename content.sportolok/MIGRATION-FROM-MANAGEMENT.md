@@ -30,6 +30,8 @@ in the management app deployment.
 - `docs/self-healing-audit-2026-09-24.md`
 - `docs/self-healing-implementation-plan.md`
 - `docs/sovereign-*.md`
+- `docs/CONTENT-PROJECTS-COMPARISON.md` — **forbidden on release**; canonical is
+  `sovereign.content/fleet/CLIENT-COMPARISON.md` (+ `fleet/RULES.md`)
 
 ## Config
 

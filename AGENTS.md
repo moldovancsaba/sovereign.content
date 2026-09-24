@@ -24,7 +24,9 @@ This repository has two layers:
 | Doc | Role |
 | --- | --- |
 | **[`HANDOVER.md`](./HANDOVER.md)** | **New SC-central agent — read first** (state, open work, first hour) |
-| **[`fleet/`](./fleet/)** | Cross-agent jobs (`fleet:daily-swot` plan) — not a client folder |
+| **[`fleet/RULES.md`](./fleet/RULES.md)** | **Rigid** dual-repo delivery + comparison honesty (binding) |
+| **[`fleet/CLIENT-COMPARISON.md`](./fleet/CLIENT-COMPARISON.md)** | **Only** cross-client maturity/workflow comparison SSOT |
+| **[`fleet/`](./fleet/)** | Cross-agent jobs (`fleet:daily-swot`) — not a client folder |
 | ClassScout / Your Field | [`content.classscout/AGENTS.md`](./content.classscout/AGENTS.md) |
 | Padel Africa | [`content.padelafrica/AGENTS.md`](./content.padelafrica/AGENTS.md) |
 | Sportolok | [`content.sportolok/AGENTS.md`](./content.sportolok/AGENTS.md) |

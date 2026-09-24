@@ -16,12 +16,14 @@ Jobs that look **across** all content agents:
 1. Content-type profiles in `profiles/` are binding for fair comparison.
 2. Never open product Mongo. Prefer `inbox/<client>/` snapshots and public HTTP smoke.
 3. Never invent outcomes. Missing signal → `insufficient_signal`.
-4. Do not steal client catalog timers; this folder has its own daily timer when Phase 2 ships.
+4. Do not steal client catalog timers; `fleet-daily-swot` is SC-central only.
 5. Push artifacts to **`main`**.
+6. Cross-client comparisons: **only** [`CLIENT-COMPARISON.md`](./CLIENT-COMPARISON.md). Full rigid rules: [`RULES.md`](./RULES.md).
 
 ## Start
 
-1. Read [`CONTENT-CLIENTS-WORKFLOW-COMPARISON.md`](./CONTENT-CLIENTS-WORKFLOW-COMPARISON.md) — padel vs sportolok vs classscout workflow audit
+1. Read [`RULES.md`](./RULES.md) then [`CLIENT-COMPARISON.md`](./CLIENT-COMPARISON.md)
 2. Read [`RESEARCH-2026-09-24.md`](./RESEARCH-2026-09-24.md)
 3. Read the plan in recommendations inbox
 4. Skim `profiles/*.json`
+5. Operator prompts for peer agents: [`PROMPTS-TO-CLIENT-AGENTS.md`](./PROMPTS-TO-CLIENT-AGENTS.md)

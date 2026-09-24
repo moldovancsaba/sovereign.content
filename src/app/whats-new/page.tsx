@@ -25,6 +25,20 @@ export default function WhatsNewPage() {
         <code>fleet/</code>, inbox plan) for the SC-central agent.
       </DocCallout>
 
+      <h2>2026-09-24 — Fleet comparison SSOT + rigid rules</h2>
+      <ul>
+        <li>
+          Canonical cross-client comparison: <code>fleet/CLIENT-COMPARISON.md</code>
+        </li>
+        <li>
+          Binding delivery/honesty rules: <code>fleet/RULES.md</code> — no comparisons on
+          management <code>release/*</code>; no vanity SSOT %
+        </li>
+        <li>
+          Operator prompts for peer agents: <code>fleet/PROMPTS-TO-CLIENT-AGENTS.md</code>
+        </li>
+      </ul>
+
       <h2>2026-09-24 — Fleet daily SWOT (Phase 2 — timer live)</h2>
       <ul>
         <li>
