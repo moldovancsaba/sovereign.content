@@ -5,5 +5,7 @@
   "siteUrl": "https://padel-africa.doneisbetter.com",
   "mongoNote": "Agents must not open Mongo; use POST /api/ingest only",
   "ingestPath": "/api/ingest",
-  "ssotSite": "https://sovereigncontent.messmass.com"
+  "ssotSite": "https://sovereigncontent.messmass.com",
+  "agentFolder": "content.padelafrica",
+  "vertical": "padel-africa"
 }

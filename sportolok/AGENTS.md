@@ -9,7 +9,7 @@
 1. **This folder is the home** for sportolok sovereign agent code, docs, timers, and delivery reports.
 2. **Do not** add routes, libs, or crons to `moldovancsaba/management`. Propose engine changes as PRs to `main` only.
 3. **Do not** write Mongo from this agent. Talk to the live app only through documented public APIs (`POST /api/ingest` with scoped ingest/SSO machine token).
-4. **Do not** import from `../padel-africa/` (or any other client folder).
+4. **Do not** import from `../content.padelafrica/` (or any other client folder).
 5. Every listing / patch payload must match the schedule and field shapes in [`ingest/content-data-contract.md`](./ingest/content-data-contract.md) — especially `schedule.recurring[]` as **one object per weekday** (`weekday: "mon"`, never `weekdays: [...]` on one entry).
 
 ## Layout

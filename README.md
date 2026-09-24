@@ -10,7 +10,7 @@ Live docs: [https://sovereigncontent.messmass.com](https://sovereigncontent.mess
    playbooks, adoption checklists.
 2. **Client agent folders** (top-level, independent):
    - [`content.classscout/`](./content.classscout/) — ClassScout / Your Field agent (`moldovancsaba/classscout`)
-   - [`padel-africa/`](./padel-africa/) — padel-africa agent
+   - [`content.padelafrica/`](./content.padelafrica/) — padel-africa agent
    - [`sportolok/`](./sportolok/) — sportolok agent (migrated out of management)
 
 **Catalogue content (About, media, cards) never lives in the docs site.** Agents write live apps
@@ -24,8 +24,8 @@ npm run dev   # http://localhost:3010
 npm run build
 ```
 
-`tsconfig.json` excludes `content.classscout/`, `padel-africa/`, and `sportolok/` so agent TypeScript does
-not enter the docs build.
+`tsconfig.json` excludes `content.classscout/`, `content.padelafrica/`, and `sportolok/` so agent
+TypeScript does not enter the docs build.
 
 ## Structure
 
@@ -34,7 +34,7 @@ not enter the docs build.
 | `/` (site) | Environment selector |
 | `/doctrine` `/jobs` `/implement` `/adopting` … | Process SSOT pages |
 | `content.classscout/` | ClassScout / Your Field agent workspace |
-| `padel-africa/` | Padel Africa agent workspace |
+| `content.padelafrica/` | Padel Africa agent workspace |
 | `sportolok/` | Sportolok agent workspace |
 | `recommendations/inbox/` | Accepted plans + new findings |
 

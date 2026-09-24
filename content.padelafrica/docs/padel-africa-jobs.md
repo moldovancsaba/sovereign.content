@@ -12,11 +12,11 @@ runs its `catalog:*` loop. Portable contracts live on the process SSOT
 | --- | --- |
 | **Mongo** (`padel-africa`) | Live catalogue — agents must not open it; management engine owns it |
 | **management** repo | Engine UI, pack, public `/api/ingest`, operator `catalog:*` CLIs |
-| **sovereign.content/`padel-africa/`** | **Agent home** — timers, ingest client, FIND/self-heal playbooks |
+| **sovereign.content/`content.padelafrica/`** | **Agent home** — timers, ingest client, FIND/self-heal playbooks |
 | **sovereign.content site** | Doctrine / Jobs / Cursor — never listing prose |
 | **GDS / vertical pack** | UI + serving projection only |
 
-**Agent writes** go through `POST /api/ingest` from `sovereign.content/padel-africa/ingest/`.
+**Agent writes** go through `POST /api/ingest` from `sovereign.content/content.padelafrica/ingest/`.
 Schedule patches must use singular `weekday` RecurringSlots (see that folder’s content-data-contract).
 Operator Cloud Agents may still run management `catalog:*` CLIs as product tools — do not add new
 management routes/crons for agent features.

@@ -16,7 +16,7 @@ Client-folder recommendation: [sovereign.content#27](https://github.com/moldovan
 | Prompt / other verticals say… | ClassScout means… |
 | --- | --- |
 | `sportolok/` (management client) | Sibling client — **not us** |
-| `padel-africa/` | Sibling client on management packs — **not us** |
+| `content.padelafrica/` | Sibling client on management packs — **not us** |
 | Product / “management app” | **`moldovancsaba/classscout`** — the Your Field / ClassScout product |
 | Agent / “sovereign agent” | Catalog Find→Improve→self-heal forever (`catalog:*` / `catalog-loop:*`) |
 | Client folder in `sovereign.content` | **`content.classscout/`** (folder id = GitHub product repo name) |
@@ -41,7 +41,7 @@ archive/classscout/content/       → Optional JSON fact stamps on the product b
 | **`sovereign.content/content.classscout/`** | Find/Improve/self-heal runners, forever/sparse-timer, fair-use feeder, agent ops docs, migration reports, client-local config | Product UI; other clients’ imports; catalog row content; media binaries |
 | **`sovereign.content` site root** | Portable `catalog:*` contracts, Cursor/adopting playbooks | Client-specific runners; listing content |
 
-**No client folder may import from or depend on another.** `content.classscout/` never imports `padel-africa/` or `sportolok/`.
+**No client folder may import from or depend on another.** `content.classscout/` never imports `content.padelafrica/` or `sportolok/`.
 
 ---
 

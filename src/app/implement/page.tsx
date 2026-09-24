@@ -18,7 +18,7 @@ export default function ImplementPage() {
         <code>recommendations/inbox/rec-dual-repo-quality-reliability.md</code> · summary on{" "}
         <Link href="/recommendations">Recommendations</Link>.{" "}
         <strong>2026-09-24 separation:</strong> agent code lives in top-level{" "}
-        <code>padel-africa/</code> and <code>sportolok/</code> in this repo; management release
+        <code>content.padelafrica/</code> and <code>sportolok/</code> in this repo; management release
         branches are fast-forward only; agents write via <code>POST /api/ingest</code> only. See{" "}
         <code>CORE-TEAM-STATUS.md</code>.</DocCallout>
 
@@ -43,7 +43,7 @@ export default function ImplementPage() {
             <td>Client agent</td>
             <td>Timers, ingest client, FIND/self-heal playbooks, (sportolok) sovereign runtime</td>
             <td>
-              <code>sovereign.content/padel-africa/</code> or <code>sportolok/</code> on{" "}
+              <code>sovereign.content/content.padelafrica/</code> or <code>sportolok/</code> on{" "}
               <code>main</code>
             </td>
           </tr>
@@ -72,7 +72,7 @@ export default function ImplementPage() {
             <td>Agent runtime</td>
             <td>Timers, ingest, playbooks</td>
             <td>
-              <code>padel-africa/</code> or <code>sportolok/</code> ·{" "}
+              <code>content.padelafrica/</code> or <code>sportolok/</code> ·{" "}
               <Link href="/environments/cursor">Cursor</Link>
             </td>
           </tr>
