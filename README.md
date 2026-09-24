@@ -14,8 +14,8 @@ Live docs: [https://sovereigncontent.messmass.com](https://sovereigncontent.mess
    - [`content.sportolok/`](./content.sportolok/) — sportolok agent (migrated out of management)
 
 **Catalogue content (About, media, cards) never lives in the docs site.** Agents write live apps
-only via documented public APIs (`POST /api/ingest`). See [`HANDOVER.md`](./HANDOVER.md) (new agent)
-and [`CORE-TEAM-STATUS.md`](./CORE-TEAM-STATUS.md).
+only via documented public APIs (`POST /api/ingest`). See [`HANDOVER.md`](./HANDOVER.md) (new agent),
+[`fleet/`](./fleet/) (cross-agent daily SWOT plan), and [`CORE-TEAM-STATUS.md`](./CORE-TEAM-STATUS.md).
 
 ## Local (docs site)
 

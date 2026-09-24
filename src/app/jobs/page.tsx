@@ -201,6 +201,37 @@ npm run catalog:self-heal -- --brief`}</pre>
         <Link href="/recommendations">Recommendations</Link>).
       </p>
 
+      <h2>fleet:daily-swot (SC-central)</h2>
+      <p>
+        Cross-agent daily job owned by the <strong>sovereign.content central</strong> agent — not a
+        vertical catalog tick. Collects how <code>content.padelafrica</code>,{" "}
+        <code>content.sportolok</code>, and <code>content.classscout</code> work; builds{" "}
+        <strong>content-type-aware SWOT</strong>; compares{" "}
+        <em>working-environment</em> fitness (reliability, consistency, efficiency) separately from
+        profile-normalized outcomes; emits per-agent how-to recommendations and grows knowledge under{" "}
+        <code>fleet/digests/</code>.
+      </p>
+      <ul>
+        <li>
+          <strong>Profiles binding:</strong> <code>fleet/profiles/*.json</code> — never rank sparse
+          Africa FIND seeds against dense-US forever-loop volume
+        </li>
+        <li>
+          <strong>No Mongo from SC-central:</strong> use git + docs + optional{" "}
+          <code>fleet/inbox/</code> status snapshots + public HTTP smoke
+        </li>
+        <li>
+          <strong>Timer:</strong> separate daily subscription on the SC-central agent (
+          <code>fleet-daily-swot</code>) — do not fold into padel/classscout orchestrators
+        </li>
+        <li>
+          <strong>Plan:</strong>{" "}
+          <code>recommendations/inbox/plan-fleet-daily-swot.md</code> · research:{" "}
+          <code>fleet/RESEARCH-2026-09-24.md</code> (<Link href="/recommendations">Recommendations</Link>
+          )
+        </li>
+      </ul>
+
       <h2>Self-improve — smart digest + HiTL delivery</h2>
       <p>
         <code>catalog:self-heal --digest</code> prints an agent-quality report (executive brief +

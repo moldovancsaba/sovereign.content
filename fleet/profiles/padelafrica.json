@@ -1,0 +1,39 @@
+{
+  "id": "padelafrica",
+  "folder": "content.padelafrica",
+  "displayName": "Padel Africa",
+  "siteUrls": ["https://padel-africa.doneisbetter.com"],
+  "productRepo": "moldovancsaba/management",
+  "productBranch": "release/padel-africa",
+  "contentUnit": "padel_venue_listing",
+  "density": "sparse_continent",
+  "growthMode": "research_until_found",
+  "scheduleFamily": "management_recurring_slot_weekday",
+  "honestyBar": [
+    "never_invent_contacts",
+    "never_invent_court_counts",
+    "find_evidence_grade_required"
+  ],
+  "mediaPolicy": "r2_primary_imgbb_backup",
+  "fairKpis": [
+    "find_seeded_vs_zero_result",
+    "about_debt_open",
+    "media_host_mix",
+    "hitl_backlog",
+    "settled_empty_ticks_honest"
+  ],
+  "unfairComparisons": [
+    "raw_daily_publish_count_vs_dense_us",
+    "forever_loop_cycle_rate"
+  ],
+  "siblingOpportunities": [
+    "classscout_deep_enrich_orchestration_only",
+    "sportolok_decision_audit_trail_shape"
+  ],
+  "workingEnvChecklist": [
+    "single_orchestrator_timer",
+    "ingest_only_writes",
+    "heal_before_find",
+    "docs_match_jobs"
+  ]
+}

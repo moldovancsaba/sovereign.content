@@ -82,6 +82,7 @@ Sportolok delete list for reconcile: [`content.sportolok/MIGRATION-FROM-MANAGEME
 - [ ] **Rewrite sportolok automation** to call ingest end-to-end (replace quarantined executor call sites)
 - [ ] **Wire ClassScout catalog-loop runners** fully to classscout ingest (cutover from product-repo copies)
 - [ ] **Publish / link** management `docs/content-data-contract.md` when core adds it
+- [ ] **`fleet:daily-swot` Phases 1–4** — profiles/schema/plan shipped; first digest + script + daily timer still open ([`fleet/`](./fleet/), [`plan-fleet-daily-swot.md`](./recommendations/inbox/plan-fleet-daily-swot.md))
 - [ ] Optional: single Cursor orchestrator timers **owned from** each `content.*/timers/` (padel still has a live `padel-find-tick` on the **padel Cloud Agent** chat — do not steal that session’s timer without coordinating)
 
 ### Split of ownership with the padel chat
@@ -98,12 +99,13 @@ Padel live tip (context only): catalogue ~169 PUBLISHED; orchestrator timer seed
 
 ## 5. Open work queue (priority)
 
-1. **Chase core** on `release/sportolok` reconcile using `CORE-TEAM-STATUS.md` + migration list (paths under `content.sportolok/`).
-2. **Prove ingest** on sportolok and padel with a dry safe patch (schedule-shaped listing or sourceText card) — store lessons in the client folder, not Mongo from agent.
-3. **Sportolok:** replace quarantined executor flows with ingest + `scheduleToRecurringSlots`; keep historical `src/` as reference only until rewritten.
-4. **ClassScout:** finish agent cutover so `content.classscout/` is the only runner home; keep product ingest validation in classscout.
-5. **Keep SSOT site honest** — when Jobs/Implement/Doctrine drift from `content.*` reality, fix the site on `main` the same day.
-6. **Recommendations inbox** — accepted plans live under `recommendations/inbox/`; new process findings → Issue `agent-recommendation` or inbox MD.
+1. **`fleet:daily-swot` Phase 1** — first real digest from profiles + available signals; then Phase 2 script + daily timer (`fleet/`).
+2. **Chase core** on `release/sportolok` reconcile using `CORE-TEAM-STATUS.md` + migration list (paths under `content.sportolok/`).
+3. **Prove ingest** on sportolok and padel with a dry safe patch (schedule-shaped listing or sourceText card) — store lessons in the client folder, not Mongo from agent.
+4. **Sportolok:** replace quarantined executor flows with ingest + `scheduleToRecurringSlots`; keep historical `src/` as reference only until rewritten.
+5. **ClassScout:** finish agent cutover so `content.classscout/` is the only runner home; keep product ingest validation in classscout.
+6. **Keep SSOT site honest** — when Jobs/Implement/Doctrine drift from `content.*` reality, fix the site on `main` the same day.
+7. **Recommendations inbox** — accepted plans live under `recommendations/inbox/`; new process findings → Issue `agent-recommendation` or inbox MD.
 
 ---
 
@@ -114,6 +116,7 @@ sovereign.content/                    # main
 ├── HANDOVER.md                       # this file
 ├── CORE-TEAM-STATUS.md
 ├── AGENTS.md / README.md
+├── fleet/                            # SC-central cross-agent jobs (daily SWOT)
 ├── src/app/…                         # docs site
 ├── recommendations/inbox/
 ├── content.padelafrica/

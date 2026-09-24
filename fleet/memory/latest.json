@@ -1,0 +1,12 @@
+{
+  "job": "fleet:daily-swot",
+  "updatedAt": null,
+  "lastDigestDate": null,
+  "watermark": {
+    "inboxRecommendations": null,
+    "gitSince": null
+  },
+  "rolling": {
+    "note": "Filled after first digest run (Phase 1+)"
+  }
+}

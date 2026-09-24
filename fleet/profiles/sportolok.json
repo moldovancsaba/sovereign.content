@@ -1,0 +1,40 @@
+{
+  "id": "sportolok",
+  "folder": "content.sportolok",
+  "displayName": "Sportolok",
+  "siteUrls": ["https://sport.doneisbetter.com"],
+  "productRepo": "moldovancsaba/management",
+  "productBranch": "release/sportolok",
+  "contentUnit": "multi_sport_listing_plus_sovereign_decision",
+  "density": "dense_local",
+  "growthMode": "evaluate_delivery_plus_ingest_cutover",
+  "scheduleFamily": "management_recurring_slot_weekday",
+  "honestyBar": [
+    "never_weekdays_array_on_recurring_slot",
+    "quarantine_mongo_executor_until_ingest_rewrite"
+  ],
+  "mediaPolicy": "product_pipeline",
+  "fairKpis": [
+    "ingest_patch_success_rate",
+    "schedule_validation_failures",
+    "quarantine_burn_down",
+    "decision_staff_agreement_when_live",
+    "release_branch_reconcile_status"
+  ],
+  "unfairComparisons": [
+    "raw_find_seeds_vs_padel_africa",
+    "forever_loop_cycle_rate"
+  ],
+  "siblingOpportunities": [
+    "padel_heal_before_find_orchestration",
+    "padel_hitl_delivery_classes",
+    "classscout_hourly_scorecard_shape"
+  ],
+  "workingEnvChecklist": [
+    "ingest_only_writes",
+    "no_release_branch_agent_commits",
+    "schedule_converter_used",
+    "migration_status_documented"
+  ],
+  "migrationNote": "Await management core reconcile of release/sportolok; Mongo executors quarantined"
+}

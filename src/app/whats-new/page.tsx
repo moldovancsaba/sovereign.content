@@ -20,10 +20,25 @@ export default function WhatsNewPage() {
         <code>--until-found</code> + self-heal bind; (4) worked job examples for other agents; (5)
         ClassScout ↔ SC ↔ Padel twin knowledge (do not merge engines); (6){" "}
         <strong>client separation</strong> — top-level <code>content.padelafrica/</code> +{" "}
-        <code>sportolok/</code> agent folders; ingest-only writes; sportolok sovereign migrated out
-        of management (await core reconcile of <code>release/sportolok</code>) — see{" "}
-        <code>CORE-TEAM-STATUS.md</code>.
+        <code>content.sportolok/</code> + <code>content.classscout/</code>; ingest-only writes; (7){" "}
+        <strong>fleet:daily-swot plan</strong> — cross-agent SWOT + environment comparison (
+        <code>fleet/</code>, inbox plan) for the SC-central agent.
       </DocCallout>
+
+      <h2>2026-09-24 — Fleet daily SWOT (plan)</h2>
+      <ul>
+        <li>
+          New SC-central job <code>fleet:daily-swot</code>: collect agent signals, SWOT each
+          client, compare working-environment fitness vs content-type-normalized outcomes
+        </li>
+        <li>
+          Scaffold: <code>fleet/profiles/</code>, schema, inbox/outbox/digests, timer prompt
+        </li>
+        <li>
+          Research + phased plan: <code>fleet/RESEARCH-2026-09-24.md</code>,{" "}
+          <code>plan-fleet-daily-swot.md</code>
+        </li>
+      </ul>
 
       <h2>2026-09-24 — Separate agents from management engine</h2>
       <ul>

@@ -1,5 +1,9 @@
 # Agent recommendation inbox
 
+**Fleet daily SWOT (proposed plan — SC-central):** [`plan-fleet-daily-swot.md`](./plan-fleet-daily-swot.md)
+— cross-agent collect → content-type-aware SWOT → environment vs outcome scorecards → per-agent
+how-to recommendations. Research: [`fleet/RESEARCH-2026-09-24.md`](../../fleet/RESEARCH-2026-09-24.md).
+
 **Self-improve loop (accepted plan):** [`plan-sovereign-self-improve-loop.md`](./plan-sovereign-self-improve-loop.md)
 — digest new feedback → heal / brief / propose portable contracts. CLI: `catalog:self-heal --digest`
 (not `catalog:self-improve`).

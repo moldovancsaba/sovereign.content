@@ -1,0 +1,40 @@
+{
+  "id": "classscout",
+  "folder": "content.classscout",
+  "displayName": "ClassScout / Your Field",
+  "siteUrls": ["https://getyourfield.com", "https://classscout.ai"],
+  "productRepo": "moldovancsaba/classscout",
+  "productBranches": ["main", "preview", "dev"],
+  "contentUnit": "kids_activity_provider",
+  "density": "dense_metro_us",
+  "growthMode": "forever_find_improve",
+  "scheduleFamily": "classscout_recurring_programs_days_of_week",
+  "honestyBar": [
+    "evidence_only_contacts",
+    "unpublished_stay_blank",
+    "no_management_recurring_slot_shapes"
+  ],
+  "mediaPolicy": "generated_art_only",
+  "fairKpis": [
+    "lasting_public_rate",
+    "improve_fill_rate",
+    "find_smoke_pass",
+    "tier_a_auto_pause_health",
+    "scarcity_brief_freshness"
+  ],
+  "unfairComparisons": [
+    "sparse_continent_find_until_found_seeds",
+    "r2_media_host_mix"
+  ],
+  "siblingOpportunities": [
+    "padel_self_heal_defer_when_about_debt_hot",
+    "padel_hitl_delivery_classes",
+    "sportolok_decision_audit_when_useful"
+  ],
+  "workingEnvChecklist": [
+    "ingest_bearer_writes",
+    "forever_or_sparse_timer_documented",
+    "no_engine_merge_with_padel",
+    "agent_home_is_content_classscout"
+  ]
+}
