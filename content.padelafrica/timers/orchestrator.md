@@ -6,7 +6,7 @@ Interval: ~3600s
 `subscribe_timer` only enqueues a prompt — do not chain timers.
 
 ```
-Timed job tick (padel-africa agent — sovereign.content/padel-africa):
+Timed job tick (padel-africa agent — sovereign.content/content.padelafrica):
 1) Prefer public management APIs (POST /api/ingest) for any listing write.
 2) If using management engine CLIs on a Cloud Agent with Mongo env for operator hygiene,
    treat them as management product tools — do not add new management routes/crons.
