@@ -1,0 +1,51 @@
+{
+  "clientId": "classscout",
+  "observedAt": "2026-09-24T20:57:52Z",
+  "source": "product-catalog-loop-forever",
+  "workingEnv": {
+    "timerSubscribed": false,
+    "foreverProcessUp": true,
+    "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
+    "canonicalAgentHome": "sovereign.content/content.classscout",
+    "cutoverComplete": false,
+    "ingestOnly": "partial",
+    "tickCompleted": true
+  },
+  "outcomes": {
+    "lasting_public_rate": 0.9003115264797508,
+    "find_lasting_public": "289/321",
+    "find_smoke_pass": 0,
+    "find_smoke_fail": 37,
+    "find_publish_total": 0,
+    "improve_fill_rate": 1.0,
+    "improve_with_evidence": 8,
+    "improve_investigated": 8,
+    "public_listings": 822,
+    "seeds_pending": 202,
+    "fair_use_funnel": "3\u21920 seeds / 2 rejects",
+    "scarcity_brief_freshness": "hourly",
+    "tier_a_auto_pause_health": "active"
+  },
+  "openDebt": [
+    {
+      "kind": "priority_open",
+      "n": 16
+    },
+    {
+      "kind": "contact_debt_open",
+      "n": 7
+    },
+    {
+      "kind": "improve_recommend_open",
+      "n": 11
+    },
+    {
+      "kind": "find_cycle_published",
+      "n": 0
+    }
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/CLIENT-COMPARISON.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.classscout/docs/cutover-status.md"
+  ]
+}

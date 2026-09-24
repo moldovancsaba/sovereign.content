@@ -187,7 +187,7 @@ Each client: read **`AGENTS.md`** then **`pointers.json`** then **`ingest/`**.
 
 - [`AGENTS.md`](./AGENTS.md) — standing rules  
 - [`CORE-TEAM-STATUS.md`](./CORE-TEAM-STATUS.md) — separation checklist for management core  
-- [`fleet/CONTENT-CLIENTS-WORKFLOW-COMPARISON.md`](./fleet/CONTENT-CLIENTS-WORKFLOW-COMPARISON.md) — padel vs sportolok vs classscout workflow audit  
+- [`fleet/CLIENT-COMPARISON.md`](./fleet/CLIENT-COMPARISON.md) — **only** padel vs sportolok vs classscout comparison SSOT (`CONTENT-CLIENTS-WORKFLOW-COMPARISON.md` is a stub)  
 - [`content.padelafrica/AGENTS.md`](./content.padelafrica/AGENTS.md)  
 - [`content.sportolok/AGENTS.md`](./content.sportolok/AGENTS.md)  
 - [`content.classscout/AGENTS.md`](./content.classscout/AGENTS.md)  

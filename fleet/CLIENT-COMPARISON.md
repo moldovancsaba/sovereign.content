@@ -88,7 +88,7 @@ Intentional: padel must **not** grow a ClassScout forever loop. Export orchestra
 | --- | --- |
 | Padel chat | After orchestrator tick → slim `fleet/inbox/padelafrica/status-YYYY-MM-DD.json` |
 | Sportolok / SC-central | Rewrite quarantined call sites → `ingest/` + `scheduleToRecurringSlots`; dry PATCH; chase core reconcile |
-| ClassScout / SC-central | Confirm forever runs from `content.classscout/scripts`; slim `fleet/inbox/classscout/` status |
+| ClassScout / SC-central | Forever still on product `scripts/catalog-loop/` (cutover in progress — see `content.classscout/docs/cutover-status.md`); slim `fleet/inbox/classscout/` status |
 | All | Comparisons only via this file + `fleet:daily-swot`; follow [`RULES.md`](./RULES.md) |
 
 ---

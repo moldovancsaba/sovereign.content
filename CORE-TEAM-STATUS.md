@@ -30,5 +30,6 @@ Full list: [`content.sportolok/MIGRATION-FROM-MANAGEMENT.md`](./content.sportolo
 
 When you have reconciled `release/sportolok`, close the loop with us. Agent ownership is **`sovereign.content/content.<client>/`**.
 
-**Maturity snapshot** (forever / scripts / cutover vs ClassScout workflow):
-[`CLIENT-FOLDER-COMPARISON.md`](./CLIENT-FOLDER-COMPARISON.md).
+**Maturity snapshot** (forever / scripts / cutover):
+[`fleet/CLIENT-COMPARISON.md`](./fleet/CLIENT-COMPARISON.md) · rules [`fleet/RULES.md`](./fleet/RULES.md).
+Root `CLIENT-FOLDER-COMPARISON.md` is a stub — do not extend it.

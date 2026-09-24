@@ -24,9 +24,14 @@
 | Path | Purpose |
 | --- | --- |
 | `docs/` | Storage SSOT, job aliases, forever loop, error playbook, migration |
+| `docs/cutover-status.md` | Honest forever cutover: SC home vs live product runner |
 | `timers/` | Cursor timer orchestrator prompt |
 | `ingest/` | Ingest client + schedule conversion + content contract |
 | `scripts/` | Catalog-loop runners (forever, Find, Improve, self-heal, fair-use) |
+
+Cross-client maturity comparisons: **only**
+[`../fleet/CLIENT-COMPARISON.md`](../fleet/CLIENT-COMPARISON.md) (+ [`../fleet/RULES.md`](../fleet/RULES.md)).
+Do not extend repo-root or local duplicate comparison files.
 
 ## Product vs agent
 
