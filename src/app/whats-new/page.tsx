@@ -28,6 +28,24 @@ export default function WhatsNewPage() {
         <a href="https://github.com/moldovancsaba/management/pull/227">PR #227</a>).
       </DocCallout>
 
+      <h2>2026-09-24 — Smart digest + HiTL delivery</h2>
+      <ul>
+        <li>
+          Digests must report with executive brief + per-item analysis (not mechanical counters)
+        </li>
+        <li>
+          Delivery classes: <code>auto</code> / <code>agent_execute</code> /{" "}
+          <code>hitl_review</code> — SSOT contracts and product-intent notes wait for the operator
+        </li>
+        <li>
+          CLI: <code>catalog:self-heal --digest</code> (management)
+        </li>
+      </ul>
+      <p>
+        Guide: management <code>docs/padel-africa-self-heal-hitl.md</code> · plan:{" "}
+        <code>plan-sovereign-self-improve-loop.md</code>.
+      </p>
+
       <h2>2026-09-24 — Self-heal feedback audit + self-improve plan</h2>
       <ul>
         <li>

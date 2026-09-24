@@ -12,8 +12,8 @@ jobs:
 priority: high
 ssotLanding: jobs
 doctrineOk: true
-observedAt: 2026-09-24T17:50:00Z
-status: accepted-plan-2026-09-24
+observedAt: 2026-09-24T18:10:00Z
+status: accepted-plan-2026-09-24-hitl
 sources:
   - https://github.com/moldovancsaba/management/blob/release/padel-africa/docs/padel-africa-self-heal-feedback-audit-2026-09-24.md
   - https://sovereigncontent.messmass.com/jobs
@@ -42,6 +42,32 @@ detect → recommend → classify → apply|brief|propose-contract → encode �
 
 Honesty bar unchanged: never invent contacts, phones, ages, court counts, or venues.
 
+## Smart reports (not mechanical)
+
+Digests and agent timer reports must read like a staff audit, not a counter dump:
+
+1. **Executive brief** — settled vs blocked, FIND allow/defer, HiTL count
+2. **Per item** — situation → evidence → analysis → recommendation → delivery class
+3. **HiTL queue** — only items that wait for the operator, each with `operatorPrompt`
+
+Empty quality/media ticks may stay short. Digest / FIND / heal decisions may not.
+
+## HiTL delivery (smart delivery)
+
+| Class | Agent does | Operator |
+| --- | --- | --- |
+| `auto` | Runs CLI immediately | No ask |
+| `agent_execute` | WebSearch / seed with evidence bar | No ask if honesty holds |
+| `hitl_review` | Draft + detailed report | **Wait** for accept/revise/reject |
+
+**Auto examples:** quality-loop About, about-curate from facts, media OG→R2, contact enrich from headers, serving:reconcile, honest FIND zero-result.
+
+**Agent-execute examples:** FIND seed with two sources; research `--brief`.
+
+**HiTL examples:** SSOT portable contracts, doctrine/threshold changes, operator product-intent notes, thin single-source seeds, engine-merge / forever Find, inventing facts (refuse).
+
+Engine: management `src/lib/catalogSelfHeal/hitlDelivery.ts` + `--digest`. Guide: `docs/padel-africa-self-heal-hitl.md`.
+
 ## Architecture (three feedback lanes)
 
 | Lane | Examples | Auto-apply? | Encode to |
@@ -59,13 +85,13 @@ Bounded tick that **reads** feedback stores and prints a machine-readable plan:
 ```json
 {
   "job": "catalog:self-improve",
-  "since": "ISO",
-  "lanes": {
-    "listing": { "open": [], "healFirst": [] },
-    "process": { "newLessons": [], "suggestedActions": [] },
-    "contracts": { "inboxPending": [], "draftRecs": [] }
-  },
-  "instructions": ["…ordered agent steps…"]
+  "mode": "digest",
+  "executiveBrief": "Narrative verdict…",
+  "summary": { "autoCount": 0, "agentExecuteCount": 0, "hitlReviewCount": 0 },
+  "items": [{ "situation": "…", "evidence": [], "analysis": "…", "recommendation": "…", "delivery": "auto|agent_execute|hitl_review" }],
+  "autoCommands": [],
+  "hitlQueue": [],
+  "instructions": ["Report executiveBrief first…"]
 }
 ```
 
@@ -130,13 +156,13 @@ Ship audit + Jobs pointer + inbox plan.
 
 Acceptance: unit tests; dry-run media/hygiene show debt opens; improve no longer skips contact siblings.
 
-### Phase 2 — Digest CLI
+### Phase 2 — Digest CLI + HiTL (partially shipped)
 
-1. `catalog:self-heal --digest` (+ watermark file)  
-2. Instructions merge healFirst + process actions + optional SSOT drafts  
-3. Cloud Agent timer  
+1. `catalog:self-heal --digest` with narrative items + HiTL classes (**shipped**)  
+2. Watermark file for “new since last digest”  
+3. Cloud Agent timer prompt: require executiveBrief + per-item analysis; run auto; wait on hitlQueue  
 
-Acceptance: digest JSON stable; empty digest is success (settled).
+Acceptance: digest JSON stable; HiTL items never auto-merged to SSOT main; empty digest is success.
 
 ### Phase 3 — FIND source yields + SSOT draft emit
 

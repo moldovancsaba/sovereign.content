@@ -198,13 +198,29 @@ npm run catalog:self-heal -- --brief`}</pre>
         <Link href="/recommendations">Recommendations</Link>).
       </p>
 
-      <h2>Self-improve (planned) — digest new feedback</h2>
+      <h2>Self-improve — smart digest + HiTL delivery</h2>
       <p>
-        Portable follow-on to self-heal: a bounded <code>--digest</code> /{" "}
-        <code>catalog:self-improve</code> tick that scans listing debt, process lessons, FIND
-        attempts, and SSOT inbox drafts, then prints ordered heal / brief / propose-contract
-        instructions. Does <strong>not</strong> invent venues or contacts. Phase plan: inbox{" "}
-        <code>plan-sovereign-self-improve-loop.md</code>.
+        <code>catalog:self-heal --digest</code> prints an agent-quality report (executive brief +
+        per-item situation → evidence → analysis → recommendation), not a counter dump. Each item
+        is classified:
+      </p>
+      <ul>
+        <li>
+          <code>auto</code> — run without asking (About quality-loop, evidenced media/contact,
+          reconcile, honest FIND zero-result)
+        </li>
+        <li>
+          <code>agent_execute</code> — agent clears the evidence bar (FIND seed, research brief)
+        </li>
+        <li>
+          <code>hitl_review</code> — draft + wait for the operator (SSOT contracts, doctrine /
+          thresholds, product-intent operator notes, thin single-source seeds)
+        </li>
+      </ul>
+      <pre>{`npm run catalog:self-heal -- --digest`}</pre>
+      <p>
+        Plan: <code>plan-sovereign-self-improve-loop.md</code>. Management guide:{" "}
+        <code>docs/padel-africa-self-heal-hitl.md</code>.
       </p>
 
       <h2>catalog:autopilot</h2>
