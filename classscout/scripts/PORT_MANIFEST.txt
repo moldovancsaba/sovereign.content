@@ -1,0 +1,55 @@
+# Find→Improve port file manifest (ClassScout → Padel Africa)
+# See docs/padel-africa-find-improve-port-brief.md
+# Copy these paths; do NOT copy rqk-fair-use/ or data/ contents.
+
+scripts/load-env.cjs
+
+scripts/catalog-loop/forever.sh
+scripts/catalog-loop/find-cycle.cjs
+scripts/catalog-loop/improve-cycle.cjs
+scripts/catalog-loop/recommend-improve.cjs
+scripts/catalog-loop/improve-scan.mjs
+scripts/catalog-loop/deep-enrich-scan.mjs
+scripts/catalog-loop/apply-improve.cjs
+scripts/catalog-loop/apply-trial-fix.cjs
+scripts/catalog-loop/trial-scan.mjs
+scripts/catalog-loop/reclassify-watch.cjs
+scripts/catalog-loop/encode-lessons.cjs
+scripts/catalog-loop/feedback-intake.cjs
+scripts/catalog-loop/quality-rollup.cjs
+scripts/catalog-loop/weekly-digest.cjs
+scripts/catalog-loop/scarcity-research-brief.cjs
+scripts/catalog-loop/push-stats.cjs
+
+# Seed/lesson files: create empty equivalents on Padel — do not copy NYC inventory
+# scripts/catalog-loop/find-seeds.json  → empty {"seeds":[]} or Padel-only
+# scripts/catalog-loop/lessons.json     → empty
+
+scripts/catalog-loop/lib/paths.cjs
+scripts/catalog-loop/lib/events.cjs
+scripts/catalog-loop/lib/extractOfficialPage.cjs
+scripts/catalog-loop/lib/deepEnrichOfficialSite.cjs
+scripts/catalog-loop/lib/publicActivityGate.cjs
+scripts/catalog-loop/lib/publicCopyHygiene.cjs
+scripts/catalog-loop/lib/scarcityResearchBrief.cjs
+scripts/catalog-loop/lib/listingQualityGaps.cjs
+scripts/catalog-loop/lib/recommendationStore.cjs
+scripts/catalog-loop/lib/listingEnrichmentImage.cjs
+scripts/catalog-loop/lib/renderListingEnrichmentImage.ts
+
+scripts/catalog-loop/lib/extractOfficialPage.address.test.cjs
+scripts/catalog-loop/lib/deepEnrichOfficialSite.test.cjs
+scripts/catalog-loop/lib/find-sourceurls-dedupe.test.cjs
+scripts/catalog-loop/lib/publicActivityGate.test.cjs
+scripts/catalog-loop/lib/scarcityResearchBrief.test.cjs
+scripts/catalog-loop/lib/listingQualityGaps.test.cjs
+scripts/catalog-loop/lib/recommendationStore.test.cjs
+
+scripts/catalog-loop/fixtures/
+
+docs/catalog-find-improve-loop.md
+docs/catalog-loop-error-playbook.md
+docs/catalog-loop-quality-improvement-plan.md
+docs/padel-africa-find-improve-port-brief.md
+docs/reports/find-close-address-gap-2026-09-22.md
+docs/reports/find-sourceurl-dedupe-2026-09-22.md

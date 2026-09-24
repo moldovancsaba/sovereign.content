@@ -1,0 +1,15 @@
+{
+  "client": "classscout",
+  "productRepo": "moldovancsaba/classscout",
+  "productBranches": ["main", "preview", "dev"],
+  "siteUrls": [
+    "https://getyourfield.com",
+    "https://classscout.ai"
+  ],
+  "mongoNote": "Agents must not open Mongo for listing writes; use POST /api/ingest only",
+  "ingestPath": "/api/ingest",
+  "uploadPath": "/api/ingest/upload",
+  "ingestAuth": "Authorization: Bearer <INGEST_API_KEY>",
+  "ssotSite": "https://sovereigncontent.messmass.com",
+  "scheduleContract": "recurringPrograms.daysOfWeek (Monday..Sunday) — not management RecurringSlot"
+}
