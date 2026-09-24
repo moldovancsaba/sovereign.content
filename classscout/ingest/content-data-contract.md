@@ -94,4 +94,4 @@ product validation — bad schedule shapes fail closed.
 `POST /api/ingest/upload` — multipart field `file` → hosted HTTPS URL (R2 preferred when configured).
 
 Use [`client.ts`](./client.ts) from this folder only. Never import `../sportolok/ingest` or
-`../padel-africa/ingest`.
+`../content.padelafrica/ingest`.

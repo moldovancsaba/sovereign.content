@@ -1,5 +1,6 @@
-# padel-africa — sovereign content agent
+# content.padelafrica — sovereign content agent (padel-africa)
 
+**Folder:** `content.padelafrica/` (dedicated content project folder in this repo)  
 **Owner:** content-agent team  
 **Repo:** `moldovancsaba/sovereign.content` → this folder  
 **Live app:** `padel-africa.doneisbetter.com` (`moldovancsaba/management`, vertical `padel-africa`)
@@ -9,7 +10,7 @@
 1. **This folder is the home** for padel-africa agent docs, timer prompts, research playbooks, and ingest-side automation.
 2. **Do not** add routes, libs, or crons to `moldovancsaba/management` for agent features. Engine CLIs that already exist there (`catalog:quality-loop`, etc.) are management product surfaces — new agent automation calls public APIs from here.
 3. **Do not** write the shared Mongo database from this agent. Use `POST /api/ingest` (and other documented public APIs) with a scoped machine token.
-4. **Do not** import from `../sportolok/`.
+4. **Do not** import from `../sportolok/` or `../classscout/`.
 5. Schedule / listing patches must match [`ingest/content-data-contract.md`](./ingest/content-data-contract.md) (`RecurringSlot` = singular `weekday`).
 
 ## Layout

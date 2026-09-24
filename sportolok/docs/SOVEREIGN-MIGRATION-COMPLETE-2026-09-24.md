@@ -161,7 +161,7 @@ sovereign.content/
 │   └── docs/
 │       └── (all sovereign docs)
 │
-├── padel-africa/                 ← READY: Empty structure for future
+├── content.padelafrica/                 ← READY: Empty structure for future
 │   ├── src/
 │   │   ├── lib/sovereign/
 │   │   └── scripts/
@@ -174,7 +174,7 @@ sovereign.content/
 ```
 
 **Rules:**
-- Each client folder (`sportolok/`, `padel-africa/`) is fully self-contained
+- Each client folder (`sportolok/`, `content.padelafrica/`) is fully self-contained
 - No imports between client folders
 - Independently runnable and deployable
 - Own dependencies, config, and documentation

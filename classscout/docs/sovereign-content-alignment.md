@@ -167,7 +167,7 @@ File process (not catalog) recommendations so other verticals inherit them — e
 
 **Filed 2026-09-24** — #22 city/borough · #23 chatbot About · #24 self-heal/archive twins ·
 [#25 until-found / contact enrich / cron-cli-twins](https://github.com/moldovancsaba/sovereign.content/issues/25) ·
-[#27 client folders (`classscout/` / `sportolok/` / `padel-africa/`)](https://github.com/moldovancsaba/sovereign.content/issues/27)
+[#27 client folders (`classscout/` / `sportolok/` / `content.padelafrica/`)](https://github.com/moldovancsaba/sovereign.content/issues/27)
 (storage model; #26 was an accidental probe).
 
 ## Agent pointers

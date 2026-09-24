@@ -139,7 +139,7 @@ moldovancsaba/sovereign.content/
 │   ├── tsconfig.json
 │   └── README.md
 │
-└── padel-africa/
+└── content.padelafrica/
     ├── (same structure, independent)
     └── README.md
 ```
@@ -208,7 +208,7 @@ schedule: {
 ### Phase 1: Create New Repository
 1. ✅ Create `moldovancsaba/sovereign.content` repository
 2. ✅ Set up `sportolok/` folder structure
-3. ✅ Set up `padel-africa/` folder structure
+3. ✅ Set up `content.padelafrica/` folder structure
 4. ✅ Initialize package.json, tsconfig.json for each
 
 ### Phase 2: Move Sovereign Code
@@ -252,7 +252,7 @@ schedule: {
 
 ## Definition of Done
 
-- [ ] `moldovancsaba/sovereign.content` exists with `sportolok/` and `padel-africa/` folders
+- [ ] `moldovancsaba/sovereign.content` exists with `sportolok/` and `content.padelafrica/` folders
 - [ ] Every sovereign-specific file removed from `moldovancsaba/management`
 - [ ] Every shared engine file reverted to match `main`
 - [ ] Sovereign agent runs as independent deployment

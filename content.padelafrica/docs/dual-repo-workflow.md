@@ -9,7 +9,7 @@ agents talk to live apps only through documented public APIs.
 | Concern | Repository | Path / branch | Notes |
 | --- | --- | --- | --- |
 | **Process SSOT site** | [`sovereign.content`](https://github.com/moldovancsaba/sovereign.content) | `main` → site root (`/jobs`, `/implement`, …) | Doctrine + portable contracts |
-| **Padel Africa agent** | `sovereign.content` | **`padel-africa/`** on `main` | Timers, ingest client, FIND/self-heal playbooks, HiTL |
+| **Padel Africa agent** | `sovereign.content` | **`content.padelafrica/`** on `main` | Timers, ingest client, FIND/self-heal playbooks, HiTL |
 | **Sportolok agent** | `sovereign.content` | **`sportolok/`** on `main` | Migrated sovereign runtime (quarantined Mongo writers) + ingest |
 | **Management engine** | [`management`](https://github.com/moldovancsaba/management) | Feature → **`main`** (reviewed); release branches are **fast-forward only** | Vertical packs, UI, pipeline, public `/api/ingest` |
 | **Live catalogue** | Mongo (per vertical) | — | Agents must **not** open Mongo |
@@ -19,7 +19,7 @@ https://github.com/moldovancsaba/sovereign.content/blob/main/CORE-TEAM-STATUS.md
 
 ## Agent rules
 
-1. **New agent code / docs / timers** → `sovereign.content/<client>/` on `main`. Never commit agent
+1. **New agent code / docs / timers** → `sovereign.content/<client>/` on `main` (padel = `content.padelafrica/`). Never commit agent
    runtimes onto `release/sportolok` or `release/padel-africa`.
 2. **Engine changes** (extraction, hygiene, pack, flags, vercel crons) → PR to management **`main`**
    only. Do not diverge release branches.
@@ -27,7 +27,7 @@ https://github.com/moldovancsaba/sovereign.content/blob/main/CORE-TEAM-STATUS.md
    `sovereign.content/<client>/ingest/`. Schedule must be `RecurringSlot[]` with singular `weekday`
    — see each client’s `ingest/content-data-contract.md` (mirror of management
    `src/lib/schedule/schedule.ts`; ask core for `docs/content-data-contract.md` if still missing).
-4. **Do not** import across `padel-africa/` ↔ `sportolok/`.
+4. **Do not** import across `content.padelafrica/` ↔ `sportolok/` ↔ `classscout/`.
 5. Optional management **archive-backup** under `archive/<vertical>/` remains an engine/ops concern,
    not an agent home.
 
@@ -46,7 +46,7 @@ delivery optimizer, FIND playbooks, timer prompts) is owned under `sovereign.con
 
 ## Related
 
-- Padel agent: https://github.com/moldovancsaba/sovereign.content/tree/main/padel-africa
+- Padel agent: https://github.com/moldovancsaba/sovereign.content/tree/main/content.padelafrica
 - Sportolok agent: https://github.com/moldovancsaba/sovereign.content/tree/main/sportolok
 - SSOT Implement: https://sovereigncontent.messmass.com/implement
 - ClassScout twin (do not merge engines): [`classscout-sovereign-twin.md`](classscout-sovereign-twin.md)

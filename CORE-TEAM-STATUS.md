@@ -9,7 +9,7 @@
 | Requirement | Status |
 | --- | --- |
 | `sportolok/` top-level client folder | **Done** — agent workspace + migrated `src/lib/sovereign/*`, APIs, crons, scripts, docs |
-| `padel-africa/` top-level client folder | **Done** — agent workspace: docs, timers, ingest client, schedule contract mirror |
+| `content.padelafrica/` top-level client folder | **Done** — agent workspace: docs, timers, ingest client, schedule contract mirror |
 | `classscout/` top-level client folder | **Done** — ClassScout / Your Field agent: catalog-loop runners, ingest client, ClassScout schedule contract, docs (product remains `moldovancsaba/classscout`) |
 | Clients do not import each other | **Done** — duplicated ingest/schedule helpers per client |
 | Agent write path = public ingest only | **Documented + helpers shipped** — see each client's `ingest/` and `AGENTS.md`. Legacy Mongo-direct executor code under `sportolok/src/` is **quarantined** (must not run in management deploy). ClassScout runners still resolving product `node_modules` for env during cutover must **mutate listings only via ingest** |
@@ -28,7 +28,7 @@ Shared engine edits that were sportolok-only (e.g. `vercel.json` media-curate / 
 
 ## Padel-africa note
 
-Padel Cloud Agent work (FIND / self-heal digests / quality ticks) continues as **agent ops owned under `padel-africa/`**. Engine-native CLIs that remain in `management` (`catalog:quality-loop`, etc.) are management product surfaces; **new** sovereign agent automation must call `/api/ingest` (or other documented public APIs) from this repo’s client folder — not add routes/libs/crons to `management`, and not write Mongo from the agent.
+Padel Cloud Agent work (FIND / self-heal digests / quality ticks) continues as **agent ops owned under `content.padelafrica/`**. Engine-native CLIs that remain in `management` (`catalog:quality-loop`, etc.) are management product surfaces; **new** sovereign agent automation must call `/api/ingest` (or other documented public APIs) from this repo’s client folder — not add routes/libs/crons to `management`, and not write Mongo from the agent.
 
 ## ClassScout note
 

@@ -28,7 +28,7 @@ sovereign.content/
       sovereign-content-alignment.md   # ClassScout job alias map (copy or submodule pointer)
       self-heal-feedback-audit-plan.md
     data/                     # gitignored runtime state (or external volume)
-  padel-africa/               # sibling — not our tree
+  content.padelafrica/               # sibling — not our tree
   sportolok/                  # sibling — not our tree
 ```
 

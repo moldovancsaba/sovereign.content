@@ -19,7 +19,7 @@ export default function WhatsNewPage() {
         ticks; use <code>serving:reconcile</code>; (2) R2 primary + ImgBB backup wired; (3) FIND{" "}
         <code>--until-found</code> + self-heal bind; (4) worked job examples for other agents; (5)
         ClassScout ↔ SC ↔ Padel twin knowledge (do not merge engines); (6){" "}
-        <strong>client separation</strong> — top-level <code>padel-africa/</code> +{" "}
+        <strong>client separation</strong> — top-level <code>content.padelafrica/</code> +{" "}
         <code>sportolok/</code> agent folders; ingest-only writes; sportolok sovereign migrated out
         of management (await core reconcile of <code>release/sportolok</code>) — see{" "}
         <code>CORE-TEAM-STATUS.md</code>.
@@ -28,7 +28,7 @@ export default function WhatsNewPage() {
       <h2>2026-09-24 — Separate agents from management engine</h2>
       <ul>
         <li>
-          Top-level <code>padel-africa/</code> and <code>sportolok/</code> workspaces (no
+          Top-level <code>content.padelafrica/</code> and <code>sportolok/</code> workspaces (no
           cross-imports)
         </li>
         <li>
