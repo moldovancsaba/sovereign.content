@@ -1,77 +1,31 @@
 {
-  "client": "sportolok",
-  "date": "2026-09-25",
-  "timestamp": "2026-09-25T03:38:00Z",
-  "environment": {
-    "agentFolder": "content.sportolok",
-    "managementRepo": "moldovancsaba/management",
-    "managementBranch": "release/sportolok",
-    "siteUrl": "https://sport.doneisbetter.com",
-    "llm": "Cursor Cloud Agent (this agent, executing right now) — NO OLLAMA, NO AI GATEWAY, NO EXTERNAL LLM"
+  "clientId": "sportolok",
+  "observedAt": "2026-09-25T03:55:00Z",
+  "source": "sc-central-qa",
+  "workingEnv": {
+    "timerSubscribed": false,
+    "ingestOnlyDoctrine": true,
+    "ingestOnlyReality": false,
+    "quarantineActive": true,
+    "executorIngestStubShipped": true,
+    "vanityDocsRetracted": true,
+    "releaseBranchCommitsStopped": "acknowledged_unverified"
   },
-  "milestone": {
-    "name": "OLLAMA PURGE + PADEL-AFRICA PATTERN IMPLEMENTATION",
-    "status": "COMPLETE",
-    "commits": [
-      "f3cb5cf - feat(sportolok): implement padel-africa job structure with Cloud Agent as LLM",
-      "4605188 - docs(sportolok): OLLAMA purge complete, padel-africa pattern implemented"
-    ]
+  "outcomes": {
+    "ingest_patch_success_rate": null,
+    "schedule_validation_failures": null,
+    "quarantine_burn_down": "executor_throws_plus_ingest_helper_added",
+    "decision_staff_agreement_when_live": null,
+    "release_branch_reconcile_status": "pending_core",
+    "note": "outcome KPIs insufficient_signal until dry PATCH with INGEST_API_KEY"
   },
-  "architecture": {
-    "llm": "Cursor Cloud Agent (I, this agent) performs ALL cognitive tasks",
-    "writePath": "POST /api/ingest only (no direct Mongo)",
-    "jobStructure": "Follows content.padelafrica pattern exactly",
-    "ollamaStatus": "100% purged from sportolok agent runtime",
-    "validation": "RecurringSlot singular weekday via Zod schemas"
-  },
-  "filesCreated": [
-    "ingest/client.ts",
-    "ingest/content-data-contract.md",
-    "scripts/catalog-quality-loop-ingest.ts",
-    "src/QUARANTINE.md",
-    "timers/orchestrator.md",
-    "docs/OLLAMA-PURGE-CHECKLIST.md"
+  "openDebt": [
+    { "kind": "ingest_rewrite", "n": 1, "target": "src/lib/sovereign/executor.ts callers → executorIngest.ts" },
+    { "kind": "dry_patch_unproven", "n": 1 },
+    { "kind": "release_sportolok_reconcile", "n": 1 }
   ],
-  "filesUpdated": [
-    "AGENTS.md",
-    "package.json",
-    "pointers.json",
-    "fleet/coordination/sportolok.md"
-  ],
-  "quarantine": {
-    "status": "DOCUMENTED",
-    "reason": "Direct Mongo writes caused production outage on sport.doneisbetter.com/browse",
-    "solution": "All writes via POST /api/ingest with Zod validation",
-    "remaining": "Quarantined code in src/ not yet rewritten to ingest"
-  },
-  "ollama": {
-    "sportolokAgent": "CLEAN - zero active references",
-    "managementRepo": "40+ deprecated files documented in OLLAMA-PURGE-CHECKLIST.md",
-    "deprecatedCrons": [
-      "src/app/api/cron/content-intelligence-autopilot/route.ts",
-      "src/app/api/cron/research-fields-reverify/route.ts",
-      "src/app/api/cron/curator/route.ts"
-    ],
-    "coreTeamAction": "Clean deprecated Ollama routes, test files, and docs"
-  },
-  "nextSteps": [
-    "Implement actual quality-loop logic in catalog-quality-loop-ingest.ts",
-    "I (Cursor Cloud Agent) perform quality scoring on published listings",
-    "I write improved About descriptions from evidence",
-    "Test dry PATCH via ingest client",
-    "Execute quality improvements via POST /api/ingest"
-  ],
-  "documentation": {
-    "fleetCoordination": "fleet/coordination/sportolok.md",
-    "ollamaPurge": "content.sportolok/docs/OLLAMA-PURGE-CHECKLIST.md",
-    "quarantine": "content.sportolok/src/QUARANTINE.md",
-    "dataContract": "content.sportolok/ingest/content-data-contract.md",
-    "agentsGuide": "content.sportolok/AGENTS.md"
-  },
-  "kpis": {
-    "ollamaRefsRemoved": "100% from sportolok agent",
-    "jobStructureAlignment": "100% matches content.padelafrica",
-    "ingestImplementation": "Client helpers complete, quality-loop stub ready",
-    "documentationAccuracy": "All claims retracted, reality documented"
-  }
+  "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/sportolok.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.sportolok/src/lib/sovereign/executorIngest.ts"
+  ]
 }

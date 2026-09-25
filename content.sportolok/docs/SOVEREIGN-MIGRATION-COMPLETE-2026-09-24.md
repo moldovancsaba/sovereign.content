@@ -1,4 +1,12 @@
-# Sovereign Content Migration — Complete
+# HISTORICAL — do not treat as current status
+
+> **Retracted 2026-09-25 (SC-central QA).** “Migration complete” is false until ingest rewrite +
+> proven PATCH + management core reconciles `release/sportolok`. See `src/QUARANTINE.md` and
+> `fleet/coordination/sportolok.md`.
+
+---
+
+## Sovereign Content Migration — Complete
 
 **Date:** 2026-09-24  
 **Status:** ✅ COMPLETE  

@@ -1,0 +1,329 @@
+{
+  "job": "fleet:daily-swot",
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T03:59:21.568Z",
+  "executiveBrief": "Fleet snapshot for 2026-09-25: all three product sites returned HTTP 200. Working-environment composite is effectively tied among content.padelafrica + content.classscout (checklist-complete homes); report lead is content.padelafrica as the portable Jobs reference pattern. Inbox status present for: content.padelafrica, content.sportolok, content.classscout. Outcome scores stay conservative until profile-fair KPI parsing (Phase 3) — do not invent Mongo numbers beyond the snapshots. Sportolok remains capped until dry PATCH proven + core reconciles release/sportolok. SC-central QA owns quarantine guards + vanity retracts; client chats own ticks and inbox refresh.",
+  "agents": [
+    {
+      "id": "padelafrica",
+      "folder": "content.padelafrica",
+      "displayName": "Padel Africa",
+      "density": "sparse_continent",
+      "growthMode": "research_until_found",
+      "scheduleFamily": "management_recurring_slot_weekday",
+      "fairKpis": [
+        "find_seeded_vs_zero_result",
+        "about_debt_open",
+        "media_host_mix",
+        "hitl_backlog",
+        "settled_empty_ticks_honest"
+      ],
+      "unfairComparisons": [
+        "raw_daily_publish_count_vs_dense_us",
+        "forever_loop_cycle_rate"
+      ],
+      "swot": {
+        "strengths": [
+          "Ingest client + content-data-contract mirror present",
+          "Single-orchestrator timer prompt documented",
+          "Live product HTTP smoke returned 200",
+          "Recent agent-folder git activity (11 commit(s) in window)",
+          "Mature FIND / self-heal / HiTL playbooks aligned with SSOT Jobs examples"
+        ],
+        "weaknesses": [
+          "Live FIND/quality outcome KPIs not in fleet/inbox yet (padel chat owns Mongo CLIs)"
+        ],
+        "opportunities": [
+          "classscout_deep_enrich_orchestration_only",
+          "sportolok_decision_audit_trail_shape"
+        ],
+        "threats": [
+          "Stealing padel-find-tick from padel chat would break ownership split"
+        ]
+      },
+      "signals": {
+        "http": [
+          {
+            "url": "https://padel-africa.doneisbetter.com",
+            "status": 200
+          }
+        ],
+        "gitCommitCount": 11,
+        "gitSubjects": [
+          "coord(padelafrica): tick 03:14 MAR-VEN-003 Club Wifaq",
+          "coord(padelafrica): tick 02:12 SEN-VEN-006 + day-2 refresh",
+          "coord(padelafrica): tick 01:11 Mbour fixture + day-2 refresh",
+          "coord(padelafrica): day-2 tick — SN Thiès fixture + inbox",
+          "coord(padelafrica): tick 23:03 Stellenbosch fixture-only FIND"
+        ],
+        "snapshotCount": 1,
+        "docsCount": 16,
+        "lessonCount": null,
+        "lessonsUpdatedAt": null,
+        "migration": "see MIGRATION-FROM-MANAGEMENT.md + STATUS-FOR-CORE.md — await core reconcile of release/padel-africa (PRs #222/#227)"
+      },
+      "scores": {
+        "reliability": {
+          "value": 100,
+          "note": "5/5: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok"
+        },
+        "consistency": {
+          "value": 100,
+          "note": "4/4: agents_md=ok, content_contract=ok, playbook_docs=ok, heal_before_find_documented=ok"
+        },
+        "efficiency": {
+          "value": 100,
+          "note": "2/2: single_orchestrator_pattern=ok, docs_home_complete=ok"
+        },
+        "environmentFit": {
+          "value": 100,
+          "note": "7/7: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, playbook_docs=ok, heal_before_find_documented=ok"
+        },
+        "outcomeNormalized": {
+          "value": 50,
+          "note": "snapshot present — outcome scoring still Phase 3 (counts only when profile-fair fields exist)"
+        }
+      }
+    },
+    {
+      "id": "sportolok",
+      "folder": "content.sportolok",
+      "displayName": "Sportolok",
+      "density": "dense_local",
+      "growthMode": "evaluate_delivery_plus_ingest_cutover",
+      "scheduleFamily": "management_recurring_slot_weekday",
+      "fairKpis": [
+        "ingest_patch_success_rate",
+        "schedule_validation_failures",
+        "quarantine_burn_down",
+        "decision_staff_agreement_when_live",
+        "release_branch_reconcile_status"
+      ],
+      "unfairComparisons": [
+        "raw_find_seeds_vs_padel_africa",
+        "forever_loop_cycle_rate"
+      ],
+      "swot": {
+        "strengths": [
+          "Ingest client + content-data-contract mirror present",
+          "Single-orchestrator timer prompt documented",
+          "Live product HTTP smoke returned 200",
+          "Recent agent-folder git activity (10 commit(s) in window)",
+          "QUARANTINE.md + migration list published for core reconcile"
+        ],
+        "weaknesses": [
+          "Sovereign Mongo executor still quarantined — automation not ingest-complete",
+          "release/sportolok still diverged; core reconcile pending"
+        ],
+        "opportunities": [
+          "padel_heal_before_find_orchestration",
+          "padel_hitl_delivery_classes",
+          "classscout_hourly_scorecard_shape"
+        ],
+        "threats": [
+          "Re-enabling quarantined executor against shared Mongo could repeat schedule outage",
+          "weekdays[] RecurringSlot shape remains a permanent contract threat"
+        ]
+      },
+      "signals": {
+        "http": [
+          {
+            "url": "https://sport.doneisbetter.com",
+            "status": 200
+          }
+        ],
+        "gitCommitCount": 10,
+        "gitSubjects": [
+          "feat(sportolok): implement working quality-loop with test mode",
+          "feat(sportolok): add .env.example and .gitignore for API key management",
+          "fix(sportolok): clarify I (Cursor Cloud Agent, this agent) am the LLM",
+          "docs(sportolok): comprehensive Ollama purge completion report",
+          "docs(sportolok): OLLAMA purge complete, padel-africa pattern implemented"
+        ],
+        "snapshotCount": 1,
+        "docsCount": 17,
+        "lessonCount": null,
+        "lessonsUpdatedAt": null,
+        "migration": "see MIGRATION-FROM-MANAGEMENT.md + SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md — core reconcile complete"
+      },
+      "scores": {
+        "reliability": {
+          "value": 100,
+          "note": "7/7: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, quarantine_documented=ok, no_live_mongo_executor=ok"
+        },
+        "consistency": {
+          "value": 100,
+          "note": "3/3: agents_md=ok, content_contract=ok, migration_note_in_pointers=ok"
+        },
+        "efficiency": {
+          "value": 0,
+          "note": "0/1: ingest_rewrite_complete=gap"
+        },
+        "environmentFit": {
+          "value": 89,
+          "note": "8/9: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, quarantine_documented=ok, migration_note_in_pointers=ok, no_live_mongo_executor=ok, ingest_rewrite_complete=gap"
+        },
+        "outcomeNormalized": {
+          "value": 50,
+          "note": "snapshot present — outcome scoring still Phase 3 (counts only when profile-fair fields exist)"
+        }
+      }
+    },
+    {
+      "id": "classscout",
+      "folder": "content.classscout",
+      "displayName": "ClassScout / Your Field",
+      "density": "dense_metro_us",
+      "growthMode": "forever_find_improve",
+      "scheduleFamily": "classscout_recurring_programs_days_of_week",
+      "fairKpis": [
+        "lasting_public_rate",
+        "improve_fill_rate",
+        "find_smoke_pass",
+        "tier_a_auto_pause_health",
+        "scarcity_brief_freshness"
+      ],
+      "unfairComparisons": [
+        "sparse_continent_find_until_found_seeds",
+        "r2_media_host_mix"
+      ],
+      "swot": {
+        "strengths": [
+          "Ingest client + content-data-contract mirror present",
+          "Single-orchestrator timer prompt documented",
+          "Live product HTTP smoke returned 200",
+          "Recent agent-folder git activity (6 commit(s) in window)",
+          "Forever Find→Improve runners + lessons.json live under agent home",
+          "Encoded lessons log present (79 lessons, updated 2026-09-24T13:04:31.871Z)"
+        ],
+        "weaknesses": [
+          "Live events.jsonl / hourly scorecard not mirrored into fleet/inbox (outcome KPIs incomplete here)"
+        ],
+        "opportunities": [
+          "padel_self_heal_defer_when_about_debt_hot",
+          "padel_hitl_delivery_classes",
+          "sportolok_decision_audit_when_useful"
+        ],
+        "threats": [
+          "Merging forever-Find engine with padel until-found would violate twin doctrine",
+          "Accidentally sending management RecurringSlot shapes to ClassScout ingest"
+        ]
+      },
+      "signals": {
+        "http": [
+          {
+            "url": "https://getyourfield.com",
+            "status": 200
+          },
+          {
+            "url": "https://classscout.ai",
+            "status": 200
+          }
+        ],
+        "gitCommitCount": 6,
+        "gitSubjects": [
+          "coord(classscout): document hang freeze guards; sync timeout forever",
+          "ClassScout: bind to fleet SSOT, document cutover, emit inbox status",
+          "Document content.* client folder maturity vs ClassScout workflow",
+          "Align root docs with content.sportolok naming",
+          "Resolve merge: content.classscout + content.padelafrica"
+        ],
+        "snapshotCount": 1,
+        "docsCount": 8,
+        "lessonCount": 79,
+        "lessonsUpdatedAt": "2026-09-24T13:04:31.871Z",
+        "migration": null
+      },
+      "scores": {
+        "reliability": {
+          "value": 100,
+          "note": "5/5: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok"
+        },
+        "consistency": {
+          "value": 100,
+          "note": "3/3: agents_md=ok, content_contract=ok, schedule_family_classscout=ok"
+        },
+        "efficiency": {
+          "value": 100,
+          "note": "2/2: forever_loop_present=ok, encoded_lessons=ok"
+        },
+        "environmentFit": {
+          "value": 100,
+          "note": "8/8: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, forever_runner=ok, lessons_log=ok, schedule_family_classscout=ok"
+        },
+        "outcomeNormalized": {
+          "value": 50,
+          "note": "snapshot present — outcome scoring still Phase 3 (counts only when profile-fair fields exist)"
+        }
+      }
+    }
+  ],
+  "environmentComparison": {
+    "bestFitFolder": "content.padelafrica",
+    "rationale": "content.padelafrica leads working-environment fitness today (composite 100/100; env 100, efficiency 100). Rank reflects ops readiness in the Cursor/dual-repo environment — not which vertical publishes more listings. Margin vs content.classscout: 0 pts.",
+    "caveats": [
+      "Outcome KPIs are insufficient_signal without fleet/inbox snapshots — no content-outcome winner declared.",
+      "Unfair to compare padel FIND seeds vs ClassScout forever-loop volume (see profiles.unfairComparisons).",
+      "Sportolok score is capped by intentional quarantine / incomplete ingest rewrite; treat migration progress as the improvement vector.",
+      "Composite = mean of available reliability, consistency, efficiency, environmentFit."
+    ]
+  },
+  "recommendations": [
+    {
+      "target": "content.padelafrica",
+      "problem": "No fleet/inbox status snapshot from padel orchestrator ticks",
+      "why": "Fleet SWOT cannot score fair outcome KPIs without inventing Mongo numbers",
+      "how": "After each padel-find-tick digest, commit fleet/inbox/padelafrica/status-YYYY-MM-DD.json with workingEnv + profile-fair outcome counts only (see fleet/inbox/README.md)",
+      "evidence": [
+        "fleet/inbox/README.md",
+        "plan-fleet-daily-swot.md Phase 3"
+      ],
+      "delivery": "agent_execute"
+    },
+    {
+      "target": "content.sportolok",
+      "problem": "Quarantined Mongo sovereign runtime is not yet rewritten to ingest",
+      "why": "Blocks reliable/efficient autonomous ticks; environment fit stays capped",
+      "how": "Rewrite call sites to ingest/client.ts + scheduleToRecurringSlots; keep src/ as reference; prove one dry PATCH; chase core reconcile via CORE-TEAM-STATUS.md",
+      "evidence": [
+        "content.sportolok/src/QUARANTINE.md",
+        "content.sportolok/MIGRATION-FROM-MANAGEMENT.md",
+        "pointers.json migration note"
+      ],
+      "delivery": "agent_execute"
+    },
+    {
+      "target": "content.classscout",
+      "problem": "Hourly quality rollup / lasting-public signals stay local to runner data dir",
+      "why": "Central comparison lacks ClassScout outcome fitness without snapshots",
+      "how": "Have quality-rollup or weekly-digest also write a slim fleet/inbox/classscout/status-DATE.json (counts/enums only)",
+      "evidence": [
+        "content.classscout/docs/catalog-find-improve-loop.md",
+        "fleet/inbox/README.md"
+      ],
+      "delivery": "agent_execute"
+    },
+    {
+      "target": "content.classscout",
+      "problem": "Product-repo transitional catalog-loop copies may still be the live runners",
+      "why": "Agent-home cutover incomplete → consistency risk across environments",
+      "how": "Confirm forever.sh runs from content.classscout/scripts; retire product wrappers when INGEST_API_KEY path is proven",
+      "evidence": [
+        "content.classscout/AGENTS.md",
+        "HANDOVER.md §5"
+      ],
+      "delivery": "hitl_review"
+    },
+    {
+      "target": "ssot",
+      "problem": "fleet:daily-swot timer not yet subscribed on SC-central agent",
+      "why": "Without a daily wake, digests will not accumulate growing knowledge",
+      "how": "After verifying this script, subscribe_timer name fleet-daily-swot ~86400s using fleet/timers/orchestrator.md",
+      "evidence": [
+        "fleet/timers/orchestrator.md"
+      ],
+      "delivery": "hitl_review"
+    }
+  ],
+  "insufficientSignals": []
+}

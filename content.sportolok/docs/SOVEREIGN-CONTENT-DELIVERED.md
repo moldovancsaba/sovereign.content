@@ -1,4 +1,20 @@
-# Sovereign Content — DELIVERED ✅
+# HISTORICAL — do not treat as current status
+
+> **Retracted 2026-09-25 (SC-central QA).** Claims like “90% SSOT-compliant”, “migration
+> complete”, “ready for daily operation”, and “API-only” are **false** while
+> `content.sportolok/src/` Mongo executors remain quarantined and not rewritten to ingest.
+>
+> Canonical truth:
+> - [`../../fleet/RULES.md`](../../fleet/RULES.md)
+> - [`../../fleet/CLIENT-COMPARISON.md`](../../fleet/CLIENT-COMPARISON.md)
+> - [`../src/QUARANTINE.md`](../src/QUARANTINE.md)
+> - [`../../fleet/coordination/sportolok.md`](../../fleet/coordination/sportolok.md)
+>
+> Keep this file only as a dated delivery diary. Do **not** copy its scores into digests.
+
+---
+
+## Sovereign Content — DELIVERED ✅
 
 **Date**: 2026-09-24  
 **Time**: 3:43 PM - 4:20 PM (37 minutes)  

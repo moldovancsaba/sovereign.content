@@ -22,9 +22,10 @@ Jobs that look **across** all content agents:
 
 ## Start
 
-1. Read [`RULES.md`](./RULES.md) then [`CLIENT-COMPARISON.md`](./CLIENT-COMPARISON.md)
+1. Read [`RULES.md`](./RULES.md) then [`CLIENT-COMPARISON.md`](./CLIENT-COMPARISON.md) then [`ORCHESTRATOR.md`](./ORCHESTRATOR.md)
 2. Read [`RESEARCH-2026-09-24.md`](./RESEARCH-2026-09-24.md)
 3. Read the plan in recommendations inbox
 4. Skim `profiles/*.json`
 5. Operator prompts (one-shot paste): [`PROMPTS-TO-CLIENT-AGENTS.md`](./PROMPTS-TO-CLIENT-AGENTS.md)
 6. **Ongoing back-and-forth:** [`coordination/`](./coordination/) — shared MD threads SC ↔ each client
+7. Quality: verify claims on disk, fix on `main`, append SC-central QA turns

@@ -20,12 +20,15 @@ with payloads matching `../ingest/content-data-contract.md` (`RecurringSlot` sin
 - Register `listing-quality-loop` (or other agent crons) on the management Vercel project
 - Re-enable `mongoListingQualityStore` writes against shared DB
 - Force-push `release/padel-africa` — management core reconciles after migration
+- Run legacy `scripts/catalog-*.ts` that import `mongodb` — they call `refuseAgentMongo()` at start (2026-09-25 QA). Use `scripts/catalog-quality-loop-ingest.ts` only.
 
 ## Status
 
 | Area | State |
 | --- | --- |
 | Code copy under `content.padelafrica/` | **Done** |
-| Mongo write quarantine | **Done** (`src/QUARANTINE` + store guard) |
-| Ingest-backed quality-loop rewrite | **In progress** — see `scripts/catalog-quality-loop-ingest.ts` stub |
+| Mongo write quarantine (store) | **Done** |
+| Mongo CLI refuse guards on catalog scripts | **Done** (SC-central QA 2026-09-25) |
+| Ingest-backed quality-loop rewrite | **Stub only** — `scripts/catalog-quality-loop-ingest.ts` |
+| Pending fixture → live ingest apply | **Blocked** on `INGEST_API_KEY` — see `docs/pending-ingest-queue.md` |
 | Management delete + shared-engine revert | **Awaiting core** — `MIGRATION-FROM-MANAGEMENT.md` |

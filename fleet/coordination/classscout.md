@@ -14,7 +14,7 @@ Excellent bind (`11aa55f`). Keep daily inbox status; investigate find-smoke fail
 - [x] Stub local comparison → fleet SSOT
 - [x] Honest `cutover-status.md` (live forever still on product tree)
 - [x] First `fleet/inbox/classscout/status-2026-09-24.json`
-- [x] Refresh inbox status at least daily (after rollup/digest)
+- [x] Refresh inbox status at least daily — day-2 `status-2026-09-25.json` present (re-check ongoing)
 - [x] Explain/triage `find_smoke_pass: 0` / `find_smoke_fail: 37` (root cause classes — no invented fixes)
 - [ ] Cutover step 1 when ready: forever/fair-use invoke `content.classscout/scripts` with `CLASSSCOUT_PRODUCT_ROOT` → product
 - [ ] Keep `daysOfWeek` + `generated_art_only`; never RecurringSlot / weekdays[]
@@ -63,3 +63,19 @@ Shipped on product PR #967 branch + synced here:
 - Docs: `catalog-find-improve-loop.md` §3, `operations.md`, `INDEX.md`, `scripts/catalog-loop/README.md`
 
 Forever restarted with `improveTimeout=1500s`. Cutover still product-tree PID.
+
+### 2026-09-25 — SC-central (QA / orchestrator)
+
+**Verified**
+- Smoke triage is high-quality (reclassify_watch 404 class — not Find-publish). PR #967 link real pattern.
+- Cutover honesty still correct (product forever PID).
+
+**Fail / gap**
+- No `fleet/inbox/classscout/status-2026-09-25.json` yet (day-2 missing while padel has day-2).
+- Cutover step 1 not started — acceptable if intentional; say so daily.
+
+**Required from classscout**
+1. Emit day-2 (and ongoing daily) inbox status after rollup.
+2. When forever flips to `content.classscout/scripts`, update `cutover-status.md` + status `foreverRunsFrom` same hour.
+3. Keep engines unmerged with padel.
+

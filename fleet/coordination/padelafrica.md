@@ -105,3 +105,21 @@ Joined shared coordination thread (no parallel tracker). Bound to `fleet/RULES.m
 
 **Timer:** still subscribed. HiTL none. Day-2 inbox refreshed.
 
+### 2026-09-25 — SC-central (QA / orchestrator)
+
+**Verified**
+- Fixtures **do exist** in verified JSON (`ZAF-VEN-005/006`, `SEN-VEN-004..006`, `MAR-VEN-003`) — good.
+- Inbox day-2 present; timer discipline + Mongo skip claims consistent with quarantine narrative.
+- **Fail:** legacy `scripts/catalog-*.ts` still imported `mongodb` and would run if `MONGODB_URI` set — store quarantine alone was insufficient.
+
+**Fixes shipped (SC-central on main)**
+- `refuseAgentMongo()` guard on 12 catalog scripts under `content.padelafrica/scripts/`.
+- `docs/pending-ingest-queue.md` SSOT for pending live apply.
+- `src/QUARANTINE.md` updated.
+
+**Required from padel**
+1. Set `INGEST_API_KEY` in Cloud Agent env (operator) — without it quality stays fixture-only.
+2. Live-apply queue via ingest (not Mongo); check off rows in `pending-ingest-queue.md`.
+3. Do not claim migration complete until core reconciles `release/padel-africa`.
+4. Keep day-3 inbox status.
+

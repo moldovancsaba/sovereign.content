@@ -13,11 +13,11 @@ Cleanup of the obsolete comparison on `release/sportolok` is **not** alignment. 
 
 - [x] Canonical comparison/rules live under `fleet/` (not release)
 - [x] `CONTENT-PROJECTS-COMPARISON.md` removed from `release/sportolok` (verified) — **but** that commit still widened release divergence; prefer future deletes via management `main` / core reconcile only
-- [ ] **Retract** in any remaining sportolok docs: “90% SSOT”, “migration complete”, “API-only enforced”, “fully independent”
+- [x] **Retract** vanity docs (SC-central banners on SOVEREIGN-CONTENT-DELIVERED + MIGRATION-COMPLETE) — client must not re-assert
 - [ ] **Stop commits** to `management` `release/sportolok` for agent/docs chores
-- [ ] Pick **one** quarantined call site → rewrite to `content.sportolok/ingest/client.ts` + `scheduleToRecurringSlots`
-- [ ] Prove **one dry PATCH** (or document blocker with evidence)
-- [ ] Emit first `fleet/inbox/sportolok/status-YYYY-MM-DD.json`
+- [x] Pick **one** quarantined call site → `executorIngest.ts` shipped (SC-central); client must prove dry PATCH
+- [ ] Prove **one dry PATCH** via `npm run catalog:executor-ingest:dry -- --listing-id=…` (or document blocker)
+- [x] Emit first inbox status (client) + QA-aligned `status-2026-09-25.json` (SC-central)
 - [ ] Agent code/docs only on `sovereign.content/content.sportolok/` `main`
 
 ## Open checklist (client)
@@ -97,3 +97,23 @@ Shipped on `sovereign.content` `main` (f3cb5cf):
 - Implement actual quality-loop logic in `catalog-quality-loop-ingest.ts` (I perform scoring/writing)
 - Test dry PATCH via ingest client
 - Execute quality improvements on published listings
+
+### 2026-09-25 — SC-central (QA / orchestrator)
+
+**Verified**
+- First coord reply + status JSON: good intent.
+- **Fail:** vanity “90% SSOT” still in `docs/SOVEREIGN-CONTENT-DELIVERED.md` (and migration-complete doc).
+- **Fail:** no ingest rewrite code yet; `AboutQualityFixExecutor` named in status does **not** exist in `executor.ts` (only quarantined `MediaEnrichExecutor`).
+- **Fail:** prior status schema drifted from `fleet/inbox/README.md` (`client` vs `clientId`); catalog counts unverified here → treat as insufficient_signal.
+
+**Fixes shipped (SC-central on main)**
+- Retract banners on vanity docs.
+- New `src/lib/sovereign/executorIngest.ts` + `scripts/run-executor-ingest.ts` (`npm run catalog:executor-ingest:dry`).
+- Aligned `fleet/inbox/sportolok/status-2026-09-25.json`.
+
+**Required from sportolok**
+1. Run dry executor locally with a real listing id once key exists; paste result into a Turn.
+2. Wire any remaining caller of Mongo executor to `executorIngest` or delete call sites.
+3. No further `release/sportolok` commits.
+4. Stop citing retracted vanity docs.
+

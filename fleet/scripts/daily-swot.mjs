@@ -97,8 +97,10 @@ async function httpSmoke(urls, skip) {
 function listInboxSnapshots(clientId, date) {
   const dir = join(FLEET, "inbox", clientId);
   if (!existsSync(dir)) return [];
+  const exact = join(dir, `status-${date}.json`);
+  if (existsSync(exact)) return [exact];
   return readdirSync(dir)
-    .filter((f) => f.endsWith(".json") && f.includes(date))
+    .filter((f) => f.endsWith(".json") && f.includes(`status-${date}`))
     .map((f) => join(dir, f));
 }
 
@@ -646,14 +648,17 @@ async function main() {
   const topComposite = Math.max(...envScores.map((e) => e.composite ?? -1));
   const tied = envScores.filter((e) => e.composite === topComposite).map((e) => e.folder);
 
+  const withSnapshots = agents.filter((a) => a.signals.snapshotCount > 0).map((a) => a.folder);
   const executiveBrief = [
     `Fleet snapshot for ${date}: all three product sites returned HTTP 200.`,
     tied.length > 1
       ? `Working-environment composite is effectively tied among ${tied.join(" + ")} (checklist-complete homes); report lead is ${environmentComparison.bestFitFolder} as the portable Jobs reference pattern.`
       : `${environmentComparison.bestFitFolder} currently best fits the Cursor/dual-repo working environment by composite score.`,
-    "Content-outcome fitness is not ranked — no agent pushed a fleet/inbox status snapshot today, so inventing Mongo KPIs is forbidden.",
-    "Sportolok remains intentionally capped by quarantine / incomplete ingest rewrite until core reconcile.",
-    "Padel leads sparse FIND + HiTL playbook maturity; ClassScout leads dense forever-loop machinery + 79 encoded lessons; neither wins an unfair volume contest.",
+    withSnapshots.length
+      ? `Inbox status present for: ${withSnapshots.join(", ")}. Outcome scores stay conservative until profile-fair KPI parsing (Phase 3) — do not invent Mongo numbers beyond the snapshots.`
+      : "Content-outcome fitness is not ranked — no fleet/inbox status snapshots today; inventing Mongo KPIs is forbidden.",
+    "Sportolok remains capped until dry PATCH proven + core reconciles release/sportolok.",
+    "SC-central QA owns quarantine guards + vanity retracts; client chats own ticks and inbox refresh.",
   ].join(" ");
 
   const report = {

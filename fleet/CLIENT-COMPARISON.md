@@ -14,9 +14,9 @@ Stubs that must not grow: repo-root `CLIENT-FOLDER-COMPARISON.md`, `fleet/CONTEN
 
 | Client | Skeleton | Runtime readiness | Honest one-liner |
 | --- | --- | --- | --- |
-| `content.classscout` | Strong | Highest agent-owned runner mass | Dense forever+Improve tree; cutover from product `scripts/catalog-loop/` may still be incomplete |
-| `content.padelafrica` | Strong docs + ingest | Execution still **management** `catalog:*` | Process twin on paper; **0 scripts** in agent home |
-| `content.sportolok` | Fat copy + quarantine | **Not** safe to run as padel tick | Migrated tree; Mongo executors quarantined until ingest rewrite + core reconcile |
+| `content.classscout` | Strong | Highest agent-owned runner mass | Dense forever+Improve tree; **live forever still on product** (`cutover-status.md`); daily inbox expected |
+| `content.padelafrica` | Strong docs + migrated `src/` + scripts | Fixtures + quarantine guards; **ingest apply blocked** on `INGEST_API_KEY` | Mongo catalog scripts refuse at runtime (QA 2026-09-25); pending queue in `docs/pending-ingest-queue.md` |
+| `content.sportolok` | Fat copy + quarantine + **ingest executor helper** | Dry PATCH still unproven | Vanity “90% SSOT” docs **retracted**; `executorIngest.ts` shipped; release reconcile pending |
 
 There is **no** single SSOT compliance %. Use environment vs outcome scorecards (`fleet:daily-swot`).
 
@@ -89,7 +89,7 @@ Intentional: padel must **not** grow a ClassScout forever loop. Export orchestra
 | Padel chat | After orchestrator tick → slim `fleet/inbox/padelafrica/status-YYYY-MM-DD.json` |
 | Sportolok / SC-central | Rewrite quarantined call sites → `ingest/` + `scheduleToRecurringSlots`; dry PATCH; chase core reconcile |
 | ClassScout / SC-central | Forever still on product `scripts/catalog-loop/` (cutover in progress — see `content.classscout/docs/cutover-status.md`); slim `fleet/inbox/classscout/` status |
-| All | Comparisons only via this file + `fleet:daily-swot`; follow [`RULES.md`](./RULES.md) |
+| SC-central | Orchestrate QA via [`ORCHESTRATOR.md`](./ORCHESTRATOR.md) + [`coordination/`](./coordination/); fix quarantine gaps on `main` |
 
 ---
 
