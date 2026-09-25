@@ -1,6 +1,9 @@
 /**
  * Where to look for new padel venues — encoded into every FIND brief.
  * Cloud Agent must actually open these; the CLI cannot scrape them.
+ *
+ * Polite multi-source harvest of the same directories:
+ * `scripts/fair-use/` (one page/source/pass → needs_verify candidates).
  */
 
 import type { FindSource } from "./types";
