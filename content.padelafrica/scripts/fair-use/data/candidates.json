@@ -600,5 +600,76 @@
     "extractedAt": "2026-09-25T11:32:59.447Z",
     "rejectedAt": "2026-09-25T11:38:00.000Z",
     "note": "Out of scope — Leeds/UK padel directory listing"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-padel-people",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPadel People",
+    "citationUrl": "https://playtomic.com/clubs/padel-people-wimbledon",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/padel-people-wimbledon",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T12:09:04.650Z",
+    "rejectedAt": "2026-09-25T12:16:00.000Z",
+    "note": "Out of scope — Wimbledon/UK Playtomic club (Padel People)"
+  },
+  {
+    "candidateId": "fair-actu-padel-club-tennis-riad",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Club tennis Riad",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-riad-rabat/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "cityHint": "Rabat",
+    "countryHint": "Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-riad-rabat/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T12:11:22.478Z",
+    "promotedAt": "2026-09-25T12:24:00.000Z",
+    "promotedRecordId": "MAR-VEN-015",
+    "note": "Promoted — Club Riad / Riad Club Sports REDAL Agdal Rabat"
+  },
+  {
+    "candidateId": "fair-thepadeldirectory-cw-padel-club",
+    "sourceId": "thepadeldirectory",
+    "sourceName": "The Padel Directory",
+    "name": "CW Padel Club",
+    "citationUrl": "https://www.thepadeldirectory.co.uk/padel-centres/cw-padel-club",
+    "website": "https://padel-mates-widget-prod.netlify.app/css/styles.css",
+    "researchSources": [
+      "https://www.thepadeldirectory.co.uk/padel-centres/cw-padel-club",
+      "https://padel-mates-widget-prod.netlify.app/css/styles.css"
+    ],
+    "researchNote": "Discovered via The Padel Directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T12:21:58.956Z",
+    "rejectedAt": "2026-09-25T12:24:00.000Z",
+    "note": "Out of scope — UK padel directory listing (CW Padel Club)"
+  },
+  {
+    "candidateId": "fair-padelusa-deuces-padel-club-coming-soon",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "Deuces Padel Club ( Coming Soon )",
+    "citationUrl": "https://padelusa.org/clubs/texas/laredo/deuces-padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/texas/laredo/deuces-padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T12:24:16.167Z",
+    "rejectedAt": "2026-09-25T12:27:00.000Z",
+    "note": "Out of scope — Laredo/Texas USA coming-soon listing"
   }
 ]

@@ -22,5 +22,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-22",
     "researchNotes": "Other Kigali venues (e.g. Mamba) noted in travel blogs but not double-sourced within this audit pass"
+  },
+  {
+    "recordId": "RWA-VEN-002",
+    "name": "Mamba Sport Padel",
+    "city": "Kigali",
+    "region": "City of Kigali",
+    "countryCode": "RW",
+    "line1": "KG 680 Street, Kimihurura",
+    "lat": -1.9543851,
+    "lng": 30.0812725,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "website": "https://mambasports.playbypoint.com/",
+    "phone": "+250 786 926 526",
+    "venueModel": "own_premises",
+    "seasonNote": "Venue hours commonly listed 11:00–23:00; padel via PlaybyPoint.",
+    "description": "Mamba Sport Padel is a Kimihurura Kigali padel offering at the Mamba entertainment hub on KG 680 Street with published phone and PlaybyPoint booking. A clear second Kigali recommendation beyond Bounce Kiyovu when you want Kimihurura courts beside Tugende cafe. Book on PlaybyPoint or call ahead.",
+    "primarySourceUrl": "https://thescribsandnibs.com/africa/rwanda/kigali/sports-activities-in-kigali/",
+    "secondarySourceUrl": "https://vibekigali.com/listing/mamba/",
+    "sourceTypes": "Scribs and Nibs Kigali sports guide (2 courts + PlaybyPoint); VibeKigali listing (KG 680 St + phone)",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Phone may be venue desk not padel-only. Alternate +250 780 303 463 also published for Mamba Club — primary VibeKigali 786 used. Distinct from RWA-VEN-001 Bounce."
   }
 ]

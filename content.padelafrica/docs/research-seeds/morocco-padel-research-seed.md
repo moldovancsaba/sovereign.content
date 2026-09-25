@@ -21,6 +21,7 @@ Morocco has a large market (70+ clubs). This is a **curated sample**.
 | `research-mar-ven-012` | Cité de Sports Adarissa | Hay Adarissa, Fes |
 | `research-mar-ven-013` | Club Narjisse | Avenue Azzaitoune, Hay Ryad, Rabat |
 | `research-mar-ven-014` | Club Padel Maroc | Route de Meknès 879 RC, Sala Al Jadida, Salé |
+| `research-mar-ven-015` | Club Riad | Avenue Imam Malik / Abdelaziz Boutal, Agdal, Rabat |
 | `osm-node-13300140471` | Padel Factory (already live) | Agadir |
 
 ```bash

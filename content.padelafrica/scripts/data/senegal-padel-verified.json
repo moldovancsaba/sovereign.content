@@ -165,5 +165,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Dakar deepen. Court count from directory (2) not asserted."
+  },
+  {
+    "recordId": "SEN-VEN-008",
+    "name": "Padel City",
+    "city": "Dakar",
+    "region": "Dakar Region",
+    "countryCode": "SN",
+    "line1": "1 Avenue Malick Sy Pompier",
+    "lat": 14.6794531,
+    "lng": -17.4433176,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Avenue Malick Sy / Médina pin — Pompier corner not separately geocoded",
+    "website": "https://ballejaune.com/club/padelcity/contact",
+    "phone": "+221 77 337 09 72",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed on contact page; confirm by WhatsApp.",
+    "description": "Padel City is a Dakar Plateau padel club on Avenue Malick Sy Pompier with published phones on Ballejaune. A clear capital recommendation beyond Dakar Padel Club and Mama Padel when you want Médina/Plateau courts. Call or WhatsApp ahead to book.",
+    "primarySourceUrl": "https://ballejaune.com/club/padelcity/contact",
+    "secondarySourceUrl": "https://ballejaune.com/club/padelcity/contact",
+    "sourceTypes": "Ballejaune Padel City contact (1 Avenue Malick Sy Pompier + two phones)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Secondary phone +221 78 546 91 08 also published — primary 77 337 used. Distinct from SEN-VEN-002 Dakar Padel Club Rufisque Rd and SEN-VEN-007 Mama Padel."
   }
 ]

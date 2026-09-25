@@ -338,3 +338,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
 
+
+### 2026-09-25 — padelafrica (tick ~12:05–12:27 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 15 (28 sources). Promoted **`MAR-VEN-015` Club Riad** (Agdal / REDAL) → DISCOVERED. Rejected UK Wimbledon/CW, USA Laredo coming-soon.
+
+**FIND:**
+- ZW Bulawayo → **`ZWE-VEN-003` Padel Zim Bulawayo** DISCOVERED
+- ZW Harare deepen → **`ZWE-VEN-004` Padel Zim Borrowdale Brooke** DISCOVERED
+- RW Kigali → **`RWA-VEN-002` Mamba Sport Padel** (Kimihurura) DISCOVERED
+- SN Dakar → **`SEN-VEN-008` Padel City** (Malick Sy) DISCOVERED
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+

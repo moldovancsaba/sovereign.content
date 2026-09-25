@@ -347,5 +347,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "Fair-use promote tick 2026-09-25 from actu-padel Club Padel Sale. Court count listed as 2 on padel.co.ma — not asserted. Distinct from MAR-VEN-003 Wifaq and MAR-VEN-013 Narjisse."
+  },
+  {
+    "recordId": "MAR-VEN-015",
+    "name": "Club Riad",
+    "city": "Rabat",
+    "region": "Rabat-Salé-Kénitra",
+    "countryCode": "MA",
+    "line1": "Avenue Imam Malik / Avenue Abdelaziz Boutal, Agdal",
+    "lat": 33.9973087,
+    "lng": -6.837465,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Nominatim Club Riad POI on Avenue Imam Malik Agdal; Visit Rabat also lists Avenue Abdelaziz Boutal Agdal",
+    "website": "https://ballejaune.com/club/riad/contact",
+    "phone": "+212 662 603 325",
+    "email": "Contact@clubriad.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Weekdays 08:00–23:00; Sat–Sun 09:30–21:30 (Visit Rabat).",
+    "description": "Club Riad (Riad Club Sports Association REDAL) is an Agdal Rabat sports club with published padel listings, phone, and email. A clear capital recommendation beyond Narjisse and Wifaq when you want Agdal courts. Call ahead for court booking and membership rules.",
+    "primarySourceUrl": "https://www.visitrabat.com/lieux/riad-club-sports-association-redal/",
+    "secondarySourceUrl": "https://actu-padel.com/directory/padel-club/padel-riad-rabat/",
+    "sourceTypes": "Visit Rabat listing (Agdal address + phones + email + hours); Actu Padel directory; Nominatim Club Riad POI; Ballejaune contact",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "Fair-use promote tick 2026-09-25. Also listed as Club tennis Riad / REDAL. Landline +212 537 672 726 also published — mobile 662 used. Distinct from MAR-VEN-003 Wifaq and MAR-VEN-013 Narjisse."
   }
 ]

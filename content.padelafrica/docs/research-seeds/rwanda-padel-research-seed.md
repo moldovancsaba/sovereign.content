@@ -6,6 +6,7 @@ Fixture: [`scripts/data/rwanda-padel-verified.json`](../scripts/data/rwanda-pade
 | Id | Listing | Place |
 | --- | --- | --- |
 | `research-rwa-ven-001` | Bounce Kiyovu | 16 KN 47 Street, Kigali |
+| `research-rwa-ven-002` | Mamba Sport Padel | KG 680 Street, Kimihurura, Kigali |
 
 ```bash
 npm run catalog:seed-research-rwanda:dry

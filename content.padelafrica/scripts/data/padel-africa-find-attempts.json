@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T11:27:00.000Z",
+  "updatedAt": "2026-09-25T12:24:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -703,6 +703,46 @@
       "outcome": "seeded",
       "recordId": "MDG-VEN-003",
       "note": "FIND Lamakoo Padel Center Ambatobe ingest"
+    },
+    {
+      "cc": "ZW",
+      "city": "Bulawayo",
+      "at": "2026-09-25T12:10:00.000Z",
+      "outcome": "seeded",
+      "recordId": "ZWE-VEN-003",
+      "note": "FIND Padel Zim Bulawayo Pauling Rd ingest"
+    },
+    {
+      "cc": "ZW",
+      "city": "Harare",
+      "at": "2026-09-25T12:10:00.000Z",
+      "outcome": "seeded",
+      "recordId": "ZWE-VEN-004",
+      "note": "FIND Padel Zim Borrowdale Brooke estate ingest"
+    },
+    {
+      "cc": "RW",
+      "city": "Kigali",
+      "at": "2026-09-25T12:10:00.000Z",
+      "outcome": "seeded",
+      "recordId": "RWA-VEN-002",
+      "note": "FIND Mamba Sport Kimihurura PlaybyPoint ingest"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "at": "2026-09-25T12:10:00.000Z",
+      "outcome": "seeded",
+      "recordId": "SEN-VEN-008",
+      "note": "FIND Padel City Malick Sy Pompier ingest"
+    },
+    {
+      "cc": "MA",
+      "city": "Rabat",
+      "at": "2026-09-25T12:24:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-015",
+      "note": "fair-use promote Club Riad Agdal ingest"
     }
   ]
 }
