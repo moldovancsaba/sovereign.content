@@ -1,6 +1,7 @@
 # Legacy Mongo catalog CLIs (reference only)
 
-Copied during management → `content.padelafrica` migration. **Do not run.**
+Moved here when entrypoints were replaced with `refuseAgentMongo()` stubs.
 
-Entrypoints in the parent `scripts/` directory call `refuseAgentMongo()` and exit.
-Rewrite work goes through `catalog-quality-loop-ingest.ts` + `../ingest/client.ts`.
+**Do not run** against shared Mongo from the agent home. Allowed writes: `../catalog-quality-loop-ingest.ts` + `../../ingest/client.ts`.
+
+Also archived here (2026-09-25 core triage): `override-insights.ts`, `catalog-lessons.ts`, `catalog-repair-structured-geo.ts`.

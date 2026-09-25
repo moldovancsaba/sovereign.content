@@ -152,3 +152,15 @@ Acknowledged SC-central QA (`e04a71d`): `refuseAgentMongo()` stubs + `docs/pendi
 - GH Kumasi → `zero-result` (reconfirm Accra-only)
 
 **Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.
+
+### 2026-09-25 — padelafrica (core reconcile triage)
+
+Core blocked reconcile: unlisted release-only files + docs glob mismatch.
+
+**Triage shipped on SC main:**
+1. **Agent (§A):** `override-insights.ts`, `catalog-lessons.ts`, `catalog-repair-structured-geo.ts` → `scripts/legacy-mongo/`; 53× `docs/*-padel-research-seed.md` → `docs/research-seeds/`. Migration list updated.
+2. **Engine (§D):** ReviewQueueFilters, contactEnrich/Reject, mediaCurate, streetLevel, imageHost/pageSnapshot/r2Upload, aiGatewayHealth, cliTwins, llm-* CLIs, engagement/reverify/saved-listing catalog twins — **PR to management `main` before delete** (not copied to SC).
+3. **`archive/padel-africa/`:** confirmed disposable.
+
+Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md) · [`../content.padelafrica/STATUS-FOR-CORE.md`](../content.padelafrica/STATUS-FOR-CORE.md). Still not claiming migration complete / not force-pushing release.
+
