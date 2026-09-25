@@ -32,5 +32,6 @@ with payloads matching `../ingest/content-data-contract.md` (`RecurringSlot` sin
 | --- | --- |
 | Code copy under `content.sportolok/` | **Done** |
 | Mongo write quarantine | **Done** (`src/QUARANTINE.md`) |
-| Ingest-backed quality-loop rewrite | **In progress** — see `scripts/catalog-quality-loop-ingest.ts` |
+| Ingest-backed quality-loop rewrite | **Done** — `scripts/catalog-quality-loop-ingest.ts` uses public sitemap + `executorIngest` |
+| About / media catalog jobs | **Done** — `catalog-about-curate-ingest.ts` / `catalog-media-curate-ingest.ts`; Mongo copies under `scripts/legacy-mongo/` |
 | Management delete + shared-engine revert | **Done** — see `MIGRATION-FROM-MANAGEMENT.md` + `SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md` |

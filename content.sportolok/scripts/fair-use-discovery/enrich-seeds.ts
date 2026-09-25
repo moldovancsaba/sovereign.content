@@ -164,8 +164,21 @@ async function enrichSeed(
   if (!deepened.initialFacts.name || deepened.initialFacts.name.length < 5) {
     return { seedId: seed.seedId, outcome: "rejected", reason: "name_too_short" };
   }
+  const junkName =
+    /^(napozó|vasas|termál|kültéri|wellness|tanmedence|úszómedence|hullámmedence|élménymedence|gyermekmedence|margaréta medence)$/i;
+  if (junkName.test(deepened.initialFacts.name.trim())) {
+    return { seedId: seed.seedId, outcome: "rejected", reason: "junk_generic_name" };
+  }
   if (!deepened.initialFacts.address) {
     return { seedId: seed.seedId, outcome: "rejected", reason: "no_address" };
+  }
+  // Locality-only addresses ("Budapest, Hungary") are ok for medium, but prefer street-level for ingest
+  if (
+    deepened.confidence === "medium" &&
+    /^[A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű\s-]+,\s*Hungary$/i.test(deepened.initialFacts.address) &&
+    !/\d{4}\s/.test(deepened.initialFacts.address)
+  ) {
+    // Still allow named venues with locality — continue
   }
   if (deepened.confidence === "low") {
     return { seedId: seed.seedId, outcome: "rejected", reason: "confidence_low" };
