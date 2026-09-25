@@ -245,3 +245,108 @@ Ready for autonomous catalog improvements via POST /api/ingest.
 
 **Fail / debt:** live test wrote `_test_patch` onto a **PUBLISHED** listing. Clean that field via ingest (empty/remove) immediately. Do not declare “autonomous catalog ready” until real About/media jobs use `executorIngest` without junk fields. Status JSON refreshed by SC-central to match.
 
+
+
+### 2026-09-25 — Core Team (reconciliation audit)
+
+**Message:** Reconciliation audit of `release/sportolok` reset to `main`.
+
+**Question:** Did the reset lose any generic engine functionality?
+
+**Analysis (sportolok agent):** Diffed `release/sportolok` (commit `84874d16`) vs `main` (commit `4c886bb`) — documented in `docs/RESET-RECONCILIATION-ANALYSIS.md`.
+
+**Finding:** ✅ **No generic engine code lost**. All release divergence was sportolok-specific (catalog scripts, agent docs, sovereign imports). Generic engine files identical between branches.
+
+**Core team can proceed safely.**
+
+### 2026-09-25 — sportolok (ClassScout fair-use study)
+
+**Research task:** Study `content.classscout/scripts/rqk-fair-use` for fair-use discovery pattern.
+
+**Analysis:** Documented in `content.sportolok/docs/CLASSSCOUT-FAIR-USE-ANALYSIS.md`.
+
+**Key findings:**
+- Multi-source polite crawler (1 page per source per pass)
+- Rate limits: 45s inter-source, 300s pass cooldown, 600–1200s per-source
+- Fair-use extraction: structured facts only, never verbatim copy
+- Source attribution via `researchSources: [...]`
+- Feeds `find-seeds.json` queue for deep enrichment
+
+**Adaptation roadmap for Hungarian sport sources:**
+- Build `content.sportolok/scripts/fair-use-discovery/`
+- Create source registry (uszoda.info, edzoterem.hu, budapest.hu/sport)
+- Hungarian-specific extractors (postal codes, activity keywords)
+- Same polite bot architecture
+- Connect to ingest pipeline
+
+### 2026-09-25 — sportolok (fair-use implementation)
+
+**✅ FAIR-USE DISCOVERY SYSTEM IMPLEMENTED**
+
+Shipped on `sovereign.content` `main`:
+
+**Infrastructure:**
+- `scripts/fair-use-discovery/sources.json` - Source registry (3 planned sources)
+- `scripts/fair-use-discovery/one-pass.ts` - Main crawler
+- `scripts/fair-use-discovery/lib/common.ts` - Shared types, polite HTTP, rate limits
+- `scripts/fair-use-discovery/lib/hungarianExtract.ts` - Hungarian fact extraction
+- `scripts/fair-use-discovery/lib/seedBuilder.ts` - Candidate → seed transformation
+- `scripts/fair-use-discovery/lib/sources/genericDirectory.ts` - Generic processor
+- `scripts/fair-use-discovery/README.md` - Full documentation
+- `docs/FAIR-USE-DISCOVERY.md` - Implementation overview
+
+**NPM scripts:**
+- `npm run fair-use:one-pass` - Live pass
+- `npm run fair-use:one-pass:dry` - Dry run
+
+**Source registry (planned status):**
+- `uszoda-info` (Uszoda.info) - HUN, swimming/water-polo, 600s cooldown
+- `edzoterem-hu` (Edzoterem.hu) - HUN, fitness/gym, 600s cooldown
+- `budapest-sport` (Budapest.hu) - HUN-BUD, various, 900s cooldown
+
+**Rate limits:**
+- Inter-source delay: 45s
+- Pass cooldown: 300s
+- Per-source cooldown: 600–1200s (configurable)
+
+**User-Agent:**
+```
+SportolokDiscoveryBot/1.0 (content.sportolok; research use; +https://sport.doneisbetter.com)
+```
+
+**Fair-use compliance:**
+- ✅ Extract structured facts (address, phone, activity type)
+- ✅ Cite discovery URL in `researchSources`
+- ✅ Polite User-Agent disclosure
+- ✅ Rate-limited crawling
+- ✅ Never copy descriptions or verbatim content
+- ❌ Never scrape URLs into descriptions
+- ❌ Never deep-crawl sites
+
+**Test results:**
+- ✅ Dry run validated (90s for 3 sources with 45s delays)
+- ✅ Rate limiting working correctly
+- ✅ Source state persistence ready
+- ✅ Seed queue infrastructure ready
+
+**Data flow:**
+```
+sources.json → one-pass.ts → hungarianExtract.ts 
+  → seedBuilder.ts → find-seeds.json 
+  → [future: enrichment agent] → ingest API
+```
+
+**Status:**
+- ✅ Core infrastructure complete
+- ✅ Hungarian extractors ready
+- ✅ Source registry initialized
+- 🔄 Sources in planned status (activate when ready)
+- 🔜 Enrichment agent (next milestone)
+
+**Future work:**
+- Build enrichment agent to process `find-seeds.json`
+- Perform deep research on candidates (web search, maps, social)
+- Cognitive scoring + About drafting (I am the LLM)
+- Call ingest API (`ingestSourceText` or `ingestPatch`)
+- Mark seeds ingested/rejected
+
