@@ -1109,5 +1109,78 @@
     "extractedAt": "2026-09-25T20:28:55.621Z",
     "note": "OOS USA (West Palm Beach FL) — generic PadelUSA club listing outside Africa catalog",
     "rejectedAt": "2026-09-25T20:33:06.000Z"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-birgit",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nBirgit",
+    "citationUrl": "https://playtomic.com/clubs/kreuzberg-padel",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/kreuzberg-padel",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T21:19:00.218Z",
+    "note": "OOS Germany (Berlin Kreuzberg) — Birgit/Kreuzberg Padel Playtomic outside Africa catalog",
+    "triagedAt": "2026-09-25T21:41:04.000Z",
+    "rejectedAt": "2026-09-25T21:41:04.000Z"
+  },
+  {
+    "candidateId": "fair-actu-padel-padel-kick-off",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "PADEL KICK OFF",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-kick-off-marrakesh/",
+    "website": "http://kickoff.ma/",
+    "cityHint": "Marrakech",
+    "countryHint": "Morocco",
+    "addressHint": "MW5V+HVX, Rte de Targa, Marrakech, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-kick-off-marrakesh/",
+      "http://kickoff.ma/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-25T21:21:22.366Z",
+    "note": "Already seeded MAR-VEN-017 Kick Off Marrakech (Targa) — Actu duplicate lead",
+    "triagedAt": "2026-09-25T21:41:04.000Z"
+  },
+  {
+    "candidateId": "fair-padelivu-padelprix-tenis-5-leon",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Padelprix Tenis 5 León",
+    "citationUrl": "https://padelivu.com/club/padelprix-tenis-5-leon",
+    "website": "",
+    "researchSources": [
+      "https://padelivu.com/club/padelprix-tenis-5-leon"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T21:24:24.210Z",
+    "note": "OOS Spain (León) — Padelprix Tenis 5 León outside Africa catalog",
+    "triagedAt": "2026-09-25T21:41:04.000Z",
+    "rejectedAt": "2026-09-25T21:41:04.000Z"
+  },
+  {
+    "candidateId": "fair-padelusa-rgv-padel-club",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "RGV Padel Club",
+    "citationUrl": "https://padelusa.org/clubs/texas/mcallen/rgv-padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/texas/mcallen/rgv-padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T21:37:30.136Z",
+    "note": "OOS USA (McAllen TX) — RGV Padel Club outside Africa catalog",
+    "triagedAt": "2026-09-25T21:41:04.000Z",
+    "rejectedAt": "2026-09-25T21:41:04.000Z"
   }
 ]

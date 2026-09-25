@@ -513,3 +513,22 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - UG Entebbe/Jinja → `zero-result`
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-25 — padelafrica (tick ~21:15–21:45 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 200 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 24 (28 sources). Skipped duplicate Kick Off Marrakech (already MAR-VEN-017). Rejected Birgit/Kreuzberg (DE), Padelprix León (ES), RGV Padel Club (USA TX).
+
+**FIND:**
+- CI Abidjan → **`CIV-VEN-005` District Padel** (Zone 4 Marcory) DISCOVERED
+- CI Abidjan → **`CIV-VEN-006` Padel Zone** (Dr Blanchard Zone 4) DISCOVERED
+- CI Abidjan → **`CIV-VEN-007` Ivoire Padel** (Rue Zéphirs) DISCOVERED
+- MU Rivière Noire → **`MUS-VEN-005` ClubHouse Vanilla Connect Padel** DISCOVERED
+- LY Oxygen Tripoli → `zero-result` (no published phone)
+- MW Blantyre deepen → `zero-result` (Padel Zone already MWI-VEN-003)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.

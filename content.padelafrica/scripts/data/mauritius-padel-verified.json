@@ -98,5 +98,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25T15 — Mauritius deepen beyond Isla/SPARC/RM; phone+email published on energia.mu/contact/"
+  },
+  {
+    "recordId": "MUS-VEN-005",
+    "name": "ClubHouse Vanilla Connect Padel",
+    "city": "Grande Rivière Noire",
+    "region": "Black River",
+    "countryCode": "MU",
+    "line1": "Vanilla Connect, Rivière Noire",
+    "lat": -20.3619924,
+    "lng": 57.3738005,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Grande Rivière Noire village pin — Vanilla Connect campus not rooftop-geocoded",
+    "website": "https://clubhouse.mu/",
+    "phone": "+230 5494 1771",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Padel school + court hire at Vanilla Connect; League 2026 events hosted on site.",
+    "description": "ClubHouse Vanilla Connect Padel offers two padel courts at Vanilla Connect in Rivière Noire with a published club phone and first-party padel programme. A clear west-coast Mauritius recommendation when you want Black River courts beyond SPARC Cascavelle and Energia Pointe aux Canonniers. Call ahead to book.",
+    "primarySourceUrl": "https://clubhouse.mu/",
+    "secondarySourceUrl": "https://www.expat.com/en/expat-mag/11093-your-guide-to-playing-padel-in-mauritius.html",
+    "sourceTypes": "ClubHouse site (Vanilla Connect padel + phone); Expat.com Mauritius padel guide (west-coast circuit context)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 2 — not asserted. Distinct from MUS-VEN-001–004."
   }
 ]

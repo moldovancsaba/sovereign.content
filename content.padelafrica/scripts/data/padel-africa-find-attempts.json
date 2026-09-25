@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T20:35:00Z",
+  "updatedAt": "2026-09-25T21:30:00Z",
   "attempts": [
     {
       "cc": "CF",
@@ -1063,6 +1063,54 @@
       "outcome": "verified",
       "recordId": "MAR-VEN-018",
       "note": "fair-use promote"
+    },
+    {
+      "at": "2026-09-25T21:30:00Z",
+      "cc": "CI",
+      "city": "Abidjan",
+      "query": "District Padel Zone 4 Marcory",
+      "outcome": "verified",
+      "recordId": "CIV-VEN-005"
+    },
+    {
+      "at": "2026-09-25T21:30:00Z",
+      "cc": "CI",
+      "city": "Abidjan",
+      "query": "Padel Zone Dr Blanchard Zone 4",
+      "outcome": "verified",
+      "recordId": "CIV-VEN-006"
+    },
+    {
+      "at": "2026-09-25T21:30:00Z",
+      "cc": "CI",
+      "city": "Abidjan",
+      "query": "Ivoire Padel Rue Z\u00e9phirs Marcory",
+      "outcome": "verified",
+      "recordId": "CIV-VEN-007"
+    },
+    {
+      "at": "2026-09-25T21:30:00Z",
+      "cc": "MU",
+      "city": "Grande Rivi\u00e8re Noire",
+      "query": "ClubHouse Vanilla Connect padel",
+      "outcome": "verified",
+      "recordId": "MUS-VEN-005"
+    },
+    {
+      "at": "2026-09-25T21:30:00Z",
+      "cc": "LY",
+      "city": "Tripoli",
+      "query": "Oxygen Sports Club padel phone",
+      "outcome": "zero-result",
+      "note": "oxygensc.ly confirmed club but no published phone within tick"
+    },
+    {
+      "at": "2026-09-25T21:30:00Z",
+      "cc": "MW",
+      "city": "Blantyre",
+      "query": "Padel Zone Mall of Africa deepen",
+      "outcome": "zero-result",
+      "note": "MWI-VEN-003 already seeded; no additional Blantyre club with phone"
     }
   ]
 }
