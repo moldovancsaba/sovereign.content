@@ -4,6 +4,8 @@
  */
 
 import { setTimeout } from "node:timers/promises";
+import fs from "fs";
+import path from "path";
 
 export interface SourceConfig {
   id: string;
@@ -98,7 +100,6 @@ export function loadSourceState(
   stateFile: string
 ): Record<string, SourceState> {
   try {
-    const fs = require("fs");
     if (!fs.existsSync(stateFile)) return {};
     return JSON.parse(fs.readFileSync(stateFile, "utf-8"));
   } catch {
@@ -113,6 +114,9 @@ export function saveSourceState(
   stateFile: string,
   state: Record<string, SourceState>
 ): void {
-  const fs = require("fs");
+  const dir = path.dirname(stateFile);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
   fs.writeFileSync(stateFile, JSON.stringify(state, null, 2));
 }
