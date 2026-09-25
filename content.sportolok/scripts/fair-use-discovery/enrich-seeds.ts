@@ -1,18 +1,16 @@
 #!/usr/bin/env tsx
 /**
  * Fair-use enrichment agent
- * 
- * Processes find-seeds.json queue:
- * 1. Takes pending seeds (high confidence first)
- * 2. Performs deep research (I am the LLM - Cursor Cloud Agent)
- * 3. Scores quality and drafts About
- * 4. Calls ingest API (ingestSourceText or ingestPatch)
- * 5. Marks seeds ingested/rejected
- * 
- * Usage:
+ *
+ * Processes find-seeds.json:
+ * 1. Pending seeds (high confidence first)
+ * 2. Optional detail-page fetch for address/phone (ONE fetch per seed)
+ * 3. Quality gate
+ * 4. ingestSourceText → DISCOVERED cards (D metric)
+ * 5. Mark ingested/rejected
+ *
  *   npm run fair-use:enrich
- *   npm run fair-use:enrich -- --dry-run
- *   npm run fair-use:enrich -- --limit=5
+ *   npm run fair-use:enrich -- --dry-run --limit=5
  */
 
 import fs from "fs";
@@ -27,7 +25,12 @@ import {
   markSeedRejected,
   type FindSeed,
 } from "./lib/seedBuilder";
-import { ingestSourceText, ingestPatch } from "../../ingest/client";
+import { politeFetch } from "./lib/common";
+import { extractHungarianSportFacility } from "./lib/hungarianExtract";
+import {
+  ingestSourceText,
+  type IngestConfig,
+} from "../../ingest/client.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -38,6 +41,113 @@ interface EnrichmentResult {
   outcome: "ingested" | "rejected" | "error";
   reason: string;
   listingId?: string;
+  response?: unknown;
+}
+
+function loadConfig(): IngestConfig {
+  const baseUrl =
+    process.env.INGEST_BASE_URL ||
+    process.env.SPORT_INGEST_BASE_URL ||
+    "https://sport.doneisbetter.com";
+  const apiKey = process.env.INGEST_API_KEY || process.env.SPORT_INGEST_API_KEY || "";
+  if (!apiKey) throw new Error("INGEST_API_KEY required for live enrich");
+  return { baseUrl, apiKey };
+}
+
+async function deepenSeed(seed: FindSeed): Promise<FindSeed> {
+  const url = seed.researchSources[0]?.url;
+  if (!url) return seed;
+  // Already has a street-level address (postal code)
+  if (seed.initialFacts.address && /\d{4}\s+\S+/.test(seed.initialFacts.address)) {
+    return seed;
+  }
+  // Only deepen when discovery URL looks like a facility detail page
+  if (!/\/uszoda\/|\/letesitmeny\//i.test(url)) return seed;
+
+  try {
+    console.log(`   🔎 Deepen fetch: ${url}`);
+    const res = await politeFetch(url);
+    if (!res.ok) return seed;
+    const html = await res.text();
+    const extracted = extractHungarianSportFacility(html, url, {
+      sourceId: seed.researchSources[0].sourceId,
+      sourceUrl: url,
+      territory: seed.territory,
+      activityTypes: [seed.activityType],
+    });
+    const best = extracted[0];
+    if (!best) return seed;
+
+    return {
+      ...seed,
+      initialFacts: {
+        name: best.title || seed.initialFacts.name,
+        address: best.address || seed.initialFacts.address,
+        contact: {
+          ...seed.initialFacts.contact,
+          ...best.contact,
+        },
+      },
+      confidence:
+        best.confidence === "high" || seed.confidence === "high"
+          ? "high"
+          : best.confidence === "medium" || seed.confidence === "medium"
+            ? "medium"
+            : "low",
+    };
+  } catch (err: any) {
+    console.log(`   ⚠️  Deepen failed: ${err.message}`);
+    return seed;
+  }
+}
+
+function buildSourceText(seed: FindSeed, about: string): string {
+  const c = seed.initialFacts.contact || {};
+  const lines = [
+    `URL: ${seed.researchSources[0]?.url || ""}`,
+    "Qualified as: swimming-facility",
+    `Name: ${seed.initialFacts.name}`,
+    `Venue: ${seed.initialFacts.name}`,
+    seed.initialFacts.address ? `Address: ${seed.initialFacts.address}` : null,
+    seed.territory === "HUN-BUD" ? "Locality: Budapest" : "Locality: Hungary",
+    "Country: Hungary",
+    "CountryCode: HU",
+    c.phone ? `Phone: ${c.phone}` : null,
+    c.email ? `Email: ${c.email}` : null,
+    c.website ? `Website: ${c.website}` : null,
+    "",
+    about,
+    "",
+    `Research source: ${seed.researchSources.map((s) => s.url).join(", ")}`,
+    `Discovery date: ${seed.discoveryDate}`,
+    `Activity: ${seed.activityType}`,
+  ].filter((x): x is string => typeof x === "string" && x.length > 0);
+  return lines.join("\n");
+}
+
+function buildAbout(seed: FindSeed): string {
+  const { name, address } = seed.initialFacts;
+  const activityLabel =
+    seed.activityType === "swimming"
+      ? "swimming"
+      : seed.activityType === "fitness"
+        ? "fitness"
+        : "sport";
+  let about = `${name} is a ${activityLabel} facility`;
+  if (address) about += ` at ${address}`;
+  about += ".";
+  if (seed.territory === "HUN-BUD") about += " Located in Budapest, Hungary.";
+  else about += " Located in Hungary.";
+  if (seed.initialFacts.contact?.phone) {
+    about += ` Contact: ${seed.initialFacts.contact.phone}.`;
+  }
+  about += " Facts sourced via fair-use discovery; descriptions are agent-authored.";
+  return about;
+}
+
+function researchCardId(seed: FindSeed): string {
+  const slug = seed.seedId.replace(/^seed-hun-/, "");
+  return `research-hun-${slug}`;
 }
 
 async function enrichSeed(
@@ -46,78 +156,45 @@ async function enrichSeed(
 ): Promise<EnrichmentResult> {
   console.log(`\n🔬 Enriching: ${seed.seedId}`);
   console.log(`   Name: ${seed.initialFacts.name}`);
-  console.log(`   Territory: ${seed.territory}`);
-  console.log(`   Activity: ${seed.activityType}`);
   console.log(`   Confidence: ${seed.confidence}`);
-  console.log(`   Sources: ${seed.researchSources.length}`);
 
-  // Quality checks
-  if (!seed.initialFacts.name || seed.initialFacts.name.length < 5) {
-    return {
-      seedId: seed.seedId,
-      outcome: "rejected",
-      reason: "Name too short or missing",
-    };
+  const deepened = await deepenSeed(seed);
+  console.log(`   Address: ${deepened.initialFacts.address || "(none)"}`);
+
+  if (!deepened.initialFacts.name || deepened.initialFacts.name.length < 5) {
+    return { seedId: seed.seedId, outcome: "rejected", reason: "name_too_short" };
+  }
+  if (!deepened.initialFacts.address) {
+    return { seedId: seed.seedId, outcome: "rejected", reason: "no_address" };
+  }
+  if (deepened.confidence === "low") {
+    return { seedId: seed.seedId, outcome: "rejected", reason: "confidence_low" };
   }
 
-  if (!seed.initialFacts.address) {
-    return {
-      seedId: seed.seedId,
-      outcome: "rejected",
-      reason: "No address found",
-    };
-  }
-
-  if (seed.confidence === "low") {
-    return {
-      seedId: seed.seedId,
-      outcome: "rejected",
-      reason: "Confidence too low",
-    };
-  }
-
-  // Build About (I am the LLM performing this cognitive task)
-  const about = buildAbout(seed);
-  console.log(`   📝 About: ${about.substring(0, 100)}...`);
-
-  // Prepare ingest payload
-  const payload = {
-    territory: seed.territory,
-    activityType: seed.activityType,
-    name: seed.initialFacts.name,
-    address: seed.initialFacts.address,
-    about,
-    contact: seed.initialFacts.contact,
-    researchSources: seed.researchSources.map((s) => ({
-      sourceId: s.sourceId,
-      url: s.url,
-      discoveredAt: s.discoveredAt,
-    })),
-    discoveryDate: seed.discoveryDate,
-  };
+  const about = buildAbout(deepened);
+  const sourceText = buildSourceText(deepened, about);
+  const id = researchCardId(deepened);
 
   if (dryRun) {
-    console.log(`   [DRY RUN] Would ingest:`, JSON.stringify(payload, null, 2));
-    return {
-      seedId: seed.seedId,
-      outcome: "ingested",
-      reason: "dry-run-success",
-    };
+    console.log(`   [DRY RUN] Would ingest ${id} (${sourceText.length} chars)`);
+    return { seedId: seed.seedId, outcome: "ingested", reason: "dry-run-success", listingId: id };
   }
 
   try {
-    // Call ingest API
-    const result = await ingestSourceText(
-      JSON.stringify(payload, null, 2),
-      `fair-use-enrichment-${seed.seedId}`
-    );
-
-    console.log(`   ✅ Ingested successfully`);
+    const cfg = loadConfig();
+    const response = await ingestSourceText(cfg, {
+      id,
+      sourceText,
+      sourcePool: "live_discovery",
+      reprocess: false,
+    });
+    console.log(`   ✅ Ingested ${id}`);
     return {
       seedId: seed.seedId,
       outcome: "ingested",
       reason: "ingest-success",
-      listingId: result.id,
+      listingId: id,
+      response,
     };
   } catch (error: any) {
     console.error(`   ❌ Ingest failed:`, error.message);
@@ -129,127 +206,61 @@ async function enrichSeed(
   }
 }
 
-/**
- * Build About description (Cursor Cloud Agent is the LLM)
- */
-function buildAbout(seed: FindSeed): string {
-  const { name, address } = seed.initialFacts;
-  const activityLabel = getActivityLabel(seed.activityType);
-
-  // Cognitive task: Generate narrative description
-  // This is performed by me, the executing Cursor Cloud Agent
-  let about = `${name} is a ${activityLabel} facility located at ${address}.`;
-
-  // Add territory context
-  if (seed.territory === "HUN-BUD") {
-    about += ` Located in Budapest, Hungary.`;
-  } else if (seed.territory === "HUN") {
-    about += ` Located in Hungary.`;
-  }
-
-  // Add contact info if available
-  if (seed.initialFacts.contact?.phone) {
-    about += ` For inquiries, contact: ${seed.initialFacts.contact.phone}.`;
-  }
-
-  // Quality scoring note
-  const confidenceNote =
-    seed.confidence === "high"
-      ? "This facility has been verified from multiple sources."
-      : "This facility was discovered through fair-use research.";
-
-  about += ` ${confidenceNote}`;
-
-  return about;
-}
-
-/**
- * Get human-readable activity label
- */
-function getActivityLabel(activityType: string): string {
-  const labels: Record<string, string> = {
-    swimming: "swimming pool",
-    fitness: "fitness and gym",
-    tennis: "tennis",
-    "water-polo": "water polo",
-    yoga: "yoga",
-    martial: "martial arts",
-    dance: "dance",
-    team: "team sports",
-    various: "sports",
-  };
-  return labels[activityType] || "sport";
-}
-
 async function main() {
   const dryRun = process.argv.includes("--dry-run");
   const limitArg = process.argv.find((arg) => arg.startsWith("--limit="));
-  const limit = limitArg ? parseInt(limitArg.split("=")[1], 10) : 10;
+  const limit = limitArg ? parseInt(limitArg.split("=")[1], 10) : 5;
 
   console.log("🌱 Sportolok Fair-Use Enrichment Agent");
   console.log(`   Mode: ${dryRun ? "DRY RUN" : "LIVE"}`);
-  console.log(`   Limit: ${limit} seeds per run`);
-  console.log("");
+  console.log(`   Limit: ${limit}`);
 
-  // Load find-seeds
   if (!fs.existsSync(FIND_SEEDS_FILE)) {
-    console.log("📭 No find-seeds.json found. Run one-pass first.");
+    console.log("📭 No find-seeds.json — run fair-use:one-pass first.");
     return;
   }
 
   const findSeeds = loadFindSeeds(FIND_SEEDS_FILE);
   const pendingSeeds = getPendingSeeds(findSeeds);
+  console.log(`📊 Pending: ${pendingSeeds.length} / total ${Object.keys(findSeeds).length}`);
 
-  console.log(`📊 Seeds status:`);
-  console.log(`   Total seeds: ${Object.keys(findSeeds).length}`);
-  console.log(`   Pending: ${pendingSeeds.length}`);
-  console.log("");
-
-  if (pendingSeeds.length === 0) {
-    console.log("✨ No pending seeds to enrich.");
+  if (!pendingSeeds.length) {
+    console.log("✨ No pending seeds.");
     return;
   }
 
   const toProcess = pendingSeeds.slice(0, limit);
-  console.log(`🎯 Processing ${toProcess.length} seeds...`);
-
   const results: EnrichmentResult[] = [];
 
   for (const seed of toProcess) {
-    // Mark as enriching
     markSeedEnriching(findSeeds, seed.seedId);
-
-    // Enrich
     const result = await enrichSeed(seed, dryRun);
     results.push(result);
-
-    // Update status
-    if (result.outcome === "ingested") {
-      markSeedIngested(findSeeds, seed.seedId);
-    } else if (result.outcome === "rejected") {
-      markSeedRejected(findSeeds, seed.seedId);
-    }
-    // Keep as "enriching" if error (will retry next run)
+    if (result.outcome === "ingested") markSeedIngested(findSeeds, seed.seedId);
+    else if (result.outcome === "rejected") markSeedRejected(findSeeds, seed.seedId);
   }
 
-  // Save updated seeds
   if (!dryRun) {
     saveFindSeeds(FIND_SEEDS_FILE, findSeeds);
-    console.log(`\n💾 Saved updated find-seeds.json`);
-  } else {
-    console.log(`\n[DRY RUN] Would save find-seeds.json`);
+    console.log(`\n💾 Saved find-seeds.json`);
   }
 
-  // Summary
   const ingested = results.filter((r) => r.outcome === "ingested").length;
   const rejected = results.filter((r) => r.outcome === "rejected").length;
   const errors = results.filter((r) => r.outcome === "error").length;
 
-  console.log("\n📊 Enrichment Summary:");
-  console.log(`   Ingested: ${ingested}`);
-  console.log(`   Rejected: ${rejected}`);
-  console.log(`   Errors: ${errors}`);
-  console.log(`   Remaining pending: ${pendingSeeds.length - toProcess.length}`);
+  console.log(
+    JSON.stringify(
+      {
+        job: "sportolok:fair-use-enrich",
+        dryRun,
+        summary: { ingested, rejected, errors, remaining: pendingSeeds.length - toProcess.length },
+        results,
+      },
+      null,
+      2
+    )
+  );
 }
 
 main().catch((err) => {

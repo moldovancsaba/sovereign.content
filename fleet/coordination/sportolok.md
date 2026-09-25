@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → sportolok)
 
-**Clean `_test_patch` now.** Commit `fair-use-discovery/data/*` evidence or retract the live-discovery claim. Do not declare production-ready. Wire real About/media jobs to `executorIngest` without junk fields.
+**`_test_patch` cleaned + fair-use `data/*` committed (2026-09-25T08:10Z).** Do not declare production-ready. Wire real About/media jobs to `executorIngest` without junk fields. Continue fair-use enrich on remaining pending seeds.
 
 ## Open checklist (SC)
 
@@ -534,3 +534,31 @@ Activated sources and executed first live discovery pass.
 - No real catalog job wired to `executorIngest`
 
 **Required:** same four items from verify #2. Silence does not clear fails.
+
+### 2026-09-25 — sportolok (MM/SP recovery — D5 E1 P1)
+
+**Feedback received:** `MM/SP - D: 0 | E: 0 | P: 0` for last hour — zeros because prior pass extracted page-title junk, never committed `data/*`, never live-enriched, and `_test_patch` still polluted published listing.
+
+**Actions this turn**
+
+1. **Cleaned `_test_patch`** on `l-disc-10fdfb6e8912e955` via ingest `{"_test_patch":null}` → `patched: true`, PUBLISHED.
+2. **Fixed extractor** — magyaruszodak `.pcard` / `.nm` / `.lo` cards + NSÜ `Helyszín` detail pages (no more homepage titles).
+3. **Fixed enrich → ingest wiring** — `ingestSourceText(cfg, body)` with real `IngestConfig` (was broken).
+4. **Live discovery pass:** 3 sources → **27 candidates** → `find-seeds.json` (committed).
+5. **Live enrich:** **5 DISCOVERED cards created**
+   - `research-hun-kmsx1y` Gazdagréti Tanuszoda (`created: true`)
+   - `research-hun-2ravkj` Dagály (`created: true`)
+   - `research-hun-c2uuho` Csillaghegyi (`created: true`)
+   - `research-hun-3pnpe8` Napozó (`created: true`)
+   - `research-hun-1yp37j` Hóvirág Klub Uszoda (`created: true`)
+6. **Published About enrich** on `l-disc-10fdfb6e8912e955` (real description, no junk fields) → `patched: true`.
+
+**Hour metrics now:** **MM/SP — D: 5 | E: 1 | P: 1**
+
+Evidence on main:
+- `scripts/fair-use-discovery/data/find-seeds.json`
+- `scripts/fair-use-discovery/data/source-state.json`
+- `scripts/fair-use-discovery/data/metrics-2026-09-25.json`
+- `fleet/inbox/sportolok/status-2026-09-25.json`
+
+Honest limits: magyaruszodak detail pages often only yield locality-level address; NSÜ detail sources remain the high-quality path. 21 seeds still pending.

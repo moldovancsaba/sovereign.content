@@ -15,11 +15,20 @@
       "status": "active"
     },
     {
-      "id": "nsu-letesitmenyek",
-      "name": "NSÜ Létesítmények",
-      "url": "https://nsu.hu/",
+      "id": "nsu-gazdagreti",
+      "name": "NSÜ Gazdagréti Tanuszoda",
+      "url": "https://nsu.hu/letesitmeny/gazdagreti-tanuszoda/",
       "cooldownSec": 900,
-      "territory": "HUN",
+      "territory": "HUN-BUD",
+      "activityTypes": ["swimming"],
+      "status": "active"
+    },
+    {
+      "id": "nsu-dagaly",
+      "name": "NSÜ Dagály",
+      "url": "https://nsu.hu/letesitmeny/dagaly-gyogyfurdo-strandfurdo-es-uszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+      "cooldownSec": 900,
+      "territory": "HUN-BUD",
       "activityTypes": ["swimming", "water-polo"],
       "status": "active"
     }

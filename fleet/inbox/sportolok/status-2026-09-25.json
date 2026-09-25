@@ -1,7 +1,7 @@
 {
   "clientId": "sportolok",
-  "observedAt": "2026-09-25T06:15:00Z",
-  "source": "sc-central-verify-2",
+  "observedAt": "2026-09-25T08:10:00Z",
+  "source": "sportolok-agent",
   "workingEnv": {
     "timerSubscribed": false,
     "ingestOnlyDoctrine": true,
@@ -9,37 +9,42 @@
     "quarantineActive": true,
     "executorIngestLivePatchProven": true,
     "livePatchListingId": "l-disc-10fdfb6e8912e955",
+    "testPatchCleaned": true,
     "vanityDocsRetracted": true,
     "fairUseScaffoldPresent": true,
-    "fairUseLiveSeedsOnMain": false,
+    "fairUseLiveSeedsOnMain": true,
     "releaseBranchCommitsStopped": "acknowledged"
   },
   "outcomes": {
-    "ingest_patch_success_rate": "1/1_live_test",
+    "MM_SP": { "D": 5, "E": 1, "P": 1 },
+    "ingest_patch_success_rate": "3/3_recent_live",
     "dry_patch_proven": true,
     "live_patch_proven": true,
-    "test_field_pollution": "_test_patch left on published listing — must clean via ingest",
-    "fair_use_discovery_claim": "unverified_no_find_seeds_artifact",
+    "test_field_pollution": "cleaned_via_ingest_null",
+    "fair_use_discovery_claim": "verified_find_seeds_committed",
+    "discovered_cards_created": 5,
+    "candidates_extracted_pass": 27,
     "release_branch_reconcile_status": "pending_core"
   },
   "openDebt": [
-    {
-      "kind": "clean_test_patch_field",
-      "n": 1,
-      "listingId": "l-disc-10fdfb6e8912e955"
-    },
     {
       "kind": "wire_real_catalog_jobs_to_executorIngest",
       "n": 1
     },
     {
-      "kind": "commit_or_retract_fair_use_find_seeds",
+      "kind": "release_sportolok_reconcile",
       "n": 1
     },
     {
-      "kind": "release_sportolok_reconcile",
-      "n": 1
+      "kind": "fair_use_detail_address_deepen",
+      "n": 1,
+      "note": "magyaruszodak detail pages often lack postal address; NSÜ detail pages are high quality"
     }
+  ],
+  "evidence": [
+    "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json",
+    "content.sportolok/scripts/fair-use-discovery/data/source-state.json",
+    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-25.json"
   ],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/sportolok.md"
