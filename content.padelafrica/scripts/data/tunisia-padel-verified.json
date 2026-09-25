@@ -191,5 +191,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Distinct from TUN-VEN-001 Sky Charguia and TUN-VEN-002 Padel House Ariana."
+  },
+  {
+    "recordId": "TUN-VEN-009",
+    "name": "Seabel Padel Club",
+    "city": "Kalâa Kebira",
+    "region": "Sousse Governorate",
+    "countryCode": "TN",
+    "line1": "Zaarna Est, Kalâa Kebira 4060",
+    "lat": 35.8704108,
+    "lng": 10.5365372,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Kalâa Kebira / Zaarna Est locality pin — indoor campus not rooftop-geocoded",
+    "website": "https://padeltunisia.com/?page_id=663",
+    "phone": "+216 53 536 070",
+    "email": "",
+    "venueModel": "own_premises",
+    "seasonNote": "Indoor courts (first indoor club in Sousse per Padel Tunisia); call to book.",
+    "description": "Seabel Padel Club (PCS) brings indoor padel to Zaarna Est in Kalâa Kebira outside Sousse — a clear Sahel recommendation when you want covered courts beyond Yalla at Jaz Tour Khalef. Call the published mobile to reserve.",
+    "primarySourceUrl": "https://padeltunisia.com/?page_id=663",
+    "secondarySourceUrl": "https://padellands.com/en/padel-courts/pcs-padel-club-of-sousse/",
+    "sourceTypes": "Padel Tunisia Seabel page (phone+Zaarna Est address); Padel Lands PCS listing",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25T17 — Sousse deepen; 53 536 070 / 53 53 60 70 same line across sources"
   }
 ]

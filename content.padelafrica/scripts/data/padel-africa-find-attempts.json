@@ -893,6 +893,38 @@
       "query": "Burkina secondary beyond Lancaster/KABB",
       "outcome": "zero-result",
       "note": "Only Lancaster+KABB confirmed; Tennis Club Ouaga 2000 phone without padel evidence"
+    },
+    {
+      "at": "2026-09-25T17:15:00Z",
+      "cc": "ZA",
+      "city": "Umhlanga",
+      "query": "Africa Padel La Lucia",
+      "outcome": "verified",
+      "recordId": "ZAF-VEN-012"
+    },
+    {
+      "at": "2026-09-25T17:15:00Z",
+      "cc": "ZA",
+      "city": "Durban North",
+      "query": "Gayle Padel Prospect Tennis Club",
+      "outcome": "verified",
+      "recordId": "ZAF-VEN-013"
+    },
+    {
+      "at": "2026-09-25T17:15:00Z",
+      "cc": "MA",
+      "city": "Marrakech",
+      "query": "Urban Padel Marrakech Guéliz",
+      "outcome": "verified",
+      "recordId": "MAR-VEN-016"
+    },
+    {
+      "at": "2026-09-25T17:15:00Z",
+      "cc": "TN",
+      "city": "Kalâa Kebira",
+      "query": "Seabel Padel Club Sousse",
+      "outcome": "verified",
+      "recordId": "TUN-VEN-009"
     }
   ]
 }

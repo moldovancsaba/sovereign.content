@@ -890,5 +890,80 @@
     "note": "OOS Spain (Leganés Madrid) — M3 Padel Center Calle Delco 5",
     "triagedAt": "2026-09-25T16:22:00Z",
     "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-regency-padel",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nRegency Padel",
+    "citationUrl": "https://playtomic.com/clubs/regency-padel",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/regency-padel",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T17:14:34.425Z",
+    "note": "OOS USA (Miami) — Regency Padel at Regency Miami Airport hotel",
+    "triagedAt": "2026-09-25T17:28:00Z",
+    "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-actu-padel-juande-morillo-padel-coach",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Juande Morillo Padel coach",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-juande-morillo-coach-casablanca/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "cityHint": "Casablanca",
+    "countryHint": "Morocco",
+    "addressHint": "Rte de l’Oasis, Casablanca, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-juande-morillo-coach-casablanca/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T17:16:55.514Z",
+    "note": "Not a venue — Actu coach listing (Juande Morillo Casablanca); no club premises",
+    "triagedAt": "2026-09-25T17:28:00Z",
+    "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-padelivu-bela-padel-center-barcelona",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "BELA PADEL CENTER BARCELONA",
+    "citationUrl": "https://padelivu.com/club/bela-padel-center-barcelona",
+    "website": "",
+    "addressHint": "Avinguda Parc Logistic, 28, 08040, Barcelona, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/bela-padel-center-barcelona"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T17:19:57.238Z",
+    "note": "OOS Spain (Barcelona) — BELA PADEL CENTER BARCELONA",
+    "triagedAt": "2026-09-25T17:28:00Z",
+    "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-padelusa-glassbox-padel-club",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "Glassbox Padel Club",
+    "citationUrl": "https://padelusa.org/clubs/maryland/college-park/glassbox-padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/maryland/college-park/glassbox-padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T17:29:54.373Z",
+    "note": "OOS USA (College Park MD) — Glassbox Padel Club; padelusa.org harvest",
+    "triagedAt": "2026-09-25T17:35:00Z",
+    "triagedBy": "padel-find-tick"
   }
 ]

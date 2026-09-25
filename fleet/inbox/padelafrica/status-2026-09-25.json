@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T16:30:00Z",
+  "observedAt": "2026-09-25T17:36:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,55 +14,48 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 19,
+    "fairUsePassCount": 20,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
     "fairUseSeededCandidates": 0,
-    "fairUseRejected": 2,
-    "fairUseSkippedDuplicate": 1,
+    "fairUseRejected": 4,
     "fairUsePendingNeedsVerify": 0,
     "fairUsePromoted": 0,
     "findSeededFixture": 4,
     "findLiveIngestApply": 4,
-    "findZeroResultsThisTick": [
-      {
-        "cc": "BF",
-        "city": "Ouagadougou",
-        "note": "No secondary beyond Lancaster/KABB"
-      }
-    ],
+    "findZeroResultsThisTick": [],
     "ingestCardsCreated": [
       {
-        "recordId": "SEN-VEN-009",
-        "cardId": "research-sen-ven-009",
+        "recordId": "ZAF-VEN-012",
+        "cardId": "research-zaf-ven-012",
         "state": "DISCOVERED",
-        "name": "Ranch de Bango Padel"
+        "name": "Africa Padel La Lucia"
       },
       {
-        "recordId": "NGA-VEN-009",
-        "cardId": "research-nga-ven-009",
+        "recordId": "ZAF-VEN-013",
+        "cardId": "research-zaf-ven-013",
         "state": "DISCOVERED",
-        "name": "Magic Padel Abuja"
+        "name": "Gayle Padel Prospect Tennis Club"
       },
       {
-        "recordId": "ZAF-VEN-010",
-        "cardId": "research-zaf-ven-010",
+        "recordId": "MAR-VEN-016",
+        "cardId": "research-mar-ven-016",
         "state": "DISCOVERED",
-        "name": "Net Set Padel Sandton City"
+        "name": "Urban Padel Marrakech"
       },
       {
-        "recordId": "ZAF-VEN-011",
-        "cardId": "research-zaf-ven-011",
+        "recordId": "TUN-VEN-009",
+        "cardId": "research-tun-ven-009",
         "state": "DISCOVERED",
-        "name": "Match Padel Fourways Mall"
+        "name": "Seabel Padel Club"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~16:06\u201316:30: quality stub; fair-use pass 19 no Africa promote; FIND Saint-Louis Ranch, Magic Abuja, Net Set Sandton, Match Fourways; reject Miami Beach + M3 Spain; Fes duplicate. Not claiming PUBLISHED."
+    "note": "Tick ~17:11\u201317:36: quality stub; fair-use pass 20 no Africa promote; FIND La Lucia, Gayle Durban North, Urban Marrakech, Seabel Sousse; reject Regency Miami, coach, BELA Barcelona, Glassbox MD. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

@@ -424,3 +424,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - BF Ouagadougou secondary → `zero-result`
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-25 — padelafrica (tick ~17:11–17:36 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 20 (28 sources). No Africa venue promote. Rejected Regency Padel (Miami), Juande Morillo coach listing, BELA Barcelona, Glassbox College Park MD.
+
+**FIND:**
+- ZA Umhlanga → **`ZAF-VEN-012` Africa Padel La Lucia** DISCOVERED
+- ZA Durban North → **`ZAF-VEN-013` Gayle Padel Prospect Tennis Club** DISCOVERED
+- MA Marrakech → **`MAR-VEN-016` Urban Padel Marrakech** (Guéliz) DISCOVERED
+- TN Kalâa Kebira → **`TUN-VEN-009` Seabel Padel Club** DISCOVERED
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.

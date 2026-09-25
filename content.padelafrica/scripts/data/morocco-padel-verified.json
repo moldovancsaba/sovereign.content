@@ -372,5 +372,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "Fair-use promote tick 2026-09-25. Also listed as Club tennis Riad / REDAL. Landline +212 537 672 726 also published — mobile 662 used. Distinct from MAR-VEN-003 Wifaq and MAR-VEN-013 Narjisse."
+  },
+  {
+    "recordId": "MAR-VEN-016",
+    "name": "Urban Padel Marrakech",
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "countryCode": "MA",
+    "line1": "Rue El Jahed, Guéliz (Club des Pharmaciens)",
+    "lat": 31.6257516,
+    "lng": -8.0189509,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Rue El Jahed Guéliz pin — Club des Pharmaciens campus not separately geocoded",
+    "website": "https://urbanpadelmarrakech.com/",
+    "phone": "+212 661 625 855",
+    "email": "contact@urbanpadelmarrakech.com",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Confirm court hours on club site; book by phone/email.",
+    "description": "Urban Padel Marrakech operates courts at Club des Pharmaciens on Rue El Jahed in Guéliz — a clear Marrakech recommendation when you want a Guéliz option beyond Padel Square Amizmiz and Atlas Tennis Ourika. Call or email to book.",
+    "primarySourceUrl": "https://urbanpadelmarrakech.com/",
+    "secondarySourceUrl": "https://urbanpadelmarrakech.com/",
+    "sourceTypes": "Club site contact block (phone+email+Rue El Jahed / Club des Pharmaciens)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25T17 — Marrakech deepen; phone+email published on urbanpadelmarrakech.com"
   }
 ]
