@@ -420,3 +420,88 @@ sport.doneisbetter.com (via /api/ingest) ✅
 - Run `npm run fair-use:one-pass` (discovery)
 - Run `npm run fair-use:enrich` (enrichment → ingest)
 - Monitor `find-seeds.json` for new discoveries
+
+### 2026-09-25 — sportolok (jobs kicked - discovery running)
+
+**✅ DISCOVERY JOBS RUNNING**
+
+Activated sources and executed first live discovery pass.
+
+**Source activation:**
+- Changed status from "planned" to "active" for 2 real Hungarian sources
+- magyaruszodak.hu/uszodak-budapest/ (105 Budapest pools directory)
+- nsu.hu (National Swimming Union facilities)
+
+**First discovery pass results:**
+```
+🚀 Sportolok Fair-Use Discovery - One Pass
+   Mode: LIVE
+
+📋 Loaded 2 sources
+   Inter-source delay: 45s
+   Pass cooldown: 300s
+
+✅ 2 sources ready (0 on cooldown)
+
+[1/2] Magyar Uszodák - Budapest
+🔍 Processing source: Magyar Uszodák - Budapest (magyaruszodak-budapest)
+   ✓ Fetched 255874 bytes
+   ✓ Extracted 1 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+
+[2/2] NSÜ Létesítmények
+🔍 Processing source: NSÜ Létesítmények (nsu-letesitmenyek)
+   ✓ Fetched 143828 bytes
+   ✓ Extracted 1 candidate(s)
+
+💾 Saved state and 2 candidate(s) to find-seeds
+
+📊 Pass Summary:
+   Sources processed: 2
+   New candidates: 2
+   Pending seeds: 2
+
+⏰ Next pass cooldown: 300s
+```
+
+**Timing:** ~50s total (2 sources + 1×45s delay) ✅
+
+**Seeds discovered:**
+1. seed-hun-h5dxe3 (magyaruszodak.hu) - No address, medium confidence
+2. seed-hun-i1yx25 (nsu.hu) - Has address (1119 Budapest, Petzvál József utca 29-35), high confidence
+
+**Enrichment dry-run test:**
+```
+🌱 Sportolok Fair-Use Enrichment Agent
+   Mode: DRY RUN
+
+📊 Seeds status:
+   Total seeds: 2
+   Pending: 2
+
+📊 Enrichment Summary:
+   Ingested: 1 (seed with address)
+   Rejected: 1 (no address)
+   Errors: 0
+```
+
+**Quality note:**
+- Extractor currently picking up page titles instead of individual pool listings
+- Need to improve Hungarian extractor to target specific `<h1-3>` with pool names within listing sections
+- Current extraction is technically correct but low value (homepage metadata)
+
+**Status:**
+- ✅ Discovery system running live
+- ✅ Real Hungarian sources active
+- ✅ Rate limiting working (45s delays, cooldowns tracked)
+- ✅ Enrichment pipeline validated (1/2 success rate in dry run)
+- ✅ Quality checks enforcing address requirement
+- ⚠️ Extraction patterns need tuning for better listing detection
+- 🔄 Ready for live enrichment when extraction improves
+
+**Next steps:**
+1. Improve Hungarian extractor to detect individual pool listings
+2. Add per-source custom extractors (magyaruszodak.hu uses specific HTML structure)
+3. Run live enrichment with INGEST_API_KEY
+4. Monitor ingested listings on sport.doneisbetter.com
