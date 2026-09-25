@@ -1,24 +1,40 @@
 {
-  "observedAt": "2026-09-25T19:15:07Z",
-  "window": "address_deepen",
+  "observedAt": "2026-09-25T19:34:06Z",
+  "window": "expand_nsu_onkormanyzat_schools",
   "MM_SP": {
-    "D": 26,
+    "D": 46,
     "E": 5,
     "P": 8,
-    "note": "D=26 DISCOVERED research cards (rescued 2 false rejects); street addresses deepened 18/26; phone facts filled where source has them"
+    "note": "Expanded sources: NS\u00dc all venue types + \u00f6nkorm\u00e1nyzat + schools. One-pass +247 candidates; enrich batch; D=46 ingested seeds"
   },
   "discovery": {
-    "pendingSeeds": 0,
-    "ingestedSeeds": 26,
+    "pendingSeeds": 201,
+    "ingestedSeeds": 46,
     "rejectedSeeds": 0,
-    "streetLevelAddresses": 18,
-    "withPhone": 17
-  },
-  "addressDeepen": {
-    "writePath": "ingestSourceText reprocess/create",
-    "deepenedStreet": 18,
-    "sourceLacksStreet": 8,
-    "rootCauseFixed": "detail JSON-LD extractor before nearby .pcard"
+    "activityBreakdown": {
+      "swimming": 143,
+      "various": 44,
+      "handball": 17,
+      "water-sports": 8,
+      "training-camp": 4,
+      "ice-sports": 3,
+      "football": 2,
+      "fitness": 1,
+      "martial": 1,
+      "school-sport": 24
+    },
+    "sourcesActive": [
+      "nsu-letesitmeny-catalog",
+      "nsu-cat-*",
+      "onkormanyzat-ujpest-sport",
+      "onkormanyzat-bp13-sport",
+      "onkormanyzat-hegyvidek-sport",
+      "onkormanyzat-obuda-letesitmenyek",
+      "schools-bp13-altalanos",
+      "schools-bp13-kozep",
+      "schools-hegyvidek",
+      "magyaruszodak-budapest"
+    ]
   },
   "mongo": "quarantined"
 }

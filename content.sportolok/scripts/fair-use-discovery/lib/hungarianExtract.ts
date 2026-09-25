@@ -39,12 +39,359 @@ export function extractHungarianSportFacility(
     if (detail.length) return detail;
   }
 
+  if (/nsu\.hu\/letesitmenyek\//i.test(url)) {
+    const listing = extractNsuCategoryListing(html, url, opts);
+    if (listing.length) return listing;
+  }
+
+  if (
+    /budapest13\.hu\/intezmeny-kategoria\//i.test(url) ||
+    /class="card-text card-white"/i.test(html)
+  ) {
+    const cards = extractBp13InstitutionCards(html, url, opts);
+    if (cards.length) return cards;
+  }
+
+  if (
+    /ujpest\.hu\/sport/i.test(url) ||
+    /önkormányzati tulajdonú sportlétesítmények/i.test(html) ||
+    /onkormanyzati tulajdonu sportletesitmenyek/i.test(html)
+  ) {
+    const venues = extractUjpestSportVenues(html, url, opts);
+    if (venues.length) return venues;
+  }
+
+  if (
+    /hegyvideksport\.hu/i.test(url) ||
+    /obudasport\.hu\/letesitmenyeink/i.test(url)
+  ) {
+    const muni = extractMunicipalSportCompany(html, url, opts);
+    if (muni.length) return muni;
+  }
+
+  if (
+    /oktatas-neveles\/iskolak/i.test(url) ||
+    /intezmeny-kategoria\/altalanos-iskolak/i.test(url) ||
+    /intezmeny-kategoria\/kozepiskolak/i.test(url)
+  ) {
+    const schools = extractSchoolDirectory(html, url, opts);
+    if (schools.length) return schools;
+  }
+
   if (/magyaruszodak\.hu/i.test(url) || /class="pcard"/i.test(html)) {
     const cards = extractMagyarUszodakCards(html, url, opts);
     if (cards.length) return cards;
   }
 
   return extractSinglePageFallback(html, url, opts);
+}
+
+/**
+ * NSÜ category listing HTML (/letesitmenyek/uszodak|tanuszodak|sportletesitmenyek|…)
+ * Detail URLs only — titles from slug / nearby heading when present.
+ */
+export function extractNsuCategoryListing(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 50
+): Candidate[] {
+  const links = [
+    ...html.matchAll(/href="(https:\/\/nsu\.hu\/letesitmeny\/[^"#?]+)"/gi),
+  ].map((m) => m[1].replace(/\/$/, "") + "/");
+  const unique = [...new Set(links)];
+  const out: Candidate[] = [];
+  for (const discoveryUrl of unique) {
+    if (out.length >= limit) break;
+    const slug = discoveryUrl.split("/letesitmeny/")[1]?.replace(/\/$/, "") || "";
+    const title = cleanText(
+      slug
+        .replace(/[-_]+/g, " ")
+        .replace(/\b\w/g, (c) => c.toUpperCase())
+    );
+    if (!title || title.length < 4) continue;
+    out.push({
+      seedId: generateSeedId(title, discoveryUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl,
+      territory: opts.territory,
+      activityType: detectActivityType(pageUrl + " " + title, title, opts.activityTypes),
+      title,
+      address: undefined,
+      contact: {},
+      extractedFacts: {
+        hasPhone: false,
+        hasEmail: false,
+        hasAddress: false,
+        from: "nsu-category-html",
+        categoryUrl: pageUrl,
+      },
+      confidence: "medium",
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
+/**
+ * Budapest XIII. kerület institution cards (sport színterek, schools, …)
+ */
+export function extractBp13InstitutionCards(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 40
+): Candidate[] {
+  const out: Candidate[] = [];
+  const blocks = html.split(/class="card-text card-white"/i).slice(1);
+  for (const block of blocks) {
+    if (out.length >= limit) break;
+    const title = cleanText(
+      block.match(/card-text__title[^>]*>([\s\S]*?)<\//i)?.[1] || ""
+    );
+    if (!title || title.length < 4 || isJunkTitle(title)) continue;
+
+    const addrMatch =
+      block.match(/query=(\d{4}\s+[^"&]+)/i)?.[1] ||
+      block.match(/(\d{4}\s+(?:Budapest|Velence)[^<]{5,80})/i)?.[1];
+    const address = addrMatch
+      ? cleanText(decodeURIComponent(addrMatch)).replace(/&amp;/g, "&")
+      : undefined;
+
+    const phone =
+      cleanText(
+        block.match(/information-row__text[^>]*>\s*(\d{1,3}[\/\-\s]?\d{3}[-\s]?\d{3,4})\s*</i)?.[1] ||
+          ""
+      ) || undefined;
+
+    const website = block.match(
+      /href="(https?:\/\/(?:www\.)?sport13\.hu\/[^"]+)"/i
+    )?.[1];
+
+    const isSchool = /iskola|gimnázium|óvoda/i.test(title);
+    const activityType = isSchool
+      ? "school-sport"
+      : detectActivityType(title, title, opts.activityTypes);
+
+    out.push({
+      seedId: generateSeedId(title, address || pageUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl: website || pageUrl,
+      territory: opts.territory,
+      activityType,
+      title,
+      address: address ? (/hungary$/i.test(address) ? address : `${address}, Hungary`) : undefined,
+      contact: { phone, website },
+      extractedFacts: {
+        hasPhone: !!phone,
+        hasEmail: false,
+        hasAddress: !!address,
+        from: "bp13-institution-card",
+        schoolLinked: isSchool,
+      },
+      confidence: calculateConfidence({ title, address, phone }),
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
+const FACILITY_NAME =
+  /\b(uszoda|tanuszoda|sportközpont|sportcent|sporttelep|csarnok|stadion|pálya|palya|strand|fürdő|jégcentrum|jegcentrum|sípálya|sipalya|grund|munkacsarnok|sportbázis|szabadidőpark|pihenőpark|tornaterem|vendégház|motel)\b/i;
+const CLUB_ONLY =
+  /\b(egyesület|egyesulet|\bse\b|\bdse\b|sportkör|sportegylet|alapítvány|klub)\b/i;
+
+function isCleanLabel(label: string): boolean {
+  if (!label || label.length < 4 || label.length > 90) return false;
+  if (/[{};]|function|wpemoji|font-size|!important/i.test(label)) return false;
+  return true;
+}
+
+function normKey(s: string): string {
+  return s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "");
+}
+
+/**
+ * Újpest Önkormányzat sport institutions — prefer létesítmények over clubs.
+ * Also keep school Diáksport entries as school-sport seeds.
+ */
+export function extractUjpestSportVenues(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 40
+): Candidate[] {
+  const out: Candidate[] = [];
+  const headings = [
+    ...html.matchAll(/<h2[^>]*>([^<]+)<\/h2>/gi),
+  ].map((m) => cleanText(m[1]));
+
+  for (const title of headings) {
+    if (out.length >= limit) break;
+    if (!title || title.length < 5) continue;
+    const isFacility = FACILITY_NAME.test(title);
+    const isSchoolSport =
+      /diáksport|diaksport|iskola|gimnázium/i.test(title) && CLUB_ONLY.test(title);
+    if (!isFacility && !isSchoolSport) continue;
+    if (isJunkTitle(title)) continue;
+
+    out.push({
+      seedId: generateSeedId(title, pageUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl: pageUrl,
+      territory: opts.territory,
+      activityType: isSchoolSport
+        ? "school-sport"
+        : detectActivityType(title, title, opts.activityTypes),
+      title,
+      address: "Budapest IV, Hungary",
+      contact: {},
+      extractedFacts: {
+        hasPhone: false,
+        hasEmail: false,
+        hasAddress: true,
+        locality: "Budapest",
+        from: "ujpest-onkormanyzat-sport",
+        venueKind: isFacility ? "municipal-facility" : "school-sport-club",
+      },
+      confidence: isFacility ? "medium" : "low",
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
+/**
+ * Municipal sport companies (Hegyvidéki Sportközpont, Óbudai Sport, …)
+ */
+export function extractMunicipalSportCompany(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 20
+): Candidate[] {
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  const origin = pageUrl.match(/^https?:\/\/[^/]+/)?.[0] || "";
+
+  const push = (title: string, discoveryUrl: string) => {
+    if (out.length >= limit) return;
+    if (!isCleanLabel(title)) return;
+    if (!FACILITY_NAME.test(title)) return;
+    const key = normKey(title);
+    if (!key || seen.has(key)) return;
+    seen.add(key);
+    out.push({
+      seedId: generateSeedId(title, discoveryUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl,
+      territory: opts.territory,
+      activityType: detectActivityType(title, title, opts.activityTypes),
+      title,
+      address: opts.territory === "HUN-BUD" ? "Budapest, Hungary" : undefined,
+      contact: { website: discoveryUrl },
+      extractedFacts: {
+        hasPhone: false,
+        hasEmail: false,
+        hasAddress: opts.territory === "HUN-BUD",
+        from: "municipal-sport-company",
+      },
+      confidence: "medium",
+      discoveredAt: new Date().toISOString(),
+    });
+  };
+
+  for (const hm of html.matchAll(/<h[23][^>]*>([^<]+)<\/h[23]>/gi)) {
+    push(cleanText(hm[1]), pageUrl);
+  }
+
+  // Prefer short link labels to known facility paths
+  for (const m of html.matchAll(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)) {
+    const href = m[1];
+    let label = cleanText(m[2]);
+    if (
+      !/letesitmen|tanuszoda|sportpalya|tornaterem|szabadido|strand|vendeghaz|motel|pihenopark|uszoda/i.test(
+        href + " " + label
+      )
+    ) {
+      continue;
+    }
+    let discoveryUrl = href;
+    if (discoveryUrl.startsWith("/")) discoveryUrl = origin + discoveryUrl;
+    if (!/^https?:\/\//i.test(discoveryUrl)) continue;
+    if (!isCleanLabel(label)) {
+      // Derive from path: /letesitmenyeink/obudai-strand → Óbudai Strand
+      const slug = discoveryUrl.split("/").filter(Boolean).pop() || "";
+      if (!/letesitmen|tanuszoda|sportpalya|tornaterem|szabadido|strand|vendeghaz|motel|pihenopark/i.test(slug) && !FACILITY_NAME.test(slug)) {
+        continue;
+      }
+      label = cleanText(slug.replace(/[-_]+/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()));
+    }
+    if (!isCleanLabel(label)) continue;
+    push(label, discoveryUrl);
+  }
+
+
+  return out;
+}
+
+/**
+ * School directories (Hegyvidék iskolák, BP13 általános/középiskolák, …)
+ * Schools are seeds for school-sport / gym access — deepen later for halls.
+ */
+export function extractSchoolDirectory(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 40
+): Candidate[] {
+  // Prefer structured BP13 cards when present
+  const cards = extractBp13InstitutionCards(html, pageUrl, {
+    ...opts,
+    activityTypes: ["school-sport", ...opts.activityTypes],
+  }, limit);
+  if (cards.length) {
+    return cards.map((c) => ({
+      ...c,
+      activityType: "school-sport",
+      extractedFacts: { ...c.extractedFacts, schoolLinked: true, from: "school-directory" },
+    }));
+  }
+
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  const headingRe = /<h[23][^>]*>([^<]*(?:Iskola|Gimnázium|Szakközép|Technikum)[^<]*)<\/h[23]>/gi;
+  let hm: RegExpExecArray | null;
+  while ((hm = headingRe.exec(html)) !== null && out.length < limit) {
+    const title = cleanText(hm[1]);
+    if (!title || title.length < 8) continue;
+    if (seen.has(title.toLowerCase())) continue;
+    seen.add(title.toLowerCase());
+    out.push({
+      seedId: generateSeedId(title, pageUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl: pageUrl,
+      territory: opts.territory,
+      activityType: "school-sport",
+      title,
+      address: "Budapest, Hungary",
+      contact: {},
+      extractedFacts: {
+        hasPhone: false,
+        hasEmail: false,
+        hasAddress: true,
+        schoolLinked: true,
+        from: "school-directory-heading",
+      },
+      confidence: "low",
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
 }
 
 /**
@@ -373,14 +720,23 @@ function detectActivityType(
 ): string {
   const combined = (html + title).toLowerCase();
   const keywords: Record<string, string[]> = {
-    swimming: ["uszoda", "medence", "úszás", "swimming", "strandfürdő", "fürdő"],
-    fitness: ["edzőterem", "fitness", "konditerem", "gym"],
+    swimming: ["uszoda", "medence", "úszás", "swimming", "strandfürdő", "fürdő", "tanuszoda", "strand"],
+    fitness: ["edzőterem", "fitness", "konditerem", "gym", "egészségközpont"],
     tennis: ["tenisz", "tennis"],
     "water-polo": ["vízilabda", "waterpolo"],
+    "water-sports": ["kajak", "kenu", "evez", "vízisport", "vizisport"],
+    handball: ["kézilabda", "kezilabda", "munkacsarnok"],
+    football: ["labdarúg", "futball", "foci", "stadion", "műfüves"],
+    "ice-sports": ["jég", "korcsolya", "jégcsarnok", "jégcentrum"],
+    basketball: ["kosár", "kosárlabda", "basketball"],
+    volleyball: ["röplabda", "volleyball"],
+    "school-sport": ["diáksport", "iskola", "gimnázium", "tanoda", "tornaterem"],
+    "training-camp": ["edzőtábor", "olimpiai központ", "tábora"],
     yoga: ["yoga", "jóga"],
     martial: ["harcművészet", "karate", "judo", "aikido"],
     dance: ["tánc", "dance"],
-    team: ["csapatsport", "foci", "football", "kosár", "basketball"],
+    team: ["csapatsport", "kosár", "basketball"],
+    various: ["sportközpont", "sporttelep", "csarnok", "sportlétesítmény"],
   };
 
   for (const [type, words] of Object.entries(keywords)) {

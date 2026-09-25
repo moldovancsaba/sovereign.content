@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → sportolok)
 
-**Catalog About/media/quality-loop wired to `executorIngest` + pending fair-use seeds drained + street-address deepen shipped (2026-09-25T19:15Z).** Do not declare production-ready. Core still owns `release/sportolok` reconcile. Remaining locality-only seeds are source-limited (JSON-LD has no streetAddress).
+**Catalog About/media/quality-loop wired + street-address deepen + NSÜ all-venue / önkormányzat / school sources live (2026-09-25T19:30Z).** Do not declare production-ready. Core still owns `release/sportolok` reconcile. Continue enriching ~200 pending seeds.
 
 ## Open checklist (SC)
 
@@ -582,5 +582,24 @@ Honest limits: magyaruszodak detail pages often only yield locality-level addres
 - Refreshed `fleet/inbox/sportolok/status-2026-09-25.json` + `metrics-2026-09-25.json`
 
 **Still open (not agent-owned):** `release/sportolok` reconcile by management core. **Optional:** street-level address deepen on magyaruszodak details.
+
+**Do not claim production-ready.**
+
+### 2026-09-25 — sportolok (address deepen)
+
+**Root cause:** deepen preferred nearby `.pcard` listings over the facility’s own `PublicSwimmingPool` JSON-LD — caused false rejects (Római, Pünkösdfürdői) and locality-only addresses.
+
+**Fix**
+- `extractMagyarUszodakDetail` (JSON-LD + Cím eyebrow) wins on `/uszoda/` URLs before cards
+- `fair-use:deepen-addresses` job: reprocess/create via ingest; rescue rejected
+- NSÜ Helyszín cleaner (strip “Átadva/Kedves…” chrome)
+
+**Live results**
+- Street-level addresses: **2/26 → 18/26**
+- Phone facts: **17/26**
+- Rescued false rejects → DISCOVERED create (`research-hun-p3ev8x`, `research-hun-vsbjcp`)
+- 8 remain locality-only — source JSON-LD has no `streetAddress` (honest gap)
+
+**MM/SP:** **D:26 | E:5 | P:8**
 
 **Do not claim production-ready.**

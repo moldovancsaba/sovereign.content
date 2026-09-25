@@ -1,17 +1,67 @@
 {
+  "nsu-letesitmeny-catalog": {
+    "sourceId": "nsu-letesitmeny-catalog",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
+  "nsu-cat-sportletesitmenyek": {
+    "sourceId": "nsu-cat-sportletesitmenyek",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
+  "nsu-cat-olimpiai-kozpontok": {
+    "sourceId": "nsu-cat-olimpiai-kozpontok",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
+  "nsu-cat-tanuszodak": {
+    "sourceId": "nsu-cat-tanuszodak",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
+  "nsu-cat-uszodak": {
+    "sourceId": "nsu-cat-uszodak",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
   "magyaruszodak-budapest": {
     "sourceId": "magyaruszodak-budapest",
-    "lastFetchMs": 1790323679562,
+    "lastFetchMs": 1790364538458,
     "lastStatus": "ok"
   },
-  "nsu-gazdagreti": {
-    "sourceId": "nsu-gazdagreti",
-    "lastFetchMs": 1790323679562,
+  "onkormanyzat-ujpest-sport": {
+    "sourceId": "onkormanyzat-ujpest-sport",
+    "lastFetchMs": 1790364538458,
     "lastStatus": "ok"
   },
-  "nsu-dagaly": {
-    "sourceId": "nsu-dagaly",
-    "lastFetchMs": 1790323679562,
+  "onkormanyzat-bp13-sport": {
+    "sourceId": "onkormanyzat-bp13-sport",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
+  "onkormanyzat-hegyvidek-sport": {
+    "sourceId": "onkormanyzat-hegyvidek-sport",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
+  "onkormanyzat-obuda-letesitmenyek": {
+    "sourceId": "onkormanyzat-obuda-letesitmenyek",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
+  "schools-bp13-altalanos": {
+    "sourceId": "schools-bp13-altalanos",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
+  "schools-bp13-kozep": {
+    "sourceId": "schools-bp13-kozep",
+    "lastFetchMs": 1790364538458,
+    "lastStatus": "ok"
+  },
+  "schools-hegyvidek": {
+    "sourceId": "schools-hegyvidek",
+    "lastFetchMs": 1790364538458,
     "lastStatus": "ok"
   }
 }

@@ -559,5 +559,4287 @@
     },
     "confidence": "high",
     "status": "ingested"
+  },
+  "seed-hun-j6jr6r": {
+    "seedId": "seed-hun-j6jr6r",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/facanoskert-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Fácánoskert Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-dehvck": {
+    "seedId": "seed-hun-dehvck",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/szekszardi_strand/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Szekszárdi Családbarát Strand és Élményfürdő",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-39vki0": {
+    "seedId": "seed-hun-39vki0",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/bitskey_aladar_uszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Bitskey Aladár Uszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-rppqk5": {
+    "seedId": "seed-hun-rppqk5",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/galyateto_vendeghaz/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Galyatető Vendégház",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-t94m9r": {
+    "seedId": "seed-hun-t94m9r",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/pilisvorosvari-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Pilisvörösvári Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-d48uy3": {
+    "seedId": "seed-hun-d48uy3",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/liget-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Liget Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-lid9lv": {
+    "seedId": "seed-hun-lid9lv",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/retsag-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Dr. Katona Ernő Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-bmhmgr": {
+    "seedId": "seed-hun-bmhmgr",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/bajai-sportuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Bajai Sportuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-2oxgjl": {
+    "seedId": "seed-hun-2oxgjl",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/csongrad-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Csongrádi Kézilabda Csarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-we0r76": {
+    "seedId": "seed-hun-we0r76",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/demecser-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Demecser Kézilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-rphvyw": {
+    "seedId": "seed-hun-rphvyw",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/komlo-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Komló Kézilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-km9a5h": {
+    "seedId": "seed-hun-km9a5h",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/hevizi-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Lelkesné Tomann Rozália Hévíz Város Sportcsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-d8a3kb": {
+    "seedId": "seed-hun-d8a3kb",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/haladas-sportkomplexum/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Haladás Sportkomplexum",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-uup7gi": {
+    "seedId": "seed-hun-uup7gi",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/sipos-marton-sportuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Sipos Márton Sportuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-k8cujo": {
+    "seedId": "seed-hun-k8cujo",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/domotor-zoltan-dunakeszi-sportuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.359Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Dömötör Zoltán Dunakeszi Sportuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-by4doo": {
+    "seedId": "seed-hun-by4doo",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/kovacs-katalin-nemzeti-kajak-kenu-akademia/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "water-sports",
+    "initialFacts": {
+      "name": "KOVÁCS KATALIN NEMZETI KAJAK-KENU AKADÉMIA",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-98adlf": {
+    "seedId": "seed-hun-98adlf",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/zsivotzky_gyula_nemzeti_atletikai_kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Zsivotzky Gyula Nemzeti Atlétikai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-tyak59": {
+    "seedId": "seed-hun-tyak59",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/siofoki-vizisport-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "water-sports",
+    "initialFacts": {
+      "name": "Siófoki Vízisport Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-3utw2q": {
+    "seedId": "seed-hun-3utw2q",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/halmy-jozsef-kezilabdacsarnok-vecses/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Halmy József Kézilabdacsarnok – Vecsés",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-1nm18r": {
+    "seedId": "seed-hun-1nm18r",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/zirci-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Zirci Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-8u7e89": {
+    "seedId": "seed-hun-8u7e89",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/budakeszi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Budakeszi tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-4lyhj3": {
+    "seedId": "seed-hun-4lyhj3",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/szentlorinc-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Szentlőrinc Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-pm5bs2": {
+    "seedId": "seed-hun-pm5bs2",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/hajos-alfred-nemzeti-sportuszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Hajós Alfréd Nemzeti Sportuszoda – Nemzeti Úszó és Vízilabda Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kv7ypf": {
+    "seedId": "seed-hun-kv7ypf",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/duna-arena-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Duna Aréna – Nemzeti Úszó és Vízilabda Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-18s8s5": {
+    "seedId": "seed-hun-18s8s5",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/csaszar-komjadi-sportuszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Császár – Komjádi Sportuszoda – Nemzeti Úszó és Vízilabda Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-6301kz": {
+    "seedId": "seed-hun-6301kz",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/nemzeti-uszo-es-vizilabda-olimpiai-kozpont-nuvok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "training-camp",
+    "initialFacts": {
+      "name": "Nemzeti Úszó és Vízilabda Olimpiai Központ (NUVOK)",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-qz1vjv": {
+    "seedId": "seed-hun-qz1vjv",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/budapesti-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "training-camp",
+    "initialFacts": {
+      "name": "Budapesti Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fjrhft": {
+    "seedId": "seed-hun-fjrhft",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/dagaly-gyogyfurdo-strandfurdo-es-uszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Dagály gyógyfürdő strandfürdő és uszoda – Nemzeti Úszó és Vízilabda Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ffv1fi": {
+    "seedId": "seed-hun-ffv1fi",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/tuskecsarnok-es-uszodakomplexum-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tüskecsarnok és Uszodakomplexum  – Nemzeti Úszó és Vízilabda Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-m3k4de": {
+    "seedId": "seed-hun-m3k4de",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/veszprem-sportuszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Veszprém Sportuszoda – Nemzeti Úszó és Vízilabda Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-in05ic": {
+    "seedId": "seed-hun-in05ic",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/tornacsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "BOK Tornacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-1zhoqq": {
+    "seedId": "seed-hun-1zhoqq",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/sullyesztett-tornacsarnok-es-uszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "BOK Süllyesztett Tornacsarnok és Uszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-yqc1ws": {
+    "seedId": "seed-hun-yqc1ws",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/jegszinhaz/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "ice-sports",
+    "initialFacts": {
+      "name": "BOK Jégszínház",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-iu5imh": {
+    "seedId": "seed-hun-iu5imh",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/gerevich-aladar-nemzeti-sportcsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "BOK Gerevich Aladár Nemzeti Sportcsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-psok3o": {
+    "seedId": "seed-hun-psok3o",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/tatabanyai-multifunkcionalis-csarnok-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Tatabányai Multifunkcionális Csarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-5hje1z": {
+    "seedId": "seed-hun-5hje1z",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/koer-utcai-uszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kőér utcai uszoda – Nemzeti Úszó és Vízilabda Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-odih03": {
+    "seedId": "seed-hun-odih03",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/sumeg-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Sümeg Kézilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-so6dmc": {
+    "seedId": "seed-hun-so6dmc",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/godorne-nagy-marianna-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Gódorné Nagy Marianna Kézilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-qwi9d2": {
+    "seedId": "seed-hun-qwi9d2",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/balassagyarmat-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Balassagyarmat Kézilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-grt13g": {
+    "seedId": "seed-hun-grt13g",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/bacsalmas-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Bácsalmás Kézilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-s3yxm9": {
+    "seedId": "seed-hun-s3yxm9",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/sasd-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Sásd tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-5aza35": {
+    "seedId": "seed-hun-5aza35",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/varpalotai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Várpalotai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-a5at75": {
+    "seedId": "seed-hun-a5at75",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/tolnai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tolnai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-dstjj": {
+    "seedId": "seed-hun-dstjj",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/tokaji-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tokaji Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-asdbhx": {
+    "seedId": "seed-hun-asdbhx",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/tiszakecskei-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tiszakécskei Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-la39fl": {
+    "seedId": "seed-hun-la39fl",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/tisza-kalman-tanuszoda-baktaloranthaza/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tisza Kálmán Tanuszoda, Baktalórántháza",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-jw8ifn": {
+    "seedId": "seed-hun-jw8ifn",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/teti-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Téti Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-izhv4m": {
+    "seedId": "seed-hun-izhv4m",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/sumegi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Sümegi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-udgr9l": {
+    "seedId": "seed-hun-udgr9l",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/sarkadi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Sarkadi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-u2q9tf": {
+    "seedId": "seed-hun-u2q9tf",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/revesz-laszlo-tanuszoda-balassagyarmat/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Révész László Tanuszoda, Balassagyarmat",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-5ix2mt": {
+    "seedId": "seed-hun-5ix2mt",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/putnoki-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Putnoki Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kzqkzb": {
+    "seedId": "seed-hun-kzqkzb",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/pannonhalmi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Pannonhalmi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-xbby9s": {
+    "seedId": "seed-hun-xbby9s",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/mezocsat-varosi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Mezőcsát Városi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-qwwgql": {
+    "seedId": "seed-hun-qwwgql",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/kurtgyarmat-tanuszoda-fehergyarmat/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kürtgyarmat Tanuszoda, Fehérgyarmat",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-8ufgfh": {
+    "seedId": "seed-hun-8ufgfh",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/kisvardai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kisvárdai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-grj37l": {
+    "seedId": "seed-hun-grj37l",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/kiserdei-tanuszoda-fuzesgyarmat/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kiserdei Tanuszoda, Füzesgyarmat",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kxsq27": {
+    "seedId": "seed-hun-kxsq27",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/kapuvari-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kapuvári Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7be8s2": {
+    "seedId": "seed-hun-7be8s2",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/jarasi-tanuszoda-kemecse/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Járási Tanuszoda, Kemecse",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7c0p36": {
+    "seedId": "seed-hun-7c0p36",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/jarasi-tanuszoda-cigand/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Járási Tanuszoda, Cigánd",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-pt4bap": {
+    "seedId": "seed-hun-pt4bap",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/ivancsai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Iváncsai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-a8fv65": {
+    "seedId": "seed-hun-a8fv65",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/horvath-andras-tanuszoda-torokszentmiklos/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Horváth András Tanuszoda, Törökszentmiklós",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-2kqji6": {
+    "seedId": "seed-hun-2kqji6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/gyali-jarasi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gyáli Járási Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-27myk6": {
+    "seedId": "seed-hun-27myk6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/gonci-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gönci Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fetus1": {
+    "seedId": "seed-hun-fetus1",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/gerecz-attila-tanuszoda-dunakeszi/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gérecz Attila Tanuszoda, Dunakeszi",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-exwfxp": {
+    "seedId": "seed-hun-exwfxp",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/gazdagreti-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gazdagréti Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-hqkaea": {
+    "seedId": "seed-hun-hqkaea",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/enyingi-cifrakerti-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Enyingi Cifrakerti Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-te1o61": {
+    "seedId": "seed-hun-te1o61",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/encsi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Encsi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fm272m": {
+    "seedId": "seed-hun-fm272m",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/egyed-mihaly-tanuszoda-sarbogard/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Egyed Mihály Tanuszoda, Sárbogárd",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-u05wrv": {
+    "seedId": "seed-hun-u05wrv",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/edelenyi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Edelényi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-u0hvoa": {
+    "seedId": "seed-hun-u0hvoa",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/duna-ipoly-tanuszoda-szob/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Duna-Ipoly Tanuszoda, Szob",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-4zvqmr": {
+    "seedId": "seed-hun-4zvqmr",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/derecske-varosi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Derecske Városi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-r7s3vm": {
+    "seedId": "seed-hun-r7s3vm",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/csengeri-jarasi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Csengeri Járási Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-vj11ph": {
+    "seedId": "seed-hun-vj11ph",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/belapatfalvai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Bélapátfalvai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-rl5244": {
+    "seedId": "seed-hun-rl5244",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/banfalvi-zsigmond-jarasi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Bánfalvi Zsigmond Járási Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-svozhe": {
+    "seedId": "seed-hun-svozhe",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/abadszaloki-tiszavirag-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Abádszalóki Tiszavirág Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-tbcb0w": {
+    "seedId": "seed-hun-tbcb0w",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/magyar-olimpiai-es-sportmuzeum/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Magyar Olimpiai és Sportmúzeum",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-pl7xh1": {
+    "seedId": "seed-hun-pl7xh1",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/ungvari-miklos-cegledi-judo-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Ungvári Miklós Ceglédi Judo Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-6a3nfk": {
+    "seedId": "seed-hun-6a3nfk",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/szegedi-multifunkcionalis-csarnok-pick-arena/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Szegedi Multifunkcionális Csarnok, Pick Aréna",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fdym9a": {
+    "seedId": "seed-hun-fdym9a",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/siofoki-kajak-kenu-pont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "water-sports",
+    "initialFacts": {
+      "name": "Siófoki Kajak – Kenu Pont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-o50a11": {
+    "seedId": "seed-hun-o50a11",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/matrahazi-edzotabor/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Mátraházi Edzőtábor",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-uci53o": {
+    "seedId": "seed-hun-uci53o",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/szegedi-nemzeti-kajak-kenu-es-evezos-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "water-sports",
+    "initialFacts": {
+      "name": "Szegedi Nemzeti Kajak-Kenu és Evezős Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-4n8yhh": {
+    "seedId": "seed-hun-4n8yhh",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/eszaknyugat-magyarorszagi-altalanos-olimpiai-kozpont-tatai-edzotabor/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "training-camp",
+    "initialFacts": {
+      "name": "Északnyugat-magyarországi Általános Olimpiai Központ – Tatai Edzőtábor",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-mf85v7": {
+    "seedId": "seed-hun-mf85v7",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/puskas-arena/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Puskás Aréna",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-3juih7": {
+    "seedId": "seed-hun-3juih7",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/millenaris-velodrom/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "BOK Millenáris Velodrom",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-flbeuh": {
+    "seedId": "seed-hun-flbeuh",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/korcsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Körcsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-cgb5p8": {
+    "seedId": "seed-hun-cgb5p8",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/kisstadion/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "football",
+    "initialFacts": {
+      "name": "BOK Kisstadion",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-xcazwb": {
+    "seedId": "seed-hun-xcazwb",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/gyakorlo-jegcsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "ice-sports",
+    "initialFacts": {
+      "name": "BOK Gyakorló Jégcsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-rv5jdz": {
+    "seedId": "seed-hun-rv5jdz",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/feher-uti-sporttelep/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Fehér úti Sporttelep",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-8c0lyj": {
+    "seedId": "seed-hun-8c0lyj",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/bok-sportcsarnok/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "BOK Sportcsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ghdrem": {
+    "seedId": "seed-hun-ghdrem",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/baok-balaton-uszoda/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Balaton Uszoda – Balaton Általános Olimpiai Központ",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-n2qj8w": {
+    "seedId": "seed-hun-n2qj8w",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/aqua-egeszsegkozpont/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "fitness",
+    "initialFacts": {
+      "name": "AQUA Egészségközpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-17vjde": {
+    "seedId": "seed-hun-17vjde",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-letesitmeny-catalog",
+        "url": "https://nsu.hu/letesitmeny/kozep-magyarorszagi-altalanos-olimpiai-kozpont-dunavarsanyi-edzotabor/",
+        "discoveredAt": "2026-09-25T19:28:59.360Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "training-camp",
+    "initialFacts": {
+      "name": "Közép-magyarországi Általános Olimpiai Központ (Dunavarsányi Edzőtábor)",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-5g3uma": {
+    "seedId": "seed-hun-5g3uma",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/bacsalmas-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Bacsalmas Kezilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-l3hdw0": {
+    "seedId": "seed-hun-l3hdw0",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/balassagyarmat-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Balassagyarmat Kezilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-4hf2oa": {
+    "seedId": "seed-hun-4hf2oa",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/csongrad-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Csongrad Kezilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-vuf1ks": {
+    "seedId": "seed-hun-vuf1ks",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/demecser-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Demecser Kezilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-6ubexk": {
+    "seedId": "seed-hun-6ubexk",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/galyateto_vendeghaz/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Galyateto Vendeghaz",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-8425e": {
+    "seedId": "seed-hun-8425e",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/godorne-nagy-marianna-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Godorne Nagy Marianna Kezilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-2a9d8e": {
+    "seedId": "seed-hun-2a9d8e",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/haladas-sportkomplexum/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Haladas Sportkomplexum",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-d598te": {
+    "seedId": "seed-hun-d598te",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/halmy-jozsef-kezilabdacsarnok-vecses/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Halmy Jozsef Kezilabdacsarnok Vecses",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-3e04bm": {
+    "seedId": "seed-hun-3e04bm",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/komlo-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Komlo Kezilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7yuc0u": {
+    "seedId": "seed-hun-7yuc0u",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/kovacs-katalin-nemzeti-kajak-kenu-akademia/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "water-sports",
+    "initialFacts": {
+      "name": "Kovacs Katalin Nemzeti Kajak Kenu Akademia",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-bdxv6": {
+    "seedId": "seed-hun-bdxv6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/hevizi-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Hevizi Kezilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-u99vk": {
+    "seedId": "seed-hun-u99vk",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/matrahazi-edzotabor/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Matrahazi Edzotabor",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-pehycy": {
+    "seedId": "seed-hun-pehycy",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/siofoki-kajak-kenu-pont/",
+        "discoveredAt": "2026-09-25T19:29:20.931Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "water-sports",
+    "initialFacts": {
+      "name": "Siofoki Kajak Kenu Pont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-hrsfjq": {
+    "seedId": "seed-hun-hrsfjq",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/siofoki-vizisport-kozpont/",
+        "discoveredAt": "2026-09-25T19:29:20.932Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "water-sports",
+    "initialFacts": {
+      "name": "Siofoki Vizisport Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-6wjrcu": {
+    "seedId": "seed-hun-6wjrcu",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/sumeg-kezilabda-munkacsarnok/",
+        "discoveredAt": "2026-09-25T19:29:20.932Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Sumeg Kezilabda Munkacsarnok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ph5j5q": {
+    "seedId": "seed-hun-ph5j5q",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/szegedi-multifunkcionalis-csarnok-pick-arena/",
+        "discoveredAt": "2026-09-25T19:29:20.932Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Szegedi Multifunkcionalis Csarnok Pick Arena",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-p2tgb8": {
+    "seedId": "seed-hun-p2tgb8",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/tatabanyai-multifunkcionalis-csarnok-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:29:20.932Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Tatabanyai Multifunkcionalis Csarnok Nemzeti Uszo Es Vizilabda Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-jg6ee6": {
+    "seedId": "seed-hun-jg6ee6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/ungvari-miklos-cegledi-judo-kozpont/",
+        "discoveredAt": "2026-09-25T19:29:20.932Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "martial",
+    "initialFacts": {
+      "name": "Ungvari Miklos Cegledi Judo Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-e4dfc4": {
+    "seedId": "seed-hun-e4dfc4",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-sportletesitmenyek",
+        "url": "https://nsu.hu/letesitmeny/zsivotzky_gyula_nemzeti_atletikai_kozpont/",
+        "discoveredAt": "2026-09-25T19:29:20.932Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Zsivotzky Gyula Nemzeti Atletikai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-n3tpx8": {
+    "seedId": "seed-hun-n3tpx8",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-olimpiai-kozpontok",
+        "url": "https://nsu.hu/letesitmeny/baok-balaton-uszoda/",
+        "discoveredAt": "2026-09-25T19:29:42.447Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Baok Balaton Uszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-uqjfhe": {
+    "seedId": "seed-hun-uqjfhe",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-olimpiai-kozpontok",
+        "url": "https://nsu.hu/letesitmeny/budapesti-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:29:42.447Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Budapesti Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-5s5b7m": {
+    "seedId": "seed-hun-5s5b7m",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-olimpiai-kozpontok",
+        "url": "https://nsu.hu/letesitmeny/eszaknyugat-magyarorszagi-altalanos-olimpiai-kozpont-tatai-edzotabor/",
+        "discoveredAt": "2026-09-25T19:29:42.447Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Eszaknyugat Magyarorszagi Altalanos Olimpiai Kozpont Tatai Edzotabor",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-nxilyg": {
+    "seedId": "seed-hun-nxilyg",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-olimpiai-kozpontok",
+        "url": "https://nsu.hu/letesitmeny/kozep-magyarorszagi-altalanos-olimpiai-kozpont-dunavarsanyi-edzotabor/",
+        "discoveredAt": "2026-09-25T19:29:42.448Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Kozep Magyarorszagi Altalanos Olimpiai Kozpont Dunavarsanyi Edzotabor",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-xpc22q": {
+    "seedId": "seed-hun-xpc22q",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-olimpiai-kozpontok",
+        "url": "https://nsu.hu/letesitmeny/nemzeti-uszo-es-vizilabda-olimpiai-kozpont-nuvok/",
+        "discoveredAt": "2026-09-25T19:29:42.448Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Nemzeti Uszo Es Vizilabda Olimpiai Kozpont Nuvok",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-8c4xq8": {
+    "seedId": "seed-hun-8c4xq8",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-olimpiai-kozpontok",
+        "url": "https://nsu.hu/letesitmeny/szegedi-nemzeti-kajak-kenu-es-evezos-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:29:42.448Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "water-sports",
+    "initialFacts": {
+      "name": "Szegedi Nemzeti Kajak Kenu Es Evezos Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-vh91lu": {
+    "seedId": "seed-hun-vh91lu",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/abadszaloki-tiszavirag-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Abadszaloki Tiszavirag Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-l20rj2": {
+    "seedId": "seed-hun-l20rj2",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/banfalvi-zsigmond-jarasi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Banfalvi Zsigmond Jarasi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ez6mxo": {
+    "seedId": "seed-hun-ez6mxo",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/belapatfalvai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Belapatfalvai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-41uxpg": {
+    "seedId": "seed-hun-41uxpg",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/budakeszi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Budakeszi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-rgvgri": {
+    "seedId": "seed-hun-rgvgri",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/csengeri-jarasi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Csengeri Jarasi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-sj4ukm": {
+    "seedId": "seed-hun-sj4ukm",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/derecske-varosi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Derecske Varosi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ty023m": {
+    "seedId": "seed-hun-ty023m",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/retsag-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Retsag Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-q0byoi": {
+    "seedId": "seed-hun-q0byoi",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/duna-ipoly-tanuszoda-szob/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Duna Ipoly Tanuszoda Szob",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ol39tu": {
+    "seedId": "seed-hun-ol39tu",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/edelenyi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Edelenyi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-dy5ute": {
+    "seedId": "seed-hun-dy5ute",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/egyed-mihaly-tanuszoda-sarbogard/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Egyed Mihaly Tanuszoda Sarbogard",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7fdn04": {
+    "seedId": "seed-hun-7fdn04",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/encsi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Encsi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-nz83fi": {
+    "seedId": "seed-hun-nz83fi",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/enyingi-cifrakerti-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Enyingi Cifrakerti Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-gkpwpi": {
+    "seedId": "seed-hun-gkpwpi",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/facanoskert-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Facanoskert Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-3tqu76": {
+    "seedId": "seed-hun-3tqu76",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/gazdagreti-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gazdagreti Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ht6wwy": {
+    "seedId": "seed-hun-ht6wwy",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/gerecz-attila-tanuszoda-dunakeszi/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gerecz Attila Tanuszoda Dunakeszi",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-iz8e6c": {
+    "seedId": "seed-hun-iz8e6c",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/gonci-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gonci Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-13dtfi": {
+    "seedId": "seed-hun-13dtfi",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/gyali-jarasi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gyali Jarasi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ezqbt2": {
+    "seedId": "seed-hun-ezqbt2",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/horvath-andras-tanuszoda-torokszentmiklos/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Horvath Andras Tanuszoda Torokszentmiklos",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-woqyji": {
+    "seedId": "seed-hun-woqyji",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/ivancsai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Ivancsai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fwsm6u": {
+    "seedId": "seed-hun-fwsm6u",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/jarasi-tanuszoda-cigand/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Jarasi Tanuszoda Cigand",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-waerdq": {
+    "seedId": "seed-hun-waerdq",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/jarasi-tanuszoda-kemecse/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Jarasi Tanuszoda Kemecse",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-2hz67y": {
+    "seedId": "seed-hun-2hz67y",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/kapuvari-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kapuvari Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-r7xhvy": {
+    "seedId": "seed-hun-r7xhvy",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/kiserdei-tanuszoda-fuzesgyarmat/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kiserdei Tanuszoda Fuzesgyarmat",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-659vts": {
+    "seedId": "seed-hun-659vts",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/kisvardai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kisvardai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-u8wrni": {
+    "seedId": "seed-hun-u8wrni",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/kurtgyarmat-tanuszoda-fehergyarmat/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kurtgyarmat Tanuszoda Fehergyarmat",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-np6g82": {
+    "seedId": "seed-hun-np6g82",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/liget-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Liget Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-qq5wte": {
+    "seedId": "seed-hun-qq5wte",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/mezocsat-varosi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Mezocsat Varosi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-jrrc9i": {
+    "seedId": "seed-hun-jrrc9i",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/pannonhalmi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Pannonhalmi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-n3v7c2": {
+    "seedId": "seed-hun-n3v7c2",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/pilisvorosvari-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Pilisvorosvari Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-d5dbpk": {
+    "seedId": "seed-hun-d5dbpk",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/putnoki-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Putnoki Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-f5tn8e": {
+    "seedId": "seed-hun-f5tn8e",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/revesz-laszlo-tanuszoda-balassagyarmat/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Revesz Laszlo Tanuszoda Balassagyarmat",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-mr0i6u": {
+    "seedId": "seed-hun-mr0i6u",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/sarkadi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Sarkadi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-trwr5u": {
+    "seedId": "seed-hun-trwr5u",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/sasd-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Sasd Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-d93a5e": {
+    "seedId": "seed-hun-d93a5e",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/sumegi-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Sumegi Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-4ymxgu": {
+    "seedId": "seed-hun-4ymxgu",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/szentlorinc-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Szentlorinc Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7nowv2": {
+    "seedId": "seed-hun-7nowv2",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/teti-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Teti Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-10i65a": {
+    "seedId": "seed-hun-10i65a",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/tisza-kalman-tanuszoda-baktaloranthaza/",
+        "discoveredAt": "2026-09-25T19:30:04.373Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tisza Kalman Tanuszoda Baktaloranthaza",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fuoty6": {
+    "seedId": "seed-hun-fuoty6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/tiszakecskei-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.374Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tiszakecskei Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ipcnry": {
+    "seedId": "seed-hun-ipcnry",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/tokaji-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.374Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tokaji Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-t8gaim": {
+    "seedId": "seed-hun-t8gaim",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/tolnai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.374Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tolnai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-wazx36": {
+    "seedId": "seed-hun-wazx36",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/varpalotai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.374Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Varpalotai Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-z5t9xe": {
+    "seedId": "seed-hun-z5t9xe",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-tanuszodak",
+        "url": "https://nsu.hu/letesitmeny/zirci-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:30:04.374Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Zirci Tanuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-hh7by0": {
+    "seedId": "seed-hun-hh7by0",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/bajai-sportuszoda/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Bajai Sportuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-cuiqgo": {
+    "seedId": "seed-hun-cuiqgo",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/bitskey_aladar_uszoda/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Bitskey Aladar Uszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-1j144i": {
+    "seedId": "seed-hun-1j144i",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/csaszar-komjadi-sportuszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Csaszar Komjadi Sportuszoda Nemzeti Uszo Es Vizilabda Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-hln45e": {
+    "seedId": "seed-hun-hln45e",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/dagaly-gyogyfurdo-strandfurdo-es-uszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Dagaly Gyogyfurdo Strandfurdo Es Uszoda Nemzeti Uszo Es Vizilabda Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-xdus5e": {
+    "seedId": "seed-hun-xdus5e",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/domotor-zoltan-dunakeszi-sportuszoda/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Domotor Zoltan Dunakeszi Sportuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-3uh4pw": {
+    "seedId": "seed-hun-3uh4pw",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/duna-arena-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Duna Arena Nemzeti Uszo Es Vizilabda Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-63sdvg": {
+    "seedId": "seed-hun-63sdvg",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/hajos-alfred-nemzeti-sportuszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Hajos Alfred Nemzeti Sportuszoda Nemzeti Uszo Es Vizilabda Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-r4my4e": {
+    "seedId": "seed-hun-r4my4e",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/koer-utcai-uszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Koer Utcai Uszoda Nemzeti Uszo Es Vizilabda Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-wc8k5a": {
+    "seedId": "seed-hun-wc8k5a",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/sipos-marton-sportuszoda/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Sipos Marton Sportuszoda",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-e6n80o": {
+    "seedId": "seed-hun-e6n80o",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/szekszardi_strand/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Szekszardi Strand",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-6ipl4y": {
+    "seedId": "seed-hun-6ipl4y",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/tuskecsarnok-es-uszodakomplexum-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tuskecsarnok Es Uszodakomplexum Nemzeti Uszo Es Vizilabda Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-mo7j66": {
+    "seedId": "seed-hun-mo7j66",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-cat-uszodak",
+        "url": "https://nsu.hu/letesitmeny/veszprem-sportuszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T19:30:25.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Veszprem Sportuszoda Nemzeti Uszo Es Vizilabda Olimpiai Kozpont",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-faly86": {
+    "seedId": "seed-hun-faly86",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Babits Mihály Gimnázium Diáksport Egyesület",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "low",
+    "status": "pending"
+  },
+  "seed-hun-4kbvee": {
+    "seedId": "seed-hun-4kbvee",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Bajza Diáksport Egyesület",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "low",
+    "status": "pending"
+  },
+  "seed-hun-uyg3z0": {
+    "seedId": "seed-hun-uyg3z0",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "SZÁDSE Szűcs Sándor Általános Iskola Szabadidő és Diáksport Egyesület",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "low",
+    "status": "pending"
+  },
+  "seed-hun-yfp8q3": {
+    "seedId": "seed-hun-yfp8q3",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Újpesti Csokonai Diáksport Egyesület",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "low",
+    "status": "pending"
+  },
+  "seed-hun-upwl2o": {
+    "seedId": "seed-hun-upwl2o",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Halassy Olivér Városi Uszoda",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-amumry": {
+    "seedId": "seed-hun-amumry",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Kellner Ferenc Sportközpont – Madárfészek Ökölvívó Akadémia Újpest",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-nu54tw": {
+    "seedId": "seed-hun-nu54tw",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Négyévszakos sípálya",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-y3hz1l": {
+    "seedId": "seed-hun-y3hz1l",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Szilágyi úti és Tábor utcai Sporttelep",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-mkmvyw": {
+    "seedId": "seed-hun-mkmvyw",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Bánka Kristóf Sportközpont",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-l2eic1": {
+    "seedId": "seed-hun-l2eic1",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Fővárosi Vízművek Sporttelep",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ecl7ch": {
+    "seedId": "seed-hun-ecl7ch",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Hodos Tamás Budapesti Tollaslabda Csarnok",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-itth14": {
+    "seedId": "seed-hun-itth14",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "football",
+    "initialFacts": {
+      "name": "Szusza Ferenc Stadion",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-oj3osl": {
+    "seedId": "seed-hun-oj3osl",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "UTE Megyeri Úti Sporttelep",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-49wpre": {
+    "seedId": "seed-hun-49wpre",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-25T19:31:07.932Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "ice-sports",
+    "initialFacts": {
+      "name": "Vasas Jégcentrum",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-r49hgz": {
+    "seedId": "seed-hun-r49hgz",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-bp13-sport",
+        "url": "https://sport13.hu/sites/velencei-gyermek-es-ifjusagi-tabor-velencei-gyermektabor/",
+        "discoveredAt": "2026-09-25T19:31:28.746Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Velencei Gyermektábor",
+      "address": "2481 Velence Széchenyi út 13., Hungary",
+      "contact": {
+        "phone": "22/472-301",
+        "website": "https://sport13.hu/sites/velencei-gyermek-es-ifjusagi-tabor-velencei-gyermektabor/"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-br1oso": {
+    "seedId": "seed-hun-br1oso",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-bp13-sport",
+        "url": "https://sport13.hu/sites/radnoti-utcai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:31:28.747Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Radnóti Miklós utcai Tanuszoda",
+      "address": "1136 Budapest Radnóti Miklós utca 33-35., Hungary",
+      "contact": {
+        "website": "https://sport13.hu/sites/radnoti-utcai-tanuszoda/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-tv4y0n": {
+    "seedId": "seed-hun-tv4y0n",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-bp13-sport",
+        "url": "https://sport13.hu/sites/nover-utcai-tanuszoda/",
+        "discoveredAt": "2026-09-25T19:31:28.747Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Nővér utcai Tanuszoda",
+      "address": "1138 Budapest Nővér utca 15., Hungary",
+      "contact": {
+        "website": "https://sport13.hu/sites/nover-utcai-tanuszoda/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-g929u3": {
+    "seedId": "seed-hun-g929u3",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-bp13-sport",
+        "url": "https://sport13.hu/sites/ujpalotai-uti-sporttelep/",
+        "discoveredAt": "2026-09-25T19:31:28.747Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Újpalotai úti Sporttelep",
+      "address": "1131 Budapest Újpalotai út 13., Hungary",
+      "contact": {
+        "website": "https://sport13.hu/sites/ujpalotai-uti-sporttelep/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-uobfjd": {
+    "seedId": "seed-hun-uobfjd",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-bp13-sport",
+        "url": "https://sport13.hu/sites/petofi-sandor-napkozis-tabor-margitszigeti-gyermektabor/",
+        "discoveredAt": "2026-09-25T19:31:28.747Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Margitszigeti Gyermektábor",
+      "address": "1138 Budapest Margitsziget, Hungary",
+      "contact": {
+        "website": "https://sport13.hu/sites/petofi-sandor-napkozis-tabor-margitszigeti-gyermektabor/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-z8o6ys": {
+    "seedId": "seed-hun-z8o6ys",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-bp13-sport",
+        "url": "https://sport13.hu/sites/nepszigeti-gyermek-es-ifjusagi-tabor-nepszigeti-gyermektabor/",
+        "discoveredAt": "2026-09-25T19:31:28.747Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Népszigeti Gyermek- és Ifjúsági Tábor",
+      "address": "1138 Budapest Népsziget út 6., Hungary",
+      "contact": {
+        "website": "https://sport13.hu/sites/nepszigeti-gyermek-es-ifjusagi-tabor-nepszigeti-gyermektabor/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-l08g44": {
+    "seedId": "seed-hun-l08g44",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-bp13-sport",
+        "url": "https://sport13.hu/sites/angyalfoldi-sportkozpont-ask/",
+        "discoveredAt": "2026-09-25T19:31:28.747Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Angyalföldi Sportközpont",
+      "address": "1139 Budapest Rozsnyay utca 4., Hungary",
+      "contact": {
+        "website": "https://sport13.hu/sites/angyalfoldi-sportkozpont-ask/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-az9thu": {
+    "seedId": "seed-hun-az9thu",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-hegyvidek-sport",
+        "url": "https://hegyvideksport.hu/",
+        "discoveredAt": "2026-09-25T19:31:50.993Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Városmajori Tanuszoda",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://hegyvideksport.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ka2cwu": {
+    "seedId": "seed-hun-ka2cwu",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-hegyvidek-sport",
+        "url": "https://hegyvideksport.hu/",
+        "discoveredAt": "2026-09-25T19:31:50.993Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Hegyvidéki Sportközpont és Tanuszoda",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://hegyvideksport.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-z99krw": {
+    "seedId": "seed-hun-z99krw",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-hegyvidek-sport",
+        "url": "http://hegyvidekiuszoiskola.hu/",
+        "discoveredAt": "2026-09-25T19:31:50.993Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tanuszoda",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "http://hegyvidekiuszoiskola.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-etz52j": {
+    "seedId": "seed-hun-etz52j",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-obuda-letesitmenyek",
+        "url": "https://obudasport.hu/letesitmenyeink",
+        "discoveredAt": "2026-09-25T19:32:11.638Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Szabadidőpark",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://obudasport.hu/letesitmenyeink"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-wt5p8y": {
+    "seedId": "seed-hun-wt5p8y",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-obuda-letesitmenyek",
+        "url": "https://obudasport.hu/letesitmenyeink",
+        "discoveredAt": "2026-09-25T19:32:11.638Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Római parti Vendégház",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://obudasport.hu/letesitmenyeink"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-dyti5v": {
+    "seedId": "seed-hun-dyti5v",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-obuda-letesitmenyek",
+        "url": "https://obudasport.hu/letesitmenyeink",
+        "discoveredAt": "2026-09-25T19:32:11.638Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Óbudai Strand",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://obudasport.hu/letesitmenyeink"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ukt3nd": {
+    "seedId": "seed-hun-ukt3nd",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-obuda-letesitmenyek",
+        "url": "https://obudasport.hu/letesitmenyeink",
+        "discoveredAt": "2026-09-25T19:32:11.638Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Gladiátor Pihenőpark",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://obudasport.hu/letesitmenyeink"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-m9rosq": {
+    "seedId": "seed-hun-m9rosq",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-obuda-letesitmenyek",
+        "url": "https://obudasport.hu/letesitmenyeink",
+        "discoveredAt": "2026-09-25T19:32:11.638Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Siófok-Sóstó Motel",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://obudasport.hu/letesitmenyeink"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-3a0x1v": {
+    "seedId": "seed-hun-3a0x1v",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-obuda-letesitmenyek",
+        "url": "https://obudasport.hu/letesitmenyeink/obudai-szabadidopark",
+        "discoveredAt": "2026-09-25T19:32:11.638Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Óbudai Szabadidőpark",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://obudasport.hu/letesitmenyeink/obudai-szabadidopark"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-uisr9l": {
+    "seedId": "seed-hun-uisr9l",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-altalanos",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/altalanos-iskolak/",
+        "discoveredAt": "2026-09-25T19:32:32.046Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XIII. Kerületi Fischer Annie Zenei Alapfokú Művészeti Iskola",
+      "address": "1136 Budapest Hollán Ernő utca 21/b, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-w1ed8y": {
+    "seedId": "seed-hun-w1ed8y",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-altalanos",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/altalanos-iskolak/",
+        "discoveredAt": "2026-09-25T19:32:32.046Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "PRIZMA Általános Iskola és Óvoda Egységes Gyógypedagógiai Módszertani Intézmény",
+      "address": "1134 Budapest Váci út 57., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-k11mn6": {
+    "seedId": "seed-hun-k11mn6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-altalanos",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/altalanos-iskolak/",
+        "discoveredAt": "2026-09-25T19:32:32.046Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XIII. Kerületi Eötvös József Általános Iskola",
+      "address": "1131 Budapest Futár utca 18., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-q2ai2z": {
+    "seedId": "seed-hun-q2ai2z",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-altalanos",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/altalanos-iskolak/",
+        "discoveredAt": "2026-09-25T19:32:32.046Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XIII. Kerületi Hegedüs Géza Általános Iskola",
+      "address": "1139 Budapest Fiastyúk utca 47-49., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-q2jjw6": {
+    "seedId": "seed-hun-q2jjw6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-altalanos",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/altalanos-iskolak/",
+        "discoveredAt": "2026-09-25T19:32:32.046Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XIII. Kerületi Pannónia Német Nemzetiségi Kétnyelvű és Angol Nyelvet Oktató Általános Iskola",
+      "address": "1133 Budapest Tutaj utca 7-11., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-b3ad1c": {
+    "seedId": "seed-hun-b3ad1c",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-altalanos",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/altalanos-iskolak/",
+        "discoveredAt": "2026-09-25T19:32:32.046Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XIII. Kerületi Herman Ottó Általános Iskola",
+      "address": "1137 Budapest Radnóti Miklós utca 35., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-yjpmxp": {
+    "seedId": "seed-hun-yjpmxp",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-altalanos",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/altalanos-iskolak/",
+        "discoveredAt": "2026-09-25T19:32:32.046Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XIII. Kerületi Gárdonyi Géza Általános Iskola",
+      "address": "1137 Budapest Radnóti Miklós utca 8-10., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-lxj5up": {
+    "seedId": "seed-hun-lxj5up",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-altalanos",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/altalanos-iskolak/",
+        "discoveredAt": "2026-09-25T19:32:32.046Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XIII. Kerületi Vizafogó Általános Iskola",
+      "address": "1138 Budapest Vizafogó sétány 2., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-at96ae": {
+    "seedId": "seed-hun-at96ae",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-kozep",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/kozepiskolak/",
+        "discoveredAt": "2026-09-25T19:32:52.531Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "BMSZC Verebély László Technikum",
+      "address": "1139 Budapest Üteg utca 15., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-8m409f": {
+    "seedId": "seed-hun-8m409f",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-kozep",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/kozepiskolak/",
+        "discoveredAt": "2026-09-25T19:32:52.531Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Szinergia Szakgimnázium és Szakközépiskola - Szinergia Budapest Taverna Tagintézménye",
+      "address": "1133 Budapest Dráva utca 18-22., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-j0krhg": {
+    "seedId": "seed-hun-j0krhg",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-kozep",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/kozepiskolak/",
+        "discoveredAt": "2026-09-25T19:32:52.531Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "BGSZC. Magyar Hajózási Szakgimnáziuma és Szakközépiskolája",
+      "address": "1131 Budapest Jász utca 155., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-hjhwys": {
+    "seedId": "seed-hun-hjhwys",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-kozep",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/kozepiskolak/",
+        "discoveredAt": "2026-09-25T19:32:52.531Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "BGSZC. Károlyi Mihály Két Tanítási Nyelvű Közgazdasági Szakgimnáziuma",
+      "address": "1139 Budapest Váci út 89., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-pjyrsg": {
+    "seedId": "seed-hun-pjyrsg",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-kozep",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/kozepiskolak/",
+        "discoveredAt": "2026-09-25T19:32:52.531Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "BGSZC. Katona József Szakgimnáziuma, Szakközépiskolája és Felnőttoktatási Gimnázium",
+      "address": "1138 Budapest Váci út 107., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-g8el3m": {
+    "seedId": "seed-hun-g8el3m",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-kozep",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/kozepiskolak/",
+        "discoveredAt": "2026-09-25T19:32:52.531Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "BGSZC. Bánki Donát Közlekedésgépészeti Szakgimnáziuma és Szakközépiskolája",
+      "address": "1138 Budapest Váci út 179-183, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-e27ua6": {
+    "seedId": "seed-hun-e27ua6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-kozep",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/kozepiskolak/",
+        "discoveredAt": "2026-09-25T19:32:52.531Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Forrai Gimnázium és Művészeti Szakgimnázium",
+      "address": "1139 Budapest Lomb utca 41., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-f80mbj": {
+    "seedId": "seed-hun-f80mbj",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp13-kozep",
+        "url": "https://www.budapest13.hu/intezmeny-kategoria/kozepiskolak/",
+        "discoveredAt": "2026-09-25T19:32:52.531Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Európa Alapítány Gimnázium /EAKI/",
+      "address": "1136 Budapest Balzac utca 7., Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-y1jdd6": {
+    "seedId": "seed-hun-y1jdd6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-hegyvidek",
+        "url": "https://www.hegyvidek.hu/elet-a-hegyvideken/oktatas-neveles/iskolak",
+        "discoveredAt": "2026-09-25T19:33:14.276Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Sashegyi Arany János Általános Iskola és Gimnázium",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "low",
+    "status": "pending"
+  },
+  "seed-hun-95l7hq": {
+    "seedId": "seed-hun-95l7hq",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-hegyvidek",
+        "url": "https://www.hegyvidek.hu/elet-a-hegyvideken/oktatas-neveles/iskolak",
+        "discoveredAt": "2026-09-25T19:33:14.276Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Városmajori Kós Károly Általános Iskola",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "low",
+    "status": "pending"
+  },
+  "seed-hun-r6zakh": {
+    "seedId": "seed-hun-r6zakh",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-hegyvidek",
+        "url": "https://www.hegyvidek.hu/elet-a-hegyvideken/oktatas-neveles/iskolak",
+        "discoveredAt": "2026-09-25T19:33:14.276Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Britannica Angolnyelvű Nemzetközi Általános Iskola és Gimnázium – Britannica International School",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "low",
+    "status": "pending"
+  },
+  "seed-hun-dp4j8x": {
+    "seedId": "seed-hun-dp4j8x",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "schools-hegyvidek",
+        "url": "https://www.hegyvidek.hu/elet-a-hegyvideken/oktatas-neveles/iskolak",
+        "discoveredAt": "2026-09-25T19:33:14.276Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "BGSZC Budai Gimnázium és Szakgimnázium",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "low",
+    "status": "pending"
   }
 }

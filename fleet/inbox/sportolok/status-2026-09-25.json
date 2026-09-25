@@ -1,30 +1,37 @@
 {
   "clientId": "sportolok",
-  "observedAt": "2026-09-25T19:15:07Z",
+  "observedAt": "2026-09-25T19:34:06Z",
   "source": "sportolok-agent",
   "workingEnv": {
-    "timerSubscribed": false,
     "ingestOnlyDoctrine": true,
-    "ingestOnlyReality": "about_media_quality_loop_wired",
     "quarantineActive": true,
-    "executorIngestLivePatchProven": true,
     "catalogJobsWired": true,
-    "pendingSeedsDrained": true,
-    "addressDeepenShipped": true,
-    "fairUseDetailJsonLd": true,
+    "nsuAllVenueTypes": true,
+    "onkormanyzatSources": true,
+    "schoolSources": true,
     "releaseBranchCommitsStopped": "acknowledged"
   },
   "outcomes": {
     "MM_SP": {
-      "D": 26,
+      "D": 46,
       "E": 5,
       "P": 8
     },
-    "street_level_addresses": "18/26",
-    "false_rejects_rescued": 2,
-    "wire_real_catalog_jobs": "done",
-    "fair_use_detail_address_deepen": "done_partial_source_limited",
-    "release_branch_reconcile_status": "pending_core"
+    "one_pass_candidates": 247,
+    "pending_seeds": 201,
+    "activity_types": {
+      "swimming": 143,
+      "various": 44,
+      "handball": 17,
+      "water-sports": 8,
+      "training-camp": 4,
+      "ice-sports": 3,
+      "football": 2,
+      "fitness": 1,
+      "martial": 1,
+      "school-sport": 24
+    },
+    "nsu_catalog_facilities": 92
   },
   "openDebt": [
     {
@@ -32,16 +39,20 @@
       "n": 1
     },
     {
-      "kind": "source_street_gaps",
-      "n": 8,
-      "note": "some magyaruszodak detail pages genuinely lack streetAddress in JSON-LD"
+      "kind": "enrich_remaining_pending",
+      "n": 201
+    },
+    {
+      "kind": "more_district_onkormanyzat_pages",
+      "n": 1,
+      "note": "add further ker\u00fclet sport/int\u00e9zm\u00e9ny pages as found"
     }
   ],
   "evidence": [
+    "content.sportolok/scripts/fair-use-discovery/sources.json",
+    "content.sportolok/scripts/fair-use-discovery/lib/sources/nsuCatalog.ts",
     "content.sportolok/scripts/fair-use-discovery/lib/hungarianExtract.ts",
-    "content.sportolok/scripts/fair-use-discovery/deepen-addresses.ts",
-    "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json",
-    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-25.json"
+    "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json"
   ],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content/pull/30"
