@@ -1,0 +1,77 @@
+{
+  "client": "sportolok",
+  "date": "2026-09-25",
+  "timestamp": "2026-09-25T03:38:00Z",
+  "environment": {
+    "agentFolder": "content.sportolok",
+    "managementRepo": "moldovancsaba/management",
+    "managementBranch": "release/sportolok",
+    "siteUrl": "https://sport.doneisbetter.com",
+    "llm": "Cloud Agent (YOU) — NO OLLAMA, NO AI GATEWAY, NO EXTERNAL LLM"
+  },
+  "milestone": {
+    "name": "OLLAMA PURGE + PADEL-AFRICA PATTERN IMPLEMENTATION",
+    "status": "COMPLETE",
+    "commits": [
+      "f3cb5cf - feat(sportolok): implement padel-africa job structure with Cloud Agent as LLM",
+      "4605188 - docs(sportolok): OLLAMA purge complete, padel-africa pattern implemented"
+    ]
+  },
+  "architecture": {
+    "llm": "Cloud Agent performs ALL cognitive tasks",
+    "writePath": "POST /api/ingest only (no direct Mongo)",
+    "jobStructure": "Follows content.padelafrica pattern exactly",
+    "ollamaStatus": "100% purged from sportolok agent runtime",
+    "validation": "RecurringSlot singular weekday via Zod schemas"
+  },
+  "filesCreated": [
+    "ingest/client.ts",
+    "ingest/content-data-contract.md",
+    "scripts/catalog-quality-loop-ingest.ts",
+    "src/QUARANTINE.md",
+    "timers/orchestrator.md",
+    "docs/OLLAMA-PURGE-CHECKLIST.md"
+  ],
+  "filesUpdated": [
+    "AGENTS.md",
+    "package.json",
+    "pointers.json",
+    "fleet/coordination/sportolok.md"
+  ],
+  "quarantine": {
+    "status": "DOCUMENTED",
+    "reason": "Direct Mongo writes caused production outage on sport.doneisbetter.com/browse",
+    "solution": "All writes via POST /api/ingest with Zod validation",
+    "remaining": "Quarantined code in src/ not yet rewritten to ingest"
+  },
+  "ollama": {
+    "sportolokAgent": "CLEAN - zero active references",
+    "managementRepo": "40+ deprecated files documented in OLLAMA-PURGE-CHECKLIST.md",
+    "deprecatedCrons": [
+      "src/app/api/cron/content-intelligence-autopilot/route.ts",
+      "src/app/api/cron/research-fields-reverify/route.ts",
+      "src/app/api/cron/curator/route.ts"
+    ],
+    "coreTeamAction": "Clean deprecated Ollama routes, test files, and docs"
+  },
+  "nextSteps": [
+    "Implement actual quality-loop logic in catalog-quality-loop-ingest.ts",
+    "Cloud Agent performs quality scoring on published listings",
+    "Cloud Agent writes improved About descriptions from evidence",
+    "Test dry PATCH via ingest client",
+    "Execute quality improvements via POST /api/ingest"
+  ],
+  "documentation": {
+    "fleetCoordination": "fleet/coordination/sportolok.md",
+    "ollamaPurge": "content.sportolok/docs/OLLAMA-PURGE-CHECKLIST.md",
+    "quarantine": "content.sportolok/src/QUARANTINE.md",
+    "dataContract": "content.sportolok/ingest/content-data-contract.md",
+    "agentsGuide": "content.sportolok/AGENTS.md"
+  },
+  "kpis": {
+    "ollamaRefsRemoved": "100% from sportolok agent",
+    "jobStructureAlignment": "100% matches content.padelafrica",
+    "ingestImplementation": "Client helpers complete, quality-loop stub ready",
+    "documentationAccuracy": "All claims retracted, reality documented"
+  }
+}
