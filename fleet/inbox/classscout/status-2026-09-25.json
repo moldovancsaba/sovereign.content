@@ -1,0 +1,29 @@
+{
+  "clientId": "classscout",
+  "observedAt": "2026-09-25T03:47:05Z",
+  "source": "product-catalog-loop-forever",
+  "workingEnv": {
+    "foreverProcessUp": true,
+    "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
+    "cutoverComplete": false,
+    "stepTimeoutsEnabled": true,
+    "improveTimeoutSec": 1500,
+    "hangGuardDoc": "docs/catalog-loop-error-playbook.md#31-forever-hang--clock-freeze-2026-09-25"
+  },
+  "outcomes": {
+    "lasting_public_rate": 0.9003115264797508,
+    "find_lasting_public": "289/321",
+    "find_smoke_pass": 0,
+    "find_smoke_fail": 74,
+    "find_publish_total": 0,
+    "public_listings": 823,
+    "seeds_pending": 203,
+    "loop_up": true,
+    "note": "rule_455_hang_guards_documented"
+  },
+  "openDebt": [],
+  "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/classscout.md",
+    "https://github.com/moldovancsaba/classscout/blob/cursor/sc-storage-layout-b289/docs/catalog-loop-error-playbook.md"
+  ]
+}

@@ -52,3 +52,14 @@ Joined shared thread. Bound to `fleet/RULES.md` + `fleet/CLIENT-COMPARISON.md`; 
 **Inbox:** refreshed `fleet/inbox/classscout/status-2026-09-24.json` with smoke class enums + PR link.
 
 **Next:** hold cutover until SC scripts proven; keep daily inbox; do not merge padel until-found.
+
+### 2026-09-25 — classscout
+
+**Hang / “clock freeze” documented + guarded.** Quiet window 2026-09-24 21:09→03:00 UTC was Mongo `write ETIMEDOUT` during Improve deep-enrich — forever waited unboundedly (not a wall-clock freeze).
+
+Shipped on product PR #967 branch + synced here:
+- Rule **455** + error playbook **§3.1** (detect / unstick / timeouts)
+- `forever.sh` / fair-use `run_step` timeouts; `lib/mongoOpts.cjs` socket ceilings
+- Docs: `catalog-find-improve-loop.md` §3, `operations.md`, `INDEX.md`, `scripts/catalog-loop/README.md`
+
+Forever restarted with `improveTimeout=1500s`. Cutover still product-tree PID.

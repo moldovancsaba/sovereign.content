@@ -92,8 +92,54 @@ Hourly scorecard fields (after the same date): `fair_use_attempt` · `fair_use_r
 | Improve applied HTML trial chrome | Raw HTML attribute snippets (`FREE TRIAL CLASS">`, `trial class?`) | Trial match on stripped text; reject attribute junk / bare FAQ scraps | Public trialPolicy must read as parent-facing offer copy |
 | Fair-use `no_activity_mapped` on scarce sports | Mapper missed volleyball / capoeira / aikido / … | Expand `mapActivityTypes` for scarcity-brief sports | Still never invent a default activity |
 | Find retry loop on venues already in catalog | Ingest `duplicate source URL` after image work | Pre-check `website`/`sourceUrls`; mark seed done on that reject | Do not count as a Find invent failure |
+| Forever “clock freeze” (~6h quiet, 2026-09-24→25) | Mongo `write ETIMEDOUT` during Improve deep-enrich; `forever.sh` waited unboundedly on the child so `events.jsonl` stopped advancing | Step `timeout` wrappers in `forever.sh` / fair-use forever; Mongo socket ceilings via `lib/mongoOpts.cjs`; kill hung child or restart forever | Treat stale `events.jsonl` mtime as a hang signal — not a frozen wall clock. See §3.1 |
 
 ---
+
+## 3.1 Forever hang / “clock freeze” (2026-09-25)
+
+**Symptom:** `ps` still shows `forever.sh` / `improve-cycle`, but `data/events.jsonl` and
+`data/logs/forever.out` stop advancing for hours. Ops look like “nothing ran.”
+
+**Cause:** Not a system clock freeze. The outer loop is **synchronous** — each step blocks the
+next. A hung Mongo write (`Error: write ETIMEDOUT` in `forever.out`, often mid `deep-enrich` /
+`improve-cycle`) holds the whole cycle. Fair-use can go quiet in the same network incident.
+
+**Detect**
+
+```bash
+stat -c '%y' scripts/catalog-loop/data/events.jsonl
+rg 'ETIMEDOUT' scripts/catalog-loop/data/logs/forever.out | tail
+pgrep -af 'improve-cycle|deep-enrich|one-pass|forever.sh'
+```
+
+If `events.jsonl` mtime is older than ~30–40 minutes while forever PIDs are up → assume hang.
+
+**Unstick**
+
+```bash
+pkill -f 'scripts/catalog-loop/improve-cycle.cjs' || true
+pkill -f 'scripts/catalog-loop/deep-enrich-scan.mjs' || true
+pkill -f 'scripts/catalog-loop/rqk-fair-use/one-pass.cjs' || true
+# If the parent is still wedged:
+pkill -f 'scripts/catalog-loop/forever.sh' || true
+pkill -f 'scripts/catalog-loop/rqk-fair-use/forever.sh' || true
+nohup bash scripts/catalog-loop/forever.sh >> scripts/catalog-loop/data/logs/forever.out 2>&1 &
+nohup bash scripts/catalog-loop/rqk-fair-use/forever.sh >> scripts/catalog-loop/data/logs/fair-use-forever.out 2>&1 &
+```
+
+**Durable guards (shipped 2026-09-25)**
+
+| Guard | Where | Default |
+| --- | --- | --- |
+| Per-step `timeout` | `scripts/catalog-loop/forever.sh` (`run_step`) | Improve **1500s**; Find/reclassify **900s**; other steps **600s** |
+| Fair-use pass `timeout` | `scripts/catalog-loop/rqk-fair-use/forever.sh` | **1800s** (`FAIR_USE_PASS_TIMEOUT_SEC`) |
+| Mongo socket ceilings | `scripts/catalog-loop/lib/mongoOpts.cjs` on Improve hot path | connect/serverSelection **15s**; socket **60s** |
+
+Override: `CATALOG_STEP_TIMEOUT_IMPROVE`, `CATALOG_STEP_TIMEOUT_FIND`,
+`CATALOG_STEP_TIMEOUT_RECLASSIFY`, `CATALOG_STEP_TIMEOUT_DEFAULT`,
+`CATALOG_MONGO_SOCKET_MS` (and siblings). Details:
+[`scripts/catalog-loop/README.md`](../scripts/catalog-loop/README.md) · rule **455**.
 
 ## 4. Day-by-day operating checklist
 
@@ -143,6 +189,8 @@ Hourly scorecard fields (after the same date): `fair_use_attempt` · `fair_use_r
 | Recommendations | `scripts/catalog-loop/recommend-improve.cjs` + `scripts/catalog-loop/data/recommendations.json` |
 | Hourly funnel | `scripts/catalog-loop/quality-rollup.cjs` |
 | Machine lessons | `scripts/catalog-loop/lessons.json` |
+| Forever step timeouts / hang unstick | `scripts/catalog-loop/forever.sh` (`run_step`) · `rqk-fair-use/forever.sh` |
+| Mongo socket ceilings (Improve hot path) | `scripts/catalog-loop/lib/mongoOpts.cjs` |
 
 ---
 
@@ -154,3 +202,11 @@ Hourly scorecard fields (after the same date): `fair_use_attempt` · `fair_use_r
 4. Document it in **§2** of this playbook with Do / Do not.
 5. If N≥3/24h should auto-pause or lesson — extend `encode-lessons.cjs`.
 6. Cover with a unit test in `rqk-fair-use/test/` or `src/lib/catalogLoop/`.
+
+---
+
+## 8. Related
+
+- Rule **455** — forever hang / step timeouts (`business-rules.md`)
+- [`catalog-find-improve-loop.md`](catalog-find-improve-loop.md) §3 health checks
+- [`scripts/catalog-loop/README.md`](../scripts/catalog-loop/README.md) — quick unstick

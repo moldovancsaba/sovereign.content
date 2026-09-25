@@ -5,10 +5,10 @@
 # Refreshes the scarcity research brief once per UTC hour so discovery pages
 # prefer thin neighborhoods and scarce sport activities.
 set -euo pipefail
-PRODUCT_ROOT="${CLASSSCOUT_PRODUCT_ROOT:-/workspace}"; cd "$PRODUCT_ROOT"
-export NODE_PATH="${NODE_PATH:+$NODE_PATH:}$PRODUCT_ROOT/node_modules"
-DIR="$(cd "$(dirname "$0")" && pwd)"
-LOOP_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+cd /workspace
+export NODE_PATH=/workspace/node_modules
+DIR=/workspace/scripts/catalog-loop/rqk-fair-use
+LOOP_DIR=/workspace/scripts/catalog-loop
 # Floor sleep AFTER a full multi-source pass (per-source cooldown may skip many inside the pass)
 SLEEP_SEC="${FAIR_USE_PASS_SLEEP_SEC:-${RQK_SLEEP_SEC:-300}}"
 # Delay between sources inside one pass (only when a source actually fetches)
@@ -28,15 +28,37 @@ if [ "${FAIR_USE_CHECK_ROBOTS_ON_START:-${RQK_CHECK_ROBOTS_ON_START:-0}}" = "1" 
   sleep "$SLEEP_SEC"
 fi
 
+# Pass ceiling so a hung fetch/Mongo write cannot freeze the fair-use clock.
+PASS_TIMEOUT_SEC="${FAIR_USE_PASS_TIMEOUT_SEC:-1800}"
+
+run_pass() {
+  local label="$1"
+  shift
+  echo "---- $label (timeout ${PASS_TIMEOUT_SEC}s) $(date -u +%Y-%m-%dT%H:%M:%SZ) ----"
+  set +e
+  timeout --foreground -k 30s "${PASS_TIMEOUT_SEC}s" "$@"
+  local rc=$?
+  set -e
+  if [ "$rc" -eq 0 ]; then
+    return 0
+  fi
+  if [ "$rc" -eq 124 ] || [ "$rc" -eq 137 ]; then
+    echo "WARN $label timed out after ${PASS_TIMEOUT_SEC}s (rc=$rc) — continuing fair-use forever" >&2
+  else
+    echo "WARN $label exited rc=$rc — continuing" >&2
+  fi
+  return 0
+}
+
 while true; do
   HOUR="$(date -u +%Y-%m-%dT%H)"
   if [ "$HOUR" != "$LAST_BRIEF_HOUR" ]; then
     echo "==== scarcity research brief $(date -u +%Y-%m-%dT%H:%M:%SZ) ===="
-    node "$LOOP_DIR/scarcity-research-brief.cjs" || true
+    run_pass scarcity-brief node "$LOOP_DIR/scarcity-research-brief.cjs"
     LAST_BRIEF_HOUR="$HOUR"
   fi
   echo "==== $(date -u +%Y-%m-%dT%H:%M:%SZ) multi-source pass (1 lead/page per source) ===="
-  node "$DIR/one-pass.cjs" || true
+  run_pass one-pass node "$DIR/one-pass.cjs"
   echo "==== sleep ${SLEEP_SEC}s ===="
   sleep "$SLEEP_SEC"
 done
