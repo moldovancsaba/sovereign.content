@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-09-25",
-  "description": "Padel Africa fair-use multi-source feeder. Directories are citation/discovery paths only — official club websites are the Find/ingest target. One HTTP page per source per pass.",
+  "description": "Padel Africa fair-use multi-source feeder. Directories/events/shops are citation/discovery paths only \u2014 official club websites are the Find/ingest target. One HTTP page per source per pass. Expanded 2026-09-25 with +20 global venue/event/shop sources.",
   "defaultInterSourceSec": 45,
   "defaultPassSleepSec": 300,
   "defaultCooldownSec": 600,
@@ -39,7 +39,9 @@
         "https://www.analistaspadel.com/",
         "https://www.analistaspadel.com/padel-en-africa/"
       ],
-      "detailHrefPatterns": ["analistaspadel\\.com/.+"],
+      "detailHrefPatterns": [
+        "analistaspadel\\.com/.+"
+      ],
       "notes": "Spanish-language expansion coverage (GQ)."
     },
     {
@@ -52,7 +54,9 @@
         "https://www.padelwithoutborders.com/",
         "https://www.padelwithoutborders.com/category/africa/"
       ],
-      "detailHrefPatterns": ["padelwithoutborders\\.com/.+"],
+      "detailHrefPatterns": [
+        "padelwithoutborders\\.com/.+"
+      ],
       "notes": "Country overviews + operator names (LY)."
     },
     {
@@ -67,7 +71,9 @@
         "https://ballejaune.com/cote-divoire/",
         "https://ballejaune.com/maroc/"
       ],
-      "detailHrefPatterns": ["ballejaune\\.com/.+"],
+      "detailHrefPatterns": [
+        "ballejaune\\.com/.+"
+      ],
       "notes": "Francophone West Africa club cards + contact (SN)."
     },
     {
@@ -80,7 +86,9 @@
         "https://playtomic.com/clubs",
         "https://playtomic.io/"
       ],
-      "detailHrefPatterns": ["playtomic\\.(com|io)/clubs/"],
+      "detailHrefPatterns": [
+        "playtomic\\.(com|io)/clubs/"
+      ],
       "notes": "Bookable clubs where Playtomic operates (ZA, MA, EG, KE). SPA pages may soft-skip."
     },
     {
@@ -89,8 +97,12 @@
       "kind": "booking",
       "base": "https://www.matchpoint.com.es",
       "cooldownSec": 900,
-      "discoveryPages": ["https://www.matchpoint.com.es/"],
-      "detailHrefPatterns": ["matchpoint\\.com"],
+      "discoveryPages": [
+        "https://www.matchpoint.com.es/"
+      ],
+      "detailHrefPatterns": [
+        "matchpoint\\.com"
+      ],
       "notes": "Club booking microsites (SN Dakar Padel Club)."
     },
     {
@@ -99,8 +111,12 @@
       "kind": "directory",
       "base": "https://padel.co.ma",
       "cooldownSec": 600,
-      "discoveryPages": ["https://padel.co.ma/annuaire-des-clubs/"],
-      "detailHrefPatterns": ["padel\\.co\\.ma/"],
+      "discoveryPages": [
+        "https://padel.co.ma/annuaire-des-clubs/"
+      ],
+      "detailHrefPatterns": [
+        "padel\\.co\\.ma/"
+      ],
       "notes": "Morocco national club directory (worked for Casablanca samples)."
     },
     {
@@ -115,8 +131,315 @@
         "https://actu-padel.com/en/directory/country/senegal/",
         "https://actu-padel.com/en/directory/country/south-africa/"
       ],
-      "detailHrefPatterns": ["actu-padel\\.com/.+/padel-club/[\\w-]+"],
+      "detailHrefPatterns": [
+        "actu-padel\\.com/.+/padel-club/[\\w-]+"
+      ],
       "notes": "Africa club directory cards; citation only."
+    },
+    {
+      "id": "padelrevive",
+      "name": "PadelRevive",
+      "kind": "directory",
+      "base": "https://padelrevive.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://padelrevive.com/padel-clubs-in-africa/",
+        "https://padelrevive.com/padel-in-kenya/",
+        "https://padelrevive.com/padel-clubs-in-asia/"
+      ],
+      "detailHrefPatterns": [
+        "padelrevive\\.com/padel-in-",
+        "padelrevive\\.com/.+club"
+      ],
+      "notes": "Mapped Africa/Asia/Gulf club directories with CSV dataset; citation \u2192 official club/booking URL."
+    },
+    {
+      "id": "findapadelcourt-za",
+      "name": "Find a Padel Court SA",
+      "kind": "directory",
+      "base": "https://findapadelcourt.co.za",
+      "cooldownSec": 600,
+      "discoveryPages": [
+        "https://findapadelcourt.co.za/",
+        "https://findapadelcourt.co.za/cape-town",
+        "https://findapadelcourt.co.za/johannesburg"
+      ],
+      "detailHrefPatterns": [
+        "findapadelcourt\\.co\\.za/"
+      ],
+      "notes": "South Africa venue finder (200+ venues); book-direct links."
+    },
+    {
+      "id": "africapadel",
+      "name": "Africa Padel",
+      "kind": "directory",
+      "base": "https://www.africapadel.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.africapadel.com/"
+      ],
+      "detailHrefPatterns": [
+        "africapadel\\.com/"
+      ],
+      "notes": "Largest SA padel club group (19 clubs) \u2014 operator network listing."
+    },
+    {
+      "id": "padelivu",
+      "name": "Padelivu",
+      "kind": "directory",
+      "base": "https://padelivu.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://padelivu.com/clubs",
+        "https://padelivu.com/clubs?page=2",
+        "https://padelivu.com/"
+      ],
+      "detailHrefPatterns": [
+        "padelivu\\.com/clubs/",
+        "padelivu\\.com/club/"
+      ],
+      "notes": "Global club map (~6k clubs / 90 countries); SPA \u2014 harvest may need citation inbox."
+    },
+    {
+      "id": "padelmap",
+      "name": "PadelMap.NET",
+      "kind": "directory",
+      "base": "https://padelmap.net",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://padelmap.net/",
+        "https://padelmap.net/courts/south-africa",
+        "https://padelmap.net/courts/egypt",
+        "https://padelmap.net/courts/morocco",
+        "https://padelmap.net/courts/kenya",
+        "https://padelmap.net/courts/united-arab-emirates"
+      ],
+      "detailHrefPatterns": [
+        "padelmap\\.net/courts/",
+        "padelmap\\.net/club"
+      ],
+      "notes": "Court counts by city/country (incl. UAE, Africa)."
+    },
+    {
+      "id": "padel-llc",
+      "name": "padel.llc OSM facilities",
+      "kind": "map",
+      "base": "https://padel.llc",
+      "cooldownSec": 1200,
+      "discoveryPages": [
+        "https://padel.llc/"
+      ],
+      "detailHrefPatterns": [
+        "padel\\.llc/"
+      ],
+      "notes": "8k+ OSM sport=padel facilities clustered; corroboration only until contact/website."
+    },
+    {
+      "id": "need4padel",
+      "name": "need4padel",
+      "kind": "shop",
+      "base": "https://need4padel.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://need4padel.com/",
+        "https://need4padel.com/pro-shop-equipment"
+      ],
+      "detailHrefPatterns": [
+        "need4padel\\.com/"
+      ],
+      "notes": "Padel industry directory \u2014 pro shops, equipment brands, court builders."
+    },
+    {
+      "id": "worldpadelnetwork",
+      "name": "World Padel Network",
+      "kind": "shop",
+      "base": "https://www.worldpadelnetwork.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.worldpadelnetwork.com/padel-businesses/",
+        "https://www.worldpadelnetwork.com/"
+      ],
+      "detailHrefPatterns": [
+        "worldpadelnetwork\\.com/"
+      ],
+      "notes": "Verified padel businesses: equipment, construction, coaching, tech."
+    },
+    {
+      "id": "padelsearch",
+      "name": "Padel Search",
+      "kind": "directory",
+      "base": "https://padelsearch.info",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://padelsearch.info/web"
+      ],
+      "detailHrefPatterns": [
+        "padelsearch\\.info/"
+      ],
+      "notes": "Large stakeholder DB \u2014 padel centers, events org, manufacturing, shops."
+    },
+    {
+      "id": "padel-magazine-uk",
+      "name": "Padel Magazine (UK) club directory",
+      "kind": "directory",
+      "base": "https://www.padel-magazine.co.uk",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.padel-magazine.co.uk/club-directory/",
+        "https://www.padel-magazine.co.uk/the-shop/",
+        "https://www.padel-magazine.co.uk/category/padel-tournaments/padel-agenda/"
+      ],
+      "detailHrefPatterns": [
+        "padel-magazine\\.co\\.uk/"
+      ],
+      "notes": "Club directory + shop partners + tournament agenda."
+    },
+    {
+      "id": "padelmagazine-fr",
+      "name": "Padel Magazine FR",
+      "kind": "directory",
+      "base": "https://padelmagazine.fr",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://padelmagazine.fr/annuaires/",
+        "https://padelmagazine.fr/calendrier/",
+        "https://padelmagazine.fr/le-calendrier-du-padel-francais/"
+      ],
+      "detailHrefPatterns": [
+        "padelmagazine\\.fr/"
+      ],
+      "notes": "French annuaires + national/international event calendar."
+    },
+    {
+      "id": "padelfip",
+      "name": "International Padel Federation (FIP)",
+      "kind": "events",
+      "base": "https://www.padelfip.com",
+      "cooldownSec": 1200,
+      "discoveryPages": [
+        "https://www.padelfip.com/live/",
+        "https://www.padelfip.com/"
+      ],
+      "detailHrefPatterns": [
+        "padelfip\\.com/"
+      ],
+      "notes": "Official FIP live tournaments calendar (incl. Africa stops e.g. Nairobi)."
+    },
+    {
+      "id": "premierpadel",
+      "name": "Premier Padel",
+      "kind": "events",
+      "base": "https://premierpadel.com",
+      "cooldownSec": 1200,
+      "discoveryPages": [
+        "https://premierpadel.com/en/home-page",
+        "https://premierpadel.com/"
+      ],
+      "detailHrefPatterns": [
+        "premierpadel\\.com/"
+      ],
+      "notes": "Official pro tour \u2014 calendar/venues (Pretoria P1 Africa stop)."
+    },
+    {
+      "id": "thepadeldirectory",
+      "name": "The Padel Directory",
+      "kind": "directory",
+      "base": "https://www.thepadeldirectory.co.uk",
+      "cooldownSec": 600,
+      "discoveryPages": [
+        "https://www.thepadeldirectory.co.uk/",
+        "https://www.thepadeldirectory.co.uk/find-padel-courts",
+        "https://www.thepadeldirectory.co.uk/padel-events"
+      ],
+      "detailHrefPatterns": [
+        "thepadeldirectory\\.co\\.uk/"
+      ],
+      "notes": "UK courts, events, holidays, tech partners (MATCHi etc.)."
+    },
+    {
+      "id": "matchi",
+      "name": "MATCHi",
+      "kind": "booking",
+      "base": "https://www.matchi.se",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.matchi.se/"
+      ],
+      "detailHrefPatterns": [
+        "matchi\\.(se|sport)/"
+      ],
+      "notes": "European racket booking network (~3000 venues); SPA may soft-skip."
+    },
+    {
+      "id": "anybuddy",
+      "name": "Anybuddy",
+      "kind": "booking",
+      "base": "https://www.anybuddyapp.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.anybuddyapp.com/",
+        "https://www.anybuddyapp.com/fr"
+      ],
+      "detailHrefPatterns": [
+        "anybuddyapp\\.com/"
+      ],
+      "notes": "Racket sports booking marketplace / discovery channel."
+    },
+    {
+      "id": "padelusa",
+      "name": "USPA / Padel USA",
+      "kind": "directory",
+      "base": "https://padelusa.org",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://padelusa.org/"
+      ],
+      "detailHrefPatterns": [
+        "padelusa\\.org/"
+      ],
+      "notes": "USPA interactive club map (Padel Browser powered)."
+    },
+    {
+      "id": "padelbrowser",
+      "name": "Padel Browser",
+      "kind": "directory",
+      "base": "https://www.padelbrowser.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.padelbrowser.com/"
+      ],
+      "detailHrefPatterns": [
+        "padelbrowser\\.com/"
+      ],
+      "notes": "US club directory + amenities; powers USPA map."
+    },
+    {
+      "id": "bounce-game",
+      "name": "Bounce",
+      "kind": "events",
+      "base": "https://www.bounce.game",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.bounce.game/"
+      ],
+      "detailHrefPatterns": [
+        "bounce\\.game/"
+      ],
+      "notes": "Racket sports demand/events marketplace (clinics, leagues, open play)."
+    },
+    {
+      "id": "totalpadel",
+      "name": "Total Padel",
+      "kind": "shop",
+      "base": "https://www.totalpadel.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.totalpadel.com/"
+      ],
+      "detailHrefPatterns": [
+        "totalpadel\\.com/"
+      ],
+      "notes": "Padel equipment retail \u2014 brand/product listings; shops related to padel."
     }
   ]
 }

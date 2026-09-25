@@ -17,7 +17,10 @@ club website** when extracted. Agents confirm the evidence bar, then promote int
 
 ## Sources
 
-See [`sources.json`](./sources.json) — aligned with the continent FIND playbook:
+See [`sources.json`](./sources.json) (**28** sources as of 2026-09-25). Research note:
+[`docs/fair-use-sources-research-2026-09-25.md`](../../docs/fair-use-sources-research-2026-09-25.md).
+
+### Core Africa FIND playbook
 
 | Id | Site | Notes |
 | --- | --- | --- |
@@ -30,7 +33,32 @@ See [`sources.json`](./sources.json) — aligned with the continent FIND playboo
 | `padel-maroc` | padel.co.ma annuaire | Morocco directory |
 | `actu-padel` | actu-padel.com `/directory/padel-club/` | Strong club-card harvest (proved 2026-09-25) |
 
-Override: `FAIR_USE_SOURCES=padellands,ballejaune,padel-maroc` or `FAIR_USE_ONLY=padellands`.
+### +20 expansion (venues / events / shops)
+
+| Id | Role |
+| --- | --- |
+| `padelrevive` | Mapped Africa/Asia/Gulf club directories |
+| `findapadelcourt-za` | South Africa venue finder |
+| `africapadel` | SA club network listings |
+| `padelivu` | Global clubs map |
+| `padelmap` | Courts by country/city |
+| `padel-llc` | OSM padel facilities |
+| `need4padel` | Industry + pro-shop directory |
+| `worldpadelnetwork` | Verified padel businesses |
+| `padelsearch` | Centers / events / manufacturing |
+| `padel-magazine-uk` | Clubs + shop + agenda |
+| `padelmagazine-fr` | FR annuaires + calendrier |
+| `padelfip` | FIP live tournament calendar |
+| `premierpadel` | Premier Padel tour calendar |
+| `thepadeldirectory` | UK courts / events |
+| `matchi` | MATCHi booking network |
+| `anybuddy` | Racket booking marketplace |
+| `padelusa` | USPA club map |
+| `padelbrowser` | US club directory |
+| `bounce-game` | Clinics / leagues / open play |
+| `totalpadel` | Equipment retail shop |
+
+Override: `FAIR_USE_SOURCES=padelrevive,findapadelcourt-za,actu-padel` or `FAIR_USE_ONLY=padelrevive`.
 
 ## Binding rules
 

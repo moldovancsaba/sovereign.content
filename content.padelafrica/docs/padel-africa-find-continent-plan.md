@@ -47,16 +47,19 @@ Every `--brief` expands these into concrete URLs + 8 search queries for the targ
 
 ### Fair-use feeder (directory → candidates)
 
-Polite multi-source harvest of the same directories (ClassScout fair-use doctrine, Africa sources):
+Polite multi-source harvest of the same directories (ClassScout fair-use doctrine, Africa + global
+venue/event/shop sources — **28** in `scripts/fair-use/sources.json` after the 2026-09-25 +20
+expansion; research note [`fair-use-sources-research-2026-09-25.md`](fair-use-sources-research-2026-09-25.md)):
 
 ```bash
 npm run fair-use:status
 npm run fair-use:one-pass          # one page per source; cooldowns honored
 npm run fair-use:one-pass -- --dry-run
+FAIR_USE_SOURCES=padelrevive,findapadelcourt-za,actu-padel npm run fair-use:one-pass
 ```
 
 Emits `needs_verify` candidates under `scripts/fair-use/data/candidates.json` (gitignored runtime).
-Directories are **citations only**; official club URL is the Find/ingest target after evidence bar.
+Directories/events/shops are **citations only**; official club URL is the Find/ingest target after evidence bar.
 Do **not** replace `--until-found` with a forever fair-use loop — use one pass when the seed/apply
 queue is empty. SSOT: [`scripts/fair-use/README.md`](../scripts/fair-use/README.md).
 
