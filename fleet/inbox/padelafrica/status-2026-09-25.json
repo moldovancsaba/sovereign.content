@@ -1,0 +1,53 @@
+{
+  "clientId": "padelafrica",
+  "observedAt": "2026-09-25T00:12:13Z",
+  "source": "padel-find-tick",
+  "workingEnv": {
+    "timerSubscribed": true,
+    "timerName": "padel-find-tick",
+    "timerSubscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
+    "ingestOnlyDoctrine": true,
+    "ingestOnlyReality": false,
+    "ingestApiKeyPresent": false,
+    "writesPath": "fixture_only_mongo_quarantined",
+    "tickCompleted": true,
+    "skippedManagementMongoCatalogJobs": true,
+    "qualityLoop": "ingest_stub_dry_run"
+  },
+  "outcomes": {
+    "findSeededFixture": 1,
+    "findLiveMongoApply": 0,
+    "findCell": {
+      "cc": "SN",
+      "city": "Thiès",
+      "outcome": "seeded_fixture_pending_ingest",
+      "recordId": "SEN-VEN-004",
+      "name": "Blu Padel Ngaparou",
+      "resolvedCity": "Ngaparou"
+    },
+    "findZeroResultsThisTick": [
+      {"cc": "DZ", "city": "Constantine"},
+      {"cc": "DZ", "city": "Oran"},
+      {"cc": "DZ", "city": "Annaba"},
+      {"cc": "CV", "city": "Mindelo"},
+      {"cc": "CM", "city": "Limbe"}
+    ],
+    "pendingIngestFixtures": ["ZAF-VEN-005", "ZAF-VEN-006", "SEN-VEN-004"],
+    "hitlBacklog": 0,
+    "aboutDebtOpen": null,
+    "publishedTotal": null,
+    "note": "aboutDebt/publishedTotal omitted — no Mongo read from agent home"
+  },
+  "openDebt": [
+    "INGEST_API_KEY_missing",
+    "live_apply_ZAF-VEN-005_via_ingest",
+    "live_apply_ZAF-VEN-006_via_ingest",
+    "live_apply_SEN-VEN-004_via_ingest",
+    "ingest_backed_quality_loop_full_rewrite",
+    "core_reconcile_release_padel_africa"
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/padelafrica.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/STATUS-FOR-CORE.md"
+  ]
+}

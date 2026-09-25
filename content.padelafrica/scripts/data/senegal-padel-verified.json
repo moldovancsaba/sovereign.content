@@ -72,5 +72,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-23",
     "researchNotes": "FIND tick 2026-09-23. Phone +221 76 154 45 45 (club WhatsApp); email rebelpadel@citysen.sn. Alternate WhatsApp +221 77 154 45 45 also printed on booking rules — primary retained."
+  },
+  {
+    "recordId": "SEN-VEN-004",
+    "name": "Blu Padel Ngaparou",
+    "city": "Ngaparou",
+    "region": "Thiès",
+    "countryCode": "SN",
+    "line1": "Ngaparou, en face de Rêves d'Interieur",
+    "lat": 14.4635161,
+    "lng": -17.0566886,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Ngaparou town centroid (Département de M'bour, Thiès Region) — street pin for Rêves d'Interieur not resolved",
+    "phone": "+221 78 190 69 60",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not independently printed beyond directory card",
+    "description": "Blu Padel Ngaparou is a named Petite Côte padel stop in Ngaparou (Thiès Region), addressed opposite Rêves d'Interieur with a published directory phone. A clear recommendation when you want Thiès-region padel beyond Dakar and Saly Portudal samples. Call ahead; locality pin only until a street geocode is confirmed.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/blu-padel-ngaparou/",
+    "secondarySourceUrl": "https://keur-immo.com/senegal/annonce-immobiliere-senegal/ngaparou-villa-avec-piscine-a-louer-284/",
+    "sourceTypes": "Padel Lands club card (address+phone); Keur-Immo Ngaparou listing independently landmarks Blu/Blue Padel",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND until-found deepen Thiès cell 2026-09-25 → Ngaparou (Thiès Region / Petite Côte adjacent). Not in excludeNames. Court count (5) from Padel Lands not asserted in description. Phone +221 78 190 69 60 from padellands only."
   }
 ]

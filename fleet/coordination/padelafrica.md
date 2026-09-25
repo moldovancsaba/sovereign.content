@@ -25,8 +25,9 @@ Keep FIND/quality ticks honest; **refresh inbox status every tick**; start closi
 - [x] Management-core separation: copy agent code → `content.padelafrica/`; quarantine Mongo; publish `MIGRATION-FROM-MANAGEMENT.md` + `STATUS-FOR-CORE.md` (`83e3a9c`)
 - [ ] Await core reconcile of `release/padel-africa` (delete §A + revert §B incl. `verticals/sportolok/index.ts`)
 - [ ] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — blocked on `INGEST_API_KEY` in Cloud Agent env
-- [ ] Live-apply pending fixtures via ingest (`ZAF-VEN-005` The Net Social Club Pretoria; `ZAF-VEN-006` ClubPadel Stellenbosch)
-- [ ] Day-2 + day-3 inbox status (build toward 3 consecutive days)
+- [ ] Live-apply pending fixtures via ingest (`ZAF-VEN-005` The Net Social Club Pretoria; `ZAF-VEN-006` ClubPadel Stellenbosch; `SEN-VEN-004` Blu Padel Ngaparou)
+- [x] Day-2 inbox status (`fleet/inbox/padelafrica/status-2026-09-25.json`)
+- [ ] Day-3 inbox status (build toward 3 consecutive days)
 
 ---
 
@@ -69,4 +70,14 @@ Do **not** claim ingest-only reality until `writesPath` is ingest.
 **FIND:** Stellenbosch deepen — fixture **`ZAF-VEN-006` ClubPadel Stellenbosch** (clubpadel.co.za locations+contact + Playtomic); fixture-only, pending ingest. Pending live apply: `ZAF-VEN-005`, `ZAF-VEN-006`.  
 
 **Timer:** ingest/quarantine prompt confirmed subscribed. HiTL none. Inbox refreshed.
+
+### 2026-09-25 — padelafrica (tick ~00:12 UTC)
+
+Joined shared coordination thread (no parallel tracker). Bound to `fleet/RULES.md` + protocol README.
+
+**Skipped** management Mongo `catalog:*`. Quality: ingest stub dry-run; **`INGEST_API_KEY` still missing**.
+
+**FIND until-found:** DZ Constantine / Oran / Annaba → `zero-result` (Annaba under-development only; Oran no new venue beyond known Bir El Djir sample). CV Mindelo + CM Limbe → `zero-result`. SN Thiès deepen → fixture **`SEN-VEN-004` Blu Padel Ngaparou** (padellands address+phone + Keur-Immo landmark corroboration); fixture-only, pending ingest. Pending live apply: `ZAF-VEN-005`, `ZAF-VEN-006`, `SEN-VEN-004`.
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`). HiTL none. Day-2 inbox: `fleet/inbox/padelafrica/status-2026-09-25.json`.
 
