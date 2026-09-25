@@ -6,30 +6,21 @@
   "defaultCooldownSec": 600,
   "sources": [
     {
-      "id": "uszoda-info",
-      "name": "Uszoda.info",
-      "url": "https://uszoda.info",
-      "cooldownSec": 600,
-      "territory": "HUN",
+      "id": "magyaruszodak-budapest",
+      "name": "Magyar Uszodák - Budapest",
+      "url": "https://www.magyaruszodak.hu/uszodak-budapest/",
+      "cooldownSec": 900,
+      "territory": "HUN-BUD",
       "activityTypes": ["swimming", "water-polo"],
       "status": "active"
     },
     {
-      "id": "edzoterem-hu",
-      "name": "Edzoterem.hu",
-      "url": "https://edzoterem.hu",
-      "cooldownSec": 600,
-      "territory": "HUN",
-      "activityTypes": ["fitness", "gym"],
-      "status": "active"
-    },
-    {
-      "id": "budapest-sport",
-      "name": "Budapest Sport Programs",
-      "url": "https://budapest.hu",
+      "id": "nsu-letesitmenyek",
+      "name": "NSÜ Létesítmények",
+      "url": "https://nsu.hu/",
       "cooldownSec": 900,
-      "territory": "HUN-BUD",
-      "activityTypes": ["various"],
+      "territory": "HUN",
+      "activityTypes": ["swimming", "water-polo"],
       "status": "active"
     }
   ]
