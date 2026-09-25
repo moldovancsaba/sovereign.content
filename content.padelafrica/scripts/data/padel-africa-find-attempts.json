@@ -853,6 +853,46 @@
       "query": "fair-use Playtomic Padel X Miami",
       "outcome": "rejected-oos",
       "note": "Fair-use candidate rejected OOS USA"
+    },
+    {
+      "at": "2026-09-25T16:12:00Z",
+      "cc": "SN",
+      "city": "Saint-Louis",
+      "query": "Ranch de Bango padel",
+      "outcome": "verified",
+      "recordId": "SEN-VEN-009"
+    },
+    {
+      "at": "2026-09-25T16:12:00Z",
+      "cc": "NG",
+      "city": "Abuja",
+      "query": "Magic Padel Lifecamp",
+      "outcome": "verified",
+      "recordId": "NGA-VEN-009"
+    },
+    {
+      "at": "2026-09-25T16:12:00Z",
+      "cc": "ZA",
+      "city": "Sandton",
+      "query": "Net Set Sandton City",
+      "outcome": "verified",
+      "recordId": "ZAF-VEN-010"
+    },
+    {
+      "at": "2026-09-25T16:12:00Z",
+      "cc": "ZA",
+      "city": "Fourways",
+      "query": "Match Padel Fourways Mall",
+      "outcome": "verified",
+      "recordId": "ZAF-VEN-011"
+    },
+    {
+      "at": "2026-09-25T16:12:00Z",
+      "cc": "BF",
+      "city": "Ouagadougou",
+      "query": "Burkina secondary beyond Lancaster/KABB",
+      "outcome": "zero-result",
+      "note": "Only Lancaster+KABB confirmed; Tennis Club Ouaga 2000 phone without padel evidence"
     }
   ]
 }

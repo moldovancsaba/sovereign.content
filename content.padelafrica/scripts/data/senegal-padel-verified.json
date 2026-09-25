@@ -189,5 +189,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Secondary phone +221 78 546 91 08 also published — primary 77 337 used. Distinct from SEN-VEN-002 Dakar Padel Club Rufisque Rd and SEN-VEN-007 Mama Padel."
+  },
+  {
+    "recordId": "SEN-VEN-009",
+    "name": "Ranch de Bango Padel",
+    "city": "Saint-Louis",
+    "region": "Saint-Louis Region",
+    "countryCode": "SN",
+    "line1": "Route de Bango / Avenue de l'Université, Ranch de Bango",
+    "lat": 16.0723124,
+    "lng": -16.4412968,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Nominatim Ranch de Bango pin (Sanar Peul / Diougop)",
+    "website": "https://www.ranchbango.com/activites/au-sein-de-l-hotel",
+    "phone": "+221 33 961 19 81",
+    "email": "contact@ranchbango.com",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Night lighting; book via hotel reception; WhatsApp group Bango Padel (+221 78 918 02 13).",
+    "description": "Ranch de Bango hosts Saint-Louis's published padel court on the Route de Bango hotel grounds — a clear northern Senegal recommendation when you want bookable padel beyond Dakar and the Petite Côte Saly/Ngaparou cluster. Call reception or WhatsApp to reserve.",
+    "primarySourceUrl": "https://www.ranchbango.com/activites/au-sein-de-l-hotel",
+    "secondarySourceUrl": "https://www.ranchbango.com/",
+    "sourceTypes": "Hotel activities page (padel court + phone/WhatsApp/email/address)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25T16 — Saint-Louis deepen; unique padel claim on ranch site with published contacts"
   }
 ]

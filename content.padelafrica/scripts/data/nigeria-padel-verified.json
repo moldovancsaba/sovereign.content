@@ -192,5 +192,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-24",
     "researchNotes": "FIND until-found tick 2026-09-24 (NG Kano deepen_large). First northern Nigeria seed."
+  },
+  {
+    "recordId": "NGA-VEN-009",
+    "name": "Magic Padel Abuja",
+    "city": "Abuja",
+    "region": "Federal Capital Territory",
+    "countryCode": "NG",
+    "line1": "Central Park Abuja, Abubakar Koko Avenue, Lifecamp",
+    "lat": 9.0674684,
+    "lng": 7.4040774,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Life Camp Bus Stop pin — Central Park Lifecamp campus not rooftop-geocoded",
+    "website": "https://wakaabuja.com/magic-padel-abuja/",
+    "phone": "+234 703 449 0556",
+    "email": "",
+    "venueModel": "own_premises",
+    "seasonNote": "Courts align with Central Park hours (approx 10:00–23:00); book via WhatsApp/call.",
+    "description": "Magic Padel Abuja puts premium green courts at Central Park in Lifecamp — a clear Abuja recommendation when you want a second capital club beyond Padelon at River Plate Park Wuse 2. Call or WhatsApp the published booking line ahead.",
+    "primarySourceUrl": "https://wakaabuja.com/magic-padel-abuja/",
+    "secondarySourceUrl": "https://www.instagram.com/magicpadel.abuja/",
+    "sourceTypes": "WakaAbuja venue review (address + WhatsApp/phone + hours); Instagram handle cited",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25T16 — Abuja deepen; phone published on WakaAbuja review; no dedicated club website yet"
   }
 ]

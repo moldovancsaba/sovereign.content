@@ -834,5 +834,61 @@
     "note": "OOS Spain (Madrid El Pardo) — Club Deportivo Somontes outside Africa catalog",
     "triagedAt": "2026-09-25T15:28:00Z",
     "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-point-miami-beach",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPoint Miami Beach",
+    "citationUrl": "https://playtomic.com/clubs/point-miami-beach",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/point-miami-beach",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T16:10:33.901Z",
+    "note": "OOS USA (Miami Beach) — Playtomic club outside Africa catalog",
+    "triagedAt": "2026-09-25T16:22:00Z",
+    "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-actu-padel-fes-country-club",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Fes Country Club",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-fes-country-fez/",
+    "website": "https://royaltennisclubdefes.com/",
+    "countryHint": "Morocco",
+    "addressHint": "2XQ4+X53, Fes 30000, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-fes-country-fez/",
+      "https://royaltennisclubdefes.com/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-25T16:12:53.057Z",
+    "note": "Already seeded as MAR-VEN-010 Fes Country Club (Complexe El Merja Zouagha)",
+    "triagedAt": "2026-09-25T16:22:00Z",
+    "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-padelivu-m3-padel-center",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "M3 Padel Center",
+    "citationUrl": "https://padelivu.com/club/m3-padel-center",
+    "website": "",
+    "addressHint": "Calle Delco 5, 28914, Leganes, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/m3-padel-center"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T16:15:54.366Z",
+    "note": "OOS Spain (Leganés Madrid) — M3 Padel Center Calle Delco 5",
+    "triagedAt": "2026-09-25T16:22:00Z",
+    "triagedBy": "padel-find-tick"
   }
 ]

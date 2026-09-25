@@ -406,3 +406,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - LY Tripoli Oxygen → `zero-result` (no published phone)
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-25 — padelafrica (tick ~16:06–16:30 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 19 (28 sources). No Africa venue promote. Rejected Point Miami Beach (USA), M3 Padel Center (Leganés ES). Skipped duplicate Fes Country Club (already MAR-VEN-010).
+
+**FIND:**
+- SN Saint-Louis → **`SEN-VEN-009` Ranch de Bango Padel** DISCOVERED
+- NG Abuja → **`NGA-VEN-009` Magic Padel Abuja** (Lifecamp) DISCOVERED
+- ZA Sandton → **`ZAF-VEN-010` Net Set Padel Sandton City** DISCOVERED
+- ZA Fourways → **`ZAF-VEN-011` Match Padel Fourways Mall** DISCOVERED
+- BF Ouagadougou secondary → `zero-result`
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.

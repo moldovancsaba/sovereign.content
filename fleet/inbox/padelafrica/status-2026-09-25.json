@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T15:38:00Z",
+  "observedAt": "2026-09-25T16:30:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,54 +14,55 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 18,
+    "fairUsePassCount": 19,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
-    "fairUseSeededCandidates": 2,
-    "fairUseRejected": 3,
+    "fairUseSeededCandidates": 0,
+    "fairUseRejected": 2,
+    "fairUseSkippedDuplicate": 1,
     "fairUsePendingNeedsVerify": 0,
     "fairUsePromoted": 0,
     "findSeededFixture": 4,
     "findLiveIngestApply": 4,
     "findZeroResultsThisTick": [
       {
-        "cc": "LY",
-        "city": "Tripoli",
-        "note": "Oxygen Padel no published phone"
+        "cc": "BF",
+        "city": "Ouagadougou",
+        "note": "No secondary beyond Lancaster/KABB"
       }
     ],
     "ingestCardsCreated": [
       {
-        "recordId": "MUS-VEN-004",
-        "cardId": "research-mus-ven-004",
+        "recordId": "SEN-VEN-009",
+        "cardId": "research-sen-ven-009",
         "state": "DISCOVERED",
-        "name": "Energia Gym Padel"
+        "name": "Ranch de Bango Padel"
       },
       {
-        "recordId": "BWA-VEN-003",
-        "cardId": "research-bwa-ven-003",
+        "recordId": "NGA-VEN-009",
+        "cardId": "research-nga-ven-009",
         "state": "DISCOVERED",
-        "name": "10by20 Padel Club FNB World of Golf"
+        "name": "Magic Padel Abuja"
       },
       {
-        "recordId": "KEN-VEN-009",
-        "cardId": "research-ken-ven-009",
+        "recordId": "ZAF-VEN-010",
+        "cardId": "research-zaf-ven-010",
         "state": "DISCOVERED",
-        "name": "Mvita Padel"
+        "name": "Net Set Padel Sandton City"
       },
       {
-        "recordId": "KEN-VEN-010",
-        "cardId": "research-ken-ven-010",
+        "recordId": "ZAF-VEN-011",
+        "cardId": "research-zaf-ven-011",
         "state": "DISCOVERED",
-        "name": "PLAYON Padel Kenya Creekside Nyali"
+        "name": "Match Padel Fourways Mall"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~15:03\u201315:38: quality stub; fair-use pass 18 no Africa promote; FIND Energia MU, Blue Tree BW, Mvita+PLAYON Creekside KE; rejected Miami/Spain/coach. Not claiming PUBLISHED."
+    "note": "Tick ~16:06\u201316:30: quality stub; fair-use pass 19 no Africa promote; FIND Saint-Louis Ranch, Magic Abuja, Net Set Sandton, Match Fourways; reject Miami Beach + M3 Spain; Fes duplicate. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",
