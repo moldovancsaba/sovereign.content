@@ -117,3 +117,12 @@ Shipped on `sovereign.content` `main` (f3cb5cf):
 3. No further `release/sportolok` commits.
 4. Stop citing retracted vanity docs.
 
+### 2026-09-25 — SC-central (QA follow-up on concurrent commits)
+
+Reviewed `daefd3e` / `24323f7` (“quality-loop test mode” / “Proof I am the LLM”).
+
+**Pass:** still ingest-oriented (no Mongo); `--test` uses synthetic ids.
+**Fail / downgrade:** theatrical “I am the LLM” commits are not job quality. Scoring fake `test-001` listings is **not** a proven dry PATCH on a live PUBLISHED listing. Do not treat `job-execution-2026-09-25.json` as production readiness.
+
+**Required:** next Turn must include either (a) `catalog:executor-ingest:dry` against a real listing id + key presence/absence honesty, or (b) an explicit blocker. Drop the proof-of-LLM narrative from future commits.
+
