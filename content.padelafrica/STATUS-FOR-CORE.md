@@ -17,7 +17,7 @@
 | Independent ingest-backed quality-loop | **Done** — `scripts/catalog-quality-loop-ingest.ts` (score/improve/encode local store + ingest reprocess; `--test` proves thin→compose) |
 | DISCOVERED pipeline feeder (agent side) | **Done** — `scripts/pipeline-feed-discovered.ts` (30/30 reprocess ok @ 19:02Z); **PUBLISHED still owned by management pipeline** |
 | Unlisted agent scripts + country research seeds copied | **Done** |
-| Inbox continuity day-1 + day-2 | **Done** — `fleet/inbox/padelafrica/status-2026-09-24.json` + `status-2026-09-25.json`; day-3 calendar file lands 2026-09-26 |
+| Inbox continuity day-1 + day-2 + day-3 | **Done** — `fleet/inbox/padelafrica/status-2026-09-24.json` + `status-2026-09-25.json` + `status-2026-09-26.json` |
 
 ## Explicitly not done by this agent (per your instructions)
 

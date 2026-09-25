@@ -1240,5 +1240,60 @@
     "note": "OOS Spain — Los Naranjos Padel Club outside Africa catalog",
     "triagedAt": "2026-09-25T22:30:46.000Z",
     "rejectedAt": "2026-09-25T22:30:46.000Z"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-padelhaus-gmbh",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPadelhaus GmbH",
+    "citationUrl": "https://playtomic.com/clubs/padel-fc",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/padel-fc",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T23:13:00.457Z",
+    "rejectedAt": "2026-09-25T23:28:34.000Z",
+    "note": "Outside Africa scope — Playtomic DE/EU club (Padelhaus GmbH); not Padel Africa catalog."
+  },
+  {
+    "candidateId": "fair-actu-padel-padel-square-marrakech",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Padel Square Marrakech",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-square-marrakech-tassoultante/",
+    "website": "https://padelsquare.ma/",
+    "cityHint": "Marrakech",
+    "countryHint": "Morocco",
+    "addressHint": "Complexe commercial Cherifa, Route d&rsquo;Amezmiz, Marrakech 40000, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-square-marrakech-tassoultante/",
+      "https://padelsquare.ma/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-25T23:15:21.189Z",
+    "skippedAt": "2026-09-25T23:28:34.000Z",
+    "note": "Already seeded as MAR-VEN-004 Padel Square Marrakech (Complexe commercial Charifa / padelsquare.ma).",
+    "recordId": "MAR-VEN-004"
+  },
+  {
+    "candidateId": "fair-padelivu-antwerp-padelclub",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Antwerp Padelclub",
+    "citationUrl": "https://padelivu.com/club/antwerp-padelclub-berchem",
+    "website": "",
+    "addressHint": "Filip Williotstraat 1, 2600, Berchem, Belgium",
+    "researchSources": [
+      "https://padelivu.com/club/antwerp-padelclub-berchem"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T23:18:22.927Z",
+    "rejectedAt": "2026-09-25T23:28:34.000Z",
+    "note": "Outside Africa scope — Belgium (Berchem/Antwerp); not Padel Africa catalog."
   }
 ]

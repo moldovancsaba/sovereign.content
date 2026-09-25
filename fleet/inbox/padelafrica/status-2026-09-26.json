@@ -1,7 +1,7 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T23:34:00Z",
-  "source": "padel-find-tick",
+  "observedAt": "2026-09-26T00:00:00Z",
+  "source": "padel-find-tick-day3-continuity",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
@@ -10,7 +10,7 @@
     "ingestOnlyReality": true,
     "ingestApiKeyPresent": true,
     "writesPath": "post_api_ingest",
-    "tickCompleted": true,
+    "tickCompleted": false,
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
@@ -18,7 +18,8 @@
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "ready_for_reconcile",
-    "day3InboxCalendar": "status-2026-09-26.json"
+    "day3InboxCalendar": true,
+    "carriedFrom": "status-2026-09-25.json"
   },
   "outcomes": {
     "qualityLoopScanned": 211,
@@ -26,28 +27,14 @@
     "qualityLoopApplied": 0,
     "fairUsePass": 26,
     "fairUsePendingAfterTriage": 0,
-    "findSeeded": [
-      "ZWE-VEN-005",
-      "ZWE-VEN-006"
-    ],
-    "findSkippedDuplicate": [
-      "CG Padel 2001 already COG-VEN-003",
-      "CG Tennis Club Brazzaville already COG-VEN-002",
-      "TN Sfax Indoor already TUN-VEN-005",
-      "KE Nakuru already KEN-VEN-007",
-      "SZ LivPadel Malkerns already SWZ-VEN-001",
-      "fair-use Padel Square Marrakech already MAR-VEN-004"
-    ],
-    "findZeroResult": [
-      "BI Bujumbura phone only no street",
-      "LS Maseru no confirmed padel street+phone"
-    ],
-    "ingestDiscoveredOk": 2,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-25T23.json",
+    "findSeeded": [],
+    "findZeroResult": [],
+    "ingestDiscoveredOk": 0,
+    "ingestEvidence": null,
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "23:09 tick: Padel On 101 + Stable Sports Harare DISCOVERED. Fair-use pass 26 triage: rejected Padelhaus DE + Antwerp BE; skipped_duplicate Padel Square Marrakech. Day-3 inbox calendar file landed. Not claiming PUBLISHED."
+    "note": "Day-3 continuity file opened after 2026-09-25T23 tick (ZWE-VEN-005/006). First Sep-26 FIND tick will refresh outcomes. Agent-side openDebt cleared except core reconcile."
   },
   "openDebt": [
     "core_reconcile_release_padel_africa_awaiting_management"

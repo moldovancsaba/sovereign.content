@@ -552,3 +552,22 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - SN Cap Skirring Attika → `zero-result` (no published phone)
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-25 — padelafrica (tick ~23:09–23:34 UTC) + day-3 continuity
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 211 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 26 (28 sources). No Africa promote. Rejected Padelhaus GmbH (DE Playtomic), Antwerp Padelclub (BE). Skipped duplicate Padel Square Marrakech (`MAR-VEN-004`).
+
+**FIND:**
+- ZW Harare → **`ZWE-VEN-005` Padel On 101** (101 Churchill Ave East, Gunhill) DISCOVERED
+- ZW Harare → **`ZWE-VEN-006` Stable Sports** (35a Kingsmead Rd West, Borrowdale) DISCOVERED
+- CG / TN / KE / SZ deepen → `skipped_duplicate` (already seeded)
+- BI Bujumbura / LS Maseru → `zero-result`
+
+**OpenDebt resolve:** landed `fleet/inbox/padelafrica/status-2026-09-26.json` (day-3 calendar). Agent-side debt cleared. **Only remaining:** core reconcile of `release/padel-africa` (awaiting management; handshake READY in STATUS-FOR-CORE.md).
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
