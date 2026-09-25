@@ -45,6 +45,21 @@ npm run catalog:find -- --record-attempt --cc=ST --city="São Tomé" --outcome=z
 
 Every `--brief` expands these into concrete URLs + 8 search queries for the target city.
 
+### Fair-use feeder (directory → candidates)
+
+Polite multi-source harvest of the same directories (ClassScout fair-use doctrine, Africa sources):
+
+```bash
+npm run fair-use:status
+npm run fair-use:one-pass          # one page per source; cooldowns honored
+npm run fair-use:one-pass -- --dry-run
+```
+
+Emits `needs_verify` candidates under `scripts/fair-use/data/candidates.json` (gitignored runtime).
+Directories are **citations only**; official club URL is the Find/ingest target after evidence bar.
+Do **not** replace `--until-found` with a forever fair-use loop — use one pass when the seed/apply
+queue is empty. SSOT: [`scripts/fair-use/README.md`](../scripts/fair-use/README.md).
+
 ## How to traverse a continent (priority)
 
 City-scoped cells, not one pass per country:
@@ -98,3 +113,4 @@ Timed ticks should prefer `--until-found` over a single `--next`.
 | Agent brief | `src/lib/catalogFind/brief.ts` |
 | Attempt log | `src/lib/catalogFind/attempts.ts` → `scripts/data/padel-africa-find-attempts.json` |
 | CLI | `scripts/catalog-find-research.ts` |
+| Fair-use feeder | `scripts/fair-use/` (`sources.json`, `one-pass.ts`) → `scripts/fair-use/data/candidates.json` |

@@ -20,6 +20,10 @@ Timed job tick (padel-africa — sovereign.content/content.padelafrica ONLY):
 4) When ingest key present: npm run catalog:quality-loop (this folder). FIND: evidence-only WebSearch;
    seed fixtures live under scripts/data — apply only via ingest-capable seed path when available;
    until seed ingest exists, record research fixtures here and do not add management routes.
+4b) Fair-use seed replenish (when pending verified/apply queue is empty): from content.padelafrica/
+    run `npm run fair-use:status`; if pendingCandidates is low, run ONE `npm run fair-use:one-pass`
+    (Africa directories → needs_verify candidates). Do NOT forever-loop. Soft-skip CF/403.
+    Promote candidates only after evidence bar → scripts/data/*-verified.json → ingest.
 5) Self-heal digest honesty: doctrine vs reality; hitl_review queue for operator.
 6) After tick: fleet/inbox/padelafrica/status-YYYY-MM-DD.json (fair KPIs only).
 7) Never invent phones/emails. Leave this timer subscribed. Do not force-push release/padel-africa.

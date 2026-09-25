@@ -204,6 +204,19 @@ npm run catalog:find -- --record-attempt --cc=NG --city=Ibadan --outcome=seeded
 
 Continent plan: [`padel-africa-find-continent-plan.md`](padel-africa-find-continent-plan.md).
 
+### Fair-use seed replenish (same tick, when queue empty)
+
+When there is no pending verified fixture / apply-queue row, run **one** polite directory pass
+(ClassScout fair-use rules, Africa sources — not NYC forever):
+
+```bash
+npm run fair-use:status
+npm run fair-use:one-pass
+# Review needs_verify candidates → confirm evidence bar → append *-padel-verified.json → ingest
+```
+
+SSOT: [`scripts/fair-use/README.md`](../scripts/fair-use/README.md). Soft-skip CF/403; never invent contacts.
+
 **Report shape for timer ticks:**
 
 ```json
@@ -290,7 +303,7 @@ Reference name used on this agent: `padel-find-tick` (orchestrator prompt; not F
 ## What not to copy from padel
 
 - Country research fixture contents and invented contact rows
-- ClassScout NYC fair-use / `forever.sh` Find
+- ClassScout **NYC** fair-use source registry / dense `forever.sh` thrash (Africa fair-use one-pass is local here)
 - Putting live About / media binaries into git
 - Treating GDS pack-load warnings as content failures
 - Using AI Gateway / Ollama on these Cloud Agent catalog ticks

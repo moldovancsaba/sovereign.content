@@ -48,6 +48,7 @@ PRs #222 / #227 put agent Mongo writers onto `release/padel-africa`. That patter
 | `ingest/` | **Only** live write helpers |
 | `src/` | Migrated agent runtime (**quarantined** Mongo) |
 | `scripts/` | CLIs + research fixtures; quality-loop → ingest stub |
+| `scripts/fair-use/` | Africa directory fair-use feeder (one page/source/pass → `needs_verify` candidates) |
 | `MIGRATION-FROM-MANAGEMENT.md` | Delete/revert list for core |
 | `STATUS-FOR-CORE.md` | Reconcile handshake |
 

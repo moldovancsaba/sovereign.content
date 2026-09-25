@@ -18,7 +18,7 @@ SSOT Jobs: https://sovereigncontent.messmass.com/jobs
 
 | Concern | Padel / SC reference | ClassScout |
 | --- | --- | --- |
-| Growth Find | `catalog:find --until-found` (agent WebSearch briefs) | `catalog-loop:forever` / fair-use seed queue |
+| Growth Find | `catalog:find --until-found` (agent WebSearch briefs) + Africa fair-use one-pass seed replenish | `catalog-loop:forever` / fair-use seed queue |
 | Sparse markets | until-found campaign; honest `zero-result` | Complement forever when seed queue idles — do **not** replace forever |
 | Media default | `allow_og_scrape` → R2 primary / ImgBB backup | `generated_art_only` (no venue-photo scrape) |
 | Territory | Africa continent / pack ladder + quarantine | Multi-city ↔ borough integrity, mis-geo hide |
@@ -43,8 +43,9 @@ Ordered by leverage (process fix — not a ClassScout rebuild):
 Portable contracts live on SC Jobs. On management this includes street/chrome detectors,
 `generated_art_only` policy hook (coverage mode), quality-loop settle, hygiene `finally` exit,
 contact reject, Partner venues labels, weak-About chrome (careers/donate + FAQ/chatbot),
-schema-subset repair posture. **Not** ported: NYC fair-use Find, borough mismatch repair,
-forever loop.
+schema-subset repair posture. **Not** ported: NYC fair-use Find source registry, borough mismatch repair,
+forever loop. **Ported (doctrine only):** polite one-page-per-source fair-use feeder under
+`scripts/fair-use/` with Africa directories → `needs_verify` candidates (complements until-found; does not replace it).
 
 ## Agent prompt posture (ClassScout)
 

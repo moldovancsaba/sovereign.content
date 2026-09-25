@@ -5,6 +5,10 @@
   "scripts": {
     "catalog:quality-loop": "npx tsx scripts/catalog-quality-loop-ingest.ts",
     "catalog:quality-loop:dry": "npx tsx scripts/catalog-quality-loop-ingest.ts --dry-run",
+    "fair-use:one-pass": "npx tsx scripts/fair-use/one-pass.ts",
+    "fair-use:status": "npx tsx scripts/fair-use/status.ts",
+    "fair-use:test": "npx tsx scripts/fair-use/test-extract.ts",
+    "fair-use:citation-to-inbox": "npx tsx scripts/fair-use/citation-to-inbox.ts",
     "typecheck": "tsc --noEmit"
   }
 }

@@ -1,0 +1,122 @@
+{
+  "updatedAt": "2026-09-25",
+  "description": "Padel Africa fair-use multi-source feeder. Directories are citation/discovery paths only — official club websites are the Find/ingest target. One HTTP page per source per pass.",
+  "defaultInterSourceSec": 45,
+  "defaultPassSleepSec": 300,
+  "defaultCooldownSec": 600,
+  "userAgent": "PadelAfricaCatalogResearch/1.0 (+https://padel-africa.doneisbetter.com; fair-use one-lead research)",
+  "sources": [
+    {
+      "id": "padellands",
+      "name": "Padel Lands",
+      "kind": "directory",
+      "base": "https://padellands.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://padellands.com/en/pistas-de-padel/otros-paises/morocco/",
+        "https://padellands.com/en/pistas-de-padel/otros-paises/egypt/",
+        "https://padellands.com/en/pistas-de-padel/otros-paises/south-africa/",
+        "https://padellands.com/en/pistas-de-padel/otros-paises/kenya/",
+        "https://padellands.com/en/pistas-de-padel/otros-paises/senegal/",
+        "https://padellands.com/en/pistas-de-padel/otros-paises/nigeria/",
+        "https://padellands.com/en/pistas-de-padel/otros-paises/ghana/",
+        "https://padellands.com/en/pistas-de-padel/otros-paises/tanzania/",
+        "https://padellands.com/en/pistas-de-padel/otros-paises/libya/",
+        "https://padellands.com/en/padel-courts-in-other-countries/"
+      ],
+      "detailHrefPatterns": [
+        "padellands\\.com/(club-[a-z0-9][\\w-]+|[a-z0-9][\\w-]*padel[\\w-]*)/?$"
+      ],
+      "notes": "Strong for North/Central Africa country pages + club cards (LY, GQ)."
+    },
+    {
+      "id": "analistas",
+      "name": "AnalistasPadel",
+      "kind": "directory",
+      "base": "https://www.analistaspadel.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.analistaspadel.com/",
+        "https://www.analistaspadel.com/padel-en-africa/"
+      ],
+      "detailHrefPatterns": ["analistaspadel\\.com/.+"],
+      "notes": "Spanish-language expansion coverage (GQ)."
+    },
+    {
+      "id": "padel-without-borders",
+      "name": "Padel Without Borders",
+      "kind": "news",
+      "base": "https://www.padelwithoutborders.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://www.padelwithoutborders.com/",
+        "https://www.padelwithoutborders.com/category/africa/"
+      ],
+      "detailHrefPatterns": ["padelwithoutborders\\.com/.+"],
+      "notes": "Country overviews + operator names (LY)."
+    },
+    {
+      "id": "ballejaune",
+      "name": "BalleJaune",
+      "kind": "booking",
+      "base": "https://ballejaune.com",
+      "cooldownSec": 600,
+      "discoveryPages": [
+        "https://ballejaune.com/",
+        "https://ballejaune.com/senegal/",
+        "https://ballejaune.com/cote-divoire/",
+        "https://ballejaune.com/maroc/"
+      ],
+      "detailHrefPatterns": ["ballejaune\\.com/.+"],
+      "notes": "Francophone West Africa club cards + contact (SN)."
+    },
+    {
+      "id": "playtomic",
+      "name": "Playtomic",
+      "kind": "booking",
+      "base": "https://playtomic.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://playtomic.com/clubs",
+        "https://playtomic.io/"
+      ],
+      "detailHrefPatterns": ["playtomic\\.(com|io)/clubs/"],
+      "notes": "Bookable clubs where Playtomic operates (ZA, MA, EG, KE). SPA pages may soft-skip."
+    },
+    {
+      "id": "matchpoint",
+      "name": "Matchpoint",
+      "kind": "booking",
+      "base": "https://www.matchpoint.com.es",
+      "cooldownSec": 900,
+      "discoveryPages": ["https://www.matchpoint.com.es/"],
+      "detailHrefPatterns": ["matchpoint\\.com"],
+      "notes": "Club booking microsites (SN Dakar Padel Club)."
+    },
+    {
+      "id": "padel-maroc",
+      "name": "Padel Maroc directory",
+      "kind": "directory",
+      "base": "https://padel.co.ma",
+      "cooldownSec": 600,
+      "discoveryPages": ["https://padel.co.ma/annuaire-des-clubs/"],
+      "detailHrefPatterns": ["padel\\.co\\.ma/"],
+      "notes": "Morocco national club directory (worked for Casablanca samples)."
+    },
+    {
+      "id": "actu-padel",
+      "name": "Actu Padel",
+      "kind": "directory",
+      "base": "https://actu-padel.com",
+      "cooldownSec": 900,
+      "discoveryPages": [
+        "https://actu-padel.com/en/directory/",
+        "https://actu-padel.com/en/directory/country/morocco/",
+        "https://actu-padel.com/en/directory/country/senegal/",
+        "https://actu-padel.com/en/directory/country/south-africa/"
+      ],
+      "detailHrefPatterns": ["actu-padel\\.com/.+/padel-club/[\\w-]+"],
+      "notes": "Africa club directory cards; citation only."
+    }
+  ]
+}
