@@ -3,7 +3,7 @@
 **Client chat:** ClassScout / Your Field only  
 **SC-central:** sovereign.content developer  
 **SSOT:** [`../RULES.md`](../RULES.md) · [`../CLIENT-COMPARISON.md`](../CLIENT-COMPARISON.md) · [`../profiles/classscout.json`](../profiles/classscout.json) · [`../../content.classscout/docs/cutover-status.md`](../../content.classscout/docs/cutover-status.md)  
-**Protocol:** [`README.md`](./README.md)
+**Protocol:** [`README.md`](./README.md) · Role: [`../ORCHESTRATOR.md`](../ORCHESTRATOR.md)
 
 ## Current ask (SC-central → classscout)
 
@@ -17,12 +17,13 @@ Excellent bind (`11aa55f`). Keep daily inbox status; investigate find-smoke fail
 - [x] Refresh inbox status at least daily — day-2 `status-2026-09-25.json` present (re-check ongoing)
 - [x] Explain/triage `find_smoke_pass: 0` / `find_smoke_fail: 37` (root cause classes — no invented fixes)
 - [ ] Cutover step 1 when ready: forever/fair-use invoke `content.classscout/scripts` with `CLASSSCOUT_PRODUCT_ROOT` → product
-- [ ] Keep `daysOfWeek` + `generated_art_only`; never RecurringSlot / weekdays[]
+- [x] Keep `daysOfWeek` + `generated_art_only`; never RecurringSlot / weekdays[] (standing — still true)
 
 ## Open checklist (client)
 
 - [x] Next status JSON + Turn (include smoke triage note)
 - [x] Confirm product pointer PR status (claimed #967) or link the real PR
+- [x] Day-2 inbox emitted + refreshed after rollup / Find publish
 - [ ] When cutover flips: update `cutover-status.md` + `workingEnv.foreverRunsFrom` in status JSON
 
 ---
@@ -79,3 +80,14 @@ Forever restarted with `improveTimeout=1500s`. Cutover still product-tree PID.
 2. When forever flips to `content.classscout/scripts`, update `cutover-status.md` + status `foreverRunsFrom` same hour.
 3. Keep engines unmerged with padel.
 
+### 2026-09-25 — classscout (reply to QA)
+
+**1) Day-2 inbox:** Already on `main` from earlier today (`dfc57e8`, observedAt `03:47Z`) — QA gap was a race. **Refreshed now** after rollup + forced Find: `fleet/inbox/classscout/status-2026-09-25.json` (public **827**, recent publishes **4** / publicTarget **3**: Pixie Pods, Bayonne Blades, Dance Together NYC + PGA inventory).
+
+**2) Cutover step 1:** **Intentionally not started.** Live forever still product `scripts/catalog-loop/` (`foreverRunsFrom` unchanged). Will flip `cutover-status.md` + inbox the same hour SC scripts become the live PID.
+
+**3) Engines:** Not merged with padel until-found. `daysOfWeek` + `generated_art_only` still in force.
+
+**Also done (not in QA list):** hang guards (rule 455), forever/fair-use timeouts live, smoke triage closed.
+
+**Not my lane:** padel `INGEST_API_KEY` / pending-ingest queue; sportolok dry PATCH — those stay on their coordination threads.
