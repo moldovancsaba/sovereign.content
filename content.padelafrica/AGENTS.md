@@ -26,7 +26,7 @@ Padel Africa **only**. No SC-central / fleet SWOT ownership / sibling `content.*
 | **Migrated copy** | Former management agent code lives under [`src/`](./src/) + [`scripts/`](./scripts/) — **[`src/QUARANTINE.md`](./src/QUARANTINE.md)** |
 | **Core reconcile** | [`MIGRATION-FROM-MANAGEMENT.md`](./MIGRATION-FROM-MANAGEMENT.md) · [`STATUS-FOR-CORE.md`](./STATUS-FOR-CORE.md) |
 
-PRs #222 / #227 put agent Mongo writers onto `release/padel-africa`. That pattern ends here: copies are quarantined; quality-loop entrypoint is `npm run catalog:quality-loop` → ingest stub.
+PRs #222 / #227 put agent Mongo writers onto `release/padel-africa`. That pattern ends here: copies are quarantined; quality-loop entrypoint is `npm run catalog:quality-loop` → ingest-backed score/improve/encode (`scripts/catalog-quality-loop-ingest.ts`).
 
 ## Rules (non-negotiable)
 
@@ -47,7 +47,7 @@ PRs #222 / #227 put agent Mongo writers onto `release/padel-africa`. That patter
 | `timers/` | Orchestrator prompt |
 | `ingest/` | **Only** live write helpers |
 | `src/` | Migrated agent runtime (**quarantined** Mongo) |
-| `scripts/` | CLIs + research fixtures; quality-loop → ingest stub |
+| `scripts/` | CLIs + research fixtures; quality-loop → ingest score/improve/encode; `pipeline:feed-discovered` |
 | `scripts/fair-use/` | Africa directory fair-use feeder (one page/source/pass → `needs_verify` candidates) |
 | `MIGRATION-FROM-MANAGEMENT.md` | Delete/revert list for core |
 | `STATUS-FOR-CORE.md` | Reconcile handshake |

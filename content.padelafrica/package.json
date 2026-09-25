@@ -1,14 +1,18 @@
 {
   "name": "content.padelafrica",
   "private": true,
-  "description": "Padel Africa sovereign content agent home — ingest-only writes; Mongo quality-loop quarantined",
+  "description": "Padel Africa sovereign content agent home \u2014 ingest-only writes; Mongo quality-loop quarantined",
   "scripts": {
-    "catalog:quality-loop": "npx tsx scripts/catalog-quality-loop-ingest.ts",
-    "catalog:quality-loop:dry": "npx tsx scripts/catalog-quality-loop-ingest.ts --dry-run",
+    "catalog:quality-loop": "npx tsx scripts/catalog-quality-loop-ingest.ts --apply --limit 40",
+    "catalog:quality-loop:dry": "npx tsx scripts/catalog-quality-loop-ingest.ts --dry-run --limit 40",
+    "catalog:quality-loop:score": "npx tsx scripts/catalog-quality-loop-ingest.ts --score-only --limit 200",
+    "pipeline:feed-discovered": "npx tsx scripts/pipeline-feed-discovered.ts --limit 30",
+    "pipeline:feed-discovered:dry": "npx tsx scripts/pipeline-feed-discovered.ts --dry-run --limit 30",
     "fair-use:one-pass": "npx tsx scripts/fair-use/one-pass.ts",
     "fair-use:status": "npx tsx scripts/fair-use/status.ts",
     "fair-use:test": "npx tsx scripts/fair-use/test-extract.ts",
     "fair-use:citation-to-inbox": "npx tsx scripts/fair-use/citation-to-inbox.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "catalog:quality-loop:test": "npx tsx scripts/catalog-quality-loop-ingest.ts --test"
   }
 }

@@ -29,6 +29,7 @@ with payloads matching `../ingest/content-data-contract.md` (`RecurringSlot` sin
 | Code copy under `content.padelafrica/` | **Done** |
 | Mongo write quarantine (store) | **Done** |
 | Mongo CLI refuse guards on catalog scripts | **Done** (SC-central QA 2026-09-25) |
-| Ingest-backed quality-loop rewrite | **Stub only** — `scripts/catalog-quality-loop-ingest.ts` |
-| Pending fixture → live ingest apply | **Blocked** on `INGEST_API_KEY` — see `docs/pending-ingest-queue.md` |
-| Management delete + shared-engine revert | **Awaiting core** — `MIGRATION-FROM-MANAGEMENT.md` |
+| Ingest-backed quality-loop rewrite | **Done** — `scripts/catalog-quality-loop-ingest.ts` (local recommendations/lessons + ingest reprocess; `--test` / `--dry-run` / `--apply`) |
+| DISCOVERED → pipeline feed | **Done (agent side)** — `scripts/pipeline-feed-discovered.ts`; PUBLISHED still management-owned |
+| Pending fixture → live ingest apply | **Unblocked** — `INGEST_API_KEY` live; queue + FIND ticks apply as `DISCOVERED` |
+| Management delete + shared-engine revert | **Awaiting core** — `MIGRATION-FROM-MANAGEMENT.md` + `STATUS-FOR-CORE.md` READY |

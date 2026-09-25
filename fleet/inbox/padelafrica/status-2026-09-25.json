@@ -1,78 +1,46 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T18:44:00Z",
-  "source": "padel-find-tick",
+  "observedAt": "2026-09-25T19:05:00Z",
+  "source": "open-debt-resolve",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
     "timerSubscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
     "ingestOnlyDoctrine": true,
-    "ingestOnlyReality": false,
+    "ingestOnlyReality": true,
     "ingestApiKeyPresent": true,
     "writesPath": "post_api_ingest",
     "tickCompleted": true,
     "skippedManagementMongoCatalogJobs": true,
-    "qualityLoop": "ingest_stub_ran",
+    "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
     "fairUsePassCount": 21,
-    "refuseAgentMongoGuards": true
+    "refuseAgentMongoGuards": true,
+    "pipelineFeedDiscovered": true,
+    "coreReconcileHandshake": "ready_for_reconcile"
   },
   "outcomes": {
+    "qualityLoopScanned": 191,
+    "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUseSeededCandidates": 3,
-    "fairUseRejected": 2,
-    "fairUsePromoted": 1,
-    "fairUsePendingNeedsVerify": 0,
-    "findSeededFixture": 5,
-    "findLiveIngestApply": 5,
-    "findZeroResultsThisTick": [
-      {
-        "cc": "EG",
-        "city": "New Administrative Capital",
-        "note": "Il Bosco tournament venue \u2014 sales phones only"
-      }
-    ],
-    "ingestCardsCreated": [
-      {
-        "recordId": "TUN-VEN-010",
-        "cardId": "research-tun-ven-010",
-        "state": "DISCOVERED",
-        "name": "KING PADEL CITY"
-      },
-      {
-        "recordId": "ZAF-VEN-014",
-        "cardId": "research-zaf-ven-014",
-        "state": "DISCOVERED",
-        "name": "Africa Padel Kloof Country Club"
-      },
-      {
-        "recordId": "ZAF-VEN-015",
-        "cardId": "research-zaf-ven-015",
-        "state": "DISCOVERED",
-        "name": "Africa Padel Salt Rock"
-      },
-      {
-        "recordId": "ZAF-VEN-016",
-        "cardId": "research-zaf-ven-016",
-        "state": "DISCOVERED",
-        "name": "Gayle Padel Raslouw"
-      },
-      {
-        "recordId": "MAR-VEN-017",
-        "cardId": "research-mar-ven-017",
-        "state": "DISCOVERED",
-        "name": "Kick Off Marrakech"
-      }
-    ],
+    "qualityLoopTestProved": true,
+    "pipelineFeedQueued": 30,
+    "pipelineFeedOk": 30,
+    "pipelineFeedFailed": 0,
+    "pipelineFeedEvidence": "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-25T19-02-07-172Z.json",
+    "publishedClaimed": false,
     "hitlBacklog": 0,
-    "aboutDebtOpen": null,
+    "aboutDebtOpen": 0,
     "publishedTotal": null,
-    "note": "Tick ~18:16\u201318:44: quality stub; fair-use pass 21 promoted Kick Off Marrakech; FIND KING Sousse + Kloof/Salt Rock/Raslouw; reject Miami One Indoor + NL L'Oeuf; EG Il Bosco sales-only zero. Not claiming PUBLISHED."
+    "note": "Open debt resolve: quality-loop ingest rewrite shipped; 30 DISCOVERED cards reprocessed for pipeline; STATUS-FOR-CORE READY; day-3 calendar file still 2026-09-26. Not claiming PUBLISHED."
   },
   "openDebt": [
+    "core_reconcile_release_padel_africa_awaiting_management",
+    "day3_inbox_calendar_2026-09-26"
+  ],
+  "resolvedDebt": [
     "ingest_backed_quality_loop_full_rewrite",
-    "core_reconcile_release_padel_africa_prs",
-    "discovered_to_published_pipeline",
-    "day3_inbox_continuity"
+    "discovered_to_published_pipeline_agent_feeder",
+    "day3_inbox_continuity_spike_gate"
   ]
 }

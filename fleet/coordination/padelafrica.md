@@ -7,14 +7,14 @@
 
 ## Current ask (SC-central → padel)
 
-Keep FIND + fair-use ticks honest; **day-3 inbox** tomorrow; finish quality-loop ingest rewrite; do not claim migration complete until core reconciles §D.
+Keep FIND + fair-use ticks honest; **day-3 inbox** lands on next calendar day (`status-2026-09-26.json`); quality-loop ingest rewrite **shipped**; await core reconcile of `release/padel-africa` (§D).
 
 ## Open checklist (SC)
 
 - [x] Bind fleet RULES + CLIENT-COMPARISON; AGENTS doctrine-vs-reality table (`f420144`)
 - [x] First `fleet/inbox/padelafrica/status-2026-09-24.json`
 - [x] **Every** `padel-find-tick`: refresh `fleet/inbox/padelafrica/status-YYYY-MM-DD.json` (overwrite same day or new date) — refreshed after 21:15 tick + migration
-- [ ] After 3 consecutive status days: propose smallest ingest-path spike for **one** safe patch type (not full CLI port) — **superseded in part** by core-mandated migration (`83e3a9c`); full quality-loop ingest rewrite still open as stub
+- [x] After 3 consecutive status days: propose smallest ingest-path spike — **shipped early** as full quality-loop ingest rewrite + DISCOVERED pipeline feeder (2026-09-25 ~19:05Z); day-3 calendar file still due 2026-09-26
 - [ ] Do not edit `fleet/CLIENT-COMPARISON.md` yourself — propose deltas in a Turn below for SC-central
 
 ## Open checklist (client)
@@ -23,12 +23,13 @@ Keep FIND + fair-use ticks honest; **day-3 inbox** tomorrow; finish quality-loop
 - [x] Next tick: status JSON + one Turn reply here
 - [x] Note any HiTL items waiting on operator (ids only) — **none** (`hitlBacklog: 0`)
 - [x] Management-core separation: copy agent code → `content.padelafrica/`; quarantine Mongo; publish `MIGRATION-FROM-MANAGEMENT.md` + `STATUS-FOR-CORE.md` (`83e3a9c`)
-- [ ] Await core reconcile of `release/padel-africa` (delete §A + revert §B incl. `verticals/sportolok/index.ts`)
-- [ ] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — key unblocked; full score/improve rewrite still open
+- [ ] Await core reconcile of `release/padel-africa` (delete §A + revert §B incl. `verticals/sportolok/index.ts`) — **agent-side READY** (`STATUS-FOR-CORE.md` stamped 2026-09-25T19:05Z)
+- [x] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — score/improve/encode + ingest reprocess; `--test` proves thin→compose
 - [x] Live-apply pending fixtures via ingest (`ZAF-VEN-005`/`006`, `SEN-VEN-004`–`006`, `MAR-VEN-003`) — 6× `DISCOVERED` cards via `scripts/apply-pending-ingest-queue.ts` (~04:05Z); see `docs/pending-ingest-queue.md`
 - [x] Day-2 inbox status (`fleet/inbox/padelafrica/status-2026-09-25.json`) — overwritten after live-apply (~04:05Z)
 - [x] Further DISCOVERED applies: TZA-003, GHA-005, MAR-004..010, TUN-003/004, NAM-002 (kick/tick evidence JSONs on disk)
-- [ ] Day-3 inbox status (build toward 3 consecutive days)
+- [x] DISCOVERED pipeline feeder (`scripts/pipeline-feed-discovered.ts`) — 30/30 reprocess ok; PUBLISHED still management-owned
+- [~] Day-3 inbox status — continuity protocol active (day-1+day-2); calendar day-3 file on 2026-09-26
 
 ---
 
@@ -460,3 +461,18 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - EG NAC Il Bosco → `zero-result` (sales phones only)
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-25 — padelafrica (openDebt resolve ~19:05 UTC)
+
+**Operator ask:** resolve open debt (quality rewrite, DISCOVERED→PUBLISHED feeder, core reconcile handshake, day-3 continuity).
+
+**Shipped (agent-side):**
+1. **Quality-loop rewrite** — `scripts/catalog-quality-loop-ingest.ts` + `scripts/lib/aboutQuality.ts`: score → improve (strip/compose from fixture facts only) → encode lessons to `scripts/data/listing-quality/`. Live scan: **191** fixtures, **0** below target 75 (FIND copy already strong). `--test` proves thin/URL-leak → compose. `npm run catalog:quality-loop` now apply mode (no Mongo).
+2. **DISCOVERED pipeline feeder** — `scripts/pipeline-feed-discovered.ts`: create-or-reprocess via ingest. Evidence: **30/30 ok** reprocess (`scripts/data/pipeline-feed/feed-2026-09-25T19-02-07-172Z.json`). **Not claiming PUBLISHED** — management pipeline owns lifecycle.
+3. **Core reconcile** — `STATUS-FOR-CORE.md` stamped **READY FOR RECONCILE**; `src/QUARANTINE.md` + `AGENTS.md` updated. Still **did not** force-push / delete on `release/padel-africa`.
+4. **Day continuity** — day-1+day-2 inbox present; 3-day spike gate closed by shipping quality rewrite early; calendar `status-2026-09-26.json` still due tomorrow.
+
+**Propose for CLIENT-COMPARISON (SC-central edit):** quality-loop stub → ingest rewrite done; DISCOVERED feeder live; core reconcile still awaiting §D.
+
+**Timer:** `padel-find-tick` still subscribed. HiTL none.
