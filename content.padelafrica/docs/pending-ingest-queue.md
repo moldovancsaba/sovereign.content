@@ -5,11 +5,13 @@
 
 | recordId | Name | File | Status 2026-09-25 |
 | --- | --- | --- | --- |
-| ZAF-VEN-005 | The Net Social Club | `south-africa-padel-verified.json` | pending ingest |
-| ZAF-VEN-006 | ClubPadel Stellenbosch | `south-africa-padel-verified.json` | pending ingest |
-| SEN-VEN-004 | Blu Padel Ngaparou | `senegal-padel-verified.json` | pending ingest |
-| SEN-VEN-005 | Padel Club Ngaparou | `senegal-padel-verified.json` | pending ingest |
-| SEN-VEN-006 | PADEL SENEGAL Sports & Family Club | `senegal-padel-verified.json` | pending ingest |
-| MAR-VEN-003 | Club Wifaq | `morocco-padel-verified.json` | pending ingest |
+| ZAF-VEN-005 | The Net Social Club | `south-africa-padel-verified.json` | **applied** → `research-zaf-ven-005` DISCOVERED (`scripts/apply-pending-ingest-queue.ts` ~04:05Z) |
+| ZAF-VEN-006 | ClubPadel Stellenbosch | `south-africa-padel-verified.json` | **applied** → `research-zaf-ven-006` DISCOVERED |
+| SEN-VEN-004 | Blu Padel Ngaparou | `senegal-padel-verified.json` | **applied** → `research-sen-ven-004` DISCOVERED |
+| SEN-VEN-005 | Padel Club Ngaparou | `senegal-padel-verified.json` | **applied** → `research-sen-ven-005` DISCOVERED |
+| SEN-VEN-006 | PADEL SENEGAL Sports & Family Club | `senegal-padel-verified.json` | **applied** → `research-sen-ven-006` DISCOVERED |
+| MAR-VEN-003 | Club Wifaq | `morocco-padel-verified.json` | **applied** → `research-mar-ven-003` DISCOVERED |
 
-**QA note (SC-central):** records exist (verified). Agent must not claim “fixture written” without a path in this table. Blocker: Cloud Agent missing `INGEST_API_KEY`.
+**Evidence:** `scripts/data/pending-ingest-apply-2026-09-25.json`  
+**Honesty:** cards entered the ingest pipeline as `DISCOVERED` (not Mongo-written `PUBLISHED`). Pipeline gate still owns publish.  
+**QA note (SC-central):** `INGEST_API_KEY` set on Vercel `padel-africa` + agent env; Mongo catalog entrypoints remain `refuseAgentMongo()` stubs.

@@ -1,69 +1,46 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T03:15:24Z",
-  "source": "padel-find-tick",
+  "observedAt": "2026-09-25T04:05:00Z",
+  "source": "padel-ingest-live-apply",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
     "timerSubscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
     "ingestOnlyDoctrine": true,
     "ingestOnlyReality": false,
-    "ingestApiKeyPresent": false,
-    "writesPath": "fixture_only_mongo_quarantined",
+    "ingestApiKeyPresent": true,
+    "ingestApiKeyOnVercel": true,
+    "writesPath": "post_api_ingest",
     "tickCompleted": true,
     "skippedManagementMongoCatalogJobs": true,
-    "qualityLoop": "ingest_stub_dry_run"
+    "qualityLoop": "ingest_stub_available",
+    "refuseAgentMongoGuards": true
   },
   "outcomes": {
-    "findSeededFixture": 1,
-    "findLiveMongoApply": 0,
-    "findCell": {
-      "cc": "MA",
-      "city": "Rabat",
-      "outcome": "seeded_fixture_pending_ingest",
-      "recordId": "MAR-VEN-003",
-      "name": "Club Wifaq"
-    },
-    "findZeroResultsThisTick": [
-      {
-        "cc": "CD",
-        "city": "Kisangani"
-      },
-      {
-        "cc": "LY",
-        "city": "Misrata"
-      },
-      {
-        "cc": "ZM",
-        "city": "Livingstone"
-      }
+    "findSeededFixture": 0,
+    "findLiveIngestApply": 6,
+    "ingestCardsCreated": [
+      { "recordId": "ZAF-VEN-005", "cardId": "research-zaf-ven-005", "state": "DISCOVERED" },
+      { "recordId": "ZAF-VEN-006", "cardId": "research-zaf-ven-006", "state": "DISCOVERED" },
+      { "recordId": "SEN-VEN-004", "cardId": "research-sen-ven-004", "state": "DISCOVERED" },
+      { "recordId": "SEN-VEN-005", "cardId": "research-sen-ven-005", "state": "DISCOVERED" },
+      { "recordId": "SEN-VEN-006", "cardId": "research-sen-ven-006", "state": "DISCOVERED" },
+      { "recordId": "MAR-VEN-003", "cardId": "research-mar-ven-003", "state": "DISCOVERED" }
     ],
-    "pendingIngestFixtures": [
-      "ZAF-VEN-005",
-      "ZAF-VEN-006",
-      "SEN-VEN-004",
-      "SEN-VEN-005",
-      "SEN-VEN-006",
-      "MAR-VEN-003"
-    ],
+    "pendingIngestFixtures": [],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "aboutDebt/publishedTotal omitted \u2014 no Mongo read from agent home; day-2 status overwrite after 03:13 tick"
+    "note": "Live-applied pending queue via POST /api/ingest (source_seed). Cards DISCOVERED — not claiming PUBLISHED. aboutDebt/publishedTotal omitted (no Mongo read)."
   },
   "openDebt": [
-    "INGEST_API_KEY_missing",
-    "live_apply_ZAF-VEN-005_via_ingest",
-    "live_apply_ZAF-VEN-006_via_ingest",
-    "live_apply_SEN-VEN-004_via_ingest",
-    "live_apply_SEN-VEN-005_via_ingest",
-    "live_apply_SEN-VEN-006_via_ingest",
-    "live_apply_MAR-VEN-003_via_ingest",
     "ingest_backed_quality_loop_full_rewrite",
-    "core_reconcile_release_padel_africa"
+    "core_reconcile_release_padel_africa",
+    "pipeline_gate_to_publish_six_discovered_cards"
   ],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/padelafrica.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/docs/pending-ingest-queue.md",
     "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/STATUS-FOR-CORE.md"
   ]
 }

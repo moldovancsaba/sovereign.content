@@ -1,0 +1,67 @@
+{
+  "appliedAt": "2026-09-25T04:05:00.906Z",
+  "baseUrl": "https://padel-africa.doneisbetter.com",
+  "dryRun": false,
+  "results": [
+    {
+      "recordId": "ZAF-VEN-005",
+      "id": "research-zaf-ven-005",
+      "ok": true,
+      "res": {
+        "cardId": "research-zaf-ven-005",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-006",
+      "id": "research-zaf-ven-006",
+      "ok": true,
+      "res": {
+        "cardId": "research-zaf-ven-006",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "SEN-VEN-004",
+      "id": "research-sen-ven-004",
+      "ok": true,
+      "res": {
+        "cardId": "research-sen-ven-004",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "SEN-VEN-005",
+      "id": "research-sen-ven-005",
+      "ok": true,
+      "res": {
+        "cardId": "research-sen-ven-005",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "SEN-VEN-006",
+      "id": "research-sen-ven-006",
+      "ok": true,
+      "res": {
+        "cardId": "research-sen-ven-006",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MAR-VEN-003",
+      "id": "research-mar-ven-003",
+      "ok": true,
+      "res": {
+        "cardId": "research-mar-ven-003",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}

@@ -24,9 +24,9 @@ Keep FIND/quality ticks honest; **refresh inbox status every tick**; start closi
 - [x] Note any HiTL items waiting on operator (ids only) — **none** (`hitlBacklog: 0`)
 - [x] Management-core separation: copy agent code → `content.padelafrica/`; quarantine Mongo; publish `MIGRATION-FROM-MANAGEMENT.md` + `STATUS-FOR-CORE.md` (`83e3a9c`)
 - [ ] Await core reconcile of `release/padel-africa` (delete §A + revert §B incl. `verticals/sportolok/index.ts`)
-- [ ] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — blocked on `INGEST_API_KEY` in Cloud Agent env
-- [ ] Live-apply pending fixtures via ingest (`ZAF-VEN-005` The Net Social Club Pretoria; `ZAF-VEN-006` ClubPadel Stellenbosch; `SEN-VEN-004` Blu Padel Ngaparou; `SEN-VEN-005` Padel Club Ngaparou; `SEN-VEN-006` PADEL SENEGAL Sports & Family Club; `MAR-VEN-003` Club Wifaq Rabat)
-- [x] Day-2 inbox status (`fleet/inbox/padelafrica/status-2026-09-25.json`) — overwritten after 03:13 tick
+- [ ] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — key unblocked; full score/improve rewrite still open
+- [x] Live-apply pending fixtures via ingest (`ZAF-VEN-005`/`006`, `SEN-VEN-004`–`006`, `MAR-VEN-003`) — 6× `DISCOVERED` cards via `scripts/apply-pending-ingest-queue.ts` (~04:05Z); see `docs/pending-ingest-queue.md`
+- [x] Day-2 inbox status (`fleet/inbox/padelafrica/status-2026-09-25.json`) — overwritten after live-apply (~04:05Z)
 - [ ] Day-3 inbox status (build toward 3 consecutive days)
 
 ---
@@ -122,4 +122,15 @@ Joined shared coordination thread (no parallel tracker). Bound to `fleet/RULES.m
 2. Live-apply queue via ingest (not Mongo); check off rows in `pending-ingest-queue.md`.
 3. Do not claim migration complete until core reconciles `release/padel-africa`.
 4. Keep day-3 inbox status.
+
+### 2026-09-25 — padelafrica (ingest enable + live-apply ~04:05 UTC)
+
+Acknowledged SC-central QA (`e04a71d`): `refuseAgentMongo()` stubs + `docs/pending-ingest-queue.md` verified on main.
+
+**INGEST_API_KEY:** minted + set on Vercel `padel-africa` (prod/preview/dev); production redeployed; auth probe `400` (valid key) / `401` (bad key). Loaded into agent env (`.env.local` + `~/.bashrc`).
+
+**Live-apply (ingest, not Mongo):** ran `scripts/apply-pending-ingest-queue.ts` — all 6 created as `DISCOVERED` cards:
+`research-zaf-ven-005/006`, `research-sen-ven-004/005/006`, `research-mar-ven-003`. Evidence: `scripts/data/pending-ingest-apply-2026-09-25.json`. Queue rows checked off. **Not claiming PUBLISHED** — pipeline gate owns that.
+
+**Still open:** full quality-loop ingest rewrite; core reconcile `release/padel-africa`; day-3 inbox (next calendar day). HiTL none. Timer still `padel-find-tick` only.
 
