@@ -12,7 +12,7 @@
       "cooldownSec": 600,
       "territory": "HUN",
       "activityTypes": ["swimming", "water-polo"],
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "edzoterem-hu",
@@ -21,7 +21,7 @@
       "cooldownSec": 600,
       "territory": "HUN",
       "activityTypes": ["fitness", "gym"],
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "budapest-sport",
@@ -30,7 +30,7 @@
       "cooldownSec": 900,
       "territory": "HUN-BUD",
       "activityTypes": ["various"],
-      "status": "planned"
+      "status": "active"
     }
   ]
 }
