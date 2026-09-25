@@ -44,5 +44,29 @@
     "sourceTypes": "Garden Padel first-party site",
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-22"
+  },
+  {
+    "recordId": "MDG-VEN-003",
+    "name": "Lamakoo Padel Center",
+    "city": "Antananarivo",
+    "region": "Analamanga",
+    "countryCode": "MG",
+    "line1": "Ambatobe (hauteurs d’Ambatobe)",
+    "lat": -18.8793284,
+    "lng": 47.5581863,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Ambatobe locality pin — street-level address published only as hauteurs d’Ambatobe",
+    "website": "https://lamakoo.app/",
+    "phone": "+261 34 07 369 94",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily (Madaonsort listing); book via Lamakoo app.",
+    "description": "Lamakoo Padel Center is an Ambatobe Antananarivo padel club with published phone on Padel Lands and the Lamakoo booking app. A clear capital recommendation beyond Tropical Padel Talatamaty when you want Ambatobe courts. Call or book in the Lamakoo app ahead.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/lamakoo-padel-center/",
+    "secondarySourceUrl": "https://lamakoo.app/",
+    "sourceTypes": "Padel Lands Ambatobe listing (phone); Lamakoo app contact; Madaonsort Ambatobe listing",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 2 — not asserted. Distinct from MDG-VEN-001 Tropical and MDG-VEN-002 Garden Ivandry."
   }
 ]

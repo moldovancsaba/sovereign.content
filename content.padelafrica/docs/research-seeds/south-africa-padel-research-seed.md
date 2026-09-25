@@ -15,6 +15,7 @@ South Africa has a very large market (70+ clubs). This is a **curated sample**.
 | `research-zaf-ven-006` | ClubPadel Stellenbosch | Stellenbosch |
 | `research-zaf-ven-007` | Aura Padel Club Montague Gardens | Cape Town |
 | `research-zaf-ven-008` | Indoor Padel Revolution | Johannesburg Honeydew |
+| `research-zaf-ven-009` | Africa Padel Van Der Stel | 28 Du Toit Street, Stellenbosch Central |
 | `osm-way-1266919001` | Africa Padel V&A (already live; enrich) | Portswood Road, Cape Town |
 
 ```bash

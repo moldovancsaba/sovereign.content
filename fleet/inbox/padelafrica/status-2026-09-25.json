@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T10:33:00Z",
+  "observedAt": "2026-09-25T11:38:30Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,13 +14,13 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 13,
+    "fairUsePassCount": 14,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
     "fairUseSeededCandidates": 4,
-    "fairUseRejected": 3,
+    "fairUseRejected": 4,
     "fairUsePendingNeedsVerify": 0,
     "fairUsePromoted": 1,
     "findSeededFixture": 5,
@@ -28,46 +28,46 @@
     "findZeroResultsThisTick": [],
     "ingestCardsCreated": [
       {
-        "recordId": "TZA-VEN-004",
-        "cardId": "research-tza-ven-004",
+        "recordId": "NAM-VEN-003",
+        "cardId": "research-nam-ven-003",
         "state": "DISCOVERED",
-        "name": "Padel Sports Africa"
+        "name": "Wanderers Padel"
       },
       {
-        "recordId": "EGY-VEN-009",
-        "cardId": "research-egy-ven-009",
+        "recordId": "NAM-VEN-004",
+        "cardId": "research-nam-ven-004",
         "state": "DISCOVERED",
-        "name": "Go Padel Katameya"
+        "name": "Namibia Padel Swakopmund"
       },
       {
-        "recordId": "TUN-VEN-006",
-        "cardId": "research-tun-ven-006",
+        "recordId": "NAM-VEN-005",
+        "cardId": "research-nam-ven-005",
         "state": "DISCOVERED",
-        "name": "Padel Up Monastir"
+        "name": "Atlantis Padel"
       },
       {
-        "recordId": "KEN-VEN-008",
-        "cardId": "research-ken-ven-008",
+        "recordId": "ZAF-VEN-009",
+        "cardId": "research-zaf-ven-009",
         "state": "DISCOVERED",
-        "name": "The Padel Point Kenya"
+        "name": "Africa Padel Van Der Stel"
       },
       {
-        "recordId": "MOZ-VEN-003",
-        "cardId": "research-moz-ven-003",
+        "recordId": "MAR-VEN-014",
+        "cardId": "research-mar-ven-014",
         "state": "DISCOVERED",
-        "name": "Padel Club Maputo"
+        "name": "Club Padel Maroc"
       },
       {
-        "recordId": "MAR-VEN-013",
-        "cardId": "research-mar-ven-013",
+        "recordId": "MDG-VEN-003",
+        "cardId": "research-mdg-ven-003",
         "state": "DISCOVERED",
-        "name": "Club Narjisse"
+        "name": "Lamakoo Padel Center"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Kick tick ~10:10\u201310:33: quality stub; fair-use pass 13 promoted Club Narjisse; FIND TZ/EG/TN/KE/MZ seeded. Not claiming PUBLISHED."
+    "note": "Tick ~11:16\u201311:38: quality stub; fair-use pass 14 promoted Club Padel Maroc Sal\u00e9; FIND NA coastal deepen + Stellenbosch + Lamakoo. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

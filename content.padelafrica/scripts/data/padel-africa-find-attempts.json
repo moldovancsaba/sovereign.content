@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T10:28:00.000Z",
+  "updatedAt": "2026-09-25T11:27:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -655,6 +655,54 @@
       "outcome": "seeded",
       "recordId": "MAR-VEN-013",
       "note": "fair-use promote Club Narjisse Hay Ryad ingest"
+    },
+    {
+      "cc": "NA",
+      "city": "Windhoek",
+      "at": "2026-09-25T11:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "NAM-VEN-003",
+      "note": "FIND Wanderers Padel Tunschel/Wanderers SC ingest"
+    },
+    {
+      "cc": "NA",
+      "city": "Swakopmund",
+      "at": "2026-09-25T11:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "NAM-VEN-004",
+      "note": "FIND Namibia Padel Platz Am Meer coastal ingest"
+    },
+    {
+      "cc": "NA",
+      "city": "Walvis Bay",
+      "at": "2026-09-25T11:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "NAM-VEN-005",
+      "note": "FIND Atlantis Padel Thomas Morris ingest"
+    },
+    {
+      "cc": "ZA",
+      "city": "Stellenbosch",
+      "at": "2026-09-25T11:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "ZAF-VEN-009",
+      "note": "FIND Africa Padel Van Der Stel Du Toit St ingest"
+    },
+    {
+      "cc": "MA",
+      "city": "Salé",
+      "at": "2026-09-25T11:27:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-014",
+      "note": "fair-use promote Club Padel Maroc Sala Al Jadida ingest"
+    },
+    {
+      "cc": "MG",
+      "city": "Antananarivo",
+      "at": "2026-09-25T11:27:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MDG-VEN-003",
+      "note": "FIND Lamakoo Padel Center Ambatobe ingest"
     }
   ]
 }

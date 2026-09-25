@@ -7,6 +7,9 @@ Fixture: [`scripts/data/namibia-padel-verified.json`](../scripts/data/namibia-pa
 | --- | --- | --- |
 | `research-nam-ven-001` | Namibia Padel Windhoek | Olympia (Sean McBride / Tennis Street) |
 | `research-nam-ven-002` | United Padel Namibia | Trustco United Fields, Olympia |
+| `research-nam-ven-003` | Wanderers Padel | Wanderers Sports Club, Tünschel Street, Windhoek |
+| `research-nam-ven-004` | Namibia Padel Swakopmund | Platz Am Meer, Tsavorite & Albatros, Swakopmund |
+| `research-nam-ven-005` | Atlantis Padel | Atlantis Sport Club, Thomas Morris Street, Walvis Bay |
 | `osm-node-12477757278` | Namibia Padel Swakopmund (already live; enrich) | Platz Am Meer / Tsavorite Street |
 
 ```bash

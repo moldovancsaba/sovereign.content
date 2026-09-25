@@ -7,6 +7,7 @@ Fixture: [`scripts/data/madagascar-padel-verified.json`](../scripts/data/madagas
 | --- | --- | --- |
 | `research-mdg-ven-001` | Tropical Padel | Talatamaty |
 | `research-mdg-ven-002` | Garden Padel Ivandry | Ivandry |
+| `research-mdg-ven-003` | Lamakoo Padel Center | Ambatobe, Antananarivo |
 | `osm-node-11844432371` | Lamakoo Padel center (already live) | Rocade d'Iarivo |
 
 ```bash

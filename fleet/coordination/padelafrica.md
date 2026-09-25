@@ -320,3 +320,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED.
 
+
+### 2026-09-25 — padelafrica (tick ~11:16–11:38 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 14 (28 sources). Promoted **`MAR-VEN-014` Club Padel Maroc** (Sala Al Jadida / Salé) → DISCOVERED. Rejected NL Meppel, ES La Moraleja, UK Leeds, junk President Padel brand page.
+
+**FIND:**
+- NA Windhoek deepen → **`NAM-VEN-003` Wanderers Padel** DISCOVERED
+- NA Swakopmund → **`NAM-VEN-004` Namibia Padel Swakopmund** (Platz Am Meer) DISCOVERED
+- NA Walvis Bay → **`NAM-VEN-005` Atlantis Padel** DISCOVERED
+- ZA Stellenbosch → **`ZAF-VEN-009` Africa Padel Van Der Stel** DISCOVERED
+- MG Antananarivo → **`MDG-VEN-003` Lamakoo Padel Center** (Ambatobe) DISCOVERED
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+

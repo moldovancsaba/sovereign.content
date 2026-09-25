@@ -322,5 +322,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "Fair-use promote tick kick 2026-09-25 from actu-padel candidate. Court count claimed as two padel spaces — not asserted beyond operator. Distinct from MAR-VEN-003 Club Wifaq Rabat."
+  },
+  {
+    "recordId": "MAR-VEN-014",
+    "name": "Club Padel Maroc",
+    "city": "Salé",
+    "region": "Rabat-Salé-Kénitra",
+    "countryCode": "MA",
+    "line1": "Route de Meknès 879 RC, Sala Al Jadida",
+    "lat": 33.999,
+    "lng": -6.744,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Sala Al Jadida locality pin — Route de Meknès 879 RC not rooftop-geocoded",
+    "website": "https://clubpadelmaroc.matchpoint.com.es/",
+    "phone": "+212 661 434 244",
+    "email": "clubpadelmaroc@gmail.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 09:00–21:00 (Matchpoint / Visit Rabat).",
+    "description": "Club Padel Maroc is a Salé padel club on Route de Meknès in Sala Al Jadida with published phone, email, and Matchpoint booking. A clear Rabat–Salé recommendation beyond Club Narjisse and Club Wifaq when you want Salé-side courts. Call or book via the club app.",
+    "primarySourceUrl": "https://clubpadelmaroc.matchpoint.com.es/",
+    "secondarySourceUrl": "https://www.visitrabat.com/lieux/club-padel-maroc/",
+    "sourceTypes": "Matchpoint club contact (Rte Meknès Sala Al Jadida + phone + email + hours); Visit Rabat listing",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "Fair-use promote tick 2026-09-25 from actu-padel Club Padel Sale. Court count listed as 2 on padel.co.ma — not asserted. Distinct from MAR-VEN-003 Wifaq and MAR-VEN-013 Narjisse."
   }
 ]

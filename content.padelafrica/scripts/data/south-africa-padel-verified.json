@@ -197,5 +197,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Johannesburg deepen. Court count not asserted."
+  },
+  {
+    "recordId": "ZAF-VEN-009",
+    "name": "Africa Padel Van Der Stel",
+    "city": "Stellenbosch",
+    "region": "Western Cape",
+    "countryCode": "ZA",
+    "line1": "28 Du Toit Street, Stellenbosch Central",
+    "lat": -33.934444,
+    "lng": 18.869167,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Stellenbosch town pin — 28 Du Toit St not rooftop-geocoded; Van Der Stel Tennis Club / central Stellenbosch",
+    "website": "https://www.africapadel.com/clubs",
+    "phone": "+27 67 028 9703",
+    "email": "rivan@africapadel.com",
+    "venueModel": "outdoors",
+    "seasonNote": "Daily 06:00–22:00 (Africa Padel clubs page).",
+    "description": "Africa Padel Van Der Stel is a Stellenbosch Central padel club on Du Toit Street with published phone, email, and Playtomic booking. A clear Winelands recommendation beyond ClubPadel Woodmill when you want central Stellenbosch outdoor courts. Book on Playtomic or call the club desk.",
+    "primarySourceUrl": "https://www.africapadel.com/clubs",
+    "secondarySourceUrl": "https://playtomic.com/clubs/africa-padel-van-der-stel",
+    "sourceTypes": "Africa Padel clubs page (28 Du Toit St + phone + email + hours); Playtomic club page booking",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Court count claimed as 4 outdoor — not asserted. Distinct from ZAF-VEN-006 ClubPadel Stellenbosch Woodmill."
   }
 ]

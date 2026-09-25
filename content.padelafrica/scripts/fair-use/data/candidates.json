@@ -513,5 +513,92 @@
     "extractedAt": "2026-09-25T10:27:16.267Z",
     "rejectedAt": "2026-09-25T10:28:00.000Z",
     "note": "Out of scope — Sandbach/UK padel directory listing"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-padel-centrum-meppel",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPadel Centrum Meppel",
+    "citationUrl": "https://playtomic.com/clubs/padel-centrum-meppel",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/padel-centrum-meppel",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T11:20:00.631Z",
+    "rejectedAt": "2026-09-25T11:25:00.000Z",
+    "note": "Out of scope — Meppel/Netherlands Playtomic club"
+  },
+  {
+    "candidateId": "fair-actu-padel-club-padel-sale",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Club Padel Sale",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-sale/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "countryHint": "Morocco",
+    "addressHint": "36VC+5VV lmrkb lswsyw thqfy, Sale, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-sale/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T11:22:21.313Z",
+    "promotedAt": "2026-09-25T11:26:00.000Z",
+    "promotedRecordId": "MAR-VEN-014",
+    "note": "Promoted — Club Padel Maroc Salé (Sala Al Jadida / Rte Meknès) Matchpoint+VisitRabat evidence"
+  },
+  {
+    "candidateId": "fair-padelivu-la-moraleja-club-de-padel",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "La Moraleja Club De Padel",
+    "citationUrl": "https://padelivu.com/club/la-moraleja-club-de-padel",
+    "website": "",
+    "researchSources": [
+      "https://padelivu.com/club/la-moraleja-club-de-padel"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T11:25:23.347Z",
+    "rejectedAt": "2026-09-25T11:35:00.000Z",
+    "note": "Out of scope — Alcobendas/Madrid Spain club"
+  },
+  {
+    "candidateId": "fair-padelsearch-are-you-ready",
+    "sourceId": "padelsearch",
+    "sourceName": "Padel Search",
+    "name": "Are you ready",
+    "citationUrl": "https://padelsearch.info/web/site/brand/president-padel-club",
+    "website": "https://playtomic.io/padeloutdoor-tibro/902d280e-dbb7-4e99-a8a6-89611220075d?q=PADEL~2024-12-01~~~",
+    "researchSources": [
+      "https://padelsearch.info/web/site/brand/president-padel-club",
+      "https://playtomic.io/padeloutdoor-tibro/902d280e-dbb7-4e99-a8a6-89611220075d?q=PADEL~2024-12-01~~~"
+    ],
+    "researchNote": "Discovered via Padel Search fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T11:29:09.821Z",
+    "rejectedAt": "2026-09-25T11:35:00.000Z",
+    "note": "Junk lead — brand/promo page (President Padel Club), not an Africa venue"
+  },
+  {
+    "candidateId": "fair-thepadeldirectory-last-sun-dance-padel-club-leeds",
+    "sourceId": "thepadeldirectory",
+    "sourceName": "The Padel Directory",
+    "name": "Last Sun Dance Padel Club (Leeds)",
+    "citationUrl": "https://www.thepadeldirectory.co.uk/padel-centres/last-sun-dance-padel-club-leeds",
+    "website": "https://padel-mates-widget-prod.netlify.app/css/styles.css",
+    "researchSources": [
+      "https://www.thepadeldirectory.co.uk/padel-centres/last-sun-dance-padel-club-leeds",
+      "https://padel-mates-widget-prod.netlify.app/css/styles.css"
+    ],
+    "researchNote": "Discovered via The Padel Directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T11:32:59.447Z",
+    "rejectedAt": "2026-09-25T11:38:00.000Z",
+    "note": "Out of scope — Leeds/UK padel directory listing"
   }
 ]
