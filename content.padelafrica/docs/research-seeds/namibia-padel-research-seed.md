@@ -6,6 +6,7 @@ Fixture: [`scripts/data/namibia-padel-verified.json`](../scripts/data/namibia-pa
 | Id | Listing | Place |
 | --- | --- | --- |
 | `research-nam-ven-001` | Namibia Padel Windhoek | Olympia (Sean McBride / Tennis Street) |
+| `research-nam-ven-002` | United Padel Namibia | Trustco United Fields, Olympia |
 | `osm-node-12477757278` | Namibia Padel Swakopmund (already live; enrich) | Platz Am Meer / Tsavorite Street |
 
 ```bash

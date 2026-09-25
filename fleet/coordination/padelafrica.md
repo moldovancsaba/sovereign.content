@@ -238,3 +238,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.
 
+
+### 2026-09-25 — padelafrica (tick ~07:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 10 (28 sources). No Africa venue promote this pass. Rejected 5 OOS/junk (Paris Playtomic, Miami Ultra Padel, global-count article, FR magazine hub, generic finder).
+
+**FIND:**
+- MA Fes → fixture+ingest **`MAR-VEN-010` Fes Country Club** (El Merja / Zouagha) → `research-mar-ven-010` DISCOVERED
+- TN Hammamet → fixture+ingest **`TUN-VEN-004` Padel Hammamet** (Route Touristique Mrezga) → `research-tun-ven-004` DISCOVERED
+- NA Windhoek deepen → fixture+ingest **`NAM-VEN-002` United Padel Namibia** (Trustco United Fields) → `research-nam-ven-002` DISCOVERED
+- RW Kigali → `zero-result` (Pinnacle membership mention only; Bounce sample already covered)
+
+**Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.
+

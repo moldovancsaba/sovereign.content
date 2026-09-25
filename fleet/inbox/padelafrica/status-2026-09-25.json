@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T06:29:30Z",
+  "observedAt": "2026-09-25T07:35:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,41 +14,46 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 9,
+    "fairUsePassCount": 10,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
-    "fairUseSeededCandidates": 1,
-    "fairUseRejected": 3,
+    "fairUseSeededCandidates": 0,
+    "fairUseRejected": 5,
     "fairUsePendingNeedsVerify": 0,
-    "findSeededFixture": 2,
+    "findSeededFixture": 3,
     "findLiveIngestApply": 3,
-    "findZeroResultsThisTick": [],
+    "findZeroResultsThisTick": [
+      {
+        "cc": "RW",
+        "city": "Kigali"
+      }
+    ],
     "ingestCardsCreated": [
       {
-        "recordId": "MAR-VEN-008",
-        "cardId": "research-mar-ven-008",
+        "recordId": "MAR-VEN-010",
+        "cardId": "research-mar-ven-010",
         "state": "DISCOVERED",
-        "name": "B Padel Californie"
+        "name": "Fes Country Club"
       },
       {
-        "recordId": "MAR-VEN-009",
-        "cardId": "research-mar-ven-009",
+        "recordId": "TUN-VEN-004",
+        "cardId": "research-tun-ven-004",
         "state": "DISCOVERED",
-        "name": "Le Carr\u00e9 Padel Agadir"
+        "name": "Padel Hammamet"
       },
       {
-        "recordId": "TUN-VEN-003",
-        "cardId": "research-tun-ven-003",
+        "recordId": "NAM-VEN-002",
+        "cardId": "research-nam-ven-002",
         "state": "DISCOVERED",
-        "name": "Yalla Padel Sousse"
+        "name": "United Padel Namibia"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~06:07\u201306:29: quality stub; fair-use pass 9 promoted B Padel \u2192 MAR-VEN-008; FIND Agadir Le Carr\u00e9 \u2192 MAR-VEN-009; FIND Sousse Yalla \u2192 TUN-VEN-003; all DISCOVERED. Rejected Asia/Gulf hub, need4padel builder, Clermont/France OOS. Not claiming PUBLISHED."
+    "note": "Tick ~07:11\u201307:35: quality stub; fair-use pass 10 (5 OOS/junk rejected, 0 promote); FIND Fes/Hammamet/Windhoek \u2192 3 DISCOVERED; Kigali zero. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

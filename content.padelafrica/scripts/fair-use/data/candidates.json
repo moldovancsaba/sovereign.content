@@ -162,5 +162,89 @@
     "extractedAt": "2026-09-25T06:20:52.012Z",
     "rejectedAt": "2026-09-25T06:29:00.000Z",
     "note": "Out of scope — Clermont/France club directory entry, not Africa"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-paris-padel",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nParis Padel",
+    "citationUrl": "https://playtomic.com/clubs/paris-padel",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/paris-padel",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T07:14:39.111Z",
+    "rejectedAt": "2026-09-25T07:24:00.000Z",
+    "note": "Out of scope — Paris/Europe Playtomic booking page"
+  },
+  {
+    "candidateId": "fair-padelrevive-how-many-padel-clubs-are-there-we-counted-1088",
+    "sourceId": "padelrevive",
+    "sourceName": "PadelRevive",
+    "name": "How Many Padel Clubs Are There? We Counted 1,088",
+    "citationUrl": "https://padelrevive.com/performance/how-many-padel-clubs/",
+    "website": "",
+    "countryHint": "Morocco",
+    "researchSources": [
+      "https://padelrevive.com/performance/how-many-padel-clubs/"
+    ],
+    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T07:17:44.423Z",
+    "rejectedAt": "2026-09-25T07:24:00.000Z",
+    "note": "Junk lead — global count article, not a club venue"
+  },
+  {
+    "candidateId": "fair-padelivu-ultra-padel-miami",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Ultra Padel Miami",
+    "citationUrl": "https://padelivu.com/club/ultra-padel-miami-magic-city",
+    "website": "",
+    "addressHint": "400 NE 67th St, 33138, Miami, United States",
+    "researchSources": [
+      "https://padelivu.com/club/ultra-padel-miami-magic-city"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T07:20:00.713Z",
+    "rejectedAt": "2026-09-25T07:24:00.000Z",
+    "note": "Out of scope — Miami/USA venue"
+  },
+  {
+    "candidateId": "fair-padelmagazine-fr-actus-padel-clubs",
+    "sourceId": "padelmagazine-fr",
+    "sourceName": "Padel Magazine FR",
+    "name": "Actus Padel Clubs",
+    "citationUrl": "https://padelmagazine.fr/categorie/clubs/actus-padel-clubs/",
+    "website": "https://padelmagazine.jp.net/categorie/clubs/actus-padel-clubs/",
+    "researchSources": [
+      "https://padelmagazine.fr/categorie/clubs/actus-padel-clubs/",
+      "https://padelmagazine.jp.net/categorie/clubs/actus-padel-clubs/"
+    ],
+    "researchNote": "Discovered via Padel Magazine FR fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T07:25:18.699Z",
+    "rejectedAt": "2026-09-25T07:34:30.000Z",
+    "note": "Junk lead — French magazine category hub, not a club venue"
+  },
+  {
+    "candidateId": "fair-padelbrowser-find-padel-courts-near-you",
+    "sourceId": "padelbrowser",
+    "sourceName": "Padel Browser",
+    "name": "Find Padel Courts Near You",
+    "citationUrl": "https://www.padelbrowser.com/clubs/find-courts",
+    "website": "",
+    "researchSources": [
+      "https://www.padelbrowser.com/clubs/find-courts"
+    ],
+    "researchNote": "Discovered via Padel Browser fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T07:30:38.432Z",
+    "rejectedAt": "2026-09-25T07:34:30.000Z",
+    "note": "Junk lead — generic finder page, no club identity"
   }
 ]

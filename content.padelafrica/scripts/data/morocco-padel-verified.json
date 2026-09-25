@@ -224,5 +224,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Agadir deepen — Padel Factory already OSM live; Le Carré distinct. Court count from operator page not asserted in description."
+  },
+  {
+    "recordId": "MAR-VEN-010",
+    "name": "Fes Country Club",
+    "city": "Fes",
+    "region": "Fès-Meknès",
+    "countryCode": "MA",
+    "line1": "Complexe Sportif El Merja, Route de Zouagha",
+    "lat": 34.0174142,
+    "lng": -5.0541572,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Zouagha / Fès locality pin — Complexe Sportif El Merja lot not rooftop-geocoded",
+    "website": "https://royaltennisclubdefes.com/",
+    "phone": "+212 716 746 417",
+    "email": "fescountryclub@gmail.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours to confirm on booking.",
+    "description": "Fes Country Club (RTCF / Complexe Sportif El Merja on Route de Zouagha) is a multi-sport club with padel courts listed by the national padel directory, with published phone and email. A clear recommendation when you want Fès padel beyond Casablanca, Marrakech, and Agadir sample clubs. Call ahead to reserve.",
+    "primarySourceUrl": "https://padel.co.ma/annuaire-des-clubs/",
+    "secondarySourceUrl": "https://royaltennisclubdefes.com/",
+    "sourceTypes": "Padel Maroc directory (2 courts+address+phone+email); RTCF/FCC club site (Complexe El Merja address+phones)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Fes deepen. Secondary landline +212 535 65 58 36 (Petit Futé) and RTCF mobiles also listed — primary Padel Maroc mobile retained. Court count from directory not asserted in description."
   }
 ]

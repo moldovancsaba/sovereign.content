@@ -70,5 +70,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Sousse deepen. Secondary phone +216 22 730 028 also listed — primary BalleJaune retained. Court count not asserted."
+  },
+  {
+    "recordId": "TUN-VEN-004",
+    "name": "Padel Hammamet",
+    "city": "Hammamet",
+    "region": "Nabeul",
+    "countryCode": "TN",
+    "line1": "Route Touristique, Mrezga",
+    "lat": 36.4307865,
+    "lng": 10.6672038,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Hammamet tourist-zone / Mrezga periphery pin — club lot not rooftop-geocoded",
+    "website": "https://openresa.com/club/PadelHammamet/contact",
+    "phone": "+216 29 623 000",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours to confirm on booking.",
+    "description": "Padel Hammamet is a named padel club on Route Touristique in Mrezga / Hammamet with a published phone on OpenResa. A clear recommendation when you want Cap Bon padel beyond Tunis, Ariana, and Sousse sample clubs. Call ahead to reserve.",
+    "primarySourceUrl": "https://openresa.com/club/PadelHammamet/contact",
+    "secondarySourceUrl": "https://openresa.com/club/onepadel/contact",
+    "sourceTypes": "OpenResa Padel Hammamet contact (Route Touristique+phone); OpenResa One Padel Hammamet corroborates Hammamet tourist-belt padel",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Hammamet deepen. Court count not asserted."
   }
 ]

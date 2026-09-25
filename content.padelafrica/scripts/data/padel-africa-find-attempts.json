@@ -482,6 +482,37 @@
       "outcome": "seeded",
       "recordId": "TUN-VEN-003",
       "note": "FIND deepen Yalla Padel Sousse ingest"
+    },
+    {
+      "cc": "MA",
+      "city": "Fes",
+      "at": "2026-09-25T07:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-010",
+      "note": "FIND deepen Fes Country Club El Merja Zouagha ingest"
+    },
+    {
+      "cc": "TN",
+      "city": "Hammamet",
+      "at": "2026-09-25T07:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-004",
+      "note": "FIND deepen Padel Hammamet Route Touristique Mrezga ingest"
+    },
+    {
+      "cc": "NA",
+      "city": "Windhoek",
+      "at": "2026-09-25T07:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "NAM-VEN-002",
+      "note": "FIND deepen United Padel Namibia Trustco United Fields ingest"
+    },
+    {
+      "cc": "RW",
+      "city": "Kigali",
+      "at": "2026-09-25T07:20:00.000Z",
+      "outcome": "zero-result",
+      "note": "Pinnacle membership padel mention only; no public phone/address beyond Bounce Kiyovu sample"
     }
   ]
 }

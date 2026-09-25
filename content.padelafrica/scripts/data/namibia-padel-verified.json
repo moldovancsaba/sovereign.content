@@ -23,5 +23,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-22",
     "researchNotes": "Swakopmund site is OSM osm-node-12477757278 — enrich only, do not duplicate"
+  },
+  {
+    "recordId": "NAM-VEN-002",
+    "name": "United Padel Namibia",
+    "city": "Windhoek",
+    "region": "Khomas",
+    "countryCode": "NA",
+    "line1": "Trustco United Fields, Frankie Fredericks Drive, Olympia",
+    "lat": -22.6162531,
+    "lng": 17.0958304,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Frankie Fredericks Drive Olympia pin — Trustco United Fields lot not rooftop-geocoded",
+    "website": "https://unitedpadel-na.matchpoint.com.es/",
+    "phone": "+264 81 709 0963",
+    "email": "info@unitedpadelnam.com.na",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 07:00–23:00 (Matchpoint)",
+    "description": "United Padel Namibia is a bookable Olympia Windhoek padel club at Trustco United Fields on Frankie Fredericks Drive with published phone and email on Matchpoint. A clear recommendation when you want Windhoek padel beyond Namibia Padel on Sean McBride / Tennis Street. Book ahead for evening courts.",
+    "primarySourceUrl": "https://unitedpadel-na.matchpoint.com.es/",
+    "secondarySourceUrl": "https://unitedpadel-na.matchpoint.com.es/",
+    "sourceTypes": "Matchpoint United Padel Namibia club card (address+phone+email+hours)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Windhoek deepen — distinct from NAM-VEN-001 Namibia Padel. Court count not asserted."
   }
 ]

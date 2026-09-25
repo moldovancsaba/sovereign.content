@@ -16,6 +16,7 @@ Morocco has a large market (70+ clubs). This is a **curated sample**.
 | `research-mar-ven-007` | TCMT Padel Club | Avenue Essalam, Tangier |
 | `research-mar-ven-008` | B Padel Californie | Californie / Bd de Fès, Casablanca |
 | `research-mar-ven-009` | Le Carré Padel Agadir | Odysée Park, Blvd Mohamed V |
+| `research-mar-ven-010` | Fes Country Club | Complexe El Merja / Zouagha |
 | `osm-node-13300140471` | Padel Factory (already live) | Agadir |
 
 ```bash
