@@ -1,0 +1,35 @@
+{
+  "appliedAt": "2026-09-25T13:23:19.396Z",
+  "results": [
+    {
+      "recordId": "UGA-VEN-003",
+      "id": "research-uga-ven-003",
+      "ok": true,
+      "res": {
+        "cardId": "research-uga-ven-003",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-004",
+      "id": "research-civ-ven-004",
+      "ok": true,
+      "res": {
+        "cardId": "research-civ-ven-004",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZMB-VEN-004",
+      "id": "research-zmb-ven-004",
+      "ok": true,
+      "res": {
+        "cardId": "research-zmb-ven-004",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}

@@ -355,3 +355,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
 
+
+### 2026-09-25 — padelafrica (tick ~13:10–13:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 16 (28 sources). No Africa venue promote. Rejected Miami Ultra Padel, thin Club Wefit Fez stub, UK Chiltern.
+
+**FIND:**
+- UG Kampala deepen → **`UGA-VEN-003` Lake Victoria Serena Padel** (Lweza-Kigo) DISCOVERED
+- CI Abidjan → **`CIV-VEN-004` Abidjan Padel Riviera Golf** DISCOVERED
+- ZM Lusaka → **`ZMB-VEN-004` Summit Sports Arena** (Lamasat) DISCOVERED; Padelplus phone enrich
+- ET Addis Ababa → `zero-result` (Addis Padel Club launching/job-post only)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+

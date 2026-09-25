@@ -671,5 +671,58 @@
     "extractedAt": "2026-09-25T12:24:16.167Z",
     "rejectedAt": "2026-09-25T12:27:00.000Z",
     "note": "Out of scope — Laredo/Texas USA coming-soon listing"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-ultra-padel-miami",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nUltra Padel Miami",
+    "citationUrl": "https://playtomic.com/clubs/ultra-padel-miami",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/ultra-padel-miami",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T13:13:30.700Z",
+    "rejectedAt": "2026-09-25T13:23:00.000Z",
+    "note": "Out of scope — Miami/USA Playtomic club"
+  },
+  {
+    "candidateId": "fair-actu-padel-club-wefit",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Club Wefit",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-wefit-fez/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "countryHint": "Morocco",
+    "addressHint": "Fes 30050, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-wefit-fez/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T13:15:52.005Z",
+    "rejectedAt": "2026-09-25T13:24:00.000Z",
+    "note": "Thin/unverifiable — Actu stub only; no phone/address; Wefit.club is France gym network (not Africa venue evidence)"
+  },
+  {
+    "candidateId": "fair-thepadeldirectory-chiltern-padel-club",
+    "sourceId": "thepadeldirectory",
+    "sourceName": "The Padel Directory",
+    "name": "Chiltern Padel Club",
+    "citationUrl": "https://www.thepadeldirectory.co.uk/padel-centres/chiltern-padel-club",
+    "website": "https://padel-mates-widget-prod.netlify.app/css/styles.css",
+    "researchSources": [
+      "https://www.thepadeldirectory.co.uk/padel-centres/chiltern-padel-club",
+      "https://padel-mates-widget-prod.netlify.app/css/styles.css"
+    ],
+    "researchNote": "Discovered via The Padel Directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T13:26:29.796Z",
+    "rejectedAt": "2026-09-25T13:35:00.000Z",
+    "note": "Out of scope — Chiltern/UK padel directory listing"
   }
 ]

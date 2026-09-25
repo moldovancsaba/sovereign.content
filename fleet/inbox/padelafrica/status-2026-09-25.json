@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T12:27:30Z",
+  "observedAt": "2026-09-25T13:35:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,54 +14,47 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 15,
+    "fairUsePassCount": 16,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
-    "fairUseSeededCandidates": 3,
+    "fairUseSeededCandidates": 2,
     "fairUseRejected": 3,
     "fairUsePendingNeedsVerify": 0,
-    "fairUsePromoted": 1,
-    "findSeededFixture": 4,
-    "findLiveIngestApply": 5,
-    "findZeroResultsThisTick": [],
+    "fairUsePromoted": 0,
+    "findSeededFixture": 3,
+    "findLiveIngestApply": 3,
+    "findZeroResultsThisTick": [
+      {
+        "cc": "ET",
+        "city": "Addis Ababa"
+      }
+    ],
     "ingestCardsCreated": [
       {
-        "recordId": "ZWE-VEN-003",
-        "cardId": "research-zwe-ven-003",
+        "recordId": "UGA-VEN-003",
+        "cardId": "research-uga-ven-003",
         "state": "DISCOVERED",
-        "name": "Padel Zim Bulawayo"
+        "name": "Lake Victoria Serena Padel"
       },
       {
-        "recordId": "ZWE-VEN-004",
-        "cardId": "research-zwe-ven-004",
+        "recordId": "CIV-VEN-004",
+        "cardId": "research-civ-ven-004",
         "state": "DISCOVERED",
-        "name": "Padel Zim Borrowdale Brooke"
+        "name": "Abidjan Padel Riviera Golf"
       },
       {
-        "recordId": "RWA-VEN-002",
-        "cardId": "research-rwa-ven-002",
+        "recordId": "ZMB-VEN-004",
+        "cardId": "research-zmb-ven-004",
         "state": "DISCOVERED",
-        "name": "Mamba Sport Padel"
-      },
-      {
-        "recordId": "SEN-VEN-008",
-        "cardId": "research-sen-ven-008",
-        "state": "DISCOVERED",
-        "name": "Padel City"
-      },
-      {
-        "recordId": "MAR-VEN-015",
-        "cardId": "research-mar-ven-015",
-        "state": "DISCOVERED",
-        "name": "Club Riad"
+        "name": "Summit Sports Arena"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~12:05\u201312:27: quality stub; fair-use pass 15 promoted Club Riad Agdal; FIND ZW Bulawayo/Borrowdale, RW Mamba, SN Padel City. Not claiming PUBLISHED."
+    "note": "Tick ~13:10\u201313:35: quality stub; fair-use pass 16 no Africa promote; FIND Serena Uganda, Riviera Golf Abidjan, Summit Lusaka; ET Addis launching-only zero. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

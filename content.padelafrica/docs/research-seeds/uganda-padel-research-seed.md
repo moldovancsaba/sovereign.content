@@ -7,6 +7,7 @@ Fixture: [`scripts/data/uganda-padel-verified.json`](../scripts/data/uganda-pade
 | --- | --- | --- |
 | `research-uga-ven-001` | Herman Padel Center | Ggaba Road, Nsambya |
 | `research-uga-ven-002` | Smash Padel Uganda | Old Kira Road, Bukoto |
+| `research-uga-ven-003` | Lake Victoria Serena Padel | Lweza-Kigo Road off Entebbe Road, Kampala |
 
 ```bash
 npm run catalog:seed-research-uganda:dry

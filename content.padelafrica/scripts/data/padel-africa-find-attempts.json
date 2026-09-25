@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T12:24:00.000Z",
+  "updatedAt": "2026-09-25T13:23:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -743,6 +743,37 @@
       "outcome": "seeded",
       "recordId": "MAR-VEN-015",
       "note": "fair-use promote Club Riad Agdal ingest"
+    },
+    {
+      "cc": "UG",
+      "city": "Kampala",
+      "at": "2026-09-25T13:15:00.000Z",
+      "outcome": "seeded",
+      "recordId": "UGA-VEN-003",
+      "note": "FIND Lake Victoria Serena resort padel Lweza-Kigo ingest"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan",
+      "at": "2026-09-25T13:15:00.000Z",
+      "outcome": "seeded",
+      "recordId": "CIV-VEN-004",
+      "note": "FIND Abidjan Padel Riviera Golf Laguna ingest"
+    },
+    {
+      "cc": "ET",
+      "city": "Addis Ababa",
+      "at": "2026-09-25T13:15:00.000Z",
+      "outcome": "zero-result",
+      "note": "Addis_Padel_Club_launching_job_post_only; no_operating_court_first_party"
+    },
+    {
+      "cc": "ZM",
+      "city": "Lusaka",
+      "at": "2026-09-25T13:23:00.000Z",
+      "outcome": "seeded",
+      "recordId": "ZMB-VEN-004",
+      "note": "FIND Summit Sports Arena Lamasat Complex ingest; Padelplus phone enrich"
     }
   ]
 }

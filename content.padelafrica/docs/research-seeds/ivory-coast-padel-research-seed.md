@@ -12,6 +12,7 @@ Two **Active** research venues (sample). Ace padel already live as OSM.
 | `research-civ-ven-001` | Padelta | Cocody Danga | locality |
 | `research-civ-ven-002` | WePadel Marcory | Marcory Résidentiel | locality |
 | `research-civ-ven-003` | Padel Magic Club | Central Tennis Club, Cocody | locality |
+| `research-civ-ven-004` | Abidjan Padel Riviera Golf | Résidence Laguna Golf, Riviera Golf, Cocody |
 | `osm-node-12650488436` | Ace padel (already live) | Rue Yves Mankambou, Marcory | existing OSM |
 
 ```bash

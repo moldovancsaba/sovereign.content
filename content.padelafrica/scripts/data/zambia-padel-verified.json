@@ -14,7 +14,7 @@
     "phone": "+260 772 825 738",
     "email": "deucepadelclub@gmail.com",
     "venueModel": "outdoors",
-    "seasonNote": "Daily 05:00\u201300:00",
+    "seasonNote": "Daily 05:00–00:00",
     "description": "Deuce Padel Club offers two courts on Mumana Road in Olympia / Roma, Lusaka, with online booking and published phone and email. A clear recommendation when you want named Zambia padel with long daily hours. Confirm peak vs off-peak rates when you book.",
     "primarySourceUrl": "https://www.deuce-zm.com/",
     "secondarySourceUrl": "https://www.deuce-zm.com/contact-4",
@@ -28,7 +28,7 @@
     "city": "Lusaka",
     "region": "Lusaka Province",
     "countryCode": "ZM",
-    "line1": "Plot 2658 Chifwema Road, Leopards Hill",
+    "line1": "Plot 2658/Sub G Chifwema Road, Leopards Hill",
     "lat": -15.5149281,
     "lng": 28.4529543,
     "geoPrecision": "street",
@@ -38,10 +38,12 @@
     "seasonNote": "Hours not listed yet.",
     "description": "Padelplus Zambia lists outdoor, covered and indoor padel courts on Chifwema Road in Leopards Hill, Lusaka, with SimplyBook scheduling. A solid recommendation when you want a second named Lusaka padel destination beyond Mumana Road. Confirm court type when you book.",
     "primarySourceUrl": "https://padelpluszambia.simplybook.me/v2/",
-    "secondarySourceUrl": "https://booking.page/en/company/page/padelpluszambia",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/zambia/",
     "sourceTypes": "SimplyBook; Booking.page",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-09-25",
+    "phone": "+260 965 995 370",
+    "researchNotes": " Phone enriched FIND tick 2026-09-25 from Padel Lands (+260965995370)."
   },
   {
     "recordId": "ZMB-VEN-003",
@@ -67,5 +69,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-23",
     "researchNotes": "FIND tick 2026-09-23. Email domain on contact form is extremepadelzambia.com (as published); site host is xtremepadelzambia.com."
+  },
+  {
+    "recordId": "ZMB-VEN-004",
+    "name": "Summit Sports Arena",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "countryCode": "ZM",
+    "line1": "Lamasat Complex, Linda roundabout, off Kafue Road",
+    "lat": -15.487857,
+    "lng": 28.2528209,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "website": "https://padellands.com/en/pistas-de-padel/otros-paises/zambia/",
+    "phone": "+260 969 111 119",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed on directory entry.",
+    "description": "Summit Sports Arena is a Lusaka padel venue at Lamasat Complex by Linda roundabout off Kafue Road with published phones on Padel Lands. A clear capital recommendation beyond Deuce, Padelplus, and Xtreme when you want Makeni-side courts. Call ahead to confirm open play.",
+    "primarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/zambia/",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/zambia/",
+    "sourceTypes": "Padel Lands Zambia directory (Lamasat Complex address + phones)",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Directory-only Medium. Alternate phone +260 776 259 999 also listed. Court count listed as 5 — not asserted. Distinct from existing Lusaka samples."
   }
 ]

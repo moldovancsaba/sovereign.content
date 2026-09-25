@@ -68,5 +68,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Abidjan deepen. Court count from operator page not asserted in description."
+  },
+  {
+    "recordId": "CIV-VEN-004",
+    "name": "Abidjan Padel Riviera Golf",
+    "city": "Abidjan",
+    "region": "Lagunes",
+    "countryCode": "CI",
+    "line1": "Résidence Laguna Golf, Riviera Golf, Cocody",
+    "lat": 5.3284409,
+    "lng": -3.9621934,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Golf Laguna / Riviéra 4 pin — Résidence Laguna Golf not rooftop-geocoded",
+    "website": "https://ballejaune.com/club/abidjanpadel/contact",
+    "phone": "+225 07 59 23 00 00",
+    "venueModel": "own_premises",
+    "seasonNote": "Listed open until 22:00 on map listing; confirm by phone.",
+    "description": "Abidjan Padel Riviera Golf is a Cocody Riviera Golf padel club at Résidence Laguna Golf with published phone on Ballejaune and map listings. A clear Abidjan recommendation beyond Padelta Danga and Magic Club when you want Riviera Golf courts. Call ahead to book.",
+    "primarySourceUrl": "https://ballejaune.com/club/abidjanpadel/contact",
+    "secondarySourceUrl": "https://www.tripinafrica.com/attractions/abidjan/abidjan-padel",
+    "sourceTypes": "Ballejaune Abidjan Padel contact (Laguna Golf + phone); TripInAfrica listing; Yandex Maps Rue E81 / phone",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Distinct from CIV-VEN-001 Padelta Cocody Danga and CIV-VEN-003 Magic Club."
   }
 ]
