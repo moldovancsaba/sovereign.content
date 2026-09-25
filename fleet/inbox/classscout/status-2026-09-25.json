@@ -1,29 +1,76 @@
 {
   "clientId": "classscout",
-  "observedAt": "2026-09-25T03:47:05Z",
+  "observedAt": "2026-09-25T04:11:48Z",
   "source": "product-catalog-loop-forever",
   "workingEnv": {
+    "timerSubscribed": false,
     "foreverProcessUp": true,
     "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
+    "canonicalAgentHome": "sovereign.content/content.classscout",
     "cutoverComplete": false,
+    "cutoverStep1Started": false,
+    "cutoverHoldReason": "intentional_until_sc_scripts_proven",
     "stepTimeoutsEnabled": true,
     "improveTimeoutSec": 1500,
-    "hangGuardDoc": "docs/catalog-loop-error-playbook.md#31-forever-hang--clock-freeze-2026-09-25"
+    "ingestOnly": "partial",
+    "productPointerPr": "https://github.com/moldovancsaba/classscout/pull/967",
+    "enginesMergedWithPadel": false
   },
   "outcomes": {
     "lasting_public_rate": 0.9003115264797508,
     "find_lasting_public": "289/321",
-    "find_smoke_pass": 0,
-    "find_smoke_fail": 74,
-    "find_publish_total": 0,
-    "public_listings": 823,
+    "find_smoke_pass": 2,
+    "find_smoke_fail": 37,
+    "find_publish_total_hourly": 2,
+    "find_publish_recent_3h": 4,
+    "find_publish_recent_public_target": 3,
+    "public_listings": 827,
+    "improve_cycle": 772,
     "seeds_pending": 203,
+    "fair_use_funnel": "8\u21920 seeds / 3 rejects",
     "loop_up": true,
-    "note": "rule_455_hang_guards_documented"
+    "scarcity_brief_freshness": "hourly",
+    "tier_a_auto_pause_health": "active",
+    "recent_publishes": [
+      {
+        "seedId": "prov-beyond-camps-pixie-pods",
+        "publicTarget": true,
+        "at": "2026-09-25T03:58:56.061Z"
+      },
+      {
+        "seedId": "prov-beyond-camps-pga-camps",
+        "publicTarget": false,
+        "at": "2026-09-25T03:59:31.938Z"
+      },
+      {
+        "seedId": "prov-tinyout-bayonne-blades-skate-school",
+        "publicTarget": true,
+        "at": "2026-09-25T04:01:30.209Z"
+      },
+      {
+        "seedId": "prov-tinyout-dance-together-nyc",
+        "publicTarget": true,
+        "at": "2026-09-25T04:03:27.985Z"
+      }
+    ]
   },
-  "openDebt": [],
+  "openDebt": [
+    {
+      "kind": "priority_open",
+      "n": 4
+    },
+    {
+      "kind": "contact_debt_open",
+      "n": 2
+    },
+    {
+      "kind": "cutover_step1",
+      "n": 1
+    }
+  ],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/classscout.md",
-    "https://github.com/moldovancsaba/classscout/blob/cursor/sc-storage-layout-b289/docs/catalog-loop-error-playbook.md"
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/ORCHESTRATOR.md",
+    "https://github.com/moldovancsaba/classscout/pull/967"
   ]
 }
