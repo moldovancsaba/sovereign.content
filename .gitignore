@@ -30,3 +30,6 @@ content.classscout/scripts/data/
 content.classscout/scripts/find-seeds.json
 content.padelafrica/**/data/
 content.sportolok/**/data/
+# Exception: fair-use discovery evidence required for SC-central verify
+!content.sportolok/scripts/fair-use-discovery/data/
+!content.sportolok/scripts/fair-use-discovery/data/**

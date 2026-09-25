@@ -1,0 +1,533 @@
+{
+  "seed-hun-c2uuho": {
+    "seedId": "seed-hun-c2uuho",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/csillaghegyi-strandfurdo-es-uszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Csillaghegyi strandfürdő és uszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-3pnpe8": {
+    "seedId": "seed-hun-3pnpe8",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/napozo-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Napozó",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-1yp37j": {
+    "seedId": "seed-hun-1yp37j",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/hovirag-klub-uszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Hóvirág Klub Uszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-b9wdl6": {
+    "seedId": "seed-hun-b9wdl6",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/stilianos-babauszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Stilianos Babauszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-mxtcwq": {
+    "seedId": "seed-hun-mxtcwq",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/nyeki-imre-uszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      },
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/nyeki-imre-uszoda-budapest-2/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Nyéki Imre Uszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-bffud8": {
+    "seedId": "seed-hun-bffud8",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/nover-utcai-tanuszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Nővér Utcai Tanuszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-3jzv14": {
+    "seedId": "seed-hun-3jzv14",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/honved-uszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Honvéd uszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-z3yqjt": {
+    "seedId": "seed-hun-z3yqjt",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/radnoti-utcai-tanuszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Radnóti utcai tanuszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-bmva1g": {
+    "seedId": "seed-hun-bmva1g",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/hajos-alfred-uszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Hajós Alfréd uszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-171k3o": {
+    "seedId": "seed-hun-171k3o",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/e-on-sporttelep-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "E.ON Sporttelep",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-orjciq": {
+    "seedId": "seed-hun-orjciq",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/csepeli-strandfurdo-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Csepeli strandfürdő",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-p3ev8x": {
+    "seedId": "seed-hun-p3ev8x",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/romai-strandfurdo-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Római Strandfürdő",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-98xedn": {
+    "seedId": "seed-hun-98xedn",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/margareta-medence-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Margaréta medence",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-9byb6x": {
+    "seedId": "seed-hun-9byb6x",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/mom-sport-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "MOM Sport",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-90qu0w": {
+    "seedId": "seed-hun-90qu0w",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/komjadi-bela-sportuszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Komjádi Béla Sportuszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-4882ue": {
+    "seedId": "seed-hun-4882ue",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/szechy-tamas-medence-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Széchy Tamás medence",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-z6m7l4": {
+    "seedId": "seed-hun-z6m7l4",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/laky-karoly-sportuszoda-bvsc-zuglo-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Laky Károly Sportuszoda (BVSC-Zugló)",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-1rvhhy": {
+    "seedId": "seed-hun-1rvhhy",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/hegyvideki-sport-uszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Hegyvidéki Sport Uszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-mohrmf": {
+    "seedId": "seed-hun-mohrmf",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/szeruskert-tanuszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.127Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Szérűskert tanuszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-g3kojw": {
+    "seedId": "seed-hun-g3kojw",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/gerevich-aladar-nemzeti-sportcsarnok-uszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.128Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gerevich Aladár Nemzeti Sportcsarnok uszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-51zp25": {
+    "seedId": "seed-hun-51zp25",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/pesterzsebeti-uszoda-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.128Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Pesterzsébeti Uszoda",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-vsbjcp": {
+    "seedId": "seed-hun-vsbjcp",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/punkosdfurdoi-strandfurdo-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.128Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Pünkösdfürdői strandfürdő",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-jyxv5r": {
+    "seedId": "seed-hun-jyxv5r",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/vasas-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.128Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Vasas",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-2vs0ir": {
+    "seedId": "seed-hun-2vs0ir",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-budapest",
+        "url": "https://www.magyaruszodak.hu/uszoda/tuske-uszodakomplexum-budapest/",
+        "discoveredAt": "2026-09-25T08:08:00.128Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Tüske uszodakomplexum",
+      "address": "Budapest, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kmsx1y": {
+    "seedId": "seed-hun-kmsx1y",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-gazdagreti",
+        "url": "https://nsu.hu/letesitmeny/gazdagreti-tanuszoda/",
+        "discoveredAt": "2026-09-25T08:08:46.502Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Gazdagréti Tanuszoda",
+      "address": "1112 Budapest XI, Gazdagréti út 12.",
+      "contact": {
+        "phone": "+36 1 471 4158",
+        "email": "gazdagrettanuszoda@nsu.hu"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-2ravkj": {
+    "seedId": "seed-hun-2ravkj",
+    "discoveryDate": "2026-09-25",
+    "researchSources": [
+      {
+        "sourceId": "nsu-dagaly",
+        "url": "https://nsu.hu/letesitmeny/dagaly-gyogyfurdo-strandfurdo-es-uszoda-nemzeti-uszo-es-vizilabda-olimpiai-kozpont/",
+        "discoveredAt": "2026-09-25T08:09:32.882Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Dagály gyógyfürdő strandfürdő és uszoda - Nemzeti Úszó és Vízilabda Olimpiai Központ",
+      "address": "1138 Budapest, Népfürdő u. 28-30. Átadva: 1948 (felújítva 2017-2018) Kedves Vendégeink! 1",
+      "contact": {
+        "phone": "+36 30 160 0150",
+        "email": "timea.galanisz@nsu.hu"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "magyaruszodak-budapest": {
+    "sourceId": "magyaruszodak-budapest",
+    "lastFetchMs": 1790323679562,
+    "lastStatus": "ok"
+  },
+  "nsu-gazdagreti": {
+    "sourceId": "nsu-gazdagreti",
+    "lastFetchMs": 1790323679562,
+    "lastStatus": "ok"
+  },
+  "nsu-dagaly": {
+    "sourceId": "nsu-dagaly",
+    "lastFetchMs": 1790323679562,
+    "lastStatus": "ok"
+  }
+}

@@ -1,0 +1,110 @@
+
+> @sovereign/sportolok@1.0.0 fair-use:enrich
+> npx tsx scripts/fair-use-discovery/enrich-seeds.ts --limit=5
+
+🌱 Sportolok Fair-Use Enrichment Agent
+   Mode: LIVE
+   Limit: 5
+📊 Pending: 26 / total 26
+
+🔬 Enriching: seed-hun-kmsx1y
+   Name: Gazdagréti Tanuszoda
+   Confidence: high
+   Address: 1112 Budapest XI, Gazdagréti út 12.
+   ✅ Ingested research-hun-kmsx1y
+
+🔬 Enriching: seed-hun-2ravkj
+   Name: Dagály gyógyfürdő strandfürdő és uszoda - Nemzeti Úszó és Vízilabda Olimpiai Központ
+   Confidence: high
+   Address: 1138 Budapest, Népfürdő u. 28-30. Átadva: 1948 (felújítva 2017-2018) Kedves Vendégeink! 1
+   ✅ Ingested research-hun-2ravkj
+
+🔬 Enriching: seed-hun-c2uuho
+   Name: Csillaghegyi strandfürdő és uszoda
+   Confidence: medium
+   🔎 Deepen fetch: https://www.magyaruszodak.hu/uszoda/csillaghegyi-strandfurdo-es-uszoda-budapest/
+   Address: Budapest, Hungary
+   ✅ Ingested research-hun-c2uuho
+
+🔬 Enriching: seed-hun-3pnpe8
+   Name: Napozó
+   Confidence: medium
+   🔎 Deepen fetch: https://www.magyaruszodak.hu/uszoda/napozo-budapest/
+   Address: Budapest, Hungary
+   ✅ Ingested research-hun-3pnpe8
+
+🔬 Enriching: seed-hun-1yp37j
+   Name: Hóvirág Klub Uszoda
+   Confidence: medium
+   🔎 Deepen fetch: https://www.magyaruszodak.hu/uszoda/hovirag-klub-uszoda-budapest/
+   Address: Budapest, Hungary
+   ✅ Ingested research-hun-1yp37j
+
+💾 Saved find-seeds.json
+{
+  "job": "sportolok:fair-use-enrich",
+  "dryRun": false,
+  "summary": {
+    "ingested": 5,
+    "rejected": 0,
+    "errors": 0,
+    "remaining": 21
+  },
+  "results": [
+    {
+      "seedId": "seed-hun-kmsx1y",
+      "outcome": "ingested",
+      "reason": "ingest-success",
+      "listingId": "research-hun-kmsx1y",
+      "response": {
+        "cardId": "research-hun-kmsx1y",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "seedId": "seed-hun-2ravkj",
+      "outcome": "ingested",
+      "reason": "ingest-success",
+      "listingId": "research-hun-2ravkj",
+      "response": {
+        "cardId": "research-hun-2ravkj",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "seedId": "seed-hun-c2uuho",
+      "outcome": "ingested",
+      "reason": "ingest-success",
+      "listingId": "research-hun-c2uuho",
+      "response": {
+        "cardId": "research-hun-c2uuho",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "seedId": "seed-hun-3pnpe8",
+      "outcome": "ingested",
+      "reason": "ingest-success",
+      "listingId": "research-hun-3pnpe8",
+      "response": {
+        "cardId": "research-hun-3pnpe8",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "seedId": "seed-hun-1yp37j",
+      "outcome": "ingested",
+      "reason": "ingest-success",
+      "listingId": "research-hun-1yp37j",
+      "response": {
+        "cardId": "research-hun-1yp37j",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}

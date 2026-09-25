@@ -1,0 +1,3 @@
+# Keep directory; commit evidence artifacts (find-seeds / source-state / pass logs)
+# Ignore only transient scratch
+*.tmp

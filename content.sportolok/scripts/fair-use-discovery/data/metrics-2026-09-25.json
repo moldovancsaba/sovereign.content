@@ -1,0 +1,28 @@
+{
+  "observedAt": "2026-09-25T08:10:00Z",
+  "window": "last_hour_action",
+  "MM_SP": {
+    "D": 5,
+    "E": 1,
+    "P": 1,
+    "note": "D=DISCOVERED cards via ingestSourceText; E=published About enrich patch; P=published listing patched (also cleaned _test_patch)"
+  },
+  "discovery": {
+    "sourcesProcessed": 3,
+    "candidatesExtracted": 27,
+    "pendingSeeds": 21,
+    "ingestedSeeds": 5
+  },
+  "discoveredCardIds": [
+    "research-hun-kmsx1y",
+    "research-hun-2ravkj",
+    "research-hun-c2uuho",
+    "research-hun-3pnpe8",
+    "research-hun-1yp37j"
+  ],
+  "publishedPatch": {
+    "listingId": "l-disc-10fdfb6e8912e955",
+    "cleanedTestPatch": true,
+    "aboutEnriched": true
+  }
+}
