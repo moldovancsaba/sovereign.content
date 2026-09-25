@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T02:13:17Z",
+  "observedAt": "2026-09-25T03:15:24Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -18,29 +18,24 @@
     "findSeededFixture": 1,
     "findLiveMongoApply": 0,
     "findCell": {
-      "cc": "SN",
-      "city": "Mbour",
+      "cc": "MA",
+      "city": "Rabat",
       "outcome": "seeded_fixture_pending_ingest",
-      "recordId": "SEN-VEN-006",
-      "name": "PADEL SENEGAL Sports & Family Club",
-      "resolvedCity": "Saly Portudal"
+      "recordId": "MAR-VEN-003",
+      "name": "Club Wifaq"
     },
     "findZeroResultsThisTick": [
       {
-        "cc": "CM",
-        "city": "Bafoussam"
-      },
-      {
         "cc": "CD",
-        "city": "Goma"
+        "city": "Kisangani"
       },
       {
         "cc": "LY",
-        "city": "Benghazi"
+        "city": "Misrata"
       },
       {
         "cc": "ZM",
-        "city": "Ndola"
+        "city": "Livingstone"
       }
     ],
     "pendingIngestFixtures": [
@@ -48,12 +43,13 @@
       "ZAF-VEN-006",
       "SEN-VEN-004",
       "SEN-VEN-005",
-      "SEN-VEN-006"
+      "SEN-VEN-006",
+      "MAR-VEN-003"
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "aboutDebt/publishedTotal omitted \u2014 no Mongo read from agent home; day-2 status overwrite after 02:10 tick"
+    "note": "aboutDebt/publishedTotal omitted \u2014 no Mongo read from agent home; day-2 status overwrite after 03:13 tick"
   },
   "openDebt": [
     "INGEST_API_KEY_missing",
@@ -62,6 +58,7 @@
     "live_apply_SEN-VEN-004_via_ingest",
     "live_apply_SEN-VEN-005_via_ingest",
     "live_apply_SEN-VEN-006_via_ingest",
+    "live_apply_MAR-VEN-003_via_ingest",
     "ingest_backed_quality_loop_full_rewrite",
     "core_reconcile_release_padel_africa"
   ],

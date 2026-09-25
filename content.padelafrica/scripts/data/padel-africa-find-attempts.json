@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T02:13:17.668Z",
+  "updatedAt": "2026-09-25T03:15:24.493Z",
   "attempts": [
     {
       "cc": "CF",
@@ -350,6 +350,34 @@
       "outcome": "seeded",
       "at": "2026-09-25T02:13:17.668Z",
       "note": "fixture_only_pending_ingest SEN-VEN-006 PADEL SENEGAL Sports Saly (Mbour dept)"
+    },
+    {
+      "cc": "CD",
+      "city": "Kisangani",
+      "outcome": "zero-result",
+      "at": "2026-09-25T03:15:24.493Z",
+      "note": "Kinshasa_Lubumbashi_Kolwezi_only"
+    },
+    {
+      "cc": "LY",
+      "city": "Misrata",
+      "outcome": "zero-result",
+      "at": "2026-09-25T03:15:24.493Z",
+      "note": "Tripoli_only; future_market_mentions_insufficient"
+    },
+    {
+      "cc": "ZM",
+      "city": "Livingstone",
+      "outcome": "zero-result",
+      "at": "2026-09-25T03:15:24.493Z",
+      "note": "Padel_Hub_Roma_Lusaka_not_Livingstone; Addagio_noise"
+    },
+    {
+      "cc": "MA",
+      "city": "Rabat",
+      "outcome": "seeded",
+      "at": "2026-09-25T03:15:24.493Z",
+      "note": "fixture_only_pending_ingest MAR-VEN-003 Club Wifaq"
     }
   ]
 }

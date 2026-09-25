@@ -49,5 +49,30 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-22",
     "researchNotes": "Locality pin — do not invent a street centroid beyond directory address"
+  },
+  {
+    "recordId": "MAR-VEN-003",
+    "name": "Club Wifaq",
+    "city": "Rabat",
+    "region": "Rabat-Salé-Kénitra",
+    "countryCode": "MA",
+    "line1": "Avenue Mohamed VI, lot Les Ambassadeurs",
+    "lat": 33.9693168,
+    "lng": -6.8236399,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Avenue Mohamed Bel Hassan El Ouazzani / Les Ambassadeurs Souissi road pin — club lot not rooftop geocode",
+    "phone": "+212 5377-54539",
+    "email": "info@clubwifaq.com",
+    "website": "https://playtomic.com/clubs/club-wifaq",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 07:00–23:00 (Playtomic / Visit Rabat)",
+    "description": "Club Wifaq is a renovated multi-sport club on Avenue Mohamed VI in Rabat’s Les Ambassadeurs / Souissi belt with bookable padel courts on Playtomic (WIPADEL pass for non-members) and published phone and email on Visit Rabat. A clear recommendation when you want capital-city padel beyond Casablanca sample clubs. Book ahead for evening courts.",
+    "primarySourceUrl": "https://playtomic.com/clubs/club-wifaq",
+    "secondarySourceUrl": "https://www.visitrabat.com/en/lieux/club-wifaq-2/",
+    "sourceTypes": "Playtomic club card (address+hours+padel courts); Visit Rabat venue page (phone+email+address)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND until-found sparse_n2 Rabat cell 2026-09-25. Not in excludeNames. Court count from Playtomic not asserted in description. Phone +212 5377-54539 / +212 537775017 also listed — primary Visit Rabat form retained."
   }
 ]
