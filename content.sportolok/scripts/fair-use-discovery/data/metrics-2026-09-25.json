@@ -1,31 +1,24 @@
 {
-  "observedAt": "2026-09-25T19:06:13Z",
-  "window": "resolve_open_debt",
+  "observedAt": "2026-09-25T19:15:07Z",
+  "window": "address_deepen",
   "MM_SP": {
-    "D": 24,
+    "D": 26,
     "E": 5,
     "P": 8,
-    "note": "D=DISCOVERED research cards from fair-use enrich (24 ingested seeds); E=About enrich patches (about-curate 4 + gazdagreti repair); P=published patches (about+media+repair)"
+    "note": "D=26 DISCOVERED research cards (rescued 2 false rejects); street addresses deepened 18/26; phone facts filled where source has them"
   },
   "discovery": {
     "pendingSeeds": 0,
-    "ingestedSeeds": 24,
-    "rejectedSeeds": 2
+    "ingestedSeeds": 26,
+    "rejectedSeeds": 0,
+    "streetLevelAddresses": 18,
+    "withPhone": 17
   },
-  "catalogJobs": {
-    "aboutCurate": {
-      "improved": 4,
-      "writePath": "executorIngest"
-    },
-    "mediaCurate": {
-      "patched": 3,
-      "writePath": "executorIngest",
-      "skippedGenericChrome": true
-    },
-    "qualityLoop": {
-      "improved": 0,
-      "note": "weak About already handled by about-curate this pass"
-    }
+  "addressDeepen": {
+    "writePath": "ingestSourceText reprocess/create",
+    "deepenedStreet": 18,
+    "sourceLacksStreet": 8,
+    "rootCauseFixed": "detail JSON-LD extractor before nearby .pcard"
   },
   "mongo": "quarantined"
 }

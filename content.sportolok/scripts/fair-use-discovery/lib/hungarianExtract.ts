@@ -21,16 +21,17 @@ const JUNK_TITLES = [
 ];
 
 /**
- * Route to the right extractor based on URL / markup
+ * Route to the right extractor based on URL / markup.
+ * Detail pages first — listing pages also embed nearby `.pcard`s which must NOT win.
  */
 export function extractHungarianSportFacility(
   html: string,
   url: string,
   opts: ExtractOptions
 ): Candidate[] {
-  if (/magyaruszodak\.hu/i.test(url) || /class="pcard"/i.test(html)) {
-    const cards = extractMagyarUszodakCards(html, url, opts);
-    if (cards.length) return cards;
+  if (/magyaruszodak\.hu\/uszoda\//i.test(url)) {
+    const detail = extractMagyarUszodakDetail(html, url, opts);
+    if (detail.length) return detail;
   }
 
   if (/nsu\.hu\/letesitmeny\//i.test(url) || /Helyszín:/i.test(html)) {
@@ -38,7 +39,135 @@ export function extractHungarianSportFacility(
     if (detail.length) return detail;
   }
 
+  if (/magyaruszodak\.hu/i.test(url) || /class="pcard"/i.test(html)) {
+    const cards = extractMagyarUszodakCards(html, url, opts);
+    if (cards.length) return cards;
+  }
+
   return extractSinglePageFallback(html, url, opts);
+}
+
+/**
+ * Magyar Uszodák facility detail — PublicSwimmingPool JSON-LD + Cím eyebrow.
+ * Never use nearby `.pcard` listings on the same page.
+ */
+export function extractMagyarUszodakDetail(
+  html: string,
+  url: string,
+  opts: ExtractOptions
+): Candidate[] {
+  const pool = parseJsonLdPublicPool(html);
+  const h1 = cleanText(html.match(/<h1[^>]*>([^<]+)<\/h1>/i)?.[1] || "");
+  const og = cleanText(
+    html.match(/<meta\s+property="og:title"\s+content="([^"]+)"/i)?.[1] || ""
+  );
+  const title = cleanText(pool?.name || h1 || og.split("|")[0] || "");
+  if (!title || isJunkTitle(title) || title.length < 4) return [];
+
+  const streetFromLd = cleanText(pool?.streetAddress || "");
+  const postal = cleanText(pool?.postalCode || "");
+  const locality = cleanText(pool?.addressLocality || "Budapest") || "Budapest";
+
+  const cimEyebrow =
+    cleanText(
+      html.match(
+        /<div class="eyebrow">\s*Cím\s*<\/div>\s*<div>([^<]+)<\/div>/i
+      )?.[1] || ""
+    ) || undefined;
+
+  let address: string | undefined;
+  if (streetFromLd && postal) {
+    address = `${postal} ${locality}, ${streetFromLd}, Hungary`;
+  } else if (streetFromLd) {
+    address = `${streetFromLd}, ${locality}, Hungary`;
+  } else if (cimEyebrow && !/^budapest,?\s*budapest$/i.test(cimEyebrow)) {
+    // "272 Királyok útja, Budapest, Budapest" → keep; skip locality-only chrome
+    address = /hungary$/i.test(cimEyebrow) ? cimEyebrow : `${cimEyebrow}, Hungary`;
+  } else if (postal) {
+    address = `${postal} ${locality}, Hungary`;
+  } else {
+    address = `${locality}, Hungary`;
+  }
+
+  const phone =
+    cleanText(
+      html.match(
+        /<div class="eyebrow">\s*Telefon\s*<\/div>\s*<div>([^<]+)<\/div>/i
+      )?.[1] ||
+        pool?.telephone ||
+        html.match(/(\+36[\s\d]{8,18})/)?.[1] ||
+        ""
+    ) || undefined;
+
+  const email =
+    html.match(/mailto:([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,})/i)?.[1]?.toLowerCase();
+
+  const streetLevel = !!(streetFromLd || (cimEyebrow && /\d/.test(cimEyebrow)));
+
+  return [
+    {
+      seedId: generateSeedId(title, address || url),
+      sourceId: opts.sourceId,
+      discoveryUrl: url,
+      territory: opts.territory,
+      activityType: detectActivityType(html, title, opts.activityTypes),
+      title,
+      address,
+      contact: { phone, email },
+      extractedFacts: {
+        hasPhone: !!phone,
+        hasEmail: !!email,
+        hasAddress: !!address,
+        streetLevel,
+        postalCode: postal || undefined,
+        locality,
+        from: "magyaruszodak-detail-jsonld",
+      },
+      confidence: streetLevel || phone ? "high" : address ? "medium" : "low",
+      discoveredAt: new Date().toISOString(),
+    },
+  ];
+}
+
+type PoolAddress = {
+  name?: string;
+  streetAddress?: string;
+  addressLocality?: string;
+  postalCode?: string;
+  telephone?: string;
+};
+
+function parseJsonLdPublicPool(html: string): PoolAddress | null {
+  const blocks = html.match(
+    /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi
+  );
+  if (!blocks) return null;
+  for (const block of blocks) {
+    const raw = block.replace(/^[\s\S]*?>/, "").replace(/<\/script>$/i, "");
+    try {
+      const data = JSON.parse(raw) as Record<string, unknown> | Record<string, unknown>[];
+      const nodes = Array.isArray(data) ? data : [data];
+      for (const node of nodes) {
+        const type = String(node["@type"] || "");
+        if (!/PublicSwimmingPool|SportsActivityLocation|LocalBusiness|Place/i.test(type)) {
+          continue;
+        }
+        const addr = (node.address || {}) as Record<string, unknown>;
+        return {
+          name: typeof node.name === "string" ? node.name : undefined,
+          streetAddress:
+            typeof addr.streetAddress === "string" ? addr.streetAddress : undefined,
+          addressLocality:
+            typeof addr.addressLocality === "string" ? addr.addressLocality : undefined,
+          postalCode: typeof addr.postalCode === "string" ? addr.postalCode : undefined,
+          telephone: typeof node.telephone === "string" ? node.telephone : undefined,
+        };
+      }
+    } catch {
+      /* ignore bad json-ld */
+    }
+  }
+  return null;
 }
 
 /**
@@ -119,7 +248,15 @@ export function extractNsuFacilityDetail(
     html.match(/Helyszín:\s*<\/strong>\s*([^<]+)/i)?.[1] ||
     html.match(/Helyszín:\s*([^<\n]{10,120})/i)?.[1] ||
     html.match(/(\d{4}\s+Budapest[^<\n]{5,80})/i)?.[1];
-  const address = hely ? cleanText(hely).replace(/\s*•\s*$/, "").replace(/,\s*\d+\s*\/\d+\.?\s*hrsz\.?/i, "").trim() : undefined;
+  const address = hely
+    ? cleanText(hely)
+        .replace(/\s*•\s*$/, "")
+        .replace(/,\s*\d+\s*\/\d+\.?\s*hrsz\.?/i, "")
+        // Cut NSÜ narrative that follows the address on the same line
+        .replace(/\s+(Átadva|Kedves|Befogadóképesség|Fizikai jellemzők|Az uszoda).*$/i, "")
+        .replace(/\s{2,}/g, " ")
+        .trim()
+    : undefined;
 
   const phone =
     cleanText(

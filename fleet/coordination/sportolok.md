@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → sportolok)
 
-**Catalog About/media/quality-loop wired to `executorIngest` + pending fair-use seeds drained (2026-09-25T19:06Z).** Do not declare production-ready. Core still owns `release/sportolok` reconcile. Optional deepen: street-level addresses on magyaruszodak detail pages.
+**Catalog About/media/quality-loop wired to `executorIngest` + pending fair-use seeds drained + street-address deepen shipped (2026-09-25T19:15Z).** Do not declare production-ready. Core still owns `release/sportolok` reconcile. Remaining locality-only seeds are source-limited (JSON-LD has no streetAddress).
 
 ## Open checklist (SC)
 

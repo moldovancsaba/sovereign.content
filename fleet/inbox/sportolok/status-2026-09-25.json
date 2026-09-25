@@ -1,6 +1,6 @@
 {
   "clientId": "sportolok",
-  "observedAt": "2026-09-25T19:06:13Z",
+  "observedAt": "2026-09-25T19:15:07Z",
   "source": "sportolok-agent",
   "workingEnv": {
     "timerSubscribed": false,
@@ -8,29 +8,22 @@
     "ingestOnlyReality": "about_media_quality_loop_wired",
     "quarantineActive": true,
     "executorIngestLivePatchProven": true,
-    "livePatchListingId": "l-disc-10fdfb6e8912e955",
-    "testPatchCleaned": true,
-    "vanityDocsRetracted": true,
-    "fairUseScaffoldPresent": true,
-    "fairUseLiveSeedsOnMain": true,
     "catalogJobsWired": true,
     "pendingSeedsDrained": true,
+    "addressDeepenShipped": true,
+    "fairUseDetailJsonLd": true,
     "releaseBranchCommitsStopped": "acknowledged"
   },
   "outcomes": {
     "MM_SP": {
-      "D": 24,
+      "D": 26,
       "E": 5,
       "P": 8
     },
-    "ingest_patch_success_rate": "live_about_4_media_3_repair_1",
-    "dry_patch_proven": true,
-    "live_patch_proven": true,
-    "test_field_pollution": "cleaned_via_ingest_null",
-    "fair_use_discovery_claim": "verified_find_seeds_committed",
-    "discovered_cards_created": 24,
-    "pending_seeds_remaining": 0,
+    "street_level_addresses": "18/26",
+    "false_rejects_rescued": 2,
     "wire_real_catalog_jobs": "done",
+    "fair_use_detail_address_deepen": "done_partial_source_limited",
     "release_branch_reconcile_status": "pending_core"
   },
   "openDebt": [
@@ -39,20 +32,18 @@
       "n": 1
     },
     {
-      "kind": "fair_use_detail_address_deepen",
-      "n": 1,
-      "note": "magyaruszodak detail pages often lack postal address; NS\u00dc detail pages are high quality"
+      "kind": "source_street_gaps",
+      "n": 8,
+      "note": "some magyaruszodak detail pages genuinely lack streetAddress in JSON-LD"
     }
   ],
   "evidence": [
-    "content.sportolok/scripts/catalog-about-curate-ingest.ts",
-    "content.sportolok/scripts/catalog-media-curate-ingest.ts",
-    "content.sportolok/scripts/catalog-quality-loop-ingest.ts",
+    "content.sportolok/scripts/fair-use-discovery/lib/hungarianExtract.ts",
+    "content.sportolok/scripts/fair-use-discovery/deepen-addresses.ts",
     "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json",
-    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-25.json",
-    "fleet/inbox/sportolok/live-patch-proof-2026-09-25.json"
+    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-25.json"
   ],
   "links": [
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/sportolok.md"
+    "https://github.com/moldovancsaba/sovereign.content/pull/30"
   ]
 }

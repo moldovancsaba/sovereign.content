@@ -13,10 +13,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Csillaghegyi strandfürdő és uszoda",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1038 Budapest, 2-6 Pusztakúti út, Hungary",
+      "contact": {
+        "phone": "+36 1 242 0754"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-3pnpe8": {
@@ -33,10 +35,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Napozó",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1121 Budapest, 21 Konkoly-Thege Miklós út, Hungary",
+      "contact": {
+        "phone": "+36 30 813 9203"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-1yp37j": {
@@ -53,10 +57,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Hóvirág Klub Uszoda",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1121 Budapest, 42 Hóvirág út, Hungary",
+      "contact": {
+        "phone": "+36 1 249 0227"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-b9wdl6": {
@@ -74,7 +80,9 @@
     "initialFacts": {
       "name": "Stilianos Babauszoda",
       "address": "Budapest, Hungary",
-      "contact": {}
+      "contact": {
+        "phone": "+36 30 520 99 03"
+      }
     },
     "confidence": "medium",
     "status": "ingested"
@@ -98,10 +106,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Nyéki Imre Uszoda",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1116 Budapest, 14 Kondorosi út, Hungary",
+      "contact": {
+        "phone": "+36 70 903 7714"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-bffud8": {
@@ -118,10 +128,10 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Nővér Utcai Tanuszoda",
-      "address": "Budapest, Hungary",
+      "address": "1131 Budapest, 15 Nővér utca, Hungary",
       "contact": {}
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-3jzv14": {
@@ -179,7 +189,9 @@
     "initialFacts": {
       "name": "Hajós Alfréd uszoda",
       "address": "Budapest, Hungary",
-      "contact": {}
+      "contact": {
+        "phone": "+36 1 450 4200"
+      }
     },
     "confidence": "medium",
     "status": "ingested"
@@ -198,10 +210,10 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "E.ON Sporttelep",
-      "address": "Budapest, Hungary",
+      "address": "1138 Budapest, 18-20 Népfürdő utca, Hungary",
       "contact": {}
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-orjciq": {
@@ -218,10 +230,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Csepeli strandfürdő",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1213 Budapest, 14 Hollandi út, Hungary",
+      "contact": {
+        "phone": "+36 1 277 6576"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-p3ev8x": {
@@ -238,11 +252,13 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Római Strandfürdő",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1031 Budapest, 2 Rozgonyi Piroska utca, Hungary",
+      "contact": {
+        "phone": "+36 1 388 9740"
+      }
     },
-    "confidence": "medium",
-    "status": "rejected"
+    "confidence": "high",
+    "status": "ingested"
   },
   "seed-hun-98xedn": {
     "seedId": "seed-hun-98xedn",
@@ -278,10 +294,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "MOM Sport",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1124 Budapest, 14-16 Csörsz utca, Hungary",
+      "contact": {
+        "phone": "+36 70 3900779"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-90qu0w": {
@@ -338,10 +356,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Laky Károly Sportuszoda (BVSC-Zugló)",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1142 Budapest, 2 Szőnyi út, Hungary",
+      "contact": {
+        "phone": "+36 1 273 1426"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-1rvhhy": {
@@ -358,10 +378,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Hegyvidéki Sport Uszoda",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1122 Budapest, 29 Városmajor utca, Hungary",
+      "contact": {
+        "phone": "+36 1 212 2945"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-mohrmf": {
@@ -378,10 +400,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Szérűskert tanuszoda",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1033 Budapest, 40-44 Szérűskert utca, Hungary",
+      "contact": {
+        "phone": "+36 1 387 3141"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-g3kojw": {
@@ -398,10 +422,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Gerevich Aladár Nemzeti Sportcsarnok uszoda",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1146 Budapest, 3-5 Istvánmezei út, Hungary",
+      "contact": {
+        "phone": "+36 1 471 4202"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-51zp25": {
@@ -418,10 +444,12 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Pesterzsébeti Uszoda",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1203 Budapest, 1 Zodony utca, Hungary",
+      "contact": {
+        "phone": "+36 1 920 0155"
+      }
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-vsbjcp": {
@@ -438,11 +466,13 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Pünkösdfürdői strandfürdő",
-      "address": "Budapest, Hungary",
-      "contact": {}
+      "address": "1039 Budapest, 272 Királyok útja, Hungary",
+      "contact": {
+        "phone": "+36 1 388 6665"
+      }
     },
-    "confidence": "medium",
-    "status": "rejected"
+    "confidence": "high",
+    "status": "ingested"
   },
   "seed-hun-jyxv5r": {
     "seedId": "seed-hun-jyxv5r",
@@ -478,10 +508,10 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Tüske uszodakomplexum",
-      "address": "Budapest, Hungary",
+      "address": "1117 Budapest, 7 Magyar tudósok körútja, Hungary",
       "contact": {}
     },
-    "confidence": "medium",
+    "confidence": "high",
     "status": "ingested"
   },
   "seed-hun-kmsx1y": {
@@ -521,7 +551,7 @@
     "activityType": "swimming",
     "initialFacts": {
       "name": "Dagály gyógyfürdő strandfürdő és uszoda - Nemzeti Úszó és Vízilabda Olimpiai Központ",
-      "address": "1138 Budapest, Népfürdő u. 28-30. Átadva: 1948 (felújítva 2017-2018) Kedves Vendégeink! 1",
+      "address": "1138 Budapest, Népfürdő u. 28-30.",
       "contact": {
         "phone": "+36 30 160 0150",
         "email": "timea.galanisz@nsu.hu"

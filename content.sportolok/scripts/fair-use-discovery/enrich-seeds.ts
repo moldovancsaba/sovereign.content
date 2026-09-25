@@ -75,13 +75,27 @@ async function deepenSeed(seed: FindSeed): Promise<FindSeed> {
       territory: seed.territory,
       activityTypes: [seed.activityType],
     });
-    const best = extracted[0];
+    // Prefer candidate whose title matches the seed name — never swap in a nearby listing
+    const seedName = seed.initialFacts.name.trim().toLowerCase();
+    const best =
+      extracted.find((c) => c.title.trim().toLowerCase() === seedName) ||
+      extracted.find((c) => {
+        const t = c.title.trim().toLowerCase();
+        return t.includes(seedName) || seedName.includes(t);
+      }) ||
+      (extracted.length === 1 ? extracted[0] : undefined);
     if (!best) return seed;
+
+    const keepName =
+      !best.title ||
+      best.title.trim().toLowerCase() === seedName ||
+      best.title.trim().toLowerCase().includes(seedName) ||
+      seedName.includes(best.title.trim().toLowerCase());
 
     return {
       ...seed,
       initialFacts: {
-        name: best.title || seed.initialFacts.name,
+        name: keepName ? best.title || seed.initialFacts.name : seed.initialFacts.name,
         address: best.address || seed.initialFacts.address,
         contact: {
           ...seed.initialFacts.contact,
