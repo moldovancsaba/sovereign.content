@@ -336,5 +336,110 @@
     "extractedAt": "2026-09-25T08:34:12.517Z",
     "rejectedAt": "2026-09-25T08:38:00.000Z",
     "note": "Out of scope — USA (padelusa source) club"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-padel-para-todos",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPadel Para Todos",
+    "citationUrl": "https://playtomic.com/clubs/padel-para-todos",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/padel-para-todos",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T09:07:19.814Z",
+    "rejectedAt": "2026-09-25T09:26:00.000Z",
+    "note": "Out of scope — Guadarrama/Madrid Spain"
+  },
+  {
+    "candidateId": "fair-actu-padel-cite-de-sports-adarissa",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "cite de sports adarissa",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-cite-adarissa-fez/",
+    "website": "http://www.fourpadel.es/",
+    "countryHint": "Morocco",
+    "addressHint": "Fes 30050, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-cite-adarissa-fez/",
+      "http://www.fourpadel.es/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T09:09:35.880Z",
+    "promotedRecordId": "MAR-VEN-012",
+    "promotedCardId": "research-mar-ven-012",
+    "promotedAt": "2026-09-25T09:26:00.000Z"
+  },
+  {
+    "candidateId": "fair-padelrevive-padel-clubs-in-africa-every-country-mapped",
+    "sourceId": "padelrevive",
+    "sourceName": "PadelRevive",
+    "name": "Padel clubs in Africa: every country, mapped",
+    "citationUrl": "https://padelrevive.com/padel-clubs-in-africa/",
+    "website": "",
+    "countryHint": "Morocco",
+    "researchSources": [
+      "https://padelrevive.com/padel-clubs-in-africa/"
+    ],
+    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T09:10:21.762Z",
+    "rejectedAt": "2026-09-25T09:26:00.000Z",
+    "note": "Junk — continent hub article, not a club venue"
+  },
+  {
+    "candidateId": "fair-padelivu-family-sport-center-valencia",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Family Sport Center Valencia",
+    "citationUrl": "https://padelivu.com/club/family-sport-center-valencia",
+    "website": "",
+    "addressHint": "Calle Barranco numero 50, 46469, Beniparrell, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/family-sport-center-valencia"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T09:12:37.782Z",
+    "rejectedAt": "2026-09-25T09:26:00.000Z",
+    "note": "Out of scope — Valencia Spain"
+  },
+  {
+    "candidateId": "fair-thepadeldirectory-tilsworth-padel-club",
+    "sourceId": "thepadeldirectory",
+    "sourceName": "The Padel Directory",
+    "name": "Tilsworth padel club",
+    "citationUrl": "https://www.thepadeldirectory.co.uk/padel-centres/tilsworth-padel-club",
+    "website": "https://padel-mates-widget-prod.netlify.app/css/styles.css",
+    "researchSources": [
+      "https://www.thepadeldirectory.co.uk/padel-centres/tilsworth-padel-club",
+      "https://padel-mates-widget-prod.netlify.app/css/styles.css"
+    ],
+    "researchNote": "Discovered via The Padel Directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T09:20:12.447Z",
+    "rejectedAt": "2026-09-25T09:26:00.000Z",
+    "note": "Out of scope — UK club"
+  },
+  {
+    "candidateId": "fair-padelusa-padel-clube",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "Padel Clube",
+    "citationUrl": "https://padelusa.org/clubs/illinois/mundelein/padel-clube/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/illinois/mundelein/padel-clube/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T09:22:29.476Z",
+    "rejectedAt": "2026-09-25T09:26:00.000Z",
+    "note": "Out of scope — USA (padelusa) club"
   }
 ]

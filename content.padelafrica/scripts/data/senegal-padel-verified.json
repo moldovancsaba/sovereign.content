@@ -141,5 +141,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND until-found deepen Mbour cell 2026-09-25. Not in excludeNames. Court count (2) from Padel Lands not asserted. Phone +221 78 424 11 44 matched across both directories."
+  },
+  {
+    "recordId": "SEN-VEN-007",
+    "name": "Mama Padel",
+    "city": "Dakar",
+    "region": "Dakar",
+    "countryCode": "SN",
+    "line1": "55 Avenue du Président Lamine Gueye (CanalOlympia Téranga), Plateau",
+    "lat": 14.6809822,
+    "lng": -17.4369759,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "CanalOlympia Téranga / Plateau pin near Avenue Lamine Gueye",
+    "website": "https://padellands.com/en/pistas-de-padel/otros-paises/senegal/",
+    "phone": "+221 77 226 10 10",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours to confirm on booking.",
+    "description": "Mama Padel at CanalOlympia Téranga on Avenue du Président Lamine Gueye in Plateau, Dakar, has a published phone in the Padel Lands Senegal directory. A clear recommendation when you want central Dakar padel beyond Dakar Padel Club and REBEL Sahm sample clubs. Call ahead to reserve.",
+    "primarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/senegal/",
+    "secondarySourceUrl": "https://yandex.com/maps/org/172061662558/",
+    "sourceTypes": "Padel Lands Senegal directory (address+phone); Yandex Maps Mama Padel Plateau card",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Dakar deepen. Court count from directory (2) not asserted."
   }
 ]

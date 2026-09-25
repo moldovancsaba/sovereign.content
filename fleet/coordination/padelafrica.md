@@ -285,3 +285,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED / migration complete.
 
+
+### 2026-09-25 — padelafrica (tick ~09:27 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 12. Promoted **`MAR-VEN-012` Cité de Sports Adarissa** (Fes) → DISCOVERED. Rejected Spain/UK/US OOS + Africa hub article.
+
+**FIND:**
+- ZA Johannesburg → **`ZAF-VEN-008` Indoor Padel Revolution** (Honeydew) DISCOVERED
+- SN Dakar → **`SEN-VEN-007` Mama Padel** (CanalOlympia Téranga) DISCOVERED
+- MU Port Louis → `zero-result` (coastal clubs only); Forbach secondary → **`MUS-VEN-003` RM Club** DISCOVERED
+- DZ Algiers → `zero-result` (thin Green Club; Cheraga/Rouiba already sampled)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+

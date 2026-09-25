@@ -561,6 +561,52 @@
       "outcome": "seeded",
       "recordId": "BWA-VEN-002",
       "note": "FIND deepen 10by20 Fields Mall; District 267 pre-opening rejected"
+    },
+    {
+      "cc": "ZA",
+      "city": "Johannesburg",
+      "at": "2026-09-25T09:10:00.000Z",
+      "outcome": "seeded",
+      "recordId": "ZAF-VEN-008",
+      "note": "FIND deepen Indoor Padel Revolution Honeydew ingest"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "at": "2026-09-25T09:10:00.000Z",
+      "outcome": "seeded",
+      "recordId": "SEN-VEN-007",
+      "note": "FIND deepen Mama Padel CanalOlympia Teranga ingest"
+    },
+    {
+      "cc": "MU",
+      "city": "Port Louis",
+      "at": "2026-09-25T09:10:00.000Z",
+      "outcome": "zero-result",
+      "note": "no_operating_club_in_capital; coastal_north_west_only"
+    },
+    {
+      "cc": "MU",
+      "city": "Forbach",
+      "at": "2026-09-25T09:10:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MUS-VEN-003",
+      "note": "FIND secondary RM Club Mauritius Healthscape ingest"
+    },
+    {
+      "cc": "DZ",
+      "city": "Algiers",
+      "at": "2026-09-25T09:10:00.000Z",
+      "outcome": "zero-result",
+      "note": "Green_Club_thin_no_phone; Cheraga_Rouiba_samples_already_covered"
+    },
+    {
+      "cc": "MA",
+      "city": "Fes",
+      "at": "2026-09-25T09:26:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-012",
+      "note": "fair-use promote Cite de Sports Adarissa ingest"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T08:38:30Z",
+  "observedAt": "2026-09-25T09:27:30Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,59 +14,56 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 11,
+    "fairUsePassCount": 12,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
     "fairUseSeededCandidates": 1,
-    "fairUseRejected": 4,
+    "fairUseRejected": 5,
     "fairUsePendingNeedsVerify": 0,
-    "findSeededFixture": 5,
-    "findLiveIngestApply": 6,
-    "findZeroResultsThisTick": [],
+    "findSeededFixture": 3,
+    "findLiveIngestApply": 4,
+    "findZeroResultsThisTick": [
+      {
+        "cc": "MU",
+        "city": "Port Louis"
+      },
+      {
+        "cc": "DZ",
+        "city": "Algiers"
+      }
+    ],
     "ingestCardsCreated": [
       {
-        "recordId": "ZAF-VEN-007",
-        "cardId": "research-zaf-ven-007",
+        "recordId": "ZAF-VEN-008",
+        "cardId": "research-zaf-ven-008",
         "state": "DISCOVERED",
-        "name": "Aura Padel Club Montague Gardens"
+        "name": "Indoor Padel Revolution"
       },
       {
-        "recordId": "EGY-VEN-008",
-        "cardId": "research-egy-ven-008",
+        "recordId": "SEN-VEN-007",
+        "cardId": "research-sen-ven-007",
         "state": "DISCOVERED",
-        "name": "Padel Up"
+        "name": "Mama Padel"
       },
       {
-        "recordId": "CIV-VEN-003",
-        "cardId": "research-civ-ven-003",
+        "recordId": "MUS-VEN-003",
+        "cardId": "research-mus-ven-003",
         "state": "DISCOVERED",
-        "name": "Padel Magic Club"
+        "name": "RM Club Mauritius"
       },
       {
-        "recordId": "MAR-VEN-011",
-        "cardId": "research-mar-ven-011",
+        "recordId": "MAR-VEN-012",
+        "cardId": "research-mar-ven-012",
         "state": "DISCOVERED",
-        "name": "Centre Sports et Loisirs Said Maatallah"
-      },
-      {
-        "recordId": "TUN-VEN-005",
-        "cardId": "research-tun-ven-005",
-        "state": "DISCOVERED",
-        "name": "Sfax Padel Indoor"
-      },
-      {
-        "recordId": "BWA-VEN-002",
-        "cardId": "research-bwa-ven-002",
-        "state": "DISCOVERED",
-        "name": "10by20 Padel Club Fields Mall"
+        "name": "Cit\u00e9 de Sports Adarissa"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~08:15\u201308:38: quality stub; fair-use pass 11 promoted CSL Said Maatallah \u2192 MAR-VEN-011; FIND Cape Town/Cairo/Abidjan/Sfax/Gaborone \u2192 5 more DISCOVERED. Rejected Zurich/UK/US/sales-listing junk. Not claiming PUBLISHED."
+    "note": "Tick ~09:04\u201309:27: quality stub; fair-use pass 12 promoted Adarissa Fes; FIND Joburg/Dakar/Forbach seeded; Port Louis+Algiers zero. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

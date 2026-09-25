@@ -48,5 +48,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-24",
     "researchNotes": "FIND until-found deepen_large tick 2026-09-24 (Flic en Flac cell → Cascavelle SPARC, adjacent Black River west-coast hub). Not in excludeNames. Court count from Padel Lands (2) not asserted in description. Phone +230 401 6611 / info@sparc.mu from sparc.mu."
+  },
+  {
+    "recordId": "MUS-VEN-003",
+    "name": "RM Club Mauritius",
+    "city": "Forbach",
+    "region": "Rivière du Rempart",
+    "countryCode": "MU",
+    "line1": "Healthscape Forbach, Rempart River",
+    "lat": -20.0671334,
+    "lng": 57.6318177,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Forbach locality pin — Healthscape complex not rooftop-geocoded",
+    "website": "https://www.rmclub.mu/",
+    "phone": "+230 267 1440",
+    "email": "contact@rmclub.mu",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours to confirm on club site.",
+    "description": "RM Club Mauritius is a multi-sport complex in Forbach with padel courts (including indoor), published phone and email. A clear recommendation when you want Mauritius padel beyond Isla Grand Baie and SPARC Cascavelle sample clubs. Call ahead to book.",
+    "primarySourceUrl": "https://www.rmclub.mu/",
+    "secondarySourceUrl": "https://padel-magazine.co.uk/club-directory/rm-club-mauritius/",
+    "sourceTypes": "RM Club site; Padel Magazine UK club directory (Plus Code+phone+email)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 — Port Louis capital cell yielded no operating club; seeded Forbach secondary instead. Court count from directory not asserted."
   }
 ]

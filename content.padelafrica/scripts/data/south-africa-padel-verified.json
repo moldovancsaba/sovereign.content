@@ -172,5 +172,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Cape Town deepen. Woodstock site (165A Newmarket) not seeded this pass. Court count from site not asserted in description."
+  },
+  {
+    "recordId": "ZAF-VEN-008",
+    "name": "Indoor Padel Revolution",
+    "city": "Johannesburg",
+    "region": "Gauteng",
+    "countryCode": "ZA",
+    "line1": "2 Picaroon Street, Laser Park, Honeydew",
+    "lat": -26.0788389,
+    "lng": 27.9253018,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Honeydew / Roodepoort locality pin — Laser Park lot not rooftop-geocoded",
+    "website": "https://indoorpadelrevolution.com/",
+    "phone": "+27 72 916 0287",
+    "email": "admin@indoorpadelrevolution.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Weekdays 06:00–22:00; weekends/public holidays 06:00–20:00 (club site rates).",
+    "description": "Indoor Padel Revolution is a premium indoor Johannesburg padel arena in Laser Park / Honeydew with published phone and email and Playtomic booking. A clear recommendation when you want Gauteng padel beyond Discovery Padel Park Sandton. Book ahead via Playtomic or call the club.",
+    "primarySourceUrl": "https://indoorpadelrevolution.com/",
+    "secondarySourceUrl": "https://playtomic.com/clubs/ormonde-padel-club",
+    "sourceTypes": "IPR official site (address+phone+email+hours); Playtomic network corroborates Joburg South padel market",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Johannesburg deepen. Court count not asserted."
   }
 ]

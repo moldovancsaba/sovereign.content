@@ -6,6 +6,8 @@ Fixture: [`scripts/data/mauritius-padel-verified.json`](../scripts/data/mauritiu
 | Id | Listing | Place |
 | --- | --- | --- |
 | `research-mus-ven-001` | Isla Padel Grand Baie | La Croisette, Grand Baie |
+| `research-mus-ven-002` | SPARC Mauritius | Cascavelle |
+| `research-mus-ven-003` | RM Club Mauritius | Forbach / Healthscape |
 
 ```bash
 npm run catalog:seed-research-mauritius:dry

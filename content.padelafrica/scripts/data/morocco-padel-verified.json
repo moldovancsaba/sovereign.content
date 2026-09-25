@@ -274,5 +274,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "Fair-use tick 2026-09-25 — candidate fair-actu-padel-centre-sports-et-loisirs-said-maatallah promoted. Secondary mobile +212 661 55 14 15 also listed. Court count from Actu (1) not asserted. Geo is locality estimate for Mhamid Sud — refine later."
+  },
+  {
+    "recordId": "MAR-VEN-012",
+    "name": "Cité de Sports Adarissa",
+    "city": "Fes",
+    "region": "Fès-Meknès",
+    "countryCode": "MA",
+    "line1": "Hay Al Adarissa / Hay Atlas",
+    "lat": 34.0183147,
+    "lng": -5.0141634,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Hay Al Adarissa Fès locality pin — club lot not rooftop-geocoded",
+    "website": "https://actu-padel.com/directory/padel-club/padel-cite-adarissa-fez/",
+    "phone": "+212 5357-49140",
+    "email": "adarissabooking@gmail.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours to confirm on booking.",
+    "description": "Cité de Sports Adarissa is a Fès padel club in the Adarissa / Atlas neighbourhood with published phone and booking email. A clear recommendation when you want Fès padel beyond Fes Country Club on Route de Zouagha. Call or email ahead to reserve.",
+    "primarySourceUrl": "https://actu-padel.com/directory/padel-club/padel-cite-adarissa-fez/",
+    "secondarySourceUrl": "https://actu-padel.com/directory/padel-club/padel-cite-adarissa-fez/",
+    "sourceTypes": "Actu Padel club card (Fes locality+phone+email)",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "Fair-use tick 2026-09-25 — candidate fair-actu-padel-cite-de-sports-adarissa promoted. Street line thin beyond neighbourhood; court count not asserted."
   }
 ]

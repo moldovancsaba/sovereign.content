@@ -8,6 +8,7 @@ Fixture: [`scripts/data/senegal-padel-verified.json`](../scripts/data/senegal-pa
 | `research-sen-ven-001` | La Palmeraie Sporting Club | Saly Portudal / N'Guerigne Bambara |
 | `research-sen-ven-002` | Dakar Padel Club | Km 1, Route de Rufisque, Dakar |
 | `research-sen-ven-003` | REBEL PADEL Sahm | Galerie Sahm / Avenue Cheikh Anta Diop, Dakar |
+| `research-sen-ven-007` | Mama Padel | CanalOlympia Téranga, Plateau Dakar |
 
 `SEN-VEN-002` evidence (2026-09-23): [BalleJaune club card](https://ballejaune.com/club/Dpc) + [Matchpoint](https://dakarpadelclub-sn.matchpoint.com.es/).  
 `SEN-VEN-003` evidence (FIND 2026-09-23): [BalleJaune Rebel](https://ballejaune.com/club/rebelpadelsn) + [contact](https://ballejaune.com/club/rebelpadelsn/contact).
