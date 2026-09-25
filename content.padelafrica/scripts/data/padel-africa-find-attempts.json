@@ -399,6 +399,34 @@
       "outcome": "zero-result",
       "at": "2026-09-25T04:14:29.240Z",
       "note": "reconfirm_no_operating_padel_club; Accra_only_directories"
+    },
+    {
+      "cc": "UG",
+      "city": "Jinja",
+      "outcome": "zero-result",
+      "at": "2026-09-25T04:19:49.587Z",
+      "note": "Kampala_Herman_Smash_only; Jinja_Club_no_padel_evidence"
+    },
+    {
+      "cc": "KE",
+      "city": "Eldoret",
+      "outcome": "zero-result",
+      "at": "2026-09-25T04:19:49.587Z",
+      "note": "PadelRevive_name_only; Eldoret_Club_site_no_padel_confirmation"
+    },
+    {
+      "cc": "BW",
+      "city": "Francistown",
+      "outcome": "zero-result",
+      "at": "2026-09-25T04:19:49.587Z",
+      "note": "Sunshine_Plaza_padel_planned_construction_not_operating"
+    },
+    {
+      "cc": "MA",
+      "city": "Marrakech",
+      "outcome": "seeded",
+      "at": "2026-09-25T04:19:49.587Z",
+      "note": "ingest_apply MAR-VEN-004 Padel Square Marrakech"
     }
   ]
 }

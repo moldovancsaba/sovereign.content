@@ -1,7 +1,7 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T04:15:25Z",
-  "source": "padel-find-tick-kick",
+  "observedAt": "2026-09-25T04:20:17Z",
+  "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
@@ -9,52 +9,50 @@
     "ingestOnlyDoctrine": true,
     "ingestOnlyReality": false,
     "ingestApiKeyPresent": true,
-    "ingestApiKeyOnVercel": true,
     "writesPath": "post_api_ingest",
     "tickCompleted": true,
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
-    "refuseAgentMongoGuards": true,
-    "operatorKick": true
+    "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
-    "qualityLoopMode": "ingest-stub",
-    "findSeededFixture": 2,
-    "findLiveIngestApply": 2,
+    "findSeededFixture": 1,
+    "findLiveIngestApply": 1,
     "findZeroResultsThisTick": [
       {
-        "cc": "GH",
-        "city": "Kumasi"
+        "cc": "UG",
+        "city": "Jinja"
+      },
+      {
+        "cc": "KE",
+        "city": "Eldoret"
+      },
+      {
+        "cc": "BW",
+        "city": "Francistown"
       }
     ],
     "ingestCardsCreated": [
       {
-        "recordId": "TZA-VEN-003",
-        "cardId": "research-tza-ven-003",
+        "recordId": "MAR-VEN-004",
+        "cardId": "research-mar-ven-004",
         "state": "DISCOVERED",
-        "name": "Bounce Warehouse"
-      },
-      {
-        "recordId": "GHA-VEN-005",
-        "cardId": "research-gha-ven-005",
-        "state": "DISCOVERED",
-        "name": "Padel Accra by S2"
+        "name": "Padel Square Marrakech"
       }
     ],
-    "pendingIngestFixtures": [],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Operator kick: quality-loop stub ran; FIND seeded+ingested Bounce Arusha + Accra S2 deepen; Kumasi zero. Not claiming PUBLISHED."
+    "note": "Hourly tick: quality stub; Marrakech seeded+ingested; Jinja/Eldoret/Francistown zero. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",
-    "core_reconcile_release_padel_africa",
+    "core_reconcile_release_padel_africa_awaiting_section_D_engine_PR",
     "pipeline_gate_to_publish_discovered_cards"
   ],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/padelafrica.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/docs/pending-ingest-queue.md"
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/MIGRATION-FROM-MANAGEMENT.md"
   ]
 }

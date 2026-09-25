@@ -74,5 +74,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND until-found sparse_n2 Rabat cell 2026-09-25. Not in excludeNames. Court count from Playtomic not asserted in description. Phone +212 5377-54539 / +212 537775017 also listed — primary Visit Rabat form retained."
+  },
+  {
+    "recordId": "MAR-VEN-004",
+    "name": "Padel Square Marrakech",
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "countryCode": "MA",
+    "line1": "Complexe commercial Charifa, Route d'Amizmiz",
+    "lat": 31.6258257,
+    "lng": -7.9891608,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Marrakech city/admin pin — Charifa commercial complex on Route d'Amizmiz not rooftop-geocoded",
+    "website": "https://padelsquare.ma/contact/",
+    "phone": "+212 6 62 59 28 22",
+    "email": "contact@padelsquare.ma",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 08:00–01:00 (Activityz / guide cards)",
+    "description": "Padel Square Marrakech is a named padel complex on Route d'Amizmiz at Complexe commercial Charifa, with published phone and email on the operator contact page and court booking rates on the club site. A clear recommendation when you want Marrakech padel beyond Casablanca and Rabat sample clubs. Call or use the club app to book ahead.",
+    "primarySourceUrl": "https://padelsquare.ma/contact/",
+    "secondarySourceUrl": "https://padellands.com/en/padel-courts/padel-square-marrakech/",
+    "sourceTypes": "Padel Square contact (address+phone+email); Padel Lands club card; Activityz hours+address corroboration",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Marrakech sparse cell. Court count from directories not asserted in description."
   }
 ]

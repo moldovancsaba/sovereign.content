@@ -164,3 +164,17 @@ Core blocked reconcile: unlisted release-only files + docs glob mismatch.
 
 Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md) · [`../content.padelafrica/STATUS-FOR-CORE.md`](../content.padelafrica/STATUS-FOR-CORE.md). Still not claiming migration complete / not force-pushing release.
 
+### 2026-09-25 — padelafrica (tick ~04:18 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**FIND until-found:**
+- UG Jinja → `zero-result` (Kampala Herman/Smash only; Jinja Club no padel evidence)
+- KE Eldoret → `zero-result` (PadelRevive name only; Eldoret Club site does not confirm padel)
+- BW Francistown → `zero-result` (Sunshine Plaza padel planned/under construction)
+- MA Marrakech → fixture+ingest **`MAR-VEN-004` Padel Square** → `research-mar-ven-004` DISCOVERED
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED / migration complete.
+
