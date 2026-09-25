@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T01:11:31Z",
+  "observedAt": "2026-09-25T02:13:17Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -21,26 +21,39 @@
       "cc": "SN",
       "city": "Mbour",
       "outcome": "seeded_fixture_pending_ingest",
-      "recordId": "SEN-VEN-005",
-      "name": "Padel Club Ngaparou",
-      "resolvedCity": "Ngaparou"
+      "recordId": "SEN-VEN-006",
+      "name": "PADEL SENEGAL Sports & Family Club",
+      "resolvedCity": "Saly Portudal"
     },
     "findZeroResultsThisTick": [
       {
-        "cc": "SN",
-        "city": "Saint-Louis"
+        "cc": "CM",
+        "city": "Bafoussam"
+      },
+      {
+        "cc": "CD",
+        "city": "Goma"
+      },
+      {
+        "cc": "LY",
+        "city": "Benghazi"
+      },
+      {
+        "cc": "ZM",
+        "city": "Ndola"
       }
     ],
     "pendingIngestFixtures": [
       "ZAF-VEN-005",
       "ZAF-VEN-006",
       "SEN-VEN-004",
-      "SEN-VEN-005"
+      "SEN-VEN-005",
+      "SEN-VEN-006"
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "aboutDebt/publishedTotal omitted \u2014 no Mongo read from agent home; day-2 status overwrite after 01:08 tick"
+    "note": "aboutDebt/publishedTotal omitted \u2014 no Mongo read from agent home; day-2 status overwrite after 02:10 tick"
   },
   "openDebt": [
     "INGEST_API_KEY_missing",
@@ -48,6 +61,7 @@
     "live_apply_ZAF-VEN-006_via_ingest",
     "live_apply_SEN-VEN-004_via_ingest",
     "live_apply_SEN-VEN-005_via_ingest",
+    "live_apply_SEN-VEN-006_via_ingest",
     "ingest_backed_quality_loop_full_rewrite",
     "core_reconcile_release_padel_africa"
   ],

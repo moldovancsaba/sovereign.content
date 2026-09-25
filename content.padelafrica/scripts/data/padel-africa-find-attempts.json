@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T01:11:31.257Z",
+  "updatedAt": "2026-09-25T02:13:17.668Z",
   "attempts": [
     {
       "cc": "CF",
@@ -315,6 +315,41 @@
       "outcome": "seeded",
       "at": "2026-09-25T01:11:31.257Z",
       "note": "fixture_only_pending_ingest SEN-VEN-005 Padel Club Ngaparou (Mbour dept)"
+    },
+    {
+      "cc": "CM",
+      "city": "Bafoussam",
+      "outcome": "zero-result",
+      "at": "2026-09-25T02:13:17.668Z",
+      "note": "Douala_Yaounde_only; no_Bafoussam_operating_padel"
+    },
+    {
+      "cc": "CD",
+      "city": "Goma",
+      "outcome": "zero-result",
+      "at": "2026-09-25T02:13:17.668Z",
+      "note": "Kinshasa_Lubumbashi_Kolwezi_only; tourism_nav_padel_not_venue"
+    },
+    {
+      "cc": "LY",
+      "city": "Benghazi",
+      "outcome": "zero-result",
+      "at": "2026-09-25T02:13:17.668Z",
+      "note": "Oxygen_name_mentions_insufficient; Tripoli_directories_only"
+    },
+    {
+      "cc": "ZM",
+      "city": "Ndola",
+      "outcome": "zero-result",
+      "at": "2026-09-25T02:13:17.668Z",
+      "note": "Lusaka_clubs_only"
+    },
+    {
+      "cc": "SN",
+      "city": "Mbour",
+      "outcome": "seeded",
+      "at": "2026-09-25T02:13:17.668Z",
+      "note": "fixture_only_pending_ingest SEN-VEN-006 PADEL SENEGAL Sports Saly (Mbour dept)"
     }
   ]
 }

@@ -118,5 +118,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND until-found deepen Mbour cell 2026-09-25 → Ngaparou (Département de M'bour). Not in excludeNames. Court count (2) from Padel Lands not asserted. Phone +221 77 153 40 20 matched on SenPages + Padel Lands."
+  },
+  {
+    "recordId": "SEN-VEN-006",
+    "name": "PADEL SENEGAL Sports & Family Club",
+    "city": "Saly Portudal",
+    "region": "Thiès",
+    "countryCode": "SN",
+    "line1": "Route de Saly Portudal, côté Résidence Caparis",
+    "lat": 14.4411148,
+    "lng": -17.0148303,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Saly Portudal town centroid — Caparis residence not separately geocoded",
+    "phone": "+221 78 424 11 44",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not independently printed beyond directory cards",
+    "description": "PADEL SENEGAL Sports & Family Club is a named Saly Portudal padel club on Route de Saly Portudal by Résidence Caparis, with a matching published phone on GoAfricaOnline and Padel Lands. A clear recommendation when you want Petite Côte / Mbour-department padel beyond La Palmeraie and the Ngaparou sample clubs. Call ahead; locality pin only until a street geocode is confirmed.",
+    "primarySourceUrl": "https://www.goafricaonline.com/sn/454806-padel-sports-family-club-saly-senegal",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/senegal/",
+    "sourceTypes": "GoAfricaOnline club card (Route de Saly Portudal + phone); Padel Lands Senegal card (Côté Resid. Caparis + matching phone)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND until-found deepen Mbour cell 2026-09-25. Not in excludeNames. Court count (2) from Padel Lands not asserted. Phone +221 78 424 11 44 matched across both directories."
   }
 ]
