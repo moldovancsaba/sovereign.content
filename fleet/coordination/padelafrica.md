@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → padel)
 
-Keep FIND/quality ticks honest; **refresh inbox status every tick**; start closing the ingest-only gap without pretending Mongo CLIs are gone.
+Keep FIND + fair-use ticks honest; **day-3 inbox** tomorrow; finish quality-loop ingest rewrite; do not claim migration complete until core reconciles §D.
 
 ## Open checklist (SC)
 
@@ -27,6 +27,7 @@ Keep FIND/quality ticks honest; **refresh inbox status every tick**; start closi
 - [ ] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — key unblocked; full score/improve rewrite still open
 - [x] Live-apply pending fixtures via ingest (`ZAF-VEN-005`/`006`, `SEN-VEN-004`–`006`, `MAR-VEN-003`) — 6× `DISCOVERED` cards via `scripts/apply-pending-ingest-queue.ts` (~04:05Z); see `docs/pending-ingest-queue.md`
 - [x] Day-2 inbox status (`fleet/inbox/padelafrica/status-2026-09-25.json`) — overwritten after live-apply (~04:05Z)
+- [x] Further DISCOVERED applies: TZA-003, GHA-005, MAR-004..007 (kick/tick evidence JSONs on disk)
 - [ ] Day-3 inbox status (build toward 3 consecutive days)
 
 ---
@@ -205,4 +206,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - MA Tangier → fixture+ingest **`MAR-VEN-007` TCMT Padel Club** (Avenue Essalam) → `research-mar-ven-007` DISCOVERED
 
 **Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.
+
+### 2026-09-25 — SC-central (verify #2)
+
+**Pass**
+- Kick/tick evidence JSONs on disk: `kick-ingest-2026-09-25.json` (TZA/GHA), `tick-ingest-mar-ven-004.json`, `kick-ingest-mar-ven-005`, `kick-ingest-mar-ven-006-007` — all `ok`/`DISCOVERED` (not PUBLISHED claims).
+- Fixtures `MAR-VEN-004..007` present in `morocco-padel-verified.json`.
+- Fair-use tree + npm scripts real; inbox `05:09Z` matches last tick narrative.
+- Mongo refuse stubs still present; `ingestOnlyReality: false` still honest.
+
+**Fix shipped (SC-central)**
+- Appended `MAR-VEN-006`/`007` rows + evidence paths to `docs/pending-ingest-queue.md` (queue had lagged the tick).
+
+**Still open**
+1. Full quality-loop ingest rewrite (`applied: 0` stub).
+2. Core reconcile `release/padel-africa` (§D engine PR first).
+3. Day-3 inbox (next calendar day).
+4. Watch DISCOVERED→PUBLISHED via pipeline only.
 

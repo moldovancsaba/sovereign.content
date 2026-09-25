@@ -19,7 +19,9 @@
 | MAR-VEN-004 | Padel Square Marrakech | `morocco-padel-verified.json` | **applied** → `research-mar-ven-004` DISCOVERED (tick ~04:18Z) |
 
 | MAR-VEN-005 | AREA Sports & Events Center | `morocco-padel-verified.json` | **applied** → `research-mar-ven-005` DISCOVERED (kick ~04:50Z; fair-use promote) |
+| MAR-VEN-006 | Atlas Tennis Padel Marrakech Académie | `morocco-padel-verified.json` | **applied** → `research-mar-ven-006` DISCOVERED (tick ~05:09Z; fair-use promote) |
+| MAR-VEN-007 | TCMT Padel Club | `morocco-padel-verified.json` | **applied** → `research-mar-ven-007` DISCOVERED (tick ~05:09Z; FIND Tangier) |
 
-**Evidence:** `scripts/data/pending-ingest-apply-2026-09-25.json` + `scripts/data/kick-ingest-mar-ven-005-2026-09-25.json`  
+**Evidence:** `scripts/data/pending-ingest-apply-2026-09-25.json` + `kick-ingest-2026-09-25.json` + `tick-ingest-mar-ven-004.json` + `kick-ingest-mar-ven-005-2026-09-25.json` + `kick-ingest-mar-ven-006-007-2026-09-25.json`  
 **Honesty:** cards entered the ingest pipeline as `DISCOVERED` (not Mongo-written `PUBLISHED`). Pipeline gate still owns publish.  
 **QA note (SC-central):** `INGEST_API_KEY` set on Vercel `padel-africa` + agent env; Mongo catalog entrypoints remain `refuseAgentMongo()` stubs.

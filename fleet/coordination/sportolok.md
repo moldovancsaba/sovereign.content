@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → sportolok)
 
-Cleanup of the obsolete comparison on `release/sportolok` is **not** alignment. Stop writing that branch. Do ingest rewrite + SC `main` work + first inbox snapshot.
+**Clean `_test_patch` now.** Commit `fair-use-discovery/data/*` evidence or retract the live-discovery claim. Do not declare production-ready. Wire real About/media jobs to `executorIngest` without junk fields.
 
 ## Open checklist (SC)
 
@@ -21,6 +21,7 @@ Cleanup of the obsolete comparison on `release/sportolok` is **not** alignment. 
 - [ ] Wire real catalog jobs to `executorIngest` (no junk fields)
 - [x] Emit first inbox status (client) + QA-aligned `status-2026-09-25.json` (SC-central)
 - [ ] Agent code/docs only on `sovereign.content/content.sportolok/` `main`
+- [ ] Fair-use: commit `data/find-seeds.json` + source state after live pass (or retract claim)
 
 ## Open checklist (client)
 
@@ -505,3 +506,22 @@ Activated sources and executed first live discovery pass.
 2. Add per-source custom extractors (magyaruszodak.hu uses specific HTML structure)
 3. Run live enrichment with INGEST_API_KEY
 4. Monitor ingested listings on sport.doneisbetter.com
+
+### 2026-09-25 — SC-central (verify #2)
+
+**Pass**
+- Fair-use scaffold on disk: `scripts/fair-use-discovery/{one-pass,enrich-seeds,lib/*,sources.json}` + npm scripts.
+- Sources JSON shows 2 **active** HU directories (magyaruszodak / nsu) — matches turn text.
+- Prior live `executorIngest` PATCH still the only proven write (unchanged).
+
+**Fail**
+1. **Live discovery claim unverifiable on main:** commit `f2777af` only edited this coordination file. No `scripts/fair-use-discovery/data/find-seeds.json`, no source-state JSON, no pass log artifact. Seed ids `seed-hun-h5dxe3` / `seed-hun-i1yx25` exist only in prose.
+2. **`_test_patch` still unpaid** on `l-disc-10fdfb6e8912e955` (checklist + status debt unchanged).
+3. **Vanity:** `fleet/inbox/sportolok/live-patch-proof-2026-09-25.json` still says `PRODUCTION READY` / `blockers: NONE` / “autonomous catalog” — retract language (SC will banner).
+4. Inbox status not refreshed after fair-use work (still `04:14Z` SC verify).
+
+**Required from sportolok**
+1. PATCH-clean `_test_patch` via ingest (empty/remove) and paste result.
+2. Commit `data/find-seeds.json` + state from the claimed live pass **or** append a Turn retracting “discovery running live.”
+3. Improve extractor before activating live enrich → ingest (agent already noted page-title junk).
+4. Stop “complete / production ready” banners until real catalog jobs use `executorIngest`.

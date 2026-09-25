@@ -1,7 +1,7 @@
 {
   "job": "fleet:daily-swot",
   "date": "2026-09-25",
-  "generatedAt": "2026-09-25T03:59:21.568Z",
+  "generatedAt": "2026-09-25T06:07:40.536Z",
   "executiveBrief": "Fleet snapshot for 2026-09-25: all three product sites returned HTTP 200. Working-environment composite is effectively tied among content.padelafrica + content.classscout (checklist-complete homes); report lead is content.padelafrica as the portable Jobs reference pattern. Inbox status present for: content.padelafrica, content.sportolok, content.classscout. Outcome scores stay conservative until profile-fair KPI parsing (Phase 3) — do not invent Mongo numbers beyond the snapshots. Sportolok remains capped until dry PATCH proven + core reconciles release/sportolok. SC-central QA owns quarantine guards + vanity retracts; client chats own ticks and inbox refresh.",
   "agents": [
     {
@@ -27,7 +27,7 @@
           "Ingest client + content-data-contract mirror present",
           "Single-orchestrator timer prompt documented",
           "Live product HTTP smoke returned 200",
-          "Recent agent-folder git activity (11 commit(s) in window)",
+          "Recent agent-folder git activity (21 commit(s) in window)",
           "Mature FIND / self-heal / HiTL playbooks aligned with SSOT Jobs examples"
         ],
         "weaknesses": [
@@ -48,16 +48,16 @@
             "status": 200
           }
         ],
-        "gitCommitCount": 11,
+        "gitCommitCount": 21,
         "gitSubjects": [
-          "coord(padelafrica): tick 03:14 MAR-VEN-003 Club Wifaq",
-          "coord(padelafrica): tick 02:12 SEN-VEN-006 + day-2 refresh",
-          "coord(padelafrica): tick 01:11 Mbour fixture + day-2 refresh",
-          "coord(padelafrica): day-2 tick — SN Thiès fixture + inbox",
-          "coord(padelafrica): tick 23:03 Stellenbosch fixture-only FIND"
+          "coord(padel): tick promote Atlas + TCMT ingest DISCOVERED",
+          "coord(padel): kick tick — fair-use promote AREA Sports ingest",
+          "feat(padel): add 20 fair-use sources for venues, events, and shops",
+          "docs(padel): point FIND sources at fair-use feeder",
+          "feat(padel): Africa fair-use directory feeder for FIND seed replenish"
         ],
         "snapshotCount": 1,
-        "docsCount": 16,
+        "docsCount": 17,
         "lessonCount": null,
         "lessonsUpdatedAt": null,
         "migration": "see MIGRATION-FROM-MANAGEMENT.md + STATUS-FOR-CORE.md — await core reconcile of release/padel-africa (PRs #222/#227)"
@@ -108,7 +108,7 @@
           "Ingest client + content-data-contract mirror present",
           "Single-orchestrator timer prompt documented",
           "Live product HTTP smoke returned 200",
-          "Recent agent-folder git activity (10 commit(s) in window)",
+          "Recent agent-folder git activity (20 commit(s) in window)",
           "QUARANTINE.md + migration list published for core reconcile"
         ],
         "weaknesses": [
@@ -132,16 +132,16 @@
             "status": 200
           }
         ],
-        "gitCommitCount": 10,
+        "gitCommitCount": 20,
         "gitSubjects": [
-          "feat(sportolok): implement working quality-loop with test mode",
-          "feat(sportolok): add .env.example and .gitignore for API key management",
-          "fix(sportolok): clarify I (Cursor Cloud Agent, this agent) am the LLM",
-          "docs(sportolok): comprehensive Ollama purge completion report",
-          "docs(sportolok): OLLAMA purge complete, padel-africa pattern implemented"
+          "Update sources to real Hungarian swimming pool directories",
+          "Fix ESM imports in fair-use discovery",
+          "Activate fair-use discovery sources",
+          "Add Quick Start guide for fair-use discovery system",
+          "Enrichment agent: complete end-to-end fair-use pipeline"
         ],
         "snapshotCount": 1,
-        "docsCount": 17,
+        "docsCount": 20,
         "lessonCount": null,
         "lessonsUpdatedAt": null,
         "migration": "see MIGRATION-FROM-MANAGEMENT.md + SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md — core reconcile complete"

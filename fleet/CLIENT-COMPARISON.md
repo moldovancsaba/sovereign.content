@@ -2,7 +2,7 @@
 
 **Canonical.** Edit this file only for cross-client maturity/workflow comparisons.  
 **Rules:** [`RULES.md`](./RULES.md) · **Profiles:** [`profiles/`](./profiles/) · **Daily SWOT:** [`digests/`](./digests/)  
-**Date refreshed:** 2026-09-24
+**Date refreshed:** 2026-09-25 (SC-central verify)
 
 Stubs that must not grow: repo-root `CLIENT-FOLDER-COMPARISON.md`, `fleet/CONTENT-CLIENTS-WORKFLOW-COMPARISON.md`.
 
@@ -14,9 +14,9 @@ Stubs that must not grow: repo-root `CLIENT-FOLDER-COMPARISON.md`, `fleet/CONTEN
 
 | Client | Skeleton | Runtime readiness | Honest one-liner |
 | --- | --- | --- | --- |
-| `content.classscout` | Strong | Highest agent-owned runner mass | Dense forever+Improve tree; **live forever still on product** (`cutover-status.md`); daily inbox expected |
-| `content.padelafrica` | Strong docs + migrated `src/` + scripts | Fixtures + quarantine guards; **ingest apply blocked** on `INGEST_API_KEY` | Mongo catalog scripts refuse at runtime (QA 2026-09-25); pending queue in `docs/pending-ingest-queue.md` |
-| `content.sportolok` | Fat copy + quarantine + **ingest executor helper** | Dry PATCH still unproven | Vanity “90% SSOT” docs **retracted**; `executorIngest.ts` shipped; release reconcile pending |
+| `content.classscout` | Strong | Highest agent-owned runner mass | Dense forever+Improve tree; **live forever still on product** (`cutover-status.md`); day-2 inbox present; cutover held |
+| `content.padelafrica` | Strong docs + migrated `src/` + fair-use feeder | Ingest live-apply proven (`DISCOVERED`); quality-loop still stub | Key present; Mongo refused; core reconcile + full quality rewrite still open |
+| `content.sportolok` | Fat copy + quarantine + `executorIngest` + fair-use scaffold | Dry+live PATCH proven; **`_test_patch` pollution unpaid**; discovery seeds not committed | Vanity docs retracted; do not score “autonomous catalog ready” |
 
 There is **no** single SSOT compliance %. Use environment vs outcome scorecards (`fleet:daily-swot`).
 
@@ -43,10 +43,11 @@ There is **no** single SSOT compliance %. Use environment vs outcome scorecards 
 | Growth | FIND `--until-found` | No live FIND; evaluate/delivery cutover | Forever Find+Improve + fair-use; sparse twin optional |
 | Quality order | about → quality → media → autopilot → hygiene → reconcile → FIND → digest | Timer: ingest + schedule only | forever/sparse: about → quality → self-heal → find → encode → rollup |
 | Writes (doctrine) | ingest-only | ingest-only | ingest-only |
-| Writes (reality) | Padel chat still runs management Mongo CLIs | Scripts/src Mongo; **QUARANTINE** | Forever aims at ingest; some helpers still product Mongo |
+| Writes (reality) | FIND/fixtures → `POST /api/ingest`; quality-loop stub only; Mongo entrypoints refuse | Live `executorIngest` PATCH proven; Mongo executor still quarantined | Forever aims at ingest; some helpers still product Mongo |
 | Media | R2 / ImgBB | Product pipeline | `generated_art_only` |
 | Schedule | singular `weekday` | singular `weekday` | `daysOfWeek` Monday…Sunday |
-| Live timer | `padel-find-tick` (padel chat) | Prompt only until rewrite | Prompt; product forever may still be live |
+| Live timer | `padel-find-tick` (padel chat) | No fleet catalog timer yet | Prompt; product forever may still be live |
+| Fair-use feeder | yes (`scripts/fair-use/`) | scaffold (`scripts/fair-use-discovery/`; seeds not on main) | yes (product + SC copy) |
 
 ---
 
@@ -55,7 +56,7 @@ There is **no** single SSOT compliance %. Use environment vs outcome scorecards 
 | Capability | classscout | padelafrica | sportolok |
 | --- | --- | --- | --- |
 | Forever Find+Improve | yes | no (by design — sparse) | no |
-| Fair-use feeder | yes | no | no |
+| Fair-use feeder | yes | yes (Africa directory) | scaffold (HU; unproven seed quality) |
 | Self-heal / quality / find in agent home | yes | docs only → engine CLIs | yes files, unsafe until ingest |
 | Lessons / rollup | yes (`lessons.json`) | engine / digest on management | seeded lessons; not proven via ingest |
 
@@ -86,10 +87,10 @@ Intentional: padel must **not** grow a ClassScout forever loop. Export orchestra
 
 | Owner | Action |
 | --- | --- |
-| Padel chat | After orchestrator tick → slim `fleet/inbox/padelafrica/status-YYYY-MM-DD.json` |
-| Sportolok / SC-central | Rewrite quarantined call sites → `ingest/` + `scheduleToRecurringSlots`; dry PATCH; chase core reconcile |
-| ClassScout / SC-central | Forever still on product `scripts/catalog-loop/` (cutover in progress — see `content.classscout/docs/cutover-status.md`); slim `fleet/inbox/classscout/` status |
-| SC-central | Orchestrate QA via [`ORCHESTRATOR.md`](./ORCHESTRATOR.md) + [`coordination/`](./coordination/); fix quarantine gaps on `main` |
+| Padel chat | Keep day status; finish quality-loop ingest rewrite; await core reconcile of `release/padel-africa` |
+| Sportolok | Clean `_test_patch` on live listing; commit `fair-use-discovery/data/find-seeds.json` (or retract live-discovery claim); wire real jobs to `executorIngest` |
+| ClassScout | Hold cutover until SC scripts proven; keep daily inbox |
+| SC-central | Orchestrate QA via [`ORCHESTRATOR.md`](./ORCHESTRATOR.md) + [`coordination/`](./coordination/) |
 
 ---
 

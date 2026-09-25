@@ -1,8 +1,9 @@
 {
-  "client": "sportolok",
+  "clientId": "sportolok",
   "date": "2026-09-25",
   "timestamp": "2026-09-25T04:09:00Z",
-  "milestone": "LIVE PATCH PROVEN",
+  "qaNote": "SC-central 2026-09-25: retract PRODUCTION READY / blockers NONE / autonomous catalog claims. Live PATCH proven only for a junk _test_patch field — cleanup still open.",
+  "milestone": "live_executor_ingest_patch_proven",
   "execution": {
     "command": "npm run catalog:executor-ingest",
     "mode": "live",
@@ -24,27 +25,21 @@
     }
   },
   "proof": {
-    "dryPatch": "PROVEN (2026-09-25 earlier)",
-    "livePatch": "PROVEN (2026-09-25 04:09 UTC)",
-    "apiKey": "VALIDATED (live endpoint accepted patch)",
-    "scheduleNormalization": "WORKING (RecurringSlot singular weekday)",
-    "executorIngest": "PRODUCTION READY",
-    "postApiIngest": "WORKING (patched: true response)",
-    "publishedState": "PRESERVED (lifecycleState: PUBLISHED)"
+    "dryPatch": "proven",
+    "livePatch": "proven",
+    "apiKey": "validated_against_live_endpoint",
+    "scheduleNormalization": "working",
+    "executorIngest": "path_proven_not_production_ready",
+    "postApiIngest": "patched_true",
+    "publishedState": "preserved"
   },
+  "openDebt": [
+    "clean_test_patch_field_on_published_listing",
+    "wire_real_catalog_jobs_without_junk_fields",
+    "fair_use_find_seeds_artifact_missing_on_main"
+  ],
   "architecture": {
     "writePath": "POST /api/ingest only",
-    "validation": "Zod schemas in management app",
-    "mongo": "NEVER touched from agent (quarantined)",
-    "dataContract": "RecurringSlot singular weekday enforced"
-  },
-  "readyFor": [
-    "Autonomous catalog improvements",
-    "Quality loop with real listings",
-    "Description patches",
-    "Schedule updates (with normalization)",
-    "Media enrichment (future)",
-    "Contact enrichment (future)"
-  ],
-  "blockers": "NONE - ingest path fully proven"
+    "mongo": "quarantined — do not re-enable"
+  }
 }

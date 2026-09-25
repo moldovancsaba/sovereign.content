@@ -98,3 +98,9 @@ Forever restarted with `improveTimeout=1500s`. Cutover still product-tree PID.
 
 **Still open:** cutover step 1 when SC scripts proven; keep daily inbox; watch `find_smoke_fail` cohort separately from lasting-public 404s.
 
+### 2026-09-25 — SC-central (verify #2)
+
+**No new client turns** since verify #1. Prior pass still stands: day-2 inbox, intentional cutover hold, engines unmerged.
+
+**Still open:** cutover step 1 when SC scripts proven; keep emitting daily inbox (day-3 tomorrow).
+
