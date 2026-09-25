@@ -1,0 +1,94 @@
+[
+  {
+    "candidateId": "fair-actu-padel-club-wifaq-tennis",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Club Wifaq Tennis",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-wifaq-rabat/",
+    "website": "https://clubwifaq.com",
+    "cityHint": "Rabat",
+    "countryHint": "Morocco",
+    "addressHint": "Avenue Mohamed VI Lot Les Ambassadors, lrbT 10000, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-wifaq-rabat/",
+      "https://clubwifaq.com"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-25T04:32:35.977Z",
+    "note": "Already MAR-VEN-003 Club Wifaq / research-mar-ven-003"
+  },
+  {
+    "candidateId": "fair-actu-padel-area-sports-events-center",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "AREA SPORTS & EVENTS CENTER",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-area-oulad-azzouz-wld/",
+    "website": "http://www.areamaroc.com/",
+    "countryHint": "Morocco",
+    "addressHint": "G838+2F8, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-area-oulad-azzouz-wld/",
+      "http://www.areamaroc.com/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T04:47:42.933Z",
+    "promotedRecordId": "MAR-VEN-005",
+    "promotedCardId": "research-mar-ven-005"
+  },
+  {
+    "candidateId": "fair-actu-padel-atlas-tennis-padel-marrakech-academie",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Atlas Tennis Padel Marrakech Academie",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-atlas-marrakech-tassoultante/",
+    "website": "https://atlastennispadelmarrakech.com/fr",
+    "cityHint": "Marrakech",
+    "countryHint": "Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-atlas-marrakech-tassoultante/",
+      "https://atlastennispadelmarrakech.com/fr"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T05:04:47.115Z",
+    "promotedRecordId": "MAR-VEN-006",
+    "promotedCardId": "research-mar-ven-006",
+    "promotedAt": "2026-09-25T05:08:00.000Z"
+  },
+  {
+    "candidateId": "fair-padelrevive-padel",
+    "sourceId": "padelrevive",
+    "sourceName": "PadelRevive",
+    "name": "Padel",
+    "citationUrl": "https://padelrevive.com/de/padel-clubs-in-afrika/",
+    "website": "",
+    "countryHint": "Nigeria",
+    "researchSources": [
+      "https://padelrevive.com/de/padel-clubs-in-afrika/"
+    ],
+    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T05:04:49.884Z",
+    "rejectedAt": "2026-09-25T05:08:00.000Z",
+    "note": "Junk lead — generic name 'Padel' with no club website or street address; hub list page only"
+  },
+  {
+    "candidateId": "fair-padelivu-bamvolea-sportcity-valencia",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Bamvolea Sportcity Valencia",
+    "citationUrl": "https://padelivu.com/club/bamvolea-sportcity-valencia",
+    "website": "",
+    "addressHint": "C/ Del Polideportivo, 2, 46470, Masanasa, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/bamvolea-sportcity-valencia"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T05:04:56.486Z",
+    "rejectedAt": "2026-09-25T05:08:00.000Z",
+    "note": "Out of scope — Spain/Valencia venue, not Africa"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "appliedAt": "2026-09-25T05:08:47.351Z",
+  "results": [
+    {
+      "recordId": "MAR-VEN-006",
+      "id": "research-mar-ven-006",
+      "ok": true,
+      "res": {
+        "cardId": "research-mar-ven-006",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MAR-VEN-007",
+      "id": "research-mar-ven-007",
+      "ok": true,
+      "res": {
+        "cardId": "research-mar-ven-007",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}

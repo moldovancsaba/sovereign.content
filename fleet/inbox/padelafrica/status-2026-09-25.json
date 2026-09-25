@@ -1,7 +1,7 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T04:50:30Z",
-  "source": "operator-kick",
+  "observedAt": "2026-09-25T05:09:30Z",
+  "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
@@ -14,33 +14,35 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 7,
+    "fairUsePassCount": 8,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
     "fairUseSeededCandidates": 1,
+    "fairUseRejected": 2,
     "fairUsePendingNeedsVerify": 0,
     "findSeededFixture": 1,
-    "findLiveIngestApply": 1,
-    "findZeroResultsThisTick": [
-      {
-        "cc": "GH",
-        "city": "Kumasi"
-      }
-    ],
+    "findLiveIngestApply": 2,
+    "findZeroResultsThisTick": [],
     "ingestCardsCreated": [
       {
-        "recordId": "MAR-VEN-005",
-        "cardId": "research-mar-ven-005",
+        "recordId": "MAR-VEN-006",
+        "cardId": "research-mar-ven-006",
         "state": "DISCOVERED",
-        "name": "AREA Sports & Events Center"
+        "name": "Atlas Tennis Padel Marrakech Académie"
+      },
+      {
+        "recordId": "MAR-VEN-007",
+        "cardId": "research-mar-ven-007",
+        "state": "DISCOVERED",
+        "name": "TCMT Padel Club"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Operator kick: quality stub; fair-use pass (28 sources) promoted AREA Sports Oulad Azzouz → ingest DISCOVERED; Kumasi zero. Not claiming PUBLISHED."
+    "note": "Tick ~05:04–05:09: quality stub; fair-use pass 8 promoted Atlas → MAR-VEN-006 ingest DISCOVERED; FIND Tangier TCMT → MAR-VEN-007 ingest DISCOVERED; rejected padelrevive junk + padelivu Valencia. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

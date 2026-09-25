@@ -192,3 +192,17 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.
 
+
+### 2026-09-25 — padelafrica (tick ~05:09 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 8 (3 seeds from ~05:04). Promoted **`MAR-VEN-006` Atlas Tennis Padel Marrakech Académie** (Route Ourika KM10 / Tassoultante) after evidence bar → ingest `research-mar-ven-006` **DISCOVERED**. Rejected `fair-padelrevive-padel` (generic hub junk) and `fair-padelivu-bamvolea-sportcity-valencia` (Spain OOS).
+
+**FIND:**
+- MA Tangier → fixture+ingest **`MAR-VEN-007` TCMT Padel Club** (Avenue Essalam) → `research-mar-ven-007` DISCOVERED
+
+**Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.
+
