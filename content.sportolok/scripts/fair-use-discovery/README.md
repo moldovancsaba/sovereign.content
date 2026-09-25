@@ -60,6 +60,29 @@ npm run fair-use:one-pass
 
 Processes all ready sources (cooldown elapsed), respects rate limits.
 
+### Enrichment (Process Seeds)
+
+```bash
+# Dry run (test with find-seeds.json)
+npm run fair-use:enrich:dry
+
+# Dry run with limit
+npm run fair-use:enrich:dry -- --limit=5
+
+# Live enrichment (calls ingest API)
+npm run fair-use:enrich
+
+# Live with limit
+npm run fair-use:enrich -- --limit=10
+```
+
+Enrichment agent (I am the LLM):
+- Reads `find-seeds.json` (status: "pending")
+- Performs quality checks (name, address, confidence)
+- Generates About descriptions (cognitive task)
+- Calls `ingestSourceText` with research sources
+- Marks seeds: "ingested" | "rejected"
+
 ### Adding Sources
 
 Edit `sources.json`:
@@ -80,14 +103,26 @@ Set `status: "active"` when ready to crawl.
 
 ## Enrichment Pipeline
 
-**Current state**: Discovery → `find-seeds.json`
+**Current state**: Discovery → `find-seeds.json` → Enrichment → Ingest API
 
-**Future**: Add enrichment agent that:
+**✅ Enrichment agent implemented** (`enrich-seeds.ts`):
 1. Reads `find-seeds.json` (status: "pending")
-2. Performs deep research (web search, maps, etc.)
-3. Scores and drafts About
-4. Calls `ingestSourceText` or `ingestPatch`
+2. Performs quality checks (name, address, confidence)
+3. Generates About descriptions (I am the LLM)
+4. Calls `ingestSourceText` with research sources
 5. Marks seed status: "ingested" | "rejected"
+
+**Quality checks:**
+- Name >= 5 characters
+- Address must be present
+- Confidence must be medium or high
+- Rejects low-confidence seeds
+
+**About generation:**
+- Facility description with location
+- Territory context (Budapest, Hungary)
+- Contact information when available
+- Confidence attribution
 
 ## Rate Limits
 
@@ -162,5 +197,7 @@ After one pass:
 - ✅ **Core infrastructure complete**
 - ✅ **Hungarian extractor ready**
 - ✅ **Source registry initialized**
+- ✅ **Enrichment agent implemented**
+- ✅ **End-to-end pipeline validated** (dry run)
 - 🔄 **First live sources pending** (planned status)
-- 🔜 **Enrichment agent** (future work)
+- 🔜 **Production activation** (activate sources when ready)

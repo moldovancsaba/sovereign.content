@@ -30,6 +30,8 @@
     "catalog:executor-ingest:dry": "npx tsx scripts/run-executor-ingest.ts --dry-run",
     "fair-use:one-pass": "npx tsx scripts/fair-use-discovery/one-pass.ts",
     "fair-use:one-pass:dry": "npx tsx scripts/fair-use-discovery/one-pass.ts --dry-run",
+    "fair-use:enrich": "npx tsx scripts/fair-use-discovery/enrich-seeds.ts",
+    "fair-use:enrich:dry": "npx tsx scripts/fair-use-discovery/enrich-seeds.ts --dry-run",
     "seed:lessons": "npx tsx scripts/seed-quality-lessons.mts",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
