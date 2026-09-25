@@ -441,5 +441,77 @@
     "extractedAt": "2026-09-25T09:22:29.476Z",
     "rejectedAt": "2026-09-25T09:26:00.000Z",
     "note": "Out of scope — USA (padelusa) club"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-bamvolea-ciudad-de-la-raqueta",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \n BamVolea Ciudad de la Raqueta",
+    "citationUrl": "https://playtomic.com/clubs/ciudad-de-la-raqueta",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/ciudad-de-la-raqueta",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T10:13:56.700Z",
+    "rejectedAt": "2026-09-25T10:16:00.000Z",
+    "note": "Out of scope — Madrid/Spain Playtomic club (Ciudad de la Raqueta), not Africa"
+  },
+  {
+    "candidateId": "fair-actu-padel-club-narjisse",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Club Narjisse",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-narjisse-rabat/",
+    "website": "https://clubnarjisse.ma/",
+    "cityHint": "Rabat",
+    "countryHint": "Morocco",
+    "addressHint": "Avenue Azzaitoune, Ryad, Rabat 10100, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-narjisse-rabat/",
+      "https://clubnarjisse.ma/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T10:16:18.953Z",
+    "promotedAt": "2026-09-25T10:28:00.000Z",
+    "promotedRecordId": "MAR-VEN-013",
+    "note": "Promoted — Club Narjisse Rabat Hay Ryad padel (Zephyr/Actu evidence)"
+  },
+  {
+    "candidateId": "fair-padelivu-country-sport-village",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Country Sport Village",
+    "citationUrl": "https://padelivu.com/club/country-sport-village",
+    "website": "",
+    "addressHint": "via Guglielmo Pepe 68, 20037, Paderno Dugnano, Italy",
+    "researchSources": [
+      "https://padelivu.com/club/country-sport-village"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T10:19:20.527Z",
+    "rejectedAt": "2026-09-25T10:28:00.000Z",
+    "note": "Out of scope — Paderno Dugnano/Italy (Country Sport Village)"
+  },
+  {
+    "candidateId": "fair-thepadeldirectory-sandbach-padel-club",
+    "sourceId": "thepadeldirectory",
+    "sourceName": "The Padel Directory",
+    "name": "Sandbach padel club",
+    "citationUrl": "https://www.thepadeldirectory.co.uk/padel-centres/sandbach-padel-club",
+    "website": "https://padel-mates-widget-prod.netlify.app/css/styles.css",
+    "researchSources": [
+      "https://www.thepadeldirectory.co.uk/padel-centres/sandbach-padel-club",
+      "https://padel-mates-widget-prod.netlify.app/css/styles.css"
+    ],
+    "researchNote": "Discovered via The Padel Directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T10:27:16.267Z",
+    "rejectedAt": "2026-09-25T10:28:00.000Z",
+    "note": "Out of scope — Sandbach/UK padel directory listing"
   }
 ]

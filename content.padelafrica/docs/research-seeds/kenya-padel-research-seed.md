@@ -15,6 +15,7 @@ Fixture: [`scripts/data/kenya-padel-verified.json`](../scripts/data/kenya-padel-
 | `research-ken-ven-005` | PLAYON Padel Club and Academy | City Mall Nyali, **Mombasa** (FIND 2026-09-24) |
 | `research-ken-ven-006` | Smash Zone Padel | Kizingo, **Mombasa** (FIND 2026-09-24) |
 | `research-ken-ven-007` | Royal Padelzone Pavilion Nakuru | Pavilion Sports Club, Milimani, **Nakuru** (FIND 2026-09-24) |
+| `research-ken-ven-008` | The Padel Point Kenya | Ngong Race Course and Golf Park, Nairobi |
 
 FIND deepen evidence: [Playtomic CityMall](https://playtomic.com/clubs/playon-padel-club-and-academy) + [Smash Zone](https://smashzone.ke/) + [Royal Padelzone](https://royalpadelzone.co.ke/) (+ Nation Nakuru feature).
 

@@ -1,0 +1,65 @@
+{
+  "appliedAt": "2026-09-25T10:28:17.864Z",
+  "results": [
+    {
+      "recordId": "TZA-VEN-004",
+      "id": "research-tza-ven-004",
+      "ok": true,
+      "res": {
+        "cardId": "research-tza-ven-004",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-009",
+      "id": "research-egy-ven-009",
+      "ok": true,
+      "res": {
+        "cardId": "research-egy-ven-009",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-006",
+      "id": "research-tun-ven-006",
+      "ok": true,
+      "res": {
+        "cardId": "research-tun-ven-006",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-008",
+      "id": "research-ken-ven-008",
+      "ok": true,
+      "res": {
+        "cardId": "research-ken-ven-008",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MOZ-VEN-003",
+      "id": "research-moz-ven-003",
+      "ok": true,
+      "res": {
+        "cardId": "research-moz-ven-003",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MAR-VEN-013",
+      "id": "research-mar-ven-013",
+      "ok": true,
+      "res": {
+        "cardId": "research-mar-ven-013",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}

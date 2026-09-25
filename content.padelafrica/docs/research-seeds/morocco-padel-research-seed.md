@@ -19,6 +19,7 @@ Morocco has a large market (70+ clubs). This is a **curated sample**.
 | `research-mar-ven-010` | Fes Country Club | Complexe El Merja / Zouagha |
 | `research-mar-ven-011` | Centre Sports et Loisirs Said Maatallah | Mhamid Sud / Dior Atlas |
 | `research-mar-ven-012` | Cité de Sports Adarissa | Hay Adarissa, Fes |
+| `research-mar-ven-013` | Club Narjisse | Avenue Azzaitoune, Hay Ryad, Rabat |
 | `osm-node-13300140471` | Padel Factory (already live) | Agadir |
 
 ```bash

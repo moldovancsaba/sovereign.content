@@ -7,6 +7,7 @@ Fixture: [`scripts/data/tanzania-padel-verified.json`](../scripts/data/tanzania-
 | `osm-node-13937004559` | Padel Sports Africa (already live; enrich) | Kimweri Avenue / Masaki, Dar es Salaam |
 | `research-tza-ven-001` | Padel Centre TZ Slipway | Slipway, Msasani Peninsula, Dar es Salaam |
 | `research-tza-ven-002` | The Hub Bwejuu | Bwejuu, Zanzibar |
+| `research-tza-ven-004` | Padel Sports Africa | Plot 1777/80 Chole Road, Masaki, Dar es Salaam |
 
 FIND 2026-09-23 evidence: [Padel Centre TZ contact](https://padelcentretz.com/contact-us/) + [booking](https://padelcentretz.com/booking/).
 

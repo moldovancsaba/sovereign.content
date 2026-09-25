@@ -302,3 +302,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
 
+
+### 2026-09-25 — padelafrica (kick tick ~10:10–10:33 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 13 (28 sources). Promoted **`MAR-VEN-013` Club Narjisse** (Hay Ryad / Ave Azzaitoune) → DISCOVERED. Rejected Spain Ciudad de la Raqueta, Italy Country Sport Village, UK Sandbach.
+
+**FIND:**
+- TZ Dar deepen → **`TZA-VEN-004` Padel Sports Africa** (Masaki / Chole Rd) DISCOVERED
+- EG New Cairo → **`EGY-VEN-009` Go Padel Katameya** DISCOVERED
+- TN Monastir → **`TUN-VEN-006` Padel Up Monastir** DISCOVERED
+- KE Nairobi → **`KEN-VEN-008` The Padel Point** (Ngong Racecourse) DISCOVERED
+- MZ Maputo → **`MOZ-VEN-003` Padel Club Maputo** (ATCM Marginal) DISCOVERED
+
+**Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED.
+

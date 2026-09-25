@@ -191,5 +191,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Cairo deepen. Court count not asserted."
+  },
+  {
+    "recordId": "EGY-VEN-009",
+    "name": "Go Padel Katameya",
+    "city": "New Cairo",
+    "region": "Cairo",
+    "countryCode": "EG",
+    "line1": "Katameya Heights, New Cairo",
+    "lat": 29.9953971,
+    "lng": 31.4053576,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Katameya Heights compound sports_centre pin — Go Padel courts inside compound; rooftop court not separately geocoded",
+    "website": "https://gosports.wansport.com/en-us/",
+    "phone": "+20 11 5900 5500",
+    "email": "Info@gopadel.co",
+    "venueModel": "own_premises",
+    "seasonNote": "Operating hours commonly listed 10:00–00:00 (directory); confirm on booking.",
+    "description": "Go Padel Katameya is a New Cairo padel club inside Katameya Heights with published phone on Padel Lands and operator Wansport booking. A clear Greater Cairo recommendation beyond Nasr City Padel Up when you want east-Cairo compound courts. Call 01159005500 to book.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/go-padel-egypt-katameya/",
+    "secondarySourceUrl": "https://gosports.wansport.com/en-us/",
+    "sourceTypes": "Padel Lands Katameya listing (address+phone); Go!Padel Wansport booking contact; Nawy courts directory contact",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick kick 2026-09-25. Court count listed as 8 on Padel Lands — not asserted. Distinct from EGY-VEN-008 Padel Up Nasr City. Operator also lists New Maadi HQ address on Wansport; this seed is the Katameya Heights venue."
   }
 ]

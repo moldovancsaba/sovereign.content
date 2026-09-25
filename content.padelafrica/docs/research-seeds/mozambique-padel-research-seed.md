@@ -7,6 +7,7 @@ Fixture: [`scripts/data/mozambique-padel-verified.json`](../scripts/data/mozambi
 | --- | --- | --- |
 | `research-moz-ven-001` | Gayle Padel Club Moz | Behind Glória Mall, Maputo |
 | `research-moz-ven-002` | Padel Club Tofo | Praia do Tofo, Inhambane |
+| `research-moz-ven-003` | Padel Club Maputo | Av. da Marginal, ATCM Entrada 2, Maputo |
 | `osm-way-1183409068` | Padel Club Maputo (already live) | Rua 3.896, Maputo |
 
 ```bash

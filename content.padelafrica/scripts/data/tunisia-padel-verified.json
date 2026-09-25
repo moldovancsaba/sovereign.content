@@ -118,5 +118,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Sfax deepen. Court count not asserted."
+  },
+  {
+    "recordId": "TUN-VEN-006",
+    "name": "Padel Up Monastir",
+    "city": "Monastir",
+    "region": "Monastir Governorate",
+    "countryCode": "TN",
+    "line1": "Cité El Agba, Monastir",
+    "lat": 35.7707582,
+    "lng": 10.8280511,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Monastir city pin — Cité El Agba street not separately geocoded in Nominatim",
+    "website": "https://padelupmonastir-tn.matchpoint.com.es/",
+    "phone": "+216 57 185 750",
+    "email": "padelup.monastir@hotmail.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 08:00–01:00 (Matchpoint club site).",
+    "description": "Padel Up Monastir is a Cité El Agba padel club with published phone and email on Matchpoint and Padel Tunisia. A clear Sahel recommendation beyond Sousse and Hammamet when you want Monastir courts. Call or WhatsApp ahead to book.",
+    "primarySourceUrl": "https://padelupmonastir-tn.matchpoint.com.es/",
+    "secondarySourceUrl": "https://padeltunisia.com/?page_id=2076",
+    "sourceTypes": "Matchpoint club contact (Cité el Agba + phone + email + hours); Padel Tunisia club page (2 courts listed)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick kick 2026-09-25. Court count listed as 2 on Padel Tunisia — not asserted beyond directory. Distinct from existing Tunis/Sousse/Hammamet/Sfax samples."
   }
 ]

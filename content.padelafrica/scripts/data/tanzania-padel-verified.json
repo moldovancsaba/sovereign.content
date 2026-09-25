@@ -73,5 +73,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND kick tick 2026-09-25. Distinct from Padel Centre TZ Slipway/Hub samples."
+  },
+  {
+    "recordId": "TZA-VEN-004",
+    "name": "Padel Sports Africa",
+    "city": "Dar es Salaam",
+    "region": "Dar es Salaam",
+    "countryCode": "TZ",
+    "line1": "Plot 1777/80 Chole Road, Masaki",
+    "lat": -6.7487171,
+    "lng": 39.2748011,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Chole Road / Sea Cliff Masaki pin — club also lists Kimveri Avenue Masaki on membership page",
+    "website": "https://ps4africa.com/",
+    "phone": "+255 740 300 304",
+    "email": "play@ps4africa.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Open 7 days 06:00–23:00 (membership page); app bookings required.",
+    "description": "Padel Sports Africa is a Masaki Dar es Salaam padel club on Chole Road with published phone, email, and Matchpoint booking. A clear second Dar recommendation beyond Slipway when you want Masaki peninsula courts with pickleball and dining on site. Book via the PSA app or call ahead.",
+    "primarySourceUrl": "https://padelsportsafrica.matchpoint.com.es/Index.aspx",
+    "secondarySourceUrl": "https://ps4africa.com/membership/",
+    "sourceTypes": "Matchpoint contact (Plot 1777/80 Chole Road + phone + email); PSA membership page hours/phone; operator homepage amenities",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick kick 2026-09-25. Court count published as 3 padel on homepage — not asserted beyond operator claim. Distinct from TZA-VEN-001 Slipway."
   }
 ]

@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T09:27:30Z",
+  "observedAt": "2026-09-25T10:33:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,64 +14,65 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 12,
+    "fairUsePassCount": 13,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
-    "fairUseSeededCandidates": 1,
-    "fairUseRejected": 5,
+    "fairUseSeededCandidates": 4,
+    "fairUseRejected": 3,
     "fairUsePendingNeedsVerify": 0,
-    "findSeededFixture": 3,
-    "findLiveIngestApply": 4,
-    "findZeroResultsThisTick": [
-      {
-        "cc": "MU",
-        "city": "Port Louis"
-      },
-      {
-        "cc": "DZ",
-        "city": "Algiers"
-      }
-    ],
+    "fairUsePromoted": 1,
+    "findSeededFixture": 5,
+    "findLiveIngestApply": 6,
+    "findZeroResultsThisTick": [],
     "ingestCardsCreated": [
       {
-        "recordId": "ZAF-VEN-008",
-        "cardId": "research-zaf-ven-008",
+        "recordId": "TZA-VEN-004",
+        "cardId": "research-tza-ven-004",
         "state": "DISCOVERED",
-        "name": "Indoor Padel Revolution"
+        "name": "Padel Sports Africa"
       },
       {
-        "recordId": "SEN-VEN-007",
-        "cardId": "research-sen-ven-007",
+        "recordId": "EGY-VEN-009",
+        "cardId": "research-egy-ven-009",
         "state": "DISCOVERED",
-        "name": "Mama Padel"
+        "name": "Go Padel Katameya"
       },
       {
-        "recordId": "MUS-VEN-003",
-        "cardId": "research-mus-ven-003",
+        "recordId": "TUN-VEN-006",
+        "cardId": "research-tun-ven-006",
         "state": "DISCOVERED",
-        "name": "RM Club Mauritius"
+        "name": "Padel Up Monastir"
       },
       {
-        "recordId": "MAR-VEN-012",
-        "cardId": "research-mar-ven-012",
+        "recordId": "KEN-VEN-008",
+        "cardId": "research-ken-ven-008",
         "state": "DISCOVERED",
-        "name": "Cit\u00e9 de Sports Adarissa"
+        "name": "The Padel Point Kenya"
+      },
+      {
+        "recordId": "MOZ-VEN-003",
+        "cardId": "research-moz-ven-003",
+        "state": "DISCOVERED",
+        "name": "Padel Club Maputo"
+      },
+      {
+        "recordId": "MAR-VEN-013",
+        "cardId": "research-mar-ven-013",
+        "state": "DISCOVERED",
+        "name": "Club Narjisse"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~09:04\u201309:27: quality stub; fair-use pass 12 promoted Adarissa Fes; FIND Joburg/Dakar/Forbach seeded; Port Louis+Algiers zero. Not claiming PUBLISHED."
+    "note": "Kick tick ~10:10\u201310:33: quality stub; fair-use pass 13 promoted Club Narjisse; FIND TZ/EG/TN/KE/MZ seeded. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",
-    "core_reconcile_release_padel_africa_awaiting_section_D_engine_PR",
-    "pipeline_gate_to_publish_discovered_cards"
-  ],
-  "links": [
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/padelafrica.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/scripts/fair-use/README.md"
+    "core_reconcile_release_padel_africa_prs",
+    "discovered_to_published_pipeline",
+    "day3_inbox_continuity"
   ]
 }

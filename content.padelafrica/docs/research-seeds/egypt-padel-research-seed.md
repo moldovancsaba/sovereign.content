@@ -18,6 +18,7 @@ Egypt has a large padel market. This audit is a **curated sample** plus enrichme
 | `research-egy-ven-006` | Hurghada Padel | **Hurghada** Downtown Beach (FIND until-found tick 2026-09-24) |
 | `research-egy-ven-007` | Domina Coral Bay Padel | **Sharm El Sheikh** Hadaba / Coral Bay (FIND until-found tick 2026-09-24) |
 | `research-egy-ven-008` | Padel Up | **Cairo** Nasr City (FIND until-found tick 2026-09-25) |
+| `research-egy-ven-009` | Go Padel Katameya | Katameya Heights, New Cairo |
 
 FIND evidence: [Skedda booking](https://propadeleg.skedda.com/booking) (Le Jardin courts) + phone +20 11 28099322 + Playtomic directory card.
 

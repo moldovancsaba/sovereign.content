@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T04:50:12.122Z",
+  "updatedAt": "2026-09-25T10:28:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -607,6 +607,54 @@
       "outcome": "seeded",
       "recordId": "MAR-VEN-012",
       "note": "fair-use promote Cite de Sports Adarissa ingest"
+    },
+    {
+      "cc": "TZ",
+      "city": "Dar es Salaam",
+      "at": "2026-09-25T10:15:00.000Z",
+      "outcome": "seeded",
+      "recordId": "TZA-VEN-004",
+      "note": "FIND kick Padel Sports Africa Masaki Chole Rd ingest"
+    },
+    {
+      "cc": "EG",
+      "city": "New Cairo",
+      "at": "2026-09-25T10:15:00.000Z",
+      "outcome": "seeded",
+      "recordId": "EGY-VEN-009",
+      "note": "FIND kick Go Padel Katameya Heights ingest"
+    },
+    {
+      "cc": "TN",
+      "city": "Monastir",
+      "at": "2026-09-25T10:15:00.000Z",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-006",
+      "note": "FIND kick Padel Up Monastir Cite El Agba ingest"
+    },
+    {
+      "cc": "KE",
+      "city": "Nairobi",
+      "at": "2026-09-25T10:15:00.000Z",
+      "outcome": "seeded",
+      "recordId": "KEN-VEN-008",
+      "note": "FIND kick The Padel Point Ngong Racecourse ingest"
+    },
+    {
+      "cc": "MZ",
+      "city": "Maputo",
+      "at": "2026-09-25T10:15:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MOZ-VEN-003",
+      "note": "FIND kick Padel Club Maputo ATCM Marginal directory ingest"
+    },
+    {
+      "cc": "MA",
+      "city": "Rabat",
+      "at": "2026-09-25T10:28:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-013",
+      "note": "fair-use promote Club Narjisse Hay Ryad ingest"
     }
   ]
 }

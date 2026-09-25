@@ -299,5 +299,28 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "Fair-use tick 2026-09-25 — candidate fair-actu-padel-cite-de-sports-adarissa promoted. Street line thin beyond neighbourhood; court count not asserted."
+  },
+  {
+    "recordId": "MAR-VEN-013",
+    "name": "Club Narjisse",
+    "city": "Rabat",
+    "region": "Rabat-Salé-Kénitra",
+    "countryCode": "MA",
+    "line1": "Avenue Azzaitoune, Hay Ryad",
+    "lat": 33.9693047,
+    "lng": -6.8792831,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "website": "https://clubnarjisse.ma/",
+    "phone": "+212 5 37 56 58 12",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours vary by directory (Activityz lists weekday mornings–evening); confirm on site.",
+    "description": "Club Narjisse is a Hay Ryad Rabat sports club with published padel courts on Avenue Azzaitoune, phone, and Zephyr operator pages. A clear Rabat recommendation beyond Club Wifaq when you want Hay Ryad tennis-and-padel amenities. Call ahead for court booking and membership rules.",
+    "primarySourceUrl": "https://zephyr.ma/nos-clubs/narjisse-rabat/",
+    "secondarySourceUrl": "https://actu-padel.com/directory/padel-club/padel-narjisse-rabat/",
+    "sourceTypes": "Zephyr club page (Avenue Azzaitoune + phone + 2 padel spaces); Actu Padel directory; Nominatim club POI",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "Fair-use promote tick kick 2026-09-25 from actu-padel candidate. Court count claimed as two padel spaces — not asserted beyond operator. Distinct from MAR-VEN-003 Club Wifaq Rabat."
   }
 ]

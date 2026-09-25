@@ -46,5 +46,29 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-22",
     "researchNotes": "Locality pin only — do not invent a street centroid"
+  },
+  {
+    "recordId": "MOZ-VEN-003",
+    "name": "Padel Club Maputo",
+    "city": "Maputo",
+    "region": "Maputo City",
+    "countryCode": "MZ",
+    "line1": "Av. da Marginal, ATCM, Entrada 2",
+    "lat": -25.9658453,
+    "lng": 32.6017933,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Av. da Marginal / Sommerschield pin — ATCM Entrance 2 not separately geocoded",
+    "website": "https://padellands.com/en/pistas-de-padel/otros-paises/mozambique/",
+    "phone": "+258 85 358 8341",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed on directory entry.",
+    "description": "Padel Club Maputo is listed on Avenida da Marginal at ATCM Entrance 2 with a published phone on Padel Lands. A clear Maputo recommendation beyond Gayle Padel when you want a second Marginal-side club. Call ahead to confirm open play.",
+    "primarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/mozambique/",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/mozambique/",
+    "sourceTypes": "Padel Lands Mozambique directory (address+phone+court count listing)",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick kick 2026-09-25. Directory-only evidence (Medium). Distinct from MOZ-VEN-001 Gayle (Glória Mall Marginal). Court count listed as 4 — not asserted."
   }
 ]
