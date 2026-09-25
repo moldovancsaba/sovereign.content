@@ -1,31 +1,40 @@
 {
   "clientId": "sportolok",
-  "observedAt": "2026-09-25T03:55:00Z",
-  "source": "sc-central-qa",
+  "observedAt": "2026-09-25T04:14:47Z",
+  "source": "sc-central-verify",
   "workingEnv": {
     "timerSubscribed": false,
     "ingestOnlyDoctrine": true,
-    "ingestOnlyReality": false,
+    "ingestOnlyReality": "partial",
     "quarantineActive": true,
-    "executorIngestStubShipped": true,
+    "executorIngestLivePatchProven": true,
+    "livePatchListingId": "l-disc-10fdfb6e8912e955",
     "vanityDocsRetracted": true,
-    "releaseBranchCommitsStopped": "acknowledged_unverified"
+    "releaseBranchCommitsStopped": "acknowledged"
   },
   "outcomes": {
-    "ingest_patch_success_rate": null,
-    "schedule_validation_failures": null,
-    "quarantine_burn_down": "executor_throws_plus_ingest_helper_added",
-    "decision_staff_agreement_when_live": null,
-    "release_branch_reconcile_status": "pending_core",
-    "note": "outcome KPIs insufficient_signal until dry PATCH with INGEST_API_KEY"
+    "ingest_patch_success_rate": "1/1_live_test",
+    "dry_patch_proven": true,
+    "live_patch_proven": true,
+    "test_field_pollution": "_test_patch left on published listing \u2014 must clean via ingest",
+    "release_branch_reconcile_status": "pending_core"
   },
   "openDebt": [
-    { "kind": "ingest_rewrite", "n": 1, "target": "src/lib/sovereign/executor.ts callers → executorIngest.ts" },
-    { "kind": "dry_patch_unproven", "n": 1 },
-    { "kind": "release_sportolok_reconcile", "n": 1 }
+    {
+      "kind": "clean_test_patch_field",
+      "n": 1,
+      "listingId": "l-disc-10fdfb6e8912e955"
+    },
+    {
+      "kind": "wire_real_catalog_jobs_to_executorIngest",
+      "n": 1
+    },
+    {
+      "kind": "release_sportolok_reconcile",
+      "n": 1
+    }
   ],
   "links": [
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/sportolok.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.sportolok/src/lib/sovereign/executorIngest.ts"
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/sportolok.md"
   ]
 }

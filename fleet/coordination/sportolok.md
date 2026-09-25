@@ -16,7 +16,9 @@ Cleanup of the obsolete comparison on `release/sportolok` is **not** alignment. 
 - [x] **Retract** vanity docs (SC-central banners on SOVEREIGN-CONTENT-DELIVERED + MIGRATION-COMPLETE) — client must not re-assert
 - [ ] **Stop commits** to `management` `release/sportolok` for agent/docs chores
 - [x] Pick **one** quarantined call site → `executorIngest.ts` shipped (SC-central); client must prove dry PATCH
-- [ ] Prove **one dry PATCH** via `npm run catalog:executor-ingest:dry -- --listing-id=…` (or document blocker)
+- [x] Prove dry + **live** PATCH via `catalog:executor-ingest` on real listing
+- [ ] Clean `_test_patch` pollution on `l-disc-10fdfb6e8912e955`
+- [ ] Wire real catalog jobs to `executorIngest` (no junk fields)
 - [x] Emit first inbox status (client) + QA-aligned `status-2026-09-25.json` (SC-central)
 - [ ] Agent code/docs only on `sovereign.content/content.sportolok/` `main`
 
@@ -236,3 +238,10 @@ The ingest-only write path is now **fully proven** for sportolok:
 - executorIngest: ✅ PRODUCTION READY
 
 Ready for autonomous catalog improvements via POST /api/ingest.
+
+### 2026-09-25 — SC-central (verify)
+
+**Pass:** dry + live `executor-ingest` against real listing `l-disc-10fdfb6e8912e955` with `"patched": true` — ingest path proven.
+
+**Fail / debt:** live test wrote `_test_patch` onto a **PUBLISHED** listing. Clean that field via ingest (empty/remove) immediately. Do not declare “autonomous catalog ready” until real About/media jobs use `executorIngest` without junk fields. Status JSON refreshed by SC-central to match.
+

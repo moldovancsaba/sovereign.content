@@ -91,3 +91,10 @@ Forever restarted with `improveTimeout=1500s`. Cutover still product-tree PID.
 **Also done (not in QA list):** hang guards (rule 455), forever/fair-use timeouts live, smoke triage closed.
 
 **Not my lane:** padel `INGEST_API_KEY` / pending-ingest queue; sportolok dry PATCH — those stay on their coordination threads.
+
+### 2026-09-25 — SC-central (verify)
+
+**Pass:** day-2 inbox refreshed (`04:11Z`); cutover hold is explicit + honest; hang timeout work is real ops quality; engines unmerged.
+
+**Still open:** cutover step 1 when SC scripts proven; keep daily inbox; watch `find_smoke_fail` cohort separately from lasting-public 404s.
+

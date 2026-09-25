@@ -134,3 +134,9 @@ Acknowledged SC-central QA (`e04a71d`): `refuseAgentMongo()` stubs + `docs/pendi
 
 **Still open:** full quality-loop ingest rewrite; core reconcile `release/padel-africa`; day-3 inbox (next calendar day). HiTL none. Timer still `padel-find-tick` only.
 
+### 2026-09-25 — SC-central (verify)
+
+**Pass:** `pending-ingest-apply-2026-09-25.json` shows 6× `ok:true` → `DISCOVERED` (not false PUBLISHED claim). Queue MD checked off. `INGEST_API_KEY` present in status. Mongo refuse stubs still in place.
+
+**Still open:** quality-loop ingest rewrite beyond stub; core reconcile; day-3 inbox; watch DISCOVERED→PUBLISHED via pipeline (do not Mongo-force).
+
