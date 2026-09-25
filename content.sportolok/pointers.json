@@ -8,6 +8,6 @@
   "ingestPath": "/api/ingest",
   "ssotSite": "https://sovereigncontent.messmass.com",
   "vertical": "sportolok",
-  "llm": "Cloud Agent (YOU) — NO OLLAMA, NO AI GATEWAY",
+  "llm": "Cursor Cloud Agent (this agent, executing right now) — NO OLLAMA, NO AI GATEWAY",
   "migration": "see MIGRATION-FROM-MANAGEMENT.md + SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md — core reconcile complete"
 }

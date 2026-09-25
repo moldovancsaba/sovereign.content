@@ -7,7 +7,7 @@
     "managementRepo": "moldovancsaba/management",
     "managementBranch": "release/sportolok",
     "siteUrl": "https://sport.doneisbetter.com",
-    "llm": "Cloud Agent (YOU) — NO OLLAMA, NO AI GATEWAY, NO EXTERNAL LLM"
+    "llm": "Cursor Cloud Agent (this agent, executing right now) — NO OLLAMA, NO AI GATEWAY, NO EXTERNAL LLM"
   },
   "milestone": {
     "name": "OLLAMA PURGE + PADEL-AFRICA PATTERN IMPLEMENTATION",
@@ -18,7 +18,7 @@
     ]
   },
   "architecture": {
-    "llm": "Cloud Agent performs ALL cognitive tasks",
+    "llm": "Cursor Cloud Agent (I, this agent) performs ALL cognitive tasks",
     "writePath": "POST /api/ingest only (no direct Mongo)",
     "jobStructure": "Follows content.padelafrica pattern exactly",
     "ollamaStatus": "100% purged from sportolok agent runtime",
@@ -56,8 +56,8 @@
   },
   "nextSteps": [
     "Implement actual quality-loop logic in catalog-quality-loop-ingest.ts",
-    "Cloud Agent performs quality scoring on published listings",
-    "Cloud Agent writes improved About descriptions from evidence",
+    "I (Cursor Cloud Agent) perform quality scoring on published listings",
+    "I write improved About descriptions from evidence",
     "Test dry PATCH via ingest client",
     "Execute quality improvements via POST /api/ingest"
   ],

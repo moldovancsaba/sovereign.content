@@ -25,7 +25,7 @@ Sportolok **only**. No SC-central / fleet SWOT ownership / sibling `content.*` e
 | **Forbidden** | Direct Mongo / new management routes-libs-crons / "Mongo-only quality-loop" |
 | **Migrated copy** | Former management agent code lives under [`src/`](./src/) + [`scripts/`](./scripts/) — **[`src/QUARANTINE.md`](./src/QUARANTINE.md)** |
 | **Core reconcile** | [`MIGRATION-FROM-MANAGEMENT.md`](./MIGRATION-FROM-MANAGEMENT.md) · [`SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md`](./SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md) |
-| **LLM** | **Cloud Agent (YOU)** — NO OLLAMA, NO AI GATEWAY, NO EXTERNAL LLM |
+| **LLM** | **Cursor Cloud Agent (this agent, executing right now)** — NO OLLAMA, NO AI GATEWAY, NO EXTERNAL LLM |
 
 Direct Mongo writes caused the production outage on `sport.doneisbetter.com/browse`. All writes now go through validated ingest.
 
@@ -37,7 +37,7 @@ Direct Mongo writes caused the production outage on `sport.doneisbetter.com/brow
 4. **Do not** import from sibling `content.*` folders.
 5. Schedule patches: singular `weekday` per [`ingest/content-data-contract.md`](./ingest/content-data-contract.md).
 6. **Do not** force-push `release/sportolok` — tell core when migration is ready.
-7. **Cloud Agent (YOU) are the LLM** — NO OLLAMA, NO AI GATEWAY. You perform ALL cognitive tasks: scoring quality, writing About descriptions, extracting structured facts.
+7. **I (the Cursor Cloud Agent) am the LLM** — NO OLLAMA, NO AI GATEWAY. I perform ALL cognitive tasks: scoring quality, writing About descriptions, extracting structured facts.
 8. Keep `sportolok-tick` on this chat; do not touch `fleet-daily-swot`.
 
 ## Layout
@@ -62,12 +62,12 @@ Direct Mongo writes caused the production outage on `sport.doneisbetter.com/brow
 
 ## LLM Architecture
 
-**Cloud Agent (YOU) are the LLM.** NO OLLAMA. NO AI GATEWAY. NO EXTERNAL LLM SERVER.
+**I (the Cursor Cloud Agent executing right now) am the LLM.** NO OLLAMA. NO AI GATEWAY. NO EXTERNAL LLM SERVER.
 
-You directly perform:
+I directly perform:
 - Quality scoring of descriptions
 - Writing About text from evidence
 - Extracting structured facts
 - All cognitive catalog operations
 
-Job structure follows `content.padelafrica` pattern with Cloud Agent as the exclusive LLM.
+Job structure follows `content.padelafrica` pattern with the Cursor Cloud Agent (me, this agent) as the exclusive LLM.

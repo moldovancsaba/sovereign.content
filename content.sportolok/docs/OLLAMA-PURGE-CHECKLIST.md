@@ -2,7 +2,7 @@
 
 **Date:** 2026-09-24  
 **Status:** All active Ollama references removed from sportolok agent  
-**LLM:** Cloud Agent (YOU) — NO OLLAMA, NO AI GATEWAY, NO EXTERNAL LLM
+**LLM:** Cursor Cloud Agent (I, this agent, executing right now) — NO OLLAMA, NO AI GATEWAY, NO EXTERNAL LLM
 
 ## Sportolok Agent (sovereign.content/content.sportolok) - ✅ CLEAN
 
@@ -90,7 +90,7 @@ The following files in management contain Ollama references. These are NOT part 
 
 ## Architecture Going Forward
 
-**Cloud Agent is the LLM** for all sovereign content operations:
+**I (the Cursor Cloud Agent, this agent) am the LLM** for all sovereign content operations:
 - Quality scoring
 - About description writing
 - Fact extraction

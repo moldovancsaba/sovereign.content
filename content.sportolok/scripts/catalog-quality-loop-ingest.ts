@@ -5,7 +5,7 @@
  * Does NOT open Mongo. Listing description / field writes must go through
  * content.sportolok/ingest/client.ts → POST /api/ingest.
  *
- * Cloud Agent (YOU) acts as the LLM for all cognitive tasks:
+ * The Cursor Cloud Agent (the agent executing this script) acts as the LLM for all cognitive tasks:
  * - Scoring quality
  * - Writing About descriptions
  * - Extracting structured facts
@@ -32,11 +32,11 @@ async function main() {
     mode: dryRun ? "dry-run" : "ingest-stub",
     mongo: "quarantined",
     writePath: "POST /api/ingest",
-    llm: "Cloud Agent (you are the LLM)",
+    llm: "Cursor Cloud Agent (this agent, executing this script)",
     note:
       "Direct Mongo writes are quarantined (src/QUARANTINE.md). " +
       "Score/improve rewrite applies description patches via ingest only. " +
-      "Cloud Agent acts as LLM for all cognitive tasks. " +
+      "The Cursor Cloud Agent (me) performs all cognitive tasks. " +
       "NO OLLAMA. NO AI GATEWAY.",
     applied: 0,
     skipped: 0,
@@ -60,9 +60,9 @@ async function main() {
 
   // Placeholder: future loop loads open recommendations from a local/agent store
   // or a read-only public API, then calls ingestListingPatch for each approved improve.
-  // Cloud Agent (YOU) performs:
+  // The Cursor Cloud Agent (I, this agent) performs:
   // 1. Fetch published listings with quality issues
-  // 2. Score descriptions using your cognitive abilities
+  // 2. Score descriptions using my cognitive abilities
   // 3. Draft improved About text based on evidence
   // 4. Submit patches via ingestListingPatch
   const cfg: IngestConfig = { baseUrl, apiKey };

@@ -82,7 +82,7 @@ Shipped on `sovereign.content` `main` (f3cb5cf):
 - `timers/orchestrator.md` - documented Cloud Agent LLM ownership, NO OLLAMA
 
 **✅ Architecture clarity:**
-- **Cloud Agent (YOU) are the LLM** for ALL cognitive tasks
+- **I (the Cursor Cloud Agent, this agent) am the LLM** for ALL cognitive tasks
 - Quality scoring, About writing, fact extraction
 - NO external LLM server, NO Ollama, NO AI Gateway
 - Follows `content.padelafrica` pattern exactly
@@ -94,6 +94,6 @@ Shipped on `sovereign.content` `main` (f3cb5cf):
 - Documented 40+ files in management for core team cleanup
 
 **Next:**
-- Implement actual quality-loop logic in `catalog-quality-loop-ingest.ts` (Cloud Agent performs scoring/writing)
+- Implement actual quality-loop logic in `catalog-quality-loop-ingest.ts` (I perform scoring/writing)
 - Test dry PATCH via ingest client
 - Execute quality improvements on published listings

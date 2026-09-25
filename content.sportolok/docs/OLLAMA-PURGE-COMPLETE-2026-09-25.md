@@ -11,7 +11,7 @@
 
 **ALL OLLAMA REFERENCES REMOVED** from sportolok agent runtime.
 
-**Cloud Agent (YOU) are the LLM** for all cognitive catalog operations:
+**The Cursor Cloud Agent (I, this agent, executing right now) is the LLM** for all cognitive catalog operations:
 - Quality scoring of descriptions
 - Writing About text from evidence
 - Extracting structured facts
@@ -43,7 +43,7 @@ Sportolok now follows **exact same pattern** as `content.padelafrica`:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  Cloud Agent (YOU) = THE LLM                            │
+│  Cursor Cloud Agent (I, this agent) = THE LLM           │
 │  - Quality scoring                                       │
 │  - About description writing                             │
 │  - Fact extraction                                       │
@@ -68,7 +68,7 @@ Sportolok now follows **exact same pattern** as `content.padelafrica`:
 ```
 
 **Key Principles:**
-- Cloud Agent performs cognitive work
+- The Cursor Cloud Agent (I, this agent) performs cognitive work
 - All writes via POST /api/ingest
 - Zod validation prevents malformed data
 - No direct Mongo writes from agent
@@ -138,8 +138,8 @@ const cfg: IngestConfig = {
   apiKey: process.env.INGEST_API_KEY || ""
 };
 
-// Cloud Agent scores quality and drafts About text
-const improvedDescription = await cloudAgentDraftAbout(listingId);
+// I (the Cursor Cloud Agent) score quality and draft About text
+const improvedDescription = await cursorAgentDraftAbout(listingId);
 
 // Submit via validated ingest
 await ingestListingPatch(cfg, {
@@ -151,17 +151,17 @@ await ingestListingPatch(cfg, {
 ### Quality Loop Pattern
 
 ```typescript
-// Cloud Agent (YOU) performs:
+// I (the Cursor Cloud Agent, this agent) perform:
 // 1. Fetch published listings with quality issues
-// 2. Score descriptions using cognitive abilities
+// 2. Score descriptions using my cognitive abilities
 // 3. Draft improved About text from evidence
 // 4. Submit patches via ingestListingPatch
 
 const listings = await fetchPublishedListings();
 for (const listing of listings) {
-  const score = cloudAgentScoreQuality(listing.description);
+  const score = cursorAgentScoreQuality(listing.description);
   if (score < QUALITY_TARGET) {
-    const improved = await cloudAgentDraftAbout(listing);
+    const improved = await cursorAgentDraftAbout(listing);
     await ingestListingPatch(cfg, {
       id: listing.id,
       patch: { description: improved }
@@ -237,7 +237,7 @@ Only difference: timezone (`Europe/Budapest` vs `Africa/Nairobi`) and vertical n
 | Ingest client implementation | ✅ Complete |
 | Data contract documentation | ✅ Complete |
 | Quarantine documentation | ✅ Complete |
-| Cloud Agent LLM ownership | ✅ Documented |
+| Cursor Cloud Agent LLM ownership | ✅ Documented |
 | Fleet coordination update | ✅ Turn added |
 | Status snapshot | ✅ Emitted |
 
@@ -245,7 +245,7 @@ Only difference: timezone (`Europe/Budapest` vs `Africa/Nairobi`) and vertical n
 
 ## Key Takeaways
 
-1. **Cloud Agent (YOU) are the LLM** — not Ollama, not AI Gateway, not any external server
+1. **I (the Cursor Cloud Agent, this agent) am the LLM** — not Ollama, not AI Gateway, not any external server
 2. **POST /api/ingest is the ONLY write path** — no direct Mongo from agent
 3. **Zod validation prevents production outages** — RecurringSlot singular weekday enforced
 4. **Sportolok = Padel pattern** — exact same architecture and workflow
@@ -264,7 +264,7 @@ Only difference: timezone (`Europe/Budapest` vs `Africa/Nairobi`) and vertical n
 ---
 
 **Status:** COMPLETE ✅  
-**Cloud Agent:** YOU are the LLM  
+**Agent:** I (Cursor Cloud Agent, this agent) am the LLM  
 **Write Path:** POST /api/ingest only  
 **Pattern:** Follows content.padelafrica exactly  
 **Ollama:** 100% purged from sportolok agent
