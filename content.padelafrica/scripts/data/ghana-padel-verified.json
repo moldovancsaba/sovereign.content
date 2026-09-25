@@ -113,5 +113,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND kick tick 2026-09-25 Accra deepen — not in prior GHA-VEN-001..004 sample."
+  },
+  {
+    "recordId": "GHA-VEN-006",
+    "name": "Smac Sports Center",
+    "city": "Accra",
+    "region": "Greater Accra",
+    "countryCode": "GH",
+    "line1": "Casa Trasacco / Behind Accra Mall, Tetteh Quarshie",
+    "lat": 5.6238076,
+    "lng": -0.1708754,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM Casa Trasacco shop node on Tetteh Quarshie Road — SMAC courts on premises",
+    "website": "https://www.smacafrica.com/sports-center/",
+    "phone": "+233 54 013 0322",
+    "email": "admin@smacafrica.com",
+    "venueModel": "own_premises",
+    "seasonNote": "AIIMA guide lists 07:00–22:00; book by phone/WhatsApp.",
+    "description": "Smac Sports Center is an Airport City Accra padel venue within Casa Trasacco / behind Accra Mall with published phone and email on the operator site. A clear recommendation when you want Tetteh Quarshie courts beyond Clan 7 Airport West and Padel Accra Spintex. Call or WhatsApp ahead to book.",
+    "primarySourceUrl": "https://www.smacafrica.com/sports-center/",
+    "secondarySourceUrl": "https://aiimasports.com/blogs/nyheter/padel-courts-in-accra",
+    "sourceTypes": "SMAC sports-center + contact pages (padel courts + phone + email); AIIMA Accra padel guide (Casa Trasacco hours/rates); Padel Lands Smac card",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 2 — not asserted. Distinct from GHA-VEN-001 Clan 7 and GHA-VEN-005 S2 Spintex."
   }
 ]

@@ -532,3 +532,23 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - MW Blantyre deepen → `zero-result` (Padel Zone already MWI-VEN-003)
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-25 — padelafrica (tick ~22:04–22:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 204 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 25 (28 sources). **Promoted** Padel Plaza Ain Attig → `MAR-VEN-019`. Rejected Padel Berlin Ostkreuz (DE), Los Naranjos Padel Club (ES).
+
+**FIND:**
+- TZ Dar → **`TZA-VEN-005` EARSC Gymkhana** (Ghana Avenue Kisutu) DISCOVERED
+- TZ Kiwengwa → **`TZA-VEN-006` Zanzibar Padel** DISCOVERED
+- GH Accra → **`GHA-VEN-006` Smac Sports Center** (Casa Trasacco) DISCOVERED
+- EG Alexandria → **`EGY-VEN-010` Padel Station** (Abis) DISCOVERED
+- MA Aïn Attig → **`MAR-VEN-019` Padel Plaza** DISCOVERED
+- CM Elite Yaoundé → `zero-result` (phone only, no street)
+- SN Cap Skirring Attika → `zero-result` (no published phone)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.

@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T21:45:00Z",
+  "observedAt": "2026-09-25T22:40:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,33 +14,34 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 24,
+    "fairUsePassCount": 25,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "ready_for_reconcile"
   },
   "outcomes": {
-    "qualityLoopScanned": 200,
+    "qualityLoopScanned": 204,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 24,
+    "fairUsePass": 25,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "CIV-VEN-005",
-      "CIV-VEN-006",
-      "CIV-VEN-007",
-      "MUS-VEN-005"
+      "TZA-VEN-005",
+      "TZA-VEN-006",
+      "GHA-VEN-006",
+      "EGY-VEN-010",
+      "MAR-VEN-019"
     ],
     "findZeroResult": [
-      "LY Oxygen no phone",
-      "MW Blantyre deepen already seeded"
+      "CM Elite Yaounde no street",
+      "SN Cap Skirring Attika no phone"
     ],
-    "ingestDiscoveredOk": 4,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-25T21.json",
+    "ingestDiscoveredOk": 5,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-25T22.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "21:15 tick: Abidjan deepen District/Padel Zone/Ivoire + ClubHouse Mauritius. Fair-use pass 24: Kick Off duplicate skipped; rejected Kreuzberg/León/RGV. Not claiming PUBLISHED."
+    "note": "22:04 tick: EARSC Gymkhana + Zanzibar Padel + Smac Accra + Padel Station Alex; fair-use promoted Padel Plaza Ain Attig. Rejected Berlin Ostkreuz + Los Naranjos. Not claiming PUBLISHED."
   },
   "openDebt": [
     "core_reconcile_release_padel_africa_awaiting_management",

@@ -216,5 +216,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick kick 2026-09-25. Court count listed as 8 on Padel Lands — not asserted. Distinct from EGY-VEN-008 Padel Up Nasr City. Operator also lists New Maadi HQ address on Wansport; this seed is the Katameya Heights venue."
+  },
+  {
+    "recordId": "EGY-VEN-010",
+    "name": "Padel Station Alexandria",
+    "city": "Alexandria",
+    "region": "Alexandria",
+    "countryCode": "EG",
+    "line1": "Abis, Moharam Bek",
+    "lat": 31.1468283,
+    "lng": 30.0071046,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Abis neighbourhood pin — Moharam Bek street lot not rooftop-geocoded",
+    "phone": "+20 11 5324 0059",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed on Actu card; call ahead to confirm booking.",
+    "description": "Padel Station Alexandria is an Abis / Moharam Bek padel club with a published phone on Actu Padel. A clear Alexandria recommendation when you want courts beyond WePadel Complex, Smouha, Green Plaza, and Alex Padel samples. Call ahead to reserve.",
+    "primarySourceUrl": "https://actu-padel.com/en/directory/padel-club/padel-station-alexandria/",
+    "secondarySourceUrl": "https://actu-padel.com/directory/padel-club/padel-station-alexandria/",
+    "sourceTypes": "Actu Padel Padel Station Alexandria card (Abis Moharam Bek + phone)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 4 doubles + 1 singles on Actu — not asserted. Distinct from EGY-VEN-001–004 Alexandria sample."
   }
 ]

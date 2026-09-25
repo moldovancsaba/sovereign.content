@@ -968,3 +968,62 @@
 {"at": "2026-09-25T21:41:04.000Z", "type": "candidate_triage", "candidateId": "fair-actu-padel-padel-kick-off", "status": "skipped_duplicate", "note": "Already seeded MAR-VEN-017 Kick Off Marrakech (Targa) — Actu duplicate lead"}
 {"at": "2026-09-25T21:41:04.000Z", "type": "candidate_triage", "candidateId": "fair-padelivu-padelprix-tenis-5-leon", "status": "rejected", "note": "OOS Spain (León) — Padelprix Tenis 5 León outside Africa catalog"}
 {"at": "2026-09-25T21:41:04.000Z", "type": "candidate_triage", "candidateId": "fair-padelusa-rgv-padel-club", "status": "rejected", "note": "OOS USA (McAllen TX) — RGV Padel Club outside Africa catalog"}
+{"at":"2026-09-25T22:05:29.210Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/padel-courts-in-other-countries/"}
+{"at":"2026-09-25T22:05:29.763Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/padel-courts-in-other-countries/","harvested":0}
+{"at":"2026-09-25T22:06:14.779Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery","url":"https://www.analistaspadel.com/padel-en-africa/"}
+{"at":"2026-09-25T22:06:15.529Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/padel-en-africa/","harvested":0}
+{"at":"2026-09-25T22:07:00.545Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/"}
+{"at":"2026-09-25T22:07:00.593Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery_harvest","url":"https://www.padelwithoutborders.com/","harvested":0}
+{"at":"2026-09-25T22:07:45.609Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/senegal/"}
+{"at":"2026-09-25T22:07:45.792Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/senegal/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-25T22:08:30.808Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"detail","url":"https://playtomic.com/clubs/padel-berlin-ostkreuz"}
+{"at":"2026-09-25T22:08:31.336Z","type":"fair_use_seed","sourceId":"playtomic","mode":"detail","url":"https://playtomic.com/clubs/padel-berlin-ostkreuz","candidateId":"fair-playtomic-book-a-court-in-padel-berlin-ostkreuz","reasonCode":"seeded"}
+{"at":"2026-09-25T22:09:16.353Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
+{"at":"2026-09-25T22:09:16.989Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-09-25T22:10:02.000Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery","url":"https://padel.co.ma/annuaire-des-clubs/"}
+{"at":"2026-09-25T22:10:02.606Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}
+{"at":"2026-09-25T22:10:47.623Z","type":"fair_use_attempt","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-plaza-ain-attig-en/"}
+{"at":"2026-09-25T22:10:50.201Z","type":"fair_use_seed","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-plaza-ain-attig/","candidateId":"fair-actu-padel-padel-plaza","reasonCode":"seeded"}
+{"at":"2026-09-25T22:11:35.219Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-in-kenya/"}
+{"at":"2026-09-25T22:11:35.879Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-kenya/","harvested":0}
+{"at":"2026-09-25T22:12:20.884Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/"}
+{"at":"2026-09-25T22:12:21.045Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery_harvest","url":"https://findapadelcourt.co.za/","harvested":0}
+{"at":"2026-09-25T22:13:06.058Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery","url":"https://www.africapadel.com/"}
+{"at":"2026-09-25T22:13:06.453Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}
+{"at":"2026-09-25T22:13:51.469Z","type":"fair_use_attempt","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/los-naranjos-padel-club"}
+{"at":"2026-09-25T22:13:51.986Z","type":"fair_use_seed","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/los-naranjos-padel-club","candidateId":"fair-padelivu-los-naranjos-padel-club","reasonCode":"seeded"}
+{"at":"2026-09-25T22:14:37.002Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/united-arab-emirates"}
+{"at":"2026-09-25T22:14:37.083Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery_harvest","url":"https://padelmap.net/courts/united-arab-emirates","harvested":0}
+{"at":"2026-09-25T22:15:22.098Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery","url":"https://padel.llc/"}
+{"at":"2026-09-25T22:15:22.409Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery_harvest","url":"https://padel.llc/","harvested":0}
+{"at":"2026-09-25T22:16:07.425Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery","url":"https://need4padel.com/"}
+{"at":"2026-09-25T22:16:07.514Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery_harvest","url":"https://need4padel.com/","harvested":0}
+{"at":"2026-09-25T22:16:52.529Z","type":"fair_use_attempt","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/padel-businesses/"}
+{"at":"2026-09-25T22:16:55.091Z","type":"fair_use_reject","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/padel-businesses/","status":200,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-25T22:17:40.109Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery","url":"https://padelsearch.info/web"}
+{"at":"2026-09-25T22:17:40.899Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery_harvest","url":"https://padelsearch.info/web","harvested":0}
+{"at":"2026-09-25T22:18:25.904Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery","url":"https://www.padel-magazine.co.uk/category/padel-tournaments/padel-agenda/"}
+{"at":"2026-09-25T22:18:55.904Z","type":"fair_use_reject","sourceId":"padel-magazine-uk","mode":"discovery","url":"https://www.padel-magazine.co.uk/category/padel-tournaments/padel-agenda/","reasonCode":"fetch_error","error":"The operation was aborted due to timeout"}
+{"at":"2026-09-25T22:19:40.946Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery","url":"https://padelmagazine.fr/annuaires/"}
+{"at":"2026-09-25T22:19:41.562Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery_harvest","url":"https://padelmagazine.fr/annuaires/","harvested":0}
+{"at":"2026-09-25T22:23:31.817Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery","url":"https://www.padelfip.com/"}
+{"at":"2026-09-25T22:23:32.120Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery_harvest","url":"https://www.padelfip.com/","harvested":0}
+{"at":"2026-09-25T22:24:17.135Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery","url":"https://premierpadel.com/en/home-page"}
+{"at":"2026-09-25T22:24:17.653Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/en/home-page","harvested":0}
+{"at":"2026-09-25T22:25:02.669Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery","url":"https://www.thepadeldirectory.co.uk/"}
+{"at":"2026-09-25T22:25:02.801Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery_harvest","url":"https://www.thepadeldirectory.co.uk/","harvested":0}
+{"at":"2026-09-25T22:25:47.814Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery","url":"https://www.matchi.se/"}
+{"at":"2026-09-25T22:25:48.188Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery_harvest","url":"https://www.matchi.se/","harvested":0}
+{"at":"2026-09-25T22:26:33.204Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery","url":"https://www.anybuddyapp.com/"}
+{"at":"2026-09-25T22:26:33.972Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery_harvest","url":"https://www.anybuddyapp.com/","harvested":0}
+{"at":"2026-09-25T22:27:18.979Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery","url":"https://padelusa.org/"}
+{"at":"2026-09-25T22:27:20.721Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery_harvest","url":"https://padelusa.org/","harvested":2}
+{"at":"2026-09-25T22:28:05.737Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery","url":"https://www.padelbrowser.com/"}
+{"at":"2026-09-25T22:28:05.895Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery_harvest","url":"https://www.padelbrowser.com/","harvested":0}
+{"at":"2026-09-25T22:28:50.911Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery","url":"https://www.bounce.game/"}
+{"at":"2026-09-25T22:28:51.008Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery_harvest","url":"https://www.bounce.game/","harvested":0}
+{"at":"2026-09-25T22:29:36.024Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery","url":"https://www.totalpadel.com/"}
+{"at":"2026-09-25T22:29:37.498Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery_harvest","url":"https://www.totalpadel.com/","harvested":0}
+{"at": "2026-09-25T22:30:46.000Z", "type": "candidate_triage", "candidateId": "fair-playtomic-book-a-court-in-padel-berlin-ostkreuz", "status": "rejected", "note": "OOS Germany (Berlin Ostkreuz) — Playtomic club outside Africa catalog"}
+{"at": "2026-09-25T22:30:46.000Z", "type": "candidate_triage", "candidateId": "fair-padelivu-los-naranjos-padel-club", "status": "rejected", "note": "OOS Spain — Los Naranjos Padel Club outside Africa catalog"}
+{"at": "2026-09-25T22:30:46.000Z", "type": "candidate_triage", "candidateId": "fair-actu-padel-padel-plaza", "status": "promoted", "note": "Verified Morocco venue — Padel Plaza Ain Attig/Temara Lot 21 ZK2; phone +212 662-202000; seeded MAR-VEN-019"}

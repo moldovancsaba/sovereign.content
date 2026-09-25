@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T21:30:00Z",
+  "updatedAt": "2026-09-25T22:30:46.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -1111,6 +1111,63 @@
       "query": "Padel Zone Mall of Africa deepen",
       "outcome": "zero-result",
       "note": "MWI-VEN-003 already seeded; no additional Blantyre club with phone"
+    },
+    {
+      "at": "2026-09-25T22:25:00Z",
+      "cc": "TZ",
+      "city": "Dar es Salaam",
+      "query": "EARSC Gymkhana Ghana Avenue",
+      "outcome": "verified",
+      "recordId": "TZA-VEN-005"
+    },
+    {
+      "at": "2026-09-25T22:25:00Z",
+      "cc": "TZ",
+      "city": "Kiwengwa",
+      "query": "Zanzibar Padel Cairo Main Road",
+      "outcome": "verified",
+      "recordId": "TZA-VEN-006"
+    },
+    {
+      "at": "2026-09-25T22:25:00Z",
+      "cc": "GH",
+      "city": "Accra",
+      "query": "Smac Sports Center Casa Trasacco",
+      "outcome": "verified",
+      "recordId": "GHA-VEN-006"
+    },
+    {
+      "at": "2026-09-25T22:25:00Z",
+      "cc": "EG",
+      "city": "Alexandria",
+      "query": "Padel Station Abis Moharam Bek",
+      "outcome": "verified",
+      "recordId": "EGY-VEN-010"
+    },
+    {
+      "at": "2026-09-25T22:25:00Z",
+      "cc": "CM",
+      "city": "Yaound\u00e9",
+      "query": "Elite Padel Yaounde street address",
+      "outcome": "zero-result",
+      "note": "Phone only on Padel Lands \u2014 no street-level address within tick"
+    },
+    {
+      "at": "2026-09-25T22:25:00Z",
+      "cc": "SN",
+      "city": "Cap Skirring",
+      "query": "Attika Padel Club phone",
+      "outcome": "zero-result",
+      "note": "Press coverage confirmed complex but no published club phone"
+    },
+    {
+      "at": "2026-09-25T22:30:46.000Z",
+      "cc": "MA",
+      "city": "A\u00efn Attig",
+      "query": "Padel Plaza Ain Attig Temara",
+      "outcome": "verified",
+      "recordId": "MAR-VEN-019",
+      "note": "fair-use promote"
     }
   ]
 }

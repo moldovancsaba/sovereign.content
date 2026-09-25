@@ -1182,5 +1182,63 @@
     "note": "OOS USA (McAllen TX) — RGV Padel Club outside Africa catalog",
     "triagedAt": "2026-09-25T21:41:04.000Z",
     "rejectedAt": "2026-09-25T21:41:04.000Z"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-padel-berlin-ostkreuz",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPadel Berlin Ostkreuz",
+    "citationUrl": "https://playtomic.com/clubs/padel-berlin-ostkreuz",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/padel-berlin-ostkreuz",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T22:08:31.333Z",
+    "note": "OOS Germany (Berlin Ostkreuz) — Playtomic club outside Africa catalog",
+    "triagedAt": "2026-09-25T22:30:46.000Z",
+    "rejectedAt": "2026-09-25T22:30:46.000Z"
+  },
+  {
+    "candidateId": "fair-actu-padel-padel-plaza",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Padel Plaza",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-plaza-ain-attig/",
+    "website": "https://padelplaza.ma/",
+    "cityHint": "Rabat",
+    "countryHint": "Morocco",
+    "addressHint": "Lot 21, Lotissement ZK2 Developpement, Rabat 12000, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-plaza-ain-attig/",
+      "https://padelplaza.ma/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T22:10:50.200Z",
+    "note": "Verified Morocco venue — Padel Plaza Ain Attig/Temara Lot 21 ZK2; phone +212 662-202000; seeded MAR-VEN-019",
+    "triagedAt": "2026-09-25T22:30:46.000Z",
+    "promotedAt": "2026-09-25T22:30:46.000Z",
+    "recordId": "MAR-VEN-019"
+  },
+  {
+    "candidateId": "fair-padelivu-los-naranjos-padel-club",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Los Naranjos Padel Club",
+    "citationUrl": "https://padelivu.com/club/los-naranjos-padel-club",
+    "website": "",
+    "addressHint": "Avenida Valle Inclán, 41 , Nueva Andalucia, 29660, Marbella, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/los-naranjos-padel-club"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T22:13:51.985Z",
+    "note": "OOS Spain — Los Naranjos Padel Club outside Africa catalog",
+    "triagedAt": "2026-09-25T22:30:46.000Z",
+    "rejectedAt": "2026-09-25T22:30:46.000Z"
   }
 ]

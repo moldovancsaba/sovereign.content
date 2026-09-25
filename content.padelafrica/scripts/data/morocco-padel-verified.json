@@ -445,5 +445,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 fair-use promote. Court count listed as 2 — not asserted. Distinct from MAR-VEN-007 TCMT Padel."
+  },
+  {
+    "recordId": "MAR-VEN-019",
+    "name": "Padel Plaza",
+    "city": "Aïn Attig",
+    "region": "Rabat-Salé-Kénitra",
+    "countryCode": "MA",
+    "line1": "Lot 21, Lotissement ZK2 Développement, Temara / Aïn Attig",
+    "lat": 33.8898576,
+    "lng": -6.9678655,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Aïn Attig town pin — Lotissement ZK2 lot not rooftop-geocoded",
+    "website": "https://padellife.style/padel/clubs/padel-plaza/",
+    "phone": "+212 662-202000",
+    "venueModel": "outdoors",
+    "seasonNote": "Hours not listed on directory cards; call ahead.",
+    "description": "Padel Plaza is an Aïn Attig / Temara padel club at Lotissement ZK2 with a published phone on Padel Maroc and Padel Life Style. A clear Rabat-region recommendation when you want Temara courts beyond Club Wifaq, Club Narjisse, and Club Riad Rabat samples. Call ahead to reserve.",
+    "primarySourceUrl": "https://actu-padel.com/en/directory/padel-club/padel-plaza-ain-attig/",
+    "secondarySourceUrl": "https://padel.co.ma/annuaire-des-clubs/",
+    "sourceTypes": "Actu Padel Padel Plaza Ain Attig card; Padel Maroc annuaire (Ain Atiq Temara + phone); Padel Life Style club card (Lot 21 ZK2 + phone)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 fair-use promote. Court count listed as 3 — not asserted. Distinct from Rabat MAR-VEN-003/013/015."
   }
 ]
