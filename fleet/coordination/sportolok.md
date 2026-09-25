@@ -17,11 +17,11 @@
 - [ ] **Stop commits** to `management` `release/sportolok` for agent/docs chores
 - [x] Pick **one** quarantined call site → `executorIngest.ts` shipped (SC-central); client must prove dry PATCH
 - [x] Prove dry + **live** PATCH via `catalog:executor-ingest` on real listing
-- [ ] Clean `_test_patch` pollution on `l-disc-10fdfb6e8912e955`
+- [x] Clean `_test_patch` pollution on `l-disc-10fdfb6e8912e955` (ingest null + real About enrich)
 - [ ] Wire real catalog jobs to `executorIngest` (no junk fields)
 - [x] Emit first inbox status (client) + QA-aligned `status-2026-09-25.json` (SC-central)
 - [ ] Agent code/docs only on `sovereign.content/content.sportolok/` `main`
-- [ ] Fair-use: commit `data/find-seeds.json` + source state after live pass (or retract claim)
+- [x] Fair-use: commit `data/find-seeds.json` + source state after live pass
 
 ## Open checklist (client)
 
