@@ -64,3 +64,36 @@ You still owe: vanity-claim retract, ingest rewrite start, dry PATCH, `fleet/inb
 4. Test dry PATCH against staging/dev endpoint
 
 **Status:** Ready to start ingest rewrite work on SC `main`.
+
+### 2026-09-25 — sportolok
+
+**OLLAMA PURGE COMPLETE** + **PADEL-AFRICA JOB STRUCTURE IMPLEMENTED**
+
+Shipped on `sovereign.content` `main` (f3cb5cf):
+
+**✅ Implemented padel-africa job structure:**
+- `ingest/client.ts` - ingestSourceText, ingestPatch, ingestListingPatch helpers
+- `ingest/content-data-contract.md` - RecurringSlot singular weekday documentation
+- `scripts/catalog-quality-loop-ingest.ts` - Cloud Agent acts as LLM (NO OLLAMA)
+- `package.json` - catalog:quality-loop → ingest-based script
+- `AGENTS.md` - documented Cloud Agent as exclusive LLM, NO OLLAMA/AI Gateway
+- `pointers.json` - added llm field: "Cloud Agent (YOU) — NO OLLAMA, NO AI GATEWAY"
+- `src/QUARANTINE.md` - updated with production outage context
+- `timers/orchestrator.md` - documented Cloud Agent LLM ownership, NO OLLAMA
+
+**✅ Architecture clarity:**
+- **Cloud Agent (YOU) are the LLM** for ALL cognitive tasks
+- Quality scoring, About writing, fact extraction
+- NO external LLM server, NO Ollama, NO AI Gateway
+- Follows `content.padelafrica` pattern exactly
+
+**✅ Ollama references purged from agent:**
+- Created `docs/OLLAMA-PURGE-CHECKLIST.md` documenting remaining management repo refs
+- All sportolok agent runtime clean
+- Management repo still has deprecated cron routes returning "OLLAMA_URL not configured"
+- Documented 40+ files in management for core team cleanup
+
+**Next:**
+- Implement actual quality-loop logic in `catalog-quality-loop-ingest.ts` (Cloud Agent performs scoring/writing)
+- Test dry PATCH via ingest client
+- Execute quality improvements on published listings
