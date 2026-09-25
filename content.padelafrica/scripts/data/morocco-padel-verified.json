@@ -249,5 +249,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Fes deepen. Secondary landline +212 535 65 58 36 (Petit Futé) and RTCF mobiles also listed — primary Padel Maroc mobile retained. Court count from directory not asserted in description."
+  },
+  {
+    "recordId": "MAR-VEN-011",
+    "name": "Centre Sports et Loisirs Said Maatallah",
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "countryCode": "MA",
+    "line1": "Résidence Dior Atlas, Mhamid Sud",
+    "lat": 31.5887403,
+    "lng": -8.0551998,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Mhamid Marrakech locality pin — Résidence Dior Atlas lot not rooftop-geocoded",
+    "website": "https://cslsm.com/",
+    "phone": "+212 524 20 20 20",
+    "email": "cslsmaatallah@gmail.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 07:00–00:00 (club site).",
+    "description": "Centre Sports et Loisirs Said Maatallah is a multi-sport complex in Mhamid Sud / Résidence Dior Atlas with a padel court, published phone and email, and long daily hours. A clear recommendation when you want Marrakech padel beyond Padel Square and Atlas Tennis sample clubs. Call ahead to reserve.",
+    "primarySourceUrl": "https://cslsm.com/",
+    "secondarySourceUrl": "https://actu-padel.com/directory/padel-club/padel-loisirs-said-maatallah-marrakesh/",
+    "sourceTypes": "CSLSM official site (address+phones+email+hours+padel offer); Actu Padel club card",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "Fair-use tick 2026-09-25 — candidate fair-actu-padel-centre-sports-et-loisirs-said-maatallah promoted. Secondary mobile +212 661 55 14 15 also listed. Court count from Actu (1) not asserted. Geo is locality estimate for Mhamid Sud — refine later."
   }
 ]

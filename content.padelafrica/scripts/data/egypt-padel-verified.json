@@ -166,5 +166,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-24",
     "researchNotes": "FIND until-found tick 2026-09-24 (EG Sharm El Sheikh deepen_large). Tel from contact page +20 69 3601610-9 normalized to +20 69 3601610."
+  },
+  {
+    "recordId": "EGY-VEN-008",
+    "name": "Padel Up",
+    "city": "Cairo",
+    "region": "Cairo",
+    "countryCode": "EG",
+    "line1": "Elwafaa we Alaml, Nasr City",
+    "lat": 30.0521177,
+    "lng": 31.3422045,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Nasr City Cairo locality pin — Elwafaa we Alaml street not rooftop-geocoded",
+    "website": "https://padelup.co/",
+    "phone": "+20 101 100 1615",
+    "email": "info@padelup.co",
+    "venueModel": "own_premises",
+    "seasonNote": "Sun–Sat 09:00–00:00 (club site); office hours listed separately on contact page.",
+    "description": "Padel Up is a Nasr City Cairo padel club on Elwafaa we Alaml with published phone and email on the operator site. A clear recommendation when you want Greater Cairo padel beyond Alexandria and Giza sample clubs. Call or email ahead to book.",
+    "primarySourceUrl": "https://padelup.co/contact-1/",
+    "secondarySourceUrl": "https://padelup.co/",
+    "sourceTypes": "Padel Up contact page (Nasr City address+phone+email); operator homepage hours",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Cairo deepen. Court count not asserted."
   }
 ]

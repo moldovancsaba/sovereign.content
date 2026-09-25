@@ -246,5 +246,95 @@
     "extractedAt": "2026-09-25T07:30:38.432Z",
     "rejectedAt": "2026-09-25T07:34:30.000Z",
     "note": "Junk lead — generic finder page, no club identity"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-pdl-zurich",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPDL Zurich",
+    "citationUrl": "https://playtomic.com/clubs/pdl-zurich",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/pdl-zurich",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T08:18:59.889Z",
+    "rejectedAt": "2026-09-25T08:28:00.000Z",
+    "note": "Out of scope — Zurich/Europe Playtomic club"
+  },
+  {
+    "candidateId": "fair-actu-padel-centre-sports-et-loisirs-said-maatallah",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "CENTRE SPORTS ET LOISIRS SAID MAATALLAH",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-loisirs-said-maatallah-marrakesh/",
+    "website": "https://cslsm.com/",
+    "cityHint": "Marrakech",
+    "countryHint": "Morocco",
+    "addressHint": "Projet dior atlas M&rsquo;hamid, Marrakech 40000, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-loisirs-said-maatallah-marrakesh/",
+      "https://cslsm.com/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T08:21:19.280Z",
+    "promotedRecordId": "MAR-VEN-011",
+    "promotedCardId": "research-mar-ven-011",
+    "promotedAt": "2026-09-25T08:28:00.000Z"
+  },
+  {
+    "candidateId": "fair-padel-magazine-uk-for-sale-two-padel-clubs-in-mauritius-starting-from-330000-euros",
+    "sourceId": "padel-magazine-uk",
+    "sourceName": "Padel Magazine (UK) club directory",
+    "name": "For sale: two padel clubs in Mauritius, starting from 330,000 euros",
+    "citationUrl": "https://www.padel-magazine.co.uk/Two-padel-clubs-for-sale-in-Mauritius--starting-from-330-000-euros/",
+    "website": "https://padelmagazine.jp.net/a-vendre-deux-clubs-de-padel-a-lile-maurice-a-partir-de-330-000-euros/",
+    "countryHint": "Mauritius",
+    "researchSources": [
+      "https://www.padel-magazine.co.uk/Two-padel-clubs-for-sale-in-Mauritius--starting-from-330-000-euros/",
+      "https://padelmagazine.jp.net/a-vendre-deux-clubs-de-padel-a-lile-maurice-a-partir-de-330-000-euros/"
+    ],
+    "researchNote": "Discovered via Padel Magazine (UK) club directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T08:28:53.308Z",
+    "rejectedAt": "2026-09-25T08:38:00.000Z",
+    "note": "Junk — sales listing article, not an operating-club seed"
+  },
+  {
+    "candidateId": "fair-thepadeldirectory-volt-padel-club",
+    "sourceId": "thepadeldirectory",
+    "sourceName": "The Padel Directory",
+    "name": "Volt Padel Club",
+    "citationUrl": "https://www.thepadeldirectory.co.uk/padel-centres/volt-padel-club",
+    "website": "https://padel-mates-widget-prod.netlify.app/css/styles.css",
+    "researchSources": [
+      "https://www.thepadeldirectory.co.uk/padel-centres/volt-padel-club",
+      "https://padel-mates-widget-prod.netlify.app/css/styles.css"
+    ],
+    "researchNote": "Discovered via The Padel Directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T08:31:55.091Z",
+    "rejectedAt": "2026-09-25T08:38:00.000Z",
+    "note": "Out of scope — Bolton/UK club"
+  },
+  {
+    "candidateId": "fair-padelusa-point-padel-club",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "Point Padel Club",
+    "citationUrl": "https://padelusa.org/clubs/texas/mission/point-padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/texas/mission/point-padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T08:34:12.517Z",
+    "rejectedAt": "2026-09-25T08:38:00.000Z",
+    "note": "Out of scope — USA (padelusa source) club"
   }
 ]

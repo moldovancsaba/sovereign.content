@@ -147,5 +147,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-24",
     "researchNotes": "FIND until-found deepen_large tick 2026-09-24 (Stellenbosch). Fixture-only pending ingest. Phone +27 72 758 3239 / stellies@clubpadel.co.za from clubpadel.co.za/contact. Court count from marketing copy not asserted in description."
+  },
+  {
+    "recordId": "ZAF-VEN-007",
+    "name": "Aura Padel Club Montague Gardens",
+    "city": "Cape Town",
+    "region": "Western Cape",
+    "countryCode": "ZA",
+    "line1": "1 Ludel Close, Montague Gardens",
+    "lat": -33.8597475,
+    "lng": 18.5133597,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Ludel Close Montague Gardens / Milnerton pin — club lot not rooftop-geocoded",
+    "website": "https://www.aurapadel.co.za/",
+    "phone": "+27 60 685 9289",
+    "email": "info@aurapadel.co.za",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours to confirm on booking / Aura app.",
+    "description": "Aura Padel Club Montague Gardens is a premium indoor Cape Town padel club at 1 Ludel Close with published phone and email on the operator site. A clear recommendation when you want Cape Town padel beyond Africa Padel Camps Bay and Claremont sample clubs. Book ahead via the club site or Aura app.",
+    "primarySourceUrl": "https://www.aurapadel.co.za/",
+    "secondarySourceUrl": "https://www.aurapadel.co.za/",
+    "sourceTypes": "Aura Padel Club official site (Montague Gardens address+phone+email; Woodstock second site listed separately)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Cape Town deepen. Woodstock site (165A Newmarket) not seeded this pass. Court count from site not asserted in description."
   }
 ]

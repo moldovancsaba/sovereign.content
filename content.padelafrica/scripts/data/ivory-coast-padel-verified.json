@@ -44,5 +44,29 @@
     "sourceTypes": "WePadel Abidjan App Store listing",
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-22"
+  },
+  {
+    "recordId": "CIV-VEN-003",
+    "name": "Padel Magic Club",
+    "city": "Abidjan",
+    "region": "Abidjan",
+    "countryCode": "CI",
+    "line1": "Central Tennis Club, Cocody",
+    "lat": 5.357367,
+    "lng": -3.994934,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Cocody Abidjan locality pin — Central Tennis Club lot not rooftop-geocoded",
+    "website": "https://padelmagic.club/",
+    "phone": "+225 07 67 076 755",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 06:00–23:00 (club site).",
+    "description": "Padel Magic Club is an outdoor padel venue at Central Tennis Club in Cocody, Abidjan, with a published club phone and FIP tournament venue corroboration. A clear recommendation when you want Abidjan padel beyond Padelta and WePadel Marcory sample clubs. Call ahead to reserve.",
+    "primarySourceUrl": "https://padelmagic.club/",
+    "secondarySourceUrl": "https://www.padelfip.com/events/fip-silver-ivory-coast-ii-2025/",
+    "sourceTypes": "Padel Magic Club site (phone+hours); FIP Silver Ivory Coast venue card (Central Tennis Club Cocody address)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Abidjan deepen. Court count from operator page not asserted in description."
   }
 ]

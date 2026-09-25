@@ -513,6 +513,54 @@
       "at": "2026-09-25T07:20:00.000Z",
       "outcome": "zero-result",
       "note": "Pinnacle membership padel mention only; no public phone/address beyond Bounce Kiyovu sample"
+    },
+    {
+      "cc": "ZA",
+      "city": "Cape Town",
+      "at": "2026-09-25T08:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "ZAF-VEN-007",
+      "note": "FIND deepen Aura Padel Club Montague Gardens ingest"
+    },
+    {
+      "cc": "EG",
+      "city": "Cairo",
+      "at": "2026-09-25T08:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "EGY-VEN-008",
+      "note": "FIND deepen Padel Up Nasr City ingest"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan",
+      "at": "2026-09-25T08:20:00.000Z",
+      "outcome": "seeded",
+      "recordId": "CIV-VEN-003",
+      "note": "FIND deepen Padel Magic Club Central Tennis Club Cocody ingest"
+    },
+    {
+      "cc": "MA",
+      "city": "Marrakech",
+      "at": "2026-09-25T08:28:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-011",
+      "note": "fair-use promote CSL Said Maatallah Mhamid ingest"
+    },
+    {
+      "cc": "TN",
+      "city": "Sfax",
+      "at": "2026-09-25T08:28:00.000Z",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-005",
+      "note": "FIND deepen Sfax Padel Indoor ingest"
+    },
+    {
+      "cc": "BW",
+      "city": "Gaborone",
+      "at": "2026-09-25T08:28:00.000Z",
+      "outcome": "seeded",
+      "recordId": "BWA-VEN-002",
+      "note": "FIND deepen 10by20 Fields Mall; District 267 pre-opening rejected"
     }
   ]
 }

@@ -267,3 +267,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.
 
+
+### 2026-09-25 — padelafrica (tick ~08:38 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 11. Promoted **`MAR-VEN-011` CSL Said Maatallah** (Mhamid Sud) → ingest DISCOVERED. Rejected Zurich Playtomic, Volt Bolton (UK), Point Padel (US), Mauritius sales-listing article.
+
+**FIND:**
+- ZA Cape Town → **`ZAF-VEN-007` Aura Padel Club Montague Gardens** DISCOVERED
+- EG Cairo → **`EGY-VEN-008` Padel Up** (Nasr City) DISCOVERED
+- CI Abidjan → **`CIV-VEN-003` Padel Magic Club** (Central Tennis Club Cocody) DISCOVERED
+- TN Sfax → **`TUN-VEN-005` Sfax Padel Indoor** DISCOVERED
+- BW Gaborone → **`BWA-VEN-002` 10by20 Fields Mall** DISCOVERED (District 267 pre-opening skipped)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED / migration complete.
+

@@ -1,0 +1,35 @@
+{
+  "appliedAt": "2026-09-25T08:17:31.125Z",
+  "results": [
+    {
+      "recordId": "ZAF-VEN-007",
+      "id": "research-zaf-ven-007",
+      "ok": true,
+      "res": {
+        "cardId": "research-zaf-ven-007",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-008",
+      "id": "research-egy-ven-008",
+      "ok": true,
+      "res": {
+        "cardId": "research-egy-ven-008",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-003",
+      "id": "research-civ-ven-003",
+      "ok": true,
+      "res": {
+        "cardId": "research-civ-ven-003",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}

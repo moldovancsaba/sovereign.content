@@ -23,5 +23,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-23",
     "researchNotes": "First Botswana research seed — country had zero published listings before this pass"
+  },
+  {
+    "recordId": "BWA-VEN-002",
+    "name": "10by20 Padel Club Fields Mall",
+    "city": "Gaborone",
+    "region": "South-East",
+    "countryCode": "BW",
+    "line1": "Shop 125, The Fields Mall, corner Molepolole Road and West Avenue",
+    "lat": -24.6553422,
+    "lng": 25.9054861,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "The Fields Mall CBD pin — shop unit not rooftop-geocoded",
+    "website": "https://book.xsports.co.bw/programs?facility_id=709",
+    "phone": "",
+    "email": "",
+    "venueModel": "own_premises",
+    "seasonNote": "Book via Centre Court app / xSports.",
+    "description": "10by20 Padel Club at The Fields Mall (First Capital Bank Sports Village) is a bookable Gaborone padel venue with a published mall address and online court booking. A clear recommendation when you want Gaborone padel beyond Gamecity on Western Bypass. Book ahead via the Centre Court app.",
+    "primarySourceUrl": "https://book.xsports.co.bw/programs?facility_id=709",
+    "secondarySourceUrl": "https://fantasticmoments.co.bw/sports/10by20-botswana-expands-with-another-padel-club-location-at-fnb-world-of-golf/",
+    "sourceTypes": "xSports Fields Mall facility booking page (Shop 125 address); Fantastic Moments / Padel Tonic expansion coverage",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Gaborone deepen. District 267 rejected as Q4 2026 pre-opening investor page. Phone not published on booking page — booking URL satisfies evidence bar. Court count not asserted."
   }
 ]

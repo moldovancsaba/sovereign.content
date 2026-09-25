@@ -10,6 +10,10 @@ South Africa has a very large market (70+ clubs). This is a **curated sample**.
 | `research-zaf-ven-001` | Africa Padel Camps Bay | Camps Bay, Cape Town |
 | `research-zaf-ven-002` | Africa Padel Claremont | Claremont, Cape Town |
 | `research-zaf-ven-003` | Discovery Padel Park Sandton | Sandhurst, Sandton |
+| `research-zaf-ven-004` | PadelNation Durban Country Club | Durban |
+| `research-zaf-ven-005` | The Net Social Club | Pretoria |
+| `research-zaf-ven-006` | ClubPadel Stellenbosch | Stellenbosch |
+| `research-zaf-ven-007` | Aura Padel Club Montague Gardens | Cape Town |
 | `osm-way-1266919001` | Africa Padel V&A (already live; enrich) | Portswood Road, Cape Town |
 
 ```bash

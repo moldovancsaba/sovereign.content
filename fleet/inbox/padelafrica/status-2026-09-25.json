@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T07:35:00Z",
+  "observedAt": "2026-09-25T08:38:30Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,46 +14,59 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 10,
+    "fairUsePassCount": 11,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
-    "fairUseSeededCandidates": 0,
-    "fairUseRejected": 5,
+    "fairUseSeededCandidates": 1,
+    "fairUseRejected": 4,
     "fairUsePendingNeedsVerify": 0,
-    "findSeededFixture": 3,
-    "findLiveIngestApply": 3,
-    "findZeroResultsThisTick": [
-      {
-        "cc": "RW",
-        "city": "Kigali"
-      }
-    ],
+    "findSeededFixture": 5,
+    "findLiveIngestApply": 6,
+    "findZeroResultsThisTick": [],
     "ingestCardsCreated": [
       {
-        "recordId": "MAR-VEN-010",
-        "cardId": "research-mar-ven-010",
+        "recordId": "ZAF-VEN-007",
+        "cardId": "research-zaf-ven-007",
         "state": "DISCOVERED",
-        "name": "Fes Country Club"
+        "name": "Aura Padel Club Montague Gardens"
       },
       {
-        "recordId": "TUN-VEN-004",
-        "cardId": "research-tun-ven-004",
+        "recordId": "EGY-VEN-008",
+        "cardId": "research-egy-ven-008",
         "state": "DISCOVERED",
-        "name": "Padel Hammamet"
+        "name": "Padel Up"
       },
       {
-        "recordId": "NAM-VEN-002",
-        "cardId": "research-nam-ven-002",
+        "recordId": "CIV-VEN-003",
+        "cardId": "research-civ-ven-003",
         "state": "DISCOVERED",
-        "name": "United Padel Namibia"
+        "name": "Padel Magic Club"
+      },
+      {
+        "recordId": "MAR-VEN-011",
+        "cardId": "research-mar-ven-011",
+        "state": "DISCOVERED",
+        "name": "Centre Sports et Loisirs Said Maatallah"
+      },
+      {
+        "recordId": "TUN-VEN-005",
+        "cardId": "research-tun-ven-005",
+        "state": "DISCOVERED",
+        "name": "Sfax Padel Indoor"
+      },
+      {
+        "recordId": "BWA-VEN-002",
+        "cardId": "research-bwa-ven-002",
+        "state": "DISCOVERED",
+        "name": "10by20 Padel Club Fields Mall"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~07:11\u201307:35: quality stub; fair-use pass 10 (5 OOS/junk rejected, 0 promote); FIND Fes/Hammamet/Windhoek \u2192 3 DISCOVERED; Kigali zero. Not claiming PUBLISHED."
+    "note": "Tick ~08:15\u201308:38: quality stub; fair-use pass 11 promoted CSL Said Maatallah \u2192 MAR-VEN-011; FIND Cape Town/Cairo/Abidjan/Sfax/Gaborone \u2192 5 more DISCOVERED. Rejected Zurich/UK/US/sales-listing junk. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",
