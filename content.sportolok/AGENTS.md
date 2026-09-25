@@ -1,34 +1,73 @@
-# content.sportolok — sovereign content agent
+# content.sportolok — Sportolok agent home
 
-**Owner:** content-agent team  
-**Repo:** `moldovancsaba/sovereign.content` → this folder  
+**Folder:** `content.sportolok/` only  
+**Owner chat:** **Sportolok Cloud Agent**  
+**Repo touch surface:** `moldovancsaba/sovereign.content` → **`content.sportolok/`** (+ optional `fleet/inbox/sportolok/` status JSON)  
 **Live app:** `sport.doneisbetter.com` (`moldovancsaba/management`, vertical `sportolok`)
+
+**Fleet SSOT (read-only):** [`fleet/RULES.md`](../fleet/RULES.md) · [`fleet/CLIENT-COMPARISON.md`](../fleet/CLIENT-COMPARISON.md)
+
+## Scope (binding)
+
+Sportolok **only**. No SC-central / fleet SWOT ownership / sibling `content.*` edits.
+
+| In scope | Out of scope |
+| --- | --- |
+| Agent playbooks, timers, ingest helpers, migrated runners under this folder | `content.padelafrica/`, `content.classscout/`, site root, `fleet/` (except inbox snapshots) |
+| Slim `fleet/inbox/sportolok/status-*.json` | Owning `fleet:daily-swot` or cross-client comparisons |
+| Management **engine** fixes via PR to **`main`** only | Committing agent runtimes onto `release/sportolok` |
+
+## Doctrine vs reality (writes) — corrected 2026-09-24
+
+| Column | Truth |
+| --- | --- |
+| **Doctrine** | `POST /api/ingest` via [`ingest/client.ts`](./ingest/client.ts) |
+| **Forbidden** | Direct Mongo / new management routes-libs-crons / "Mongo-only quality-loop" |
+| **Migrated copy** | Former management agent code lives under [`src/`](./src/) + [`scripts/`](./scripts/) — **[`src/QUARANTINE.md`](./src/QUARANTINE.md)** |
+| **Core reconcile** | [`MIGRATION-FROM-MANAGEMENT.md`](./MIGRATION-FROM-MANAGEMENT.md) · [`SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md`](./SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md) |
+| **LLM** | **Cloud Agent (YOU)** — NO OLLAMA, NO AI GATEWAY, NO EXTERNAL LLM |
+
+Direct Mongo writes caused the production outage on `sport.doneisbetter.com/browse`. All writes now go through validated ingest.
 
 ## Rules (non-negotiable)
 
-1. **This folder is the home** for sportolok sovereign agent code, docs, timers, and delivery reports.
-2. **Do not** add routes, libs, or crons to `moldovancsaba/management`. Propose engine changes as PRs to `main` only.
-3. **Do not** write Mongo from this agent. Talk to the live app only through documented public APIs (`POST /api/ingest` with scoped ingest/SSO machine token).
-4. **Do not** import from `../content.padelafrica/` (or any other client folder).
-5. Every listing / patch payload must match the schedule and field shapes in [`ingest/content-data-contract.md`](./ingest/content-data-contract.md) — especially `schedule.recurring[]` as **one object per weekday** (`weekday: "mon"`, never `weekdays: [...]` on one entry).
+1. **This folder is the home** for sportolok agent code and docs.
+2. **Do not** add routes, libs, or crons to `moldovancsaba/management` for agent features.
+3. **Do not** write shared Mongo from this agent. Prefer ingest; refuse direct Mongo writes.
+4. **Do not** import from sibling `content.*` folders.
+5. Schedule patches: singular `weekday` per [`ingest/content-data-contract.md`](./ingest/content-data-contract.md).
+6. **Do not** force-push `release/sportolok` — tell core when migration is ready.
+7. **Cloud Agent (YOU) are the LLM** — NO OLLAMA, NO AI GATEWAY. You perform ALL cognitive tasks: scoring quality, writing About descriptions, extracting structured facts.
+8. Keep `sportolok-tick` on this chat; do not touch `fleet-daily-swot`.
 
 ## Layout
 
 | Path | Purpose |
 | --- | --- |
-| `src/lib/sovereign/` | Migrated agent runtime (quarantined Mongo executors — rewrite to ingest before re-enable) |
-| `src/app/api/**` | Historical route shapes — **not** deployed from this docs site; reference only until a dedicated agent runner exists |
-| `ingest/` | Allowed write helpers (`/api/ingest` client + schedule conversion) |
-| `docs/` | Migrated delivery / system docs from management `release/sportolok` |
-| `timers/` | Cursor `subscribe_timer` prompts |
-| `scripts/` | Scenarios / verify — retarget to ingest, not management in-process |
+| `docs/` | Jobs, FIND, self-heal, dual-repo |
+| `timers/` | Orchestrator prompt |
+| `ingest/` | **Only** live write helpers |
+| `src/` | Migrated agent runtime (**quarantined** Mongo) |
+| `scripts/` | CLIs + research fixtures; quality-loop → ingest stub |
+| `MIGRATION-FROM-MANAGEMENT.md` | Delete/revert list for core |
+| `SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md` | Migration completion report |
 
 ## Engine vs agent
 
 | Concern | Where |
 | --- | --- |
-| Vertical pack, browse UI, pipeline gate | `management` |
-| Sovereign evaluate / delivery optimizer / self-heal agent | **here** |
-| Process SSOT pages (Jobs, Doctrine) | `sovereign.content` site root (`src/app/…`) |
+| Vertical pack, UI, public `/api/ingest`, product CLIs on **`main`** | `management` |
+| Agent orchestration, listingQuality copy, FIND playbooks, seeds | **`content.sportolok/`** |
+| Portable process / fleet | SC-central |
 
-See root [`CORE-TEAM-STATUS.md`](../CORE-TEAM-STATUS.md) and [`MIGRATION-FROM-MANAGEMENT.md`](./MIGRATION-FROM-MANAGEMENT.md).
+## LLM Architecture
+
+**Cloud Agent (YOU) are the LLM.** NO OLLAMA. NO AI GATEWAY. NO EXTERNAL LLM SERVER.
+
+You directly perform:
+- Quality scoring of descriptions
+- Writing About text from evidence
+- Extracting structured facts
+- All cognitive catalog operations
+
+Job structure follows `content.padelafrica` pattern with Cloud Agent as the exclusive LLM.

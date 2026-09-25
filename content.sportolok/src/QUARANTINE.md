@@ -1,12 +1,36 @@
 # QUARANTINE — do not execute against shared Mongo
 
-This tree was migrated out of `moldovancsaba/management` `release/sportolok` on 2026-09-24.
+Migrated out of `moldovancsaba/management` `release/sportolok` on 2026-09-24
+(response to management-core correction on dual-repo architecture).
 
-The original `executor.ts` / delivery paths opened `Db` and wrote listings directly. That caused
-a production outage when schedule shapes did not match the management `RecurringSlot` contract.
+## Why
 
-**Allowed write path:** `../../ingest/client.ts` → `POST /api/ingest` with payloads validated by
-`scheduleToRecurringSlots` / `content-data-contract.md`.
+`listingQuality` / `catalog:*` / seed CLIs opened `MongoClient` and wrote listings and
+quality collections directly. That pattern caused the production outage on
+`sport.doneisbetter.com/browse` when malformed schedule data (`weekdays` array instead of
+singular `weekday` per `RecurringSlot`) was written directly to Mongo, bypassing validation.
 
-Do not import these modules into the management Next app. Do not register these routes on the
-management Vercel project. Rewrite call sites to ingest before re-enabling automation.
+Management core requested all sovereign content-agent code be separated into
+`moldovancsaba/sovereign.content` and that ALL writes go through the validated
+`POST /api/ingest` endpoint.
+
+## Allowed write path
+
+`../ingest/client.ts` → `POST /api/ingest` on `https://sport.doneisbetter.com`
+with payloads matching `../ingest/content-data-contract.md` (`RecurringSlot` singular `weekday`).
+
+## Do not
+
+- Import these modules into the management Next app
+- Register `catalog:*` agent crons on the management Vercel project
+- Re-enable direct Mongo writes against shared DB
+- Force-push `release/sportolok` — management core reconciles after migration
+
+## Status
+
+| Area | State |
+| --- | --- |
+| Code copy under `content.sportolok/` | **Done** |
+| Mongo write quarantine | **Done** (`src/QUARANTINE.md`) |
+| Ingest-backed quality-loop rewrite | **In progress** — see `scripts/catalog-quality-loop-ingest.ts` |
+| Management delete + shared-engine revert | **Done** — see `MIGRATION-FROM-MANAGEMENT.md` + `SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md` |

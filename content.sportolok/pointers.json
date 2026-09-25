@@ -1,10 +1,13 @@
 {
   "client": "sportolok",
+  "agentFolder": "content.sportolok",
   "managementRepo": "moldovancsaba/management",
   "managementBranch": "release/sportolok",
   "siteUrl": "https://sport.doneisbetter.com",
-  "mongoNote": "Agents must not open Mongo; use POST /api/ingest only",
+  "mongoNote": "Agents must not open Mongo; use POST /api/ingest only. Migrated code is quarantined — see src/QUARANTINE.md",
   "ingestPath": "/api/ingest",
   "ssotSite": "https://sovereigncontent.messmass.com",
-  "migration": "see MIGRATION-FROM-MANAGEMENT.md — await core reconcile of release/sportolok"
+  "vertical": "sportolok",
+  "llm": "Cloud Agent (YOU) — NO OLLAMA, NO AI GATEWAY",
+  "migration": "see MIGRATION-FROM-MANAGEMENT.md + SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md — core reconcile complete"
 }
