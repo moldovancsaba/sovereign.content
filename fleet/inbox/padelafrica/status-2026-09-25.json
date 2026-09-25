@@ -1,7 +1,7 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T04:05:00Z",
-  "source": "padel-ingest-live-apply",
+  "observedAt": "2026-09-25T04:15:25Z",
+  "source": "padel-find-tick-kick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
@@ -13,34 +13,48 @@
     "writesPath": "post_api_ingest",
     "tickCompleted": true,
     "skippedManagementMongoCatalogJobs": true,
-    "qualityLoop": "ingest_stub_available",
-    "refuseAgentMongoGuards": true
+    "qualityLoop": "ingest_stub_ran",
+    "refuseAgentMongoGuards": true,
+    "operatorKick": true
   },
   "outcomes": {
-    "findSeededFixture": 0,
-    "findLiveIngestApply": 6,
+    "qualityLoopApplied": 0,
+    "qualityLoopMode": "ingest-stub",
+    "findSeededFixture": 2,
+    "findLiveIngestApply": 2,
+    "findZeroResultsThisTick": [
+      {
+        "cc": "GH",
+        "city": "Kumasi"
+      }
+    ],
     "ingestCardsCreated": [
-      { "recordId": "ZAF-VEN-005", "cardId": "research-zaf-ven-005", "state": "DISCOVERED" },
-      { "recordId": "ZAF-VEN-006", "cardId": "research-zaf-ven-006", "state": "DISCOVERED" },
-      { "recordId": "SEN-VEN-004", "cardId": "research-sen-ven-004", "state": "DISCOVERED" },
-      { "recordId": "SEN-VEN-005", "cardId": "research-sen-ven-005", "state": "DISCOVERED" },
-      { "recordId": "SEN-VEN-006", "cardId": "research-sen-ven-006", "state": "DISCOVERED" },
-      { "recordId": "MAR-VEN-003", "cardId": "research-mar-ven-003", "state": "DISCOVERED" }
+      {
+        "recordId": "TZA-VEN-003",
+        "cardId": "research-tza-ven-003",
+        "state": "DISCOVERED",
+        "name": "Bounce Warehouse"
+      },
+      {
+        "recordId": "GHA-VEN-005",
+        "cardId": "research-gha-ven-005",
+        "state": "DISCOVERED",
+        "name": "Padel Accra by S2"
+      }
     ],
     "pendingIngestFixtures": [],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Live-applied pending queue via POST /api/ingest (source_seed). Cards DISCOVERED — not claiming PUBLISHED. aboutDebt/publishedTotal omitted (no Mongo read)."
+    "note": "Operator kick: quality-loop stub ran; FIND seeded+ingested Bounce Arusha + Accra S2 deepen; Kumasi zero. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",
     "core_reconcile_release_padel_africa",
-    "pipeline_gate_to_publish_six_discovered_cards"
+    "pipeline_gate_to_publish_discovered_cards"
   ],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/padelafrica.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/docs/pending-ingest-queue.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/STATUS-FOR-CORE.md"
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/docs/pending-ingest-queue.md"
   ]
 }

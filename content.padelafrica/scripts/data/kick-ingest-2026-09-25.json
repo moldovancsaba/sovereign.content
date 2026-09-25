@@ -1,0 +1,25 @@
+{
+  "at": "2026-09-25T04:15:02.417Z",
+  "results": [
+    {
+      "recordId": "TZA-VEN-003",
+      "id": "research-tza-ven-003",
+      "ok": true,
+      "res": {
+        "cardId": "research-tza-ven-003",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "GHA-VEN-005",
+      "id": "research-gha-ven-005",
+      "ok": true,
+      "res": {
+        "cardId": "research-gha-ven-005",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}

@@ -90,5 +90,28 @@
     "sourceTypes": "Aura first-party site; PadelRevive",
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-22"
+  },
+  {
+    "recordId": "GHA-VEN-005",
+    "name": "Padel Accra by S2",
+    "city": "Accra",
+    "region": "Greater Accra",
+    "countryCode": "GH",
+    "line1": "Plot 9, Spintex Road (inside Orca Deco premises)",
+    "lat": 5.6288265,
+    "lng": -0.0901987,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Spintex neighbourhood node — Orca Deco building not rooftop-geocoded",
+    "phone": "+233 59 710 6358",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 06:00–00:30 (directory / guide cards)",
+    "description": "Padel Accra by S2 is a Spintex Road padel club inside the Orca Deco premises with a published booking app channel and directory phone. A clear recommendation when you want East Accra / Spintex padel beyond Airport West and Adjiringanor sample clubs. Book via the S2 Sport app or call ahead.",
+    "primarySourceUrl": "https://greenviewsresidential.com/padel-in-accra/",
+    "secondarySourceUrl": "https://jubopadel.com/worldwide-presence/accra-padel-by-s2/",
+    "sourceTypes": "Greenviews Accra guide (address+phone); Jubo Padel project card (Spintex Rd); Yandex Maps phone corroboration",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND kick tick 2026-09-25 Accra deepen — not in prior GHA-VEN-001..004 sample."
   }
 ]

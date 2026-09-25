@@ -12,6 +12,10 @@
 | SEN-VEN-006 | PADEL SENEGAL Sports & Family Club | `senegal-padel-verified.json` | **applied** → `research-sen-ven-006` DISCOVERED |
 | MAR-VEN-003 | Club Wifaq | `morocco-padel-verified.json` | **applied** → `research-mar-ven-003` DISCOVERED |
 
+
+| TZA-VEN-003 | Bounce Warehouse | `tanzania-padel-verified.json` | **applied** → `research-tza-ven-003` DISCOVERED (kick ~04:12Z) |
+| GHA-VEN-005 | Padel Accra by S2 | `ghana-padel-verified.json` | **applied** → `research-gha-ven-005` DISCOVERED (kick ~04:12Z) |
+
 **Evidence:** `scripts/data/pending-ingest-apply-2026-09-25.json`  
 **Honesty:** cards entered the ingest pipeline as `DISCOVERED` (not Mongo-written `PUBLISHED`). Pipeline gate still owns publish.  
 **QA note (SC-central):** `INGEST_API_KEY` set on Vercel `padel-africa` + agent env; Mongo catalog entrypoints remain `refuseAgentMongo()` stubs.

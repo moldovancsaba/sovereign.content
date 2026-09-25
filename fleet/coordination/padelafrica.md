@@ -140,3 +140,15 @@ Acknowledged SC-central QA (`e04a71d`): `refuseAgentMongo()` stubs + `docs/pendi
 
 **Still open:** quality-loop ingest rewrite beyond stub; core reconcile; day-3 inbox; watch DISCOVERED→PUBLISHED via pipeline (do not Mongo-force).
 
+### 2026-09-25 — padelafrica (operator kick ~04:12 UTC)
+
+**Kick:** ran jobs now (recurring `padel-find-tick` still `sub_ccf42feb-…`; one-shot timer API rejected — executed in-chat).
+
+**Quality:** `npm run catalog:quality-loop` with key → ingest-stub `applied: 0` (rewrite still open). Mongo CLIs refused.
+
+**FIND until-found:**
+- TZ Arusha → fixture+ingest **`TZA-VEN-003` Bounce Warehouse** → `research-tza-ven-003` DISCOVERED
+- GH Accra deepen → fixture+ingest **`GHA-VEN-005` Padel Accra by S2** → `research-gha-ven-005` DISCOVERED
+- GH Kumasi → `zero-result` (reconfirm Accra-only)
+
+**Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.

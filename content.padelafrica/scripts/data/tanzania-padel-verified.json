@@ -48,5 +48,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-23",
     "researchNotes": "FIND tick 2026-09-23. Shared operator contact page with Slipway; distinct venue on Unguja."
+  },
+  {
+    "recordId": "TZA-VEN-003",
+    "name": "Bounce Warehouse",
+    "city": "Arusha",
+    "region": "Arusha",
+    "countryCode": "TZ",
+    "line1": "Godown No C9, ATOZ Business Park, Unga Ltd Industrial Area",
+    "lat": -3.3796172,
+    "lng": 36.6740723,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Unga Limited / Sombetini school node near industrial area — ATOZ godown not rooftop-geocoded",
+    "website": "https://bouncewarehouse.co.tz/",
+    "phone": "+255 696 08 08 08",
+    "email": "play@bouncewarehouse.co.tz",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not independently printed beyond first-party marketing",
+    "description": "Bounce Warehouse is Arusha’s first named padel and pickleball centre at ATOZ Business Park in the Unga Ltd industrial belt, with published phone and email on the operator site. A clear recommendation when you want Northern Zone / safari-gateway padel beyond Dar es Salaam and Zanzibar samples. Call or book ahead; locality pin only until a street geocode is confirmed.",
+    "primarySourceUrl": "https://bouncewarehouse.co.tz/",
+    "secondarySourceUrl": "https://bouncewarehouse.co.tz/contact-us-2/",
+    "sourceTypes": "Bounce Warehouse first-party home+contact (address+phone+email); PadelRevive safari circuit corroboration",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND kick tick 2026-09-25. Distinct from Padel Centre TZ Slipway/Hub samples."
   }
 ]
