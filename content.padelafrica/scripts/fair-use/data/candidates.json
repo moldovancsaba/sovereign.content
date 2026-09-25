@@ -724,5 +724,59 @@
     "extractedAt": "2026-09-25T13:26:29.796Z",
     "rejectedAt": "2026-09-25T13:35:00.000Z",
     "note": "Out of scope — Chiltern/UK padel directory listing"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-pulse-padel-hub",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPulse Padel Hub",
+    "citationUrl": "https://playtomic.com/clubs/pulse-padel-hub",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/pulse-padel-hub",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T14:18:21.564Z",
+    "rejectedAt": "2026-09-25T14:35:00.000Z",
+    "note": "Out of scope — North Miami/USA Playtomic club"
+  },
+  {
+    "candidateId": "fair-actu-padel-cm-sport",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "CM Sport",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-cm-maroc-leader-rabat/",
+    "website": "https://padelmaroc.ma/",
+    "cityHint": "Rabat",
+    "countryHint": "Morocco",
+    "addressHint": "Ndeg 1, 15 Rue Oued Ziz, Rabat 10090, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-cm-maroc-leader-rabat/",
+      "https://padelmaroc.ma/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T14:20:44.018Z",
+    "rejectedAt": "2026-09-25T14:35:00.000Z",
+    "note": "Not a playable club — CM Sport is a padel court installer/builder (padelmaroc.ma), not a venue"
+  },
+  {
+    "candidateId": "fair-thepadeldirectory-castle-padel-club",
+    "sourceId": "thepadeldirectory",
+    "sourceName": "The Padel Directory",
+    "name": "Castle Padel Club",
+    "citationUrl": "https://www.thepadeldirectory.co.uk/padel-centres/castle-padel-club",
+    "website": "https://padel-mates-widget-prod.netlify.app/css/styles.css",
+    "researchSources": [
+      "https://www.thepadeldirectory.co.uk/padel-centres/castle-padel-club",
+      "https://padel-mates-widget-prod.netlify.app/css/styles.css"
+    ],
+    "researchNote": "Discovered via The Padel Directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T14:33:43.810Z",
+    "rejectedAt": "2026-09-25T14:39:00.000Z",
+    "note": "Out of scope — UK padel directory listing (Castle Padel Club)"
   }
 ]

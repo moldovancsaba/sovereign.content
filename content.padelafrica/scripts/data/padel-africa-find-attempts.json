@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T13:23:00.000Z",
+  "updatedAt": "2026-09-25T14:18:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -774,6 +774,37 @@
       "outcome": "seeded",
       "recordId": "ZMB-VEN-004",
       "note": "FIND Summit Sports Arena Lamasat Complex ingest; Padelplus phone enrich"
+    },
+    {
+      "cc": "TN",
+      "city": "Nabeul",
+      "at": "2026-09-25T14:18:00.000Z",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-007",
+      "note": "FIND O Padel Nabeul Grand Maghreb ingest"
+    },
+    {
+      "cc": "TN",
+      "city": "Tunis",
+      "at": "2026-09-25T14:18:00.000Z",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-008",
+      "note": "FIND Padel Country Club Lac Leman ingest"
+    },
+    {
+      "cc": "MZ",
+      "city": "Beira",
+      "at": "2026-09-25T14:18:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MOZ-VEN-004",
+      "note": "FIND Clube Padel da Beira Estoril Time2padel ingest"
+    },
+    {
+      "cc": "CM",
+      "city": "Yaoundé",
+      "at": "2026-09-25T14:18:00.000Z",
+      "outcome": "zero-result",
+      "note": "Elite_Padel_phone_only_no_address; BENDO_already_sampled"
     }
   ]
 }

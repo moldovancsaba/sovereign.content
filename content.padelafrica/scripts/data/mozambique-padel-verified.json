@@ -70,5 +70,30 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick kick 2026-09-25. Directory-only evidence (Medium). Distinct from MOZ-VEN-001 Gayle (Glória Mall Marginal). Court count listed as 4 — not asserted."
+  },
+  {
+    "recordId": "MOZ-VEN-004",
+    "name": "Clube Padel da Beira",
+    "city": "Beira",
+    "region": "Sofala",
+    "countryCode": "MZ",
+    "line1": "Estrada Carlos Pereira, Estoril",
+    "lat": -19.8415273,
+    "lng": 34.9023715,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Praia do Estoril / Macuti Beira pin — Estrada Carlos Pereira not rooftop-geocoded",
+    "website": "https://go.tieplayer.com/Time2padel",
+    "phone": "+258 84 411 1817",
+    "email": "tiago@visioluz.com",
+    "venueModel": "outdoors",
+    "seasonNote": "Hours via TieSports club page; confirm by phone.",
+    "description": "Clube Padel da Beira (Time2padel) is a Sofala padel club on Estrada Carlos Pereira in Estoril Beira with published phone and email on TieSports. A clear second-city recommendation beyond Maputo and Tofo when you want Beira courts. Call ahead to book.",
+    "primarySourceUrl": "https://go.tieplayer.com/Time2padel",
+    "secondarySourceUrl": "https://go.tieplayer.com/Time2padel",
+    "sourceTypes": "TieSports Time2padel club page (Estrada Carlos Pereira Estoril + phone + email; 3 courts claimed)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Court count claimed as 3 — not asserted. Distinct from Maputo and Tofo samples."
   }
 ]

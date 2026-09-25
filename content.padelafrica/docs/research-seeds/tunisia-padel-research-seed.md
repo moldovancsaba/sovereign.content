@@ -13,6 +13,8 @@ Tunisia has a large market. This is a **curated sample**.
 | `research-tun-ven-004` | Padel Hammamet | Route Touristique, Mrezga |
 | `research-tun-ven-005` | Sfax Padel Indoor | Route de Gabès km 1.5 |
 | `research-tun-ven-006` | Padel Up Monastir | Cité El Agba, Monastir |
+| `research-tun-ven-007` | O Padel Nabeul | Avenue du Grand Maghreb, Nabeul |
+| `research-tun-ven-008` | Padel Country Club | 300 Rue du Lac Léman, Tunis |
 | `osm-node-14065918067` | Padel in Mourouj (already live; enrich) | RR36, Mourouj |
 
 ```bash

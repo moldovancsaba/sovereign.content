@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T13:35:00Z",
+  "observedAt": "2026-09-25T14:39:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 16,
+    "fairUsePassCount": 17,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
@@ -27,34 +27,34 @@
     "findLiveIngestApply": 3,
     "findZeroResultsThisTick": [
       {
-        "cc": "ET",
-        "city": "Addis Ababa"
+        "cc": "CM",
+        "city": "Yaound\u00e9"
       }
     ],
     "ingestCardsCreated": [
       {
-        "recordId": "UGA-VEN-003",
-        "cardId": "research-uga-ven-003",
+        "recordId": "TUN-VEN-007",
+        "cardId": "research-tun-ven-007",
         "state": "DISCOVERED",
-        "name": "Lake Victoria Serena Padel"
+        "name": "O Padel Nabeul"
       },
       {
-        "recordId": "CIV-VEN-004",
-        "cardId": "research-civ-ven-004",
+        "recordId": "TUN-VEN-008",
+        "cardId": "research-tun-ven-008",
         "state": "DISCOVERED",
-        "name": "Abidjan Padel Riviera Golf"
+        "name": "Padel Country Club"
       },
       {
-        "recordId": "ZMB-VEN-004",
-        "cardId": "research-zmb-ven-004",
+        "recordId": "MOZ-VEN-004",
+        "cardId": "research-moz-ven-004",
         "state": "DISCOVERED",
-        "name": "Summit Sports Arena"
+        "name": "Clube Padel da Beira"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~13:10\u201313:35: quality stub; fair-use pass 16 no Africa promote; FIND Serena Uganda, Riviera Golf Abidjan, Summit Lusaka; ET Addis launching-only zero. Not claiming PUBLISHED."
+    "note": "Tick ~14:14\u201314:39: quality stub; fair-use pass 17 no Africa promote; FIND Nabeul, Lac L\u00e9man, Beira; CM Elite phone-only zero. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

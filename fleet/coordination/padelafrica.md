@@ -372,3 +372,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
 
+
+### 2026-09-25 — padelafrica (tick ~14:14–14:39 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 17 (28 sources). No Africa venue promote. Rejected Miami Pulse Hub, CM Sport installer (not a club), UK Castle Padel.
+
+**FIND:**
+- TN Nabeul → **`TUN-VEN-007` O Padel Nabeul** DISCOVERED
+- TN Tunis Lac → **`TUN-VEN-008` Padel Country Club** DISCOVERED
+- MZ Beira → **`MOZ-VEN-004` Clube Padel da Beira** DISCOVERED
+- CM Yaoundé → `zero-result` (Elite Padel phone-only, no address)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
