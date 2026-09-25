@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T14:39:00Z",
+  "observedAt": "2026-09-25T15:38:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 17,
+    "fairUsePassCount": 18,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
@@ -23,38 +23,45 @@
     "fairUseRejected": 3,
     "fairUsePendingNeedsVerify": 0,
     "fairUsePromoted": 0,
-    "findSeededFixture": 3,
-    "findLiveIngestApply": 3,
+    "findSeededFixture": 4,
+    "findLiveIngestApply": 4,
     "findZeroResultsThisTick": [
       {
-        "cc": "CM",
-        "city": "Yaound\u00e9"
+        "cc": "LY",
+        "city": "Tripoli",
+        "note": "Oxygen Padel no published phone"
       }
     ],
     "ingestCardsCreated": [
       {
-        "recordId": "TUN-VEN-007",
-        "cardId": "research-tun-ven-007",
+        "recordId": "MUS-VEN-004",
+        "cardId": "research-mus-ven-004",
         "state": "DISCOVERED",
-        "name": "O Padel Nabeul"
+        "name": "Energia Gym Padel"
       },
       {
-        "recordId": "TUN-VEN-008",
-        "cardId": "research-tun-ven-008",
+        "recordId": "BWA-VEN-003",
+        "cardId": "research-bwa-ven-003",
         "state": "DISCOVERED",
-        "name": "Padel Country Club"
+        "name": "10by20 Padel Club FNB World of Golf"
       },
       {
-        "recordId": "MOZ-VEN-004",
-        "cardId": "research-moz-ven-004",
+        "recordId": "KEN-VEN-009",
+        "cardId": "research-ken-ven-009",
         "state": "DISCOVERED",
-        "name": "Clube Padel da Beira"
+        "name": "Mvita Padel"
+      },
+      {
+        "recordId": "KEN-VEN-010",
+        "cardId": "research-ken-ven-010",
+        "state": "DISCOVERED",
+        "name": "PLAYON Padel Kenya Creekside Nyali"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~14:14\u201314:39: quality stub; fair-use pass 17 no Africa promote; FIND Nabeul, Lac L\u00e9man, Beira; CM Elite phone-only zero. Not claiming PUBLISHED."
+    "note": "Tick ~15:03\u201315:38: quality stub; fair-use pass 18 no Africa promote; FIND Energia MU, Blue Tree BW, Mvita+PLAYON Creekside KE; rejected Miami/Spain/coach. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

@@ -48,5 +48,30 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Gaborone deepen. District 267 rejected as Q4 2026 pre-opening investor page. Phone not published on booking page — booking URL satisfies evidence bar. Court count not asserted."
+  },
+  {
+    "recordId": "BWA-VEN-003",
+    "name": "10by20 Padel Club FNB World of Golf",
+    "city": "Gaborone",
+    "region": "South-East",
+    "countryCode": "BW",
+    "line1": "Blue Tree Golf / FNB World of Golf, Plot 74342, Metsemasewa",
+    "lat": -24.6478374,
+    "lng": 25.9455063,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Blue Tree Golf Driving pin — padel lounge/courts on World of Golf campus not rooftop-geocoded",
+    "website": "https://www.bluetreegolf.co.bw/sports/padel/padel-facilities",
+    "phone": "+267 77 723 652",
+    "email": "sports@bluetreegolf.co.bw",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Covered outdoor lounge with 2 courts; book via 10by20 app; corporate via Blue Tree reception.",
+    "description": "10by20 operates the padel courts at Blue Tree / FNB World of Golf in Gaborone — a covered outdoor lounge with café and shop opened January 2025. A clear recommendation when you want Gaborone padel beyond Gamecity and Fields Mall, with published sports desk phone and app booking.",
+    "primarySourceUrl": "https://www.bluetreegolf.co.bw/sports/padel/padel-facilities",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/botswana/",
+    "sourceTypes": "Blue Tree Golf padel facilities page; Padel Lands Botswana directory (phone)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25T15 — Botswana third venue; Blue Tree lists (+267) 7772 3652 / sports@bluetreegolf; Padel Lands lists +267 77 723 652 for 10by20 FNB World of Golf"
   }
 ]

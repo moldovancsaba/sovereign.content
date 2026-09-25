@@ -554,3 +554,62 @@
 {"at":"2026-09-25T14:37:32.597Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery_harvest","url":"https://www.bounce.game/","harvested":0}
 {"at":"2026-09-25T14:38:17.613Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery","url":"https://www.totalpadel.com/"}
 {"at":"2026-09-25T14:38:18.152Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery_harvest","url":"https://www.totalpadel.com/","harvested":0}
+{"at":"2026-09-25T15:04:39.444Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/south-africa/"}
+{"at":"2026-09-25T15:04:40.069Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/south-africa/","harvested":0}
+{"at":"2026-09-25T15:05:25.085Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery","url":"https://www.analistaspadel.com/"}
+{"at":"2026-09-25T15:05:25.738Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/","harvested":0}
+{"at":"2026-09-25T15:06:10.743Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/"}
+{"at":"2026-09-25T15:06:10.789Z","type":"fair_use_reject","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/","status":403,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-25T15:06:55.804Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/cote-divoire/"}
+{"at":"2026-09-25T15:06:55.985Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/cote-divoire/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-25T15:07:41.001Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"detail","url":"https://playtomic.com/clubs/padel-x-miami"}
+{"at":"2026-09-25T15:07:41.446Z","type":"fair_use_seed","sourceId":"playtomic","mode":"detail","url":"https://playtomic.com/clubs/padel-x-miami","candidateId":"fair-playtomic-book-a-court-in-padel-x-miami","reasonCode":"seeded"}
+{"at":"2026-09-25T15:08:26.462Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
+{"at":"2026-09-25T15:08:27.069Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at": "2026-09-25T15:08:00Z", "type": "candidate_triage", "candidateId": "fair-playtomic-book-a-court-in-padel-x-miami", "status": "rejected", "note": "OOS USA Miami"}
+{"at":"2026-09-25T15:09:12.086Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery","url":"https://padel.co.ma/annuaire-des-clubs/"}
+{"at":"2026-09-25T15:09:12.681Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}
+{"at":"2026-09-25T15:09:57.696Z","type":"fair_use_attempt","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-coach-sara-alaoui-tangier-en/"}
+{"at":"2026-09-25T15:09:58.438Z","type":"fair_use_seed","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-coach-sara-alaoui-tangier/","candidateId":"fair-actu-padel-coach-padel-sara-alaoui","reasonCode":"seeded"}
+{"at":"2026-09-25T15:10:43.454Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-clubs-in-africa/"}
+{"at":"2026-09-25T15:10:56.262Z","type":"fair_use_reject","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-clubs-in-africa/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-09-25T15:11:41.291Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/johannesburg"}
+{"at":"2026-09-25T15:11:41.478Z","type":"fair_use_reject","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/johannesburg","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-25T15:12:26.494Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery","url":"https://www.africapadel.com/"}
+{"at":"2026-09-25T15:12:26.958Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}
+{"at":"2026-09-25T15:13:11.974Z","type":"fair_use_attempt","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/club-deportivo-somontes"}
+{"at":"2026-09-25T15:13:12.484Z","type":"fair_use_seed","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/club-deportivo-somontes","candidateId":"fair-padelivu-club-deportivo-somontes","reasonCode":"seeded"}
+{"at":"2026-09-25T15:13:57.500Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/kenya"}
+{"at":"2026-09-25T15:13:57.559Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery_harvest","url":"https://padelmap.net/courts/kenya","harvested":0}
+{"at":"2026-09-25T15:14:42.574Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery","url":"https://padel.llc/"}
+{"at":"2026-09-25T15:14:42.886Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery_harvest","url":"https://padel.llc/","harvested":0}
+{"at":"2026-09-25T15:15:27.902Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery","url":"https://need4padel.com/pro-shop-equipment"}
+{"at":"2026-09-25T15:15:27.965Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery_harvest","url":"https://need4padel.com/pro-shop-equipment","harvested":0}
+{"at":"2026-09-25T15:16:12.980Z","type":"fair_use_attempt","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/"}
+{"at":"2026-09-25T15:16:13.156Z","type":"fair_use_reject","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/","status":200,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-25T15:16:58.163Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery","url":"https://padelsearch.info/web"}
+{"at":"2026-09-25T15:16:58.966Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery_harvest","url":"https://padelsearch.info/web","harvested":0}
+{"at":"2026-09-25T15:17:43.983Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery","url":"https://www.padel-magazine.co.uk/the-shop/"}
+{"at":"2026-09-25T15:17:44.497Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery_harvest","url":"https://www.padel-magazine.co.uk/the-shop/","harvested":0}
+{"at":"2026-09-25T15:18:29.505Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery","url":"https://padelmagazine.fr/le-calendrier-du-padel-francais/"}
+{"at":"2026-09-25T15:18:30.053Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery_harvest","url":"https://padelmagazine.fr/le-calendrier-du-padel-francais/","harvested":0}
+{"at":"2026-09-25T15:19:15.069Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery","url":"https://www.padelfip.com/live/"}
+{"at":"2026-09-25T15:19:15.366Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery_harvest","url":"https://www.padelfip.com/live/","harvested":0}
+{"at":"2026-09-25T15:20:00.381Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery","url":"https://premierpadel.com/"}
+{"at":"2026-09-25T15:20:01.395Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/","harvested":0}
+{"at":"2026-09-25T15:20:46.398Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery","url":"https://www.thepadeldirectory.co.uk/padel-events"}
+{"at":"2026-09-25T15:20:46.459Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery_harvest","url":"https://www.thepadeldirectory.co.uk/padel-events","harvested":0}
+{"at":"2026-09-25T15:21:31.474Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery","url":"https://www.matchi.se/"}
+{"at":"2026-09-25T15:21:31.934Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery_harvest","url":"https://www.matchi.se/","harvested":0}
+{"at":"2026-09-25T15:22:16.950Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery","url":"https://www.anybuddyapp.com/fr"}
+{"at":"2026-09-25T15:22:17.448Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery_harvest","url":"https://www.anybuddyapp.com/fr","harvested":0}
+{"at":"2026-09-25T15:23:02.463Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery","url":"https://padelusa.org/"}
+{"at":"2026-09-25T15:23:04.666Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery_harvest","url":"https://padelusa.org/","harvested":2}
+{"at":"2026-09-25T15:23:49.683Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery","url":"https://www.padelbrowser.com/"}
+{"at":"2026-09-25T15:23:49.867Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery_harvest","url":"https://www.padelbrowser.com/","harvested":0}
+{"at":"2026-09-25T15:35:31.639Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery","url":"https://www.bounce.game/"}
+{"at":"2026-09-25T15:35:31.773Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery_harvest","url":"https://www.bounce.game/","harvested":0}
+{"at":"2026-09-25T15:36:16.789Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery","url":"https://www.totalpadel.com/"}
+{"at":"2026-09-25T15:36:17.332Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery_harvest","url":"https://www.totalpadel.com/","harvested":0}
+{"at": "2026-09-25T15:28:00Z", "type": "candidate_triage", "candidateId": "fair-actu-padel-coach-padel-sara-alaoui", "status": "rejected", "note": "Not a venue — Actu/Padel Maps coach/player listing (Sara Alaoui FRMT ranking); no club premises"}
+{"at": "2026-09-25T15:28:00Z", "type": "candidate_triage", "candidateId": "fair-padelivu-club-deportivo-somontes", "status": "rejected", "note": "OOS Spain (Madrid El Pardo) — Club Deportivo Somontes outside Africa catalog"}

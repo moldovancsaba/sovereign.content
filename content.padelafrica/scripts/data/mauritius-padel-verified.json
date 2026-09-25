@@ -73,5 +73,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 — Port Louis capital cell yielded no operating club; seeded Forbach secondary instead. Court count from directory not asserted."
+  },
+  {
+    "recordId": "MUS-VEN-004",
+    "name": "Energia Gym Padel",
+    "city": "Pointe aux Canonniers",
+    "region": "Pamplemousses",
+    "countryCode": "MU",
+    "line1": "Coastal Road, Pointe Aux Cannoniers, Grand-Baie",
+    "lat": -20.003945,
+    "lng": 57.5555128,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Pointe aux Canonniers locality pin — Energia Coastal Road complex not rooftop-geocoded",
+    "website": "https://energia.mu/padel/",
+    "phone": "+230 5452 0000",
+    "email": "info@energia.mu",
+    "venueModel": "own_premises",
+    "seasonNote": "Padel courts lit for evening play; hours differ from gym (confirm on site).",
+    "description": "Energia Gym, Padel & Fitness puts two outdoor padel courts on the Coastal Road in Pointe aux Canonniers, opposite Cannoniers Beachcomber — a clear north Mauritius recommendation when you want bookable courts beside an on-site restaurant rather than only Isla Grand Baie or SPARC Cascavelle. Call ahead to reserve.",
+    "primarySourceUrl": "https://energia.mu/padel/",
+    "secondarySourceUrl": "https://energia.mu/contact/",
+    "sourceTypes": "Club padel + contact pages (phone, email, Coastal Road address)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25T15 — Mauritius deepen beyond Isla/SPARC/RM; phone+email published on energia.mu/contact/"
   }
 ]

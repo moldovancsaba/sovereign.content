@@ -778,5 +778,61 @@
     "extractedAt": "2026-09-25T14:33:43.810Z",
     "rejectedAt": "2026-09-25T14:39:00.000Z",
     "note": "Out of scope — UK padel directory listing (Castle Padel Club)"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-padel-x-miami",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPadel X Miami",
+    "citationUrl": "https://playtomic.com/clubs/padel-x-miami",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/padel-x-miami",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T15:07:41.445Z",
+    "note": "OOS USA (Miami) — Playtomic club outside Africa catalog scope",
+    "triagedAt": "2026-09-25T15:08:00Z",
+    "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-actu-padel-coach-padel-sara-alaoui",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Coach Padel Sara Alaoui",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-coach-sara-alaoui-tangier/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "countryHint": "Morocco",
+    "addressHint": "I have read and accept the terms and conditions",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-coach-sara-alaoui-tangier/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T15:09:58.437Z",
+    "note": "Not a venue — Actu/Padel Maps coach/player listing (Sara Alaoui FRMT ranking); no club premises",
+    "triagedAt": "2026-09-25T15:28:00Z",
+    "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-padelivu-club-deportivo-somontes",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Club Deportivo Somontes",
+    "citationUrl": "https://padelivu.com/club/club-deportivo-somontes",
+    "website": "",
+    "addressHint": "Carr Madrid-El Pardo, Km",
+    "researchSources": [
+      "https://padelivu.com/club/club-deportivo-somontes"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T15:13:12.483Z",
+    "note": "OOS Spain (Madrid El Pardo) — Club Deportivo Somontes outside Africa catalog",
+    "triagedAt": "2026-09-25T15:28:00Z",
+    "triagedBy": "padel-find-tick"
   }
 ]

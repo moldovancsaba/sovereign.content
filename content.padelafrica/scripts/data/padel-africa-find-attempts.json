@@ -805,6 +805,54 @@
       "at": "2026-09-25T14:18:00.000Z",
       "outcome": "zero-result",
       "note": "Elite_Padel_phone_only_no_address; BENDO_already_sampled"
+    },
+    {
+      "at": "2026-09-25T15:08:00Z",
+      "cc": "MU",
+      "city": "Pointe aux Canonniers",
+      "query": "Energia Gym padel Mauritius",
+      "outcome": "verified",
+      "recordId": "MUS-VEN-004"
+    },
+    {
+      "at": "2026-09-25T15:08:00Z",
+      "cc": "BW",
+      "city": "Gaborone",
+      "query": "10by20 Blue Tree FNB World of Golf",
+      "outcome": "verified",
+      "recordId": "BWA-VEN-003"
+    },
+    {
+      "at": "2026-09-25T15:08:00Z",
+      "cc": "KE",
+      "city": "Mombasa",
+      "query": "Mvita Padel Tennis Club",
+      "outcome": "verified",
+      "recordId": "KEN-VEN-009"
+    },
+    {
+      "at": "2026-09-25T15:08:00Z",
+      "cc": "KE",
+      "city": "Mombasa",
+      "query": "PLAYON Creekside Nyali",
+      "outcome": "verified",
+      "recordId": "KEN-VEN-010"
+    },
+    {
+      "at": "2026-09-25T15:08:00Z",
+      "cc": "LY",
+      "city": "Tripoli",
+      "query": "Oxygen Padel Hay Andalus",
+      "outcome": "zero-result",
+      "note": "Club present (oxygensc.ly / LinkedIn) but no published phone on public pages — skip invent"
+    },
+    {
+      "at": "2026-09-25T15:08:00Z",
+      "cc": "US",
+      "city": "Miami",
+      "query": "fair-use Playtomic Padel X Miami",
+      "outcome": "rejected-oos",
+      "note": "Fair-use candidate rejected OOS USA"
     }
   ]
 }

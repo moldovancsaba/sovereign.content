@@ -389,3 +389,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
 
+
+### 2026-09-25 — padelafrica (tick ~15:03–15:38 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 18 (28 sources). No Africa venue promote. Rejected Playtomic Padel X Miami (USA), Actu coach Sara Alaoui (not a venue), Club Deportivo Somontes (Madrid ES).
+
+**FIND:**
+- MU Pointe aux Canonniers → **`MUS-VEN-004` Energia Gym Padel** DISCOVERED
+- BW Gaborone → **`BWA-VEN-003` 10by20 Padel Club FNB World of Golf** (Blue Tree) DISCOVERED
+- KE Mombasa → **`KEN-VEN-009` Mvita Padel** (Kaunda Ave) DISCOVERED
+- KE Mombasa → **`KEN-VEN-010` PLAYON Padel Kenya Creekside Nyali** DISCOVERED
+- LY Tripoli Oxygen → `zero-result` (no published phone)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
