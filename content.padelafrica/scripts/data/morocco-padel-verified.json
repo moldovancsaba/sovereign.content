@@ -99,5 +99,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 Marrakech sparse cell. Court count from directories not asserted in description."
+  },
+  {
+    "recordId": "MAR-VEN-005",
+    "name": "AREA Sports & Events Center",
+    "city": "Oulad Azzouz",
+    "region": "Casablanca-Settat",
+    "countryCode": "MA",
+    "line1": "Secteur 17, Oulad Azzouz (Almaz / Cercle de Bouskoura)",
+    "lat": 33.508014,
+    "lng": -7.6852231,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Almaz / Oulad Azzouz locality pin — Plus Code G838+2F8 and street centroid not rooftop-geocoded",
+    "website": "https://areamaroc.com/padel/",
+    "phone": "+212 664-666940",
+    "email": "direction@areamaroc.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours to confirm on booking / WhatsApp.",
+    "description": "AREA Sports & Events Center is a multi-sport venue in Oulad Azzouz (Almaz / Bouskoura belt south of Casablanca) with outdoor padel courts and a published operator site, phone, and email. A clear recommendation when you want Casablanca-belt padel beyond Aïn-Chock and Bouskoura sample clubs. Call or WhatsApp ahead to reserve.",
+    "primarySourceUrl": "https://areamaroc.com/padel/",
+    "secondarySourceUrl": "https://actu-padel.com/en/directory/padel-club/padel-area-oulad-azzouz-wld/",
+    "sourceTypes": "areamaroc.com padel page; Actu Padel club card (phone+email+Plus Code); Padel Life Style contact corroboration",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "Fair-use kick tick 2026-09-25 — candidate fair-actu-padel-area-sports-events-center promoted after evidence bar. Court count from directories not asserted in description."
   }
 ]

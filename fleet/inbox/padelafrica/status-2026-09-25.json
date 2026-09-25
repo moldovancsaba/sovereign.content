@@ -1,7 +1,7 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T04:20:17Z",
-  "source": "padel-find-tick",
+  "observedAt": "2026-09-25T04:50:30Z",
+  "source": "operator-kick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
@@ -13,38 +13,34 @@
     "tickCompleted": true,
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
+    "fairUseSources": 28,
+    "fairUsePassCount": 7,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
+    "fairUseSeededCandidates": 1,
+    "fairUsePendingNeedsVerify": 0,
     "findSeededFixture": 1,
     "findLiveIngestApply": 1,
     "findZeroResultsThisTick": [
       {
-        "cc": "UG",
-        "city": "Jinja"
-      },
-      {
-        "cc": "KE",
-        "city": "Eldoret"
-      },
-      {
-        "cc": "BW",
-        "city": "Francistown"
+        "cc": "GH",
+        "city": "Kumasi"
       }
     ],
     "ingestCardsCreated": [
       {
-        "recordId": "MAR-VEN-004",
-        "cardId": "research-mar-ven-004",
+        "recordId": "MAR-VEN-005",
+        "cardId": "research-mar-ven-005",
         "state": "DISCOVERED",
-        "name": "Padel Square Marrakech"
+        "name": "AREA Sports & Events Center"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Hourly tick: quality stub; Marrakech seeded+ingested; Jinja/Eldoret/Francistown zero. Not claiming PUBLISHED."
+    "note": "Operator kick: quality stub; fair-use pass (28 sources) promoted AREA Sports Oulad Azzouz → ingest DISCOVERED; Kumasi zero. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",
@@ -53,6 +49,6 @@
   ],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/padelafrica.md",
-    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/MIGRATION-FROM-MANAGEMENT.md"
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/scripts/fair-use/README.md"
   ]
 }

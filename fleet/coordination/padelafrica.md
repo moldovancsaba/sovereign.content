@@ -178,3 +178,17 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED / migration complete.
 
+### 2026-09-25 — padelafrica (operator kick ~04:50 UTC)
+
+**Kick:** jobs run in-chat (recurring `padel-find-tick` still `sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** `fair-use:one-pass` on enriched registry (**28** sources). Seeded Actu Padel detail → promoted **`MAR-VEN-005` AREA Sports & Events Center** (Oulad Azzouz / Almaz) after evidence bar → ingest `research-mar-ven-005` **DISCOVERED**. Club Wifaq fair-use candidate skipped as duplicate of MAR-VEN-003. `padelivu` harvested 60 detail URLs for later passes.
+
+**FIND:**
+- GH Kumasi → `zero-result` (Turbo Gamez not padel; Ghana map Accra-centric)
+- Accra deepen already covered GHA-VEN-001..005
+
+**Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.
+
