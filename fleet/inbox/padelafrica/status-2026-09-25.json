@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T05:09:30Z",
+  "observedAt": "2026-09-25T06:29:30Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,35 +14,41 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 8,
+    "fairUsePassCount": 9,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
     "fairUseSeededCandidates": 1,
-    "fairUseRejected": 2,
+    "fairUseRejected": 3,
     "fairUsePendingNeedsVerify": 0,
-    "findSeededFixture": 1,
-    "findLiveIngestApply": 2,
+    "findSeededFixture": 2,
+    "findLiveIngestApply": 3,
     "findZeroResultsThisTick": [],
     "ingestCardsCreated": [
       {
-        "recordId": "MAR-VEN-006",
-        "cardId": "research-mar-ven-006",
+        "recordId": "MAR-VEN-008",
+        "cardId": "research-mar-ven-008",
         "state": "DISCOVERED",
-        "name": "Atlas Tennis Padel Marrakech Académie"
+        "name": "B Padel Californie"
       },
       {
-        "recordId": "MAR-VEN-007",
-        "cardId": "research-mar-ven-007",
+        "recordId": "MAR-VEN-009",
+        "cardId": "research-mar-ven-009",
         "state": "DISCOVERED",
-        "name": "TCMT Padel Club"
+        "name": "Le Carr\u00e9 Padel Agadir"
+      },
+      {
+        "recordId": "TUN-VEN-003",
+        "cardId": "research-tun-ven-003",
+        "state": "DISCOVERED",
+        "name": "Yalla Padel Sousse"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~05:04–05:09: quality stub; fair-use pass 8 promoted Atlas → MAR-VEN-006 ingest DISCOVERED; FIND Tangier TCMT → MAR-VEN-007 ingest DISCOVERED; rejected padelrevive junk + padelivu Valencia. Not claiming PUBLISHED."
+    "note": "Tick ~06:07\u201306:29: quality stub; fair-use pass 9 promoted B Padel \u2192 MAR-VEN-008; FIND Agadir Le Carr\u00e9 \u2192 MAR-VEN-009; FIND Sousse Yalla \u2192 TUN-VEN-003; all DISCOVERED. Rejected Asia/Gulf hub, need4padel builder, Clermont/France OOS. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

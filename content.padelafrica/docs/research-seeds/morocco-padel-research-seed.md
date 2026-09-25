@@ -14,6 +14,8 @@ Morocco has a large market (70+ clubs). This is a **curated sample**.
 | `research-mar-ven-005` | AREA Sports & Events Center | Oulad Azzouz / Almaz |
 | `research-mar-ven-006` | Atlas Tennis Padel Marrakech Académie | Route Ourika KM 10 / Tassoultante |
 | `research-mar-ven-007` | TCMT Padel Club | Avenue Essalam, Tangier |
+| `research-mar-ven-008` | B Padel Californie | Californie / Bd de Fès, Casablanca |
+| `research-mar-ven-009` | Le Carré Padel Agadir | Odysée Park, Blvd Mohamed V |
 | `osm-node-13300140471` | Padel Factory (already live) | Agadir |
 
 ```bash

@@ -9,6 +9,7 @@ Tunisia has a large market. This is a **curated sample**.
 | --- | --- | --- |
 | `research-tun-ven-001` | Sky Padel Charguia | Charguia 1, Tunis |
 | `research-tun-ven-002` | Padel House Tunisia | Ariana |
+| `research-tun-ven-003` | Yalla Padel Sousse | Jaz Tour Khalef, Sousse |
 | `osm-node-14065918067` | Padel in Mourouj (already live; enrich) | RR36, Mourouj |
 
 ```bash

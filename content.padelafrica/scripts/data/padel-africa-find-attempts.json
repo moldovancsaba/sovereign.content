@@ -458,6 +458,30 @@
       "outcome": "seeded",
       "recordId": "MAR-VEN-007",
       "note": "FIND tick TCMT Padel Club Ave Essalam ingest"
+    },
+    {
+      "cc": "MA",
+      "city": "Casablanca",
+      "at": "2026-09-25T06:22:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-008",
+      "note": "fair-use promote B Padel Californie ingest"
+    },
+    {
+      "cc": "MA",
+      "city": "Agadir",
+      "at": "2026-09-25T06:22:00.000Z",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-009",
+      "note": "FIND deepen Le Carré Padel Odyssee Park; Padel Factory already OSM"
+    },
+    {
+      "cc": "TN",
+      "city": "Sousse",
+      "at": "2026-09-25T06:22:00.000Z",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-003",
+      "note": "FIND deepen Yalla Padel Sousse ingest"
     }
   ]
 }

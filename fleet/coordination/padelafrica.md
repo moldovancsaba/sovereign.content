@@ -224,3 +224,17 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 3. Day-3 inbox (next calendar day).
 4. Watch DISCOVERED→PUBLISHED via pipeline only.
 
+### 2026-09-25 — padelafrica (tick ~06:22 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** `fair-use:one-pass` (28 sources). Promoted **`MAR-VEN-008` B Padel Californie** (Casablanca Californie / Bd de Fès) after evidence bar → ingest `research-mar-ven-008` **DISCOVERED**. Rejected Asia/Gulf hub, need4padel builder tool, and Clermont/France OOS directory junk.
+
+**FIND:**
+- MA Agadir deepen → fixture+ingest **`MAR-VEN-009` Le Carré Padel** (Odyssée Park / Blvd Mohamed V; Padel Factory already OSM) → `research-mar-ven-009` DISCOVERED
+- TN Sousse deepen → fixture+ingest **`TUN-VEN-003` Yalla Padel Sousse** (Jaz Tour Khalef) → `research-tun-ven-003` DISCOVERED
+
+**Inbox:** refreshed `fleet/inbox/padelafrica/status-2026-09-25.json`. HiTL none. Not claiming PUBLISHED / migration complete.
+

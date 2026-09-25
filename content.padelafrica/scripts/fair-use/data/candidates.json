@@ -90,5 +90,77 @@
     "extractedAt": "2026-09-25T05:04:56.486Z",
     "rejectedAt": "2026-09-25T05:08:00.000Z",
     "note": "Out of scope — Spain/Valencia venue, not Africa"
+  },
+  {
+    "candidateId": "fair-actu-padel-b-padel-californie",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "B Padel Californie",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-b-californie-casablanca/",
+    "website": "https://bpadelcalifornie.ma/",
+    "cityHint": "Casablanca",
+    "countryHint": "Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-b-californie-casablanca/",
+      "https://bpadelcalifornie.ma/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T06:13:16.058Z",
+    "promotedRecordId": "MAR-VEN-008",
+    "promotedCardId": "research-mar-ven-008",
+    "promotedAt": "2026-09-25T06:22:00.000Z"
+  },
+  {
+    "candidateId": "fair-padelrevive-padel-clubs-in-asia-the-gulf-every-country-mapped",
+    "sourceId": "padelrevive",
+    "sourceName": "PadelRevive",
+    "name": "Padel clubs in Asia & the Gulf: every country, mapped",
+    "citationUrl": "https://padelrevive.com/padel-clubs-in-asia/",
+    "website": "",
+    "countryHint": "Morocco",
+    "researchSources": [
+      "https://padelrevive.com/padel-clubs-in-asia/"
+    ],
+    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T06:14:03.336Z",
+    "rejectedAt": "2026-09-25T06:22:00.000Z",
+    "note": "Out of scope — Asia/Gulf article hub, not an Africa venue"
+  },
+  {
+    "candidateId": "fair-need4padel-build-a-padel-club",
+    "sourceId": "need4padel",
+    "sourceName": "need4padel",
+    "name": "Build a padel club",
+    "citationUrl": "https://need4padel.com/tools/build-a-padel-club",
+    "website": "https://padelvisible.com/?utm_source=need4padel&utm_medium=footer",
+    "researchSources": [
+      "https://need4padel.com/tools/build-a-padel-club",
+      "https://padelvisible.com/?utm_source=need4padel&utm_medium=footer"
+    ],
+    "researchNote": "Discovered via need4padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T06:18:35.163Z",
+    "rejectedAt": "2026-09-25T06:22:00.000Z",
+    "note": "Junk lead — tool/builder page, not a club venue"
+  },
+  {
+    "candidateId": "fair-padel-magazine-uk-club-directory",
+    "sourceId": "padel-magazine-uk",
+    "sourceName": "Padel Magazine (UK) club directory",
+    "name": "Club directory",
+    "citationUrl": "https://www.padel-magazine.co.uk/club-directory/Clermont-Padel-Club-2/",
+    "website": "https://www.clermontpadelclub.fr/",
+    "addressHint": "will not be published",
+    "researchSources": [
+      "https://www.padel-magazine.co.uk/club-directory/Clermont-Padel-Club-2/",
+      "https://www.clermontpadelclub.fr/"
+    ],
+    "researchNote": "Discovered via Padel Magazine (UK) club directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T06:20:52.012Z",
+    "rejectedAt": "2026-09-25T06:29:00.000Z",
+    "note": "Out of scope — Clermont/France club directory entry, not Africa"
   }
 ]

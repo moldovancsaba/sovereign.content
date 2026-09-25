@@ -46,5 +46,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-22",
     "researchNotes": "Sample audit"
+  },
+  {
+    "recordId": "TUN-VEN-003",
+    "name": "Yalla Padel Sousse",
+    "city": "Sousse",
+    "region": "Sousse",
+    "countryCode": "TN",
+    "line1": "Jaz Tour Khalef, Boulevard du 14 Janvier",
+    "lat": 35.8487855,
+    "lng": 10.6199927,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Jaz Tour Khalef hotel pin on Boulevard du 14 Janvier — club courts within hotel grounds",
+    "website": "https://ballejaune.com/club/yallapadelsousse/contact",
+    "phone": "+216 55 620 060",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours to confirm on booking.",
+    "description": "Yalla Padel Sousse is a hotel-based padel club at Jaz Tour Khalef on Boulevard du 14 Janvier with published phone contacts on BalleJaune. A clear recommendation when you want Sousse / Sahel padel beyond the Tunis and Ariana sample clubs. Call ahead to reserve.",
+    "primarySourceUrl": "https://ballejaune.com/club/yallapadelsousse/contact",
+    "secondarySourceUrl": "https://www.marhba.com/lifestyle/terrains-de-padel-a-sousse",
+    "sourceTypes": "BalleJaune contact card (hotel address+phones); Marhba Sousse padel guide",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 Sousse deepen. Secondary phone +216 22 730 028 also listed — primary BalleJaune retained. Court count not asserted."
   }
 ]
