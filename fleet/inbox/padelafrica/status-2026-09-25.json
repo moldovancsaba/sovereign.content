@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T20:40:00Z",
+  "observedAt": "2026-09-25T21:45:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,34 +14,33 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 23,
+    "fairUsePassCount": 24,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "ready_for_reconcile"
   },
   "outcomes": {
-    "qualityLoopScanned": 195,
+    "qualityLoopScanned": 200,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 23,
+    "fairUsePass": 24,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "TGO-VEN-003",
-      "GAB-VEN-003",
-      "BWA-VEN-004",
-      "ZMB-VEN-005",
-      "MAR-VEN-018"
+      "CIV-VEN-005",
+      "CIV-VEN-006",
+      "CIV-VEN-007",
+      "MUS-VEN-005"
     ],
     "findZeroResult": [
-      "RW Kigali deepen",
-      "UG Entebbe/Jinja"
+      "LY Oxygen no phone",
+      "MW Blantyre deepen already seeded"
     ],
-    "ingestDiscoveredOk": 5,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-25T20.json",
+    "ingestDiscoveredOk": 4,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-25T21.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "20:09 tick: thin-market FIND seeded Padel Up Togo, Beach Club Libreville, 10by20 Avani, Isunga Lusaka; fair-use promoted PADEL HUB Tangier. Rejected Füchse Berlin + West Palm Beach. Not claiming PUBLISHED."
+    "note": "21:15 tick: Abidjan deepen District/Padel Zone/Ivoire + ClubHouse Mauritius. Fair-use pass 24: Kick Off duplicate skipped; rejected Kreuzberg/León/RGV. Not claiming PUBLISHED."
   },
   "openDebt": [
     "core_reconcile_release_padel_africa_awaiting_management",
