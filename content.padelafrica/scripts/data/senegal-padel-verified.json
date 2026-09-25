@@ -95,5 +95,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND until-found deepen Thiès cell 2026-09-25 → Ngaparou (Thiès Region / Petite Côte adjacent). Not in excludeNames. Court count (5) from Padel Lands not asserted in description. Phone +221 78 190 69 60 from padellands only."
+  },
+  {
+    "recordId": "SEN-VEN-005",
+    "name": "Padel Club Ngaparou",
+    "city": "Ngaparou",
+    "region": "Thiès",
+    "countryCode": "SN",
+    "line1": "Après Saly Center, Route de Saly",
+    "lat": 14.4517394,
+    "lng": -17.0391927,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Saly Center mall node on Route de Saly Ngaparou — club listed after Saly Center; not rooftop geocode",
+    "phone": "+221 77 153 40 20",
+    "venueModel": "own_premises",
+    "seasonNote": "SenPages: daily 08:00–23:00 for courses/tourneys (directory hours; weekday office hours also printed 08:00–17:00)",
+    "description": "Padel Club Ngaparou is a named Petite Côte padel club on Route de Saly just after Saly Center, with a published SenPages phone and Padel Lands listing. A clear recommendation when you want Mbour-department padel beyond the Saly Portudal Palmeraie and Blu Ngaparou samples. Call ahead for court time.",
+    "primarySourceUrl": "https://www.senpages.com/entreprise/padel-club-ngaparou/",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/senegal/",
+    "sourceTypes": "SenPages directory (address+phone+hours); Padel Lands Senegal club card (matching phone)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND until-found deepen Mbour cell 2026-09-25 → Ngaparou (Département de M'bour). Not in excludeNames. Court count (2) from Padel Lands not asserted. Phone +221 77 153 40 20 matched on SenPages + Padel Lands."
   }
 ]

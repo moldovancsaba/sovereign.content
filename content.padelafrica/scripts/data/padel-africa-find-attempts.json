@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T00:12:13.000Z",
+  "updatedAt": "2026-09-25T01:11:31.257Z",
   "attempts": [
     {
       "cc": "CF",
@@ -301,6 +301,20 @@
       "outcome": "seeded",
       "at": "2026-09-25T00:12:13.000Z",
       "note": "fixture_only_pending_ingest SEN-VEN-004 Blu Padel Ngaparou (Thi\u00e8s Region)"
+    },
+    {
+      "cc": "SN",
+      "city": "Saint-Louis",
+      "outcome": "zero-result",
+      "at": "2026-09-25T01:11:31.257Z",
+      "note": "no_SN_Saint-Louis_club; Reunion/France name collisions only"
+    },
+    {
+      "cc": "SN",
+      "city": "Mbour",
+      "outcome": "seeded",
+      "at": "2026-09-25T01:11:31.257Z",
+      "note": "fixture_only_pending_ingest SEN-VEN-005 Padel Club Ngaparou (Mbour dept)"
     }
   ]
 }
