@@ -1,11 +1,11 @@
 {
   "clientId": "sportolok",
-  "observedAt": "2026-09-25T08:10:00Z",
+  "observedAt": "2026-09-25T19:06:13Z",
   "source": "sportolok-agent",
   "workingEnv": {
     "timerSubscribed": false,
     "ingestOnlyDoctrine": true,
-    "ingestOnlyReality": "partial",
+    "ingestOnlyReality": "about_media_quality_loop_wired",
     "quarantineActive": true,
     "executorIngestLivePatchProven": true,
     "livePatchListingId": "l-disc-10fdfb6e8912e955",
@@ -13,24 +13,27 @@
     "vanityDocsRetracted": true,
     "fairUseScaffoldPresent": true,
     "fairUseLiveSeedsOnMain": true,
+    "catalogJobsWired": true,
+    "pendingSeedsDrained": true,
     "releaseBranchCommitsStopped": "acknowledged"
   },
   "outcomes": {
-    "MM_SP": { "D": 5, "E": 1, "P": 1 },
-    "ingest_patch_success_rate": "3/3_recent_live",
+    "MM_SP": {
+      "D": 24,
+      "E": 5,
+      "P": 8
+    },
+    "ingest_patch_success_rate": "live_about_4_media_3_repair_1",
     "dry_patch_proven": true,
     "live_patch_proven": true,
     "test_field_pollution": "cleaned_via_ingest_null",
     "fair_use_discovery_claim": "verified_find_seeds_committed",
-    "discovered_cards_created": 5,
-    "candidates_extracted_pass": 27,
+    "discovered_cards_created": 24,
+    "pending_seeds_remaining": 0,
+    "wire_real_catalog_jobs": "done",
     "release_branch_reconcile_status": "pending_core"
   },
   "openDebt": [
-    {
-      "kind": "wire_real_catalog_jobs_to_executorIngest",
-      "n": 1
-    },
     {
       "kind": "release_sportolok_reconcile",
       "n": 1
@@ -38,13 +41,16 @@
     {
       "kind": "fair_use_detail_address_deepen",
       "n": 1,
-      "note": "magyaruszodak detail pages often lack postal address; NSÜ detail pages are high quality"
+      "note": "magyaruszodak detail pages often lack postal address; NS\u00dc detail pages are high quality"
     }
   ],
   "evidence": [
+    "content.sportolok/scripts/catalog-about-curate-ingest.ts",
+    "content.sportolok/scripts/catalog-media-curate-ingest.ts",
+    "content.sportolok/scripts/catalog-quality-loop-ingest.ts",
     "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json",
-    "content.sportolok/scripts/fair-use-discovery/data/source-state.json",
-    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-25.json"
+    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-25.json",
+    "fleet/inbox/sportolok/live-patch-proof-2026-09-25.json"
   ],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/sportolok.md"

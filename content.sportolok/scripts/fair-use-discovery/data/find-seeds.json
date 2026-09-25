@@ -77,7 +77,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-mxtcwq": {
     "seedId": "seed-hun-mxtcwq",
@@ -102,7 +102,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-bffud8": {
     "seedId": "seed-hun-bffud8",
@@ -122,7 +122,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-3jzv14": {
     "seedId": "seed-hun-3jzv14",
@@ -142,7 +142,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-z3yqjt": {
     "seedId": "seed-hun-z3yqjt",
@@ -162,7 +162,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-bmva1g": {
     "seedId": "seed-hun-bmva1g",
@@ -182,7 +182,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-171k3o": {
     "seedId": "seed-hun-171k3o",
@@ -202,7 +202,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-orjciq": {
     "seedId": "seed-hun-orjciq",
@@ -222,7 +222,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-p3ev8x": {
     "seedId": "seed-hun-p3ev8x",
@@ -242,7 +242,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "rejected"
   },
   "seed-hun-98xedn": {
     "seedId": "seed-hun-98xedn",
@@ -262,7 +262,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-9byb6x": {
     "seedId": "seed-hun-9byb6x",
@@ -282,7 +282,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-90qu0w": {
     "seedId": "seed-hun-90qu0w",
@@ -302,7 +302,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-4882ue": {
     "seedId": "seed-hun-4882ue",
@@ -322,7 +322,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-z6m7l4": {
     "seedId": "seed-hun-z6m7l4",
@@ -342,7 +342,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-1rvhhy": {
     "seedId": "seed-hun-1rvhhy",
@@ -362,7 +362,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-mohrmf": {
     "seedId": "seed-hun-mohrmf",
@@ -382,7 +382,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-g3kojw": {
     "seedId": "seed-hun-g3kojw",
@@ -402,7 +402,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-51zp25": {
     "seedId": "seed-hun-51zp25",
@@ -422,7 +422,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-vsbjcp": {
     "seedId": "seed-hun-vsbjcp",
@@ -442,7 +442,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "rejected"
   },
   "seed-hun-jyxv5r": {
     "seedId": "seed-hun-jyxv5r",
@@ -462,7 +462,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-2vs0ir": {
     "seedId": "seed-hun-2vs0ir",
@@ -482,7 +482,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-kmsx1y": {
     "seedId": "seed-hun-kmsx1y",

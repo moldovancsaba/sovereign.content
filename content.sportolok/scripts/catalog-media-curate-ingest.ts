@@ -90,6 +90,18 @@ async function main() {
       report.results.push({ id, name: listing.name, action: "skip", reason: "no_og_image" });
       continue;
     }
+    // Reject site-wide chrome (shared hero/logo) — venue-specific media only
+    if (/\/hero\.(jpe?g|png|webp)|\/logo|placeholder|default[-_]?image/i.test(imageUrl)) {
+      report.skipped++;
+      report.results.push({
+        id,
+        name: listing.name,
+        action: "skip",
+        reason: "generic_site_chrome",
+        imageUrl,
+      });
+      continue;
+    }
 
     const patch = {
       media: [

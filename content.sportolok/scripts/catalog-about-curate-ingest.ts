@@ -29,30 +29,35 @@ const VISITOR_SIGNAL =
 function draftAbout(listing: PublicListing): { text: string; reason: string } | null {
   const current = listing.description?.trim() || "";
   const score = scoreAbout(current);
-  if (score >= 70 && VISITOR_SIGNAL.test(current)) {
-    return null;
-  }
+  // Never rewrite listings that already clear the quality bar
+  if (score >= 70) return null;
 
   const place = listing.locality ? ` in ${listing.locality}` : " in Hungary";
   const name = listing.name || "This facility";
-  let text = `${name} is a sport facility${place}.`;
-  if (current.length >= 40 && current.length < 120) {
+  let text: string;
+  let reason: string;
+
+  if (current.length < 40 || score < 20) {
+    // Do not keep garbled/placeholder source text — write a safe stub
+    text = `${name} is a sport facility${place}. Confirm opening hours and programmes on site before visiting.`;
+    reason = "too_short_or_weak";
+  } else if (current.length < 120) {
     text = current.replace(/\s+/g, " ").trim();
     if (!/[.!?]$/.test(text)) text += ".";
     if (!VISITOR_SIGNAL.test(text)) {
       text += ` Visitors can check current programmes and opening hours before arrival.`;
     }
-  } else if (current.length < 40) {
-    text += ` Confirm opening hours and programmes on site before visiting.`;
+    reason = "clarity_improve";
   } else {
-    // Long but low-scoring: tighten to first ~320 chars at sentence boundary
-    text = current.slice(0, 320).replace(/\s+\S*$/, "").trim();
+    // Long but low-scoring: keep content; only ensure terminal punctuation
+    text = current.replace(/\s+/g, " ").trim();
     if (!/[.!?]$/.test(text)) text += ".";
+    reason = "punctuation_clarity";
   }
 
   if (text === current) return null;
   if (text.length < 60) return null;
-  return { text, reason: score < 40 ? "too_short_or_weak" : "clarity_improve" };
+  return { text, reason };
 }
 
 async function main() {

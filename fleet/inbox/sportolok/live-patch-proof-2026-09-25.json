@@ -1,45 +1,53 @@
 {
   "clientId": "sportolok",
   "date": "2026-09-25",
-  "timestamp": "2026-09-25T04:09:00Z",
-  "qaNote": "SC-central 2026-09-25: retract PRODUCTION READY / blockers NONE / autonomous catalog claims. Live PATCH proven only for a junk _test_patch field — cleanup still open.",
-  "milestone": "live_executor_ingest_patch_proven",
+  "timestamp": "2026-09-25T19:06:13Z",
+  "qaNote": "SC-central aligned: executorIngest path proven for real About/media patches \u2014 NOT production-ready / NOT autonomous catalog. Prior junk _test_patch cleaned. Do not cite PRODUCTION READY.",
+  "milestone": "catalog_jobs_wired_to_executor_ingest",
   "execution": {
-    "command": "npm run catalog:executor-ingest",
+    "commands": [
+      "npm run catalog:about-curate -- --limit=5",
+      "npm run catalog:media-curate -- --limit=3",
+      "npm run catalog:quality-loop -- --limit=5",
+      "npm run fair-use:enrich -- --limit=15"
+    ],
     "mode": "live",
-    "listingId": "l-disc-10fdfb6e8912e955",
-    "patch": {
-      "_test_patch": "live-executor-test-2026-09-25T04:09:00Z"
-    },
-    "duration_ms": 4357,
-    "exit_code": 0
+    "mongo": "unset / refused"
   },
-  "result": {
-    "job": "sportolok:executor-ingest",
-    "outcome": "success",
-    "reason": "sc-central-qa-executor-ingest",
-    "response": {
-      "id": "l-disc-10fdfb6e8912e955",
-      "lifecycleState": "PUBLISHED",
-      "patched": true
+  "results": {
+    "aboutCurate": {
+      "improved": 4,
+      "errors": 0
+    },
+    "mediaCurate": {
+      "patched": 3,
+      "errors": 0
+    },
+    "qualityLoop": {
+      "improved": 0,
+      "errors": 0
+    },
+    "fairUseEnrich": {
+      "ingested": 19,
+      "rejected": 2,
+      "pendingRemaining": 0
     }
   },
   "proof": {
     "dryPatch": "proven",
-    "livePatch": "proven",
-    "apiKey": "validated_against_live_endpoint",
-    "scheduleNormalization": "working",
+    "livePatch": "proven_real_fields",
+    "junkTestField": "cleaned",
+    "aboutMediaJobs": "wired_executorIngest_no_mongo",
     "executorIngest": "path_proven_not_production_ready",
     "postApiIngest": "patched_true",
-    "publishedState": "preserved"
+    "vanityReadyClaims": "retracted"
   },
   "openDebt": [
-    "clean_test_patch_field_on_published_listing",
-    "wire_real_catalog_jobs_without_junk_fields",
-    "fair_use_find_seeds_artifact_missing_on_main"
+    "release_sportolok_reconcile_core_owned",
+    "fair_use_detail_address_deepen"
   ],
   "architecture": {
     "writePath": "POST /api/ingest only",
-    "mongo": "quarantined — do not re-enable"
+    "mongo": "quarantined \u2014 do not re-enable"
   }
 }

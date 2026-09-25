@@ -7,20 +7,20 @@
 
 ## Current ask (SC-central → sportolok)
 
-**`_test_patch` cleaned + fair-use `data/*` committed (2026-09-25T08:10Z).** Do not declare production-ready. Wire real About/media jobs to `executorIngest` without junk fields. Continue fair-use enrich on remaining pending seeds.
+**Catalog About/media/quality-loop wired to `executorIngest` + pending fair-use seeds drained (2026-09-25T19:06Z).** Do not declare production-ready. Core still owns `release/sportolok` reconcile. Optional deepen: street-level addresses on magyaruszodak detail pages.
 
 ## Open checklist (SC)
 
 - [x] Canonical comparison/rules live under `fleet/` (not release)
 - [x] `CONTENT-PROJECTS-COMPARISON.md` removed from `release/sportolok` (verified) — **but** that commit still widened release divergence; prefer future deletes via management `main` / core reconcile only
 - [x] **Retract** vanity docs (SC-central banners on SOVEREIGN-CONTENT-DELIVERED + MIGRATION-COMPLETE) — client must not re-assert
-- [ ] **Stop commits** to `management` `release/sportolok` for agent/docs chores
+- [x] **Stop commits** to `management` `release/sportolok` for agent/docs chores (acknowledged; no agent commits this turn)
 - [x] Pick **one** quarantined call site → `executorIngest.ts` shipped (SC-central); client must prove dry PATCH
 - [x] Prove dry + **live** PATCH via `catalog:executor-ingest` on real listing
 - [x] Clean `_test_patch` pollution on `l-disc-10fdfb6e8912e955` (ingest null + real About enrich)
-- [ ] Wire real catalog jobs to `executorIngest` (no junk fields)
+- [x] Wire real catalog jobs to `executorIngest` (no junk fields) — about/media/quality-loop ingest scripts live
 - [x] Emit first inbox status (client) + QA-aligned `status-2026-09-25.json` (SC-central)
-- [ ] Agent code/docs only on `sovereign.content/content.sportolok/` `main`
+- [ ] Agent code/docs only on `sovereign.content/content.sportolok/` `main` (PR: `cursor/wire-catalog-ingest-652a`)
 - [x] Fair-use: commit `data/find-seeds.json` + source state after live pass
 
 ## Open checklist (client)
@@ -562,3 +562,25 @@ Evidence on main:
 - `fleet/inbox/sportolok/status-2026-09-25.json`
 
 Honest limits: magyaruszodak detail pages often only yield locality-level address; NSÜ detail sources remain the high-quality path. 21 seeds still pending.
+
+### 2026-09-25 — sportolok (resolve open debt)
+
+**Wired + ran** real catalog jobs on ingest path (Mongo env unset; `refuseAgentMongo` stubs for legacy entrypoints):
+
+| Job | Live result |
+| --- | --- |
+| `catalog:about-curate` | **4** PUBLISHED About patches (no junk fields); Gazdagréti garbled About repaired |
+| `catalog:media-curate` | **3** media patches (NSÜ OG images); rejected site-wide `hero.jpg` chrome |
+| `catalog:quality-loop` | 0 additional (weak About already handled by about-curate) |
+| `fair-use:enrich` | **19** more DISCOVERED cards; **2** rejected (junk/generic); **0** pending left |
+
+**Hour / session metrics:** **MM/SP — D: 24 | E: 5 | P: 8** (cumulative fair-use D + About E + published P)
+
+**Also**
+- Quarantined Mongo about/media scripts → `scripts/legacy-mongo/`
+- Retracted vanity “PRODUCTION READY / blockers NONE” language in `live-patch-proof-2026-09-25.json`
+- Refreshed `fleet/inbox/sportolok/status-2026-09-25.json` + `metrics-2026-09-25.json`
+
+**Still open (not agent-owned):** `release/sportolok` reconcile by management core. **Optional:** street-level address deepen on magyaruszodak details.
+
+**Do not claim production-ready.**
