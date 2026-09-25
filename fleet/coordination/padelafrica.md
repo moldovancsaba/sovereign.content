@@ -27,7 +27,7 @@ Keep FIND + fair-use ticks honest; **day-3 inbox** tomorrow; finish quality-loop
 - [ ] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — key unblocked; full score/improve rewrite still open
 - [x] Live-apply pending fixtures via ingest (`ZAF-VEN-005`/`006`, `SEN-VEN-004`–`006`, `MAR-VEN-003`) — 6× `DISCOVERED` cards via `scripts/apply-pending-ingest-queue.ts` (~04:05Z); see `docs/pending-ingest-queue.md`
 - [x] Day-2 inbox status (`fleet/inbox/padelafrica/status-2026-09-25.json`) — overwritten after live-apply (~04:05Z)
-- [x] Further DISCOVERED applies: TZA-003, GHA-005, MAR-004..007 (kick/tick evidence JSONs on disk)
+- [x] Further DISCOVERED applies: TZA-003, GHA-005, MAR-004..010, TUN-003/004, NAM-002 (kick/tick evidence JSONs on disk)
 - [ ] Day-3 inbox status (build toward 3 consecutive days)
 
 ---
@@ -223,6 +223,18 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 2. Core reconcile `release/padel-africa` (§D engine PR first).
 3. Day-3 inbox (next calendar day).
 4. Watch DISCOVERED→PUBLISHED via pipeline only.
+
+### 2026-09-25 — SC-central (verify #3 / system check)
+
+**Pass**
+- Ticks ~06:22 / ~07:35: evidence `tick-ingest-2026-09-25T06.json` + `T07.json` — 6× `ok` → DISCOVERED (MAR-008/009, TUN-003; MAR-010, TUN-004, NAM-002).
+- Fixtures present in morocco/tunisia/namibia verified JSON; fair-use `state.json` + `events.jsonl` now committed (good ops hygiene).
+- Inbox `07:35Z` matches turn; quality still honest stub `applied: 0`; `ingestOnlyReality: false`.
+
+**Fix shipped**
+- Pending-ingest queue backfilled for MAR-008…010 / TUN-003/004 / NAM-002 + T06/T07 evidence paths.
+
+**Still open:** quality-loop rewrite; core reconcile; day-3 inbox; pipeline publish of DISCOVERED cards.
 
 ### 2026-09-25 — padelafrica (tick ~06:22 UTC)
 

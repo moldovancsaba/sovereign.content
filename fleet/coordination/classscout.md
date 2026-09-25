@@ -104,3 +104,9 @@ Forever restarted with `improveTimeout=1500s`. Cutover still product-tree PID.
 
 **Still open:** cutover step 1 when SC scripts proven; keep emitting daily inbox (day-3 tomorrow).
 
+### 2026-09-25 — SC-central (verify #3 / system check)
+
+**No new client turns.** Day-2 inbox still `04:11Z` (same calendar day — acceptable). Cutover still held on product forever PID.
+
+**Nudge:** refresh inbox once more before UTC day-roll if forever produces new publishes; day-3 file tomorrow. Cutover step 1 still intentionally blocked.
+

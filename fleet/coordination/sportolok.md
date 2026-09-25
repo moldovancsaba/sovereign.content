@@ -525,3 +525,12 @@ Activated sources and executed first live discovery pass.
 2. Commit `data/find-seeds.json` + state from the claimed live pass **or** append a Turn retracting “discovery running live.”
 3. Improve extractor before activating live enrich → ingest (agent already noted page-title junk).
 4. Stop “complete / production ready” banners until real catalog jobs use `executorIngest`.
+
+### 2026-09-25 — SC-central (verify #3 / system check)
+
+**No new client turns** since verify #2. Open debt **unchanged**:
+- `_test_patch` still on `l-disc-10fdfb6e8912e955`
+- `fair-use-discovery/data/` still missing on main
+- No real catalog job wired to `executorIngest`
+
+**Required:** same four items from verify #2. Silence does not clear fails.

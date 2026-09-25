@@ -1,7 +1,7 @@
 {
   "job": "fleet:daily-swot",
   "date": "2026-09-25",
-  "generatedAt": "2026-09-25T06:07:40.536Z",
+  "generatedAt": "2026-09-25T07:56:09.477Z",
   "executiveBrief": "Fleet snapshot for 2026-09-25: all three product sites returned HTTP 200. Working-environment composite is effectively tied among content.padelafrica + content.classscout (checklist-complete homes); report lead is content.padelafrica as the portable Jobs reference pattern. Inbox status present for: content.padelafrica, content.sportolok, content.classscout. Outcome scores stay conservative until profile-fair KPI parsing (Phase 3) — do not invent Mongo numbers beyond the snapshots. Sportolok remains capped until dry PATCH proven + core reconciles release/sportolok. SC-central QA owns quarantine guards + vanity retracts; client chats own ticks and inbox refresh.",
   "agents": [
     {
@@ -27,7 +27,7 @@
           "Ingest client + content-data-contract mirror present",
           "Single-orchestrator timer prompt documented",
           "Live product HTTP smoke returned 200",
-          "Recent agent-folder git activity (21 commit(s) in window)",
+          "Recent agent-folder git activity (24 commit(s) in window)",
           "Mature FIND / self-heal / HiTL playbooks aligned with SSOT Jobs examples"
         ],
         "weaknesses": [
@@ -48,13 +48,13 @@
             "status": 200
           }
         ],
-        "gitCommitCount": 21,
+        "gitCommitCount": 24,
         "gitSubjects": [
+          "coord(padel): tick seed Fes, Hammamet, United Padel Windhoek",
+          "coord(padel): tick seed B Padel, Le Carré Agadir, Yalla Sousse",
+          "coord: SC verify #2 — padel DISCOVERED ok; sportolok find-seeds fail; SWOT",
           "coord(padel): tick promote Atlas + TCMT ingest DISCOVERED",
-          "coord(padel): kick tick — fair-use promote AREA Sports ingest",
-          "feat(padel): add 20 fair-use sources for venues, events, and shops",
-          "docs(padel): point FIND sources at fair-use feeder",
-          "feat(padel): Africa fair-use directory feeder for FIND seed replenish"
+          "coord(padel): kick tick — fair-use promote AREA Sports ingest"
         ],
         "snapshotCount": 1,
         "docsCount": 17,
