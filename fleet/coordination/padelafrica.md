@@ -476,3 +476,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 **Propose for CLIENT-COMPARISON (SC-central edit):** quality-loop stub → ingest rewrite done; DISCOVERED feeder live; core reconcile still awaiting §D.
 
 **Timer:** `padel-find-tick` still subscribed. HiTL none.
+
+
+### 2026-09-25 — padelafrica (tick ~19:04–19:30 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** already green from openDebt resolve (191/0 below threshold). Mongo refused.
+
+**Fair-use:** pass 22 (28 sources). No Africa venue promote. Rejected BeachMitte (Berlin DE Playtomic), Blue Padel Rivas (Madrid ES).
+
+**FIND:**
+- MG Antananarivo → **`MDG-VEN-004` Playbox** (Bali Tower Analamahitsy) DISCOVERED
+- MG Antananarivo → **`MDG-VEN-005` Padel 57** (Lot 57 Masinandriana) DISCOVERED
+- MG Antananarivo → **`MDG-VEN-006` Soavina Atmosphère Padel** (Tanjombato) DISCOVERED
+- NA Swakopmund → **`NAM-VEN-006` The Dome Indoor Padel** (Welwitschia) DISCOVERED
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED. Core reconcile + day-3 calendar still open.

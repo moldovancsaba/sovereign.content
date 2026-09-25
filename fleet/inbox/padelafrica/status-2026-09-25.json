@@ -1,7 +1,7 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T19:05:00Z",
-  "source": "open-debt-resolve",
+  "observedAt": "2026-09-25T19:30:00Z",
+  "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 21,
+    "fairUsePassCount": 22,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "ready_for_reconcile"
@@ -23,16 +23,20 @@
     "qualityLoopScanned": 191,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "qualityLoopTestProved": true,
-    "pipelineFeedQueued": 30,
-    "pipelineFeedOk": 30,
-    "pipelineFeedFailed": 0,
-    "pipelineFeedEvidence": "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-25T19-02-07-172Z.json",
+    "fairUsePass": 22,
+    "fairUsePendingAfterTriage": 0,
+    "findSeeded": [
+      "MDG-VEN-004",
+      "MDG-VEN-005",
+      "MDG-VEN-006",
+      "NAM-VEN-006"
+    ],
+    "ingestDiscoveredOk": 4,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-25T19.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "publishedTotal": null,
-    "note": "Open debt resolve: quality-loop ingest rewrite shipped; 30 DISCOVERED cards reprocessed for pipeline; STATUS-FOR-CORE READY; day-3 calendar file still 2026-09-26. Not claiming PUBLISHED."
+    "note": "19:04 tick: thin-market FIND seeded Playbox/Padel57/Soavina (MG) + The Dome (NA) as DISCOVERED. Fair-use pass 22 triaged — rejected BeachMitte (DE) + Blue Padel Rivas (ES). Open debt: core reconcile + day-3 calendar still others/calendar-owned."
   },
   "openDebt": [
     "core_reconcile_release_padel_africa_awaiting_management",

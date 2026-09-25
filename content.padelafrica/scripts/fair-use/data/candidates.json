@@ -1023,5 +1023,38 @@
     "note": "OOS Netherlands (Capelle aan den IJssel) — Padelclub L'Oeuf",
     "triagedAt": "2026-09-25T18:33:00Z",
     "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-beachmitte",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nBeachMitte",
+    "citationUrl": "https://playtomic.com/clubs/beachmitte",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/beachmitte",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T19:08:17.233Z",
+    "rejectedAt": "2026-09-25T19:27:26.000Z",
+    "note": "OOS Germany (Berlin Mitte) — BeachMitte Playtomic club outside Africa catalog"
+  },
+  {
+    "candidateId": "fair-padelivu-blue-padel-rivas",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Blue Padel Rivas",
+    "citationUrl": "https://padelivu.com/club/blue-padel-rivas",
+    "website": "",
+    "researchSources": [
+      "https://padelivu.com/club/blue-padel-rivas"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T19:13:34.966Z",
+    "rejectedAt": "2026-09-25T19:27:26.000Z",
+    "note": "OOS Spain (Rivas Vaciamadrid) — Blue Padel Rivas outside Africa catalog"
   }
 ]

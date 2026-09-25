@@ -121,5 +121,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Court count listed as 3 on Padel Lands — not asserted. Distinct from Windhoek and Swakopmund samples."
+  },
+  {
+    "recordId": "NAM-VEN-006",
+    "name": "The Dome Indoor Padel",
+    "city": "Swakopmund",
+    "region": "Erongo Region",
+    "countryCode": "NA",
+    "line1": "5371 Welwitschia Street, Vineta",
+    "lat": -22.6645339,
+    "lng": 14.5297636,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM leisure fitness_centre node The Dome at 5371 Welwitschia Street, Vineta",
+    "website": "https://www.thedomenamibia.com/dome-padel",
+    "phone": "+264 81 557 9233",
+    "email": "boxoffice@thedomenamibia.com",
+    "venueModel": "indoors",
+    "seasonNote": "Indoor courts; book via The Dome Namibia app. Published rate N$300/court hour on operator padel page.",
+    "description": "The Dome Indoor Padel is Namibia’s indoor padel destination at the MTC Dome on Welwitschia Street in Swakopmund with published padel phone and box-office email. A clear Erongo recommendation when you want covered courts beyond Namibia Padel Platz Am Meer and Atlantis Walvis Bay. Book via The Dome Namibia app.",
+    "primarySourceUrl": "https://www.thedomenamibia.com/dome-padel",
+    "secondarySourceUrl": "https://www.ournamibia.com/articles/lifestyle/the-growing-popularity-of-padel-in-namibia",
+    "sourceTypes": "Operator dome-padel page (address+phone+email+rates); OurNamibia coastal padel feature; indoor courts opening post",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Distinct from NAM-VEN-004 Namibia Padel Swakopmund (Platz Am Meer outdoor). Court count not asserted."
   }
 ]
