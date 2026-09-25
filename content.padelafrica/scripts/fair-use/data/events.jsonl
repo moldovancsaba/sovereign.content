@@ -732,3 +732,62 @@
 {"at":"2026-09-25T17:32:09.620Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery","url":"https://www.totalpadel.com/"}
 {"at":"2026-09-25T17:32:10.164Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery_harvest","url":"https://www.totalpadel.com/","harvested":0}
 {"at": "2026-09-25T17:35:00Z", "type": "candidate_triage", "candidateId": "fair-padelusa-glassbox-padel-club", "status": "rejected", "note": "OOS USA College Park MD"}
+{"at":"2026-09-25T18:16:41.503Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/nigeria/"}
+{"at":"2026-09-25T18:16:42.138Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/nigeria/","harvested":0}
+{"at":"2026-09-25T18:17:27.154Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery","url":"https://www.analistaspadel.com/padel-en-africa/"}
+{"at":"2026-09-25T18:17:27.897Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/padel-en-africa/","harvested":0}
+{"at":"2026-09-25T18:18:12.914Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/"}
+{"at":"2026-09-25T18:18:12.964Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery_harvest","url":"https://www.padelwithoutborders.com/","harvested":0}
+{"at":"2026-09-25T18:18:57.981Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/senegal/"}
+{"at":"2026-09-25T18:18:58.155Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/senegal/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-25T18:19:43.170Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"detail","url":"https://playtomic.com/clubs/one-padel-indoor-club"}
+{"at":"2026-09-25T18:19:43.813Z","type":"fair_use_seed","sourceId":"playtomic","mode":"detail","url":"https://playtomic.com/clubs/one-padel-indoor-club","candidateId":"fair-playtomic-book-a-court-in-one-indoor-club","reasonCode":"seeded"}
+{"at":"2026-09-25T18:20:28.830Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
+{"at":"2026-09-25T18:20:29.556Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-09-25T18:21:14.567Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery","url":"https://padel.co.ma/annuaire-des-clubs/"}
+{"at":"2026-09-25T18:21:18.155Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}
+{"at":"2026-09-25T18:22:03.175Z","type":"fair_use_attempt","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/directory/padel-club/padel-kick-off-foot-marrakesh/"}
+{"at":"2026-09-25T18:22:04.769Z","type":"fair_use_seed","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/directory/padel-club/padel-kick-off-foot-marrakesh/","candidateId":"fair-actu-padel-kick-off-academy-foot-padel","reasonCode":"seeded"}
+{"at":"2026-09-25T18:22:49.787Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-clubs-in-africa/"}
+{"at":"2026-09-25T18:22:50.282Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-clubs-in-africa/","harvested":0}
+{"at":"2026-09-25T18:23:35.298Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/johannesburg"}
+{"at":"2026-09-25T18:23:35.470Z","type":"fair_use_reject","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/johannesburg","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-25T18:24:20.487Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery","url":"https://www.africapadel.com/"}
+{"at":"2026-09-25T18:24:20.904Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}
+{"at":"2026-09-25T18:25:05.921Z","type":"fair_use_attempt","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/padelclub-l-oeuf"}
+{"at":"2026-09-25T18:25:07.021Z","type":"fair_use_seed","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/padelclub-l-oeuf","candidateId":"fair-padelivu-padelclub-l-oeuf","reasonCode":"seeded"}
+{"at":"2026-09-25T18:25:52.032Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/south-africa"}
+{"at":"2026-09-25T18:25:52.233Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery_harvest","url":"https://padelmap.net/courts/south-africa","harvested":0}
+{"at":"2026-09-25T18:26:37.248Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery","url":"https://padel.llc/"}
+{"at":"2026-09-25T18:26:37.534Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery_harvest","url":"https://padel.llc/","harvested":0}
+{"at":"2026-09-25T18:27:22.544Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery","url":"https://need4padel.com/"}
+{"at":"2026-09-25T18:27:22.600Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery_harvest","url":"https://need4padel.com/","harvested":0}
+{"at":"2026-09-25T18:28:07.616Z","type":"fair_use_attempt","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/padel-businesses/"}
+{"at":"2026-09-25T18:28:07.836Z","type":"fair_use_reject","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/padel-businesses/","status":200,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-25T18:28:52.852Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery","url":"https://padelsearch.info/web"}
+{"at":"2026-09-25T18:28:53.600Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery_harvest","url":"https://padelsearch.info/web","harvested":0}
+{"at":"2026-09-25T18:29:38.617Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery","url":"https://www.padel-magazine.co.uk/the-shop/"}
+{"at":"2026-09-25T18:29:39.151Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery_harvest","url":"https://www.padel-magazine.co.uk/the-shop/","harvested":0}
+{"at":"2026-09-25T18:30:24.167Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery","url":"https://padelmagazine.fr/le-calendrier-du-padel-francais/"}
+{"at":"2026-09-25T18:30:24.790Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery_harvest","url":"https://padelmagazine.fr/le-calendrier-du-padel-francais/","harvested":0}
+{"at":"2026-09-25T18:31:09.807Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery","url":"https://www.padelfip.com/"}
+{"at":"2026-09-25T18:31:10.084Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery_harvest","url":"https://www.padelfip.com/","harvested":0}
+{"at":"2026-09-25T18:37:12.945Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery","url":"https://premierpadel.com/en/home-page"}
+{"at":"2026-09-25T18:37:13.785Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/en/home-page","harvested":0}
+{"at": "2026-09-25T18:33:00Z", "type": "candidate_triage", "candidateId": "fair-playtomic-book-a-court-in-one-indoor-club", "status": "rejected", "note": "OOS USA (Miami Gardens) — One Indoor Club / One Padel Indoor"}
+{"at": "2026-09-25T18:33:00Z", "type": "candidate_triage", "candidateId": "fair-padelivu-padelclub-l-oeuf", "status": "rejected", "note": "OOS Netherlands (Capelle aan den IJssel) — Padelclub L'Oeuf"}
+{"at": "2026-09-25T18:33:00Z", "type": "candidate_triage", "candidateId": "fair-actu-padel-kick-off-academy-foot-padel", "status": "promoted", "note": "Verified Morocco venue — Kick Off Marrakech Route de Targa; padel WhatsApp +212 661-274274; seeded MAR-VEN-017"}
+{"at":"2026-09-25T18:37:58.803Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery","url":"https://www.thepadeldirectory.co.uk/padel-events"}
+{"at":"2026-09-25T18:37:58.934Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery_harvest","url":"https://www.thepadeldirectory.co.uk/padel-events","harvested":0}
+{"at":"2026-09-25T18:38:43.938Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery","url":"https://www.matchi.se/"}
+{"at":"2026-09-25T18:38:44.411Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery_harvest","url":"https://www.matchi.se/","harvested":0}
+{"at":"2026-09-25T18:39:29.427Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery","url":"https://www.anybuddyapp.com/"}
+{"at":"2026-09-25T18:39:30.170Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery_harvest","url":"https://www.anybuddyapp.com/","harvested":0}
+{"at":"2026-09-25T18:40:15.187Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery","url":"https://padelusa.org/"}
+{"at":"2026-09-25T18:40:17.660Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery_harvest","url":"https://padelusa.org/","harvested":3}
+{"at":"2026-09-25T18:41:02.679Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery","url":"https://www.padelbrowser.com/"}
+{"at":"2026-09-25T18:41:02.844Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery_harvest","url":"https://www.padelbrowser.com/","harvested":0}
+{"at":"2026-09-25T18:41:47.860Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery","url":"https://www.bounce.game/"}
+{"at":"2026-09-25T18:41:47.986Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery_harvest","url":"https://www.bounce.game/","harvested":0}
+{"at":"2026-09-25T18:42:33.001Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery","url":"https://www.totalpadel.com/"}
+{"at":"2026-09-25T18:42:33.542Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery_harvest","url":"https://www.totalpadel.com/","harvested":0}

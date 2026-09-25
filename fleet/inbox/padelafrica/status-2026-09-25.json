@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T17:36:00Z",
+  "observedAt": "2026-09-25T18:44:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,48 +14,60 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_stub_ran",
     "fairUseSources": 28,
-    "fairUsePassCount": 20,
+    "fairUsePassCount": 21,
     "refuseAgentMongoGuards": true
   },
   "outcomes": {
     "qualityLoopApplied": 0,
-    "fairUseSeededCandidates": 0,
-    "fairUseRejected": 4,
+    "fairUseSeededCandidates": 3,
+    "fairUseRejected": 2,
+    "fairUsePromoted": 1,
     "fairUsePendingNeedsVerify": 0,
-    "fairUsePromoted": 0,
-    "findSeededFixture": 4,
-    "findLiveIngestApply": 4,
-    "findZeroResultsThisTick": [],
+    "findSeededFixture": 5,
+    "findLiveIngestApply": 5,
+    "findZeroResultsThisTick": [
+      {
+        "cc": "EG",
+        "city": "New Administrative Capital",
+        "note": "Il Bosco tournament venue \u2014 sales phones only"
+      }
+    ],
     "ingestCardsCreated": [
       {
-        "recordId": "ZAF-VEN-012",
-        "cardId": "research-zaf-ven-012",
+        "recordId": "TUN-VEN-010",
+        "cardId": "research-tun-ven-010",
         "state": "DISCOVERED",
-        "name": "Africa Padel La Lucia"
+        "name": "KING PADEL CITY"
       },
       {
-        "recordId": "ZAF-VEN-013",
-        "cardId": "research-zaf-ven-013",
+        "recordId": "ZAF-VEN-014",
+        "cardId": "research-zaf-ven-014",
         "state": "DISCOVERED",
-        "name": "Gayle Padel Prospect Tennis Club"
+        "name": "Africa Padel Kloof Country Club"
       },
       {
-        "recordId": "MAR-VEN-016",
-        "cardId": "research-mar-ven-016",
+        "recordId": "ZAF-VEN-015",
+        "cardId": "research-zaf-ven-015",
         "state": "DISCOVERED",
-        "name": "Urban Padel Marrakech"
+        "name": "Africa Padel Salt Rock"
       },
       {
-        "recordId": "TUN-VEN-009",
-        "cardId": "research-tun-ven-009",
+        "recordId": "ZAF-VEN-016",
+        "cardId": "research-zaf-ven-016",
         "state": "DISCOVERED",
-        "name": "Seabel Padel Club"
+        "name": "Gayle Padel Raslouw"
+      },
+      {
+        "recordId": "MAR-VEN-017",
+        "cardId": "research-mar-ven-017",
+        "state": "DISCOVERED",
+        "name": "Kick Off Marrakech"
       }
     ],
     "hitlBacklog": 0,
     "aboutDebtOpen": null,
     "publishedTotal": null,
-    "note": "Tick ~17:11\u201317:36: quality stub; fair-use pass 20 no Africa promote; FIND La Lucia, Gayle Durban North, Urban Marrakech, Seabel Sousse; reject Regency Miami, coach, BELA Barcelona, Glassbox MD. Not claiming PUBLISHED."
+    "note": "Tick ~18:16\u201318:44: quality stub; fair-use pass 21 promoted Kick Off Marrakech; FIND KING Sousse + Kloof/Salt Rock/Raslouw; reject Miami One Indoor + NL L'Oeuf; EG Il Bosco sales-only zero. Not claiming PUBLISHED."
   },
   "openDebt": [
     "ingest_backed_quality_loop_full_rewrite",

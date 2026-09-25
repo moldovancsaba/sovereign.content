@@ -216,5 +216,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25T17 — Sousse deepen; 53 536 070 / 53 53 60 70 same line across sources"
+  },
+  {
+    "recordId": "TUN-VEN-010",
+    "name": "KING PADEL CITY",
+    "city": "Sousse",
+    "region": "Sousse Governorate",
+    "countryCode": "TN",
+    "line1": "Boulevard du 14 Janvier, Sousse",
+    "lat": 35.8690218,
+    "lng": 10.6041969,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Bd du 14 Janvier / Hammam Sousse corridor pin — club unit not rooftop-geocoded",
+    "website": "https://kingpadelcity.com/",
+    "phone": "+216 52 919 726",
+    "email": "",
+    "venueModel": "own_premises",
+    "seasonNote": "Book via club contact; confirm hours by phone.",
+    "description": "KING PADEL CITY sits on Boulevard du 14 Janvier in Sousse — a clear Sahel recommendation when you want a city-centre option beyond Yalla at Jaz Tour Khalef and Seabel indoor at Kalâa Kebira. Call the published mobile to reserve.",
+    "primarySourceUrl": "https://ballejaune.com/club/KINGPADELCITY/contact",
+    "secondarySourceUrl": "https://kingpadelcity.com/",
+    "sourceTypes": "BalleJaune club contact (phone+Bd du 14 Janvier); club domain",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25T18 — Sousse deepen; +216 52 919 726 on BalleJaune contact"
   }
 ]

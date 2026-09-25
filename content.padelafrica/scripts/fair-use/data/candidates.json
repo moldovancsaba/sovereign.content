@@ -965,5 +965,63 @@
     "note": "OOS USA (College Park MD) — Glassbox Padel Club; padelusa.org harvest",
     "triagedAt": "2026-09-25T17:35:00Z",
     "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-one-indoor-club",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nOne Indoor Club",
+    "citationUrl": "https://playtomic.com/clubs/one-padel-indoor-club",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/one-padel-indoor-club",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T18:19:43.812Z",
+    "note": "OOS USA (Miami Gardens) — One Indoor Club / One Padel Indoor",
+    "triagedAt": "2026-09-25T18:33:00Z",
+    "triagedBy": "padel-find-tick"
+  },
+  {
+    "candidateId": "fair-actu-padel-kick-off-academy-foot-padel",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "KICK OFF Academy Foot & Padel",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-kick-off-foot-marrakesh/",
+    "website": "http://kickoff.ma/",
+    "cityHint": "Marrakech",
+    "countryHint": "Morocco",
+    "addressHint": "Rte de Targa, Marrakech, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-kick-off-foot-marrakesh/",
+      "http://kickoff.ma/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T18:22:04.768Z",
+    "note": "Verified Morocco venue — Kick Off Marrakech Route de Targa; padel WhatsApp +212 661-274274; seeded MAR-VEN-017",
+    "triagedAt": "2026-09-25T18:33:00Z",
+    "triagedBy": "padel-find-tick",
+    "promotedRecordId": "MAR-VEN-017"
+  },
+  {
+    "candidateId": "fair-padelivu-padelclub-l-oeuf",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Padelclub L Oeuf",
+    "citationUrl": "https://padelivu.com/club/padelclub-l-oeuf",
+    "website": "",
+    "addressHint": "Groenedijk 48, 2904LB, Capelle aan den IJssel, Netherlands",
+    "researchSources": [
+      "https://padelivu.com/club/padelclub-l-oeuf"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T18:25:07.020Z",
+    "note": "OOS Netherlands (Capelle aan den IJssel) — Padelclub L'Oeuf",
+    "triagedAt": "2026-09-25T18:33:00Z",
+    "triagedBy": "padel-find-tick"
   }
 ]

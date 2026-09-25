@@ -925,6 +925,55 @@
       "query": "Seabel Padel Club Sousse",
       "outcome": "verified",
       "recordId": "TUN-VEN-009"
+    },
+    {
+      "at": "2026-09-25T18:20:00Z",
+      "cc": "TN",
+      "city": "Sousse",
+      "query": "KING PADEL CITY",
+      "outcome": "verified",
+      "recordId": "TUN-VEN-010"
+    },
+    {
+      "at": "2026-09-25T18:20:00Z",
+      "cc": "ZA",
+      "city": "Kloof",
+      "query": "Africa Padel Kloof Country Club",
+      "outcome": "verified",
+      "recordId": "ZAF-VEN-014"
+    },
+    {
+      "at": "2026-09-25T18:20:00Z",
+      "cc": "ZA",
+      "city": "Salt Rock",
+      "query": "Africa Padel Salt Rock",
+      "outcome": "verified",
+      "recordId": "ZAF-VEN-015"
+    },
+    {
+      "at": "2026-09-25T18:20:00Z",
+      "cc": "ZA",
+      "city": "Pretoria",
+      "query": "Gayle Padel Raslouw",
+      "outcome": "verified",
+      "recordId": "ZAF-VEN-016"
+    },
+    {
+      "at": "2026-09-25T18:20:00Z",
+      "cc": "EG",
+      "city": "New Administrative Capital",
+      "query": "Il Bosco Sports Club padel",
+      "outcome": "zero-result",
+      "note": "Tournament venue confirmed but only real-estate sales phones published — skip invent club line"
+    },
+    {
+      "at": "2026-09-25T18:33:00Z",
+      "cc": "MA",
+      "city": "Marrakech",
+      "query": "Kick Off Academy Foot Padel Targa",
+      "outcome": "verified",
+      "recordId": "MAR-VEN-017",
+      "note": "fair-use promote"
     }
   ]
 }

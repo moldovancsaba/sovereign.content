@@ -441,3 +441,22 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - TN Kalâa Kebira → **`TUN-VEN-009` Seabel Padel Club** DISCOVERED
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-25 — padelafrica (tick ~18:16–18:44 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → ingest-stub `applied: 0`. Mongo refused.
+
+**Fair-use:** pass 21 (28 sources). **Promoted** Kick Off Marrakech (Actu) → `MAR-VEN-017`. Rejected One Indoor Club (Miami Gardens), Padelclub L'Oeuf (Netherlands).
+
+**FIND:**
+- TN Sousse → **`TUN-VEN-010` KING PADEL CITY** DISCOVERED
+- ZA Kloof → **`ZAF-VEN-014` Africa Padel Kloof Country Club** DISCOVERED
+- ZA Salt Rock → **`ZAF-VEN-015` Africa Padel Salt Rock** DISCOVERED
+- ZA Pretoria → **`ZAF-VEN-016` Gayle Padel Raslouw** DISCOVERED
+- MA Marrakech → **`MAR-VEN-017` Kick Off Marrakech** (Targa) DISCOVERED
+- EG NAC Il Bosco → `zero-result` (sales phones only)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.

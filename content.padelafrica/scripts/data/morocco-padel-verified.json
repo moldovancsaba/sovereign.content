@@ -397,5 +397,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25T17 — Marrakech deepen; phone+email published on urbanpadelmarrakech.com"
+  },
+  {
+    "recordId": "MAR-VEN-017",
+    "name": "Kick Off Marrakech",
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "countryCode": "MA",
+    "line1": "Route de Targa, Marrakech",
+    "lat": 31.6400009,
+    "lng": -8.0229279,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Route de Targa Guéliz corridor pin — Kick Off campus not rooftop-geocoded",
+    "website": "https://kickoff.ma/",
+    "phone": "+212 661 274 274",
+    "email": "contact@kickoff.ma",
+    "venueModel": "own_premises",
+    "seasonNote": "Padel bookings via dedicated WhatsApp; reception +212 5 24 49 29 49.",
+    "description": "Kick Off Marrakech is a football-and-padel sports centre on Route de Targa — a clear Marrakech recommendation when you want bookable padel beyond Padel Square Amizmiz and Urban Guéliz, with a published padel WhatsApp line. Call or WhatsApp to reserve.",
+    "primarySourceUrl": "https://kickoff.ma/",
+    "secondarySourceUrl": "https://actu-padel.com/directory/padel-club/padel-kick-off-foot-marrakesh/",
+    "sourceTypes": "Club site (Route de Targa + reception/padel WhatsApp/email); Actu Padel fair-use candidate",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND+fair-use tick 2026-09-25T18 — promoted from Actu; padel WhatsApp +212 661-274274 on kickoff.ma (reception fixed line also published)"
   }
 ]
