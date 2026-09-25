@@ -493,3 +493,23 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - NA Swakopmund → **`NAM-VEN-006` The Dome Indoor Padel** (Welwitschia) DISCOVERED
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED. Core reconcile + day-3 calendar still open.
+
+
+### 2026-09-25 — padelafrica (tick ~20:09–20:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 195 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 23 (28 sources). **Promoted** PADEL HUB Tangier (Actu) → `MAR-VEN-018`. Rejected Füchse Berlin (DE Playtomic), PadelUSA West Palm Beach (USA).
+
+**FIND:**
+- TG Lomé → **`TGO-VEN-003` Padel Up Togo** (Tokoin Wuiti) DISCOVERED
+- GA Libreville → **`GAB-VEN-003` Beach Club Libreville Padel** (Sablière) DISCOVERED
+- BW Gaborone → **`BWA-VEN-004` 10by20 Padel Club Avani** DISCOVERED
+- ZM Lusaka → **`ZMB-VEN-005` Isunga Padel Park** DISCOVERED
+- MA Tangier → **`MAR-VEN-018` PADEL HUB Tangier** DISCOVERED
+- RW Kigali deepen → `zero-result` (only Bounce + Mamba published)
+- UG Entebbe/Jinja → `zero-result`
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.

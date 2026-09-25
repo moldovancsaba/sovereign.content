@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T19:20:00Z",
+  "updatedAt": "2026-09-25T20:35:00Z",
   "attempts": [
     {
       "cc": "CF",
@@ -1006,6 +1006,63 @@
       "query": "The Dome Indoor Padel Welwitschia",
       "outcome": "verified",
       "recordId": "NAM-VEN-006"
+    },
+    {
+      "at": "2026-09-25T20:25:00Z",
+      "cc": "TG",
+      "city": "Lom\u00e9",
+      "query": "Padel Up Togo Tokoin Wuiti",
+      "outcome": "verified",
+      "recordId": "TGO-VEN-003"
+    },
+    {
+      "at": "2026-09-25T20:25:00Z",
+      "cc": "GA",
+      "city": "Libreville",
+      "query": "Beach Club Libreville padel Sabli\u00e8re",
+      "outcome": "verified",
+      "recordId": "GAB-VEN-003"
+    },
+    {
+      "at": "2026-09-25T20:25:00Z",
+      "cc": "BW",
+      "city": "Gaborone",
+      "query": "10by20 Padel Club Avani",
+      "outcome": "verified",
+      "recordId": "BWA-VEN-004"
+    },
+    {
+      "at": "2026-09-25T20:25:00Z",
+      "cc": "ZM",
+      "city": "Lusaka",
+      "query": "Isunga Padel Park Kamwala",
+      "outcome": "verified",
+      "recordId": "ZMB-VEN-005"
+    },
+    {
+      "at": "2026-09-25T20:25:00Z",
+      "cc": "RW",
+      "city": "Kigali",
+      "query": "padel club Kigali beyond Bounce Mamba",
+      "outcome": "zero-result",
+      "note": "Only Bounce + Mamba published with contacts"
+    },
+    {
+      "at": "2026-09-25T20:25:00Z",
+      "cc": "UG",
+      "city": "Kampala",
+      "query": "padel Entebbe Jinja",
+      "outcome": "zero-result",
+      "note": "No secondary-city club phones published"
+    },
+    {
+      "at": "2026-09-25T20:35:00Z",
+      "cc": "MA",
+      "city": "Tangier",
+      "query": "PADEL HUB Tangier Desserte Qur Golf",
+      "outcome": "verified",
+      "recordId": "MAR-VEN-018",
+      "note": "fair-use promote"
     }
   ]
 }

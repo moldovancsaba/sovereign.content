@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-25T19:30:00Z",
+  "observedAt": "2026-09-25T20:40:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,29 +14,34 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 22,
+    "fairUsePassCount": 23,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "ready_for_reconcile"
   },
   "outcomes": {
-    "qualityLoopScanned": 191,
+    "qualityLoopScanned": 195,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 22,
+    "fairUsePass": 23,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "MDG-VEN-004",
-      "MDG-VEN-005",
-      "MDG-VEN-006",
-      "NAM-VEN-006"
+      "TGO-VEN-003",
+      "GAB-VEN-003",
+      "BWA-VEN-004",
+      "ZMB-VEN-005",
+      "MAR-VEN-018"
     ],
-    "ingestDiscoveredOk": 4,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-25T19.json",
+    "findZeroResult": [
+      "RW Kigali deepen",
+      "UG Entebbe/Jinja"
+    ],
+    "ingestDiscoveredOk": 5,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-25T20.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "19:04 tick: thin-market FIND seeded Playbox/Padel57/Soavina (MG) + The Dome (NA) as DISCOVERED. Fair-use pass 22 triaged — rejected BeachMitte (DE) + Blue Padel Rivas (ES). Open debt: core reconcile + day-3 calendar still others/calendar-owned."
+    "note": "20:09 tick: thin-market FIND seeded Padel Up Togo, Beach Club Libreville, 10by20 Avani, Isunga Lusaka; fair-use promoted PADEL HUB Tangier. Rejected Füchse Berlin + West Palm Beach. Not claiming PUBLISHED."
   },
   "openDebt": [
     "core_reconcile_release_padel_africa_awaiting_management",

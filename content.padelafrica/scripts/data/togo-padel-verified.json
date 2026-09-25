@@ -42,5 +42,28 @@
     "sourceTypes": "Padel Lands",
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-22"
+  },
+  {
+    "recordId": "TGO-VEN-003",
+    "name": "Padel Up Togo",
+    "city": "Lomé",
+    "region": "Maritime",
+    "countryCode": "TG",
+    "line1": "Tokoin Wuiti, Golfe 2",
+    "lat": 6.1669151,
+    "lng": 1.2361648,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Tokoin-Wuiti suburb pin — street-level address published only as Wuiti / Tokoin Wuiti",
+    "phone": "+228 91 65 67 67",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet. Call ahead.",
+    "description": "Padel Up Togo is a Tokoin Wuiti Lomé padel club with a published phone on Padel Lands and a May 2026 inauguration covered by Interfaxpress. A clear capital recommendation when you want Golfe 2 courts beyond Afriklub Jean-Paul II and Padel Family Didjolé. Call ahead to confirm open play.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/padel-up-togo/",
+    "secondarySourceUrl": "https://interfaxpress.tg/golfe-2-un-nouveau-terrain-de-padel-inaugure-a-tokoin-wuiti/",
+    "sourceTypes": "Padel Lands Padel Up Togo card (Wuiti + phone); Interfaxpress Tokoin Wuiti inauguration (Padel Up Togo / Tajedine Mohamed)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 1 — not asserted. Distinct from TGO-VEN-001 Afriklub and TGO-VEN-002 Padel Family."
   }
 ]

@@ -73,5 +73,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25T15 — Botswana third venue; Blue Tree lists (+267) 7772 3652 / sports@bluetreegolf; Padel Lands lists +267 77 723 652 for 10by20 FNB World of Golf"
+  },
+  {
+    "recordId": "BWA-VEN-004",
+    "name": "10by20 Padel Club Avani Gaborone",
+    "city": "Gaborone",
+    "region": "South-East",
+    "countryCode": "BW",
+    "line1": "Avani Hotel & Casino, Chuma Drive",
+    "lat": -24.6518756,
+    "lng": 25.9296254,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM Avani Hotel & Casino pin on Chuma Drive — padel court on hotel campus",
+    "website": "https://familygems.co.bw/listing/10by20-padel-club-botswana/",
+    "phone": "+267 77 484 305",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Book via Centre Court / 10by20; peak rates published on Family Gems listing (6pm–10pm).",
+    "description": "10by20 Padel Club Avani Gaborone is the hotel-campus padel venue on Chuma Drive with a published enquiry phone on Family Gems and DailyNews coverage of the Avani Fit partnership. A clear capital recommendation when you want 10by20 courts beyond Fields Mall and FNB World of Golf. Call or book via the 10by20 app ahead.",
+    "primarySourceUrl": "https://familygems.co.bw/listing/10by20-padel-club-botswana/",
+    "secondarySourceUrl": "https://dailynews.gov.bw/news-detail/80841",
+    "sourceTypes": "Family Gems 10by20 listing (Avani rates + phone); BOPA/DailyNews Avani Fit padel open day",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Distinct from BWA-VEN-002 Fields Mall and BWA-VEN-003 FNB World of Golf. Court count not asserted."
   }
 ]

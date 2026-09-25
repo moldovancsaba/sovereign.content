@@ -92,5 +92,29 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Directory-only Medium. Alternate phone +260 776 259 999 also listed. Court count listed as 5 — not asserted. Distinct from existing Lusaka samples."
+  },
+  {
+    "recordId": "ZMB-VEN-005",
+    "name": "Isunga Padel Park",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "countryCode": "ZM",
+    "line1": "1092 Isunga Close, Kamwala",
+    "lat": -15.4256409,
+    "lng": 28.2929028,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Isunga Close residential way pin, Kamwala — plot 1092 not rooftop-geocoded",
+    "website": "https://padelmates.se/club/e906ace409c54bc68abf1f1c0137a25c",
+    "phone": "+260 771 473 734",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily early hours via Padel Mates booking (listed from 04:00).",
+    "description": "Isunga Padel Park is a Kamwala Lusaka padel club on Isunga Close with published phone and Padel Mates court booking. A clear capital recommendation when you want courts beyond Deuce Olympia, Padelplus Leopards Hill, Xtreme Emmasdale, and Summit Linda. Book ahead via the app.",
+    "primarySourceUrl": "https://padelmates.se/club/e906ace409c54bc68abf1f1c0137a25c",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/zambia/",
+    "sourceTypes": "Padel Mates Isunga club card (Isunga Cl + phone + hours); Zambia padel directory context",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 3 on operator card — not asserted. Distinct from ZMB-VEN-001–004."
   }
 ]

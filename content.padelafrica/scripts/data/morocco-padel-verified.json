@@ -422,5 +422,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND+fair-use tick 2026-09-25T18 — promoted from Actu; padel WhatsApp +212 661-274274 on kickoff.ma (reception fixed line also published)"
+  },
+  {
+    "recordId": "MAR-VEN-018",
+    "name": "PADEL HUB Tangier",
+    "city": "Tangier",
+    "region": "Tanger-Tétouan-Al Hoceïma",
+    "countryCode": "MA",
+    "line1": "Desserte Qur Golf, 90000",
+    "lat": 35.7728862,
+    "lng": -5.8502151,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Royal Club Golf de Tanger pin — Desserte Qur Golf street not separately geocoded",
+    "phone": "+212 665-692032",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet. Call ahead.",
+    "description": "PADEL HUB Tangier is a Tangier padel club on Desserte Qur Golf with a published phone on Actu Padel and Padel Lands. A clear northern Morocco recommendation when you want Golf-district courts beyond TCMT Padel. Call ahead to confirm open play.",
+    "primarySourceUrl": "https://actu-padel.com/directory/padel-club/padel-hub-tangier/",
+    "secondarySourceUrl": "https://padellands.com/en/padel-courts/padel-hub-tanger/",
+    "sourceTypes": "Actu Padel club card (Desserte Qur Golf + phone); Padel Lands Padel Hub Tanger card",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25 fair-use promote. Court count listed as 2 — not asserted. Distinct from MAR-VEN-007 TCMT Padel."
   }
 ]

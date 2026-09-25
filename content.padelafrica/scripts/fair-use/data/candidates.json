@@ -1056,5 +1056,58 @@
     "extractedAt": "2026-09-25T19:13:34.966Z",
     "rejectedAt": "2026-09-25T19:27:26.000Z",
     "note": "OOS Spain (Rivas Vaciamadrid) — Blue Padel Rivas outside Africa catalog"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-fuchse-berlin",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nFüchse Berlin",
+    "citationUrl": "https://playtomic.com/clubs/fuchse-berlin",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/fuchse-berlin",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T20:13:40.907Z",
+    "note": "OOS Germany (Berlin) — Füchse Berlin Playtomic club outside Africa catalog",
+    "rejectedAt": "2026-09-25T20:33:06.000Z"
+  },
+  {
+    "candidateId": "fair-actu-padel-padel-hub-tangier",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "PADEL HUB Tangier",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-hub-tangier/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "countryHint": "Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-hub-tangier/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-25T20:16:01.439Z",
+    "note": "Verified Morocco venue — PADEL HUB Tangier Desserte Qur Golf; phone +212 665-692032; seeded MAR-VEN-018",
+    "promotedAt": "2026-09-25T20:33:06.000Z",
+    "recordId": "MAR-VEN-018"
+  },
+  {
+    "candidateId": "fair-padelusa-padel-club",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "Padel Club",
+    "citationUrl": "https://padelusa.org/clubs/florida/west-palm-beach/padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/florida/west-palm-beach/padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-25T20:28:55.621Z",
+    "note": "OOS USA (West Palm Beach FL) — generic PadelUSA club listing outside Africa catalog",
+    "rejectedAt": "2026-09-25T20:33:06.000Z"
   }
 ]

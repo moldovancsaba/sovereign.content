@@ -45,5 +45,30 @@
     "sourceTypes": "Hôtel du Parc Eden Sport page; Padel Lands",
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-22"
+  },
+  {
+    "recordId": "GAB-VEN-003",
+    "name": "Beach Club Libreville Padel",
+    "city": "Libreville",
+    "region": "Estuaire",
+    "countryCode": "GA",
+    "line1": "Boulevard Georges Rawiri, La Sablière",
+    "lat": 0.4746242,
+    "lng": 9.3969833,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM leisure sports_centre Beach Club on Boulevard Georges Rawiri, Sablière",
+    "website": "https://www.beachclublibreville.com/",
+    "phone": "+241 74 20 30 54",
+    "email": "pennavayrej@gmail.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Leisure complex Tue–Sun hours vary; padel line published separately from restaurant desk.",
+    "description": "Beach Club Libreville Padel is a Sablière multi-sport leisure complex with published padel activity and a dedicated padel phone on the Le Privé Gabon directory. A clear capital recommendation when you want La Sablière courts beyond Le Classico on Bessieux. Call the padel line ahead to reserve.",
+    "primarySourceUrl": "https://www.lepriveonline.com/index.php?id=286%3Abeach-club&layout=default&option=com_lepol&page=&print=1&tmpl=component&view=advertiser",
+    "secondarySourceUrl": "https://gabon4you.com/multi_category_templ/beach-club/",
+    "sourceTypes": "Le Privé Beach Club advertiser card (Sablière + padel phone 074 20 30 54); Gabon4you Beach Club (address + restaurant phones + email)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-25",
+    "researchNotes": "FIND tick 2026-09-25. Padel-specific +241 74 20 30 54 retained; general desks +241 65 08 88 88 / +241 77 17 17 77 also published. Court count not asserted. Distinct from GAB-VEN-001 Classico."
   }
 ]
