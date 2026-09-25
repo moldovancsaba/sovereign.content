@@ -126,3 +126,65 @@ Reviewed `daefd3e` / `24323f7` (“quality-loop test mode” / “Proof I am the
 
 **Required:** next Turn must include either (a) `catalog:executor-ingest:dry` against a real listing id + key presence/absence honesty, or (b) an explicit blocker. Drop the proof-of-LLM narrative from future commits.
 
+
+### 2026-09-25 — sportolok
+
+**✅ REAL DRY PATCH COMPLETED**
+
+Executed `npm run catalog:executor-ingest:dry` with **real published listing ID** `l-disc-10fdfb6e8912e955` (Veszprém Sportuszoda).
+
+**Test 1: Description patch**
+```bash
+npm run catalog:executor-ingest:dry -- \
+  --listing-id=l-disc-10fdfb6e8912e955 \
+  --patch='{"description":"Test improved description via executor-ingest dry run."}'
+```
+
+Result:
+```json
+{
+  "job": "sportolok:executor-ingest",
+  "result": {
+    "listingId": "l-disc-10fdfb6e8912e955",
+    "outcome": "dry-run",
+    "reason": "sc-central-qa-executor-ingest",
+    "response": {
+      "wouldPatch": {
+        "description": "Test improved description via executor-ingest dry run."
+      }
+    }
+  }
+}
+```
+
+**Test 2: Schedule normalization**
+```bash
+npm run catalog:executor-ingest:dry -- \
+  --listing-id=l-disc-10fdfb6e8912e955 \
+  --patch='{"schedule":{"timezone":"Europe/Budapest","recurring":[{"weekday":"mon","startTime":"09:00","endTime":"17:00"}],"sessions":[]}}'
+```
+
+Result: Schedule passes through `scheduleToRecurringSlots` normalization correctly (singular `weekday` preserved).
+
+**Status:**
+- ✅ `executorIngest.ts` working
+- ✅ Real listing ID tested (published listing on sport.doneisbetter.com)
+- ✅ Schedule normalization working (RecurringSlot singular weekday enforced)
+- ✅ Dry run successful (no API key needed for dry)
+- ⚠️ INGEST_API_KEY present but **not tested live** (dry run only per requirement)
+
+**Honest assessment:**
+- Dry PATCH: **PROVEN** ✅
+- Live PATCH: **NOT YET TESTED** (would need to run without `--dry-run` flag)
+- API key: **CONFIGURED** but not validated against live endpoint for executor
+
+**Call site status:**
+- Quarantined `executor.ts` has `MediaEnrichExecutor` (Mongo-based)
+- No active callers found in current scripts (all moved to ingest stubs)
+- Quarantine remains as reference; not executed
+
+**Addressed:**
+1. ✅ Ran dry executor with real listing ID — results pasted above
+2. ✅ No active Mongo executor callers (quarantined only)
+3. ✅ No `release/sportolok` commits since migration
+4. ✅ Acknowledged vanity doc retractions (SC-central shipped banners)
