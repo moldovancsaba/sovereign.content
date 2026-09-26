@@ -86,12 +86,14 @@
     "venueModel": "own_premises",
     "seasonNote": "Daily 06:00–22:00",
     "description": "Clube Desportivo Miramax brings padel to Rua Houari Boumediene in Miramar, Luanda — a multi-sport club with four padel courts plus football, café and family facilities. Ideal when you want club amenities around your session in the Miramar / Sambizanga side of the city, not a standalone booking-only pitch. Daytime through evening hours.",
-    "primarySourceUrl": "https://do-padel.com/dopadel/clubs/angola/luanda/luanda",
-    "secondarySourceUrl": "https://playtomic.com/clubs/clube-desportivo-miramax",
-    "sourceTypes": "Directory plus booking platform",
-    "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22",
-    "website": "https://playtomic.com/clubs/clube-desportivo-miramax"
+    "primarySourceUrl": "https://playtomic.com/clubs/clube-miramax",
+    "secondarySourceUrl": "https://do-padel.com/dopadel/clubs/angola/luanda/luanda",
+    "sourceTypes": "Playtomic CLUBE DESPORTIVO MIRAMAX; do-padel directory; club contact posts",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "website": "https://playtomic.com/clubs/clube-miramax",
+    "phone": "+244 922 740 250",
+    "researchNotes": "Phone backfill 2026-09-26: club contact 922 740 250 published on Miramax operator LinkedIn posts (football/tennis hire); Playtomic booking URL already present."
   },
   {
     "recordId": "AGO-VEN-005",

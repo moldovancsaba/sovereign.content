@@ -844,3 +844,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - SEN Dakar deepen → already seeded
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~14:11–14:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 275 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 41 (28 sources). **Promoted** Africa Padel Ruimsig → `ZAF-VEN-037`. **Rejected** Padel Farm York (GB), Padel VIP Rio (MX). `needs_verify` cleared.
+
+**FIND:**
+- ZA Cape Town densify → **`ZAF-VEN-032` Padel 365 @ WPCC**, **`ZAF-VEN-033` Enigma Padel**, **`ZAF-VEN-034` The Glen Virgin Active Padel Club**, **`ZAF-VEN-035` Bay Padel - Tokai**, **`ZAF-VEN-036` THE GRID** DISCOVERED
+- MA Casablanca densify → **`MAR-VEN-022` Oasis Sports City (City Ball)** DISCOVERED
+- Phone backfill → `AGO-VEN-004` Miramax (+244 922 740 250)
+- Fair-use promote → **`ZAF-VEN-037` Africa Padel Ruimsig** DISCOVERED
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

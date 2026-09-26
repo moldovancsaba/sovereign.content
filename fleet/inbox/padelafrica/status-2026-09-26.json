@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T13:36:52Z",
+  "observedAt": "2026-09-26T14:34:54Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 40,
+    "fairUsePassCount": 41,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,36 +22,35 @@
     "managementReleaseEqualsMain": true
   },
   "outcomes": {
-    "qualityLoopScanned": 269,
+    "qualityLoopScanned": 275,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 40,
+    "fairUsePass": 41,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-029",
-      "ZAF-VEN-030",
-      "ZAF-VEN-031",
-      "EGY-VEN-014",
-      "EGY-VEN-015",
-      "EGY-VEN-016"
+      "ZAF-VEN-032",
+      "ZAF-VEN-033",
+      "ZAF-VEN-034",
+      "ZAF-VEN-035",
+      "ZAF-VEN-036",
+      "MAR-VEN-022",
+      "ZAF-VEN-037"
     ],
-    "findPhoneBackfill": [],
+    "findPhoneBackfill": [
+      "AGO-VEN-004"
+    ],
     "findBookingUrlBackfill": [],
-    "findSkippedDuplicate": [
-      "Africa Padel Olympus fair-use \u2192 ZAF-VEN-025",
-      "SEN Dakar deepen already seeded"
-    ],
+    "findSkippedDuplicate": [],
     "findZeroResult": [
-      "DE mitte out-of-scope",
-      "MX Power Padel out-of-scope",
-      "US Ultra Aventura out-of-scope"
+      "GB Padel Farm York out-of-scope",
+      "MX Padel VIP Rio out-of-scope"
     ],
-    "ingestDiscoveredOk": 6,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T13.json",
+    "ingestDiscoveredOk": 8,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T14.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "13:08 tick: Jozi Padel + Dunkeld + Royal JHB; Neon + 15-Love + Padel It Palm Hills. Fair-use pass 40 \u2014 Olympus duplicate; DE/MX/US rejects. Not claiming PUBLISHED."
+    "note": "14:11 tick: Cape Town densify WPCC/Enigma/Glen/Bay/THE GRID; City Ball Oasis Casablanca; Miramax phone; fair-use pass 41 promote Ruimsig. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [

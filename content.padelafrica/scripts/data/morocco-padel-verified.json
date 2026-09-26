@@ -519,5 +519,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Fair-use promote. Evidence: Actu street Rocade Palmeraie + phone 0608-853012; directory GPS 31.6903199,-7.9992123. Fair-use had wrong DE website; corrected to palmarena.business.site."
+  },
+  {
+    "recordId": "MAR-VEN-022",
+    "name": "Oasis Sports City (City Ball)",
+    "city": "Casablanca",
+    "region": "Casablanca-Settat",
+    "countryCode": "MA",
+    "line1": "246 Route de l'Oasis, Casablanca 20000",
+    "lat": 33.5463907,
+    "lng": -7.645505,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Route de l'Oasis primary highway pin (Hay Hassani / Californie side)",
+    "website": "https://oasissportscity.ma/",
+    "phone": "+212 522 258 606",
+    "email": "contact@jsc.ma",
+    "venueModel": "outdoors",
+    "seasonNote": "Daily 08:00–00:00; City Ball padel desk on club contact page.",
+    "description": "Oasis Sports City (City Ball) on Route de l'Oasis in Casablanca publishes a dedicated City Ball padel phone and club email with padel courts on the complex. A clear Casablanca recommendation when you want Oasis-side courts rather than denser Anfa listings alone. Call the City Ball desk ahead.",
+    "primarySourceUrl": "https://oasissportscity.ma/contact/",
+    "secondarySourceUrl": "https://padellands.com/en/padel-courts/oasis-sports-city-city-ball/",
+    "sourceTypes": "Official Oasis Sports City contact; Padel Lands listing",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Casablanca densify. Evidence: oasissportscity.ma contact City Ball 05 22 25 86 06 + 246 Route de l'Oasis; Padel Lands confirms padel."
   }
 ]

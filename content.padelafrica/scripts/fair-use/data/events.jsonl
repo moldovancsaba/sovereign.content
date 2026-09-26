@@ -1928,3 +1928,62 @@
 {"type": "fair_use_triage", "at": "2026-09-26T13:36:52Z", "action": "skipped_duplicate", "candidateId": "fair-actu-padel-africa-padel-olympus", "note": "ZAF-VEN-025", "tick": "2026-09-26T13"}
 {"type": "fair_use_triage", "at": "2026-09-26T13:36:52Z", "action": "reject", "candidateId": "fair-padelivu-power-padel", "note": "non_africa", "tick": "2026-09-26T13"}
 {"type": "fair_use_triage", "at": "2026-09-26T13:36:52Z", "action": "reject", "candidateId": "fair-padelusa-ultra-aventura-padel-club", "note": "non_africa", "tick": "2026-09-26T13"}
+{"at":"2026-09-26T14:12:21.477Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/nigeria/"}
+{"at":"2026-09-26T14:12:22.108Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/nigeria/","harvested":0}
+{"at":"2026-09-26T14:13:07.124Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery","url":"https://www.analistaspadel.com/padel-en-africa/"}
+{"at":"2026-09-26T14:13:07.877Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/padel-en-africa/","harvested":0}
+{"at":"2026-09-26T14:13:52.894Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/"}
+{"at":"2026-09-26T14:13:52.936Z","type":"fair_use_reject","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/","status":403,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-26T14:14:37.952Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/senegal/"}
+{"at":"2026-09-26T14:14:38.114Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/senegal/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-26T14:15:23.131Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"detail","url":"https://playtomic.com/clubs/the-padel-farm-york"}
+{"at":"2026-09-26T14:15:24.224Z","type":"fair_use_seed","sourceId":"playtomic","mode":"detail","url":"https://playtomic.com/clubs/the-padel-farm-york","candidateId":"fair-playtomic-book-a-court-in-the-padel-farm-york","reasonCode":"seeded"}
+{"at":"2026-09-26T14:16:09.241Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
+{"at":"2026-09-26T14:16:09.915Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-09-26T14:16:54.931Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery","url":"https://padel.co.ma/annuaire-des-clubs/"}
+{"at":"2026-09-26T14:16:58.032Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}
+{"at":"2026-09-26T14:17:43.051Z","type":"fair_use_attempt","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-africa-ruimsig-roodepoort-en/"}
+{"at":"2026-09-26T14:17:43.792Z","type":"fair_use_seed","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-africa-ruimsig-roodepoort/","candidateId":"fair-actu-padel-africa-padel-ruimsig","reasonCode":"seeded"}
+{"at":"2026-09-26T14:18:28.809Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-clubs-in-asia/"}
+{"at":"2026-09-26T14:18:29.313Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-clubs-in-asia/","harvested":0}
+{"at":"2026-09-26T14:19:14.319Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/cape-town"}
+{"at":"2026-09-26T14:19:14.461Z","type":"fair_use_reject","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/cape-town","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-26T14:19:59.476Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery","url":"https://www.africapadel.com/"}
+{"at":"2026-09-26T14:19:59.902Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}
+{"at":"2026-09-26T14:20:44.908Z","type":"fair_use_attempt","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/padel-vip-rio"}
+{"at":"2026-09-26T14:20:45.489Z","type":"fair_use_seed","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/padel-vip-rio","candidateId":"fair-padelivu-padel-vip-rio","reasonCode":"seeded"}
+{"at":"2026-09-26T14:21:30.503Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/morocco"}
+{"at":"2026-09-26T14:21:30.686Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery_harvest","url":"https://padelmap.net/courts/morocco","harvested":0}
+{"at":"2026-09-26T14:22:15.687Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery","url":"https://padel.llc/"}
+{"at":"2026-09-26T14:22:16.038Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery_harvest","url":"https://padel.llc/","harvested":0}
+{"at":"2026-09-26T14:23:01.054Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery","url":"https://need4padel.com/"}
+{"at":"2026-09-26T14:23:01.106Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery_harvest","url":"https://need4padel.com/","harvested":0}
+{"at":"2026-09-26T14:23:46.121Z","type":"fair_use_attempt","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/padel-businesses/"}
+{"at":"2026-09-26T14:23:46.294Z","type":"fair_use_reject","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/padel-businesses/","status":200,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-26T14:24:31.310Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"detail","url":"https://padelsearch.info/web/site/brand/the-mvp-padel-the-motion-vibes-padel-club"}
+{"at":"2026-09-26T14:24:31.902Z","type":"fair_use_reject","sourceId":"padelsearch","mode":"detail","url":"https://padelsearch.info/web/site/brand/the-mvp-padel-the-motion-vibes-padel-club","candidateId":"fair-padelsearch-are-you-ready","reasonCode":"duplicate"}
+{"at":"2026-09-26T14:25:16.908Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery","url":"https://www.padel-magazine.co.uk/club-directory/"}
+{"at":"2026-09-26T14:25:17.759Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery_harvest","url":"https://www.padel-magazine.co.uk/club-directory/","harvested":0}
+{"at":"2026-09-26T14:26:02.776Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery","url":"https://padelmagazine.fr/calendrier/"}
+{"at":"2026-09-26T14:26:03.661Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery_harvest","url":"https://padelmagazine.fr/calendrier/","harvested":0}
+{"at":"2026-09-26T14:26:48.679Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery","url":"https://www.padelfip.com/"}
+{"at":"2026-09-26T14:26:48.938Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery_harvest","url":"https://www.padelfip.com/","harvested":0}
+{"at":"2026-09-26T14:27:33.954Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery","url":"https://premierpadel.com/en/home-page"}
+{"at":"2026-09-26T14:27:34.479Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/en/home-page","harvested":0}
+{"at":"2026-09-26T14:28:19.495Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery","url":"https://www.thepadeldirectory.co.uk/find-padel-courts"}
+{"at":"2026-09-26T14:28:19.543Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery_harvest","url":"https://www.thepadeldirectory.co.uk/find-padel-courts","harvested":0}
+{"at":"2026-09-26T14:29:04.558Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery","url":"https://www.matchi.se/"}
+{"at":"2026-09-26T14:29:04.935Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery_harvest","url":"https://www.matchi.se/","harvested":0}
+{"at":"2026-09-26T14:29:49.951Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery","url":"https://www.anybuddyapp.com/"}
+{"at":"2026-09-26T14:29:50.656Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery_harvest","url":"https://www.anybuddyapp.com/","harvested":0}
+{"at":"2026-09-26T14:30:35.673Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery","url":"https://padelusa.org/"}
+{"at":"2026-09-26T14:30:37.410Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery_harvest","url":"https://padelusa.org/","harvested":4}
+{"at":"2026-09-26T14:31:22.429Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery","url":"https://www.padelbrowser.com/"}
+{"at":"2026-09-26T14:31:22.558Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery_harvest","url":"https://www.padelbrowser.com/","harvested":0}
+{"at":"2026-09-26T14:32:07.574Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery","url":"https://www.bounce.game/"}
+{"at":"2026-09-26T14:32:07.652Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery_harvest","url":"https://www.bounce.game/","harvested":0}
+{"at":"2026-09-26T14:32:52.667Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery","url":"https://www.totalpadel.com/"}
+{"at":"2026-09-26T14:32:53.299Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery_harvest","url":"https://www.totalpadel.com/","harvested":0}
+{"type": "fair_use_triage", "at": "2026-09-26T14:34:31Z", "action": "reject", "candidateId": "fair-playtomic-book-a-court-in-the-padel-farm-york", "note": "non_africa", "tick": "2026-09-26T14"}
+{"type": "fair_use_triage", "at": "2026-09-26T14:34:31Z", "action": "promote", "candidateId": "fair-actu-padel-africa-padel-ruimsig", "note": "ZAF-VEN-037", "tick": "2026-09-26T14"}
+{"type": "fair_use_triage", "at": "2026-09-26T14:34:31Z", "action": "reject", "candidateId": "fair-padelivu-padel-vip-rio", "note": "non_africa", "tick": "2026-09-26T14"}

@@ -1958,5 +1958,59 @@
     "extractedAt": "2026-09-26T13:29:23.595Z",
     "rejectedAt": "2026-09-26T13:36:52Z",
     "rejectReason": "out_of_scope_non_africa"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-the-padel-farm-york",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nThe Padel Farm York",
+    "citationUrl": "https://playtomic.com/clubs/the-padel-farm-york",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/the-padel-farm-york",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T14:15:24.221Z",
+    "triagedAt": "2026-09-26T14:34:31Z",
+    "triageNote": "non_africa"
+  },
+  {
+    "candidateId": "fair-actu-padel-africa-padel-ruimsig",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Africa Padel Ruimsig",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-africa-ruimsig-roodepoort/",
+    "website": "https://africapadel.com/",
+    "countryHint": "South Africa",
+    "addressHint": "29 1 Peter Rd Two Rivers, Tres Jolie AH, Ruimsig, Roodepoort, 2040, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-africa-ruimsig-roodepoort/",
+      "https://africapadel.com/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-26T14:17:43.790Z",
+    "triagedAt": "2026-09-26T14:34:31Z",
+    "triageNote": "ZAF-VEN-037",
+    "promotedRecordId": "ZAF-VEN-037"
+  },
+  {
+    "candidateId": "fair-padelivu-padel-vip-rio",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Padel VIP Rio",
+    "citationUrl": "https://padelivu.com/club/padel-vip-rio",
+    "website": "",
+    "addressHint": "Antonio Castro Leal 615, Los Sabinos Tres Rios, 80010, Culiacán Rosales, Mexico",
+    "researchSources": [
+      "https://padelivu.com/club/padel-vip-rio"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T14:20:45.487Z",
+    "triagedAt": "2026-09-26T14:34:31Z",
+    "triageNote": "non_africa"
   }
 ]
