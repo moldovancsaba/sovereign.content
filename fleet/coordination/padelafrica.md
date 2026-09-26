@@ -812,3 +812,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - NG Magic/Landmark / GH Mamba / MG Garden Ivandry → skipped
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~12:03–12:30 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 265 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 39 (28 sources). **skipped_duplicate** Africa Padel La Lucia → `ZAF-VEN-012`. **Rejected** Padel.hr (HR), Club Delfos (ES). `needs_verify` cleared.
+
+**FIND:**
+- ZA Pretoria densify → **`ZAF-VEN-025` Africa Padel Olympus**, **`ZAF-VEN-026` SKYe PADEL**, **`ZAF-VEN-027` Village Padel**, **`ZAF-VEN-028` Rietondale Padel** DISCOVERED
+- Phone/email backfill → `AGO-VEN-015` Playtime (+244 922 959 974), `AGO-VEN-010` Q88 email
+- CM Elite Yaoundé / MZ Play Padel COOP / GQ Ukomba → skipped
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

@@ -225,11 +225,13 @@
     "seasonNote": "Daily 05:00–00:00",
     "description": "Q88 padel at Clube Naval de Luanda puts courts on Avenida Murtala Mohammed inside the naval club grounds. Four courts with café, restaurant and private parking — a clear recommendation for players who want waterfront-club facilities and early-to-late sessions in the Clube Naval belt. Open from before dawn into midnight.",
     "primarySourceUrl": "https://do-padel.com/dopadel/clubs/angola/luanda/luanda",
-    "secondarySourceUrl": "https://playtomic.com/clubs/q88",
-    "sourceTypes": "Directory plus booking platform",
+    "secondarySourceUrl": "https://www.vivreenangola.com/bonnes-adresses/q88-padel-clube-naval/",
+    "sourceTypes": "Playtomic Q88; Vivre en Angola (email); Clube Naval context",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22",
-    "website": "https://playtomic.com/clubs/q88"
+    "lastVerifiedUtc": "2026-09-26",
+    "website": "https://playtomic.com/clubs/q88",
+    "email": "geral@q88.ao",
+    "researchNotes": "Email backfill; no invent of Naval general phone as Q88 desk"
   },
   {
     "recordId": "AGO-VEN-011",
@@ -315,13 +317,16 @@
     "geoNote": "Geocoded from: Banco de Fomento Angola, Torre Cuanza Norte/Cuanza Sul, Belas Business Park, Talatona, Município do Talatona, Luanda, An",
     "venueModel": "own_premises",
     "seasonNote": "Hours not listed yet.",
-    "description": "Playtime is a high-capacity padel stop on Avenida Luanda Sul in southern Luanda / Talatona. Directory and player references point to regular play here — a solid lead when you want volume of courts on the Luanda Sul approach. Public contact details were thin in the audit; confirm booking channels before you go.",
-    "primarySourceUrl": "https://padelpush.co/padel-clubs/angola/luanda",
-    "secondarySourceUrl": null,
-    "sourceTypes": "Specialist directory",
-    "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "A player-directory reference also independently mentions regular play at Playtime in Talatona."
+    "description": "Playtime Belas Club on Avenida Luanda Sul near Belas Shopping publishes a WhatsApp/phone and email for Luanda padel among family leisure amenities. A useful Belas recommendation when you want Luanda Sul courts. Call or WhatsApp ahead to confirm padel desk hours and guest access.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/play-time-belas-club/",
+    "secondarySourceUrl": "https://www.vivreenangola.com/bonnes-adresses/playtime-belas-clube/",
+    "sourceTypes": "Padel Lands Play Time Belas; Vivre en Angola (phone/email); Instagram @playtime_angola WhatsApp",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Phone backfill +244 922 959 974",
+    "phone": "+244 922 959 974",
+    "email": "geral@playtime.co.ao",
+    "website": "https://padellands.com/en/padel-courts/play-time-belas-club/"
   },
   {
     "recordId": "AGO-VEN-016",

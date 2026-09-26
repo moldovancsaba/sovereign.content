@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T11:43:27Z",
+  "observedAt": "2026-09-26T12:32:14Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 38,
+    "fairUsePassCount": 39,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,37 +22,40 @@
     "managementReleaseEqualsMain": true
   },
   "outcomes": {
-    "qualityLoopScanned": 261,
+    "qualityLoopScanned": 265,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 38,
+    "fairUsePass": 39,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "KEN-VEN-013",
-      "KEN-VEN-014",
-      "KEN-VEN-015",
-      "KEN-VEN-016"
+      "ZAF-VEN-025",
+      "ZAF-VEN-026",
+      "ZAF-VEN-027",
+      "ZAF-VEN-028"
     ],
     "findPhoneBackfill": [
-      "AGO-VEN-013",
-      "AGO-VEN-005"
+      "AGO-VEN-015"
     ],
     "findBookingUrlBackfill": [],
+    "findEmailBackfill": [
+      "AGO-VEN-010"
+    ],
     "findSkippedDuplicate": [
-      "Africa Padel Claremont fair-use \u2192 ZAF-VEN-002"
+      "Africa Padel La Lucia fair-use \u2192 ZAF-VEN-012"
     ],
     "findZeroResult": [
-      "NG Magic Padel Lagos no reliable padel phone",
-      "NG Play Padel Landmark placeholder phone",
-      "GH Mamba Club Accra street no phone",
-      "MG Garden Padel Ivandry still phone-thin"
+      "CM Elite Padel Yaounde phone without street",
+      "MZ Play Padel COOP still no phone",
+      "GQ Ukomba phones not padel-specific",
+      "HR Padel.hr out-of-scope",
+      "ES Club Delfos out-of-scope"
     ],
     "ingestDiscoveredOk": 6,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T11.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T12.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "11:13 tick: Padel Point Westlands/Nanyuki + Padel Plus Karen + Zen Padel; Dragon + KOOL phone backfills. Fair-use pass 38 \u2014 Claremont duplicate. Not claiming PUBLISHED."
+    "note": "12:03 tick: Pretoria densify Olympus/SKYe/Village/Rietondale; Playtime phone + Q88 email. Fair-use pass 39 \u2014 La Lucia duplicate; HR/ES rejects. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [

@@ -2176,6 +2176,93 @@
       "countryCode": "MG",
       "result": "zero_result",
       "evidence": "booking site blocked; still phone-thin"
+    },
+    {
+      "at": "2026-09-26T12:05:50Z",
+      "tick": "2026-09-26T12",
+      "action": "seed",
+      "recordId": "ZAF-VEN-025",
+      "name": "Africa Padel Olympus",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T12:05:50Z",
+      "tick": "2026-09-26T12",
+      "action": "seed",
+      "recordId": "ZAF-VEN-026",
+      "name": "SKYe PADEL",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T12:05:50Z",
+      "tick": "2026-09-26T12",
+      "action": "seed",
+      "recordId": "ZAF-VEN-027",
+      "name": "Village Padel",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T12:05:50Z",
+      "tick": "2026-09-26T12",
+      "action": "seed",
+      "recordId": "ZAF-VEN-028",
+      "name": "Rietondale Padel",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T12:05:50Z",
+      "tick": "2026-09-26T12",
+      "action": "phone_backfill",
+      "recordId": "AGO-VEN-015",
+      "name": "Playtime",
+      "countryCode": "AO",
+      "result": "phone_backfill",
+      "evidence": "+244 922 959 974"
+    },
+    {
+      "at": "2026-09-26T12:05:50Z",
+      "tick": "2026-09-26T12",
+      "action": "email_backfill",
+      "recordId": "AGO-VEN-010",
+      "name": "Q88",
+      "countryCode": "AO",
+      "result": "email_backfill",
+      "evidence": "geral@q88.ao; booking Playtomic"
+    },
+    {
+      "at": "2026-09-26T12:05:50Z",
+      "tick": "2026-09-26T12",
+      "action": "skip",
+      "name": "Elite Padel Yaounde",
+      "countryCode": "CM",
+      "result": "zero_result",
+      "evidence": "phone without street"
+    },
+    {
+      "at": "2026-09-26T12:05:50Z",
+      "tick": "2026-09-26T12",
+      "action": "skip",
+      "name": "Play Padel COOP Maputo",
+      "countryCode": "MZ",
+      "result": "zero_result",
+      "evidence": "still no phone"
+    },
+    {
+      "at": "2026-09-26T12:05:50Z",
+      "tick": "2026-09-26T12",
+      "action": "skip",
+      "name": "Ukomba Sport Bata",
+      "countryCode": "GQ",
+      "result": "zero_result",
+      "evidence": "directory phones not padel-specific"
     }
   ]
 }
