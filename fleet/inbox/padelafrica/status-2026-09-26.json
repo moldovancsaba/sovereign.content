@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T16:29:43Z",
+  "observedAt": "2026-09-26T17:33:23Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 43,
+    "fairUsePassCount": 44,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,34 +22,34 @@
     "managementReleaseEqualsMain": true
   },
   "outcomes": {
-    "qualityLoopScanned": 289,
+    "qualityLoopScanned": 297,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 43,
+    "fairUsePass": 44,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-045",
-      "ZAF-VEN-046",
-      "ZAF-VEN-047",
-      "ZAF-VEN-048",
-      "ZAF-VEN-049",
-      "ZAF-VEN-050",
-      "RWA-VEN-003",
-      "ZAF-VEN-051"
+      "ZAF-VEN-052",
+      "ZAF-VEN-053",
+      "ZAF-VEN-054",
+      "ZAF-VEN-055",
+      "ZAF-VEN-056",
+      "ZAF-VEN-057",
+      "ZAF-VEN-058",
+      "ZAF-VEN-059"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "ID Nomads Padel Village Bali out-of-scope",
-      "US Union Padel Club Chicago out-of-scope"
+      "PA Park And Padel out-of-scope",
+      "US Charlotte Padel Club out-of-scope"
     ],
     "ingestDiscoveredOk": 8,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T16.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T17.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "16:04 tick: EC/WC densify Old Grey + Durbanville/Lourensford/George trio; RW Pinnacle; fair-use Al Falaah. Not claiming PUBLISHED."
+    "note": "17:07 tick: VAPC densify Epicentre/Woodstock/Huddle/Centurion/Gateway/Lorraine + Pitch n Padel; fair-use Atlantic Beach. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [

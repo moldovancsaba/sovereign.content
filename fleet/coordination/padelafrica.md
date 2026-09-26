@@ -893,3 +893,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Fair-use promote → **`ZAF-VEN-051` Al Falaah Durban Padel** DISCOVERED
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~17:07–17:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 297 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 44 (28 sources). **Promoted** Atlantic Padel @ Atlantic Beach → `ZAF-VEN-059`. **Rejected** Park And Padel (PA), Charlotte Padel Club (US). `needs_verify` cleared.
+
+**FIND:**
+- ZA VAPC densify → **`ZAF-VEN-052` Epicentre**, **`ZAF-VEN-053` Woodstock**, **`ZAF-VEN-054` Huddle Park**, **`ZAF-VEN-055` Centurion**, **`ZAF-VEN-057` Gateway**, **`ZAF-VEN-058` Lorraine** DISCOVERED
+- ZA EC densify → **`ZAF-VEN-056` Pitch n Padel PE Golf Course** DISCOVERED
+- Fair-use promote → **`ZAF-VEN-059` Atlantic Padel @ Atlantic Beach** DISCOVERED
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
