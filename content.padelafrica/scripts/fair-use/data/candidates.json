@@ -1758,5 +1758,59 @@
     "extractedAt": "2026-09-26T09:09:00.951Z",
     "promotedRecordId": "ZAF-VEN-021",
     "triagedAt": "2026-09-26T09:15:00Z"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-powerleague-shoreditch",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPowerleague Shoreditch",
+    "citationUrl": "https://playtomic.com/clubs/powerleague-shoreditch",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/powerleague-shoreditch",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T10:12:30.676Z",
+    "rejectedAt": "2026-09-26T10:33:04Z",
+    "rejectReason": "out_of_scope_uk_no_africa"
+  },
+  {
+    "candidateId": "fair-actu-padel-africa-padel-camps-bay",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Africa Padel Camps Bay",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-africa-camps-cape-town/",
+    "website": "http://www.africapadel.com/",
+    "cityHint": "Cape Town",
+    "countryHint": "South Africa",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-africa-camps-cape-town/",
+      "http://www.africapadel.com/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-26T10:14:50.811Z",
+    "skippedAt": "2026-09-26T10:33:04Z",
+    "skippedReason": "already_seeded_ZAF-VEN-001",
+    "duplicateRecordId": "ZAF-VEN-001"
+  },
+  {
+    "candidateId": "fair-padelivu-the-bubble-club-blaricum-premium-sports-and-social-club",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "THE BUBBLE CLUB BLARICUM Premium Sports and Social Club",
+    "citationUrl": "https://padelivu.com/club/the-bubble-club-blaricum-premium-sports-and-social-club",
+    "website": "",
+    "addressHint": "Hendrik Smitlaantje 4, 1261 VA, Blaricum, Netherlands",
+    "researchSources": [
+      "https://padelivu.com/club/the-bubble-club-blaricum-premium-sports-and-social-club"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T10:17:52.971Z",
+    "rejectedAt": "2026-09-26T10:33:04Z",
+    "rejectReason": "out_of_scope_netherlands"
   }
 ]

@@ -63,13 +63,14 @@
     "website": "https://directory.playtomic.io/egypt/padel-courts-in-alexandria-egypt/",
     "venueModel": "own_premises",
     "seasonNote": "Hours not listed yet.",
-    "description": "Green Plaza Sports Complex offers bookable padel at Green Plaza Mall in Sidi Gaber, Alexandria — a mall-based option listed on Playtomic’s Alexandria directory. A useful recommendation when you want eastern Alexandria padel near Ezbet El-Nozha rather than Smouha or Mahmoudia alone. Court inventory and phone were not published on the directory card — confirm on booking before you travel.",
+    "description": "Green Plaza Sports Complex offers bookable padel at Green Plaza Mall in Sidi Gaber, Alexandria with a published sports-complex phone. A useful recommendation when you want eastern Alexandria padel near Ezbet El-Nozha rather than Smouha or Mahmoudia alone. Confirm court inventory on booking before you travel.",
     "primarySourceUrl": "https://directory.playtomic.io/egypt/padel-courts-in-alexandria-egypt/",
-    "secondarySourceUrl": "https://directory.playtomic.io/egypt/padel-courts-in-alexandria-egypt/",
-    "sourceTypes": "Playtomic directory",
-    "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Thin contact — no invented phone; mall pin retained"
+    "secondarySourceUrl": "https://padellands.com/en/padel-courts/green-plaza-sports-complex/",
+    "sourceTypes": "Playtomic Alexandria directory; Padel Lands + ORBYTE FINDER phone; Green Plaza Sports site",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Phone backfill from Padel Lands / ORBYTE 01281895350; not inventing court count",
+    "phone": "+20 128 189 5350"
   },
   {
     "recordId": "EGY-VEN-004",

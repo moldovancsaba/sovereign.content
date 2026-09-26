@@ -780,3 +780,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - BW District 267 / TZ Heaven of Peace pickleball / MZ Play Padel COOP / DZ under-dev → skipped
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~10:08–10:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** score-only → 261 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 37 (28 sources). **Rejected** Powerleague Shoreditch (UK), Bubble Club Blaricum (NL). **skipped_duplicate** Africa Padel Camps Bay → `ZAF-VEN-001`. `needs_verify` cleared.
+
+**FIND:**
+- ZA Eastern Cape densify → **`ZAF-VEN-022` Old Selbornian Padel Club**, **`ZAF-VEN-023` Padel Park Beacon Bay**, **`ZAF-VEN-024` Beyond Padel @ Boardwalk** DISCOVERED
+- Phone backfill → `EGY-VEN-003` Green Plaza (+20 128 189 5350), `CPV-VEN-005` VOI Vila do Farol (+238 242 1725)
+- MG Garden Padel Ivandry / AO Max Padel Luanda → skipped (phone-thin)
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

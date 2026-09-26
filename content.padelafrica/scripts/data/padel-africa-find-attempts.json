@@ -2003,6 +2003,79 @@
       "query": "Action Padel Century City fair-use promote",
       "outcome": "seeded",
       "recordId": "ZAF-VEN-021"
+    },
+    {
+      "at": "2026-09-26T10:12:05Z",
+      "tick": "2026-09-26T10",
+      "action": "seed",
+      "recordId": "ZAF-VEN-022",
+      "name": "Old Selbornian Padel Club",
+      "city": "East London",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T10:12:05Z",
+      "tick": "2026-09-26T10",
+      "action": "seed",
+      "recordId": "ZAF-VEN-023",
+      "name": "Padel Park Beacon Bay",
+      "city": "East London",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T10:12:05Z",
+      "tick": "2026-09-26T10",
+      "action": "seed",
+      "recordId": "ZAF-VEN-024",
+      "name": "Beyond Padel @ Boardwalk",
+      "city": "Gqeberha",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T10:12:05Z",
+      "tick": "2026-09-26T10",
+      "action": "phone_backfill",
+      "recordId": "EGY-VEN-003",
+      "name": "Green Plaza Sports Complex",
+      "city": "Alexandria",
+      "countryCode": "EG",
+      "result": "phone_backfill",
+      "evidence": "padellands/orbyte +20 1281895350"
+    },
+    {
+      "at": "2026-09-26T10:12:05Z",
+      "tick": "2026-09-26T10",
+      "action": "phone_backfill",
+      "recordId": "CPV-VEN-005",
+      "name": "VOI Vila do Farol Resort",
+      "city": "Santa Maria",
+      "countryCode": "CV",
+      "result": "phone_backfill",
+      "evidence": "+238 242 1725 local front desk"
+    },
+    {
+      "at": "2026-09-26T10:12:05Z",
+      "tick": "2026-09-26T10",
+      "action": "skip",
+      "name": "Garden Padel Ivandry",
+      "countryCode": "MG",
+      "result": "zero_result",
+      "evidence": "phone-thin"
+    },
+    {
+      "at": "2026-09-26T10:12:05Z",
+      "tick": "2026-09-26T10",
+      "action": "skip",
+      "name": "Max Padel Luanda",
+      "countryCode": "AO",
+      "result": "zero_result",
+      "evidence": "phone-thin"
     }
   ]
 }

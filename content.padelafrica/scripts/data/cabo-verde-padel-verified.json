@@ -113,11 +113,14 @@
     "website": "https://www.voihotels.com/en/resort/voi-vila-do-farol",
     "venueModel": "own_premises",
     "seasonNote": "Gym 06:00–24:00; padel-specific hours not published",
-    "description": "VOI Vila do Farol Resort places one padel court among beach and sports amenities at Santa Maria on Sal. A useful recommendation for Sal visitors who want resort padel without leaving the Santa Maria strip. Public phone/email were not verified in the audit; book through the hotel and confirm whether non-guests may play.",
+    "description": "VOI Vila do Farol Resort places one padel court among beach and sports amenities at Santa Maria on Sal, with a published local resort phone. A useful recommendation for Sal visitors who want resort padel without leaving the Santa Maria strip. Book through the hotel and confirm whether non-guests may play.",
     "primarySourceUrl": "https://www.voihotels.com/en/resort/voi-vila-do-farol",
     "secondarySourceUrl": "https://www.lastminute.com/hotels/cape-verde/santa-maria/voi-vila-do-farol-resort_hid-586323",
-    "sourceTypes": "Official resort; travel listings",
+    "sourceTypes": "Official resort (padel amenity); HotelsCombined / cabo-verde-info front desk +238 242 1725",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-09-26",
+    "phone": "+238 242 1725",
+    "email": "farol.recep@voihotels.com",
+    "researchNotes": "Phone backfill local Sal front desk; skipped Italian VOI call-centre 06398061"
   }
 ]
