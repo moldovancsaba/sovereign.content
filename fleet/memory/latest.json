@@ -1,9 +1,9 @@
 {
   "job": "fleet:daily-swot",
-  "updatedAt": "2026-09-25T07:56:09.477Z",
-  "lastDigestDate": "2026-09-25",
+  "updatedAt": "2026-09-26T06:18:41.991Z",
+  "lastDigestDate": "2026-09-26",
   "watermark": {
-    "inboxRecommendations": 22,
+    "inboxRecommendations": 8,
     "gitSince": "48 hours ago"
   },
   "rolling": {
@@ -23,15 +23,18 @@
       }
     },
     "openThemes": [
-      "sportolok_ingest_rewrite",
-      "fleet_inbox_snapshots",
-      "classscout_cutover_confirmation"
+      "sportolok_wire_catalog_jobs_to_ingest",
+      "classscout_daily_inbox_plus_cutover",
+      "padel_core_reconcile_awaiting_management"
     ],
     "history": [
       {
-        "date": "2026-09-25",
+        "date": "2026-09-26",
         "bestFitFolder": "content.padelafrica",
-        "insufficientOutcomeClients": []
+        "insufficientOutcomeClients": [
+          "content.sportolok",
+          "content.classscout"
+        ]
       }
     ]
   }

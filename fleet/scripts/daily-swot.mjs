@@ -281,21 +281,43 @@ function buildSwot(client, profile, signals, scores) {
     strengths.push(`Recent agent-folder git activity (${signals.git.length} commit(s) in window)`);
   }
 
+  const snap = signals.snapshots?.[0] || null;
+  const hasInboxToday = Boolean(signals.snapshots?.length);
+
   if (client.id === "padelafrica") {
     strengths.push("Mature FIND / self-heal / HiTL playbooks aligned with SSOT Jobs examples");
-    weaknesses.push(
-      "Live FIND/quality outcome KPIs not in fleet/inbox yet (padel chat owns Mongo CLIs)",
-    );
+    if (hasInboxToday) {
+      strengths.push("fleet/inbox day status present (orchestrator tick snapshots)");
+      if (snap?.workingEnv?.ingestOnlyReality === true) {
+        strengths.push("Inbox claims ingestOnlyReality=true (writes via post_api_ingest)");
+      }
+      if (snap?.workingEnv?.qualityLoop) {
+        strengths.push(`Quality loop mode: ${snap.workingEnv.qualityLoop}`);
+      }
+      weaknesses.push(
+        "Core reconcile of management release/padel-africa still awaiting management (agent-side debt largely cleared)",
+      );
+    } else {
+      weaknesses.push(
+        "No fleet/inbox status snapshot today — outcome KPIs cannot be scored without inventing Mongo numbers",
+      );
+    }
     opportunities.push(...(profile.siblingOpportunities || []));
     threats.push("Stealing padel-find-tick from padel chat would break ownership split");
   }
 
   if (client.id === "sportolok") {
     strengths.push("QUARANTINE.md + migration list published for core reconcile");
+    if (snap?.workingEnv?.executorIngestLivePatchProven) {
+      strengths.push("executorIngest live PATCH proven (prior inbox evidence)");
+    }
     weaknesses.push(
-      "Sovereign Mongo executor still quarantined — automation not ingest-complete",
+      "Sovereign Mongo executor still quarantined — real catalog jobs not fully wired to ingest",
     );
     weaknesses.push("release/sportolok still diverged; core reconcile pending");
+    if (!hasInboxToday) {
+      weaknesses.push("No fleet/inbox status snapshot for today");
+    }
     opportunities.push(...(profile.siblingOpportunities || []));
     threats.push("Re-enabling quarantined executor against shared Mongo could repeat schedule outage");
     threats.push("weekdays[] RecurringSlot shape remains a permanent contract threat");
@@ -306,9 +328,15 @@ function buildSwot(client, profile, signals, scores) {
     strengths.push(
       `Encoded lessons log present (${signals.lessonCount ?? "n/a"} lessons, updated ${signals.lessonsUpdatedAt ?? "n/a"})`,
     );
-    weaknesses.push(
-      "Live events.jsonl / hourly scorecard not mirrored into fleet/inbox (outcome KPIs incomplete here)",
-    );
+    if (!hasInboxToday) {
+      weaknesses.push(
+        "No fleet/inbox status snapshot for today — lasting-public / smoke KPIs not mirrored",
+      );
+    } else {
+      weaknesses.push(
+        "Live forever still may run from product tree — confirm cutover before claiming SC-only runners",
+      );
+    }
     opportunities.push(...(profile.siblingOpportunities || []));
     threats.push("Merging forever-Find engine with padel until-found would violate twin doctrine");
     threats.push("Accidentally sending management RecurringSlot shapes to ClassScout ingest");
@@ -325,61 +353,101 @@ function buildRecommendations(agents) {
   const recs = [];
 
   for (const a of agents) {
+    const hasInboxToday = a.signals.snapshotCount > 0;
+    const snap = a.signals.latestSnapshot || null;
+    const openDebt = Array.isArray(snap?.openDebt) ? snap.openDebt : [];
+
     if (a.id === "sportolok") {
+      if (!hasInboxToday) {
+        recs.push({
+          target: "content.sportolok",
+          problem: "No fleet/inbox status snapshot for today",
+          why: "Fleet SWOT cannot score sportolok outcome KPIs without inventing catalogue numbers",
+          how: "After meaningful ingest/fair-use work, commit fleet/inbox/sportolok/status-YYYY-MM-DD.json (workingEnv + profile-fair counts only)",
+          evidence: ["fleet/inbox/README.md", "fleet/profiles/sportolok.json"],
+          delivery: "agent_execute",
+        });
+      }
       recs.push({
         target: "content.sportolok",
-        problem: "Quarantined Mongo sovereign runtime is not yet rewritten to ingest",
-        why: "Blocks reliable/efficient autonomous ticks; environment fit stays capped",
-        how: "Rewrite call sites to ingest/client.ts + scheduleToRecurringSlots; keep src/ as reference; prove one dry PATCH; chase core reconcile via CORE-TEAM-STATUS.md",
+        problem: "Real catalog jobs still not fully wired to executorIngest / ingest client",
+        why: "Live PATCH proven is not the same as autonomous quality/media ticks; environment efficiency stays capped",
+        how: "Wire About/media callers to executorIngest (no junk fields); keep Mongo executor quarantined; chase core reconcile of release/sportolok",
         evidence: [
           "content.sportolok/src/QUARANTINE.md",
-          "content.sportolok/MIGRATION-FROM-MANAGEMENT.md",
-          "pointers.json migration note",
+          "content.sportolok/src/lib/sovereign/executorIngest.ts",
+          "fleet/coordination/sportolok.md",
         ],
         delivery: "agent_execute",
       });
     }
+
     if (a.id === "padelafrica") {
-      recs.push({
-        target: "content.padelafrica",
-        problem: "No fleet/inbox status snapshot from padel orchestrator ticks",
-        why: "Fleet SWOT cannot score fair outcome KPIs without inventing Mongo numbers",
-        how: "After each padel-find-tick digest, commit fleet/inbox/padelafrica/status-YYYY-MM-DD.json with workingEnv + profile-fair outcome counts only (see fleet/inbox/README.md)",
-        evidence: ["fleet/inbox/README.md", "plan-fleet-daily-swot.md Phase 3"],
-        delivery: "agent_execute",
-      });
+      if (!hasInboxToday) {
+        recs.push({
+          target: "content.padelafrica",
+          problem: "No fleet/inbox status snapshot from padel orchestrator ticks",
+          why: "Fleet SWOT cannot score fair outcome KPIs without inventing Mongo numbers",
+          how: "After each padel-find-tick digest, commit fleet/inbox/padelafrica/status-YYYY-MM-DD.json with workingEnv + profile-fair outcome counts only (see fleet/inbox/README.md)",
+          evidence: ["fleet/inbox/README.md", "plan-fleet-daily-swot.md Phase 3"],
+          delivery: "agent_execute",
+        });
+      } else {
+        const needsCore = openDebt.some(
+          (d) =>
+            (typeof d === "string" && d.includes("core_reconcile")) ||
+            (d && typeof d === "object" && String(d.kind || "").includes("core_reconcile")),
+        );
+        if (needsCore) {
+          recs.push({
+            target: "content.padelafrica",
+            problem: "Management core still must reconcile release/padel-africa",
+            why: "Agent home claims READY / ingest-only reality, but release-branch cleanup is management-owned",
+            how: "Keep STATUS-FOR-CORE.md + MIGRATION-FROM-MANAGEMENT.md current; do not force-push release; wait for management main PR + FF",
+            evidence: [
+              "content.padelafrica/STATUS-FOR-CORE.md",
+              "content.padelafrica/MIGRATION-FROM-MANAGEMENT.md",
+              `fleet/inbox/padelafrica/status-${a.signals.inboxDate || "YYYY-MM-DD"}.json`,
+            ],
+            delivery: "hitl_review",
+          });
+        }
+      }
     }
+
     if (a.id === "classscout") {
-      recs.push({
-        target: "content.classscout",
-        problem: "Hourly quality rollup / lasting-public signals stay local to runner data dir",
-        why: "Central comparison lacks ClassScout outcome fitness without snapshots",
-        how: "Have quality-rollup or weekly-digest also write a slim fleet/inbox/classscout/status-DATE.json (counts/enums only)",
-        evidence: [
-          "content.classscout/docs/catalog-find-improve-loop.md",
-          "fleet/inbox/README.md",
-        ],
-        delivery: "agent_execute",
-      });
-      recs.push({
-        target: "content.classscout",
-        problem: "Product-repo transitional catalog-loop copies may still be the live runners",
-        why: "Agent-home cutover incomplete → consistency risk across environments",
-        how: "Confirm forever.sh runs from content.classscout/scripts; retire product wrappers when INGEST_API_KEY path is proven",
-        evidence: ["content.classscout/AGENTS.md", "HANDOVER.md §5"],
-        delivery: "hitl_review",
-      });
+      if (!hasInboxToday) {
+        recs.push({
+          target: "content.classscout",
+          problem: "No fleet/inbox status snapshot for today",
+          why: "Central comparison lacks ClassScout outcome fitness without daily snapshots",
+          how: "Have quality-rollup or forever tick write fleet/inbox/classscout/status-DATE.json (counts/enums only)",
+          evidence: [
+            "content.classscout/docs/catalog-find-improve-loop.md",
+            "fleet/inbox/README.md",
+          ],
+          delivery: "agent_execute",
+        });
+      }
+      const cutoverDone = snap?.workingEnv?.cutoverComplete === true;
+      if (!cutoverDone) {
+        recs.push({
+          target: "content.classscout",
+          problem: "Product-repo transitional catalog-loop copies may still be the live runners",
+          why: "Agent-home cutover incomplete → consistency risk across environments",
+          how: "When ready, point forever/fair-use at content.classscout/scripts with CLASSSCOUT_PRODUCT_ROOT; flip cutover-status.md + inbox foreverRunsFrom same hour",
+          evidence: [
+            "content.classscout/docs/cutover-status.md",
+            "content.classscout/AGENTS.md",
+            "fleet/coordination/classscout.md",
+          ],
+          delivery: "hitl_review",
+        });
+      }
     }
   }
 
-  recs.push({
-    target: "ssot",
-    problem: "fleet:daily-swot timer not yet subscribed on SC-central agent",
-    why: "Without a daily wake, digests will not accumulate growing knowledge",
-    how: "After verifying this script, subscribe_timer name fleet-daily-swot ~86400s using fleet/timers/orchestrator.md",
-    evidence: ["fleet/timers/orchestrator.md"],
-    delivery: "hitl_review",
-  });
+  // fleet-daily-swot timer is owned by SC-central and already subscribed — do not re-ask.
 
   return recs;
 }
@@ -423,9 +491,9 @@ function pickBestFit(agents) {
     bestFitFolder: top.folder,
     rationale: `${top.folder} leads working-environment fitness today (composite ${top.value}/100; env ${top.env ?? "n/a"}, efficiency ${top.eff ?? "n/a"}). Rank reflects ops readiness in the Cursor/dual-repo environment — not which vertical publishes more listings.${margin != null ? ` Margin vs ${runnerUp.folder}: ${margin} pts.` : ""}`,
     caveats: [
-      "Outcome KPIs are insufficient_signal without fleet/inbox snapshots — no content-outcome winner declared.",
+      "No content-outcome winner declared until Phase 3 profile-fair KPI parsing — inventing Mongo numbers is forbidden.",
       "Unfair to compare padel FIND seeds vs ClassScout forever-loop volume (see profiles.unfairComparisons).",
-      "Sportolok score is capped by intentional quarantine / incomplete ingest rewrite; treat migration progress as the improvement vector.",
+      "Sportolok score is capped by intentional quarantine / incomplete catalog-job wiring; treat ingest migration progress as the improvement vector.",
       "Composite = mean of available reliability, consistency, efficiency, environmentFit.",
     ],
   };
@@ -486,9 +554,23 @@ function renderMarkdown(report) {
   lines.push("");
   lines.push("## Comparison (outcomes — normalized)");
   lines.push("");
-  lines.push(
-    "No content-outcome winner declared. All three lack sufficient fleet/inbox snapshots for profile-fair KPI scoring on this run.",
+  const missingOutcome = (report.insufficientSignals || []).filter((s) =>
+    s.includes("insufficient_signal"),
   );
+  const withInbox = report.agents.filter((a) => a.signals?.snapshotCount > 0);
+  if (missingOutcome.length === report.agents.length) {
+    lines.push(
+      "No content-outcome winner declared. All three lack sufficient fleet/inbox snapshots for profile-fair KPI scoring on this run.",
+    );
+  } else if (missingOutcome.length) {
+    lines.push(
+      `No content-outcome winner declared. Inbox present for ${withInbox.map((a) => a.folder).join(", ") || "none"}; still Phase 3 (counts only — do not invent Mongo KPIs). Missing today: ${missingOutcome.map((s) => s.split(":")[0]).join(", ")}.`,
+    );
+  } else {
+    lines.push(
+      "All three clients have today's inbox snapshot. Still no content-outcome winner — Phase 3 profile-fair KPI parsing not fully wired; do not invent Mongo numbers.",
+    );
+  }
   lines.push("");
   for (const a of report.agents) {
     lines.push(
@@ -618,6 +700,8 @@ async function main() {
         gitCommitCount: git.length,
         gitSubjects: git.slice(0, 5).map((g) => g.subject),
         snapshotCount: snapshots.length,
+        latestSnapshot: snapshots[0] || null,
+        inboxDate: date,
         docsCount: signals.docsCount,
         lessonCount,
         lessonsUpdatedAt,
@@ -649,6 +733,37 @@ async function main() {
   const tied = envScores.filter((e) => e.composite === topComposite).map((e) => e.folder);
 
   const withSnapshots = agents.filter((a) => a.signals.snapshotCount > 0).map((a) => a.folder);
+  const missingSnapshots = agents
+    .filter((a) => a.signals.snapshotCount === 0)
+    .map((a) => a.folder);
+  const sportolokAgent = agents.find((a) => a.id === "sportolok");
+  let sportolokLivePatch = Boolean(
+    sportolokAgent?.signals?.latestSnapshot?.workingEnv?.executorIngestLivePatchProven,
+  );
+  if (!sportolokLivePatch) {
+    // Fall back to most recent prior-day inbox if today is missing
+    const dir = join(FLEET, "inbox", "sportolok");
+    if (existsSync(dir)) {
+      const prior = readdirSync(dir)
+        .filter((f) => /^status-\d{4}-\d{2}-\d{2}\.json$/.test(f))
+        .sort()
+        .reverse();
+      for (const f of prior) {
+        try {
+          const s = readJson(join(dir, f));
+          if (s?.workingEnv?.executorIngestLivePatchProven) {
+            sportolokLivePatch = true;
+            break;
+          }
+        } catch {
+          /* ignore */
+        }
+      }
+    }
+  }
+  const sportolokLine = sportolokLivePatch
+    ? "Sportolok live PATCH proven earlier; still capped until real catalog jobs wire to ingest + core reconciles release/sportolok."
+    : "Sportolok remains capped until ingest rewrite / proven PATCH + core reconciles release/sportolok.";
   const executiveBrief = [
     `Fleet snapshot for ${date}: all three product sites returned HTTP 200.`,
     tied.length > 1
@@ -657,7 +772,10 @@ async function main() {
     withSnapshots.length
       ? `Inbox status present for: ${withSnapshots.join(", ")}. Outcome scores stay conservative until profile-fair KPI parsing (Phase 3) — do not invent Mongo numbers beyond the snapshots.`
       : "Content-outcome fitness is not ranked — no fleet/inbox status snapshots today; inventing Mongo KPIs is forbidden.",
-    "Sportolok remains capped until dry PATCH proven + core reconciles release/sportolok.",
+    missingSnapshots.length
+      ? `Missing today's inbox (outcomes insufficient_signal): ${missingSnapshots.join(", ")}.`
+      : "All three clients emitted today's fleet/inbox status.",
+    sportolokLine,
     "SC-central QA owns quarantine guards + vanity retracts; client chats own ticks and inbox refresh.",
   ].join(" ");
 
@@ -666,7 +784,22 @@ async function main() {
     date,
     generatedAt,
     executiveBrief,
-    agents: agents.map(({ checks, ...rest }) => rest),
+    agents: agents.map(({ checks, signals, ...rest }) => ({
+      ...rest,
+      signals: {
+        ...signals,
+        // Keep digest slim — full inbox JSON lives under fleet/inbox/
+        latestSnapshot: signals.latestSnapshot
+          ? {
+              observedAt: signals.latestSnapshot.observedAt || null,
+              source: signals.latestSnapshot.source || null,
+              openDebt: signals.latestSnapshot.openDebt || [],
+              ingestOnlyReality: signals.latestSnapshot.workingEnv?.ingestOnlyReality ?? null,
+              qualityLoop: signals.latestSnapshot.workingEnv?.qualityLoop || null,
+            }
+          : null,
+      },
+    })),
     environmentComparison,
     recommendations,
     insufficientSignals,
@@ -705,9 +838,9 @@ async function main() {
         agents.map((a) => [a.folder, a.scores.environmentFit]),
       ),
       openThemes: [
-        "sportolok_ingest_rewrite",
-        "fleet_inbox_snapshots",
-        "classscout_cutover_confirmation",
+        "sportolok_wire_catalog_jobs_to_ingest",
+        "classscout_daily_inbox_plus_cutover",
+        "padel_core_reconcile_awaiting_management",
       ],
       history: [
         {
