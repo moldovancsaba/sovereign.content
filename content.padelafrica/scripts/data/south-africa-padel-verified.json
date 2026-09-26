@@ -1542,5 +1542,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND densify from same contact page as fair-use Parklands promote"
+  },
+  {
+    "recordId": "ZAF-VEN-063",
+    "name": "Balwin Padel Mooikloof",
+    "city": "Pretoria",
+    "region": "Gauteng",
+    "countryCode": "ZA",
+    "line1": "Garsfontein Road / Atterbury Road, Mooikloof, 0081",
+    "lat": -25.8260861,
+    "lng": 28.3134046,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Garsfontein Road Pretoriuspark corridor pin \u2014 Mooikloof estate rooftop not separately geocoded",
+    "website": "https://balwinpadel.co.za",
+    "phone": "+27 71 292 2409",
+    "email": "info@balwinpadel.co.za",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily ~06:00\u201322:00; book on Playtomic.",
+    "description": "Balwin Padel Mooikloof on Garsfontein Road in Pretoria East publishes Playtomic booking, a club phone and email inside the Balwin Smart City estate. A clear Pretoria densify pick beyond Africa Padel Olympus. Book on Playtomic or call ahead.",
+    "primarySourceUrl": "https://playtomic.com/clubs/balwinpadel-co-za-mooikloof",
+    "secondarySourceUrl": "https://padelnplay.com/padel/south-africa/gauteng/pretoria/balwin-padel-mooikloof/",
+    "sourceTypes": "Playtomic Balwin Mooikloof; Padel N Play contact phone/email",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Fair-use promote tick 2026-09-26T20 from actu-padel Balwin candidate"
   }
 ]

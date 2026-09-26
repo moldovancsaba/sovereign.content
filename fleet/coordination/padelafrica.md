@@ -942,3 +942,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
 
+
+### 2026-09-26 — padelafrica (tick ~20:08–20:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 319 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 47 (28 sources). **Promoted** Balwin Padel Mooikloof → `ZAF-VEN-063`. **Rejected** Vals Sport Consul (ES). `needs_verify` cleared.
+
+**FIND:**
+- MA densify → **`MAR-VEN-028` Paradise Padel Corniche**, **`MAR-VEN-029` SaadLand El Menzeh** DISCOVERED
+- DZ backfill → **`ALG-VEN-001`–`005`** DISCOVERED
+- LY backfill → **`LBY-VEN-001`–`003`** DISCOVERED
+- UG backfill → **`UGA-VEN-001` Herman**, **`UGA-VEN-002` Smash** DISCOVERED
+- Fair-use promote → **`ZAF-VEN-063` Balwin Padel Mooikloof** DISCOVERED
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+

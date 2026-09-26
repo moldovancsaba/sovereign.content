@@ -61,44 +61,39 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T19:24:27.174627Z",
+  "updatedAt": "2026-09-26T20:30:45.584169Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 313,
+    "scanned": 319,
     "belowThreshold": 0,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 46,
+    "passCount": 47,
     "promoted": [
-      "ZAF-VEN-061 Atlantic Padel @ Table View (already seeded)"
+      "ZAF-VEN-063 Balwin Padel Mooikloof"
     ],
     "rejected": [
-      "Palma Padel (ES)"
+      "Vals Sport Consul (ES)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "MAR-VEN-023 Palm Tennis Club & Padel",
-      "MAR-VEN-024 Urban Padel Royal",
-      "MAR-VEN-025 CAFC Padel Casablanca",
-      "MAR-VEN-026 Padel Point Rabat",
-      "MAR-VEN-027 Padel Factory Agadir",
-      "EGY-VEN-017 15-Love Padel ElMahalla",
-      "MAR-VEN-001 Depot 4 Indoor Padel (backfill)",
-      "MAR-VEN-004 Padel Square Marrakech (backfill)",
-      "GHA-VEN-002 The Padel Club Ghana (backfill)",
-      "NAM-VEN-001 Namibia Padel Windhoek (backfill)",
-      "TZA-VEN-001 Padel Centre TZ Slipway (backfill)"
+      "MAR-VEN-028 Paradise Padel Corniche",
+      "MAR-VEN-029 SaadLand Club El Menzeh",
+      "ALG-VEN-001..005 Algeria backfill",
+      "LBY-VEN-001..003 Libya Tripoli backfill",
+      "UGA-VEN-001 Herman + UGA-VEN-002 Smash Kampala backfill",
+      "ZAF-VEN-063 Balwin Padel Mooikloof"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~19:03\u201319:25 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
+  "notes": "Tick ~20:08\u201320:35 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
 }

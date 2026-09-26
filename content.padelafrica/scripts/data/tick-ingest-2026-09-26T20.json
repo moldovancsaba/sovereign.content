@@ -1,0 +1,149 @@
+{
+  "appliedAt": "2026-09-26T20:30:34.771Z",
+  "baseUrl": "https://padel-africa.doneisbetter.com",
+  "results": [
+    {
+      "recordId": "MAR-VEN-028",
+      "id": "research-mar-ven-028",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-mar-ven-028",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MAR-VEN-029",
+      "id": "research-mar-ven-029",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-mar-ven-029",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ALG-VEN-001",
+      "id": "research-alg-ven-001",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-alg-ven-001",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ALG-VEN-002",
+      "id": "research-alg-ven-002",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-alg-ven-002",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ALG-VEN-003",
+      "id": "research-alg-ven-003",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-alg-ven-003",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ALG-VEN-004",
+      "id": "research-alg-ven-004",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-alg-ven-004",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ALG-VEN-005",
+      "id": "research-alg-ven-005",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-alg-ven-005",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "LBY-VEN-001",
+      "id": "research-lby-ven-001",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-lby-ven-001",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "LBY-VEN-002",
+      "id": "research-lby-ven-002",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-lby-ven-002",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "LBY-VEN-003",
+      "id": "research-lby-ven-003",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-lby-ven-003",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "UGA-VEN-001",
+      "id": "research-uga-ven-001",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-uga-ven-001",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "UGA-VEN-002",
+      "id": "research-uga-ven-002",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-uga-ven-002",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-063",
+      "id": "research-zaf-ven-063",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-063",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}
