@@ -1,0 +1,75 @@
+{
+  "clientId": "sportolok",
+  "observedAt": "2026-09-26T21:00:57Z",
+  "source": "sportolok-tick",
+  "workingEnv": {
+    "ingestOnlyDoctrine": true,
+    "quarantineActive": true,
+    "timerSubscribed": true,
+    "timerName": "sportolok-tick",
+    "subscriptionId": "sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc",
+    "hataronTulJobs": true,
+    "hataronTulEnrichUnblockedLocally": true,
+    "productionHataronTulRoute": "404_until_pr_287_deploy"
+  },
+  "outcomes": {
+    "quality_loop_patched": 8,
+    "quality_sample_ids": [
+      "l-research-hun-fuoty6",
+      "l-research-hun-7nowv2",
+      "l-research-hun-d93a5e",
+      "l-research-hun-d5dbpk",
+      "l-research-hun-np6g82",
+      "l-research-hun-r7xhvy",
+      "l-research-hun-waerdq",
+      "l-research-hun-fwsm6u"
+    ],
+    "enrich_ingested": 5,
+    "enrich_camera": "itthon",
+    "enrich_cards": [
+      "research-hun-t8gaim",
+      "research-hun-wazx36",
+      "research-hun-z5t9xe",
+      "research-hun-hh7by0",
+      "research-hun-cuiqgo"
+    ],
+    "executor_ingest": "via_quality_loop",
+    "seeds_total": 469,
+    "pending_seeds": 261,
+    "hataron_tul": {
+      "pending": 52,
+      "ingested": 2,
+      "prod_enrich": "blocked_until_pr_287_merge_deploy",
+      "preview_ingest": "401_deployment_protection"
+    },
+    "management_pr": "https://github.com/moldovancsaba/management/pull/287"
+  },
+  "openDebt": [
+    {
+      "kind": "merge_deploy_pr_287",
+      "n": 1,
+      "note": "prod /hataron-tul 404; HT enrich must wait for cities deploy"
+    },
+    {
+      "kind": "enrich_remaining_pending",
+      "n": 261
+    },
+    {
+      "kind": "hataron_tul_enrich_remaining",
+      "n": 52
+    },
+    {
+      "kind": "gameformative_vercel_on_release_sportolok",
+      "n": 1,
+      "note": "unrelated CI red on PR #287; sportolok preview green"
+    }
+  ],
+  "evidence": [
+    "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json",
+    "fleet/inbox/sportolok/status-2026-09-26-tick-2100.json"
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/management/pull/287",
+    "https://github.com/moldovancsaba/sovereign.content"
+  ]
+}

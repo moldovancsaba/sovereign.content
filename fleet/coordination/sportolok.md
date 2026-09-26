@@ -784,3 +784,13 @@ Base `sportolok` content_cards: **0** HT leak. Pending HT seeds: **52**.
 **Still owed:** merge/deploy PR #287 to production; drain remaining HT enrich; pipeline extract of DISCOVERED cards. Timer `sportolok-tick` left subscribed.
 
 **Do not claim production-ready.**
+
+### 2026-09-26T21:00Z — sportolok-tick
+
+**quality** → 8 About patches via executorIngest (e.g. Liget / Kiserdei / Jarasi / Horvath Andras tanuszodák)  
+**enrich** → 5 Itthon DISCOVERED (`research-hun-t8gaim` … `cuiqgo`); pending seeds **261**  
+**HT** → still **52** pending; prod `/hataron-tul` **404** until PR #287 merge/deploy; preview ingest **401** (deployment protection)  
+**PR #287** sportolok preview green; gameformative Vercel red (vertical absent on `release/sportolok` — not this tick)  
+**Timer** `sportolok-tick` left subscribed.
+
+**Do not claim production-ready.**
