@@ -70,5 +70,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Resort marketing uses paddle/padel interchangeably; imprint Tel +248 4 386 666"
+  },
+  {
+    "recordId": "SYC-VEN-004",
+    "name": "Cheval Blanc Seychelles Padel",
+    "city": "Anse Intendance",
+    "region": "Mahé",
+    "countryCode": "SC",
+    "line1": "Anse Intendance / Intendance Road, Takamaka, Mahé",
+    "lat": -4.7875747,
+    "lng": 55.5049081,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Intendance Road Takamaka street pin near Anse Intendance beach",
+    "website": "https://www.chevalblanc.com/en/maison/seychelles/experiences/sports-and-activities/",
+    "phone": "+248 4 394 000",
+    "email": "info.seychelles@chevalblanc.com",
+    "venueModel": "hotel",
+    "seasonNote": "Guest access / private lessons — confirm with maison artisans.",
+    "description": "Cheval Blanc Seychelles at Anse Intendance publishes tennis and padel courts among its sports activities, with a resort street corridor pin and main maison phone. A clear recommendation when you want a second named Mahé padel stop beyond Kempinski Baie Lazare. Non-guest access is typically restricted — call the maison before arriving.",
+    "primarySourceUrl": "https://www.chevalblanc.com/en/maison/seychelles/experiences/sports-and-activities/",
+    "secondarySourceUrl": "https://www.chevalblanc.com/en/maison/seychelles/contact",
+    "sourceTypes": "Cheval Blanc sports page; Cheval Blanc contact",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Contact Tel +248 43 94 000; Padel Lands lists same phone"
   }
 ]

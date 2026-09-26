@@ -142,5 +142,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "Evidence: stablesports.org contact street + phone +263 777745066. Site claims four padel courts; not inventing beyond published. Nominatim Kingsmead Road West."
+  },
+  {
+    "recordId": "ZWE-VEN-007",
+    "name": "Millennium Heights Padel",
+    "city": "Harare",
+    "region": "Harare",
+    "countryCode": "ZW",
+    "line1": "Millennium Heights, Borrowdale West (plus code 63CC+MQF)",
+    "lat": -17.7783125,
+    "lng": 31.071921875,
+    "geoPrecision": "street",
+    "geoSource": "plus_code",
+    "geoNote": "Open Location Code 5GJH63CC+MQF recovered for Borrowdale West Harare",
+    "phone": "+263 78 276 2986",
+    "venueModel": "residential_estate",
+    "seasonNote": "Resident / visitor access rules not listed — call ahead.",
+    "description": "Millennium Heights in Borrowdale West publishes lifestyle padel courts with a directory phone and a plus-code pin. A clear recommendation when you want a named Harare padel stop beyond the Padel Zim and Stable Sports sample. Confirm access with WestProp / estate management before travelling — coverage describes resident lifestyle amenities.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/millennium-heights/",
+    "secondarySourceUrl": "https://www.zimeye.net/2026/03/20/millennium-heights-unveils-lifestyle-driven-padel-courts/",
+    "sourceTypes": "Padel Lands club card; ZimEye opening coverage",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Opened ~Mar 2026 per WestProp coverage; phone from Padel Lands"
   }
 ]

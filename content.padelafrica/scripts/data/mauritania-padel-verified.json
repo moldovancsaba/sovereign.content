@@ -11,7 +11,7 @@
     "geoPrecision": "locality",
     "geoSource": "nominatim",
     "geoNote": "Tevragh Zeina locality pin — neighbourhood from Padel Lands; street not published",
-    "website": "https://padellands.com/en/padel-courts/sahara-padel-club/",
+    "website": "https://saharapadel.com/",
     "venueModel": "own_premises",
     "seasonNote": "Hours not listed yet.",
     "description": "Sahara Padel Club anchors Mauritanian padel in Tevragh Zeina, Nouakchott, with two outdoor courts, gym and shop — the country’s visible club since 2023 and a CICP international participant. A clear recommendation when you want named Nouakchott padel rather than an anonymous pitch. Confirm booking via the club’s app or social channels before you travel.",
@@ -19,7 +19,8 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/sahara-padel-club/",
     "sourceTypes": "Padel Magazine interview; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Phone not published on audited pages — not invented"
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Phone not published on audited pages — not invented; WhatsApp from saharapadel.com (+212 number) 2026-09-26",
+    "phone": "+212 694 198 993"
   }
 ]

@@ -1509,5 +1509,59 @@
     "extractedAt": "2026-09-26T04:33:00.011Z",
     "rejectedAt": "2026-09-26T04:35:53.000Z",
     "rejectReason": "USA Texas — out of Africa scope"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-matcha-club-al-quoz",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nMatcha Club Al Quoz",
+    "citationUrl": "https://playtomic.com/clubs/matcha-club-alquoz",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/matcha-club-alquoz",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T05:05:22.336Z",
+    "rejectedAt": "2026-09-26T05:15:56.000Z",
+    "rejectReason": "UAE Al Quoz — out of Africa scope"
+  },
+  {
+    "candidateId": "fair-actu-padel-camps-bay-retreat-padel",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Camps Bay Retreat Padel",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-camps-retreat-cape-town/",
+    "website": "https://www.campsbayretreatpadel.co.za/",
+    "cityHint": "Cape Town",
+    "countryHint": "South Africa",
+    "addressHint": "7 Chilworth Rd, Camps Bay, Cape Town, 8040, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-camps-retreat-cape-town/",
+      "https://www.campsbayretreatpadel.co.za/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-26T05:07:38.579Z",
+    "promotedAt": "2026-09-26T05:15:56.000Z",
+    "promotedRecordId": "ZAF-VEN-017"
+  },
+  {
+    "candidateId": "fair-padelivu-la-pista-padel-club",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "La Pista Padel Club",
+    "citationUrl": "https://padelivu.com/club/la-pista-padel-club-cabries",
+    "website": "",
+    "addressHint": "408 allée du golf, 13480, Cabriès, France",
+    "researchSources": [
+      "https://padelivu.com/club/la-pista-padel-club-cabries"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T05:10:40.595Z",
+    "rejectedAt": "2026-09-26T05:15:56.000Z",
+    "rejectReason": "France Cabriès — out of Africa scope"
   }
 ]

@@ -162,5 +162,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Court count listed as 4 — not asserted. Distinct from CIV-VEN-002 WePadel Marcory."
+  },
+  {
+    "recordId": "CIV-VEN-008",
+    "name": "Padel Des Jardins",
+    "city": "Abidjan",
+    "region": "Lagunes",
+    "countryCode": "CI",
+    "line1": "Deux-Plateaux Vallons / Quartier Sopim Vallon, Cocody",
+    "lat": 5.3566277,
+    "lng": -3.9870619,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Deux-Plateaux Cocody locality — Sopim Vallon house pin not separately geocoded",
+    "phone": "+225 07 11 46 75 65",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet — call ahead.",
+    "description": "Padel Des Jardins is a Deux-Plateaux Vallons leisure venue listing padel, pickleball and pétanque with a published Cocody phone. A clear recommendation when you want a named Abidjan padel stop in the Plateaux belt beyond Danga and Marcory. Secondary directory mobiles circulate — primary GoAfricaOnline number retained; locality pin until a street geocode is confirmed.",
+    "primarySourceUrl": "https://www.goafricaonline.com/ci/1200791-padel-jardins-centre-loisirs-abidjan-cote-ivoire",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/cote-divoire/",
+    "sourceTypes": "GoAfricaOnline directory; Padel Lands CI directory",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Also listed +225 07 10 77 39 16 on Padel Lands — primary +225 07 11 46 75 65 from GoAfricaOnline"
   }
 ]

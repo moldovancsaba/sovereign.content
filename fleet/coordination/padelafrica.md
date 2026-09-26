@@ -673,3 +673,22 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 **Debt:** agent-side items remain in `resolvedDebt`. Only `core_reconcile_release_padel_africa_awaiting_management` is open — management-owned; handshake READY unchanged.
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~05:02–05:23 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 236 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 32 (28 sources). **Promoted** Camps Bay Retreat Padel → `ZAF-VEN-017`. Rejected Matcha Club Al Quoz (UAE), La Pista Padel Club (FR).
+
+**FIND:**
+- ZW Harare → **`ZWE-VEN-007` Millennium Heights Padel** DISCOVERED
+- SC Anse Intendance → **`SYC-VEN-004` Cheval Blanc Seychelles Padel** DISCOVERED
+- CI Cocody → **`CIV-VEN-008` Padel Des Jardins** DISCOVERED
+- ZA Camps Bay → **`ZAF-VEN-017` Camps Bay Retreat Padel** DISCOVERED (fair-use)
+- GH / MR phone backfill → `GHA-VEN-001` Clan 7 + `MRT-VEN-001` Sahara Padel (re-ingest DISCOVERED)
+- MZ Play Padel COOP / LY Lebanon mislist / CI Padel House Zone 3 / GH Mamba → skipped (evidence bar)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED. Core reconcile still awaiting management.

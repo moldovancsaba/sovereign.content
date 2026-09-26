@@ -397,5 +397,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25T18 — Pretoria deepen; shared Gayle central phone +27 78 678 6660"
+  },
+  {
+    "recordId": "ZAF-VEN-017",
+    "name": "Camps Bay Retreat Padel",
+    "city": "Cape Town",
+    "region": "Western Cape",
+    "countryCode": "ZA",
+    "line1": "7 Chilworth Road, Camps Bay",
+    "lat": -33.9462404,
+    "lng": 18.3800231,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM Camps Bay Retreat hotel pin at 7 Chilworth Road",
+    "website": "https://www.campsbayretreatpadel.co.za/",
+    "phone": "+27 60 619 5390",
+    "email": "Wellnesshost@villagenlife.com",
+    "venueModel": "hotel",
+    "seasonNote": "Daily 09:00–20:00 via Playtomic; padel host for in-house guests.",
+    "description": "Camps Bay Retreat Padel is a private Chilworth Road court framed by the Twelve Apostles and Atlantic views, with Playtomic booking and a published padel-host phone. A clear recommendation when you want a named Camps Bay padel stop distinct from Africa Padel Camps Bay Tennis Club. Confirm event rules before group celebrations — the club asks for prior arrangement.",
+    "primarySourceUrl": "https://www.campsbayretreatpadel.co.za/",
+    "secondarySourceUrl": "https://playtomic.com/clubs/camps-bay-retreat-padel",
+    "sourceTypes": "Club website; Playtomic booking; hotel FAQ",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Fair-use promote from actu-padel; distinct from ZAF-VEN-001 Africa Padel Camps Bay"
   }
 ]
