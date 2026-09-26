@@ -861,3 +861,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Fair-use promote → **`ZAF-VEN-037` Africa Padel Ruimsig** DISCOVERED
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~15:15–15:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 282 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 42 (28 sources). **Promoted** Africa Padel V&A Waterfront → `ZAF-VEN-044`. **Rejected** Hanse Padel Hamburg (DE). `needs_verify` cleared.
+
+**FIND:**
+- ZA Africa Padel densify → **`ZAF-VEN-038` Glenvista**, **`ZAF-VEN-039` Brooklyn**, **`ZAF-VEN-040` Bloemfontein**, **`ZAF-VEN-041` Old Park**, **`ZAF-VEN-042` German Country Club**, **`ZAF-VEN-043` Plettenberg Bay** DISCOVERED
+- Fair-use promote → **`ZAF-VEN-044` Africa Padel V&A Waterfront** DISCOVERED
+- UG Kampala deepen → zero-result (no new street+phone)
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

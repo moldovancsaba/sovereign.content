@@ -2012,5 +2012,42 @@
     "extractedAt": "2026-09-26T14:20:45.487Z",
     "triagedAt": "2026-09-26T14:34:31Z",
     "triageNote": "non_africa"
+  },
+  {
+    "candidateId": "fair-actu-padel-africa-padel-waterfront",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Africa Padel Waterfront",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-africa-waterfront-cape-town/",
+    "website": "http://africapadel.com/",
+    "cityHint": "Cape Town",
+    "countryHint": "South Africa",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-africa-waterfront-cape-town/",
+      "http://africapadel.com/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-26T15:21:42.561Z",
+    "triagedAt": "2026-09-26T15:37:16Z",
+    "triageNote": "ZAF-VEN-044",
+    "promotedRecordId": "ZAF-VEN-044"
+  },
+  {
+    "candidateId": "fair-padelivu-hanse-padel-hamburg",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Hanse Padel Hamburg",
+    "citationUrl": "https://padelivu.com/club/hanse-padel-hamburg",
+    "website": "",
+    "addressHint": "Curslacker Heerweg 265, 21039, Hamburg, Germany",
+    "researchSources": [
+      "https://padelivu.com/club/hanse-padel-hamburg"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T15:24:44.276Z",
+    "triagedAt": "2026-09-26T15:37:16Z",
+    "triageNote": "non_africa"
   }
 ]

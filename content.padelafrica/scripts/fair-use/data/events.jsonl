@@ -1987,3 +1987,61 @@
 {"type": "fair_use_triage", "at": "2026-09-26T14:34:31Z", "action": "reject", "candidateId": "fair-playtomic-book-a-court-in-the-padel-farm-york", "note": "non_africa", "tick": "2026-09-26T14"}
 {"type": "fair_use_triage", "at": "2026-09-26T14:34:31Z", "action": "promote", "candidateId": "fair-actu-padel-africa-padel-ruimsig", "note": "ZAF-VEN-037", "tick": "2026-09-26T14"}
 {"type": "fair_use_triage", "at": "2026-09-26T14:34:31Z", "action": "reject", "candidateId": "fair-padelivu-padel-vip-rio", "note": "non_africa", "tick": "2026-09-26T14"}
+{"at":"2026-09-26T15:16:21.668Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/ghana/"}
+{"at":"2026-09-26T15:16:22.265Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/ghana/","harvested":0}
+{"at":"2026-09-26T15:17:07.282Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery","url":"https://www.analistaspadel.com/"}
+{"at":"2026-09-26T15:17:08.039Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/","harvested":0}
+{"at":"2026-09-26T15:17:53.056Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/"}
+{"at":"2026-09-26T15:17:53.157Z","type":"fair_use_reject","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/","status":403,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-26T15:18:38.174Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/cote-divoire/"}
+{"at":"2026-09-26T15:18:38.362Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/cote-divoire/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-26T15:19:23.378Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery","url":"https://playtomic.com/clubs"}
+{"at":"2026-09-26T15:19:23.428Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery_harvest","url":"https://playtomic.com/clubs","harvested":0}
+{"at":"2026-09-26T15:20:08.441Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
+{"at":"2026-09-26T15:20:09.087Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-09-26T15:20:54.103Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery","url":"https://padel.co.ma/annuaire-des-clubs/"}
+{"at":"2026-09-26T15:20:57.373Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}
+{"at":"2026-09-26T15:21:42.392Z","type":"fair_use_attempt","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/directory/padel-club/padel-africa-waterfront-cape-town/"}
+{"at":"2026-09-26T15:21:42.564Z","type":"fair_use_seed","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/directory/padel-club/padel-africa-waterfront-cape-town/","candidateId":"fair-actu-padel-africa-padel-waterfront","reasonCode":"seeded"}
+{"at":"2026-09-26T15:22:27.580Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-clubs-in-africa/"}
+{"at":"2026-09-26T15:22:28.056Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-clubs-in-africa/","harvested":0}
+{"at":"2026-09-26T15:23:13.065Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/johannesburg"}
+{"at":"2026-09-26T15:23:13.214Z","type":"fair_use_reject","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/johannesburg","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-26T15:23:58.226Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery","url":"https://www.africapadel.com/"}
+{"at":"2026-09-26T15:23:58.644Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}
+{"at":"2026-09-26T15:24:43.660Z","type":"fair_use_attempt","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/hanse-padel-hamburg"}
+{"at":"2026-09-26T15:24:44.278Z","type":"fair_use_seed","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/hanse-padel-hamburg","candidateId":"fair-padelivu-hanse-padel-hamburg","reasonCode":"seeded"}
+{"at":"2026-09-26T15:25:29.294Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/kenya"}
+{"at":"2026-09-26T15:25:29.375Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery_harvest","url":"https://padelmap.net/courts/kenya","harvested":0}
+{"at":"2026-09-26T15:26:14.392Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery","url":"https://padel.llc/"}
+{"at":"2026-09-26T15:26:14.689Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery_harvest","url":"https://padel.llc/","harvested":0}
+{"at":"2026-09-26T15:26:59.706Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery","url":"https://need4padel.com/pro-shop-equipment"}
+{"at":"2026-09-26T15:26:59.757Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery_harvest","url":"https://need4padel.com/pro-shop-equipment","harvested":0}
+{"at":"2026-09-26T15:27:44.764Z","type":"fair_use_attempt","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/"}
+{"at":"2026-09-26T15:27:44.931Z","type":"fair_use_reject","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/","status":200,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-26T15:28:29.948Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery","url":"https://padelsearch.info/web"}
+{"at":"2026-09-26T15:28:30.727Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery_harvest","url":"https://padelsearch.info/web","harvested":1}
+{"at":"2026-09-26T15:29:15.747Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery","url":"https://www.padel-magazine.co.uk/the-shop/"}
+{"at":"2026-09-26T15:29:16.274Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery_harvest","url":"https://www.padel-magazine.co.uk/the-shop/","harvested":0}
+{"at":"2026-09-26T15:30:01.279Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery","url":"https://padelmagazine.fr/le-calendrier-du-padel-francais/"}
+{"at":"2026-09-26T15:30:01.902Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery_harvest","url":"https://padelmagazine.fr/le-calendrier-du-padel-francais/","harvested":0}
+{"at":"2026-09-26T15:30:46.908Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery","url":"https://www.padelfip.com/live/"}
+{"at":"2026-09-26T15:30:47.421Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery_harvest","url":"https://www.padelfip.com/live/","harvested":0}
+{"at":"2026-09-26T15:31:32.437Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery","url":"https://premierpadel.com/"}
+{"at":"2026-09-26T15:31:33.410Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/","harvested":0}
+{"at":"2026-09-26T15:32:18.428Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery","url":"https://www.thepadeldirectory.co.uk/padel-events"}
+{"at":"2026-09-26T15:32:18.472Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery_harvest","url":"https://www.thepadeldirectory.co.uk/padel-events","harvested":0}
+{"at":"2026-09-26T15:33:03.489Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery","url":"https://www.matchi.se/"}
+{"at":"2026-09-26T15:33:03.978Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery_harvest","url":"https://www.matchi.se/","harvested":0}
+{"at":"2026-09-26T15:33:48.994Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery","url":"https://www.anybuddyapp.com/fr"}
+{"at":"2026-09-26T15:33:49.462Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery_harvest","url":"https://www.anybuddyapp.com/fr","harvested":0}
+{"at":"2026-09-26T15:34:34.478Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"detail","url":"https://padelusa.org/us-padel-clubs/"}
+{"at":"2026-09-26T15:34:35.827Z","type":"fair_use_reject","sourceId":"padelusa","mode":"detail","url":"https://padelusa.org/where-to-play/","reasonCode":"guide_or_hub_name"}
+{"at":"2026-09-26T15:35:20.835Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery","url":"https://www.padelbrowser.com/"}
+{"at":"2026-09-26T15:35:21.079Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery_harvest","url":"https://www.padelbrowser.com/","harvested":0}
+{"at":"2026-09-26T15:36:06.095Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery","url":"https://www.bounce.game/"}
+{"at":"2026-09-26T15:36:06.192Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery_harvest","url":"https://www.bounce.game/","harvested":0}
+{"at":"2026-09-26T15:36:51.207Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery","url":"https://www.totalpadel.com/"}
+{"at":"2026-09-26T15:36:51.882Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery_harvest","url":"https://www.totalpadel.com/","harvested":0}
+{"type": "fair_use_triage", "at": "2026-09-26T15:37:16Z", "action": "promote", "candidateId": "fair-actu-padel-africa-padel-waterfront", "note": "ZAF-VEN-044", "tick": "2026-09-26T15"}
+{"type": "fair_use_triage", "at": "2026-09-26T15:37:16Z", "action": "reject", "candidateId": "fair-padelivu-hanse-padel-hamburg", "note": "non_africa", "tick": "2026-09-26T15"}

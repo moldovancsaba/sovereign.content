@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T14:34:54Z",
+  "observedAt": "2026-09-26T15:37:51Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 41,
+    "fairUsePassCount": 42,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,35 +22,33 @@
     "managementReleaseEqualsMain": true
   },
   "outcomes": {
-    "qualityLoopScanned": 275,
+    "qualityLoopScanned": 282,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 41,
+    "fairUsePass": 42,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-032",
-      "ZAF-VEN-033",
-      "ZAF-VEN-034",
-      "ZAF-VEN-035",
-      "ZAF-VEN-036",
-      "MAR-VEN-022",
-      "ZAF-VEN-037"
+      "ZAF-VEN-038",
+      "ZAF-VEN-039",
+      "ZAF-VEN-040",
+      "ZAF-VEN-041",
+      "ZAF-VEN-042",
+      "ZAF-VEN-043",
+      "ZAF-VEN-044"
     ],
-    "findPhoneBackfill": [
-      "AGO-VEN-004"
-    ],
+    "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "GB Padel Farm York out-of-scope",
-      "MX Padel VIP Rio out-of-scope"
+      "UG Kampala deepen no new evidence",
+      "DE Hanse Padel Hamburg out-of-scope"
     ],
-    "ingestDiscoveredOk": 8,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T14.json",
+    "ingestDiscoveredOk": 7,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T15.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "14:11 tick: Cape Town densify WPCC/Enigma/Glen/Bay/THE GRID; City Ball Oasis Casablanca; Miramax phone; fair-use pass 41 promote Ruimsig. Not claiming PUBLISHED."
+    "note": "15:15 tick: Africa Padel densify Glenvista/Brooklyn/Bloem/Old Park/German CC/Plett + fair-use Waterfront. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [

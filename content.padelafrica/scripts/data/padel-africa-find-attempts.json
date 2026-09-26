@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T14:34:31Z",
+  "updatedAt": "2026-09-26T15:37:37Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2374,6 +2374,69 @@
       "at": "2026-09-26T14:34:31Z",
       "outcome": "rejected",
       "note": "Padel VIP Rio non_africa"
+    },
+    {
+      "cc": "ZA",
+      "city": "Johannesburg",
+      "at": "2026-09-26T15:18:07Z",
+      "outcome": "seeded",
+      "note": "ZAF-038 Glenvista"
+    },
+    {
+      "cc": "ZA",
+      "city": "Pretoria",
+      "at": "2026-09-26T15:18:07Z",
+      "outcome": "seeded",
+      "note": "ZAF-039 Brooklyn"
+    },
+    {
+      "cc": "ZA",
+      "city": "Bloemfontein",
+      "at": "2026-09-26T15:18:07Z",
+      "outcome": "seeded",
+      "note": "ZAF-040 Bloemfontein"
+    },
+    {
+      "cc": "ZA",
+      "city": "Randburg",
+      "at": "2026-09-26T15:18:07Z",
+      "outcome": "seeded",
+      "note": "ZAF-041 Old Park"
+    },
+    {
+      "cc": "ZA",
+      "city": "Fourways",
+      "at": "2026-09-26T15:18:07Z",
+      "outcome": "seeded",
+      "note": "ZAF-042 German CC"
+    },
+    {
+      "cc": "ZA",
+      "city": "Plettenberg Bay",
+      "at": "2026-09-26T15:18:07Z",
+      "outcome": "seeded",
+      "note": "ZAF-043 Plett"
+    },
+    {
+      "cc": "UG",
+      "city": "Kampala",
+      "at": "2026-09-26T15:18:07Z",
+      "outcome": "zero-result",
+      "note": "no new street+phone beyond Herman/Smash/Serena"
+    },
+    {
+      "cc": "ZA",
+      "city": "Cape Town",
+      "at": "2026-09-26T15:37:37Z",
+      "outcome": "seeded",
+      "note": "fair-use promote ZAF-VEN-044 Africa Padel V&A Waterfront"
+    },
+    {
+      "cc": "DE",
+      "city": "Hamburg",
+      "at": "2026-09-26T15:37:37Z",
+      "outcome": "rejected",
+      "note": "Hanse Padel Hamburg non_africa"
     }
   ]
 }
