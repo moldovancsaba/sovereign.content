@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T00:35:28.000Z",
+  "updatedAt": "2026-09-26T01:29:22.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -1341,6 +1341,79 @@
       "query": "Padel Valley Domaine Oued Ykem",
       "outcome": "verified",
       "recordId": "MAR-VEN-020",
+      "note": "fair-use promote"
+    },
+    {
+      "at": "2026-09-26T01:05:00.000Z",
+      "cc": "MU",
+      "city": "Beau Plan",
+      "query": "Caña padel Mon Rocher",
+      "outcome": "verified",
+      "recordId": "MUS-VEN-006"
+    },
+    {
+      "at": "2026-09-26T01:05:00.000Z",
+      "cc": "MU",
+      "city": "Grand Baie",
+      "query": "Urban Sport Grand Baie Vingt Pieds",
+      "outcome": "verified",
+      "recordId": "MUS-VEN-007"
+    },
+    {
+      "at": "2026-09-26T01:05:00.000Z",
+      "cc": "MU",
+      "city": "Black River",
+      "query": "Urban Sport Black River La Mivoie",
+      "outcome": "verified",
+      "recordId": "MUS-VEN-008"
+    },
+    {
+      "at": "2026-09-26T01:05:00.000Z",
+      "cc": "MW",
+      "city": "Lilongwe",
+      "query": "Tiger Sport Bishop Mackenzie padel",
+      "outcome": "verified",
+      "recordId": "MWI-VEN-004"
+    },
+    {
+      "at": "2026-09-26T01:05:00.000Z",
+      "cc": "CM",
+      "city": "Yaoundé",
+      "query": "Elite Padel Yaounde street",
+      "outcome": "zero-result",
+      "note": "phone only; no published street"
+    },
+    {
+      "at": "2026-09-26T01:05:00.000Z",
+      "cc": "SN",
+      "city": "Dakar",
+      "query": "Rebel Padel Sahm",
+      "outcome": "skipped_duplicate",
+      "note": "already SEN-VEN-003"
+    },
+    {
+      "at": "2026-09-26T01:05:00.000Z",
+      "cc": "DZ",
+      "city": "Oran",
+      "query": "Central Padel Oran",
+      "outcome": "skipped_duplicate",
+      "note": "already ALG-VEN-002"
+    },
+    {
+      "at": "2026-09-26T01:05:00.000Z",
+      "cc": "BW",
+      "city": "Francistown",
+      "query": "Sunshine Plaza padel Francistown",
+      "outcome": "zero-result",
+      "note": "facility under construction / not confirmed open"
+    },
+    {
+      "at": "2026-09-26T01:29:22.000Z",
+      "cc": "MA",
+      "city": "Marrakech",
+      "query": "PALMARENA Rocade Palmeraie",
+      "outcome": "verified",
+      "recordId": "MAR-VEN-021",
       "note": "fair-use promote"
     }
   ]

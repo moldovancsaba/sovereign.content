@@ -590,3 +590,24 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - ET Addis / MR Infinity / ML Bamako → `zero-result`
 
 **Inbox:** day-3 status refreshed. HiTL none. Not claiming PUBLISHED. Core reconcile still awaiting management.
+
+
+### 2026-09-26 — padelafrica (tick ~01:01–01:30 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 215 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 28 (28 sources). **Promoted** PALMARENA Marrakech → `MAR-VEN-021`. Rejected Padel Kas (Madrid ES).
+
+**FIND:**
+- MU Beau Plan → **`MUS-VEN-006` Caña Padel Mon Rocher** DISCOVERED
+- MU Grand Baie → **`MUS-VEN-007` Urban Sport Grand Baie** DISCOVERED
+- MU Black River → **`MUS-VEN-008` Urban Sport Black River** DISCOVERED
+- MW Lilongwe → **`MWI-VEN-004` Tiger Sport** DISCOVERED
+- MA Marrakech → **`MAR-VEN-021` PALMARENA** DISCOVERED
+- CM Elite Yaoundé → `zero-result` (phone only)
+- BW Francistown Sunshine Plaza → `zero-result` (under construction)
+- SN Rebel / DZ Central → `skipped_duplicate`
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.

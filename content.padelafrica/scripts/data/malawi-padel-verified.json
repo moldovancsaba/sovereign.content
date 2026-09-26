@@ -67,5 +67,30 @@
     "sourceTypes": "Padel Zone first-party site",
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-22"
+  },
+  {
+    "recordId": "MWI-VEN-004",
+    "name": "Tiger Sport",
+    "city": "Lilongwe",
+    "region": "Central Region",
+    "countryCode": "MW",
+    "line1": "A3, behind Bishop Mackenzie International School",
+    "lat": -14.0046746,
+    "lng": 33.761248,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Bishop Mackenzie International School / Livingstone Road pin",
+    "website": "https://tigersportmw.com/",
+    "phone": "+265 981 150 000",
+    "email": "tigersportsmw@gmail.com",
+    "venueModel": "outdoors",
+    "seasonNote": "Dedicated padel court listed on club activities page",
+    "description": "Tiger Sport in Lilongwe lists a dedicated padel court behind Bishop Mackenzie on the A3 with a published phone and email. Distinct from Pulse Park and GoPadel. Book ahead via club contact.",
+    "primarySourceUrl": "https://tigersportmw.com/activities",
+    "secondarySourceUrl": "https://tigersportmw.com/",
+    "sourceTypes": "Club site",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Evidence: tigersportmw.com activities padel + A3 behind Bishop Mackenzie +265 981150000. Nominatim Bishop Mackenzie pin."
   }
 ]

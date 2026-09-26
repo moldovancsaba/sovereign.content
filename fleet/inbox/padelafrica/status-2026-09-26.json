@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T00:36:00Z",
+  "observedAt": "2026-09-26T01:30:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,42 +14,39 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 27,
+    "fairUsePassCount": 28,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "ready_for_reconcile",
     "day3InboxCalendar": true
   },
   "outcomes": {
-    "qualityLoopScanned": 211,
+    "qualityLoopScanned": 215,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 27,
+    "fairUsePass": 28,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "BEN-VEN-001",
-      "GMB-VEN-002",
-      "NGA-VEN-010",
-      "MAR-VEN-020"
+      "MUS-VEN-006",
+      "MUS-VEN-007",
+      "MUS-VEN-008",
+      "MWI-VEN-004",
+      "MAR-VEN-021"
     ],
     "findSkippedDuplicate": [
-      "GN Riviera already GIN-VEN-001",
-      "BF Lancaster already BFA-VEN-001",
-      "UG Herman/Smash/Serena already",
-      "RW Bounce/Mamba already",
-      "MZ Maputo clubs already"
+      "SN Rebel Padel already SEN-VEN-003",
+      "DZ Central Padel already ALG-VEN-002"
     ],
     "findZeroResult": [
-      "ET Addis Padel Club launching/office only",
-      "MR Infinity Club no street+phone",
-      "ML Bamako no confirmed padel"
+      "CM Elite Yaounde phone only no street",
+      "BW Francistown Sunshine Plaza under construction"
     ],
-    "ingestDiscoveredOk": 4,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T00.json",
+    "ingestDiscoveredOk": 5,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T01.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "00:13 day-3 tick: first Benin seed Cotonou Padel Club; G7 Sport Center Kololi; Monoliza Abuja; fair-use promoted Padel Valley Tamesna. Rejected TIO TIO Berlin + Icon Padel USA. Not claiming PUBLISHED."
+    "note": "01:01 tick: Ca\u00f1a + Urban Sport GB/Black River (MU); Tiger Sport Lilongwe; fair-use promoted PALMARENA Marrakech. Rejected Padel Kas Madrid. Not claiming PUBLISHED."
   },
   "openDebt": [
     "core_reconcile_release_padel_africa_awaiting_management"

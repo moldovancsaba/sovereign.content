@@ -494,5 +494,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Fair-use promote. Evidence: Visit Rabat street+phone +212 677885017 + email; Actu address Domaine Oued Ykem. Nominatim Tamesna locality."
+  },
+  {
+    "recordId": "MAR-VEN-021",
+    "name": "PALMARENA",
+    "city": "Marrakech",
+    "region": "Marrakech-Safi",
+    "countryCode": "MA",
+    "line1": "Rocade Palmeraie, Marrakech 40000",
+    "lat": 31.6903199,
+    "lng": -7.9992123,
+    "geoPrecision": "street",
+    "geoSource": "listing_gps",
+    "geoNote": "Published GPS from Palmarena directory listing (Rocade Palmeraie)",
+    "website": "https://palmarena.business.site/",
+    "phone": "+212 608 853 012",
+    "email": null,
+    "venueModel": "outdoors",
+    "seasonNote": "Actu Padel directory; sports complex with padel",
+    "description": "PALMARENA sits on the Rocade Palmeraie in Marrakech with a published club phone. Fair-use Actu Padel lead cleared the evidence bar. Book ahead for evening sessions.",
+    "primarySourceUrl": "https://actu-padel.com/directory/padel-club/padel-palmarena-marrakesh/",
+    "secondarySourceUrl": "https://palmarena.business.site/",
+    "sourceTypes": "Actu Padel; club business site",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Fair-use promote. Evidence: Actu street Rocade Palmeraie + phone 0608-853012; directory GPS 31.6903199,-7.9992123. Fair-use had wrong DE website; corrected to palmarena.business.site."
   }
 ]
