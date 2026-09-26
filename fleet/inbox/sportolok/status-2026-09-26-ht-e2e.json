@@ -1,0 +1,54 @@
+{
+  "clientId": "sportolok",
+  "observedAt": "2026-09-26T19:53:00Z",
+  "source": "itthon-hataron-tul-e2e",
+  "workingEnv": {
+    "ingestOnlyDoctrine": true,
+    "quarantineActive": true,
+    "timerSubscribed": true,
+    "timerName": "sportolok-tick",
+    "subscriptionId": "sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc",
+    "hataronTulJobs": true,
+    "hataronTulEnrichUnblocked": true
+  },
+  "outcomes": {
+    "management_pr": "https://github.com/moldovancsaba/management/pull/287",
+    "management_branch": "cursor/itthon-hataron-tul-652a",
+    "sc_main": "1440109",
+    "hataron_tul": {
+      "seeds_total": 54,
+      "pending": 52,
+      "ingested": 2,
+      "sample_ids": ["research-ht-87xexa", "research-ht-yn33o4"],
+      "db": "sportolok_hataron-tul",
+      "base_db_leak": 0,
+      "state": "DISCOVERED"
+    }
+  },
+  "openDebt": [
+    {
+      "kind": "merge_management_pr_287",
+      "n": 1,
+      "note": "Itthon / Határon túl pack.cities + CitySwitcher need release/sportolok merge + deploy"
+    },
+    {
+      "kind": "hataron_tul_enrich_remaining",
+      "n": 52
+    },
+    {
+      "kind": "pipeline_extract_ht_discovered",
+      "n": 2,
+      "note": "DISCOVERED cards await cycle extract/publish; no invented phones"
+    }
+  ],
+  "evidence": [
+    "content.sportolok/ingest/client.ts",
+    "content.sportolok/scripts/fair-use-discovery/enrich-seeds.ts",
+    "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json",
+    "management PR #287"
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/management/pull/287",
+    "https://github.com/moldovancsaba/sovereign.content"
+  ]
+}

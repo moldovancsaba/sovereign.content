@@ -759,3 +759,28 @@ Honest limits: magyaruszodak detail pages often only yield locality-level addres
 **Blocker (honest):** do **not** enrich/ingest yet — management `territoryScope` is still HU-only; pack `cities` Itthon / Határon túl not wired.
 
 **Do not claim production-ready.**
+
+### 2026-09-26 — SC-central / sportolok (Itthon · Határon túl e2e)
+
+**Ask:** full implementation — pack cities, switcher, DB routing, SC enrich/jobs — until done.
+
+**Management PR** https://github.com/moldovancsaba/management/pull/287 → `release/sportolok`
+- `pack.cities`: Itthon (`usesBaseDatabase`) · **Határon túl** (`sportolok_hataron-tul`)
+- CitySwitcher chrome · `getRequestDb` · ingest `x-sportolok-camera` · daemon `resolveCityTargetDb`
+- vitest cityTargets / sportolok / cityRegistry / publishGate green
+
+**SC `main`** (`c459b5d` + `1440109`)
+- ingest client camera headers
+- `fair-use:enrich:hataron-tul` · CountryCode from seed · `research-ht-*` ids
+
+**Live enrich sample (local Next + Atlas)**
+| Card | Camera DB | State |
+| --- | --- | --- |
+| `research-ht-87xexa` | `sportolok_hataron-tul` | DISCOVERED |
+| `research-ht-yn33o4` | `sportolok_hataron-tul` | DISCOVERED |
+
+Base `sportolok` content_cards: **0** HT leak. Pending HT seeds: **52**.
+
+**Still owed:** merge/deploy PR #287 to production; drain remaining HT enrich; pipeline extract of DISCOVERED cards. Timer `sportolok-tick` left subscribed.
+
+**Do not claim production-ready.**
