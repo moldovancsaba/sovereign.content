@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → sportolok)
 
-**Directory SSOT shipped (2026-09-26).** `directories/local-governments.json` (BP23+MJV25) + `directories/school-authorities.json` (KIR/SZIR + 60 KK tankerületek); `fair-use:expand-directories` merges verified pages into `sources.json`. Do not declare production-ready. Continue enriching pending seeds.
+**Proactive hourly tick live (2026-09-26T18:15Z).** Timer `sportolok-tick` subscribed (`sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc`, ~3600s). Directories SSOT on main. Standing contract: quality → fair-use one-pass/enrich → executorIngest → inbox → coord Turn. Do not declare production-ready. Continue enriching ~274 pending seeds.
 
 ## Open checklist (SC)
 
@@ -641,5 +641,29 @@ Honest limits: magyaruszodak detail pages often only yield locality-level addres
 **Activity mix (seeds):** school-sport 154 · swimming 152 · various 67 · handball 17 · …
 
 **MM/SP:** **D:116 | E:5 | P:8**
+
+**Do not claim production-ready.**
+
+### 2026-09-26 — SC-central / sportolok (proactive tick bind)
+
+**Ask:** become proactive like padel (ops pattern only). Subscribe hourly tick; run one full tick now; push `main` only.
+
+**Timer**
+- Subscribed `sportolok-tick` · `sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc` · delay 3600s · left subscribed
+- Prompt from `content.sportolok/timers/orchestrator.md` + standing tick contract
+
+**This tick (live, INGEST_API_KEY present)**
+| Step | Result |
+| --- | --- |
+| `catalog:quality-loop` | **5** PUBLISHED patches (ingest); 4 skip |
+| `fair-use:one-pass` | **29** sources → **418** candidates; pending **299** after pass |
+| `fair-use:enrich --limit=25` | **+25** DISCOVERED; 0 rejected |
+| `catalog:executor-ingest` | About repair on `l-research-hun-exwfxp` (Gazdagréti) → `patched: true` PUBLISHED |
+
+**MM/SP:** **D:141 | E:6 | P:8** (D cumulative fair-use ingested; E = quality+executor this tick; P prior)
+
+**openDebt:** `release/sportolok` core reconcile · **274** pending seeds · tankerület extractor still missing (60 indexed in directory only)
+
+**Also on main:** merged PR branch fair-use/directories work; `directories/local-governments.json` + `school-authorities.json` present.
 
 **Do not claim production-ready.**

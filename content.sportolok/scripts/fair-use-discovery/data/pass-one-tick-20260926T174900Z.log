@@ -1,0 +1,197 @@
+
+> @sovereign/sportolok@1.0.0 fair-use:one-pass
+> npx tsx scripts/fair-use-discovery/one-pass.ts
+
+🚀 Sportolok Fair-Use Discovery - One Pass
+   Mode: LIVE
+
+📋 Loaded 31 sources
+   Inter-source delay: 45s
+   Pass cooldown: 300s
+
+✅ 29 sources ready (0 on cooldown)
+
+[1/29] NSÜ létesítmény katalógus (összes típus)
+🏟️  NSÜ full catalog: NSÜ létesítmény katalógus (összes típus)
+   ✓ API returned 92 facilities
+   ✓ Mapped 92 candidates (all NSÜ venue types)
+
+⏸️  Sleeping 45s between sources...
+[2/29] NSÜ Sportlétesítmények kategória
+🔍 Processing source: NSÜ Sportlétesítmények kategória (nsu-cat-sportletesitmenyek)
+   ✓ Fetched 193956 bytes
+   ✓ Extracted 19 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[3/29] NSÜ Olimpiai központok
+🔍 Processing source: NSÜ Olimpiai központok (nsu-cat-olimpiai-kozpontok)
+   ✓ Fetched 142337 bytes
+   ✓ Extracted 6 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[4/29] NSÜ Tanuszodák
+🔍 Processing source: NSÜ Tanuszodák (nsu-cat-tanuszodak)
+   ✓ Fetched 290511 bytes
+   ✓ Extracted 42 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[5/29] NSÜ Uszodák
+🔍 Processing source: NSÜ Uszodák (nsu-cat-uszodak)
+   ✓ Fetched 173115 bytes
+   ✓ Extracted 13 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[6/29] Magyar Uszodák - Budapest
+🔍 Processing source: Magyar Uszodák - Budapest (magyaruszodak-budapest)
+   ✓ Fetched 255874 bytes
+   ✓ Extracted 25 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[7/29] Újpest Önkormányzat — sportlétesítmények
+🔍 Processing source: Újpest Önkormányzat — sportlétesítmények (onkormanyzat-ujpest-sport)
+   ✓ Fetched 205221 bytes
+   ✓ Extracted 23 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[8/29] Budapest XIII. — sport színterek
+🔍 Processing source: Budapest XIII. — sport színterek (onkormanyzat-bp13-sport)
+   ✓ Fetched 119978 bytes
+   ✓ Extracted 7 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[9/29] Sport13 (BP XIII) — telephelyeink
+🔍 Processing source: Sport13 (BP XIII) — telephelyeink (onkormanyzat-sport13-telephelyek)
+   ✓ Fetched 272282 bytes
+   ✓ Extracted 8 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[10/29] Hegyvidéki Sportközpont és Tanuszoda
+🔍 Processing source: Hegyvidéki Sportközpont és Tanuszoda (onkormanyzat-hegyvidek-sport)
+   ✓ Fetched 73873 bytes
+   ✓ Extracted 5 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[11/29] Óbudai Sport — létesítményeink
+🔍 Processing source: Óbudai Sport — létesítményeink (onkormanyzat-obuda-letesitmenyek)
+   ✓ Fetched 35771 bytes
+   ✓ Extracted 6 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[12/29] Miskolc MJV — sportlétesítmények
+🔍 Processing source: Miskolc MJV — sportlétesítmények (onkormanyzat-miskolc-sport)
+   ✓ Fetched 363417 bytes
+   ✓ Extracted 9 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[13/29] Győr MJV — sport létesítmények
+🔍 Processing source: Győr MJV — sport létesítmények (onkormanyzat-gyor-letesitmenyek)
+   ✓ Fetched 226667 bytes
+   ✓ Extracted 1 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[14/29] Debrecen — sportcsarnokok / aktív létesítmények
+🔍 Processing source: Debrecen — sportcsarnokok / aktív létesítmények (onkormanyzat-debrecen-sportcsarnokok)
+   ✓ Fetched 119813 bytes
+   ✓ Extracted 6 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[15/29] Józsefváros Önkormányzat — uszodák
+🔍 Processing source: Józsefváros Önkormányzat — uszodák (onkormanyzat-jozsefvaros-uszodak)
+   ✓ Fetched 667570 bytes
+   ✓ Extracted 2 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[16/29] Budapest XIII. — általános iskolák
+🔍 Processing source: Budapest XIII. — általános iskolák (schools-bp13-altalanos)
+   ✓ Fetched 146355 bytes
+   ✓ Extracted 8 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[17/29] Budapest XIII. — középiskolák
+🔍 Processing source: Budapest XIII. — középiskolák (schools-bp13-kozep)
+   ✓ Fetched 144126 bytes
+   ✓ Extracted 8 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[18/29] Hegyvidék Önkormányzat — iskolák
+🔍 Processing source: Hegyvidék Önkormányzat — iskolák (schools-hegyvidek)
+   ✓ Fetched 40734 bytes
+   ✓ Extracted 4 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[19/29] Budapest XVI. — általános iskolák
+🔍 Processing source: Budapest XVI. — általános iskolák (schools-bp16-altalanos)
+   ✓ Fetched 99091 bytes
+   ✓ Extracted 12 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[20/29] Budapest XVI. — középiskolák
+🔍 Processing source: Budapest XVI. — középiskolák (schools-bp16-kozep)
+   ✓ Fetched 86116 bytes
+   ✓ Extracted 2 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[21/29] Budafok-Tétény (XXII.) — oktatási intézmények
+🔍 Processing source: Budafok-Tétény (XXII.) — oktatási intézmények (schools-bp22-budafok)
+   ⚠️  TLS verify failed — retry with NODE_TLS_REJECT_UNAUTHORIZED=0 for www.budafokteteny.hu
+(node:45160) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+   ✓ Fetched 39290 bytes
+   ✓ Extracted 3 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[22/29] Pesterzsébet (XX.) — iskolák
+🔍 Processing source: Pesterzsébet (XX.) — iskolák (schools-pesterzsebet)
+   ✓ Fetched 97684 bytes
+   ✓ Extracted 16 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[23/29] Győr MJV — iskolák
+🔍 Processing source: Győr MJV — iskolák (schools-gyor)
+   ✓ Fetched 237840 bytes
+   ✓ Extracted 21 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[24/29] Székesfehérvár — tankerületi általános iskolák
+🔍 Processing source: Székesfehérvár — tankerületi általános iskolák (schools-szekesfehervar)
+   ✓ Fetched 49917 bytes
+   ✓ Extracted 11 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[25/29] Veszprém — általános iskolák
+🔍 Processing source: Veszprém — általános iskolák (schools-veszprem-altalanos)
+   ✓ Fetched 62411 bytes
+   ✓ Extracted 11 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[26/29] Veszprém — középiskolák, kollégiumok
+🔍 Processing source: Veszprém — középiskolák, kollégiumok (schools-veszprem-kozep)
+   ✓ Fetched 62450 bytes
+   ✓ Extracted 11 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[27/29] Kecskemét — általános iskolák
+🔍 Processing source: Kecskemét — általános iskolák (schools-kecskemet-altalanos)
+   ✓ Fetched 650139 bytes
+   ✓ Extracted 29 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[28/29] Kecskemét — középiskolák, kollégiumok
+🔍 Processing source: Kecskemét — középiskolák, kollégiumok (schools-kecskemet-kozep)
+   ✓ Fetched 530917 bytes
+   ✓ Extracted 17 candidate(s)
+
+⏸️  Sleeping 45s between sources...
+[29/29] Debrecen Megyei Jogú Város — iskolák
+🔍 Processing source: Debrecen Megyei Jogú Város — iskolák (schools-debrecen-hu-hu-debreceni-oktatas)
+   ✓ Fetched 112766 bytes
+   ✓ Extracted 1 candidate(s)
+
+💾 Saved state and 418 candidate(s) to find-seeds
+
+📊 Pass Summary:
+   Sources processed: 29
+   New candidates: 418
+   Pending seeds: 299
+
+⏰ Next pass cooldown: 300s

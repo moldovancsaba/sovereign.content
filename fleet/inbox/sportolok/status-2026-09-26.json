@@ -1,29 +1,33 @@
 {
   "clientId": "sportolok",
-  "observedAt": "2026-09-26T01:24:08Z",
-  "source": "sportolok-agent",
+  "observedAt": "2026-09-26T18:15:00Z",
+  "source": "sportolok-tick",
   "workingEnv": {
     "ingestOnlyDoctrine": true,
     "quarantineActive": true,
     "catalogJobsWired": true,
-    "nsuAllVenueTypes": true,
-    "onkormanyzatSources": true,
-    "schoolSources": true,
-    "cityMunicipalSources": true,
+    "timerSubscribed": true,
+    "timerName": "sportolok-tick",
+    "subscriptionId": "sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc",
+    "timerDelaySeconds": 3600,
+    "directoriesPresent": true,
     "releaseBranchCommitsStopped": "acknowledged"
   },
   "outcomes": {
     "MM_SP": {
-      "D": 116,
-      "E": 5,
+      "D": 141,
+      "E": 6,
       "P": 8
     },
-    "one_pass_candidates": 408,
-    "seeds_total": 414,
-    "pending_seeds": 298,
-    "enrich_this_wave": 70,
+    "quality_loop_patched": 5,
+    "one_pass_sources": 29,
+    "one_pass_candidates": 418,
+    "enrich_ingested": 25,
+    "executor_ingest_about": 1,
+    "seeds_total": 415,
+    "pending_seeds": 274,
     "activity_types": {
-      "school-sport": 154,
+      "school-sport": 155,
       "swimming": 152,
       "various": 67,
       "handball": 17,
@@ -31,9 +35,7 @@
       "football": 5,
       "training-camp": 4,
       "ice-sports": 4
-    },
-    "new_sources_count": 15,
-    "nsu_catalog_facilities": 92
+    }
   },
   "openDebt": [
     {
@@ -42,22 +44,22 @@
     },
     {
       "kind": "enrich_remaining_pending",
-      "n": 298
+      "n": 274
     },
     {
-      "kind": "more_district_onkormanyzat_pages",
+      "kind": "tankerulet_extractor",
       "n": 1,
-      "note": "Debrecen UA fixed; BP22 TLS leaf needs insecure retry path; more kerületek still available"
+      "note": "60 KK tankerületek indexed in school-authorities.json; not crawled until extractor exists"
     }
   ],
   "evidence": [
-    "content.sportolok/scripts/fair-use-discovery/sources.json",
-    "content.sportolok/scripts/fair-use-discovery/lib/hungarianExtract.ts",
     "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json",
-    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-26.json",
-    "content.sportolok/scripts/fair-use-discovery/data/pass-one-20260926T005900Z.log"
+    "content.sportolok/scripts/fair-use-discovery/data/source-state.json",
+    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-26-tick.json",
+    "content.sportolok/scripts/fair-use-discovery/directories/local-governments.json",
+    "content.sportolok/scripts/fair-use-discovery/directories/school-authorities.json"
   ],
   "links": [
-    "https://github.com/moldovancsaba/sovereign.content/pull/30"
+    "https://github.com/moldovancsaba/sovereign.content"
   ]
 }
