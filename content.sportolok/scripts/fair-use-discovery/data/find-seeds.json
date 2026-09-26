@@ -8417,7 +8417,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-yn33o4": {
     "seedId": "seed-ht-yn33o4",
@@ -8441,7 +8441,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-gp2igh": {
     "seedId": "seed-ht-gp2igh",
