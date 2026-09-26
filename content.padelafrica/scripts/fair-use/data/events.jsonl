@@ -1752,3 +1752,60 @@
 {"type": "fair_use_triage", "at": "2026-09-26T10:33:04Z", "action": "reject", "candidateId": "fair-playtomic-book-a-court-in-powerleague-shoreditch", "note": "UK", "tick": "2026-09-26T10"}
 {"type": "fair_use_triage", "at": "2026-09-26T10:33:04Z", "action": "skipped_duplicate", "candidateId": "fair-actu-padel-africa-padel-camps-bay", "note": "ZAF-VEN-001", "tick": "2026-09-26T10"}
 {"type": "fair_use_triage", "at": "2026-09-26T10:33:04Z", "action": "reject", "candidateId": "fair-padelivu-the-bubble-club-blaricum-premium-sports-and-social-club", "note": "NL", "tick": "2026-09-26T10"}
+{"at":"2026-09-26T11:14:22.127Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/south-africa/"}
+{"at":"2026-09-26T11:14:22.734Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/south-africa/","harvested":0}
+{"at":"2026-09-26T11:15:07.740Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery","url":"https://www.analistaspadel.com/"}
+{"at":"2026-09-26T11:15:08.542Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/","harvested":0}
+{"at":"2026-09-26T11:15:53.559Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/"}
+{"at":"2026-09-26T11:15:53.601Z","type":"fair_use_reject","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/","status":403,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-26T11:16:38.615Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/cote-divoire/"}
+{"at":"2026-09-26T11:16:38.781Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/cote-divoire/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-26T11:17:23.791Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery","url":"https://playtomic.io/"}
+{"at":"2026-09-26T11:17:24.134Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery_harvest","url":"https://playtomic.io/","harvested":3}
+{"at":"2026-09-26T11:18:09.150Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
+{"at":"2026-09-26T11:18:09.833Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-09-26T11:18:54.849Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery","url":"https://padel.co.ma/annuaire-des-clubs/"}
+{"at":"2026-09-26T11:18:57.981Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}
+{"at":"2026-09-26T11:19:42.999Z","type":"fair_use_attempt","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/directory/padel-club/padel-africa-claremont-cape-town/"}
+{"at":"2026-09-26T11:19:43.179Z","type":"fair_use_seed","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/directory/padel-club/padel-africa-claremont-cape-town/","candidateId":"fair-actu-padel-africa-padel-claremont","reasonCode":"seeded"}
+{"at":"2026-09-26T11:20:28.196Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-clubs-in-asia/"}
+{"at":"2026-09-26T11:20:28.672Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-clubs-in-asia/","harvested":0}
+{"at":"2026-09-26T11:21:13.688Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/cape-town"}
+{"at":"2026-09-26T11:21:13.826Z","type":"fair_use_reject","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/cape-town","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-09-26T11:21:58.842Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery","url":"https://www.africapadel.com/"}
+{"at":"2026-09-26T11:21:59.240Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}
+{"at":"2026-09-26T11:22:44.257Z","type":"fair_use_attempt","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/aurial-indoor-padel-sabadell"}
+{"at":"2026-09-26T11:22:44.751Z","type":"fair_use_reject","sourceId":"padelivu","mode":"detail","url":"https://padelivu.com/club/aurial-indoor-padel-sabadell","reasonCode":"not_club_like_name"}
+{"at":"2026-09-26T11:23:29.768Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/"}
+{"at":"2026-09-26T11:23:29.852Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery_harvest","url":"https://padelmap.net/","harvested":0}
+{"at":"2026-09-26T11:24:14.868Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery","url":"https://padel.llc/"}
+{"at":"2026-09-26T11:24:15.215Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery_harvest","url":"https://padel.llc/","harvested":0}
+{"at":"2026-09-26T11:25:00.231Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery","url":"https://need4padel.com/pro-shop-equipment"}
+{"at":"2026-09-26T11:25:00.281Z","type":"fair_use_attempt","sourceId":"need4padel","mode":"discovery_harvest","url":"https://need4padel.com/pro-shop-equipment","harvested":0}
+{"at":"2026-09-26T11:25:45.296Z","type":"fair_use_attempt","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/"}
+{"at":"2026-09-26T11:25:45.559Z","type":"fair_use_reject","sourceId":"worldpadelnetwork","mode":"discovery","url":"https://www.worldpadelnetwork.com/","status":200,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-09-26T11:26:30.562Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery","url":"https://padelsearch.info/web"}
+{"at":"2026-09-26T11:26:31.304Z","type":"fair_use_attempt","sourceId":"padelsearch","mode":"discovery_harvest","url":"https://padelsearch.info/web","harvested":0}
+{"at":"2026-09-26T11:27:16.321Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery","url":"https://www.padel-magazine.co.uk/club-directory/"}
+{"at":"2026-09-26T11:27:17.121Z","type":"fair_use_attempt","sourceId":"padel-magazine-uk","mode":"discovery_harvest","url":"https://www.padel-magazine.co.uk/club-directory/","harvested":0}
+{"at":"2026-09-26T11:28:02.137Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery","url":"https://padelmagazine.fr/calendrier/"}
+{"at":"2026-09-26T11:28:03.030Z","type":"fair_use_attempt","sourceId":"padelmagazine-fr","mode":"discovery_harvest","url":"https://padelmagazine.fr/calendrier/","harvested":0}
+{"at":"2026-09-26T11:28:48.041Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery","url":"https://www.padelfip.com/live/"}
+{"at":"2026-09-26T11:28:48.328Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery_harvest","url":"https://www.padelfip.com/live/","harvested":0}
+{"at":"2026-09-26T11:33:00.655Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery","url":"https://premierpadel.com/"}
+{"at":"2026-09-26T11:33:01.653Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/","harvested":0}
+{"at":"2026-09-26T11:33:46.670Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery","url":"https://www.thepadeldirectory.co.uk/find-padel-courts"}
+{"at":"2026-09-26T11:33:46.804Z","type":"fair_use_attempt","sourceId":"thepadeldirectory","mode":"discovery_harvest","url":"https://www.thepadeldirectory.co.uk/find-padel-courts","harvested":0}
+{"at":"2026-09-26T11:34:31.817Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery","url":"https://www.matchi.se/"}
+{"at":"2026-09-26T11:34:32.218Z","type":"fair_use_attempt","sourceId":"matchi","mode":"discovery_harvest","url":"https://www.matchi.se/","harvested":0}
+{"at":"2026-09-26T11:35:17.230Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery","url":"https://www.anybuddyapp.com/fr"}
+{"at":"2026-09-26T11:35:17.709Z","type":"fair_use_attempt","sourceId":"anybuddy","mode":"discovery_harvest","url":"https://www.anybuddyapp.com/fr","harvested":0}
+{"at":"2026-09-26T11:36:02.725Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery","url":"https://padelusa.org/"}
+{"at":"2026-09-26T11:36:08.520Z","type":"fair_use_attempt","sourceId":"padelusa","mode":"discovery_harvest","url":"https://padelusa.org/","harvested":2}
+{"at":"2026-09-26T11:36:53.542Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery","url":"https://www.padelbrowser.com/"}
+{"at":"2026-09-26T11:36:53.652Z","type":"fair_use_attempt","sourceId":"padelbrowser","mode":"discovery_harvest","url":"https://www.padelbrowser.com/","harvested":0}
+{"at":"2026-09-26T11:37:38.663Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery","url":"https://www.bounce.game/"}
+{"at":"2026-09-26T11:37:38.744Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery_harvest","url":"https://www.bounce.game/","harvested":0}
+{"at":"2026-09-26T11:38:23.760Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery","url":"https://www.totalpadel.com/"}
+{"at":"2026-09-26T11:38:24.303Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery_harvest","url":"https://www.totalpadel.com/","harvested":0}
+{"type": "fair_use_triage", "at": "2026-09-26T11:43:27Z", "action": "skipped_duplicate", "candidateId": "fair-actu-padel-africa-padel-claremont", "note": "ZAF-VEN-002", "tick": "2026-09-26T11"}

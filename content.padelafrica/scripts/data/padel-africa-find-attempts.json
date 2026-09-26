@@ -2076,6 +2076,106 @@
       "countryCode": "AO",
       "result": "zero_result",
       "evidence": "phone-thin"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "seed",
+      "recordId": "KEN-VEN-013",
+      "name": "The Padel Point Westlands",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "seed",
+      "recordId": "KEN-VEN-014",
+      "name": "The Padel Point Nanyuki",
+      "city": "Nanyuki",
+      "countryCode": "KE",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "seed",
+      "recordId": "KEN-VEN-015",
+      "name": "Padel Plus Sports",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "result": "seeded",
+      "evidence": "street+phone"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "seed",
+      "recordId": "KEN-VEN-016",
+      "name": "Zen Padel Zen Garden",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "phone_backfill",
+      "recordId": "AGO-VEN-013",
+      "name": "Dragon Padel Club Boa Vida",
+      "countryCode": "AO",
+      "result": "phone_backfill",
+      "evidence": "+244 933 468 800"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "phone_backfill",
+      "recordId": "AGO-VEN-005",
+      "name": "KOOL PADEL",
+      "countryCode": "AO",
+      "result": "phone_backfill",
+      "evidence": "Kool Park complex +244 924 369 546"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "skip",
+      "name": "Magic Padel Lagos Federal Palace",
+      "countryCode": "NG",
+      "result": "zero_result",
+      "evidence": "no reliable padel-specific phone"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "skip",
+      "name": "Play Padel Landmark VI",
+      "countryCode": "NG",
+      "result": "zero_result",
+      "evidence": "placeholder phone in blog"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "skip",
+      "name": "Mamba Club Accra",
+      "countryCode": "GH",
+      "result": "zero_result",
+      "evidence": "street but no phone"
+    },
+    {
+      "at": "2026-09-26T11:16:56Z",
+      "tick": "2026-09-26T11",
+      "action": "skip",
+      "name": "Garden Padel Ivandry",
+      "countryCode": "MG",
+      "result": "zero_result",
+      "evidence": "booking site blocked; still phone-thin"
     }
   ]
 }

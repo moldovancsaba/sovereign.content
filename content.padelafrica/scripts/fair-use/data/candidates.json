@@ -1812,5 +1812,26 @@
     "extractedAt": "2026-09-26T10:17:52.971Z",
     "rejectedAt": "2026-09-26T10:33:04Z",
     "rejectReason": "out_of_scope_netherlands"
+  },
+  {
+    "candidateId": "fair-actu-padel-africa-padel-claremont",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Africa Padel Claremont",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-africa-claremont-cape-town/",
+    "website": "http://www.africapadel.com/",
+    "cityHint": "Cape Town",
+    "countryHint": "South Africa",
+    "addressHint": "Herschel Cl, Claremont, Cape Town, 7708, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-africa-claremont-cape-town/",
+      "http://www.africapadel.com/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-26T11:19:43.176Z",
+    "skippedAt": "2026-09-26T11:43:27Z",
+    "skippedReason": "already_seeded_ZAF-VEN-002",
+    "duplicateRecordId": "ZAF-VEN-002"
   }
 ]

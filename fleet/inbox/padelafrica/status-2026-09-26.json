@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T10:33:21Z",
+  "observedAt": "2026-09-26T11:43:27Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 37,
+    "fairUsePassCount": 38,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -25,33 +25,34 @@
     "qualityLoopScanned": 261,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 37,
+    "fairUsePass": 38,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-022",
-      "ZAF-VEN-023",
-      "ZAF-VEN-024"
+      "KEN-VEN-013",
+      "KEN-VEN-014",
+      "KEN-VEN-015",
+      "KEN-VEN-016"
     ],
     "findPhoneBackfill": [
-      "EGY-VEN-003",
-      "CPV-VEN-005"
+      "AGO-VEN-013",
+      "AGO-VEN-005"
     ],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [
-      "Africa Padel Camps Bay fair-use \u2192 ZAF-VEN-001"
+      "Africa Padel Claremont fair-use \u2192 ZAF-VEN-002"
     ],
     "findZeroResult": [
-      "MG Garden Padel Ivandry phone-thin",
-      "AO Max Padel Luanda phone-thin",
-      "UK Powerleague Shoreditch out-of-scope",
-      "NL Bubble Club Blaricum out-of-scope"
+      "NG Magic Padel Lagos no reliable padel phone",
+      "NG Play Padel Landmark placeholder phone",
+      "GH Mamba Club Accra street no phone",
+      "MG Garden Padel Ivandry still phone-thin"
     ],
-    "ingestDiscoveredOk": 5,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T10.json",
+    "ingestDiscoveredOk": 6,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T11.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "10:08 tick: Old Selbornian + Padel Park Beacon Bay + Beyond Boardwalk; Green Plaza + VOI Farol phone backfills. Fair-use pass 37 \u2014 no new Africa promotes (Camps Bay duplicate; UK/NL rejects). Not claiming PUBLISHED."
+    "note": "11:13 tick: Padel Point Westlands/Nanyuki + Padel Plus Karen + Zen Padel; Dragon + KOOL phone backfills. Fair-use pass 38 \u2014 Claremont duplicate. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [

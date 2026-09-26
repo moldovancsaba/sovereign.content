@@ -796,3 +796,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - MG Garden Padel Ivandry / AO Max Padel Luanda → skipped (phone-thin)
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~11:13–11:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 261 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 38 (28 sources). **skipped_duplicate** Africa Padel Claremont → `ZAF-VEN-002`. `needs_verify` cleared.
+
+**FIND:**
+- KE densify → **`KEN-VEN-013` The Padel Point Westlands**, **`KEN-VEN-014` The Padel Point Nanyuki**, **`KEN-VEN-015` Padel Plus Sports**, **`KEN-VEN-016` Zen Padel (Zen Garden)** DISCOVERED
+- Phone backfill → `AGO-VEN-013` Dragon Boa Vida, `AGO-VEN-005` KOOL PADEL (complex phone)
+- NG Magic/Landmark / GH Mamba / MG Garden Ivandry → skipped
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
