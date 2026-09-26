@@ -960,3 +960,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
 
+
+### 2026-09-26 — padelafrica (tick ~21:13–21:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 322 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 48 (28 sources). **Promoted** BAS Padel Ferrum → `ZAF-VEN-064`. **Rejected** Pins Padel (ES), Kraken (US). `needs_verify` cleared.
+
+**FIND:**
+- MA densify → **`MAR-VEN-030` Arena Ville Verte** + backfill **`MAR-VEN-002` Padel 4** DISCOVERED
+- NG backfill → **`NGA-VEN-001`–`004`** Lagos DISCOVERED
+- SN/CM/GH/ZW/RW/BW backfill → **`SEN-001/002`**, **`CMR-002`**, **`GHA-004`**, **`ZWE-001`**, **`RWA-001`**, **`BWA-001`** DISCOVERED
+- Fair-use promote → **`ZAF-VEN-064` BAS Padel Ferrum** DISCOVERED
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+

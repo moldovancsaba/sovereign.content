@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T20:10:13.349875Z",
+  "updatedAt": "2026-09-26T21:14:44.112187Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2626,6 +2626,55 @@
       "at": "2026-09-26T20:10:13.349875Z",
       "outcome": "seeded",
       "note": "prior fixtures ingest"
+    },
+    {
+      "cc": "MA",
+      "city": "Bouskoura Arena Ville Verte",
+      "at": "2026-09-26T21:14:44.112187Z",
+      "outcome": "seeded",
+      "note": "MAR-VEN-030"
+    },
+    {
+      "cc": "NG",
+      "city": "Lagos backfill NGA-001..004",
+      "at": "2026-09-26T21:14:44.112187Z",
+      "outcome": "seeded"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar/Saly backfill SEN-001..002",
+      "at": "2026-09-26T21:14:44.112187Z",
+      "outcome": "seeded"
+    },
+    {
+      "cc": "CM",
+      "city": "Douala CMR-002",
+      "at": "2026-09-26T21:14:44.112187Z",
+      "outcome": "seeded"
+    },
+    {
+      "cc": "GH",
+      "city": "Accra GHA-004",
+      "at": "2026-09-26T21:14:44.112187Z",
+      "outcome": "seeded"
+    },
+    {
+      "cc": "ZW",
+      "city": "Harare Hub ZWE-001",
+      "at": "2026-09-26T21:14:44.112187Z",
+      "outcome": "seeded"
+    },
+    {
+      "cc": "RW",
+      "city": "Kigali Bounce RWA-001",
+      "at": "2026-09-26T21:14:44.112187Z",
+      "outcome": "seeded"
+    },
+    {
+      "cc": "BW",
+      "city": "Gaborone Gamecity BWA-001",
+      "at": "2026-09-26T21:14:44.112187Z",
+      "outcome": "seeded"
     }
   ]
 }

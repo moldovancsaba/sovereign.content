@@ -61,39 +61,44 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T20:30:45.584169Z",
+  "updatedAt": "2026-09-26T21:35:29.627299Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 319,
+    "scanned": 322,
     "belowThreshold": 0,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 47,
+    "passCount": 48,
     "promoted": [
-      "ZAF-VEN-063 Balwin Padel Mooikloof"
+      "ZAF-VEN-064 BAS Padel Ferrum"
     ],
     "rejected": [
-      "Vals Sport Consul (ES)"
+      "Pins Padel Club (ES)",
+      "Kraken Padel Club (US)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "MAR-VEN-028 Paradise Padel Corniche",
-      "MAR-VEN-029 SaadLand Club El Menzeh",
-      "ALG-VEN-001..005 Algeria backfill",
-      "LBY-VEN-001..003 Libya Tripoli backfill",
-      "UGA-VEN-001 Herman + UGA-VEN-002 Smash Kampala backfill",
-      "ZAF-VEN-063 Balwin Padel Mooikloof"
+      "MAR-VEN-030 Arena Ville Verte",
+      "MAR-VEN-002 Padel 4 (backfill)",
+      "NGA-VEN-001..004 Lagos densify/backfill",
+      "SEN-VEN-001..002 Senegal backfill",
+      "CMR-VEN-002 Kimal\u00e9",
+      "GHA-VEN-004 Aura",
+      "ZWE-VEN-001 Padel Zim Hub",
+      "RWA-VEN-001 Bounce Kiyovu",
+      "BWA-VEN-001 Gamecity",
+      "ZAF-VEN-064 BAS Padel Ferrum"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~20:08\u201320:35 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
+  "notes": "Tick ~21:13\u201321:40 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
 }

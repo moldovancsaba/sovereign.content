@@ -1567,5 +1567,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Fair-use promote tick 2026-09-26T20 from actu-padel Balwin candidate"
+  },
+  {
+    "recordId": "ZAF-VEN-064",
+    "name": "BAS Padel Ferrum",
+    "city": "Newcastle",
+    "region": "KwaZulu-Natal",
+    "countryCode": "ZA",
+    "line1": "6 Aquamarine Drive, Ferrum High School, Sunnyridge, 2940",
+    "lat": -27.7252577,
+    "lng": 29.9527704,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Aquamarine Drive Sunny Ridge pin \u2014 Ferrum High School courts not rooftop-geocoded",
+    "website": "https://baspadel.co.za/",
+    "phone": "+27 69 777 7766",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Playtomic hours commonly Mon\u2013Fri from 08:00, Sat from 06:00.",
+    "description": "BAS Padel Ferrum puts panoramic courts at Ferrum High School on Aquamarine Drive in Newcastle with Playtomic booking and a published phone. A clear northern KZN densify pick outside Durban/Pietermaritzburg. Book on Playtomic or call ahead.",
+    "primarySourceUrl": "https://playtomic.com/clubs/bas-padel-ferrum",
+    "secondarySourceUrl": "https://padelcourtssouthafrica.co.za/kwazulu-natal/padel-courts-in-newcastle/",
+    "sourceTypes": "Playtomic BAS Padel Ferrum; padelcourtssouthafrica directory phone",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Fair-use promote tick 2026-09-26T21"
   }
 ]

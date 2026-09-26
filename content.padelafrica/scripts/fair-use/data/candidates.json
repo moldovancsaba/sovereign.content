@@ -2288,5 +2288,59 @@
     "extractedAt": "2026-09-26T20:17:33.659Z",
     "triagedAt": "2026-09-26T20:29:54.981233Z",
     "triageNote": "Out of Africa scope"
+  },
+  {
+    "candidateId": "fair-actu-padel-bas-padel-ferrum",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Bas Padel Ferrum",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-bas-ferrum-newcastle/",
+    "website": "https://baspadel.co.za/",
+    "countryHint": "South Africa",
+    "addressHint": "6 Aquamarine Dr, Sunnyridge, Newcastle, 2940, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-bas-ferrum-newcastle/",
+      "https://baspadel.co.za/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-26T21:18:56.396Z",
+    "promotedRecordId": "ZAF-VEN-064",
+    "triagedAt": "2026-09-26T21:35:09.737011Z",
+    "triageNote": "Street+phone+Playtomic; fixture ZAF-VEN-064"
+  },
+  {
+    "candidateId": "fair-padelivu-pins-padel-club",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Pins Padel Club",
+    "citationUrl": "https://padelivu.com/club/pins-padel-club",
+    "website": "",
+    "addressHint": "Calle Lluis Ferbal, 7, 07014, Sa Teulera, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/pins-padel-club"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T21:21:58.377Z",
+    "triagedAt": "2026-09-26T21:34:38.876060Z",
+    "triageNote": "Out of Africa scope"
+  },
+  {
+    "candidateId": "fair-padelusa-kraken-padel-club",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "Kraken Padel Club",
+    "citationUrl": "https://padelusa.org/clubs/texas/farmers-branch/kraken-padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/texas/farmers-branch/kraken-padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T21:31:49.587Z",
+    "triagedAt": "2026-09-26T21:34:38.876060Z",
+    "triageNote": "Out of Africa scope"
   }
 ]

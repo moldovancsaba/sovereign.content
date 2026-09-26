@@ -714,5 +714,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND tick 2026-09-26T20"
+  },
+  {
+    "recordId": "MAR-VEN-030",
+    "name": "Arena Ville Verte",
+    "city": "Bouskoura",
+    "region": "Casablanca-Settat",
+    "countryCode": "MA",
+    "line1": "P3020, Ville Verte Bouskoura",
+    "lat": 33.474702,
+    "lng": -7.6009654,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Ville Verte II / Bouskoura locality pin \u2014 P3020 complex rooftop not separately geocoded",
+    "website": "https://avv.ma/",
+    "phone": "+212 625 909 090",
+    "email": "contact@avv.ma",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 09:00\u201300:00 per club site.",
+    "description": "Arena Ville Verte in Bouskoura publishes a large padel complex on P3020 with club phone, email and first-party site. A clear Casablanca south densify pick distinct from Padel 4 Ville Verte and AREA Oulad Azzouz. Book via the club or call ahead.",
+    "primarySourceUrl": "https://avv.ma/contact/",
+    "secondarySourceUrl": "https://avv.ma/",
+    "sourceTypes": "Arena Ville Verte first-party contact (P3020, phone, email, hours)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "FIND tick 2026-09-26T21"
   }
 ]
