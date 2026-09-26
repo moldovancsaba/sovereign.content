@@ -45,5 +45,30 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Phone may be venue desk not padel-only. Alternate +250 780 303 463 also published for Mamba Club — primary VibeKigali 786 used. Distinct from RWA-VEN-001 Bounce."
+  },
+  {
+    "recordId": "RWA-VEN-003",
+    "name": "The Pinnacle Kigali Padel",
+    "city": "Kigali",
+    "region": "City of Kigali",
+    "countryCode": "RW",
+    "line1": "KK 30 Avenue, Sabaganga / Rebero, Kigali",
+    "lat": -1.9980862,
+    "lng": 30.0825625,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "KK 30 Avenue Nyanza / Kicukiro street pin",
+    "website": "https://www.thepinnaclekigali.com/",
+    "phone": "+250 795 466 156",
+    "email": "stay@thepinnaclekigali.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Members club / hotel sports; book padel via The Pinnacle Kigali sports app (TPC Matchpoint) or call reservations.",
+    "description": "The Pinnacle Kigali lists padel among its club sports on KK 30 Avenue in Rebero with a published reservations phone and email plus a dedicated sports booking app. A clear third Kigali recommendation beyond Bounce Kiyovu and Mamba Kimihurura when you want Rebero courts. Call or book ahead through the club app.",
+    "primarySourceUrl": "https://www.thepinnaclekigali.com/",
+    "secondarySourceUrl": "https://wetu.com/iBrochure/en/Information/409758/the_pinnacle_kigali/Contact",
+    "sourceTypes": "Official Pinnacle Kigali site; WETU contact; TPC Matchpoint club app",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "RW densify. Evidence: street KK30 + phone +250 795 466 156 + email; padel confirmed via club sports app / LinkedIn membership posts."
   }
 ]

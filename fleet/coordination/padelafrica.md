@@ -877,3 +877,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - UG Kampala deepen → zero-result (no new street+phone)
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~16:04–16:30 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 289 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 43 (28 sources). **Promoted** Al Falaah Durban → `ZAF-VEN-051`. **Rejected** Nomads Padel Village (ID), Union Padel Club (US). `needs_verify` cleared.
+
+**FIND:**
+- ZA densify → **`ZAF-VEN-045` Old Grey**, **`ZAF-VEN-046` Durbanville VA**, **`ZAF-VEN-047` Lourensford**, **`ZAF-VEN-048` George VA**, **`ZAF-VEN-049` Let's Play Padel**, **`ZAF-VEN-050` Garden Route Padel** DISCOVERED
+- RW densify → **`RWA-VEN-003` The Pinnacle Kigali Padel** DISCOVERED
+- Fair-use promote → **`ZAF-VEN-051` Al Falaah Durban Padel** DISCOVERED
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

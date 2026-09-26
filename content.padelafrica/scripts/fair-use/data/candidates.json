@@ -2049,5 +2049,60 @@
     "extractedAt": "2026-09-26T15:24:44.276Z",
     "triagedAt": "2026-09-26T15:37:16Z",
     "triageNote": "non_africa"
+  },
+  {
+    "candidateId": "fair-actu-padel-al-falaah-padel",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Al Falaah Padel",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-falaah-durban/",
+    "website": "https://www.alfalaah.org.za/",
+    "cityHint": "Durban",
+    "countryHint": "South Africa",
+    "addressHint": "99 Lotus Rd, Springfield, Durban, 4015, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-falaah-durban/",
+      "https://www.alfalaah.org.za/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-26T16:09:55.141Z",
+    "triagedAt": "2026-09-26T16:29:26Z",
+    "triageNote": "ZAF-VEN-051",
+    "promotedRecordId": "ZAF-VEN-051"
+  },
+  {
+    "candidateId": "fair-padelsearch-book-a-court-in-nomads-padel-village",
+    "sourceId": "padelsearch",
+    "sourceName": "Padel Search",
+    "name": "Book a court in \nNomads Padel Village",
+    "citationUrl": "https://playtomic.com/clubs/nomads-padel-village",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/nomads-padel-village",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Padel Search fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T16:16:43.236Z",
+    "triagedAt": "2026-09-26T16:29:26Z",
+    "triageNote": "non_africa"
+  },
+  {
+    "candidateId": "fair-padelusa-union-padel-club",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "Union Padel Club",
+    "citationUrl": "https://padelusa.org/clubs/illinois/chicago/union-padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/illinois/chicago/union-padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T16:25:12.507Z",
+    "triagedAt": "2026-09-26T16:29:26Z",
+    "triageNote": "non_africa"
   }
 ]

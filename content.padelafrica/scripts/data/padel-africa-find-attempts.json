@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T15:37:37Z",
+  "updatedAt": "2026-09-26T16:29:26Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2437,6 +2437,62 @@
       "at": "2026-09-26T15:37:37Z",
       "outcome": "rejected",
       "note": "Hanse Padel Hamburg non_africa"
+    },
+    {
+      "cc": "ZA",
+      "city": "Gqeberha",
+      "at": "2026-09-26T16:06:12Z",
+      "outcome": "seeded",
+      "note": "ZAF-045 Old Grey"
+    },
+    {
+      "cc": "ZA",
+      "city": "Cape Town",
+      "at": "2026-09-26T16:06:12Z",
+      "outcome": "seeded",
+      "note": "ZAF-046 Durbanville VA"
+    },
+    {
+      "cc": "ZA",
+      "city": "Somerset West",
+      "at": "2026-09-26T16:06:12Z",
+      "outcome": "seeded",
+      "note": "ZAF-047 Lourensford"
+    },
+    {
+      "cc": "ZA",
+      "city": "George",
+      "at": "2026-09-26T16:06:12Z",
+      "outcome": "seeded",
+      "note": "ZAF-048..050 George densify"
+    },
+    {
+      "cc": "RW",
+      "city": "Kigali",
+      "at": "2026-09-26T16:06:12Z",
+      "outcome": "seeded",
+      "note": "RWA-003 The Pinnacle"
+    },
+    {
+      "cc": "ZA",
+      "city": "Durban",
+      "at": "2026-09-26T16:29:26Z",
+      "outcome": "seeded",
+      "note": "fair-use promote ZAF-VEN-051 Al Falaah"
+    },
+    {
+      "cc": "ID",
+      "city": "Canggu",
+      "at": "2026-09-26T16:29:26Z",
+      "outcome": "rejected",
+      "note": "Nomads Padel Village Bali non_africa"
+    },
+    {
+      "cc": "US",
+      "city": "Chicago",
+      "at": "2026-09-26T16:29:26Z",
+      "outcome": "rejected",
+      "note": "Union Padel Club non_africa"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T15:37:51Z",
+  "observedAt": "2026-09-26T16:29:43Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 42,
+    "fairUsePassCount": 43,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,33 +22,34 @@
     "managementReleaseEqualsMain": true
   },
   "outcomes": {
-    "qualityLoopScanned": 282,
+    "qualityLoopScanned": 289,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 42,
+    "fairUsePass": 43,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-038",
-      "ZAF-VEN-039",
-      "ZAF-VEN-040",
-      "ZAF-VEN-041",
-      "ZAF-VEN-042",
-      "ZAF-VEN-043",
-      "ZAF-VEN-044"
+      "ZAF-VEN-045",
+      "ZAF-VEN-046",
+      "ZAF-VEN-047",
+      "ZAF-VEN-048",
+      "ZAF-VEN-049",
+      "ZAF-VEN-050",
+      "RWA-VEN-003",
+      "ZAF-VEN-051"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "UG Kampala deepen no new evidence",
-      "DE Hanse Padel Hamburg out-of-scope"
+      "ID Nomads Padel Village Bali out-of-scope",
+      "US Union Padel Club Chicago out-of-scope"
     ],
-    "ingestDiscoveredOk": 7,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T15.json",
+    "ingestDiscoveredOk": 8,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T16.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "15:15 tick: Africa Padel densify Glenvista/Brooklyn/Bloem/Old Park/German CC/Plett + fair-use Waterfront. Not claiming PUBLISHED."
+    "note": "16:04 tick: EC/WC densify Old Grey + Durbanville/Lourensford/George trio; RW Pinnacle; fair-use Al Falaah. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [

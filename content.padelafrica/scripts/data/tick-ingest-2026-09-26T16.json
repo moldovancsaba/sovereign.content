@@ -1,0 +1,94 @@
+{
+  "appliedAt": "2026-09-26T16:29:28.676Z",
+  "baseUrl": "https://padel-africa.doneisbetter.com",
+  "results": [
+    {
+      "recordId": "ZAF-VEN-045",
+      "id": "research-zaf-ven-045",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-045",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-046",
+      "id": "research-zaf-ven-046",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-046",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-047",
+      "id": "research-zaf-ven-047",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-047",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-048",
+      "id": "research-zaf-ven-048",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-048",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-049",
+      "id": "research-zaf-ven-049",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-049",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-050",
+      "id": "research-zaf-ven-050",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-050",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "RWA-VEN-003",
+      "id": "research-rwa-ven-003",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-rwa-ven-003",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-051",
+      "id": "research-zaf-ven-051",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-051",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}
