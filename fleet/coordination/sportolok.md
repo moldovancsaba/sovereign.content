@@ -812,3 +812,12 @@ Base `sportolok` content_cards: **0** HT leak. Pending HT seeds: **52**.
 **Timer** left subscribed.
 
 **Do not claim production-ready.**
+
+### 2026-09-26T23:01Z — sportolok-tick
+
+**quality** → 4 About patches (executorIngest)  
+**enrich** → **+12** Itthon DISCOVERED (0 rejects); pending **232**  
+**HT** → 52 pending; prod `/hataron-tul` still **404** (PR #287)  
+**Timer** left subscribed.
+
+**Do not claim production-ready.**
