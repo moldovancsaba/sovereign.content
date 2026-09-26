@@ -1,6 +1,6 @@
 {
   "clientId": "sportolok",
-  "observedAt": "2026-09-26T19:01:37Z",
+  "observedAt": "2026-09-26T19:12:00Z",
   "source": "sportolok-tick",
   "workingEnv": {
     "ingestOnlyDoctrine": true,
@@ -34,7 +34,9 @@
       "football": 5,
       "training-camp": 4,
       "ice-sports": 4
-    }
+    },
+    "about_qa_garble_fixed": 4,
+    "about_writer": "aboutQuality.ts"
   },
   "openDebt": [
     {
@@ -49,6 +51,11 @@
       "kind": "tankerulet_extractor",
       "n": 1,
       "note": "60 KK tankerületek indexed in school-authorities.json; not crawled until extractor exists"
+    },
+    {
+      "kind": "about_sludge_sweep_remainder",
+      "n": 1,
+      "note": "first 120 sitemap ids swept; more may exist"
     }
   ],
   "evidence": [

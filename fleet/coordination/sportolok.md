@@ -714,3 +714,22 @@ Honest limits: magyaruszodak detail pages often only yield locality-level addres
 **Blockers:** none this tick.
 
 **Do not claim production-ready.**
+
+### 2026-09-26 — SC-central / sportolok (About QA: vizipalackorai)
+
+**Ask:** visitor saw nonsense About on `l-research-hun-hrsfjq` (“vizipalackorai”); feared no writer/QA.
+
+**Root cause**
+- `catalog:quality-loop` was punctuation-only; `scoreAbout` rewarded length, not sense
+- Ingest/composed HU sludge + prior about-curate appended English boilerplate
+- NSÜ deepen sometimes took HQ footer (`1119 Petzvál…`) instead of `Helyszín (cím):`
+
+**Shipped**
+- Rewrote 4 garbled PUBLISHED Abouts via executorIngest (hrsfjq, rl5244, grj37l, kmsx1y)
+- `scripts/lib/aboutQuality.ts` — garble detect + HU rewrite; wired into quality-loop + about-curate
+- Enrich/deepen `buildAbout` → Hungarian visitor copy (no English fair-use boilerplate)
+- NSÜ `Helyszín (cím):` extract + reject Petzvál HQ as facility address
+
+**openDebt:** more sludge may remain beyond first 120 sitemap ids · tankerület extractor still missing
+
+**Do not claim production-ready.**

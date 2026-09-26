@@ -85,17 +85,4 @@ export async function fetchPublicListing(id: string): Promise<PublicListing | nu
   }
 }
 
-export function scoreAbout(description: string): number {
-  if (!description || description.length < 40) return 0;
-  if (description.length < 80) return 15;
-  let score = 40;
-  if (description.length >= 120) score += 15;
-  if (description.length >= 200) score += 15;
-  if (description.length >= 300) score += 10;
-  const sentences = description.split(/[.!?]+/).filter((s) => s.trim().length > 0);
-  if (sentences.length >= 2) score += 10;
-  if (sentences.length >= 3) score += 5;
-  if (/\d{1,2}:\d{2}/.test(description)) score += 5;
-  if (/\b(Budapest|Hungary|Magyarország|uszoda|fitness|tenisz)\b/i.test(description)) score += 5;
-  return Math.min(100, score);
-}
+export { scoreAbout, detectAboutGarble, draftAboutImprovement, rewriteAboutHu } from "./aboutQuality.ts";

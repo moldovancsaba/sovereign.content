@@ -92,11 +92,24 @@ async function deepenSeed(seed: FindSeed): Promise<FindSeed> {
       best.title.trim().toLowerCase().includes(seedName) ||
       seedName.includes(best.title.trim().toLowerCase());
 
+    const nextAddress = best.address || seed.initialFacts.address;
+    // Never keep NSÜ HQ footer as a venue street address
+    const addressOk =
+      nextAddress &&
+      !/Petzvál\s*József/i.test(nextAddress) &&
+      !/^1119\s+Budapest/i.test(nextAddress)
+        ? nextAddress
+        : seed.initialFacts.address &&
+            !/Petzvál\s*József/i.test(seed.initialFacts.address) &&
+            !/^1119\s+Budapest/i.test(seed.initialFacts.address)
+          ? seed.initialFacts.address
+          : undefined;
+
     return {
       ...seed,
       initialFacts: {
         name: keepName ? best.title || seed.initialFacts.name : seed.initialFacts.name,
-        address: best.address || seed.initialFacts.address,
+        address: addressOk,
         contact: {
           ...seed.initialFacts.contact,
           ...best.contact,
@@ -141,21 +154,24 @@ function buildSourceText(seed: FindSeed, about: string): string {
 
 function buildAbout(seed: FindSeed): string {
   const { name, address } = seed.initialFacts;
-  const activityLabel =
+  const kind =
     seed.activityType === "swimming"
-      ? "swimming"
-      : seed.activityType === "fitness"
-        ? "fitness"
-        : "sport";
-  let about = `${name} is a ${activityLabel} facility`;
-  if (address) about += ` at ${address}`;
+      ? "tanuszoda / uszoda"
+      : seed.activityType === "water-sports"
+        ? "vízisport-központ"
+        : seed.activityType === "handball"
+          ? "sportcsarnok"
+          : seed.activityType === "fitness"
+            ? "edzőterem"
+            : seed.activityType === "school-sport"
+              ? "iskolai sportlétesítmény"
+              : "sportlétesítmény";
+  // Hungarian visitor copy — no English fair-use boilerplate, no invented phones.
+  let about = `A ${name} ${kind}`;
+  if (address) about += ` (${address})`;
   about += ".";
-  if (seed.territory === "HUN-BUD") about += " Located in Budapest, Hungary.";
-  else about += " Located in Hungary.";
-  if (seed.initialFacts.contact?.phone) {
-    about += ` Contact: ${seed.initialFacts.contact.phone}.`;
-  }
-  about += " Facts sourced via fair-use discovery; descriptions are agent-authored.";
+  about +=
+    " Helyszíni programok, belépés és nyitvatartás előtt érdemes a hivatalos oldalon tájékozódni.";
   return about;
 }
 

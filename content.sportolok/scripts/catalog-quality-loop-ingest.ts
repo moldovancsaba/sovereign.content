@@ -12,6 +12,8 @@ import {
   listPublishedIds,
   fetchPublicListing,
   scoreAbout,
+  detectAboutGarble,
+  draftAboutImprovement,
 } from "./lib/publicListings.ts";
 
 function argFlag(name: string): boolean {
@@ -32,21 +34,11 @@ function draftImprovedAbout(listing: {
   name: string;
   description: string;
   locality?: string;
+  website?: string;
 }): { improved: string; reason: string } | null {
-  const desc = (listing.description || "").trim();
-  const score = scoreAbout(desc);
-  if (score >= 70) return null;
-  if (desc.length < 40) {
-    const place = listing.locality ? ` in ${listing.locality}` : " in Hungary";
-    return {
-      improved: `${listing.name} is a sport facility${place}. Confirm opening hours and programmes before visiting.`,
-      reason: "stub_from_name_locality",
-    };
-  }
-  let improved = desc;
-  if (!/[.!?]$/.test(improved)) improved += ".";
-  if (improved === desc && score >= 50) return null;
-  return { improved, reason: "punctuation_clarity" };
+  const draft = draftAboutImprovement(listing);
+  if (!draft) return null;
+  return { improved: draft.text, reason: draft.reason };
 }
 
 async function main() {
@@ -84,7 +76,8 @@ async function main() {
       continue;
     }
     const scoreBefore = scoreAbout(listing.description);
-    if (scoreBefore < 70) report.belowThreshold++;
+    const garble = detectAboutGarble(listing.description);
+    if (scoreBefore < 70 || garble) report.belowThreshold++;
     const draft = draftImprovedAbout(listing);
     if (!draft) {
       report.skipped++;
@@ -99,6 +92,7 @@ async function main() {
         name: listing.name,
         scoreBefore,
         scoreAfter: scoreAbout(draft.improved),
+        garble,
         action: "dry-run",
         reason: draft.reason,
       });
@@ -120,6 +114,7 @@ async function main() {
         name: listing.name,
         scoreBefore,
         scoreAfter: scoreAbout(draft.improved),
+        garble,
         action: "patched",
         reason: draft.reason,
         response: result.response,

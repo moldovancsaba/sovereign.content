@@ -1372,12 +1372,14 @@ export function extractNsuFacilityDetail(
   const title = cleanText(og || "");
   if (!title || isJunkTitle(title)) return [];
 
-  const hely =
+  // Prefer "Helyszín (cím):" / "Helyszín:" — never fall back to NSÜ HQ footer (Petzvál / 1119).
+  const helyRaw =
+    html.match(/Helyszín\s*\([^)]*\)\s*:\s*<\/[^>]+>\s*([^<]+)/i)?.[1] ||
+    html.match(/Helyszín\s*\([^)]*\)\s*:\s*([^<\n]{8,140})/i)?.[1] ||
     html.match(/Helyszín:\s*<\/strong>\s*([^<]+)/i)?.[1] ||
-    html.match(/Helyszín:\s*([^<\n]{10,120})/i)?.[1] ||
-    html.match(/(\d{4}\s+Budapest[^<\n]{5,80})/i)?.[1];
-  const address = hely
-    ? cleanText(hely)
+    html.match(/Helyszín:\s*([^<\n]{10,120})/i)?.[1];
+  let address = helyRaw
+    ? cleanText(helyRaw)
         .replace(/\s*•\s*$/, "")
         .replace(/,\s*\d+\s*\/\d+\.?\s*hrsz\.?/i, "")
         // Cut NSÜ narrative that follows the address on the same line
@@ -1385,6 +1387,15 @@ export function extractNsuFacilityDetail(
         .replace(/\s{2,}/g, " ")
         .trim()
     : undefined;
+  // Reject NSÜ Budapest HQ / footer mistaken as facility address
+  if (
+    address &&
+    (/Petzvál\s*József/i.test(address) ||
+      /^1119\s+Budapest/i.test(address) ||
+      /info@\s*nsu\.hu/i.test(address))
+  ) {
+    address = undefined;
+  }
 
   const phone =
     cleanText(

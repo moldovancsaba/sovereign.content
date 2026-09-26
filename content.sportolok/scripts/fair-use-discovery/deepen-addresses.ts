@@ -59,15 +59,11 @@ function publishedListingId(seed: FindSeed): string {
 
 function buildAbout(seed: FindSeed): string {
   const { name, address } = seed.initialFacts;
-  let about = `${name} is a swimming facility`;
-  if (address) about += ` at ${address}`;
+  let about = `A ${name} tanuszoda / uszoda`;
+  if (address) about += ` (${address})`;
   about += ".";
-  if (seed.territory === "HUN-BUD") about += " Located in Budapest, Hungary.";
-  else about += " Located in Hungary.";
-  if (seed.initialFacts.contact?.phone) {
-    about += ` Contact: ${seed.initialFacts.contact.phone}.`;
-  }
-  about += " Facts sourced via fair-use discovery; descriptions are agent-authored.";
+  about +=
+    " Helyszíni programok, belépés és nyitvatartás előtt érdemes a hivatalos oldalon tájékozódni.";
   return about;
 }
 

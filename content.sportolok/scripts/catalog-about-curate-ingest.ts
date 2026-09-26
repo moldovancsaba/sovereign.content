@@ -3,7 +3,8 @@
  * catalog:about-curate — ingest path (no Mongo).
  *
  * Reads published listings via public sitemap + listing pages.
- * Improves weak About via executorIngest → POST /api/ingest patch.
+ * Improves weak/garbled About via executorIngest → POST /api/ingest patch.
+ * Cursor Cloud Agent is the writer (Hungarian-first, no invented phones).
  *
  *   npm run catalog:about-curate -- --limit=10
  *   npm run catalog:about-curate -- --dry-run --limit=5
@@ -15,49 +16,13 @@ import {
   listPublishedIds,
   fetchPublicListing,
   scoreAbout,
-  type PublicListing,
+  detectAboutGarble,
+  draftAboutImprovement,
 } from "./lib/publicListings.ts";
 
 function argValue(name: string): string | null {
   const hit = process.argv.find((a) => a.startsWith(`${name}=`));
   return hit ? hit.slice(name.length + 1) : null;
-}
-
-const VISITOR_SIGNAL =
-  /\b(medence|úszás|uszoda|wellness|szauna|edzés|pálya|bérlés|nyitva|belépő|jegy|óra|tanfolyam|fitness|edzőterem|tenisz|padel|strand)\b/i;
-
-function draftAbout(listing: PublicListing): { text: string; reason: string } | null {
-  const current = listing.description?.trim() || "";
-  const score = scoreAbout(current);
-  // Never rewrite listings that already clear the quality bar
-  if (score >= 70) return null;
-
-  const place = listing.locality ? ` in ${listing.locality}` : " in Hungary";
-  const name = listing.name || "This facility";
-  let text: string;
-  let reason: string;
-
-  if (current.length < 40 || score < 20) {
-    // Do not keep garbled/placeholder source text — write a safe stub
-    text = `${name} is a sport facility${place}. Confirm opening hours and programmes on site before visiting.`;
-    reason = "too_short_or_weak";
-  } else if (current.length < 120) {
-    text = current.replace(/\s+/g, " ").trim();
-    if (!/[.!?]$/.test(text)) text += ".";
-    if (!VISITOR_SIGNAL.test(text)) {
-      text += ` Visitors can check current programmes and opening hours before arrival.`;
-    }
-    reason = "clarity_improve";
-  } else {
-    // Long but low-scoring: keep content; only ensure terminal punctuation
-    text = current.replace(/\s+/g, " ").trim();
-    if (!/[.!?]$/.test(text)) text += ".";
-    reason = "punctuation_clarity";
-  }
-
-  if (text === current) return null;
-  if (text.length < 60) return null;
-  return { text, reason };
 }
 
 async function main() {
@@ -66,7 +31,7 @@ async function main() {
   const limit = Number(argValue("--limit") || 10);
   const onlyId = argValue("--listing-id");
 
-  const ids = onlyId ? [onlyId] : await listPublishedIds(Math.max(limit * 3, 30));
+  const ids = onlyId ? [onlyId] : await listPublishedIds(Math.max(limit * 4, 40));
   const report = {
     job: "catalog:about-curate",
     writePath: "executorIngest → POST /api/ingest",
@@ -87,7 +52,7 @@ async function main() {
       report.skipped++;
       continue;
     }
-    const draft = draftAbout(listing);
+    const draft = draftAboutImprovement(listing);
     if (!draft) {
       report.skipped++;
       report.results.push({
@@ -112,9 +77,12 @@ async function main() {
         id,
         name: listing.name,
         scoreBefore: scoreAbout(listing.description),
+        scoreAfter: scoreAbout(draft.text),
+        garble: detectAboutGarble(listing.description),
         action: "dry-run",
         reason: draft.reason,
         wouldPatchChars: draft.text.length,
+        preview: draft.text.slice(0, 160),
       });
       continue;
     }
@@ -126,6 +94,8 @@ async function main() {
         id,
         name: listing.name,
         scoreBefore: scoreAbout(listing.description),
+        scoreAfter: scoreAbout(draft.text),
+        garble: detectAboutGarble(listing.description),
         action: "patched",
         reason: draft.reason,
         response: result.response,
