@@ -422,5 +422,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Fair-use promote from actu-padel; distinct from ZAF-VEN-001 Africa Padel Camps Bay"
+  },
+  {
+    "recordId": "ZAF-VEN-018",
+    "name": "Sandton Racket Club Padel",
+    "city": "Sandton",
+    "region": "Gauteng",
+    "countryCode": "ZA",
+    "line1": "148 Ballyclare Drive, Morningside",
+    "lat": -26.0737748,
+    "lng": 28.0417259,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Ballyclare Drive Sandton street pin (River Club / Ward 103)",
+    "website": "https://playtomic.com/clubs/racket-club-sandton-2",
+    "phone": "+27 60 995 6968",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 08:00–21:00 via Playtomic.",
+    "description": "Sandton Racket Club on Ballyclare Drive in Morningside publishes four outdoor padel courts with Playtomic booking and a published club phone. A clear recommendation when you want a named Sandton padel stop beyond Net Set Sandton City and Discovery Padel Park. Confirm visitor access with the club — renovated courts reopened through 2025 coverage.",
+    "primarySourceUrl": "https://playtomic.com/clubs/racket-club-sandton-2",
+    "secondarySourceUrl": "https://padelcourtssouthafrica.co.za/gauteng/padel-courts-in-sandton/",
+    "sourceTypes": "Playtomic club card; SA padel directory; fair-use Actu Padel",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Fair-use promote; phones also listed +27 50 027 6565 on Padelmesh — primary 060 995 6968 retained"
   }
 ]

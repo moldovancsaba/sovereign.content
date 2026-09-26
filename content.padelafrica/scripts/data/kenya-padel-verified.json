@@ -56,7 +56,7 @@
     "geoPrecision": "street",
     "geoSource": "nominatim",
     "geoNote": "Jaffery Sports Club pin",
-    "website": "https://playtomic.com/clubs/playon-padel-kenya-jafferys-nairobi",
+    "website": "https://www.playonpadel.co.ke/",
     "venueModel": "own_premises",
     "seasonNote": "Daily 06:00–22:00",
     "description": "PLAYON Padel at Jaffery Sports Club in Lavington offers one roofed and one outdoor panoramic court inside a full multi-sport club. A clear recommendation when you want Lavington padel with gym, cafe and secure parking around the session. Confirm which PLAYON Nairobi site you are booking.",
@@ -64,7 +64,10 @@
     "secondarySourceUrl": "https://playtomic.com/clubs/playon-padel-kenya-jafferys-nairobi",
     "sourceTypes": "Playtomic club page",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-09-26",
+    "phone": "+254 706 668 702",
+    "email": "info@playonpadel.co.ke",
+    "researchNotes": "; phone from playonpadel.co.ke 2026-09-26"
   },
   {
     "recordId": "KEN-VEN-004",
@@ -72,13 +75,13 @@
     "city": "Nairobi",
     "region": "Nairobi",
     "countryCode": "KE",
-    "line1": "Limuru Road",
+    "line1": "Gigiri, accessible from Limuru Road opposite Redhill Junction / UN Crescent Rd",
     "lat": -1.2382566,
     "lng": 36.81016,
     "geoPrecision": "street",
     "geoSource": "nominatim",
     "geoNote": "Limuru Road pin near Gigiri/Karura corridor — club lists Limuru Rd 00619",
-    "website": "https://playtomic.com/clubs/networks-padel-village",
+    "website": "https://padelvillageke.com/",
     "venueModel": "own_premises",
     "seasonNote": "Hours not listed yet.",
     "description": "Networks Padel Village brings six premium padel courts to Limuru Road in Nairobi with restaurant and Playtomic booking. A clear recommendation when you want a large Gigiri-corridor destination beyond Pulse and Padel Kenya Gigiri. Reserve ahead — six courts still fill at peak.",
@@ -86,7 +89,10 @@
     "secondarySourceUrl": "https://playtomic.com/clubs/networks-padel-village",
     "sourceTypes": "Playtomic club page",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-09-26",
+    "phone": "+254 117 917 777",
+    "email": "info@padelvillageke.com",
+    "researchNotes": "; phone+address from padelvillageke.com 2026-09-26"
   },
   {
     "recordId": "KEN-VEN-005",
@@ -261,5 +267,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Evidence: Padel Lands Greenwood village +254 756666665; Nominatim Greenwood Village Nyali."
+  },
+  {
+    "recordId": "KEN-VEN-012",
+    "name": "PLAYON Padel Kenya Rhapta Road",
+    "city": "Nairobi",
+    "region": "Nairobi",
+    "countryCode": "KE",
+    "line1": "The Stop, Rhapta Road, Westlands",
+    "lat": -1.2644926,
+    "lng": 36.7898552,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Rhapta Road Westlands street corridor — The Stop mini-mall pin",
+    "website": "https://playtomic.com/clubs/playon-padel-kenya-rhapta-rd-westlands",
+    "phone": "+254 706 668 702",
+    "email": "info@playonpadel.co.ke",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily ~07:00–23:00 via Playtomic.",
+    "description": "PLAYON Padel at The Stop on Rhapta Road is the Westlands branch of Kenya’s PlayOn network, with Playtomic booking and a published club phone. A clear recommendation when you want a named Westlands padel stop distinct from Jaffery Sports Club Lavington. Shared PlayOn switchboard with other Nairobi branches — confirm court inventory in the app.",
+    "primarySourceUrl": "https://www.playonpadel.co.ke/play-padel-westlands-nairobi/",
+    "secondarySourceUrl": "https://playtomic.com/clubs/playon-padel-kenya-rhapta-rd-westlands",
+    "sourceTypes": "PlayOn Westlands page; Playtomic club card",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Actu Padel also lists 50 Rhapta Road; primary phone +254 706 668 702"
   }
 ]

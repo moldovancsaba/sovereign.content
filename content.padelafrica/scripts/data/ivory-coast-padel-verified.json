@@ -29,12 +29,12 @@
     "city": "Abidjan",
     "region": "Abidjan",
     "countryCode": "CI",
-    "line1": "Marcory Résidentiel",
-    "lat": 5.303612,
-    "lng": -3.985395,
-    "geoPrecision": "locality",
+    "line1": "Boulevard Achalme, near Pharmacie de la Vie, Marcory Résidentiel",
+    "lat": 5.3137139,
+    "lng": -3.9931303,
+    "geoPrecision": "street",
     "geoSource": "nominatim",
-    "geoNote": "Marcory commune pin — Résidentiel street not published on App Store listing",
+    "geoNote": "Pharmacie de la Vie pin on Avenue Gris Camille / Marcory Résidentiel",
     "website": "https://apps.apple.com/ci/app/wepadel-abidjan/id6467128736",
     "venueModel": "own_premises",
     "seasonNote": "Hours not listed yet.",
@@ -43,7 +43,9 @@
     "secondarySourceUrl": "https://apps.apple.com/ci/app/wepadel-abidjan/id6467128736",
     "sourceTypes": "WePadel Abidjan App Store listing",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-09-26",
+    "phone": "+225 07 13 97 97 97",
+    "researchNotes": "; Baab.ci address+phone 2026-09-26"
   },
   {
     "recordId": "CIV-VEN-003",

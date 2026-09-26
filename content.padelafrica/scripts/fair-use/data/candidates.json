@@ -1616,5 +1616,58 @@
     "extractedAt": "2026-09-26T06:14:42.460Z",
     "rejectedAt": "2026-09-26T06:28:08.000Z",
     "rejectReason": "UK Manchester — out of Africa scope"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-padel-social-club",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPadel Social Club",
+    "citationUrl": "https://playtomic.com/clubs/padel-social-club-the-o2",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/padel-social-club-the-o2",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T07:11:32.038Z",
+    "rejectedAt": "2026-09-26T07:26:04.000Z",
+    "rejectReason": "UK London — out of Africa scope"
+  },
+  {
+    "candidateId": "fair-actu-padel-sandton-racket-club-padel",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Sandton Racket Club Padel",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-racket-sandton/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "countryHint": "South Africa",
+    "addressHint": "148 Ballyclare Dr, Morningside, Sandton, 2057, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-racket-sandton/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-26T07:13:51.205Z",
+    "promotedAt": "2026-09-26T07:26:04.000Z",
+    "promotedRecordId": "ZAF-VEN-018"
+  },
+  {
+    "candidateId": "fair-padelivu-aurial-padel-mas-sedo",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Aurial Padel Mas Sedó",
+    "citationUrl": "https://padelivu.com/club/aurial-padel-mas-sedo",
+    "website": "",
+    "addressHint": "T-310, 1, 43206 Reus, Tarragona, 43206, Reus, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/aurial-padel-mas-sedo"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T07:16:52.427Z",
+    "rejectedAt": "2026-09-26T07:26:04.000Z",
+    "rejectReason": "Spain Reus — out of Africa scope"
   }
 ]

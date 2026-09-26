@@ -52,7 +52,7 @@
     "city": "Accra",
     "region": "Greater Accra",
     "countryCode": "GH",
-    "line1": "54 Swaniker Street",
+    "line1": "54 Swaniker Street, Abelemkpe",
     "lat": 5.5605929,
     "lng": -0.1824391,
     "geoPrecision": "locality",
@@ -66,7 +66,10 @@
     "secondarySourceUrl": "https://padelrevive.com/padel-in-ghana/",
     "sourceTypes": "Nirvana first-party site; PadelRevive",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-09-26",
+    "phone": "+233 596 767 191",
+    "email": "booking@nirvanagh.com",
+    "researchNotes": "; Matchpoint phones +233 596 767 191 / +233 556 625 777 2026-09-26"
   },
   {
     "recordId": "GHA-VEN-004",

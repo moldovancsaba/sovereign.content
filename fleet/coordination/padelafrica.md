@@ -710,3 +710,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - LY Oxygen / MZ Matola mislist / CI Temple du Padel / EG Cairo Padel Park Mall → skipped (evidence bar)
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~07:07–07:30 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 244 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 34 (28 sources). **Promoted** Sandton Racket Club Padel → `ZAF-VEN-018`. Rejected Padel Social Club (UK), Aurial Padel Mas Sedó (ES).
+
+**FIND:**
+- KE Westlands → **`KEN-VEN-012` PLAYON Padel Kenya Rhapta Road** DISCOVERED
+- ZA Sandton → **`ZAF-VEN-018` Sandton Racket Club Padel** DISCOVERED (fair-use)
+- Phone/address backfill → `BWA-VEN-002`, `GHA-VEN-003`, `CIV-VEN-002`, `KEN-VEN-003`, `KEN-VEN-004`; Baía `AGO-VEN-002` Playtomic URL
+- CM Elite Yaoundé / DZ AZAL / ET Addis → skipped (evidence bar)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.

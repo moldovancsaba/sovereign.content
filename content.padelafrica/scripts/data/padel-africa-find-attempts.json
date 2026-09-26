@@ -1736,6 +1736,69 @@
       "query": "Cairo Padel Park Mall",
       "outcome": "skipped",
       "note": "multi-branch; Park Mall pin unresolved"
+    },
+    {
+      "at": "2026-09-26T07:15:00Z",
+      "countryCode": "KE",
+      "query": "PLAYON Rhapta Road The Stop",
+      "outcome": "seeded",
+      "recordId": "KEN-VEN-012"
+    },
+    {
+      "at": "2026-09-26T07:15:00Z",
+      "countryCode": "BW",
+      "query": "10by20 Fields Mall phone",
+      "outcome": "verified",
+      "recordId": "BWA-VEN-002"
+    },
+    {
+      "at": "2026-09-26T07:15:00Z",
+      "countryCode": "GH",
+      "query": "Nirvana phone fill",
+      "outcome": "verified",
+      "recordId": "GHA-VEN-003"
+    },
+    {
+      "at": "2026-09-26T07:15:00Z",
+      "countryCode": "CI",
+      "query": "WePadel Marcory address+phone",
+      "outcome": "verified",
+      "recordId": "CIV-VEN-002"
+    },
+    {
+      "at": "2026-09-26T07:15:00Z",
+      "countryCode": "KE",
+      "query": "Networks + PLAYON Jafferys phone",
+      "outcome": "verified",
+      "recordId": "KEN-VEN-004"
+    },
+    {
+      "at": "2026-09-26T07:15:00Z",
+      "countryCode": "CM",
+      "query": "Elite Padel Yaoundé",
+      "outcome": "skipped",
+      "note": "phone only no street"
+    },
+    {
+      "at": "2026-09-26T07:15:00Z",
+      "countryCode": "DZ",
+      "query": "AZAL Reghaïa",
+      "outcome": "skipped",
+      "note": "pool complex — padel not evidenced"
+    },
+    {
+      "at": "2026-09-26T07:15:00Z",
+      "countryCode": "ET",
+      "query": "Addis Padel Club",
+      "outcome": "skipped",
+      "note": "launch-stage Bole sales vs Golf Club pin"
+    },
+    {
+      "at": "2026-09-26T07:28:00Z",
+      "countryCode": "ZA",
+      "query": "Sandton Racket Club Ballyclare fair-use",
+      "outcome": "seeded",
+      "recordId": "ZAF-VEN-018"
     }
   ]
 }
