@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T18:25:48.701226Z",
+  "updatedAt": "2026-09-26T19:05:35.147532Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2577,6 +2577,27 @@
       "at": "2026-09-26T18:25:48.701226Z",
       "outcome": "thin",
       "note": "Playtomic street only; no phone; geocode ambiguous \u2014 skip"
+    },
+    {
+      "cc": "MA",
+      "city": "Marrakech/Casablanca/Rabat/Agadir densify",
+      "at": "2026-09-26T19:05:35.147532Z",
+      "outcome": "seeded",
+      "note": "MAR-VEN-023..027"
+    },
+    {
+      "cc": "EG",
+      "city": "El Mahalla El Kubra",
+      "at": "2026-09-26T19:05:35.147532Z",
+      "outcome": "seeded",
+      "note": "EGY-VEN-017"
+    },
+    {
+      "cc": "MA",
+      "city": "backfill Depot4/PadelSquare + GHA/NAM/TZA fixtures",
+      "at": "2026-09-26T19:05:35.147532Z",
+      "outcome": "seeded",
+      "note": "ingest prior fixtures"
     }
   ]
 }

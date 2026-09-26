@@ -926,3 +926,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
 
+
+### 2026-09-26 — padelafrica (tick ~19:03–19:25 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 313 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 46 (28 sources). **Promoted** Atlantic Padel Table View → already `ZAF-VEN-061`. **Rejected** Palma Padel (ES). `needs_verify` cleared.
+
+**FIND:**
+- MA densify → **`MAR-VEN-023` Palm Tennis**, **`MAR-VEN-024` Urban Padel Royal**, **`MAR-VEN-025` CAFC**, **`MAR-VEN-026` Padel Point Rabat**, **`MAR-VEN-027` Padel Factory Agadir** DISCOVERED
+- EG densify → **`EGY-VEN-017` 15-Love ElMahalla** DISCOVERED
+- Backfill prior fixtures → **`MAR-VEN-001`**, **`MAR-VEN-004`**, **`GHA-VEN-002`**, **`NAM-VEN-001`**, **`TZA-VEN-001`** DISCOVERED
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+

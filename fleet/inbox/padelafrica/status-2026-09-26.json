@@ -61,48 +61,44 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T18:34:22.800741Z",
+  "updatedAt": "2026-09-26T19:24:27.174627Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 305,
+    "scanned": 313,
     "belowThreshold": 0,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 45,
+    "passCount": 46,
     "promoted": [
-      "ZAF-VEN-060 Atlantic Padel @ Parklands"
+      "ZAF-VEN-061 Atlantic Padel @ Table View (already seeded)"
     ],
     "rejected": [
-      "Epica Academia Padel Club M\u00e9rida (MX)",
-      "PELOTA Padel Club (US)"
+      "Palma Padel (ES)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "KEN-VEN-017 Padel Kenya Westlands",
-      "KEN-VEN-018 Padel Kenya Gigiri",
-      "KEN-VEN-019 Duma Padel Court Ole Sereni",
-      "KEN-VEN-020 SD Padel Kenya Ridgeways",
-      "TUN-VEN-018 Padel Connection Borj Louzir",
-      "ZAF-VEN-060 Atlantic Padel @ Parklands",
-      "ZAF-VEN-061 Atlantic Padel @ Table View",
-      "ZAF-VEN-062 Atlantic Padel @ Sunningdale"
-    ],
-    "thinSkipped": [
-      "Pro Padel Nairobi Forest Road \u2014 no phone; ambiguous geocode"
-    ],
-    "zeroResult": [
-      "DZ Algiers Padel Impact/Bay One \u2014 affiliates named, no public street+phone"
+      "MAR-VEN-023 Palm Tennis Club & Padel",
+      "MAR-VEN-024 Urban Padel Royal",
+      "MAR-VEN-025 CAFC Padel Casablanca",
+      "MAR-VEN-026 Padel Point Rabat",
+      "MAR-VEN-027 Padel Factory Agadir",
+      "EGY-VEN-017 15-Love Padel ElMahalla",
+      "MAR-VEN-001 Depot 4 Indoor Padel (backfill)",
+      "MAR-VEN-004 Padel Square Marrakech (backfill)",
+      "GHA-VEN-002 The Padel Club Ghana (backfill)",
+      "NAM-VEN-001 Namibia Padel Windhoek (backfill)",
+      "TZA-VEN-001 Padel Centre TZ Slipway (backfill)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~18:13\u201318:40 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
+  "notes": "Tick ~19:03\u201319:25 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
 }
