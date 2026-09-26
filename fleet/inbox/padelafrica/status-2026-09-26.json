@@ -1,7 +1,7 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T07:30:00Z",
-  "source": "padel-find-tick",
+  "observedAt": "2026-09-26T07:31:00Z",
+  "source": "openDebt-resolve",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
@@ -17,8 +17,11 @@
     "fairUsePassCount": 34,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
-    "coreReconcileHandshake": "ready_for_reconcile",
-    "day3InboxCalendar": true
+    "coreReconcileHandshake": "reconciled_observed",
+    "day3InboxCalendar": true,
+    "managementReleaseSha": "65dccb4804c91eda3d6fbbaf2ede00ced8f2bd11",
+    "managementMainSha": "65dccb4804c91eda3d6fbbaf2ede00ced8f2bd11",
+    "managementReleaseEqualsMain": true
   },
   "outcomes": {
     "qualityLoopScanned": 244,
@@ -51,15 +54,15 @@
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "07:07 tick: PLAYON Rhapta Road (KE); Sandton Racket Club promote (ZA). Phone/address backfill Fields Mall, Nirvana, WePadel Marcory, Networks, PLAYON Jafferys; Baía Playtomic URL. Fair-use pass 34 rejected UK Social Club + Spain Aurial. Not claiming PUBLISHED."
+    "coreReconcileVerified": true,
+    "note": "openDebt resolve: management origin/main === origin/release/padel-africa @ 65dccb4; §A agent paths gone; §B matches main; listing-quality-loop cron absent; abc473d not on release. Cleared core_reconcile debt. Prior 07:07 tick seeds unchanged."
   },
-  "openDebt": [
-    "core_reconcile_release_padel_africa_awaiting_management"
-  ],
+  "openDebt": [],
   "resolvedDebt": [
     "ingest_backed_quality_loop_full_rewrite",
     "discovered_to_published_pipeline_agent_feeder",
     "day3_inbox_continuity_spike_gate",
-    "day3_inbox_calendar_2026-09-26"
+    "day3_inbox_calendar_2026-09-26",
+    "core_reconcile_release_padel_africa_awaiting_management"
   ]
 }

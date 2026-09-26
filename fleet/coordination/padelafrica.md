@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → padel)
 
-Keep FIND + fair-use ticks honest; **day-3 inbox** lands on next calendar day (`status-2026-09-26.json`); quality-loop ingest rewrite **shipped**; await core reconcile of `release/padel-africa` (§D).
+Keep FIND + fair-use ticks honest; day-3 inbox live; quality-loop ingest rewrite **shipped**; **core reconcile of `release/padel-africa` observed complete** (`main` === `release` @ `65dccb4`). openDebt empty.
 
 ## Open checklist (SC)
 
@@ -23,13 +23,13 @@ Keep FIND + fair-use ticks honest; **day-3 inbox** lands on next calendar day (`
 - [x] Next tick: status JSON + one Turn reply here
 - [x] Note any HiTL items waiting on operator (ids only) — **none** (`hitlBacklog: 0`)
 - [x] Management-core separation: copy agent code → `content.padelafrica/`; quarantine Mongo; publish `MIGRATION-FROM-MANAGEMENT.md` + `STATUS-FOR-CORE.md` (`83e3a9c`)
-- [ ] Await core reconcile of `release/padel-africa` (delete §A + revert §B incl. `verticals/sportolok/index.ts`) — **agent-side READY** (`STATUS-FOR-CORE.md` stamped 2026-09-25T19:05Z)
+- [x] Core reconcile of `release/padel-africa` — **observed 2026-09-26T07:31Z**: `origin/main` === `origin/release/padel-africa` @ `65dccb4`; §A gone; §B match; no listing-quality-loop cron; `abc473d` not on tip
 - [x] Finish ingest-backed quality-loop beyond stub (`scripts/catalog-quality-loop-ingest.ts`) — score/improve/encode + ingest reprocess; `--test` proves thin→compose
 - [x] Live-apply pending fixtures via ingest (`ZAF-VEN-005`/`006`, `SEN-VEN-004`–`006`, `MAR-VEN-003`) — 6× `DISCOVERED` cards via `scripts/apply-pending-ingest-queue.ts` (~04:05Z); see `docs/pending-ingest-queue.md`
 - [x] Day-2 inbox status (`fleet/inbox/padelafrica/status-2026-09-25.json`) — overwritten after live-apply (~04:05Z)
 - [x] Further DISCOVERED applies: TZA-003, GHA-005, MAR-004..010, TUN-003/004, NAM-002 (kick/tick evidence JSONs on disk)
 - [x] DISCOVERED pipeline feeder (`scripts/pipeline-feed-discovered.ts`) — 30/30 reprocess ok; PUBLISHED still management-owned
-- [~] Day-3 inbox status — continuity protocol active (day-1+day-2); calendar day-3 file on 2026-09-26
+- [x] Day-3 inbox status — `fleet/inbox/padelafrica/status-2026-09-26.json`
 
 ---
 
@@ -727,3 +727,18 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - CM Elite Yaoundé / DZ AZAL / ET Addis → skipped (evidence bar)
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (openDebt resolve ~07:31 UTC)
+
+**Ask:** resolve remaining openDebt.
+
+**Verification (management remotes, no force-push):**
+- `origin/main` === `origin/release/padel-africa` @ `65dccb4` (0 path diff)
+- Migration §A agent paths absent; §B identical to main (incl. sportolok); `listing-quality-loop` cron absent; `abc473d` not on tip
+
+**Debt:** moved `core_reconcile_release_padel_africa_awaiting_management` → `resolvedDebt`. **`openDebt: []`**. Handshake closed in `STATUS-FOR-CORE.md`.
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`). HiTL none.
+
+**Propose for CLIENT-COMPARISON (SC-central edit):** padel row — migration + core reconcile complete; score agent home as ingest-only content client (not “awaiting reconcile”).

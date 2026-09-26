@@ -1,6 +1,6 @@
 # Status for management core — padel-africa agent separation
 
-**Date:** 2026-09-24 (triage addendum **2026-09-25**; **READY FOR RECONCILE** stamped **2026-09-25T19:05Z**)  
+**Date:** 2026-09-24 (triage addendum **2026-09-25**; **READY FOR RECONCILE** stamped **2026-09-25T19:05Z**; **RECONCILE OBSERVED** **2026-09-26T07:31Z**)  
 **From:** Padel Africa content agent  
 **Re:** Required separation out of `moldovancsaba/management` → `sovereign.content/content.padelafrica/`  
 **Trigger:** Core correction on PRs #222 / #227 (`release/padel-africa`, production `abc473d`)  
@@ -19,27 +19,31 @@
 | Unlisted agent scripts + country research seeds copied | **Done** |
 | Inbox continuity day-1 + day-2 + day-3 | **Done** — `fleet/inbox/padelafrica/status-2026-09-24.json` + `status-2026-09-25.json` + `status-2026-09-26.json` |
 
+## Core reconcile — OBSERVED COMPLETE (2026-09-26T07:31Z)
+
+Verified on `moldovancsaba/management` remotes (no force-push from this agent):
+
+| Check | Result |
+| --- | --- |
+| `origin/main` SHA | `65dccb4804c91eda3d6fbbaf2ede00ced8f2bd11` |
+| `origin/release/padel-africa` SHA | `65dccb4804c91eda3d6fbbaf2ede00ced8f2bd11` (identical) |
+| File diff `main`…`release/padel-africa` | **0 paths** |
+| Migration §A agent paths on release | **Absent** (`listingQuality`, `catalogFind`, `catalogSelfHeal`, quality-loop cron route, agent catalog CLIs, `archive/padel-africa/`) |
+| Migration §B shared engine vs `main` | **Identical** (incl. `verticals/sportolok/index.ts`) |
+| `vercel.json` `/api/cron/listing-quality-loop` | **Absent** on both tips |
+| Bad production tip `abc473d` | **Not** an ancestor of `main` or `release/padel-africa` (survives only on obsolete agent draft branches) |
+
+**Handshake closed.** openDebt `core_reconcile_release_padel_africa_awaiting_management` → `resolvedDebt`. Agent continues ingest-only FIND ticks from `content.padelafrica/`.
+
 ## Explicitly not done by this agent (per your instructions)
 
 - **Did not** rewrite or force-push `release/padel-africa`
 - **Did not** delete files from management ourselves
-- **Did not** revert shared engine files on the release branch — that is your reconcile
-- **Did not** copy §D engine libs/scripts into sovereign.content (they belong on management `main` via reviewed PR)
+- **Did not** copy §D engine libs/scripts into sovereign.content
 - **Did not** Mongo-force `lifecycleState: PUBLISHED` — ingest creates/reprocesses cards; pipeline earns publish
-
-## Please reconcile when ready (unchanged ask)
-
-1. **First:** land §D engine paths on management `main` via reviewed PR(s) (or explicitly waive with a written decision).
-2. Remove paths in migration §A from `release/padel-africa` (and stop deploying them).
-3. Restore §B files to match `main` (especially `verticals/sportolok/index.ts`).
-4. Drop `/api/cron/listing-quality-loop` from the padel Vercel project.
-5. Delete `archive/padel-africa/` as disposable.
-6. Close the loop with us when `release/padel-africa` is a clean fast-forward from `main` again.
 
 ## Going forward
 
-Padel Cloud Agent owns **only** `content.padelafrica/` (+ optional `fleet/inbox/padelafrica/` status JSON).  
+Padel Cloud Agent owns **only** `content.padelafrica/` (+ `fleet/inbox/padelafrica/` status JSON + coord Turns).  
 No new agent code onto management release branches. No Mongo-from-agent.  
 Engine fixes → reviewed PR to management **`main`** only.
-
-**Handshake:** agent-side migration + ingest quality rewrite + DISCOVERED feeder are ready. Core owns §D land + release branch cleanup.
