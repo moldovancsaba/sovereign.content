@@ -1,0 +1,204 @@
+{
+  "appliedAt": "2026-09-26T23:08:27.541Z",
+  "baseUrl": "https://padel-africa.doneisbetter.com",
+  "results": [
+    {
+      "recordId": "MAR-VEN-032",
+      "id": "research-mar-ven-032",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-mar-ven-032",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MAR-VEN-033",
+      "id": "research-mar-ven-033",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-mar-ven-033",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MAR-VEN-005",
+      "id": "research-mar-ven-005",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mar-ven-005",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MAR-VEN-006",
+      "id": "research-mar-ven-006",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mar-ven-006",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MAR-VEN-007",
+      "id": "research-mar-ven-007",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mar-ven-007",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-002",
+      "id": "research-egy-ven-002",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-002",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-006",
+      "id": "research-egy-ven-006",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-006",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "SEN-VEN-005",
+      "id": "research-sen-ven-005",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-sen-ven-005",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "SEN-VEN-006",
+      "id": "research-sen-ven-006",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-sen-ven-006",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-005",
+      "id": "research-ken-ven-005",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-ken-ven-005",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-006",
+      "id": "research-ken-ven-006",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-ken-ven-006",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "NGA-VEN-007",
+      "id": "research-nga-ven-007",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-nga-ven-007",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZMB-VEN-002",
+      "id": "research-zmb-ven-002",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zmb-ven-002",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MUS-VEN-001",
+      "id": "research-mus-ven-001",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-mus-ven-001",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "CMR-VEN-004",
+      "id": "research-cmr-ven-004",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-cmr-ven-004",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-001",
+      "id": "research-civ-ven-001",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-civ-ven-001",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-002",
+      "id": "research-tun-ven-002",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-tun-ven-002",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZWE-VEN-002",
+      "id": "research-zwe-ven-002",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zwe-ven-002",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}

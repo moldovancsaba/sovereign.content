@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T17:33:23Z",
+  "observedAt": "2026-09-26T23:31:36Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 44,
+    "fairUsePassCount": 50,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,34 +22,43 @@
     "managementReleaseEqualsMain": true
   },
   "outcomes": {
-    "qualityLoopScanned": 297,
+    "qualityLoopScanned": 327,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 44,
+    "fairUsePass": 50,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-052",
-      "ZAF-VEN-053",
-      "ZAF-VEN-054",
-      "ZAF-VEN-055",
-      "ZAF-VEN-056",
-      "ZAF-VEN-057",
-      "ZAF-VEN-058",
-      "ZAF-VEN-059"
+      "MAR-VEN-032",
+      "MAR-VEN-033",
+      "MAR-VEN-005",
+      "MAR-VEN-006",
+      "MAR-VEN-007",
+      "EGY-VEN-002",
+      "EGY-VEN-006",
+      "SEN-VEN-005",
+      "SEN-VEN-006",
+      "KEN-VEN-005",
+      "KEN-VEN-006",
+      "NGA-VEN-007",
+      "ZMB-VEN-002",
+      "MUS-VEN-001",
+      "CMR-VEN-004",
+      "CIV-VEN-001",
+      "TUN-VEN-002",
+      "ZWE-VEN-002"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "PA Park And Padel out-of-scope",
-      "US Charlotte Padel Club out-of-scope"
+      "Garisart Sports Club BE out-of-scope"
     ],
-    "ingestDiscoveredOk": 8,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T17.json",
+    "ingestDiscoveredOk": 18,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T23.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "17:07 tick: VAPC densify Epicentre/Woodstock/Huddle/Centurion/Gateway/Lorraine + Pitch n Padel; fair-use Atlantic Beach. Not claiming PUBLISHED."
+    "note": "23:06 tick: Punch Bouskoura + OCC Casablanca densify + multi-country fixture backfill; fair-use pass 50 reject BE. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -61,46 +70,45 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T22:23:31.121455Z",
+  "updatedAt": "2026-09-26T23:31:36.846086Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 324,
+    "scanned": 327,
     "belowThreshold": 0,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 49,
-    "promoted": [
-      "ZAF-VEN-035 Bay Padel Tokai (already seeded)"
-    ],
+    "passCount": 50,
+    "promoted": [],
     "rejected": [
-      "Club Maspadel (ES)"
+      "Garisart Sports Club (BE)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-065 Prime Padel Newcastle",
-      "ZAF-VEN-066 Mojos Padel Newcastle",
-      "MAR-VEN-031 Everyday The Wellness Society",
-      "NGA-VEN-005..006",
-      "SEN-VEN-003..004",
-      "MAR-VEN-003 Club Wifaq",
-      "EGY-VEN-001 WePadel Complex",
-      "CMR-VEN-003 Pro Padel Cameroun",
-      "GHA-VEN-005 Padel Accra by S2",
-      "TZA-VEN-002 The Hub Bwejuu",
-      "ZMB-VEN-001 Deuce",
-      "MOZ-VEN-001 Gayle",
-      "TUN-VEN-001 Sky Padel Charguia"
+      "MAR-VEN-032 Punch Bouskoura",
+      "MAR-VEN-033 OCC Oc\u00e9anic Club de Casablanca",
+      "MAR-VEN-005..007",
+      "EGY-VEN-002",
+      "EGY-VEN-006",
+      "SEN-VEN-005..006",
+      "KEN-VEN-005..006",
+      "NGA-VEN-007",
+      "ZMB-VEN-002",
+      "MUS-VEN-001",
+      "CMR-VEN-004",
+      "CIV-VEN-001",
+      "TUN-VEN-002",
+      "ZWE-VEN-002"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~22:01\u201322:30 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
+  "notes": "Tick ~23:06\u201323:32 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
 }

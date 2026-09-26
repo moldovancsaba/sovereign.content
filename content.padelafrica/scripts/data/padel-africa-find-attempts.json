@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T22:03:00.686114Z",
+  "updatedAt": "2026-09-26T23:08:24.772262Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2694,6 +2694,19 @@
       "cc": "MULTI",
       "city": "backfill NG/SN/MA/EG/CM/GH/TZ/ZM/MZ/TN",
       "at": "2026-09-26T22:03:00.686114Z",
+      "outcome": "seeded"
+    },
+    {
+      "cc": "MA",
+      "city": "Punch Bouskoura + OCC Ain Diab",
+      "at": "2026-09-26T23:08:24.772262Z",
+      "outcome": "seeded",
+      "note": "MAR-VEN-032..033"
+    },
+    {
+      "cc": "MULTI",
+      "city": "backfill MAR/EG/SN/KE/NG/ZM/MU/CM/CI/TN/ZW",
+      "at": "2026-09-26T23:08:24.772262Z",
       "outcome": "seeded"
     }
   ]

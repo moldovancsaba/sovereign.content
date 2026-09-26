@@ -993,3 +993,17 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
 
+### 2026-09-26 — padelafrica (tick ~23:06–23:32 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 327 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 50 (28 sources). **Rejected** Garisart Sports Club (BE / Arlon). `needs_verify` cleared.
+
+**FIND:**
+- MA densify → **`MAR-VEN-032` Punch Bouskoura**, **`MAR-VEN-033` OCC Océanic Club de Casablanca** DISCOVERED
+- Backfill → **`MAR-005..007`**, **`EGY-002/006`**, **`SEN-005/006`**, **`KEN-005/006`**, **`NGA-007`**, **`ZMB-002`**, **`MUS-001`**, **`CMR-004`**, **`CIV-001`**, **`TUN-002`**, **`ZWE-002`** DISCOVERED (18/18 ingest ok)
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
