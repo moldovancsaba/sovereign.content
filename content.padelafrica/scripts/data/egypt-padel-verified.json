@@ -239,5 +239,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Court count listed as 4 doubles + 1 singles on Actu — not asserted. Distinct from EGY-VEN-001–004 Alexandria sample."
+  },
+  {
+    "recordId": "EGY-VEN-011",
+    "name": "J Padel Swan Lake",
+    "city": "New Cairo",
+    "region": "Cairo Governorate",
+    "countryCode": "EG",
+    "line1": "Swan Lake Residences, 1st Settlement",
+    "lat": 30.0759556,
+    "lng": 31.4637657,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Swan Lake Residences compound pin, First Settlement",
+    "website": "https://padellands.com/en/padel-courts/j-padel-egypt-new-cairo/",
+    "phone": "+20 100 560 5300",
+    "email": null,
+    "venueModel": "outdoors",
+    "seasonNote": "Daily 08:00–00:00 per Nawy directory",
+    "description": "J Padel sits inside Swan Lake Residences in New Cairo First Settlement with a published club phone. Distinct from Go Padel Katameya. Book ahead for evening sessions.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/j-padel-egypt-new-cairo/",
+    "secondarySourceUrl": "https://www.nawy.com/blog/122536-21-padel-courts-in-egypt-with-prices-locations",
+    "sourceTypes": "Padel Lands; Nawy",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Evidence: Padel Lands Swan Lake Compound 1st Settlement +201005605300; Nominatim Swan Lake Residences."
   }
 ]

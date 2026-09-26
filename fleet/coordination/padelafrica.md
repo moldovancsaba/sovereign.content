@@ -632,3 +632,23 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - GH Kumasi/Tema → `zero-result`
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~03:10–03:38 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 226 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 30 (28 sources). No Africa promote. Rejected Forus Caja Mágica (Madrid ES), Los Angeles Padel Club (USA).
+
+**FIND:**
+- ZM Lusaka → **`ZMB-VEN-006` Elevate Padel & Event Center** DISCOVERED
+- ZM Lusaka → **`ZMB-VEN-007` Smash Padel Lusaka** DISCOVERED
+- ZM Lusaka → **`ZMB-VEN-008` Bonaventure Padel Hub** DISCOVERED
+- MG Antananarivo → **`MDG-VEN-007` Urban Futsal Andraharo Padel** DISCOVERED
+- MG Toamasina → **`MDG-VEN-008` Padel Club Tamatave** DISCOVERED
+- EG New Cairo → **`EGY-VEN-011` J Padel Swan Lake** DISCOVERED
+- NA LivPadel Windhoek / ZM Copperbelt → `zero-result`
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
