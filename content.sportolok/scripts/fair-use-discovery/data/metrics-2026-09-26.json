@@ -1,0 +1,84 @@
+{
+  "updatedAt": "2026-09-26T01:24:08Z",
+  "job": "sportolok-fair-use-gov-schools-wave",
+  "onePass": {
+    "sourcesProcessed": 28,
+    "candidatesExtracted": 408,
+    "recovered": {
+      "debrecen": 6,
+      "bp22": 3
+    },
+    "totalSeeds": 414,
+    "pendingAfterPass": 368
+  },
+  "enrich": {
+    "batches": [
+      {
+        "limit": 40,
+        "ingested": 40
+      },
+      {
+        "limit": 30,
+        "ingested": 30
+      }
+    ],
+    "ingestedThisWave": 70,
+    "rejectedThisWave": 0
+  },
+  "catalog": {
+    "seedsTotal": 414,
+    "seedsPending": 298,
+    "seedsIngested": 116,
+    "activityMix": {
+      "school-sport": 154,
+      "swimming": 152,
+      "various": 67,
+      "handball": 17,
+      "water-sports": 8,
+      "football": 5,
+      "training-camp": 4,
+      "ice-sports": 4,
+      "fitness": 1,
+      "martial": 1,
+      "tennis": 1
+    },
+    "ingestedBySource": {
+      "nsu-letesitmeny-catalog": 71,
+      "magyaruszodak-budapest": 24,
+      "schools-bp16-altalanos": 11,
+      "onkormanyzat-sport13-telephelyek": 5,
+      "schools-bp16-kozep": 2,
+      "nsu-gazdagreti": 1,
+      "nsu-dagaly": 1,
+      "onkormanyzat-bp13-sport": 1
+    }
+  },
+  "mmsp": {
+    "D": 116,
+    "E": 5,
+    "P": 8,
+    "note": "D = DISCOVERED cards from fair-use enrich cumulative; E/P unchanged this wave (About/media prior)"
+  },
+  "newSources": [
+    "onkormanyzat-sport13-telephelyek",
+    "onkormanyzat-miskolc-sport",
+    "onkormanyzat-gyor-letesitmenyek",
+    "onkormanyzat-debrecen-sportcsarnokok",
+    "onkormanyzat-jozsefvaros-uszodak",
+    "schools-bp16-altalanos",
+    "schools-bp16-kozep",
+    "schools-bp22-budafok",
+    "schools-pesterzsebet",
+    "schools-gyor",
+    "schools-szekesfehervar",
+    "schools-veszprem-altalanos",
+    "schools-veszprem-kozep",
+    "schools-kecskemet-altalanos",
+    "schools-kecskemet-kozep"
+  ],
+  "honestLimits": [
+    "Not production-ready",
+    "Debrecen needed UA fix after 403; BP22 TLS leaf failed live — recovered from prior probe HTML",
+    "School seeds are gym-access leads; many locality-level until deepen"
+  ]
+}

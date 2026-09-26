@@ -1,67 +1,143 @@
 {
   "nsu-letesitmeny-catalog": {
     "sourceId": "nsu-letesitmeny-catalog",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "nsu-cat-sportletesitmenyek": {
     "sourceId": "nsu-cat-sportletesitmenyek",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "nsu-cat-olimpiai-kozpontok": {
     "sourceId": "nsu-cat-olimpiai-kozpontok",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "nsu-cat-tanuszodak": {
     "sourceId": "nsu-cat-tanuszodak",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "nsu-cat-uszodak": {
     "sourceId": "nsu-cat-uszodak",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "magyaruszodak-budapest": {
     "sourceId": "magyaruszodak-budapest",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "onkormanyzat-ujpest-sport": {
     "sourceId": "onkormanyzat-ujpest-sport",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "onkormanyzat-bp13-sport": {
     "sourceId": "onkormanyzat-bp13-sport",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "onkormanyzat-hegyvidek-sport": {
     "sourceId": "onkormanyzat-hegyvidek-sport",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "onkormanyzat-obuda-letesitmenyek": {
     "sourceId": "onkormanyzat-obuda-letesitmenyek",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "schools-bp13-altalanos": {
     "sourceId": "schools-bp13-altalanos",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "schools-bp13-kozep": {
     "sourceId": "schools-bp13-kozep",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   },
   "schools-hegyvidek": {
     "sourceId": "schools-hegyvidek",
-    "lastFetchMs": 1790364538458,
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "onkormanyzat-sport13-telephelyek": {
+    "sourceId": "onkormanyzat-sport13-telephelyek",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "onkormanyzat-miskolc-sport": {
+    "sourceId": "onkormanyzat-miskolc-sport",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "onkormanyzat-gyor-letesitmenyek": {
+    "sourceId": "onkormanyzat-gyor-letesitmenyek",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "onkormanyzat-debrecen-sportcsarnokok": {
+    "sourceId": "onkormanyzat-debrecen-sportcsarnokok",
+    "lastFetchMs": 1790385751838,
+    "lastStatus": "ok"
+  },
+  "onkormanyzat-jozsefvaros-uszodak": {
+    "sourceId": "onkormanyzat-jozsefvaros-uszodak",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "schools-bp16-altalanos": {
+    "sourceId": "schools-bp16-altalanos",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "schools-bp16-kozep": {
+    "sourceId": "schools-bp16-kozep",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "schools-bp22-budafok": {
+    "sourceId": "schools-bp22-budafok",
+    "lastFetchMs": 1790385751841,
+    "lastStatus": "ok",
+    "lastError": "seeded-from-prior-fetch; live TLS leaf verify failed"
+  },
+  "schools-pesterzsebet": {
+    "sourceId": "schools-pesterzsebet",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "schools-gyor": {
+    "sourceId": "schools-gyor",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "schools-szekesfehervar": {
+    "sourceId": "schools-szekesfehervar",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "schools-veszprem-altalanos": {
+    "sourceId": "schools-veszprem-altalanos",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "schools-veszprem-kozep": {
+    "sourceId": "schools-veszprem-kozep",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "schools-kecskemet-altalanos": {
+    "sourceId": "schools-kecskemet-altalanos",
+    "lastFetchMs": 1790384341325,
+    "lastStatus": "ok"
+  },
+  "schools-kecskemet-kozep": {
+    "sourceId": "schools-kecskemet-kozep",
+    "lastFetchMs": 1790384341325,
     "lastStatus": "ok"
   }
 }

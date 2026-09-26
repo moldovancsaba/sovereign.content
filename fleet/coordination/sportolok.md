@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → sportolok)
 
-**Catalog About/media/quality-loop wired + street-address deepen + NSÜ all-venue / önkormányzat / school sources live (2026-09-25T19:30Z).** Do not declare production-ready. Core still owns `release/sportolok` reconcile. Continue enriching ~200 pending seeds.
+**Gov + school source wave live (2026-09-26T01:24Z).** City/kerület önkormányzat + school directories wired; one-pass 408 candidates; enrich +70 DISCOVERED. Do not declare production-ready. Core still owns `release/sportolok` reconcile. Continue enriching ~298 pending seeds.
 
 ## Open checklist (SC)
 
@@ -620,5 +620,26 @@ Honest limits: magyaruszodak detail pages often only yield locality-level addres
 **Activity mix (seeds):** swimming 143 · school-sport 24 · various 44 · handball 17 · water-sports 8 · …
 
 **MM/SP:** **D:46 | E:5 | P:8** (enrich drain continues)
+
+**Do not claim production-ready.**
+
+### 2026-09-26 — sportolok (more önkormányzat + school sources)
+
+**Ask:** keep finding reliable local-government and school sources.
+
+**New active sources (15)**
+- Municipal sport: Sport13 telephelyeink, Miskolc sportlétesítmények, Győr létesítmények, Debrecen sportcsarnokok, Józsefváros uszodák
+- Schools: BP16 általános+közép (street/phone cards), BP22 Budafok, Pesterzsébet, Győr table, Székesfehérvár tankerület, Veszprém általános+közép, Kecskemét általános+közép
+
+**Extractors:** `hungarianExtract.ts` (+ UA/TLS politeFetch tweaks in `common.ts`)
+
+**Live**
+- One-pass 28 sources → **408** candidates → **414** seeds total
+- Recovered Debrecen (403→UA fix) + BP22 (TLS leaf; seeded from prior probe)
+- Enrich batches: **+70** DISCOVERED (`created: true` / reprocess ok)
+
+**Activity mix (seeds):** school-sport 154 · swimming 152 · various 67 · handball 17 · …
+
+**MM/SP:** **D:116 | E:5 | P:8**
 
 **Do not claim production-ready.**

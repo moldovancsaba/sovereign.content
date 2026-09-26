@@ -938,7 +938,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-8u7e89": {
     "seedId": "seed-hun-8u7e89",
@@ -957,7 +957,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-4lyhj3": {
     "seedId": "seed-hun-4lyhj3",
@@ -976,7 +976,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-pm5bs2": {
     "seedId": "seed-hun-pm5bs2",
@@ -995,7 +995,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-kv7ypf": {
     "seedId": "seed-hun-kv7ypf",
@@ -1014,7 +1014,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-18s8s5": {
     "seedId": "seed-hun-18s8s5",
@@ -1033,7 +1033,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-6301kz": {
     "seedId": "seed-hun-6301kz",
@@ -1052,7 +1052,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-qz1vjv": {
     "seedId": "seed-hun-qz1vjv",
@@ -1071,7 +1071,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-fjrhft": {
     "seedId": "seed-hun-fjrhft",
@@ -1090,7 +1090,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-ffv1fi": {
     "seedId": "seed-hun-ffv1fi",
@@ -1109,7 +1109,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-m3k4de": {
     "seedId": "seed-hun-m3k4de",
@@ -1128,7 +1128,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-in05ic": {
     "seedId": "seed-hun-in05ic",
@@ -1147,7 +1147,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-1zhoqq": {
     "seedId": "seed-hun-1zhoqq",
@@ -1166,7 +1166,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-yqc1ws": {
     "seedId": "seed-hun-yqc1ws",
@@ -1185,7 +1185,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-iu5imh": {
     "seedId": "seed-hun-iu5imh",
@@ -1204,7 +1204,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-psok3o": {
     "seedId": "seed-hun-psok3o",
@@ -1223,7 +1223,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-5hje1z": {
     "seedId": "seed-hun-5hje1z",
@@ -1242,7 +1242,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-odih03": {
     "seedId": "seed-hun-odih03",
@@ -1261,7 +1261,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-so6dmc": {
     "seedId": "seed-hun-so6dmc",
@@ -1280,7 +1280,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-qwi9d2": {
     "seedId": "seed-hun-qwi9d2",
@@ -1299,7 +1299,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-grt13g": {
     "seedId": "seed-hun-grt13g",
@@ -1318,7 +1318,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-s3yxm9": {
     "seedId": "seed-hun-s3yxm9",
@@ -1337,7 +1337,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-5aza35": {
     "seedId": "seed-hun-5aza35",
@@ -1356,7 +1356,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-a5at75": {
     "seedId": "seed-hun-a5at75",
@@ -1375,7 +1375,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-dstjj": {
     "seedId": "seed-hun-dstjj",
@@ -1394,7 +1394,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-asdbhx": {
     "seedId": "seed-hun-asdbhx",
@@ -1413,7 +1413,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-la39fl": {
     "seedId": "seed-hun-la39fl",
@@ -1432,7 +1432,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-jw8ifn": {
     "seedId": "seed-hun-jw8ifn",
@@ -1451,7 +1451,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-izhv4m": {
     "seedId": "seed-hun-izhv4m",
@@ -1470,7 +1470,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-udgr9l": {
     "seedId": "seed-hun-udgr9l",
@@ -1489,7 +1489,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-u2q9tf": {
     "seedId": "seed-hun-u2q9tf",
@@ -1508,7 +1508,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-5ix2mt": {
     "seedId": "seed-hun-5ix2mt",
@@ -1527,7 +1527,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-kzqkzb": {
     "seedId": "seed-hun-kzqkzb",
@@ -1546,7 +1546,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-xbby9s": {
     "seedId": "seed-hun-xbby9s",
@@ -1565,7 +1565,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-qwwgql": {
     "seedId": "seed-hun-qwwgql",
@@ -1584,7 +1584,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-8ufgfh": {
     "seedId": "seed-hun-8ufgfh",
@@ -1603,7 +1603,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-grj37l": {
     "seedId": "seed-hun-grj37l",
@@ -1622,7 +1622,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-kxsq27": {
     "seedId": "seed-hun-kxsq27",
@@ -1641,7 +1641,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-7be8s2": {
     "seedId": "seed-hun-7be8s2",
@@ -1660,7 +1660,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-7c0p36": {
     "seedId": "seed-hun-7c0p36",
@@ -1679,7 +1679,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-pt4bap": {
     "seedId": "seed-hun-pt4bap",
@@ -1698,7 +1698,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-a8fv65": {
     "seedId": "seed-hun-a8fv65",
@@ -1717,7 +1717,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-2kqji6": {
     "seedId": "seed-hun-2kqji6",
@@ -1736,7 +1736,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-27myk6": {
     "seedId": "seed-hun-27myk6",
@@ -1755,7 +1755,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-fetus1": {
     "seedId": "seed-hun-fetus1",
@@ -1774,7 +1774,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-exwfxp": {
     "seedId": "seed-hun-exwfxp",
@@ -1793,7 +1793,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-hqkaea": {
     "seedId": "seed-hun-hqkaea",
@@ -1812,7 +1812,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-te1o61": {
     "seedId": "seed-hun-te1o61",
@@ -1831,7 +1831,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-fm272m": {
     "seedId": "seed-hun-fm272m",
@@ -1850,7 +1850,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-u05wrv": {
     "seedId": "seed-hun-u05wrv",
@@ -1869,7 +1869,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-u0hvoa": {
     "seedId": "seed-hun-u0hvoa",
@@ -1888,7 +1888,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-4zvqmr": {
     "seedId": "seed-hun-4zvqmr",
@@ -1907,7 +1907,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-r7s3vm": {
     "seedId": "seed-hun-r7s3vm",
@@ -3866,7 +3866,7 @@
       "address": "Budapest IV, Hungary",
       "contact": {}
     },
-    "confidence": "low",
+    "confidence": "medium",
     "status": "pending"
   },
   "seed-hun-yfp8q3": {
@@ -4840,6 +4840,3540 @@
       "contact": {}
     },
     "confidence": "low",
+    "status": "pending"
+  },
+  "seed-hun-g2bs2q": {
+    "seedId": "seed-hun-g2bs2q",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-26T01:03:42.551Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Káposztásmegyeri Sport És Szabadidő Klub",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-cc37m9": {
+    "seedId": "seed-hun-cc37m9",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-26T01:03:42.551Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Limes Szabadidős SE",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-t9bkmg": {
+    "seedId": "seed-hun-t9bkmg",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-26T01:03:42.551Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Újpesti Búvár és Szabadidő SE",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-el1c13": {
+    "seedId": "seed-hun-el1c13",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-26T01:03:42.551Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "football",
+    "initialFacts": {
+      "name": "Székpatak utcai műfüves grundpálya",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-jw2pu5": {
+    "seedId": "seed-hun-jw2pu5",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-26T01:03:42.551Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Újpesti Önkormányzat Blaha utcai Sporttelepe",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-3jvoww": {
+    "seedId": "seed-hun-3jvoww",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-26T01:03:42.551Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Aquaworld Resort Budapest Hotel és Élményfürdő",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-qfaroe": {
+    "seedId": "seed-hun-qfaroe",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-26T01:03:42.551Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Talentum Tehetséggondozó Központ-Sportcenter",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-vgksz": {
+    "seedId": "seed-hun-vgksz",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-26T01:03:42.551Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Tungsram SC Sportcsarnok",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ao6z9a": {
+    "seedId": "seed-hun-ao6z9a",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-ujpest-sport",
+        "url": "https://ujpest.hu/sport-intezmenyek/",
+        "discoveredAt": "2026-09-26T01:03:42.551Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Újpest Football Club Sporttelepe",
+      "address": "Budapest IV, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-1kfw96": {
+    "seedId": "seed-hun-1kfw96",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-sport13-telephelyek",
+        "url": "https://sport13.hu/telephelyeink/",
+        "discoveredAt": "2026-09-26T01:05:14.156Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Angyalföldi Sportközpont (ASK)",
+      "address": "Budapest XIII, Hungary",
+      "contact": {
+        "website": "https://sport13.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-wynm6q": {
+    "seedId": "seed-hun-wynm6q",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-sport13-telephelyek",
+        "url": "https://sport13.hu/telephelyeink/",
+        "discoveredAt": "2026-09-26T01:05:14.156Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Angyalföldi Sportszálló",
+      "address": "1139 Budapest, Lomb utca 45, Hungary",
+      "contact": {
+        "website": "https://sport13.hu/"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-j7t21o": {
+    "seedId": "seed-hun-j7t21o",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-sport13-telephelyek",
+        "url": "https://sport13.hu/telephelyeink/",
+        "discoveredAt": "2026-09-26T01:05:14.156Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Népszigeti Gyermek- és Ifjúsági Tábor (Népszigeti Gyermektábor)",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://sport13.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fa4c1a": {
+    "seedId": "seed-hun-fa4c1a",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-sport13-telephelyek",
+        "url": "https://sport13.hu/telephelyeink/",
+        "discoveredAt": "2026-09-26T01:05:14.156Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Nővér utcai Tanuszoda",
+      "address": "1138 Budapest, Nővér utca 15, Hungary",
+      "contact": {
+        "website": "https://sport13.hu/"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-9ml8nj": {
+    "seedId": "seed-hun-9ml8nj",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-sport13-telephelyek",
+        "url": "https://sport13.hu/telephelyeink/",
+        "discoveredAt": "2026-09-26T01:05:14.157Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Petőfi Sándor Napközis Tábor (Margitszigeti Gyermektábor)",
+      "address": "1138 Budapest Margitsziget, Hungary",
+      "contact": {
+        "website": "https://sport13.hu/"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-c9hh1r": {
+    "seedId": "seed-hun-c9hh1r",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-sport13-telephelyek",
+        "url": "https://sport13.hu/telephelyeink/",
+        "discoveredAt": "2026-09-26T01:05:14.157Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Radnóti utcai Tanuszoda",
+      "address": "1136 Budapest, Radnóti Miklós utca 33-35, Hungary",
+      "contact": {
+        "website": "https://sport13.hu/"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-lbo1cz": {
+    "seedId": "seed-hun-lbo1cz",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-sport13-telephelyek",
+        "url": "https://sport13.hu/telephelyeink/",
+        "discoveredAt": "2026-09-26T01:05:14.157Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Újpalotai úti Sporttelep",
+      "address": "1131 Budapest, Új Palotai út 13, Hungary",
+      "contact": {
+        "website": "https://sport13.hu/"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-4ebjkw": {
+    "seedId": "seed-hun-4ebjkw",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-sport13-telephelyek",
+        "url": "https://sport13.hu/telephelyeink/",
+        "discoveredAt": "2026-09-26T01:05:14.157Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Velencei Gyermek- és Ifjúsági Tábor (Velencei Gyermektábor)",
+      "address": "Budapest XIII, Hungary",
+      "contact": {
+        "website": "https://sport13.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-1cbtbk": {
+    "seedId": "seed-hun-1cbtbk",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-hegyvidek-sport",
+        "url": "https://hegyvideksport.hu/2026/03/13/marcius-15-en-tanuszodank-zarva-tart/",
+        "discoveredAt": "2026-09-26T01:06:00.771Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Marcius 15 En Tanuszodank Zarva Tart",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "https://hegyvideksport.hu/2026/03/13/marcius-15-en-tanuszodank-zarva-tart/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-palht1": {
+    "seedId": "seed-hun-palht1",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-hegyvidek-sport",
+        "url": "http://hegyvideksport.hu/sportpalyak-labdarugas-tenisz/",
+        "discoveredAt": "2026-09-26T01:06:00.771Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "tennis",
+    "initialFacts": {
+      "name": "Sportpalyak Labdarugas Tenisz",
+      "address": "Budapest, Hungary",
+      "contact": {
+        "website": "http://hegyvideksport.hu/sportpalyak-labdarugas-tenisz/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-f94bhy": {
+    "seedId": "seed-hun-f94bhy",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-miskolc-sport",
+        "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/diosgyori-stadion-es-edzokozpont",
+        "discoveredAt": "2026-09-26T01:07:33.707Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "football",
+    "initialFacts": {
+      "name": "Diósgyőri Stadion és Edzőközpont",
+      "address": "Miskolc, Hungary",
+      "contact": {
+        "website": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/diosgyori-stadion-es-edzokozpont"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-b03fk6": {
+    "seedId": "seed-hun-b03fk6",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-miskolc-sport",
+        "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/miskolc-varosi-szabadidokozpont",
+        "discoveredAt": "2026-09-26T01:07:33.707Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Miskolc Városi Szabadidőközpont",
+      "address": "Miskolc, Hungary",
+      "contact": {
+        "website": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/miskolc-varosi-szabadidokozpont"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7v3t7m": {
+    "seedId": "seed-hun-7v3t7m",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-miskolc-sport",
+        "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/miskolci-egyetemi-sportkozpont",
+        "discoveredAt": "2026-09-26T01:07:33.707Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Miskolci Egyetemi Sportközpont",
+      "address": "Miskolc, Hungary",
+      "contact": {
+        "website": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/miskolci-egyetemi-sportkozpont"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ywqyyl": {
+    "seedId": "seed-hun-ywqyyl",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-miskolc-sport",
+        "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/kemeny-denes-varosi-sportuszoda",
+        "discoveredAt": "2026-09-26T01:07:33.707Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kemény Dénes Városi Sportuszoda",
+      "address": "Miskolc, Hungary",
+      "contact": {
+        "website": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/kemeny-denes-varosi-sportuszoda"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-g62n55": {
+    "seedId": "seed-hun-g62n55",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-miskolc-sport",
+        "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/diosgyori-tanuszoda",
+        "discoveredAt": "2026-09-26T01:07:33.707Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Diósgyőri Tanuszoda",
+      "address": "Miskolc, Hungary",
+      "contact": {
+        "website": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/diosgyori-tanuszoda"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ddb71d": {
+    "seedId": "seed-hun-ddb71d",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-miskolc-sport",
+        "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/miskolci-atletikai-centrum",
+        "discoveredAt": "2026-09-26T01:07:33.707Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Miskolci Atlétikai Centrum",
+      "address": "Miskolc, Hungary",
+      "contact": {
+        "website": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/miskolci-atletikai-centrum"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-v7v6g3": {
+    "seedId": "seed-hun-v7v6g3",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-miskolc-sport",
+        "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/mvsc-sporttelep",
+        "discoveredAt": "2026-09-26T01:07:33.707Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "MVSC Sporttelep",
+      "address": "Miskolc, Hungary",
+      "contact": {
+        "website": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/mvsc-sporttelep"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-brb1dq": {
+    "seedId": "seed-hun-brb1dq",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-miskolc-sport",
+        "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/ifjusagi-sporttelep",
+        "discoveredAt": "2026-09-26T01:07:33.707Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Ifjúsági Sporttelep",
+      "address": "Miskolc, Hungary",
+      "contact": {
+        "website": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/ifjusagi-sporttelep"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-t8rbp9": {
+    "seedId": "seed-hun-t8rbp9",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-miskolc-sport",
+        "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/honved-papp-jozsef-sporttelep",
+        "discoveredAt": "2026-09-26T01:07:33.707Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Honvéd Papp József Sporttelep",
+      "address": "Miskolc, Hungary",
+      "contact": {
+        "website": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek/honved-papp-jozsef-sporttelep"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-gx0sww": {
+    "seedId": "seed-hun-gx0sww",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-gyor-letesitmenyek",
+        "url": "https://gyor.hu/gyor/sport/letesitmenyek/egyetemi-csarnok/",
+        "discoveredAt": "2026-09-26T01:08:20.112Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Egyetemi csarnok",
+      "address": "Győr, Hungary",
+      "contact": {
+        "website": "https://gyor.hu/gyor/sport/letesitmenyek/egyetemi-csarnok/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-r7rzrz": {
+    "seedId": "seed-hun-r7rzrz",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-jozsefvaros-uszodak",
+        "url": "https://sportosegyetem.uni-nke.hu/letesitmenyek/uszoda",
+        "discoveredAt": "2026-09-26T01:09:52.032Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Nemzeti Közszolgálati Egyetem Uszoda (Ludovika)",
+      "address": "1083 Budapest, Üllői út 82., Hungary",
+      "contact": {
+        "website": "https://sportosegyetem.uni-nke.hu/letesitmenyek/uszoda"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-c36rd8": {
+    "seedId": "seed-hun-c36rd8",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-jozsefvaros-uszodak",
+        "url": "https://losialtisk.hu/iskolai-elet/uszoda/",
+        "discoveredAt": "2026-09-26T01:09:52.032Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Losonci Téri Általános Iskola Uszoda",
+      "address": "1083 Budapest, Losonci tér, Hungary",
+      "contact": {
+        "website": "https://losialtisk.hu/iskolai-elet/uszoda/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-t9cp3z": {
+    "seedId": "seed-hun-t9cp3z",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-racz-aladar-zene-tanc-kepzo-es-iparmuveszeti-alapfoku-muveszeti",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Rácz Aladár Zene-, Tánc-, Képző- És Iparművészeti Alapfokú Művészeti Iskola",
+      "address": "1165 Budapest, Táncsics u 7-9., Hungary",
+      "contact": {
+        "email": "info@razeneiskola.hu",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-racz-aladar-zene-tanc-kepzo-es-iparmuveszeti-alapfoku-muveszeti"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-grbo6c": {
+    "seedId": "seed-hun-grbo6c",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-tancsics-mihaly-altalanos-iskola-es-gimnazium",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Táncsics Mihály Általános Iskola és Gimnázium",
+      "address": "1165 Budapest, Táncsics utca 7-9., Hungary",
+      "contact": {
+        "email": "bp16tancsics@gmail.com",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-tancsics-mihaly-altalanos-iskola-es-gimnazium"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-i263c7": {
+    "seedId": "seed-hun-i263c7",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-szent-gyorgyi-albert-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Szent-Györgyi Albert Általános Iskola",
+      "address": "1161 Budapest, Csömöri út 20., Hungary",
+      "contact": {
+        "email": "info@szgyaiskola.hu",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-szent-gyorgyi-albert-altalanos-iskola"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-b01zsz": {
+    "seedId": "seed-hun-b01zsz",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/sashalmi-tanoda-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Sashalmi Tanoda Általános Iskola",
+      "address": "1163 Budapest, Metró utca 3-7., Hungary",
+      "contact": {
+        "email": "tanoda@sastanoda.hu",
+        "website": "https://www.bp16.hu/intezmenyek/sashalmi-tanoda-altalanos-iskola"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-rn4gjx": {
+    "seedId": "seed-hun-rn4gjx",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-mora-ferenc-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Móra Ferenc Általános Iskola",
+      "address": "1162 Budapest, Ida utca 108-110., Hungary",
+      "contact": {
+        "email": "moraferenc@mora16.hu",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-mora-ferenc-altalanos-iskola"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-qs0i5b": {
+    "seedId": "seed-hun-qs0i5b",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-lemhenyi-dezso-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Lemhényi Dezső Általános Iskola",
+      "address": "1163 Budapest, Hősök fasora 30., Hungary",
+      "contact": {
+        "email": "iskola@lemhenyi.edu.hu",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-lemhenyi-dezso-altalanos-iskola"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-qcfb4f": {
+    "seedId": "seed-hun-qcfb4f",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-kolcsey-ferenc-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Kölcsey Ferenc Általános Iskola",
+      "address": "1161 Budapest, Hősök tere 1., Hungary",
+      "contact": {
+        "email": "kolcsey16altisk@gmail.com",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-kolcsey-ferenc-altalanos-iskola"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-my9286": {
+    "seedId": "seed-hun-my9286",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-jokai-mor-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Jókai Mór Általános Iskola",
+      "address": "1163 Budapest, Tiszakömlő utca 29-35., Hungary",
+      "contact": {
+        "email": "jokai16@jokai16.hu",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-jokai-mor-altalanos-iskola"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-rjck2a": {
+    "seedId": "seed-hun-rjck2a",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-herman-otto-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Herman Ottó Általános Iskola",
+      "address": "1161 Budapest, Regele János utca 43-45., Hungary",
+      "contact": {
+        "email": "hermanbp1161@gmail.com",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-herman-otto-altalanos-iskola"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-kymsn": {
+    "seedId": "seed-hun-kymsn",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/centenariumi-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Centenáriumi Általános Iskola",
+      "address": "1165 Budapest, Sasvár utca 101., Hungary",
+      "contact": {
+        "website": "https://www.bp16.hu/intezmenyek/centenariumi-altalanos-iskola"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-a3w64h": {
+    "seedId": "seed-hun-a3w64h",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-batthyany-ilona-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Batthyány Ilona Általános Iskola",
+      "address": "1164 Budapest, Georgina utca 23., Hungary",
+      "contact": {
+        "email": "iskola@cinkota23.edu.hu",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-batthyany-ilona-altalanos-iskola"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-eto391": {
+    "seedId": "seed-hun-eto391",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-altalanos",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-arany-janos-altalanos-iskola",
+        "discoveredAt": "2026-09-26T01:12:56.883Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Arany János Általános Iskola",
+      "address": "1162 Budapest, Bekecs utca 78., Hungary",
+      "contact": {
+        "email": "bekecs78@aranyj-bpbe.edu.hu",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-arany-janos-altalanos-iskola"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-sy344k": {
+    "seedId": "seed-hun-sy344k",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-kozep",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-tancsics-mihaly-altalanos-iskola-es-gimnazium-0",
+        "discoveredAt": "2026-09-26T01:13:42.329Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Táncsics Mihály Általános Iskola és Gimnázium",
+      "address": "1165 Budapest, Táncsincs utca 7-9., Hungary",
+      "contact": {
+        "email": "bp16tancsics@gmail.com",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-tancsics-mihaly-altalanos-iskola-es-gimnazium-0"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-rl7p9o": {
+    "seedId": "seed-hun-rl7p9o",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp16-kozep",
+        "url": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-szerb-antal-gimnazium",
+        "discoveredAt": "2026-09-26T01:13:42.329Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XVI. kerületi Szerb Antal Gimnázium",
+      "address": "1164 Budapest, Batthyány I. u. 12., Hungary",
+      "contact": {
+        "email": "szag@szag.hu",
+        "website": "https://www.bp16.hu/intezmenyek/budapest-xvi-keruleti-szerb-antal-gimnazium"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-jcxk9a": {
+    "seedId": "seed-hun-jcxk9a",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "http://erzsebetibenedek.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.566Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Benedek Elek EGYMI, Óvoda, Általános Iskola és Speciális Szakiskola",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "http://erzsebetibenedek.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-blsaog": {
+    "seedId": "seed-hun-blsaog",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "http://www.adyaltisk.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XX. Kerületi Ady Endre Általános Iskola",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "http://www.adyaltisk.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ne07f2": {
+    "seedId": "seed-hun-ne07f2",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "http://www.gyulaisuli.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XX. Kerületi Gyulai István Általános Iskola",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "http://www.gyulaisuli.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fx34gf": {
+    "seedId": "seed-hun-fx34gf",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "http://www.pesterzsebetihajos.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XX. Kerületi Hajós Alfréd Általános Iskola",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "http://www.pesterzsebetihajos.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7e2zam": {
+    "seedId": "seed-hun-7e2zam",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "http://www.klgbp.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XX. Kerületi Kossuth Lajos Gimnázium",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "http://www.klgbp.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kvo333": {
+    "seedId": "seed-hun-kvo333",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "http://www.lajthaamipesterzsebet.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XX. Kerületi Lajtha László Alapfokú Művészeti Iskola",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "http://www.lajthaamipesterzsebet.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-2jlqy6": {
+    "seedId": "seed-hun-2jlqy6",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "http://www.lazarsuli.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XX. Kerületi Lázár Vilmos Általános Iskola",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "http://www.lazarsuli.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-aphld3": {
+    "seedId": "seed-hun-aphld3",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "http://www.nagylaszlogimnazium.net/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapest XX. Kerületi Nagy László Általános Iskola és Gimnázium",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "http://www.nagylaszlogimnazium.net/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-y4xw5l": {
+    "seedId": "seed-hun-y4xw5l",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "http://www.jozsef20.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "József Attila Katolikus Nyelvoktató Német Nemzetiségi Általános Iskola",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "http://www.jozsef20.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-zdkcvi": {
+    "seedId": "seed-hun-zdkcvi",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "https://pekszi.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "BGSZC Pesterzsébeti Technikum",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "https://pekszi.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-95waza": {
+    "seedId": "seed-hun-95waza",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "https://www.sisy.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "BKSzC Erzsébet Királyné Szépészeti Technikum",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "https://www.sisy.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ff4ksv": {
+    "seedId": "seed-hun-ff4ksv",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "https://www.eotvosszki.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "BGéSZC Eötvös Loránd Technikum",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "https://www.eotvosszki.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-dyas3e": {
+    "seedId": "seed-hun-dyas3e",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "https://sibi.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Dr. Somogyi Imre Baptista Szakképző Iskola, Technikum, Általános Iskola, Szakiskola és Gimnázium_",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "https://sibi.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-2x9tj0": {
+    "seedId": "seed-hun-2x9tj0",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "https://bpmontessori.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Budapesti Montessori Általános Iskola és Gimnázium",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "https://bpmontessori.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ty5qmo": {
+    "seedId": "seed-hun-ty5qmo",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "https://kreativiskola.eu/hu_hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kreatív Iskola",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "https://kreativiskola.eu/hu_hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-gl7gpc": {
+    "seedId": "seed-hun-gl7gpc",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-pesterzsebet",
+        "url": "https://tanext.hu/",
+        "discoveredAt": "2026-09-26T01:15:13.567Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Tanext Akadémia",
+      "address": "Budapest XX, Hungary",
+      "contact": {
+        "website": "https://tanext.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kt8iyd": {
+    "seedId": "seed-hun-kt8iyd",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Bárczi Gusztáv Óvoda, Általános Iskola, Készségfejlesztő Iskola, Kollégium",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-yx1hvb": {
+    "seedId": "seed-hun-yx1hvb",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Gyárvárosi Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kbj6tp": {
+    "seedId": "seed-hun-kbj6tp",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Arany János Angol-Német Két Tanítási Nyelvű Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kjk2cb": {
+    "seedId": "seed-hun-kjk2cb",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Fekete István Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-3mprwa": {
+    "seedId": "seed-hun-3mprwa",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Gárdonyi Géza Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-bexsdm": {
+    "seedId": "seed-hun-bexsdm",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Kodály Zoltán Ének-zenei Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-zfqf80": {
+    "seedId": "seed-hun-zfqf80",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Kossuth Lajos Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-vodcmg": {
+    "seedId": "seed-hun-vodcmg",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Kovács Margit Német Nyelvoktató Nemzetiségi Általános Iskola, Alapfokú Művészeti Iskola, Iparművészeti Szakgimnázium, Technikum és Szakközépiskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-curlwk": {
+    "seedId": "seed-hun-curlwk",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Kölcsey Ferenc Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-mxgw7w": {
+    "seedId": "seed-hun-mxgw7w",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Ménfőcsanaki Petőfi Sándor Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kwdz2x": {
+    "seedId": "seed-hun-kwdz2x",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Móricz Zsigmond Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7t2t9p": {
+    "seedId": "seed-hun-7t2t9p",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Nádorvárosi Ének-zenei Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-s4tmmg": {
+    "seedId": "seed-hun-s4tmmg",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Radnóti Miklós Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-cru1lq": {
+    "seedId": "seed-hun-cru1lq",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Győri Tulipános Általános Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-hf68u0": {
+    "seedId": "seed-hun-hf68u0",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kazinczy Ferenc Gimnázium és Kollégium",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ex00j6": {
+    "seedId": "seed-hun-ex00j6",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Liszt Ferenc Zenei Alapfokú Művészeti Iskola",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-d6aibd": {
+    "seedId": "seed-hun-d6aibd",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Radó Tibor Általános Iskola és Gyógypedagógiai Módszertani Intézmény",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-50yzog": {
+    "seedId": "seed-hun-50yzog",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Révai Miklós Gimnázium és Kollégium",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-cwsp28": {
+    "seedId": "seed-hun-cwsp28",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Richter János Zeneművészeti Szakgimnázium, Általános Iskola, Alapfokú Művészeti Iskola és Kollégium",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-m0bd5s": {
+    "seedId": "seed-hun-m0bd5s",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Richter János Zeneművészeti Szakgimnázium, Általános Iskola, Alapfokú Művészeti Iskola és Kollégium Bartók Béla Ének-zenei Általános Iskolája",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-niixev": {
+    "seedId": "seed-hun-niixev",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-gyor",
+        "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+        "discoveredAt": "2026-09-26T01:16:00.264Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Szabadhegyi Magyar-Német Két Tanítási Nyelvű Általános Iskola és Gimnázium",
+      "address": "Győr, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-oyoipp": {
+    "seedId": "seed-hun-oyoipp",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Felsővárosi Általános Iskola",
+      "address": "8000 Székesfehérvár Koppány u. 2, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-bikvy9": {
+    "seedId": "seed-hun-bikvy9",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Hétvezér Általános Iskola",
+      "address": "8000 Székesfehérvár, Hétvezér tér 1, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fe9txv": {
+    "seedId": "seed-hun-fe9txv",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Székesfehérvári István Király Általános Iskola",
+      "address": "8000 Székesfehérvár, Kelemen B. u. 30/A, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-bf0qaw": {
+    "seedId": "seed-hun-bf0qaw",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Székesfehérvári Kossuth Lajos Általános Iskola",
+      "address": "8000 Székesfehérvár, Pozsonyi u. 99, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-iwulzq": {
+    "seedId": "seed-hun-iwulzq",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Székesfehérvári Munkácsy Mihály Általános Iskola",
+      "address": "8000 Székesfehérvár, Munkácsy M. u. 10, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ky6kuj": {
+    "seedId": "seed-hun-ky6kuj",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Székesfehérvári Németh László Általános Iskola",
+      "address": "8000 Székesfehérvár, Salétrom u. 4-6, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-xt26as": {
+    "seedId": "seed-hun-xt26as",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Székesfehérvári Széna Téri Általános Iskola",
+      "address": "8000 Székesfehérvár, Széna tér 10, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ff3mxa": {
+    "seedId": "seed-hun-ff3mxa",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Székesfehérvári Táncsics Mihály Általános Iskola",
+      "address": "8000 Székesfehérvár, Batthyány u. 1, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-yfuj56": {
+    "seedId": "seed-hun-yfuj56",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Székesfehérvári Vasvári Pál Általános Iskola",
+      "address": "8000 Székesfehérvár, György Oszkár tér 3, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-5cdmc6": {
+    "seedId": "seed-hun-5cdmc6",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Székesfehérvári Vörösmarty Mihály Általános Iskola",
+      "address": "8000 Székesfehérvár, Liget sor 49. A ép, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fa28ni": {
+    "seedId": "seed-hun-fa28ni",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-szekesfehervar",
+        "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+        "discoveredAt": "2026-09-26T01:16:46.026Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Zentai Úti Általános Iskola",
+      "address": "8000 Székesfehérvár, Zentai u. 8, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-4btcki": {
+    "seedId": "seed-hun-4btcki",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "http://www.kossuthiskola.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi Kossuth Lajos Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "http://www.kossuthiskola.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-af5ldl": {
+    "seedId": "seed-hun-af5ldl",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "http://www.cholnokyiskola.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi Cholnoky Jenő Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "http://www.cholnokyiskola.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-qcczmf": {
+    "seedId": "seed-hun-qcczmf",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "https://vpbathory.edu.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi Báthory István Sportiskolai Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://vpbathory.edu.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-jf8s7q": {
+    "seedId": "seed-hun-jf8s7q",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "https://www.deakveszprem.eu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi Deák Ferenc Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://www.deakveszprem.eu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-2nsv1x": {
+    "seedId": "seed-hun-2nsv1x",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "https://dozsaiskola.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi Dózsa György Német Nemzetiségi Nyelvoktató Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://dozsaiskola.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-njorql": {
+    "seedId": "seed-hun-njorql",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "https://botev.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Hriszto Botev Német Nemzetiségi Nyelvoktató Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://botev.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-5d222e": {
+    "seedId": "seed-hun-5d222e",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "https://simonyi-veszprem.edu.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Simonyi Zsigmond Ének-Zenei és Testnevelési Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://simonyi-veszprem.edu.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7zassf": {
+    "seedId": "seed-hun-7zassf",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "https://www.barczi.edu.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Bárczi Gusztáv Általános Iskola, Speciális Szakiskola és Egységes Gyógypedagógiai Módszertani Intézmény",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://www.barczi.edu.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-vhnp06": {
+    "seedId": "seed-hun-vhnp06",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "http://www.rozsaiskola.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi Rózsa úti Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "http://www.rozsaiskola.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-budr3k": {
+    "seedId": "seed-hun-budr3k",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "https://www.gyulaffy.edu.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Gyulaffy László Német Nemzetiségi Nyelvoktató Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://www.gyulaffy.edu.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ewzvvu": {
+    "seedId": "seed-hun-ewzvvu",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-altalanos",
+        "url": "https://www.szilagyiveszprem.hu/",
+        "discoveredAt": "2026-09-26T01:17:32.021Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Szilágyi Erzsébet Keresztény Általános és Alapfokú Művészeti Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://www.szilagyiveszprem.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-fok0o8": {
+    "seedId": "seed-hun-fok0o8",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "http://web.lovassy.hu/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Lovassy László Gimnázium",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "http://web.lovassy.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-dk7dsa": {
+    "seedId": "seed-hun-dk7dsa",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "http://vetesi.hu/VetesiV2/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Vetési Albert Gimnázium",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "http://vetesi.hu/VetesiV2/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-45e3be": {
+    "seedId": "seed-hun-45e3be",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "https://tancsicstechnikum.hu/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi SZC Táncsics Mihály Technikum",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://tancsicstechnikum.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-zhtfhc": {
+    "seedId": "seed-hun-zhtfhc",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "https://www.ipariszakkozep.hu/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi SZC Ipari Technikum",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://www.ipariszakkozep.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-x0n2wn": {
+    "seedId": "seed-hun-x0n2wn",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "https://www.sef.hu/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi SZC „SÉF” Vendéglátás-Turizmus Technikum és Szakképző Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://www.sef.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-luo5b9": {
+    "seedId": "seed-hun-luo5b9",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "https://kozgaztechnikum.hu/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi SZC Bethlen István Közgazdasági és Közigazgatási Technikum",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://kozgaztechnikum.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-9jiow7": {
+    "seedId": "seed-hun-9jiow7",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "https://jendra.hu/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi SZC Jendrassik-Venesz Technikum",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://jendra.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-xosw4k": {
+    "seedId": "seed-hun-xosw4k",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "https://zenede.hu/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Csermák Antal Alapfokú Művészeti Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://zenede.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-zedge5": {
+    "seedId": "seed-hun-zedge5",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "https://veszpremikollegium.hu/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Veszprémi Középiskolai Kollégium",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://veszpremikollegium.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-mplg4d": {
+    "seedId": "seed-hun-mplg4d",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "http://www.padanyi.edu.hu/index.php",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Padányi Biró Márton Római Katolikus Gimnázium, Technikum és Általános Iskola",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "http://www.padanyi.edu.hu/index.php"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-btfnfr": {
+    "seedId": "seed-hun-btfnfr",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-veszprem-kozep",
+        "url": "https://davidikum.edu.hu/",
+        "discoveredAt": "2026-09-26T01:18:17.746Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Davidikum Római Katolikus Középiskolai Kollégium",
+      "address": "Veszprém, Hungary",
+      "contact": {
+        "website": "https://davidikum.edu.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ham6tl": {
+    "seedId": "seed-hun-ham6tl",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Belvárosi Zrínyi Ilona általános Iskola (székhely)",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-3660a5": {
+    "seedId": "seed-hun-3660a5",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Belvárosi Zrínyi Ilona általános Iskola Béke általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-rmcugb": {
+    "seedId": "seed-hun-rmcugb",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Belvárosi Zrínyi Ilona általános Iskola Damjanich János általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-2rc8w5": {
+    "seedId": "seed-hun-2rc8w5",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Belvárosi Zrínyi Ilona általános Iskola Magyar Ilona általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-9m9zl9": {
+    "seedId": "seed-hun-9m9zl9",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Belvárosi Zrínyi Ilona általános Iskola Tóth László általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-f3xf48": {
+    "seedId": "seed-hun-f3xf48",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Belvárosi Zrínyi Ilona általános Iskola Városföldi általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-qc5905": {
+    "seedId": "seed-hun-qc5905",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti II. Rákóczi Ferenc általános Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-j95wez": {
+    "seedId": "seed-hun-j95wez",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Corvin Mátyás általános Iskola (székhely)",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-e75qxs": {
+    "seedId": "seed-hun-e75qxs",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Corvin Mátyás általános Iskola Hunyadi János általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-jwe476": {
+    "seedId": "seed-hun-jwe476",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Corvin Mátyás általános Iskola Kertvárosi általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-dvv0s9": {
+    "seedId": "seed-hun-dvv0s9",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Corvin Mátyás általános Iskola Mathiász János általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-uz63xq": {
+    "seedId": "seed-hun-uz63xq",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Széchenyivárosi Arany János általános Iskola (székhely)",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-rgbt1w": {
+    "seedId": "seed-hun-rgbt1w",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Széchenyivárosi Arany János általános Iskola Móra Ferenc általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-gaq7aa": {
+    "seedId": "seed-hun-gaq7aa",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.672Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Lánchíd Utcai Sport általános Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-agf9dn": {
+    "seedId": "seed-hun-agf9dn",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Vásárhelyi Pál általános Iskola és Alapfokú Művészeti Iskola (székhely)",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-jpdoxh": {
+    "seedId": "seed-hun-jpdoxh",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Vásárhelyi Pál általános Iskola és Alapfokú Művészeti Iskola Kadafalvi általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-45ghb2": {
+    "seedId": "seed-hun-45ghb2",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Vásárhelyi Pál általános Iskola és Alapfokú Művészeti Iskola Ménteleki általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-2r4b2k": {
+    "seedId": "seed-hun-2r4b2k",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Vásárhelyi Pál általános Iskola és Alapfokú Művészeti Iskola Móricz Zsigmond általános Iskolája",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-grthri": {
+    "seedId": "seed-hun-grthri",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      },
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Kodály Iskola (Kecskeméti Kodály Zoltán általános Iskola, Gimnázium, Szakgimnázium és Alapfokú Művészeti Iskola)",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-xcqayp": {
+    "seedId": "seed-hun-xcqayp",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti M. Bodon Pál Alapfokú Művészeti Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-dqtt9r": {
+    "seedId": "seed-hun-dqtt9r",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Akácvirág Waldorf óvoda, általános Iskola és Alapfokú Művészeti Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-wpy7xa": {
+    "seedId": "seed-hun-wpy7xa",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Gyermekliget Alternatív óvoda, általános Iskola és Alapfokú Művészeti Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-paiga7": {
+    "seedId": "seed-hun-paiga7",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      },
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Katedra általános Iskola, Gimnázium, Informatikai és Művészeti Technikum, Szakgimnázium és Kollégium",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-hmeptn": {
+    "seedId": "seed-hun-hmeptn",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Református általános Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-rez39n": {
+    "seedId": "seed-hun-rez39n",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Petőfi Sándor Katolikus általános Iskola és óvoda",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-vt6w4a": {
+    "seedId": "seed-hun-vt6w4a",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Mátrix Suli általános Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-uslmoh": {
+    "seedId": "seed-hun-uslmoh",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      },
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Piarista Gimnázium, Kollégium, általános Iskola és óvoda",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ejl754": {
+    "seedId": "seed-hun-ejl754",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Szent Imre Katolikus óvoda és általános Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-gfhdre": {
+    "seedId": "seed-hun-gfhdre",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-altalanos",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+        "discoveredAt": "2026-09-26T01:19:04.673Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Csillagbölcső Waldorf általános Iskola és Alapfokú Művészeti Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-kq8gne": {
+    "seedId": "seed-hun-kq8gne",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Bányai Júlia Gimnázium",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ft8hzh": {
+    "seedId": "seed-hun-ft8hzh",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Bolyai János Gimnázium",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-tl4whz": {
+    "seedId": "seed-hun-tl4whz",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Katona József Gimnázium",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7bs3bq": {
+    "seedId": "seed-hun-7bs3bq",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Németh László Gimnázium",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-mx0cml": {
+    "seedId": "seed-hun-mx0cml",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Táncsics Mihály Középiskolai Kollégium",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-7a0vtx": {
+    "seedId": "seed-hun-7a0vtx",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Református Gimnázium",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-4m9je0": {
+    "seedId": "seed-hun-4m9je0",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Déli ASzC Kocsis Pál Mezőgazdasági és Környezetvédelmi Technikum és Szakképző Iskola",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-e9ypqy": {
+    "seedId": "seed-hun-e9ypqy",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Szakképzési Centrum Gáspár András Technikum",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-tvydfm": {
+    "seedId": "seed-hun-tvydfm",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Szakképzési Centrum gróf Károlyi Sándor Technikum",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-qzf0xb": {
+    "seedId": "seed-hun-qzf0xb",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Szakképzési Centrum Kada Elek Technikum",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-nqlv4q": {
+    "seedId": "seed-hun-nqlv4q",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Szakképzési Centrum Kandó Kálmán Technikum",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-wbohmm": {
+    "seedId": "seed-hun-wbohmm",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Szakképzési Centrum Széchenyi István Technikum",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-4mmgsn": {
+    "seedId": "seed-hun-4mmgsn",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Szakképzési Centrum Szent-Györgyi Albert Technikum",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-9nxd3b": {
+    "seedId": "seed-hun-9nxd3b",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-kecskemet-kozep",
+        "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+        "discoveredAt": "2026-09-26T01:19:50.547Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Kecskeméti Szakképzési Centrum Kollégiuma",
+      "address": "Kecskemét, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-76trlo": {
+    "seedId": "seed-hun-76trlo",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-debrecen-sportcsarnokok",
+        "url": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/debreceni-jegcsarnok-2",
+        "discoveredAt": "2026-09-26T01:22:31.837Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "ice-sports",
+    "initialFacts": {
+      "name": "Debreceni Jégcsarnok",
+      "address": "Debrecen, Hungary",
+      "contact": {
+        "website": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/debreceni-jegcsarnok-2"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-vd0cak": {
+    "seedId": "seed-hun-vd0cak",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-debrecen-sportcsarnokok",
+        "url": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/szeged-utcai-szabadidokozpont",
+        "discoveredAt": "2026-09-26T01:22:31.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Szeged Utcai Szabadidőközpont",
+      "address": "Debrecen, Hungary",
+      "contact": {
+        "website": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/szeged-utcai-szabadidokozpont"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-uhnks7": {
+    "seedId": "seed-hun-uhnks7",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-debrecen-sportcsarnokok",
+        "url": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/nagyerdei-stadion",
+        "discoveredAt": "2026-09-26T01:22:31.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "football",
+    "initialFacts": {
+      "name": "Nagyerdei Stadion",
+      "address": "Debrecen, Hungary",
+      "contact": {
+        "website": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/nagyerdei-stadion"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-hvwz7j": {
+    "seedId": "seed-hun-hvwz7j",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-debrecen-sportcsarnokok",
+        "url": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/fonix-arena-1",
+        "discoveredAt": "2026-09-26T01:22:31.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Főnix Aréna",
+      "address": "Debrecen, Hungary",
+      "contact": {
+        "website": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/fonix-arena-1"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-bk5eal": {
+    "seedId": "seed-hun-bk5eal",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-debrecen-sportcsarnokok",
+        "url": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/hodos-imre-rendezvenycsarnok",
+        "discoveredAt": "2026-09-26T01:22:31.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Hódos Imre Rendezvénycsarnok",
+      "address": "Debrecen, Hungary",
+      "contact": {
+        "website": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/hodos-imre-rendezvenycsarnok"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-oj48dp": {
+    "seedId": "seed-hun-oj48dp",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "onkormanyzat-debrecen-sportcsarnokok",
+        "url": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/debreceni-sportuszoda",
+        "discoveredAt": "2026-09-26T01:22:31.838Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Debreceni Sportuszoda",
+      "address": "Debrecen, Hungary",
+      "contact": {
+        "website": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/debreceni-sportuszoda"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-9ncioa": {
+    "seedId": "seed-hun-9ncioa",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp22-budafok",
+        "url": "https://www.rozsakertirefi.hu/",
+        "discoveredAt": "2026-09-26T01:22:31.841Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Rózsakerti Demjén István Református általános Iskola és Gimnázium",
+      "address": "Budapest XXII, Hungary",
+      "contact": {
+        "website": "https://www.rozsakertirefi.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-ps8p64": {
+    "seedId": "seed-hun-ps8p64",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp22-budafok",
+        "url": "https://www.borasziskola.hu/",
+        "discoveredAt": "2026-09-26T01:22:31.841Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Soós István Borászati és élelmiszeripari Szakgimnázium és Szakközépiskola",
+      "address": "Budapest XXII, Hungary",
+      "contact": {
+        "website": "https://www.borasziskola.hu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-hun-91kjl5": {
+    "seedId": "seed-hun-91kjl5",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "schools-bp22-budafok",
+        "url": "https://www.tpfk.hu/technikum",
+        "discoveredAt": "2026-09-26T01:22:31.841Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "school-sport",
+    "initialFacts": {
+      "name": "Tomori Pál Magyar-Angol Két tanítási nyelvű Közgazdasági Technikum",
+      "address": "Budapest XXII, Hungary",
+      "contact": {
+        "website": "https://www.tpfk.hu/technikum"
+      }
+    },
+    "confidence": "medium",
     "status": "pending"
   }
 }

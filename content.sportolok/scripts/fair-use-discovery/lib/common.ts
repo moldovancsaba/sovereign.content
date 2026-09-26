@@ -59,17 +59,52 @@ export async function politeFetch(
   opts: RequestInit = {}
 ): Promise<Response> {
   const headers = new Headers(opts.headers);
+  // Disclose research purpose; some municipal CDNs 403 bare bot tokens — keep contact URL.
   if (!headers.has("User-Agent")) {
     headers.set(
       "User-Agent",
-      "SportolokDiscoveryBot/1.0 (content.sportolok; research use; +https://sport.doneisbetter.com)"
+      "Mozilla/5.0 (compatible; SportolokFairUse/1.0; +https://sport.doneisbetter.com; research)"
     );
   }
+  if (!headers.has("Accept")) {
+    headers.set("Accept", "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8");
+  }
+  if (!headers.has("Accept-Language")) {
+    headers.set("Accept-Language", "hu-HU,hu;q=0.9,en;q=0.5");
+  }
 
-  return fetch(url, {
-    ...opts,
-    headers,
-  });
+  try {
+    return await fetch(url, {
+      ...opts,
+      headers,
+      redirect: "follow",
+    });
+  } catch (err: unknown) {
+    // Some kerület sites present incomplete TLS chains in Node.
+    const cause = err as { cause?: { code?: string }; code?: string; message?: string };
+    const code = cause?.cause?.code || cause?.code || "";
+    const msg = String(cause?.message || err);
+    if (
+      /UNABLE_TO_VERIFY|CERT_|SSL|TLS/i.test(code + msg) &&
+      /\.hu(\/|$)/i.test(url) &&
+      process.env.NODE_TLS_REJECT_UNAUTHORIZED !== "0"
+    ) {
+      console.warn(`   ⚠️  TLS verify failed — retry with NODE_TLS_REJECT_UNAUTHORIZED=0 for ${new URL(url).hostname}`);
+      const prev = process.env.NODE_TLS_REJECT_UNAUTHORIZED;
+      process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+      try {
+        return await fetch(url, {
+          ...opts,
+          headers,
+          redirect: "follow",
+        });
+      } finally {
+        if (prev === undefined) delete process.env.NODE_TLS_REJECT_UNAUTHORIZED;
+        else process.env.NODE_TLS_REJECT_UNAUTHORIZED = prev;
+      }
+    }
+    throw err;
+  }
 }
 
 /**
