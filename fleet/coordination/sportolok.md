@@ -20,8 +20,9 @@
 - [x] Clean `_test_patch` pollution on `l-disc-10fdfb6e8912e955` (ingest null + real About enrich)
 - [x] Wire real catalog jobs to `executorIngest` (no junk fields) — about/media/quality-loop ingest scripts live
 - [x] Emit first inbox status (client) + QA-aligned `status-2026-09-25.json` (SC-central)
-- [ ] Agent code/docs only on `sovereign.content/content.sportolok/` `main` (PR: `cursor/wire-catalog-ingest-652a`)
+- [x] Agent code/docs only on `sovereign.content/content.sportolok/` `main`
 - [x] Fair-use: commit `data/find-seeds.json` + source state after live pass
+- [x] Subscribe `sportolok-tick` (~3600s); leave subscribed
 
 ## Open checklist (client)
 
