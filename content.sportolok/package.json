@@ -38,6 +38,8 @@
     "fair-use:enrich:dry": "npx tsx scripts/fair-use-discovery/enrich-seeds.ts --dry-run",
     "fair-use:deepen-addresses": "npx tsx scripts/fair-use-discovery/deepen-addresses.ts",
     "fair-use:deepen-addresses:dry": "npx tsx scripts/fair-use-discovery/deepen-addresses.ts --dry-run",
+    "fair-use:hataron-tul-pass": "npx tsx scripts/fair-use-discovery/hataron-tul-pass.ts",
+    "fair-use:hataron-tul-pass:dry": "npx tsx scripts/fair-use-discovery/hataron-tul-pass.ts --dry-run",
     "seed:lessons": "npx tsx scripts/seed-quality-lessons.mts",
     "test": "vitest",
     "typecheck": "tsc --noEmit"

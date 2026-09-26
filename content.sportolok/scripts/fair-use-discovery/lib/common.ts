@@ -13,6 +13,10 @@ export interface SourceConfig {
   url: string;
   cooldownSec: number;
   territory: string;
+  /** ISO country for Határon túl sources (RO/SK/…) */
+  countryCode?: string;
+  /** Product camera: itthon | hataron-tul */
+  camera?: "itthon" | "hataron-tul";
   activityTypes: string[];
   status: "planned" | "active" | "paused";
 }

@@ -733,3 +733,29 @@ Honest limits: magyaruszodak detail pages often only yield locality-level addres
 **openDebt:** more sludge may remain beyond first 120 sitemap ids · tankerület extractor still missing
 
 **Do not claim production-ready.**
+
+### 2026-09-26 — SC-central / sportolok (Határon túl jobs v1)
+
+**Ask:** start job creation + test for **Határon túl** (one big camera; label never shortened to “Határon”).
+
+**Shipped (discovery only)**
+- `directories/hataron-tul.json` — camera SSOT (RO/RS/HR/SI/AT/SK/UA)
+- `sources-hataron-tul.json` — 9 sources, separate from Itthon `sources.json`
+- `fair-use:hataron-tul-pass` (+ dry) · extractors in `lib/hataronTulExtract.ts`
+- Seeds tagged `territory: HATARON-TUL` · `camera: hataron-tul` · `seed-ht-*`
+
+**Live test**
+| Source | Candidates |
+| --- | --- |
+| Erdélystat civil (RO) | **50** sport clubs |
+| Civilportal (RO) | 4 |
+| Csíkszeredai Sportklub | 1 |
+| KOMSPORT (SK) | 1 |
+| Lendva sportcsarnok (SI) | 1 |
+| Oradea / DS / Komárno hivatal / Szabadka | 0 (kept as probes; no junk titles) |
+
+**Totals:** **54** pending Határon túl seeds (RO 52 · SK 1 · SI 1)
+
+**Blocker (honest):** do **not** enrich/ingest yet — management `territoryScope` is still HU-only; pack `cities` Itthon / Határon túl not wired.
+
+**Do not claim production-ready.**

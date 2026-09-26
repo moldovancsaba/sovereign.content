@@ -1,0 +1,105 @@
+{
+  "updatedAt": "2026-09-26T19:43:30Z",
+  "job": "fair-use:hataron-tul-pass",
+  "camera": "hataron-tul",
+  "label": "Határon túl",
+  "dryRun": false,
+  "sourcesProcessed": 9,
+  "candidates": 57,
+  "hataronTulSeedsTotal": 54,
+  "hataronTulPending": 54,
+  "perSource": [
+    {
+      "sourceId": "ht-ro-erdelystat-civil-sport",
+      "countryCode": "RO",
+      "success": true,
+      "candidates": 50,
+      "droppedJunk": 0,
+      "sample": [
+        "Agyagfalvi Lendület Sportklub",
+        "Aranykalász Kulturális, Ifjúsági és Sportegyesület",
+        "Barót Városi Sportklub Egyesület"
+      ]
+    },
+    {
+      "sourceId": "ht-ro-civilportal-database",
+      "countryCode": "RO",
+      "success": true,
+      "candidates": 4,
+      "droppedJunk": 0,
+      "sample": [
+        "Fejér Sportklub",
+        "Góbék A Sportért Egyesület Sportegyesület",
+        "Unirea Érmihályfalvi Sportklub Egyesület"
+      ]
+    },
+    {
+      "sourceId": "ht-ro-csikszereda-sportclub",
+      "countryCode": "RO",
+      "success": true,
+      "candidates": 1,
+      "droppedJunk": 0,
+      "sample": [
+        "Csíkszeredai Sportklub"
+      ]
+    },
+    {
+      "sourceId": "ht-ro-oradea-sport",
+      "countryCode": "RO",
+      "success": true,
+      "candidates": 0,
+      "droppedJunk": 0,
+      "sample": []
+    },
+    {
+      "sourceId": "ht-sk-komsport",
+      "countryCode": "SK",
+      "success": true,
+      "candidates": 1,
+      "droppedJunk": 0,
+      "sample": [
+        "KOMSPORT — Komáromi sportlétesítmények"
+      ]
+    },
+    {
+      "sourceId": "ht-sk-komarno-sport-osztaly",
+      "countryCode": "SK",
+      "success": true,
+      "candidates": 0,
+      "droppedJunk": 0,
+      "sample": []
+    },
+    {
+      "sourceId": "ht-sk-dunaszerdahely-sport",
+      "countryCode": "SK",
+      "success": true,
+      "candidates": 0,
+      "droppedJunk": 0,
+      "sample": []
+    },
+    {
+      "sourceId": "ht-si-lendava-sport-hall",
+      "countryCode": "SI",
+      "success": true,
+      "candidates": 1,
+      "droppedJunk": 0,
+      "sample": [
+        "Lendvai többfunkciós sportcsarnok uszodával"
+      ]
+    },
+    {
+      "sourceId": "ht-rs-szabadka-portal",
+      "countryCode": "RS",
+      "success": true,
+      "candidates": 0,
+      "droppedJunk": 0,
+      "sample": []
+    }
+  ],
+  "note": "Discovery only — do not enrich/ingest until management territoryScope admits Határon túl",
+  "byCountry": {
+    "RO": 52,
+    "SK": 1,
+    "SI": 1
+  }
+}
