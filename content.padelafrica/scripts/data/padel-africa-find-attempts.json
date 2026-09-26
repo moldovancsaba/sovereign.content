@@ -2263,6 +2263,75 @@
       "countryCode": "GQ",
       "result": "zero_result",
       "evidence": "directory phones not padel-specific"
+    },
+    {
+      "at": "2026-09-26T13:10:19Z",
+      "tick": "2026-09-26T13",
+      "action": "seed",
+      "recordId": "ZAF-VEN-029",
+      "name": "Jozi Padel",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T13:10:19Z",
+      "tick": "2026-09-26T13",
+      "action": "seed",
+      "recordId": "ZAF-VEN-030",
+      "name": "Africa Padel Dunkeld",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T13:10:19Z",
+      "tick": "2026-09-26T13",
+      "action": "seed",
+      "recordId": "ZAF-VEN-031",
+      "name": "Africa Padel Royal Johannesburg",
+      "countryCode": "ZA",
+      "result": "seeded",
+      "evidence": "street+phone"
+    },
+    {
+      "at": "2026-09-26T13:10:19Z",
+      "tick": "2026-09-26T13",
+      "action": "seed",
+      "recordId": "EGY-VEN-014",
+      "name": "Neon Padel",
+      "countryCode": "EG",
+      "result": "seeded",
+      "evidence": "street+phone"
+    },
+    {
+      "at": "2026-09-26T13:10:19Z",
+      "tick": "2026-09-26T13",
+      "action": "seed",
+      "recordId": "EGY-VEN-015",
+      "name": "15-Love Padel Tolip Gardens",
+      "countryCode": "EG",
+      "result": "seeded",
+      "evidence": "street+phone+booking"
+    },
+    {
+      "at": "2026-09-26T13:10:19Z",
+      "tick": "2026-09-26T13",
+      "action": "seed",
+      "recordId": "EGY-VEN-016",
+      "name": "Padel It Palm Hills Katameya",
+      "countryCode": "EG",
+      "result": "seeded",
+      "evidence": "locality+phone+booking"
+    },
+    {
+      "at": "2026-09-26T13:10:19Z",
+      "tick": "2026-09-26T13",
+      "action": "skip",
+      "name": "SEN Dakar deepen already seeded",
+      "countryCode": "SN",
+      "result": "skipped_duplicate",
+      "evidence": "DPC/Mama/City already in fixtures"
     }
   ]
 }

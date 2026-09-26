@@ -828,3 +828,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - CM Elite Yaoundé / MZ Play Padel COOP / GQ Ukomba → skipped
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~13:08–13:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 269 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 40 (28 sources). **skipped_duplicate** Africa Padel Olympus → `ZAF-VEN-025`. **Rejected** mitte (DE), Power Padel (MX), Ultra Aventura (US). `needs_verify` cleared.
+
+**FIND:**
+- ZA Jozi densify → **`ZAF-VEN-029` Jozi Padel**, **`ZAF-VEN-030` Africa Padel Dunkeld**, **`ZAF-VEN-031` Africa Padel Royal Johannesburg** DISCOVERED
+- EG Cairo densify → **`EGY-VEN-014` Neon Padel**, **`EGY-VEN-015` 15-Love Padel (Tolip Gardens)**, **`EGY-VEN-016` Padel It Palm Hills Katameya** DISCOVERED
+- SEN Dakar deepen → already seeded
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

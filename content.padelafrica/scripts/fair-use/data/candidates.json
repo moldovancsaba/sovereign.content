@@ -1887,5 +1887,76 @@
     "extractedAt": "2026-09-26T12:12:17.472Z",
     "rejectedAt": "2026-09-26T12:32:14Z",
     "rejectReason": "out_of_scope_non_africa"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-mitte",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nmitte",
+    "citationUrl": "https://playtomic.com/clubs/mitte-the-cabrio",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/mitte-the-cabrio",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T13:11:51.009Z",
+    "rejectedAt": "2026-09-26T13:36:52Z",
+    "rejectReason": "out_of_scope_non_africa"
+  },
+  {
+    "candidateId": "fair-actu-padel-africa-padel-olympus",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Africa Padel Olympus",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-africa-olympus-pretoria/",
+    "website": "https://africapadel.com/",
+    "countryHint": "South Africa",
+    "addressHint": "33 Ajax Ave, St Olympus Dr, Olympus, Pretoria, 0081, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-africa-olympus-pretoria/",
+      "https://africapadel.com/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-26T13:14:07.547Z",
+    "skippedAt": "2026-09-26T13:36:52Z",
+    "skippedReason": "already_seeded_ZAF-VEN-025",
+    "duplicateRecordId": "ZAF-VEN-025"
+  },
+  {
+    "candidateId": "fair-padelivu-power-padel",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Power Padel",
+    "citationUrl": "https://padelivu.com/club/power-padel",
+    "website": "",
+    "addressHint": "Loma de los Pinos #500A, 64988, Monterrey, Mexico",
+    "researchSources": [
+      "https://padelivu.com/club/power-padel"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T13:17:09.403Z",
+    "rejectedAt": "2026-09-26T13:36:52Z",
+    "rejectReason": "out_of_scope_non_africa"
+  },
+  {
+    "candidateId": "fair-padelusa-ultra-aventura-padel-club",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "Ultra Aventura Padel Club",
+    "citationUrl": "https://padelusa.org/clubs/florida/miami/ultra-aventura-padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/florida/miami/ultra-aventura-padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T13:29:23.595Z",
+    "rejectedAt": "2026-09-26T13:36:52Z",
+    "rejectReason": "out_of_scope_non_africa"
   }
 ]
