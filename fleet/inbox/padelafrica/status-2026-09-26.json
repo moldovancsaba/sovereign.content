@@ -1,7 +1,7 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T00:00:00Z",
-  "source": "padel-find-tick-day3-continuity",
+  "observedAt": "2026-09-26T00:36:00Z",
+  "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
@@ -10,31 +10,46 @@
     "ingestOnlyReality": true,
     "ingestApiKeyPresent": true,
     "writesPath": "post_api_ingest",
-    "tickCompleted": false,
+    "tickCompleted": true,
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 26,
+    "fairUsePassCount": 27,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "ready_for_reconcile",
-    "day3InboxCalendar": true,
-    "carriedFrom": "status-2026-09-25.json"
+    "day3InboxCalendar": true
   },
   "outcomes": {
     "qualityLoopScanned": 211,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 26,
+    "fairUsePass": 27,
     "fairUsePendingAfterTriage": 0,
-    "findSeeded": [],
-    "findZeroResult": [],
-    "ingestDiscoveredOk": 0,
-    "ingestEvidence": null,
+    "findSeeded": [
+      "BEN-VEN-001",
+      "GMB-VEN-002",
+      "NGA-VEN-010",
+      "MAR-VEN-020"
+    ],
+    "findSkippedDuplicate": [
+      "GN Riviera already GIN-VEN-001",
+      "BF Lancaster already BFA-VEN-001",
+      "UG Herman/Smash/Serena already",
+      "RW Bounce/Mamba already",
+      "MZ Maputo clubs already"
+    ],
+    "findZeroResult": [
+      "ET Addis Padel Club launching/office only",
+      "MR Infinity Club no street+phone",
+      "ML Bamako no confirmed padel"
+    ],
+    "ingestDiscoveredOk": 4,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T00.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Day-3 continuity file opened after 2026-09-25T23 tick (ZWE-VEN-005/006). First Sep-26 FIND tick will refresh outcomes. Agent-side openDebt cleared except core reconcile."
+    "note": "00:13 day-3 tick: first Benin seed Cotonou Padel Club; G7 Sport Center Kololi; Monoliza Abuja; fair-use promoted Padel Valley Tamesna. Rejected TIO TIO Berlin + Icon Padel USA. Not claiming PUBLISHED."
   },
   "openDebt": [
     "core_reconcile_release_padel_africa_awaiting_management"

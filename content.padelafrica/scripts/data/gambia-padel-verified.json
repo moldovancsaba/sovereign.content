@@ -23,5 +23,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-22",
     "researchNotes": "Not a duplicate of osm-way-1503420104 (Seaview Plaza) — different host property"
+  },
+  {
+    "recordId": "GMB-VEN-002",
+    "name": "G7 Sport Center",
+    "city": "Kololi",
+    "region": "West Coast",
+    "countryCode": "GM",
+    "line1": "Duplex junction, Senegambia, behind Vibe Fitness",
+    "lat": 13.4478549,
+    "lng": -16.7189839,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Vibe Fitness / Seaview Plaza Kololi pin; club lists Duplex junction behind Vibe Fitness",
+    "website": "https://g7sportcenter-gm.matchpoint.com.es/",
+    "phone": "+220 770 0009",
+    "email": "g7sportcenter24@gmail.com",
+    "venueModel": "outdoors",
+    "seasonNote": "Daily 07:00–23:00; Matchpoint booking",
+    "description": "G7 Sport Center offers Matchpoint-bookable padel at Duplex junction on the Senegambia strip behind Vibe Fitness, with a published phone and email. Distinct from Kololi Beach Resort padel. Book ahead for peak evenings.",
+    "primarySourceUrl": "https://g7sportcenter-gm.matchpoint.com.es/",
+    "secondarySourceUrl": "https://g7sportcenter-gm.matchpoint.com.es/",
+    "sourceTypes": "Matchpoint club portal",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Evidence: Matchpoint portal street+phone +220 7700009 + email. Nominatim Vibe Fitness Kololi as locality pin."
   }
 ]

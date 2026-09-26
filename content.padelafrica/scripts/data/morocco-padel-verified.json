@@ -469,5 +469,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25 fair-use promote. Court count listed as 3 — not asserted. Distinct from Rabat MAR-VEN-003/013/015."
+  },
+  {
+    "recordId": "MAR-VEN-020",
+    "name": "Padel Valley",
+    "city": "Tamesna",
+    "region": "Rabat-Salé-Kénitra",
+    "countryCode": "MA",
+    "line1": "Domaine Oued Ykem, Tamesna",
+    "lat": 33.8319811,
+    "lng": -6.9203446,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Tamesna town pin; Domaine Oued Ykem not in Nominatim",
+    "website": "https://www.padelvalley.ma/",
+    "phone": "+212 677 885 017",
+    "email": "padelvalleyclub@gmail.com",
+    "venueModel": "outdoors",
+    "seasonNote": "Daily 08:00–23:00",
+    "description": "Padel Valley sits at Domaine Oued Ykem in Tamesna near Rabat with a published club phone and email. Fair-use Actu Padel lead cleared the evidence bar. Book ahead for evening sessions.",
+    "primarySourceUrl": "https://www.visitrabat.com/en/lieux/padel-valley-rabat-2/",
+    "secondarySourceUrl": "https://actu-padel.com/en/directory/padel-club/padel-valley-sabbah-sbh/",
+    "sourceTypes": "Visit Rabat; Actu Padel; club site",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Fair-use promote. Evidence: Visit Rabat street+phone +212 677885017 + email; Actu address Domaine Oued Ykem. Nominatim Tamesna locality."
   }
 ]

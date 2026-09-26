@@ -217,5 +217,30 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25T16 — Abuja deepen; phone published on WakaAbuja review; no dedicated club website yet"
+  },
+  {
+    "recordId": "NGA-VEN-010",
+    "name": "Monoliza Abuja",
+    "city": "Abuja",
+    "region": "Federal Capital Territory",
+    "countryCode": "NG",
+    "line1": "R.B. Dikko Road, Garki Area 11",
+    "lat": 9.0489224,
+    "lng": 7.503206,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "R.B. Dikko Road Garki II corridor pin",
+    "website": "https://www.monolizaabuja.com/",
+    "phone": "+234 817 777 3757",
+    "email": null,
+    "venueModel": "outdoors",
+    "seasonNote": "Sports Center 07:00–23:00; online booking via Booking.page",
+    "description": "Monoliza Abuja is a Garki multi-sport centre with published padel courts on R.B. Dikko Road and a club phone for bookings. Distinct from Padelon and Magic Padel Abuja. Book ahead for evening sessions.",
+    "primarySourceUrl": "https://www.monolizaabuja.com/",
+    "secondarySourceUrl": "https://booking.page/en/company/page/monolizaabuja",
+    "sourceTypes": "Club site; Booking.page",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Evidence: monolizaabuja.com + Booking.page padel courts; phone +234 817 777 3757; street R.B. Dikko Road Garki Area 11. Nominatim street pin."
   }
 ]

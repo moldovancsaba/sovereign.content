@@ -571,3 +571,22 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 **OpenDebt resolve:** landed `fleet/inbox/padelafrica/status-2026-09-26.json` (day-3 calendar). Agent-side debt cleared. **Only remaining:** core reconcile of `release/padel-africa` (awaiting management; handshake READY in STATUS-FOR-CORE.md).
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~00:13–00:36 UTC) day-3 first FIND
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 211 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 27 (28 sources). **Promoted** Padel Valley Tamesna → `MAR-VEN-020`. Rejected TIO TIO Rooftop (Berlin DE), Icon Padel Club (USA FL).
+
+**FIND:**
+- BJ Cotonou → **`BEN-VEN-001` Cotonou Padel Club** (Togbin Route des Pêches) DISCOVERED — first Benin seed
+- GM Kololi → **`GMB-VEN-002` G7 Sport Center** (Senegambia / Vibe Fitness) DISCOVERED
+- NG Abuja → **`NGA-VEN-010` Monoliza Abuja** (R.B. Dikko Road Garki) DISCOVERED
+- MA Tamesna → **`MAR-VEN-020` Padel Valley** DISCOVERED
+- GN / BF / UG / RW / MZ deepen → `skipped_duplicate`
+- ET Addis / MR Infinity / ML Bamako → `zero-result`
+
+**Inbox:** day-3 status refreshed. HiTL none. Not claiming PUBLISHED. Core reconcile still awaiting management.

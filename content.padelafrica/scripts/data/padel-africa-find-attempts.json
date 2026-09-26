@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T23:13:33.000Z",
+  "updatedAt": "2026-09-26T00:35:28.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -1242,6 +1242,106 @@
       "query": "padel club Maseru Lesotho",
       "outcome": "zero-result",
       "note": "no confirmed padel street+phone"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "BJ",
+      "city": "Cotonou",
+      "query": "Cotonou Padel Club Togbin Route des Peches",
+      "outcome": "verified",
+      "recordId": "BEN-VEN-001",
+      "note": "club carrd+Doinsport+phone; Nominatim named POI"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "GM",
+      "city": "Kololi",
+      "query": "G7 Sport Center Senegambia Vibe Fitness",
+      "outcome": "verified",
+      "recordId": "GMB-VEN-002",
+      "note": "Matchpoint street+phone; Nominatim Vibe Fitness pin"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "NG",
+      "city": "Abuja",
+      "query": "Monoliza Abuja padel R.B. Dikko Road",
+      "outcome": "verified",
+      "recordId": "NGA-VEN-010",
+      "note": "club site+Booking.page+phone; Nominatim street"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "GN",
+      "city": "Conakry",
+      "query": "Riviera Padel Conakry",
+      "outcome": "skipped_duplicate",
+      "note": "already GIN-VEN-001"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "BF",
+      "city": "Ouagadougou",
+      "query": "Lancaster Ouaga 2000 padel",
+      "outcome": "skipped_duplicate",
+      "note": "already BFA-VEN-001"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "UG",
+      "city": "Kampala",
+      "query": "Herman Smash Serena padel",
+      "outcome": "skipped_duplicate",
+      "note": "UGA-VEN-001/002/003 already"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "RW",
+      "city": "Kigali",
+      "query": "Bounce Mamba padel",
+      "outcome": "skipped_duplicate",
+      "note": "RWA-VEN-001/002 already"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "MZ",
+      "city": "Maputo",
+      "query": "Gayle Padel Club Maputo",
+      "outcome": "skipped_duplicate",
+      "note": "MOZ already seeded"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "ET",
+      "city": "Addis Ababa",
+      "query": "Addis Padel Club Bole",
+      "outcome": "zero-result",
+      "note": "launching/sales office; court street not confirmed open"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "MR",
+      "city": "Nouakchott",
+      "query": "Infinity Club padel ArenaGo",
+      "outcome": "zero-result",
+      "note": "booking URL but no published street+phone"
+    },
+    {
+      "at": "2026-09-26T00:16:00.000Z",
+      "cc": "ML",
+      "city": "Bamako",
+      "query": "padel club Bamako Mali",
+      "outcome": "zero-result",
+      "note": "no confirmed padel street+phone"
+    },
+    {
+      "at": "2026-09-26T00:35:28.000Z",
+      "cc": "MA",
+      "city": "Tamesna",
+      "query": "Padel Valley Domaine Oued Ykem",
+      "outcome": "verified",
+      "recordId": "MAR-VEN-020",
+      "note": "fair-use promote"
     }
   ]
 }

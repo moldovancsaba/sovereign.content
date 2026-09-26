@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "recordId": "BEN-VEN-001",
+    "name": "Cotonou Padel Club",
+    "city": "Cotonou",
+    "region": "Littoral / Atlantique",
+    "countryCode": "BJ",
+    "line1": "Togbin, Route des Pêches (Fidjrossè / Togbin Plage)",
+    "lat": 6.3494355,
+    "lng": 2.3203894,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Nominatim named POI Cotonou Padel Club on Route des Pêches, Togbin-Fandji",
+    "website": "https://cotonoupadelclub.carrd.co/",
+    "phone": "+229 01 46 09 95 72",
+    "email": null,
+    "venueModel": "outdoors",
+    "seasonNote": "Booking via Doinsport / club contact; FIP Bronze Cotónu 2026 host venue",
+    "description": "Cotonou Padel Club anchors Benin padel on Route des Pêches in Togbin with a published club phone and booking stack. Nominatim pins the named club on the coastal road. Book ahead for evening sessions and events.",
+    "primarySourceUrl": "https://cotonoupadelclub.carrd.co/",
+    "secondarySourceUrl": "https://cotonou-padel.doinsport.club/home",
+    "sourceTypes": "Club site; Doinsport; Nominatim POI",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Evidence: club carrd + Doinsport + phone +229 01 46 09 95 72; street Togbin Route des Pêches; Nominatim named POI. Empty benin-padel-verified.json filled as first BJ seed."
+  }
+]
