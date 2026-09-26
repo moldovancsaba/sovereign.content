@@ -1388,5 +1388,58 @@
     "recordId": "MAR-VEN-021",
     "note": "Promoted → MAR-VEN-021 Rocade Palmeraie Marrakech; phone +212 608 853 012.",
     "addressHint": "Rocade Palmeraie, Marrakech 40000, Morocco"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-club-de-padel-y-tenis-fuencarral",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nClub de Pádel y Tenis Fuencarral",
+    "citationUrl": "https://playtomic.com/clubs/cpt-fuencarral",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/cpt-fuencarral",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T02:10:21.968Z",
+    "rejectedAt": "2026-09-26T02:35:24.000Z",
+    "note": "Outside Africa scope — Madrid ES (Fuencarral); not Padel Africa catalog."
+  },
+  {
+    "candidateId": "fair-actu-padel-ptt-tennis-club",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "PTT Tennis Club",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-ptt-fez/",
+    "website": "https://www.ymcaquebec.org/fr/trouver-un-y/ymca-saint-roch-quebec/club-de-tennis-victoria",
+    "countryHint": "Morocco",
+    "addressHint": "2XJW+C6M, Fes 30050, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-ptt-fez/",
+      "https://www.ymcaquebec.org/fr/trouver-un-y/ymca-saint-roch-quebec/club-de-tennis-victoria"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T02:12:41.290Z",
+    "rejectedAt": "2026-09-26T02:35:24.000Z",
+    "note": "Insufficient evidence — Fez plus-code locality only; no published phone/booking URL; fair-use website wrong (YMCA Quebec). Fes Country Club already MAR-VEN-010."
+  },
+  {
+    "candidateId": "fair-padelivu-home-padel",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "HOME Padel",
+    "citationUrl": "https://padelivu.com/club/home-padel",
+    "website": "",
+    "addressHint": "Parellaan 70-76, 2132WS, Hoofddorp, Netherlands",
+    "researchSources": [
+      "https://padelivu.com/club/home-padel"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T02:15:42.974Z",
+    "rejectedAt": "2026-09-26T02:35:24.000Z",
+    "note": "Outside Africa scope — Hoofddorp NL; not Padel Africa catalog."
   }
 ]

@@ -611,3 +611,24 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - SN Rebel / DZ Central → `skipped_duplicate`
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~02:05–02:36 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 220 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 29 (28 sources). No Africa promote. Rejected Fuencarral (ES), HOME Padel (NL), PTT Tennis Club Fez (no phone; Fes Country Club already `MAR-VEN-010`).
+
+**FIND:**
+- TZ Arusha → **`TZA-VEN-007` Padel Centre TZ Blue Heron** DISCOVERED
+- TZ Mwanza → **`TZA-VEN-008` Padel Centre TZ Ryan's Bay** DISCOVERED
+- TN Sousse → **`TUN-VEN-011` Padelium Marhaba** DISCOVERED
+- TN Hammam Sousse → **`TUN-VEN-012` Padelios Arena** DISCOVERED
+- TN Sidi Hassine → **`TUN-VEN-013` Sassi Padel** DISCOVERED
+- KE Mombasa → **`KEN-VEN-011` Rooftop Padel Club** DISCOVERED
+- GA deepen → `skipped_duplicate`
+- GH Kumasi/Tema → `zero-result`
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.

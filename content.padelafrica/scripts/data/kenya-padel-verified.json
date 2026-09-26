@@ -236,5 +236,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25T15 — distinct from KEN-VEN-005 CityMall; shared PLAYON central phone published on playonpadel.co.ke"
+  },
+  {
+    "recordId": "KEN-VEN-011",
+    "name": "Rooftop Padel Club Mombasa",
+    "city": "Mombasa",
+    "region": "Mombasa",
+    "countryCode": "KE",
+    "line1": "Greenwood Village, Greenwood Drive, Nyali",
+    "lat": -4.0511293,
+    "lng": 39.700987,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Greenwood Village / Greenwood Drive Nyali pin",
+    "website": "https://rooftoppadel.co.ke/",
+    "phone": "+254 756 666 665",
+    "email": null,
+    "venueModel": "outdoors",
+    "seasonNote": "Two courts listed on Padel Lands",
+    "description": "Rooftop Padel Club Mombasa sits at Greenwood Village in Nyali with a published club phone. Distinct from PLAYON Nyali and Smash Zone Kizingo. Book ahead via club contact.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/rooftop-padel-club-mombasa/",
+    "secondarySourceUrl": "https://rooftoppadel.co.ke/",
+    "sourceTypes": "Padel Lands; club site",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Evidence: Padel Lands Greenwood village +254 756666665; Nominatim Greenwood Village Nyali."
   }
 ]

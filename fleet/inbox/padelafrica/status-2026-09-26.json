@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T01:30:00Z",
+  "observedAt": "2026-09-26T02:36:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,39 +14,38 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 28,
+    "fairUsePassCount": 29,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "ready_for_reconcile",
     "day3InboxCalendar": true
   },
   "outcomes": {
-    "qualityLoopScanned": 215,
+    "qualityLoopScanned": 220,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 28,
+    "fairUsePass": 29,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "MUS-VEN-006",
-      "MUS-VEN-007",
-      "MUS-VEN-008",
-      "MWI-VEN-004",
-      "MAR-VEN-021"
+      "TZA-VEN-007",
+      "TZA-VEN-008",
+      "TUN-VEN-011",
+      "TUN-VEN-012",
+      "TUN-VEN-013",
+      "KEN-VEN-011"
     ],
     "findSkippedDuplicate": [
-      "SN Rebel Padel already SEN-VEN-003",
-      "DZ Central Padel already ALG-VEN-002"
+      "GA Classico/Eden already seeded"
     ],
     "findZeroResult": [
-      "CM Elite Yaounde phone only no street",
-      "BW Francistown Sunshine Plaza under construction"
+      "GH Kumasi/Tema no street+phone"
     ],
-    "ingestDiscoveredOk": 5,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T01.json",
+    "ingestDiscoveredOk": 6,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T02.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "01:01 tick: Ca\u00f1a + Urban Sport GB/Black River (MU); Tiger Sport Lilongwe; fair-use promoted PALMARENA Marrakech. Rejected Padel Kas Madrid. Not claiming PUBLISHED."
+    "note": "02:05 tick: Blue Heron Arusha + Ryan's Bay Mwanza; Padelium + Padelios + Sassi (TN); Rooftop Padel Mombasa. Fair-use pass 29 rejected ES/NL + weak Fez PTT. Not claiming PUBLISHED."
   },
   "openDebt": [
     "core_reconcile_release_padel_africa_awaiting_management"

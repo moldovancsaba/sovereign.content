@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T01:29:22.000Z",
+  "updatedAt": "2026-09-26T02:12:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -1415,6 +1415,70 @@
       "outcome": "verified",
       "recordId": "MAR-VEN-021",
       "note": "fair-use promote"
+    },
+    {
+      "at": "2026-09-26T02:12:00.000Z",
+      "cc": "TZ",
+      "city": "Arusha",
+      "query": "Blue Heron Schwari padel Centre TZ",
+      "outcome": "verified",
+      "recordId": "TZA-VEN-007"
+    },
+    {
+      "at": "2026-09-26T02:12:00.000Z",
+      "cc": "TZ",
+      "city": "Mwanza",
+      "query": "Ryan's Bay Capri Point padel",
+      "outcome": "verified",
+      "recordId": "TZA-VEN-008"
+    },
+    {
+      "at": "2026-09-26T02:12:00.000Z",
+      "cc": "TN",
+      "city": "Sousse",
+      "query": "Padelium Marhaba Avenue 14 Janvier",
+      "outcome": "verified",
+      "recordId": "TUN-VEN-011"
+    },
+    {
+      "at": "2026-09-26T02:12:00.000Z",
+      "cc": "TN",
+      "city": "Hammam Sousse",
+      "query": "Padelios Arena Kantaoui",
+      "outcome": "verified",
+      "recordId": "TUN-VEN-012"
+    },
+    {
+      "at": "2026-09-26T02:12:00.000Z",
+      "cc": "TN",
+      "city": "Sidi Hassine",
+      "query": "Sassi Padel Stadium",
+      "outcome": "verified",
+      "recordId": "TUN-VEN-013"
+    },
+    {
+      "at": "2026-09-26T02:12:00.000Z",
+      "cc": "KE",
+      "city": "Mombasa",
+      "query": "Rooftop Padel Greenwood Village",
+      "outcome": "verified",
+      "recordId": "KEN-VEN-011"
+    },
+    {
+      "at": "2026-09-26T02:12:00.000Z",
+      "cc": "GA",
+      "city": "Libreville",
+      "query": "Le Classico Eden Padel",
+      "outcome": "skipped_duplicate",
+      "note": "GAB-VEN-001/002 already"
+    },
+    {
+      "at": "2026-09-26T02:12:00.000Z",
+      "cc": "GH",
+      "city": "Kumasi",
+      "query": "padel club Kumasi Tema",
+      "outcome": "zero-result",
+      "note": "no confirmed street+phone outside Accra"
     }
   ]
 }
