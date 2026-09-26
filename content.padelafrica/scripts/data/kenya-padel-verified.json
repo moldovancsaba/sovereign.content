@@ -16,11 +16,13 @@
     "seasonNote": "Daily ~07:00–22:00 (Tue to 22:30)",
     "description": "Ace Padel Kenya puts WPT-standard panoramic courts inside Aga Khan Sports Centre on Mtama Lane in Parklands — Kenya’s first WPT-spec padel destination with Playtomic booking. A clear recommendation when you want Parklands padel with published hours rather than a lone street pitch. Reserve ahead for evening lights.",
     "primarySourceUrl": "https://playtomic.com/clubs/ace-padel-kenya",
-    "secondarySourceUrl": "https://playtomic.com/clubs/ace-padel-kenya",
-    "sourceTypes": "Playtomic club page",
+    "secondarySourceUrl": "https://aksc.co.ke/",
+    "sourceTypes": "Playtomic Ace Padel; Aga Khan Sports Centre contact (host phone + email)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Sample audit — Pulse Padel Gigiri already OSM osm-way-1317470888; many more Nairobi clubs remain"
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Sample audit — Pulse Padel Gigiri already OSM osm-way-1317470888; many more Nairobi clubs remain FIND tick 2026-09-26 phone/email backfill from aksc.co.ke host line.",
+    "phone": "+254 786 747 419",
+    "email": "info@aksc.co.ke"
   },
   {
     "recordId": "KEN-VEN-002",
@@ -39,10 +41,12 @@
     "seasonNote": "Daily 07:00–22:00 (Tue–Thu to 23:00)",
     "description": "Padel254 hosts four fully covered Premier Padel-standard courts at Goan Gymkhana on Ngara Road, with coaching, tournaments and a padel store. A solid recommendation for central Nairobi when you want roofed courts and regular competition. Book on Playtomic before peak evenings.",
     "primarySourceUrl": "https://playtomic.com/clubs/padel254",
-    "secondarySourceUrl": "https://playtomic.com/clubs/padel254",
-    "sourceTypes": "Playtomic club page",
+    "secondarySourceUrl": "https://nairobi.life/padel-courts-in-nairobi/padel-254/",
+    "sourceTypes": "Playtomic Padel254; Nairobi.life directory phone",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-09-26",
+    "phone": "+254 740 726 783",
+    "researchNotes": " FIND tick 2026-09-26 phone backfill +254 740 726 783."
   },
   {
     "recordId": "KEN-VEN-003",

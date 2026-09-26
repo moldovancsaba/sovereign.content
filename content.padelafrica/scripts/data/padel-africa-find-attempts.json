@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T03:15:00.000Z",
+  "updatedAt": "2026-09-26T08:25:52Z",
   "attempts": [
     {
       "cc": "CF",
@@ -1799,6 +1799,126 @@
       "query": "Sandton Racket Club Ballyclare fair-use",
       "outcome": "seeded",
       "recordId": "ZAF-VEN-018"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "MW",
+      "query": "Hashtag Fitness Padel Kidney Crescent Blantyre",
+      "outcome": "seeded",
+      "recordId": "MWI-VEN-005"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "NA",
+      "query": "LivPadel Sport Klub Windhoek Wika Street",
+      "outcome": "seeded",
+      "recordId": "NAM-VEN-007"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "ZM",
+      "query": "Atlético Lusaka Complex Lukasu Kasiba",
+      "outcome": "seeded",
+      "recordId": "ZMB-VEN-009"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "ZM",
+      "query": "Fallsway Arena Kelvin Siwale Lusaka",
+      "outcome": "seeded",
+      "recordId": "ZMB-VEN-010"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "TN",
+      "query": "Eleven Padel Club Sakiet Ezzit Sfax",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-015"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "TN",
+      "query": "Just Padel Route de Gabès km 7 Sfax",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-016"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "TN",
+      "query": "Padel Marsa Terre el Krima ASM",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-017"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "MW",
+      "query": "Pulse Park Area 6 phone fill",
+      "outcome": "verified",
+      "recordId": "MWI-VEN-001",
+      "note": "address+phones from pulse-mw.com/contact"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "KE",
+      "query": "Ace Padel AKSC phone fill",
+      "outcome": "verified",
+      "recordId": "KEN-VEN-001"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "KE",
+      "query": "Padel254 phone fill",
+      "outcome": "verified",
+      "recordId": "KEN-VEN-002"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "CM",
+      "query": "Padel Business Center Bonamoussadi",
+      "outcome": "skipped",
+      "note": "Yandex category printing shop / ambiguous padel venue"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "TN",
+      "query": "Museal Padel La Marsa",
+      "outcome": "skipped",
+      "note": "Bullpadel equipment shop not courts"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "UG",
+      "query": "Lubowa Bugolobi padel under construction",
+      "outcome": "skipped",
+      "note": "Herman article launch-stage — no street+phone live venue"
+    },
+    {
+      "at": "2026-09-26T08:25:00Z",
+      "countryCode": "RW",
+      "query": "Kigali deepen beyond Bounce Mamba",
+      "outcome": "zero-result",
+      "note": "no third verified Kigali venue this pass"
+    },
+    {
+      "at": "2026-09-26T08:30:00Z",
+      "countryCode": "ZA",
+      "query": "Symbezi ProSport Centre fair-use promote",
+      "outcome": "seeded",
+      "recordId": "ZAF-VEN-019"
+    },
+    {
+      "at": "2026-09-26T08:30:00Z",
+      "countryCode": "GB",
+      "query": "S3 Padel Wembley fair-use",
+      "outcome": "rejected",
+      "note": "UK outside Africa"
+    },
+    {
+      "at": "2026-09-26T08:30:00Z",
+      "countryCode": "ES",
+      "query": "PADEL G24 Arroyomolinos fair-use",
+      "outcome": "rejected",
+      "note": "Spain outside Africa"
     }
   ]
 }

@@ -742,3 +742,23 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 **Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`). HiTL none.
 
 **Propose for CLIENT-COMPARISON (SC-central edit):** padel row — migration + core reconcile complete; score agent home as ingest-only content client (not “awaiting reconcile”).
+
+
+### 2026-09-26 — padelafrica (tick ~08:12–08:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 246 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 35 (28 sources). **Promoted** Symbezi ProSport Centre → `ZAF-VEN-019`. Rejected S3 Padel Wembley (UK) + PADEL G24 (ES). `needs_verify` cleared.
+
+**FIND:**
+- MW Blantyre → **`MWI-VEN-005` Hashtag Fitness Padel** DISCOVERED
+- NA Windhoek → **`NAM-VEN-007` LivPadel Sport Klub Windhoek** DISCOVERED
+- ZM Lusaka → **`ZMB-VEN-009` Atlético Lusaka Complex Padel** + **`ZMB-VEN-010` Fallsway Arena Padel** DISCOVERED
+- TN Sfax / La Marsa → **`TUN-VEN-015` Eleven Padel Club**, **`TUN-VEN-016` Just Padel**, **`TUN-VEN-017` Padel Marsa** DISCOVERED
+- ZA KwaDukuza → **`ZAF-VEN-019` Padel@Symbezi** DISCOVERED (fair-use)
+- Phone/address backfill → `MWI-VEN-001` Pulse Park, `KEN-VEN-001` Ace, `KEN-VEN-002` Padel254
+- RW Kigali deepen / UG Lubowa launch / CM Business Center ambiguous / TN Museal shop → skipped
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

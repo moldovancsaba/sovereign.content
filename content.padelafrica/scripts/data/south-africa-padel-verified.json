@@ -446,5 +446,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Fair-use promote; phones also listed +27 50 027 6565 on Padelmesh — primary 060 995 6968 retained"
+  },
+  {
+    "recordId": "ZAF-VEN-019",
+    "name": "Padel@Symbezi / Symbezi ProSport Centre",
+    "city": "KwaDukuza",
+    "region": "KwaZulu-Natal",
+    "countryCode": "ZA",
+    "line1": "Portion 35 of New Guelderland Farm, R102 between New Guelderland and Darnall",
+    "lat": -29.2710224,
+    "lng": 31.3745649,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "R102 Darnall street corridor pin — New Guelderland Farm campus between Prince's Grant and Darnall",
+    "website": "https://playtomic.com/clubs/padelsymbezi",
+    "phone": "+27 81 792 6893",
+    "email": "padel@symbeziindependent.co.za",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Weekdays from ~15:00; Sat–Sun from ~05:00 via Playtomic (club hours listed to ~21:30).",
+    "description": "Padel@Symbezi (Symbezi ProSport Centre) puts two outdoor panoramic padel courts on Portion 35 of New Guelderland Farm along the R102 between New Guelderland and Darnall, with Playtomic booking and a published padel phone. A clear North Coast KZN recommendation beyond Durban Country Club PadelNation. Book on Playtomic or call ahead.",
+    "primarySourceUrl": "https://playtomic.com/clubs/padelsymbezi",
+    "secondarySourceUrl": "https://www.symbezi.co.za/",
+    "sourceTypes": "Playtomic Padel@Symbezi; Symbezi school site address; Padelmesh/MyPadelWay phone; fair-use Actu Padel",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Fair-use promote 2026-09-26 from Actu Padel needs_verify."
   }
 ]

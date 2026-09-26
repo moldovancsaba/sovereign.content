@@ -146,5 +146,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Distinct from NAM-VEN-004 Namibia Padel Swakopmund (Platz Am Meer outdoor). Court count not asserted."
+  },
+  {
+    "recordId": "NAM-VEN-007",
+    "name": "LivPadel Sport Klub Windhoek",
+    "city": "Windhoek",
+    "region": "Khomas",
+    "countryCode": "NA",
+    "line1": "Sport Klub Windhoek (SKW), Wika Street, Olympia",
+    "lat": -22.6141947,
+    "lng": 17.0883911,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM Sport Klub Windhoek campus pin (Auas Road / Prosperita–Olympia corridor)",
+    "website": "https://livpadelnamibia-na.matchpoint.com.es",
+    "phone": "+264 85 807 3141",
+    "email": "skw@livpadel.com.na",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Daily ~06:00–22:00 via Matchpoint / LivPadel booking.",
+    "description": "LivPadel at Sport Klub Windhoek puts padel courts on the SKW campus (Wika Street / Olympia), with a published WhatsApp/phone line, email, and Matchpoint booking. A clear Windhoek recommendation beyond Namibia Padel Olympia and United Padel Trustco Fields. Book on Matchpoint or message the LivPadel SKW line ahead.",
+    "primarySourceUrl": "https://livpadel.co.za/sport-klub-windhoek",
+    "secondarySourceUrl": "https://livpadel.co.za/contact-us",
+    "sourceTypes": "LivPadel SKW club page + contact (Wika Street, phone, email); Matchpoint booking",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "FIND tick 2026-09-26. Prior LivPadel Windhoek pass was zero-result before street+phone cleared evidence bar."
   }
 ]

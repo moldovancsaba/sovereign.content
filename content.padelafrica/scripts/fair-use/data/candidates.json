@@ -1669,5 +1669,57 @@
     "extractedAt": "2026-09-26T07:16:52.427Z",
     "rejectedAt": "2026-09-26T07:26:04.000Z",
     "rejectReason": "Spain Reus — out of Africa scope"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-s3-padel-wembley",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nS3 Padel Wembley",
+    "citationUrl": "https://playtomic.com/clubs/social-sports-wembley",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/social-sports-wembley",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T08:15:34.158Z",
+    "rejectReason": "outside_africa_uk_wembley",
+    "triagedAt": "2026-09-26T08:30:00Z"
+  },
+  {
+    "candidateId": "fair-actu-padel-symbezi-prosport-centre",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Symbezi ProSport Centre",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-symbezi-prosport-kwadukuza-local/",
+    "website": "https://playtomic.com/clubs/padelsymbezi",
+    "addressHint": "29deg17’40",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-symbezi-prosport-kwadukuza-local/",
+      "https://playtomic.com/clubs/padelsymbezi"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-26T08:17:55.835Z",
+    "promotedRecordId": "ZAF-VEN-019",
+    "triagedAt": "2026-09-26T08:30:00Z"
+  },
+  {
+    "candidateId": "fair-padelivu-padel-g24",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "PADEL G24",
+    "citationUrl": "https://padelivu.com/club/padel-g24",
+    "website": "",
+    "addressHint": "C/ FRESADORES N56, 28939, Arroyomolinos, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/padel-g24"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T08:20:57.460Z",
+    "rejectReason": "outside_africa_spain_arroyomolinos",
+    "triagedAt": "2026-09-26T08:30:00Z"
   }
 ]
