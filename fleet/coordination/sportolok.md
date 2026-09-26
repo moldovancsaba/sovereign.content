@@ -603,3 +603,22 @@ Honest limits: magyaruszodak detail pages often only yield locality-level addres
 **MM/SP:** **D:26 | E:5 | P:8**
 
 **Do not claim production-ready.**
+
+### 2026-09-25 — sportolok (NSÜ all types + önkormányzat + schools)
+
+**Ask:** extract all NSÜ venue types (not only uszoda); add Önkormányzat sport centers + school sources.
+
+**Shipped**
+- `nsu-letesitmeny-catalog` — WP REST API → **92** facilities across tanuszodak / uszodak / sportlétesítmények / olimpiai központok / egészségközpont / sportmúzeum
+- NSÜ category HTML sources + activity typing (swimming, handball, water-sports, football, ice, fitness, training-camp, …)
+- Önkormányzat: Újpest sportlétesítmények, BP13 sport színterek, Hegyvidéki Sportközpont, Óbudai Sport létesítmények
+- Schools: BP13 általános + középiskolák (name+street address cards), Hegyvidék iskolák list
+- Extractors in `hungarianExtract.ts` + `nsuCatalog.ts`
+
+**Live one-pass:** 13 sources → **247** candidates → find-seeds (**221** pending before enrich batch; **+20** DISCOVERED this turn)
+
+**Activity mix (seeds):** swimming 143 · school-sport 24 · various 44 · handball 17 · water-sports 8 · …
+
+**MM/SP:** **D:46 | E:5 | P:8** (enrich drain continues)
+
+**Do not claim production-ready.**

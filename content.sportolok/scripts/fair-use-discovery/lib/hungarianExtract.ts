@@ -34,7 +34,8 @@ export function extractHungarianSportFacility(
     if (detail.length) return detail;
   }
 
-  if (/nsu\.hu\/letesitmeny\//i.test(url) || /Helyszín:/i.test(html)) {
+  // Only treat as NSÜ detail on nsu.hu URLs (Helyszín: appears on many municipal pages)
+  if (/nsu\.hu\/letesitmeny\//i.test(url)) {
     const detail = extractNsuFacilityDetail(html, url, opts);
     if (detail.length) return detail;
   }
@@ -69,13 +70,50 @@ export function extractHungarianSportFacility(
     if (muni.length) return muni;
   }
 
+  if (/miskolc\.hu\/.*sportletesitmenyek/i.test(url)) {
+    const miskolc = extractMiskolcSportFacilities(html, url, opts);
+    if (miskolc.length) return miskolc;
+  }
+
+  if (/sport13\.hu\/telephelyeink/i.test(url)) {
+    const sites = extractSport13Sites(html, url, opts);
+    if (sites.length) return sites;
+  }
+
+  if (/debrecen\.hu\/.*aktiv-kikapcsolodas/i.test(url)) {
+    const deb = extractDebrecenAktivFacilities(html, url, opts);
+    if (deb.length) return deb;
+  }
+
+  if (/bp16\.hu\/intezmenyek/i.test(url) || /intezmeny__field-cim/i.test(html)) {
+    const bp16 = extractBp16InstitutionCards(html, url, opts);
+    if (bp16.length) return bp16;
+  }
+
   if (
     /oktatas-neveles\/iskolak/i.test(url) ||
     /intezmeny-kategoria\/altalanos-iskolak/i.test(url) ||
-    /intezmeny-kategoria\/kozepiskolak/i.test(url)
+    /intezmeny-kategoria\/kozepiskolak/i.test(url) ||
+    /gyor\.hu\/.*\/iskolak/i.test(url) ||
+    /szekesfehervar\.hu\/.*iskolak/i.test(url) ||
+    /veszprem\.hu\/.*iskolak/i.test(url) ||
+    /kecskemet\.hu\/.*iskolak/i.test(url) ||
+    /pesterzsebet\.hu\/intezmenyek\/iskolak/i.test(url) ||
+    /budafokteteny\.hu\/.*oktatas/i.test(url) ||
+    /bp16\.hu\/intezmenyek\/(altalanos|kozep)/i.test(url)
   ) {
     const schools = extractSchoolDirectory(html, url, opts);
     if (schools.length) return schools;
+  }
+
+  if (/jozsefvaros\.hu\/.*uszodak/i.test(url)) {
+    const pools = extractJozsefvarosPools(html, url, opts);
+    if (pools.length) return pools;
+  }
+
+  if (/gyor\.hu\/.*\/letesitmenyek/i.test(url)) {
+    const gyor = extractGyorFacilityLinks(html, url, opts);
+    if (gyor.length) return gyor;
   }
 
   if (/magyaruszodak\.hu/i.test(url) || /class="pcard"/i.test(html)) {
@@ -197,7 +235,7 @@ export function extractBp13InstitutionCards(
 }
 
 const FACILITY_NAME =
-  /\b(uszoda|tanuszoda|sportközpont|sportcent|sporttelep|csarnok|stadion|pálya|palya|strand|fürdő|jégcentrum|jegcentrum|sípálya|sipalya|grund|munkacsarnok|sportbázis|szabadidőpark|pihenőpark|tornaterem|vendégház|motel)\b/i;
+  /(sportuszoda|tanuszoda|uszoda|sportközpont|sportcent|sporttelep|csarnok|stadion|edzőközpont|edzokozpont|atlétikai|atletikai|pálya|palya|strand|fürdő|jégcentrum|jegcentrum|jégcsarnok|jegcsarnok|sípálya|sipalya|grund|munkacsarnok|sportbázis|szabadidő|szabadido|pihenőpark|tornaterem|vendégház|motel|aréna|arena)/i;
 const CLUB_ONLY =
   /\b(egyesület|egyesulet|\bse\b|\bdse\b|sportkör|sportegylet|alapítvány|klub)\b/i;
 
@@ -349,17 +387,58 @@ export function extractSchoolDirectory(
   opts: ExtractOptions,
   limit = 40
 ): Candidate[] {
-  // Prefer structured BP13 cards when present
-  const cards = extractBp13InstitutionCards(html, pageUrl, {
+  const schoolOpts = {
     ...opts,
     activityTypes: ["school-sport", ...opts.activityTypes],
-  }, limit);
+  };
+
+  // Prefer structured BP13 cards when present
+  const cards = extractBp13InstitutionCards(html, pageUrl, schoolOpts, limit);
   if (cards.length) {
     return cards.map((c) => ({
       ...c,
       activityType: "school-sport",
       extractedFacts: { ...c.extractedFacts, schoolLinked: true, from: "school-directory" },
     }));
+  }
+
+  if (/intezmeny__field-cim/i.test(html) || /bp16\.hu\/intezmenyek/i.test(pageUrl)) {
+    const bp16 = extractBp16InstitutionCards(html, pageUrl, schoolOpts, limit);
+    if (bp16.length) return bp16.map((c) => ({ ...c, activityType: "school-sport" }));
+  }
+
+  if (/gyor\.hu\/.*iskolak/i.test(pageUrl) || /width="511"/i.test(html)) {
+    const gyor = extractGyorSchoolTable(html, pageUrl, schoolOpts, limit);
+    if (gyor.length) return gyor;
+  }
+
+  if (/szekesfehervar\.hu/i.test(pageUrl) || /Cím:\s*\d{4}\s+Székesfehérvár/i.test(html)) {
+    const szfv = extractSzfvSchoolDirectory(html, pageUrl, schoolOpts, limit);
+    if (szfv.length) return szfv;
+  }
+
+  if (/veszprem\.hu/i.test(pageUrl)) {
+    const vp = extractVeszpremSchoolDirectory(html, pageUrl, schoolOpts, limit);
+    if (vp.length) return vp;
+  }
+
+  if (/kecskemet\.hu\/.*iskolak/i.test(pageUrl)) {
+    const kec = extractKecskemetSchoolHeadings(html, pageUrl, schoolOpts, limit);
+    if (kec.length) return kec;
+  }
+
+  if (/pesterzsebet\.hu\/intezmenyek\/iskolak/i.test(pageUrl)) {
+    const pe = extractSchoolWebsiteLinks(html, pageUrl, schoolOpts, {
+      locality: "Budapest XX",
+      from: "pesterzsebet-schools",
+      limit,
+    });
+    if (pe.length) return pe;
+  }
+
+  if (/budafokteteny\.hu/i.test(pageUrl)) {
+    const bt = extractBudafokSchoolDirectory(html, pageUrl, schoolOpts, limit);
+    if (bt.length) return bt;
   }
 
   const out: Candidate[] = [];
@@ -378,7 +457,7 @@ export function extractSchoolDirectory(
       territory: opts.territory,
       activityType: "school-sport",
       title,
-      address: "Budapest, Hungary",
+      address: defaultLocalityAddress(opts.territory, pageUrl),
       contact: {},
       extractedFacts: {
         hasPhone: false,
@@ -388,6 +467,708 @@ export function extractSchoolDirectory(
         from: "school-directory-heading",
       },
       confidence: "low",
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
+function defaultLocalityAddress(territory: string, pageUrl: string): string {
+  if (/miskolc/i.test(pageUrl)) return "Miskolc, Hungary";
+  if (/gyor\.hu/i.test(pageUrl)) return "Győr, Hungary";
+  if (/szekesfehervar/i.test(pageUrl)) return "Székesfehérvár, Hungary";
+  if (/veszprem/i.test(pageUrl)) return "Veszprém, Hungary";
+  if (/kecskemet/i.test(pageUrl)) return "Kecskemét, Hungary";
+  if (/debrecen/i.test(pageUrl)) return "Debrecen, Hungary";
+  if (territory === "HUN-BUD" || /budapest|bp\d|ujpest|jozsefvaros|pesterzsebet|hegyvidek|sport13|budafok/i.test(pageUrl)) {
+    return "Budapest, Hungary";
+  }
+  return "Hungary";
+}
+
+function schoolCandidate(
+  title: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  extra: {
+    address?: string;
+    discoveryUrl?: string;
+    phone?: string;
+    email?: string;
+    website?: string;
+    from: string;
+    streetLevel?: boolean;
+  }
+): Candidate {
+  const address = extra.address
+    ? /hungary$/i.test(extra.address)
+      ? extra.address
+      : `${extra.address}, Hungary`
+    : defaultLocalityAddress(opts.territory, pageUrl);
+  return {
+    seedId: generateSeedId(title, address || pageUrl),
+    sourceId: opts.sourceId,
+    discoveryUrl: extra.discoveryUrl || extra.website || pageUrl,
+    territory: opts.territory,
+    activityType: "school-sport",
+    title,
+    address,
+    contact: {
+      phone: extra.phone,
+      email: extra.email,
+      website: extra.website,
+    },
+    extractedFacts: {
+      hasPhone: !!extra.phone,
+      hasEmail: !!extra.email,
+      hasAddress: !!address,
+      streetLevel: !!extra.streetLevel,
+      schoolLinked: true,
+      from: extra.from,
+    },
+    confidence: calculateConfidence({
+      title,
+      address,
+      phone: extra.phone,
+      email: extra.email,
+    }),
+    discoveredAt: new Date().toISOString(),
+  };
+}
+
+/** Miskolc Önkormányzat — sportlétesítmények listing (h2 titles + detail paths). */
+export function extractMiskolcSportFacilities(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 30
+): Candidate[] {
+  const origin = "https://www.miskolc.hu";
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+
+  // Prefer accented h2 titles; attach matching detail path when present after the heading
+  for (const hm of html.matchAll(/<h2[^>]*>([^<]+)<\/h2>/gi)) {
+    if (out.length >= limit) break;
+    const title = cleanText(hm[1]);
+    if (
+      !FACILITY_NAME.test(title) &&
+      !/stadion|centrum|sporttelep|szabadidő|edzőközpont/i.test(title)
+    ) {
+      continue;
+    }
+    if (!isCleanLabel(title) || /navig|lábléc|fő navig/i.test(title)) continue;
+    const key = normKey(title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const after = html.slice(hm.index! + hm[0].length, hm.index! + hm[0].length + 500);
+    const path =
+      after.match(
+        /href="(\/elet-a-varosban\/sport\/sportletesitmenyek\/[a-z0-9\-]+)"/i
+      )?.[1] ||
+      // listing often links the *next* card; also try path whose slug matches title
+      undefined;
+    let discoveryUrl = pageUrl;
+    const slugGuess = key;
+    for (const pm of html.matchAll(
+      /href="(\/elet-a-varosban\/sport\/sportletesitmenyek\/([a-z0-9\-]+))"/gi
+    )) {
+      if (normKey(pm[2]) === slugGuess || normKey(pm[2]).includes(slugGuess.slice(0, 12))) {
+        discoveryUrl = origin + pm[1];
+        break;
+      }
+    }
+    if (path && discoveryUrl === pageUrl) discoveryUrl = origin + path;
+    out.push({
+      seedId: generateSeedId(title, discoveryUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl,
+      territory: opts.territory,
+      activityType: detectActivityType(title, title, opts.activityTypes),
+      title,
+      address: "Miskolc, Hungary",
+      contact: { website: discoveryUrl },
+      extractedFacts: {
+        hasPhone: false,
+        hasEmail: false,
+        hasAddress: true,
+        locality: "Miskolc",
+        from: "miskolc-sportletesitmenyek",
+      },
+      confidence: "medium",
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
+/** Sport13 (BP XIII municipal sport) telephelyeink — "X története" + address. */
+export function extractSport13Sites(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 20
+): Candidate[] {
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  for (const m of html.matchAll(
+    /<h3[^>]*>\s*([^<]{5,90}?története)\s*<\/h3>/gi
+  )) {
+    if (out.length >= limit) break;
+    let title = cleanText(m[1]).replace(/\s*története\s*$/i, "").trim();
+    // Drop leading chrome occasionally glued into the heading
+    title = title.replace(/^.*?(?=(?:Angyalföldi|Népszigeti|Nővér|Petőfi|Radnóti|Újpalotai|Velencei))/i, "");
+    if (!isCleanLabel(title) || title.length < 6) continue;
+    if (/nyitvatartás|házirend|rólunk|informat/i.test(title)) continue;
+    const key = normKey(title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+
+    const after = html.slice(m.index! + m[0].length, m.index! + m[0].length + 1000);
+    const addrRaw =
+      after.match(/(\d{4}\s+Budap?est[^<\n]{0,90})/i)?.[1] || "";
+    let address = cleanText(addrRaw)
+      .replace(/Budapet/gi, "Budapest")
+      .replace(/<\/?u>/gi, "")
+      .replace(/\s+/g, " ")
+      .replace(/[.,\s]+$/, "");
+    // Incomplete "1138 Budapest," without street — keep locality only
+    if (address && /^(\d{4})\s+Budapest,?\s*$/i.test(address)) {
+      address = "Budapest, Hungary";
+    } else if (address && !/hungary$/i.test(address)) {
+      address = `${address}, Hungary`;
+    }
+    if (!address) address = "Budapest XIII, Hungary";
+
+    const phone =
+      cleanText(after.match(/(\+36[\s\d\-]{8,18})/)?.[1] || "") || undefined;
+
+    const isSchoolPool = /tanuszoda/i.test(title);
+    out.push({
+      seedId: generateSeedId(title, address),
+      sourceId: opts.sourceId,
+      discoveryUrl: pageUrl,
+      territory: opts.territory,
+      activityType: isSchoolPool
+        ? "swimming"
+        : detectActivityType(title, title, opts.activityTypes),
+      title,
+      address,
+      contact: { phone, website: "https://sport13.hu/" },
+      extractedFacts: {
+        hasPhone: !!phone,
+        hasEmail: false,
+        hasAddress: true,
+        streetLevel: /\d/.test(address) && /utca|út|ter|tér|Margitsziget/i.test(address),
+        from: "sport13-telephelyeink",
+      },
+      confidence: phone || /\d/.test(address) ? "high" : "medium",
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
+/** Debrecen Önkormányzat — aktív kikapcsolódás / sportcsarnokok facility links. */
+export function extractDebrecenAktivFacilities(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 25
+): Candidate[] {
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  for (const m of html.matchAll(
+    /<a[^>]+href="(https:\/\/www\.debrecen\.hu\/hu\/debreceni\/aktiv-kikapcsolodas\/([a-z0-9\-]+))"[^>]*>([\s\S]*?)<\/a>/gi
+  )) {
+    if (out.length >= limit) break;
+    const discoveryUrl = m[1].replace(/\/$/, "");
+    const slug = m[2];
+    if (/^kategoria\b|kiemelt-sportegyesuletek|^uszas$/i.test(slug)) continue;
+    if (seen.has(discoveryUrl)) continue;
+    seen.add(discoveryUrl);
+    let title = cleanText(m[3]);
+    if (!isCleanLabel(title) || title.length < 5 || title.length > 80) {
+      title = cleanText(
+        slug.replace(/-\d+$/, "").replace(/[-_]+/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+      );
+    }
+    if (!isCleanLabel(title) || title.length < 5) continue;
+    if (
+      !FACILITY_NAME.test(title) &&
+      !/stadion|aréna|arena|jégcsarnok|jegcsarnok|sportuszoda|szabadidő|fonix|főnix|hodos|hódos/i.test(
+        title
+      )
+    ) {
+      continue;
+    }
+    out.push({
+      seedId: generateSeedId(title, discoveryUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl,
+      territory: opts.territory,
+      activityType: detectActivityType(title, title, opts.activityTypes),
+      title,
+      address: "Debrecen, Hungary",
+      contact: { website: discoveryUrl },
+      extractedFacts: {
+        hasPhone: false,
+        hasEmail: false,
+        hasAddress: true,
+        locality: "Debrecen",
+        from: "debrecen-aktiv-kikapcsolodas",
+      },
+      confidence: "medium",
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
+/** Budapest XVI. institution cards (name + street + phone + email). */
+export function extractBp16InstitutionCards(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 40
+): Candidate[] {
+  const origin = "https://www.bp16.hu";
+  const out: Candidate[] = [];
+  // Drupal listings use class="my-listing views-row" (views-row not first)
+  const blocks = html.split(/views-row/i).slice(1);
+  for (const block of blocks) {
+    if (out.length >= limit) break;
+    const title = cleanText(
+      block.match(/<h2[^>]*>[\s\S]*?<span>([^<]+)<\/span>/i)?.[1] ||
+        block.match(/<h2[^>]*>\s*<a[^>]*>([\s\S]*?)<\/a>/i)?.[1] ||
+        ""
+    );
+    if (!title || title.length < 6 || isJunkTitle(title)) continue;
+    // Skip bare category titles ("Általános iskola") without a proper school name
+    if (/^(általános iskola|középiskola|óvoda|bölcsőde)$/i.test(title)) continue;
+    // Skip uszoda chrome on school pages unless activity allows swimming
+    const path = block.match(/href="(\/intezmenyek\/[^"]+)"/i)?.[1];
+    const street = cleanText(
+      block.match(/class="address"[^>]*>\s*([^<]+)/i)?.[1] || ""
+    );
+    const postal = cleanText(
+      block.match(/Budapest\s+(\d{4})/i)?.[1] ||
+        block.match(/(\d{4})\s*<br/i)?.[1] ||
+        ""
+    );
+    const phone =
+      cleanText(
+        block.match(/field__item[^>]*>\s*([\d\/\-\s]{6,16})\s*</i)?.[1] || ""
+      ) || undefined;
+    const email = block
+      .match(/mailto:([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,})/i)?.[1]
+      ?.toLowerCase();
+    let address: string | undefined;
+    if (street && postal) {
+      address = `${postal} Budapest, ${street}, Hungary`;
+    } else if (street) {
+      address = `${street}, Budapest, Hungary`;
+    } else {
+      address = "Budapest XVI, Hungary";
+    }
+    const discoveryUrl = path ? origin + path : pageUrl;
+    const isSchool = /iskola|gimnázium|óvoda|tanoda/i.test(title);
+    const isPool = /uszoda|strand/i.test(title);
+    out.push({
+      seedId: generateSeedId(title, address),
+      sourceId: opts.sourceId,
+      discoveryUrl,
+      territory: opts.territory,
+      activityType: isPool
+        ? "swimming"
+        : isSchool
+          ? "school-sport"
+          : detectActivityType(title, title, opts.activityTypes),
+      title,
+      address,
+      contact: { phone, email, website: discoveryUrl },
+      extractedFacts: {
+        hasPhone: !!phone,
+        hasEmail: !!email,
+        hasAddress: true,
+        streetLevel: !!street,
+        schoolLinked: isSchool,
+        from: "bp16-intezmeny-card",
+      },
+      confidence: calculateConfidence({ title, address, phone, email }),
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
+/** Győr Önkormányzat iskolák — numbered table cells. */
+export function extractGyorSchoolTable(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 40
+): Candidate[] {
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  for (const m of html.matchAll(/<td[^>]*width="511"[^>]*>([\s\S]*?)<\/td>/gi)) {
+    if (out.length >= limit) break;
+    const title = cleanText(m[1]);
+    if (!title || title.length < 8 || title.length > 160) continue;
+    if (!/Iskola|Gimnázium|Technikum|Szakképző|Kollégium|Szakgimnázium/i.test(title)) {
+      continue;
+    }
+    const key = normKey(title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(
+      schoolCandidate(title, pageUrl, opts, {
+        address: "Győr, Hungary",
+        from: "gyor-iskolak-table",
+      })
+    );
+  }
+  return out;
+}
+
+/** Székesfehérvár városportál — tankerületi iskolák (Name + Cím:). */
+export function extractSzfvSchoolDirectory(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 40
+): Candidate[] {
+  const text = cleanText(html.replace(/<script[\s\S]*?<\/script>/gi, " "));
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  const re =
+    /((?:[A-ZÁÉÍÓÖŐÚÜŰ][\w\-áéíóöőúüűÁÉÍÓÖŐÚÜŰ. ]{2,80}?)(?:Általános Iskola|Gimnázium és Alapfokú Művészeti Iskola|EGYMI[^C]{0,60}?Iskola))\s+Cím:\s*(\d{4}\s+Székesfehérvár[^TF]{5,70}?)(?:\s+Telephely:|\s+Főigazgató:|\s+Igazgató:|\s+Tel)/g;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(text)) !== null && out.length < limit) {
+    let title = m[1].trim();
+    title = title.replace(
+      /^.*?(?=[A-ZÁÉÍÓÖŐÚÜŰ][\w].{3,}(?:Általános Iskola|Gimnázium))/u,
+      ""
+    );
+    if (!isCleanLabel(title) || title.length < 10) continue;
+    const key = normKey(title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const street = cleanText(m[2]).replace(/[.,\s]+$/, "");
+    out.push(
+      schoolCandidate(title, pageUrl, opts, {
+        address: street,
+        from: "szfv-tankerulet-iskolak",
+        streetLevel: true,
+      })
+    );
+  }
+  return out;
+}
+
+/** Veszprém — általános (website links) + közép (li>strong + address). */
+export function extractVeszpremSchoolDirectory(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 40
+): Candidate[] {
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+
+  for (const m of html.matchAll(
+    /<li[^>]*>\s*<strong>([^<]{8,120})<\/strong>\s*([^<]{5,80})/gi
+  )) {
+    if (out.length >= limit) break;
+    const title = cleanText(m[1]);
+    const rest = cleanText(m[2]);
+    if (!/Iskola|Gimnázium|Technikum|Szakképző|Kollégium/i.test(title)) continue;
+    if (/egészségügyi|szociális|családsegítő|oktatás, nevelés/i.test(title)) continue;
+    const key = normKey(title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const street = /Veszprém/i.test(rest) ? rest : undefined;
+    out.push(
+      schoolCandidate(title, pageUrl, opts, {
+        address: street || "Veszprém, Hungary",
+        from: "veszprem-kozepiskolak-li",
+        streetLevel: !!street,
+      })
+    );
+  }
+
+  for (const m of html.matchAll(
+    /<a[^>]+href="(https?:\/\/(?!veszprem\.hu|facebook|twitter|wp-json)[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi
+  )) {
+    if (out.length >= limit) break;
+    const title = cleanText(m[2]);
+    const website = m[1];
+    if (!/Iskola|Gimnázium|Technikum/i.test(title)) continue;
+    if (title.length < 10 || title.length > 120) continue;
+    if (/főiskola|egyetem/i.test(title) && !/általános|gimnázium/i.test(title)) continue;
+    const key = normKey(title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(
+      schoolCandidate(title, pageUrl, opts, {
+        address: "Veszprém, Hungary",
+        website,
+        discoveryUrl: website,
+        from: "veszprem-altalanos-iskolak",
+      })
+    );
+  }
+  return out;
+}
+
+/** Kecskemét város — iskolák / középiskolák h2 headings. */
+export function extractKecskemetSchoolHeadings(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 40
+): Candidate[] {
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  const origin = "https://kecskemet.hu";
+  for (const m of html.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/gi)) {
+    if (out.length >= limit) break;
+    const title = cleanText(m[1]);
+    if (!/Iskola|Gimnázium|Technikum|Kollégium|Szakképző/i.test(title)) continue;
+    if (/fenntartó|main navigation|honlapja/i.test(title)) continue;
+    if (title.length < 10 || title.length > 140) continue;
+    const key = normKey(title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const after = html.slice(m.index! + m[0].length, m.index! + m[0].length + 600);
+    const path = after.match(
+      /href="(https:\/\/kecskemet\.hu\/varosunk\/oktatas-neveles\/[^"]+)"/i
+    )?.[1];
+    const email = after
+      .match(/mailto:([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,})/i)?.[1]
+      ?.toLowerCase();
+    out.push(
+      schoolCandidate(title, pageUrl, opts, {
+        address: "Kecskemét, Hungary",
+        discoveryUrl: path || pageUrl,
+        website: path,
+        email,
+        from: "kecskemet-iskolak-h2",
+      })
+    );
+  }
+  return out;
+}
+
+/** Generic school website-link extractor (Pesterzsébet, …). */
+export function extractSchoolWebsiteLinks(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  cfg: { locality: string; from: string; limit?: number }
+): Candidate[] {
+  const limit = cfg.limit ?? 40;
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  const host = pageUrl.match(/^https?:\/\/(?:www\.)?([^/]+)/i)?.[1] || "";
+  for (const m of html.matchAll(
+    /<a[^>]+href="(https?:\/\/(?!facebook|youtube|instagram|kk\.gov|kormany|wp-content)[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi
+  )) {
+    if (out.length >= limit) break;
+    const website = m[1];
+    if (host && new URL(website, pageUrl).hostname.replace(/^www\./, "").includes(host.replace(/^www\./, "")) && !/iskola|gimnazium|technikum|sulinet|edu\.hu/i.test(website)) {
+      // Same-host uploads / nav — skip unless it looks like a school site path
+      if (/uploads|felveteli|korzet|etkezes|efizetes/i.test(website)) continue;
+    }
+    const title = cleanText(m[2]);
+    if (!/(?:Általános\s+)?Iskola|Gimnázium|Technikum|Szakképző|Szakgimnázium|Szakközép|Tanoda|Akadémia/i.test(title)) {
+      continue;
+    }
+    if (title.length < 8 || title.length > 120) continue;
+    if (
+      /felvételi|körzethatár|beiskoláz|beiratkoz|felhívás|kormány|magyarország|étkezés|befizetés|^főiskola$/i.test(
+        title
+      )
+    ) {
+      continue;
+    }
+    // Bare "Főiskola" / college without school-stage marker
+    if (/főiskola/i.test(title) && !/általános|gimnázium|közép|szak/i.test(title)) continue;
+    const key = normKey(title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(
+      schoolCandidate(title, pageUrl, opts, {
+        address: `${cfg.locality}, Hungary`,
+        website,
+        discoveryUrl: website,
+        from: cfg.from,
+      })
+    );
+  }
+  return out;
+}
+
+/** Budafok-Tétény (BP XXII) oktatási intézmények. */
+export function extractBudafokSchoolDirectory(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 30
+): Candidate[] {
+  const linked = extractSchoolWebsiteLinks(html, pageUrl, opts, {
+    locality: "Budapest XXII",
+    from: "budafok-oktatasi-intezmenyek",
+    limit,
+  });
+  if (linked.length) return linked;
+
+  const text = cleanText(html.replace(/<script[\s\S]*?<\/script>/gi, " "));
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  const re =
+    /((?:[A-ZÁÉÍÓÖŐÚÜŰ][^.]{5,90}?)(?:Általános Iskola|Gimnázium|Technikum|Szakközépiskola|Szakgimnázium)[^.]*?)\s+(\d{4}\s+Budapest[^.]{5,70})/g;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(text)) !== null && out.length < limit) {
+    let title = m[1].replace(/^.*?:\s*/, "").trim();
+    if (title.length < 10 || title.length > 120) continue;
+    const key = normKey(title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(
+      schoolCandidate(title, pageUrl, opts, {
+        address: cleanText(m[2]),
+        from: "budafok-oktatasi-text",
+        streetLevel: true,
+      })
+    );
+  }
+  return out;
+}
+
+/** Józsefváros uszodák page — named municipal / partner pools. */
+export function extractJozsefvarosPools(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 15
+): Candidate[] {
+  const known: Array<{ title: string; address?: string; website?: string }> = [
+    {
+      title: "Nemzeti Közszolgálati Egyetem Uszoda (Ludovika)",
+      address: "1083 Budapest, Üllői út 82.",
+      website: "https://sportosegyetem.uni-nke.hu/letesitmenyek/uszoda",
+    },
+    {
+      title: "Losonci Téri Általános Iskola Uszoda",
+      address: "1083 Budapest, Losonci tér",
+      website: "https://losialtisk.hu/iskolai-elet/uszoda/",
+    },
+  ];
+  const text = cleanText(html);
+  const out: Candidate[] = [];
+  for (const k of known) {
+    if (out.length >= limit) break;
+    const needle = k.title.split(" ")[0];
+    if (!new RegExp(needle, "i").test(text) && !/uszoda/i.test(text)) continue;
+    // Only emit if page mentions the venue or is the uszodák listing
+    if (
+      !new RegExp(k.title.slice(0, 12), "i").test(text) &&
+      !/ludovika|losonci|nke/i.test(text)
+    ) {
+      continue;
+    }
+    out.push({
+      seedId: generateSeedId(k.title, k.address || pageUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl: k.website || pageUrl,
+      territory: opts.territory,
+      activityType: "swimming",
+      title: k.title,
+      address: k.address ? `${k.address}, Hungary` : "Budapest VIII, Hungary",
+      contact: { website: k.website },
+      extractedFacts: {
+        hasPhone: false,
+        hasEmail: false,
+        hasAddress: true,
+        streetLevel: !!k.address,
+        from: "jozsefvaros-uszodak",
+      },
+      confidence: "medium",
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  // Also catch any bold/heading uszoda names on the page
+  for (const m of html.matchAll(
+    /<(?:h[2-4]|strong)[^>]*>([^<]*(?:[Uu]szoda)[^<]*)<\/(?:h[2-4]|strong)>/g
+  )) {
+    if (out.length >= limit) break;
+    const title = cleanText(m[1]);
+    if (!isCleanLabel(title) || title.length < 8) continue;
+    if (out.some((c) => normKey(c.title) === normKey(title))) continue;
+    out.push({
+      seedId: generateSeedId(title, pageUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl: pageUrl,
+      territory: opts.territory,
+      activityType: "swimming",
+      title,
+      address: "Budapest VIII, Hungary",
+      contact: {},
+      extractedFacts: {
+        hasPhone: false,
+        hasEmail: false,
+        hasAddress: true,
+        from: "jozsefvaros-uszodak-heading",
+      },
+      confidence: "low",
+      discoveredAt: new Date().toISOString(),
+    });
+  }
+  return out;
+}
+
+/** Győr sport létesítmények — child facility pages. */
+export function extractGyorFacilityLinks(
+  html: string,
+  pageUrl: string,
+  opts: ExtractOptions,
+  limit = 20
+): Candidate[] {
+  const out: Candidate[] = [];
+  const seen = new Set<string>();
+  for (const m of html.matchAll(
+    /href="(https:\/\/gyor\.hu\/gyor\/sport\/letesitmenyek\/([a-z0-9\-]+)\/)"[^>]*>([\s\S]*?)<\/a>/gi
+  )) {
+    if (out.length >= limit) break;
+    const discoveryUrl = m[1];
+    const slug = m[2];
+    if (seen.has(discoveryUrl)) continue;
+    seen.add(discoveryUrl);
+    let title = cleanText(m[3]);
+    if (!isCleanLabel(title) || title.length < 4) {
+      title = cleanText(
+        slug.replace(/[-_]+/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+      );
+    }
+    if (!isCleanLabel(title)) continue;
+    out.push({
+      seedId: generateSeedId(title, discoveryUrl),
+      sourceId: opts.sourceId,
+      discoveryUrl,
+      territory: opts.territory,
+      activityType: detectActivityType(title, title, opts.activityTypes),
+      title,
+      address: "Győr, Hungary",
+      contact: { website: discoveryUrl },
+      extractedFacts: {
+        hasPhone: false,
+        hasEmail: false,
+        hasAddress: true,
+        locality: "Győr",
+        from: "gyor-sport-letesitmenyek",
+      },
+      confidence: "medium",
       discoveredAt: new Date().toISOString(),
     });
   }
@@ -709,6 +1490,30 @@ function cleanText(text: string): string {
     .replace(/<[^>]+>/g, "")
     .replace(/&amp;/g, "&")
     .replace(/&nbsp;/g, " ")
+    .replace(/&quot;/g, '"')
+    .replace(/&#8222;|&bdquo;/g, "„")
+    .replace(/&#8221;|&rdquo;/g, "”")
+    .replace(/&#8211;|&ndash;/g, "–")
+    .replace(/&#8217;|&rsquo;/g, "’")
+    .replace(/&aacute;/gi, "á")
+    .replace(/&eacute;/gi, "é")
+    .replace(/&iacute;/gi, "í")
+    .replace(/&oacute;/gi, "ó")
+    .replace(/&ouml;/gi, "ö")
+    .replace(/&otilde;/gi, "õ")
+    .replace(/&uacute;/gi, "ú")
+    .replace(/&uuml;/gi, "ü")
+    .replace(/&Aacute;/g, "Á")
+    .replace(/&Eacute;/g, "É")
+    .replace(/&Iacute;/g, "Í")
+    .replace(/&Oacute;/g, "Ó")
+    .replace(/&Ouml;/g, "Ö")
+    .replace(/&Uacute;/g, "Ú")
+    .replace(/&Uuml;/g, "Ü")
+    .replace(/&#(\d+);/g, (_, n) => {
+      const code = Number(n);
+      return Number.isFinite(code) ? String.fromCharCode(code) : "";
+    })
     .replace(/\s+/g, " ")
     .trim();
 }

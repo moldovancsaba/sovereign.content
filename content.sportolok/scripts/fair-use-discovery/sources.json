@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-25",
-  "description": "Hungarian sport fair-use source registry. NSÜ catalogs ALL venue types (not pools only). Önkormányzat + school directories for municipal/school sport. One page (or one API list) per source per pass.",
-    "defaultInterSourceSec": 45,
+  "updatedAt": "2026-09-26",
+  "description": "Hungarian sport fair-use source registry. NSÜ catalogs ALL venue types. Önkormányzat (cities + kerületek) + school directories. One page (or one API list) per source per pass.",
+  "defaultInterSourceSec": 45,
   "defaultPassSleepSec": 300,
   "defaultCooldownSec": 600,
   "sources": [
@@ -119,6 +119,21 @@
       "status": "active"
     },
     {
+      "id": "onkormanyzat-sport13-telephelyek",
+      "name": "Sport13 (BP XIII) — telephelyeink",
+      "url": "https://sport13.hu/telephelyeink/",
+      "cooldownSec": 900,
+      "territory": "HUN-BUD",
+      "activityTypes": [
+        "various",
+        "swimming",
+        "football",
+        "school-sport",
+        "training-camp"
+      ],
+      "status": "active"
+    },
+    {
       "id": "onkormanyzat-hegyvidek-sport",
       "name": "Hegyvidéki Sportközpont és Tanuszoda",
       "url": "https://hegyvideksport.hu/",
@@ -143,6 +158,62 @@
         "various",
         "swimming",
         "football"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "onkormanyzat-miskolc-sport",
+      "name": "Miskolc MJV — sportlétesítmények",
+      "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek",
+      "cooldownSec": 900,
+      "territory": "HUN",
+      "activityTypes": [
+        "various",
+        "swimming",
+        "football",
+        "school-sport",
+        "fitness"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "onkormanyzat-gyor-letesitmenyek",
+      "name": "Győr MJV — sport létesítmények",
+      "url": "https://gyor.hu/gyor/sport/letesitmenyek/",
+      "cooldownSec": 900,
+      "territory": "HUN",
+      "activityTypes": [
+        "various",
+        "handball",
+        "football",
+        "fitness"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "onkormanyzat-debrecen-sportcsarnokok",
+      "name": "Debrecen — sportcsarnokok / aktív létesítmények",
+      "url": "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+      "cooldownSec": 900,
+      "territory": "HUN",
+      "activityTypes": [
+        "various",
+        "swimming",
+        "ice-sports",
+        "football",
+        "handball"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "onkormanyzat-jozsefvaros-uszodak",
+      "name": "Józsefváros Önkormányzat — uszodák",
+      "url": "https://jozsefvaros.hu/otthon/szolgaltatasok-es-intezmenyek/sport-es-mozgas/2022/01/uszodak/",
+      "cooldownSec": 1200,
+      "territory": "HUN-BUD",
+      "activityTypes": [
+        "swimming",
+        "school-sport"
       ],
       "status": "active"
     },
@@ -174,6 +245,116 @@
       "url": "https://www.hegyvidek.hu/elet-a-hegyvideken/oktatas-neveles/iskolak",
       "cooldownSec": 1200,
       "territory": "HUN-BUD",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-bp16-altalanos",
+      "name": "Budapest XVI. — általános iskolák",
+      "url": "https://www.bp16.hu/intezmenyek/altalanos-iskola",
+      "cooldownSec": 1200,
+      "territory": "HUN-BUD",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-bp16-kozep",
+      "name": "Budapest XVI. — középiskolák",
+      "url": "https://www.bp16.hu/intezmenyek/kozepiskola",
+      "cooldownSec": 1200,
+      "territory": "HUN-BUD",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-bp22-budafok",
+      "name": "Budafok-Tétény (XXII.) — oktatási intézmények",
+      "url": "https://www.budafokteteny.hu/intezmenyek/oktatas",
+      "cooldownSec": 1200,
+      "territory": "HUN-BUD",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-pesterzsebet",
+      "name": "Pesterzsébet (XX.) — iskolák",
+      "url": "https://pesterzsebet.hu/intezmenyek/iskolak/",
+      "cooldownSec": 1200,
+      "territory": "HUN-BUD",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-gyor",
+      "name": "Győr MJV — iskolák",
+      "url": "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-szekesfehervar",
+      "name": "Székesfehérvár — tankerületi általános iskolák",
+      "url": "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-veszprem-altalanos",
+      "name": "Veszprém — általános iskolák",
+      "url": "https://veszprem.hu/polgarmesteri-hivatal/altalanos-iskolak/",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-veszprem-kozep",
+      "name": "Veszprém — középiskolák, kollégiumok",
+      "url": "https://veszprem.hu/kozintezmenyek-hivatalok/kozepiskolak/",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-kecskemet-altalanos",
+      "name": "Kecskemét — általános iskolák",
+      "url": "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "schools-kecskemet-kozep",
+      "name": "Kecskemét — középiskolák, kollégiumok",
+      "url": "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+      "cooldownSec": 1200,
+      "territory": "HUN",
       "activityTypes": [
         "school-sport"
       ],
