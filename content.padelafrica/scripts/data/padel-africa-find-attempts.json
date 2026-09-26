@@ -1543,6 +1543,67 @@
       "query": "padel club Ndola Kitwe Livingstone",
       "outcome": "zero-result",
       "note": "no confirmed Copperbelt/Livingstone courts"
+    },
+    {
+      "at": "2026-09-26T04:20:00Z",
+      "countryCode": "SN",
+      "query": "Olympique Club Dakar padel Corniche Ouest",
+      "outcome": "seeded",
+      "recordId": "SEN-VEN-010",
+      "note": "street+phone; OSM Club Olympique pin"
+    },
+    {
+      "at": "2026-09-26T04:20:00Z",
+      "countryCode": "AO",
+      "query": "APT Social Club Talatona padel",
+      "outcome": "seeded",
+      "recordId": "AGO-VEN-012",
+      "note": "CCB4 GU02 + TiePadel phone"
+    },
+    {
+      "at": "2026-09-26T04:20:00Z",
+      "countryCode": "SC",
+      "query": "Kempinski Seychelles Baie Lazare padel",
+      "outcome": "seeded",
+      "recordId": "SYC-VEN-003",
+      "note": "resort paddle courts page + imprint phone"
+    },
+    {
+      "at": "2026-09-26T04:20:00Z",
+      "countryCode": "NG",
+      "query": "Transcorp Hilton Abuja padel",
+      "outcome": "seeded",
+      "recordId": "NGA-VEN-011",
+      "note": "hotel street + switchboard; court by squash"
+    },
+    {
+      "at": "2026-09-26T04:20:00Z",
+      "countryCode": "AO",
+      "query": "Casa de Padel / Smash Padel phone fill",
+      "outcome": "verified",
+      "recordId": "AGO-VEN-003",
+      "note": "phone backfill AGO-VEN-003/011 from Padel Lands"
+    },
+    {
+      "at": "2026-09-26T04:20:00Z",
+      "countryCode": "BW",
+      "query": "District 267 Gaborone",
+      "outcome": "skipped",
+      "note": "phone only — no street address published"
+    },
+    {
+      "at": "2026-09-26T04:20:00Z",
+      "countryCode": "CM",
+      "query": "Club PAD Douala",
+      "outcome": "skipped",
+      "note": "Port Autonome tennis/multisport — not padel"
+    },
+    {
+      "at": "2026-09-26T04:20:00Z",
+      "countryCode": "ET",
+      "query": "Addis Padel Club Golf Club",
+      "outcome": "skipped",
+      "note": "launch-stage; Bole sales office vs Torhayloch court pin unresolved"
     }
   ]
 }

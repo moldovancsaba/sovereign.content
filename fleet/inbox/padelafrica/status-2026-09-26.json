@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T03:38:00Z",
+  "observedAt": "2026-09-26T04:36:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,37 +14,40 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 30,
+    "fairUsePassCount": 31,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "ready_for_reconcile",
     "day3InboxCalendar": true
   },
   "outcomes": {
-    "qualityLoopScanned": 226,
+    "qualityLoopScanned": 232,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 30,
+    "fairUsePass": 31,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZMB-VEN-006",
-      "ZMB-VEN-007",
-      "ZMB-VEN-008",
-      "MDG-VEN-007",
-      "MDG-VEN-008",
-      "EGY-VEN-011"
+      "SEN-VEN-010",
+      "AGO-VEN-012",
+      "SYC-VEN-003",
+      "NGA-VEN-011"
+    ],
+    "findPhoneBackfill": [
+      "AGO-VEN-003",
+      "AGO-VEN-011"
     ],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "NA LivPadel Windhoek phone only no street",
-      "ZM Ndola/Kitwe/Livingstone no confirmed courts"
+      "BW District 267 phone only no street",
+      "CM Club PAD tennis not padel",
+      "ET Addis Padel launch-stage / sales-office vs court pin unresolved"
     ],
     "ingestDiscoveredOk": 6,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T03.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T04.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "03:10 tick: Elevate + Smash + Bonaventure (ZM); Urban Futsal Andraharo + Padel Club Tamatave (MG); J Padel Swan Lake (EG). Fair-use pass 30 rejected Madrid Caja M\u00e1gica + LA Padel Club. Not claiming PUBLISHED."
+    "note": "04:14 tick: Olympique Club Dakar (SN); APT Social Club (AO); Kempinski Baie Lazare (SC); Transcorp Hilton Abuja (NG). Phone backfill Casa de Padel + Smash Padel (AO). Fair-use pass 31 rejected Wellsport (ES) + Giammalva (US). Agent-side openDebt already resolved; only core_reconcile remains for management. Not claiming PUBLISHED."
   },
   "openDebt": [
     "core_reconcile_release_padel_africa_awaiting_management"

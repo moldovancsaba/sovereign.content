@@ -65,9 +65,10 @@
     "secondarySourceUrl": "https://do-padel.com/dopadel/clubs/angola/luanda/luanda",
     "sourceTypes": "Live booking platform plus specialist directory",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22",
+    "lastVerifiedUtc": "2026-09-26",
     "website": "https://playtomic.com/clubs/casa-de-padel-angola-cdp",
-    "researchNotes": "PadelNPlay reports five courts, while Playtomic exposes six named courts; six retained with conflict noted."
+    "researchNotes": "PadelNPlay reports five courts, while Playtomic exposes six named courts; six retained with conflict noted.; phone from Padel Lands 2026-09-26",
+    "phone": "+244 924 224 404"
   },
   {
     "recordId": "AGO-VEN-004",
@@ -246,9 +247,10 @@
     "secondarySourceUrl": "https://playtomic.com/clubs/smash-padel-angola",
     "sourceTypes": "Directory plus booking platform",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22",
+    "lastVerifiedUtc": "2026-09-26",
     "website": "https://playtomic.com/clubs/smash-padel-angola",
-    "researchNotes": "Court-count conflict retained rather than resolved speculatively."
+    "researchNotes": "Court-count conflict retained rather than resolved speculatively.; phone from Padel Lands / Playtomic 2026-09-26",
+    "phone": "+244 945 767 373"
   },
   {
     "recordId": "AGO-VEN-013",
@@ -340,5 +342,29 @@
     "phone": "+244 922 396 462",
     "email": null,
     "researchNotes": "FIND until-found tick 2026-09-24 (AO Lubango deepen_large). After AO Benguela/Lobito zero-results. Phone on LNL review; OSM building pin. Court count cited as two functional in review — not invented."
+  },
+  {
+    "recordId": "AGO-VEN-012",
+    "name": "APT Social Club",
+    "city": "Luanda",
+    "region": "Luanda",
+    "countryCode": "AO",
+    "line1": "Rua Luanda Sul / Talatona CCB4 GU02 (Hotel de Convenções de Talatona precinct)",
+    "lat": -8.9160475,
+    "lng": 13.1965942,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "HCTA hotel pin on Via R8 Talatona — club lists same CCB4 GU02 address block",
+    "phone": "+244 933 864 444",
+    "email": "info@apt.ao",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet — call or email ahead.",
+    "description": "APT Social Club is a Talatona padel and beach-tennis venue listing Rua Luanda Sul / CCB4 GU02 with a published phone and email. A strong recommendation when you want a named Luanda South padel destination beyond the denser Miramar/Talatona sample. Confirm access through the club — pin is the HCTA precinct shared by the published address block.",
+    "primarySourceUrl": "https://www.tiepadel.com/APTSocialClub",
+    "secondarySourceUrl": "https://www.travelweekly.com/Hotels/Luanda-Angola/Hotel-de-Convencoes-Talatona-p59258654",
+    "sourceTypes": "TiePadel club card; HCTA address cross-check",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "TiePadel lists Talatona CCb4 GU02; TravelWeekly HCTA Rua Luanda Sul Talatona CCB4 GU02"
   }
 ]

@@ -214,5 +214,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25T16 — Saint-Louis deepen; unique padel claim on ranch site with published contacts"
+  },
+  {
+    "recordId": "SEN-VEN-010",
+    "name": "Olympique Club Dakar",
+    "city": "Dakar",
+    "region": "Dakar",
+    "countryCode": "SN",
+    "line1": "Boulevard Martin Luther King / Route de la Corniche Ouest",
+    "lat": 14.6997544,
+    "lng": -17.474514,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM Club Olympique on Route de la Corniche Ouest (Almadies / Fann-Point E)",
+    "website": "https://www.olympique-club.com/",
+    "phone": "+221 33 864 56 55",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet — call ahead.",
+    "description": "Olympique Club Dakar is a Corniche Ouest multisport leisure club with published padel listings on Boulevard Martin Luther King. A clear recommendation when you want a named Dakar padel stop west of Plateau with a landline and street pin. Secondary mobiles circulate in directories — primary landline retained; confirm court access before travelling.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/olympique-club-dakar/",
+    "secondarySourceUrl": "https://www.goafricaonline.com/sn/454604-olympique-club-centre-loisirs-dakar-senegal",
+    "sourceTypes": "Padel Lands club card; GoAfricaOnline directory; Balle Jaune contact",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Also listed +221 33 825 76 35 / +221 77 502 37 97 — primary +221 33 864 56 55 retained from GoAfricaOnline + Balle Jaune"
   }
 ]

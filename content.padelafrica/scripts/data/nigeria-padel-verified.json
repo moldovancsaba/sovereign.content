@@ -242,5 +242,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Evidence: monolizaabuja.com + Booking.page padel courts; phone +234 817 777 3757; street R.B. Dikko Road Garki Area 11. Nominatim street pin."
+  },
+  {
+    "recordId": "NGA-VEN-011",
+    "name": "Transcorp Hilton Abuja Padel",
+    "city": "Abuja",
+    "region": "Federal Capital Territory",
+    "countryCode": "NG",
+    "line1": "1 Aguiyi Ironsi Street, Maitama (by the Squash Court)",
+    "lat": 9.074966,
+    "lng": 7.494881,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM Transcorp Hilton Abuja hotel pin",
+    "website": "https://www.hilton.com/en/hotels/abuhitw-transcorp-hilton-abuja/",
+    "phone": "+234 803 901 3000",
+    "email": "hilton.abuja@hilton.com",
+    "venueModel": "hotel",
+    "seasonNote": "Hours and public access not listed yet — call hotel recreation desk.",
+    "description": "Transcorp Hilton Abuja hosts a padel court beside the hotel squash courts on Aguiyi Ironsi Street in Maitama. A clear recommendation when you want a named Abuja padel stop with a street-level hotel pin and published switchboard. Confirm day-pass / guest rules before travelling — coverage articles describe the court but do not publish separate court booking hours.",
+    "primarySourceUrl": "https://sabiabuja.com/new-padel-court-in-transcorp-hilton-abuja-prices-more/",
+    "secondarySourceUrl": "https://www.businesstravelnews.com/Hotels/Abuja-Nigeria/Transcorp-Hilton-Abuja-p6685122",
+    "sourceTypes": "SabiAbuja court report; hotel contact listing",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Hotel PDF/BTW phone +234 803 901 3000; address 1 Aguiyi Ironsi St Maitama"
   }
 ]

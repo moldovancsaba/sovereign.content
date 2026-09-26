@@ -652,3 +652,24 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - NA LivPadel Windhoek / ZM Copperbelt → `zero-result`
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~04:14–04:36 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 232 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 31 (28 sources). No Africa promote. Rejected Wellsport Padel Club (Leganés ES), Giammalva Padel Club (USA TX).
+
+**FIND:**
+- SN Dakar → **`SEN-VEN-010` Olympique Club Dakar** (Corniche Ouest) DISCOVERED
+- AO Talatona → **`AGO-VEN-012` APT Social Club** (CCB4 GU02 / HCTA) DISCOVERED
+- SC Baie Lazare → **`SYC-VEN-003` Kempinski Seychelles Resort Padel** DISCOVERED
+- NG Abuja → **`NGA-VEN-011` Transcorp Hilton Abuja Padel** DISCOVERED
+- AO phone backfill → `AGO-VEN-003` Casa de Padel + `AGO-VEN-011` Smash Padel (re-ingest DISCOVERED)
+- BW District 267 / CM Club PAD / ET Addis Padel → `zero-result` / skipped (evidence bar)
+
+**Debt:** agent-side items remain in `resolvedDebt`. Only `core_reconcile_release_padel_africa_awaiting_management` is open — management-owned; handshake READY unchanged.
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
