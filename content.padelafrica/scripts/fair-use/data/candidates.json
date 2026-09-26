@@ -68,11 +68,11 @@
     "researchSources": [
       "https://padelrevive.com/de/padel-clubs-in-afrika/"
     ],
-    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T05:04:49.884Z",
     "rejectedAt": "2026-09-25T05:08:00.000Z",
-    "note": "Junk lead — generic name 'Padel' with no club website or street address; hub list page only"
+    "note": "Junk lead \u2014 generic name 'Padel' with no club website or street address; hub list page only"
   },
   {
     "candidateId": "fair-padelivu-bamvolea-sportcity-valencia",
@@ -85,11 +85,11 @@
     "researchSources": [
       "https://padelivu.com/club/bamvolea-sportcity-valencia"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T05:04:56.486Z",
     "rejectedAt": "2026-09-25T05:08:00.000Z",
-    "note": "Out of scope — Spain/Valencia venue, not Africa"
+    "note": "Out of scope \u2014 Spain/Valencia venue, not Africa"
   },
   {
     "candidateId": "fair-actu-padel-b-padel-californie",
@@ -122,11 +122,11 @@
     "researchSources": [
       "https://padelrevive.com/padel-clubs-in-asia/"
     ],
-    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T06:14:03.336Z",
     "rejectedAt": "2026-09-25T06:22:00.000Z",
-    "note": "Out of scope — Asia/Gulf article hub, not an Africa venue"
+    "note": "Out of scope \u2014 Asia/Gulf article hub, not an Africa venue"
   },
   {
     "candidateId": "fair-need4padel-build-a-padel-club",
@@ -143,7 +143,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T06:18:35.163Z",
     "rejectedAt": "2026-09-25T06:22:00.000Z",
-    "note": "Junk lead — tool/builder page, not a club venue"
+    "note": "Junk lead \u2014 tool/builder page, not a club venue"
   },
   {
     "candidateId": "fair-padel-magazine-uk-club-directory",
@@ -161,7 +161,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T06:20:52.012Z",
     "rejectedAt": "2026-09-25T06:29:00.000Z",
-    "note": "Out of scope — Clermont/France club directory entry, not Africa"
+    "note": "Out of scope \u2014 Clermont/France club directory entry, not Africa"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-paris-padel",
@@ -178,7 +178,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T07:14:39.111Z",
     "rejectedAt": "2026-09-25T07:24:00.000Z",
-    "note": "Out of scope — Paris/Europe Playtomic booking page"
+    "note": "Out of scope \u2014 Paris/Europe Playtomic booking page"
   },
   {
     "candidateId": "fair-padelrevive-how-many-padel-clubs-are-there-we-counted-1088",
@@ -191,11 +191,11 @@
     "researchSources": [
       "https://padelrevive.com/performance/how-many-padel-clubs/"
     ],
-    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T07:17:44.423Z",
     "rejectedAt": "2026-09-25T07:24:00.000Z",
-    "note": "Junk lead — global count article, not a club venue"
+    "note": "Junk lead \u2014 global count article, not a club venue"
   },
   {
     "candidateId": "fair-padelivu-ultra-padel-miami",
@@ -208,11 +208,11 @@
     "researchSources": [
       "https://padelivu.com/club/ultra-padel-miami-magic-city"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T07:20:00.713Z",
     "rejectedAt": "2026-09-25T07:24:00.000Z",
-    "note": "Out of scope — Miami/USA venue"
+    "note": "Out of scope \u2014 Miami/USA venue"
   },
   {
     "candidateId": "fair-padelmagazine-fr-actus-padel-clubs",
@@ -229,7 +229,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T07:25:18.699Z",
     "rejectedAt": "2026-09-25T07:34:30.000Z",
-    "note": "Junk lead — French magazine category hub, not a club venue"
+    "note": "Junk lead \u2014 French magazine category hub, not a club venue"
   },
   {
     "candidateId": "fair-padelbrowser-find-padel-courts-near-you",
@@ -241,11 +241,11 @@
     "researchSources": [
       "https://www.padelbrowser.com/clubs/find-courts"
     ],
-    "researchNote": "Discovered via Padel Browser fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padel Browser fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T07:30:38.432Z",
     "rejectedAt": "2026-09-25T07:34:30.000Z",
-    "note": "Junk lead — generic finder page, no club identity"
+    "note": "Junk lead \u2014 generic finder page, no club identity"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-pdl-zurich",
@@ -262,7 +262,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T08:18:59.889Z",
     "rejectedAt": "2026-09-25T08:28:00.000Z",
-    "note": "Out of scope — Zurich/Europe Playtomic club"
+    "note": "Out of scope \u2014 Zurich/Europe Playtomic club"
   },
   {
     "candidateId": "fair-actu-padel-centre-sports-et-loisirs-said-maatallah",
@@ -301,7 +301,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T08:28:53.308Z",
     "rejectedAt": "2026-09-25T08:38:00.000Z",
-    "note": "Junk — sales listing article, not an operating-club seed"
+    "note": "Junk \u2014 sales listing article, not an operating-club seed"
   },
   {
     "candidateId": "fair-thepadeldirectory-volt-padel-club",
@@ -318,7 +318,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T08:31:55.091Z",
     "rejectedAt": "2026-09-25T08:38:00.000Z",
-    "note": "Out of scope — Bolton/UK club"
+    "note": "Out of scope \u2014 Bolton/UK club"
   },
   {
     "candidateId": "fair-padelusa-point-padel-club",
@@ -335,7 +335,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T08:34:12.517Z",
     "rejectedAt": "2026-09-25T08:38:00.000Z",
-    "note": "Out of scope — USA (padelusa source) club"
+    "note": "Out of scope \u2014 USA (padelusa source) club"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-padel-para-todos",
@@ -352,7 +352,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T09:07:19.814Z",
     "rejectedAt": "2026-09-25T09:26:00.000Z",
-    "note": "Out of scope — Guadarrama/Madrid Spain"
+    "note": "Out of scope \u2014 Guadarrama/Madrid Spain"
   },
   {
     "candidateId": "fair-actu-padel-cite-de-sports-adarissa",
@@ -385,11 +385,11 @@
     "researchSources": [
       "https://padelrevive.com/padel-clubs-in-africa/"
     ],
-    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via PadelRevive fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T09:10:21.762Z",
     "rejectedAt": "2026-09-25T09:26:00.000Z",
-    "note": "Junk — continent hub article, not a club venue"
+    "note": "Junk \u2014 continent hub article, not a club venue"
   },
   {
     "candidateId": "fair-padelivu-family-sport-center-valencia",
@@ -402,11 +402,11 @@
     "researchSources": [
       "https://padelivu.com/club/family-sport-center-valencia"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T09:12:37.782Z",
     "rejectedAt": "2026-09-25T09:26:00.000Z",
-    "note": "Out of scope — Valencia Spain"
+    "note": "Out of scope \u2014 Valencia Spain"
   },
   {
     "candidateId": "fair-thepadeldirectory-tilsworth-padel-club",
@@ -423,7 +423,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T09:20:12.447Z",
     "rejectedAt": "2026-09-25T09:26:00.000Z",
-    "note": "Out of scope — UK club"
+    "note": "Out of scope \u2014 UK club"
   },
   {
     "candidateId": "fair-padelusa-padel-clube",
@@ -440,7 +440,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T09:22:29.476Z",
     "rejectedAt": "2026-09-25T09:26:00.000Z",
-    "note": "Out of scope — USA (padelusa) club"
+    "note": "Out of scope \u2014 USA (padelusa) club"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-bamvolea-ciudad-de-la-raqueta",
@@ -457,7 +457,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T10:13:56.700Z",
     "rejectedAt": "2026-09-25T10:16:00.000Z",
-    "note": "Out of scope — Madrid/Spain Playtomic club (Ciudad de la Raqueta), not Africa"
+    "note": "Out of scope \u2014 Madrid/Spain Playtomic club (Ciudad de la Raqueta), not Africa"
   },
   {
     "candidateId": "fair-actu-padel-club-narjisse",
@@ -478,7 +478,7 @@
     "extractedAt": "2026-09-25T10:16:18.953Z",
     "promotedAt": "2026-09-25T10:28:00.000Z",
     "promotedRecordId": "MAR-VEN-013",
-    "note": "Promoted — Club Narjisse Rabat Hay Ryad padel (Zephyr/Actu evidence)"
+    "note": "Promoted \u2014 Club Narjisse Rabat Hay Ryad padel (Zephyr/Actu evidence)"
   },
   {
     "candidateId": "fair-padelivu-country-sport-village",
@@ -491,11 +491,11 @@
     "researchSources": [
       "https://padelivu.com/club/country-sport-village"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T10:19:20.527Z",
     "rejectedAt": "2026-09-25T10:28:00.000Z",
-    "note": "Out of scope — Paderno Dugnano/Italy (Country Sport Village)"
+    "note": "Out of scope \u2014 Paderno Dugnano/Italy (Country Sport Village)"
   },
   {
     "candidateId": "fair-thepadeldirectory-sandbach-padel-club",
@@ -512,7 +512,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T10:27:16.267Z",
     "rejectedAt": "2026-09-25T10:28:00.000Z",
-    "note": "Out of scope — Sandbach/UK padel directory listing"
+    "note": "Out of scope \u2014 Sandbach/UK padel directory listing"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-padel-centrum-meppel",
@@ -529,7 +529,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T11:20:00.631Z",
     "rejectedAt": "2026-09-25T11:25:00.000Z",
-    "note": "Out of scope — Meppel/Netherlands Playtomic club"
+    "note": "Out of scope \u2014 Meppel/Netherlands Playtomic club"
   },
   {
     "candidateId": "fair-actu-padel-club-padel-sale",
@@ -549,7 +549,7 @@
     "extractedAt": "2026-09-25T11:22:21.313Z",
     "promotedAt": "2026-09-25T11:26:00.000Z",
     "promotedRecordId": "MAR-VEN-014",
-    "note": "Promoted — Club Padel Maroc Salé (Sala Al Jadida / Rte Meknès) Matchpoint+VisitRabat evidence"
+    "note": "Promoted \u2014 Club Padel Maroc Sal\u00e9 (Sala Al Jadida / Rte Mekn\u00e8s) Matchpoint+VisitRabat evidence"
   },
   {
     "candidateId": "fair-padelivu-la-moraleja-club-de-padel",
@@ -561,11 +561,11 @@
     "researchSources": [
       "https://padelivu.com/club/la-moraleja-club-de-padel"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T11:25:23.347Z",
     "rejectedAt": "2026-09-25T11:35:00.000Z",
-    "note": "Out of scope — Alcobendas/Madrid Spain club"
+    "note": "Out of scope \u2014 Alcobendas/Madrid Spain club"
   },
   {
     "candidateId": "fair-padelsearch-are-you-ready",
@@ -582,7 +582,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T11:29:09.821Z",
     "rejectedAt": "2026-09-25T11:35:00.000Z",
-    "note": "Junk lead — brand/promo page (President Padel Club), not an Africa venue"
+    "note": "Junk lead \u2014 brand/promo page (President Padel Club), not an Africa venue"
   },
   {
     "candidateId": "fair-thepadeldirectory-last-sun-dance-padel-club-leeds",
@@ -599,7 +599,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T11:32:59.447Z",
     "rejectedAt": "2026-09-25T11:38:00.000Z",
-    "note": "Out of scope — Leeds/UK padel directory listing"
+    "note": "Out of scope \u2014 Leeds/UK padel directory listing"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-padel-people",
@@ -616,7 +616,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T12:09:04.650Z",
     "rejectedAt": "2026-09-25T12:16:00.000Z",
-    "note": "Out of scope — Wimbledon/UK Playtomic club (Padel People)"
+    "note": "Out of scope \u2014 Wimbledon/UK Playtomic club (Padel People)"
   },
   {
     "candidateId": "fair-actu-padel-club-tennis-riad",
@@ -636,7 +636,7 @@
     "extractedAt": "2026-09-25T12:11:22.478Z",
     "promotedAt": "2026-09-25T12:24:00.000Z",
     "promotedRecordId": "MAR-VEN-015",
-    "note": "Promoted — Club Riad / Riad Club Sports REDAL Agdal Rabat"
+    "note": "Promoted \u2014 Club Riad / Riad Club Sports REDAL Agdal Rabat"
   },
   {
     "candidateId": "fair-thepadeldirectory-cw-padel-club",
@@ -653,7 +653,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T12:21:58.956Z",
     "rejectedAt": "2026-09-25T12:24:00.000Z",
-    "note": "Out of scope — UK padel directory listing (CW Padel Club)"
+    "note": "Out of scope \u2014 UK padel directory listing (CW Padel Club)"
   },
   {
     "candidateId": "fair-padelusa-deuces-padel-club-coming-soon",
@@ -670,7 +670,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T12:24:16.167Z",
     "rejectedAt": "2026-09-25T12:27:00.000Z",
-    "note": "Out of scope — Laredo/Texas USA coming-soon listing"
+    "note": "Out of scope \u2014 Laredo/Texas USA coming-soon listing"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-ultra-padel-miami",
@@ -687,7 +687,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T13:13:30.700Z",
     "rejectedAt": "2026-09-25T13:23:00.000Z",
-    "note": "Out of scope — Miami/USA Playtomic club"
+    "note": "Out of scope \u2014 Miami/USA Playtomic club"
   },
   {
     "candidateId": "fair-actu-padel-club-wefit",
@@ -706,7 +706,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T13:15:52.005Z",
     "rejectedAt": "2026-09-25T13:24:00.000Z",
-    "note": "Thin/unverifiable — Actu stub only; no phone/address; Wefit.club is France gym network (not Africa venue evidence)"
+    "note": "Thin/unverifiable \u2014 Actu stub only; no phone/address; Wefit.club is France gym network (not Africa venue evidence)"
   },
   {
     "candidateId": "fair-thepadeldirectory-chiltern-padel-club",
@@ -723,7 +723,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T13:26:29.796Z",
     "rejectedAt": "2026-09-25T13:35:00.000Z",
-    "note": "Out of scope — Chiltern/UK padel directory listing"
+    "note": "Out of scope \u2014 Chiltern/UK padel directory listing"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-pulse-padel-hub",
@@ -740,7 +740,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T14:18:21.564Z",
     "rejectedAt": "2026-09-25T14:35:00.000Z",
-    "note": "Out of scope — North Miami/USA Playtomic club"
+    "note": "Out of scope \u2014 North Miami/USA Playtomic club"
   },
   {
     "candidateId": "fair-actu-padel-cm-sport",
@@ -760,7 +760,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T14:20:44.018Z",
     "rejectedAt": "2026-09-25T14:35:00.000Z",
-    "note": "Not a playable club — CM Sport is a padel court installer/builder (padelmaroc.ma), not a venue"
+    "note": "Not a playable club \u2014 CM Sport is a padel court installer/builder (padelmaroc.ma), not a venue"
   },
   {
     "candidateId": "fair-thepadeldirectory-castle-padel-club",
@@ -777,7 +777,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T14:33:43.810Z",
     "rejectedAt": "2026-09-25T14:39:00.000Z",
-    "note": "Out of scope — UK padel directory listing (Castle Padel Club)"
+    "note": "Out of scope \u2014 UK padel directory listing (Castle Padel Club)"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-padel-x-miami",
@@ -793,7 +793,7 @@
     "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T15:07:41.445Z",
-    "note": "OOS USA (Miami) — Playtomic club outside Africa catalog scope",
+    "note": "OOS USA (Miami) \u2014 Playtomic club outside Africa catalog scope",
     "triagedAt": "2026-09-25T15:08:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -813,7 +813,7 @@
     "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T15:09:58.437Z",
-    "note": "Not a venue — Actu/Padel Maps coach/player listing (Sara Alaoui FRMT ranking); no club premises",
+    "note": "Not a venue \u2014 Actu/Padel Maps coach/player listing (Sara Alaoui FRMT ranking); no club premises",
     "triagedAt": "2026-09-25T15:28:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -828,10 +828,10 @@
     "researchSources": [
       "https://padelivu.com/club/club-deportivo-somontes"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T15:13:12.483Z",
-    "note": "OOS Spain (Madrid El Pardo) — Club Deportivo Somontes outside Africa catalog",
+    "note": "OOS Spain (Madrid El Pardo) \u2014 Club Deportivo Somontes outside Africa catalog",
     "triagedAt": "2026-09-25T15:28:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -849,7 +849,7 @@
     "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T16:10:33.901Z",
-    "note": "OOS USA (Miami Beach) — Playtomic club outside Africa catalog",
+    "note": "OOS USA (Miami Beach) \u2014 Playtomic club outside Africa catalog",
     "triagedAt": "2026-09-25T16:22:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -884,10 +884,10 @@
     "researchSources": [
       "https://padelivu.com/club/m3-padel-center"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T16:15:54.366Z",
-    "note": "OOS Spain (Leganés Madrid) — M3 Padel Center Calle Delco 5",
+    "note": "OOS Spain (Legan\u00e9s Madrid) \u2014 M3 Padel Center Calle Delco 5",
     "triagedAt": "2026-09-25T16:22:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -905,7 +905,7 @@
     "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T17:14:34.425Z",
-    "note": "OOS USA (Miami) — Regency Padel at Regency Miami Airport hotel",
+    "note": "OOS USA (Miami) \u2014 Regency Padel at Regency Miami Airport hotel",
     "triagedAt": "2026-09-25T17:28:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -918,7 +918,7 @@
     "website": "https://cookiedatabase.org/tcf/purposes/",
     "cityHint": "Casablanca",
     "countryHint": "Morocco",
-    "addressHint": "Rte de l’Oasis, Casablanca, Morocco",
+    "addressHint": "Rte de l\u2019Oasis, Casablanca, Morocco",
     "researchSources": [
       "https://actu-padel.com/en/directory/padel-club/padel-juande-morillo-coach-casablanca/",
       "https://cookiedatabase.org/tcf/purposes/"
@@ -926,7 +926,7 @@
     "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T17:16:55.514Z",
-    "note": "Not a venue — Actu coach listing (Juande Morillo Casablanca); no club premises",
+    "note": "Not a venue \u2014 Actu coach listing (Juande Morillo Casablanca); no club premises",
     "triagedAt": "2026-09-25T17:28:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -941,10 +941,10 @@
     "researchSources": [
       "https://padelivu.com/club/bela-padel-center-barcelona"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T17:19:57.238Z",
-    "note": "OOS Spain (Barcelona) — BELA PADEL CENTER BARCELONA",
+    "note": "OOS Spain (Barcelona) \u2014 BELA PADEL CENTER BARCELONA",
     "triagedAt": "2026-09-25T17:28:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -962,7 +962,7 @@
     "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T17:29:54.373Z",
-    "note": "OOS USA (College Park MD) — Glassbox Padel Club; padelusa.org harvest",
+    "note": "OOS USA (College Park MD) \u2014 Glassbox Padel Club; padelusa.org harvest",
     "triagedAt": "2026-09-25T17:35:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -980,7 +980,7 @@
     "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T18:19:43.812Z",
-    "note": "OOS USA (Miami Gardens) — One Indoor Club / One Padel Indoor",
+    "note": "OOS USA (Miami Gardens) \u2014 One Indoor Club / One Padel Indoor",
     "triagedAt": "2026-09-25T18:33:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -1001,7 +1001,7 @@
     "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "promoted",
     "extractedAt": "2026-09-25T18:22:04.768Z",
-    "note": "Verified Morocco venue — Kick Off Marrakech Route de Targa; padel WhatsApp +212 661-274274; seeded MAR-VEN-017",
+    "note": "Verified Morocco venue \u2014 Kick Off Marrakech Route de Targa; padel WhatsApp +212 661-274274; seeded MAR-VEN-017",
     "triagedAt": "2026-09-25T18:33:00Z",
     "triagedBy": "padel-find-tick",
     "promotedRecordId": "MAR-VEN-017"
@@ -1017,10 +1017,10 @@
     "researchSources": [
       "https://padelivu.com/club/padelclub-l-oeuf"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T18:25:07.020Z",
-    "note": "OOS Netherlands (Capelle aan den IJssel) — Padelclub L'Oeuf",
+    "note": "OOS Netherlands (Capelle aan den IJssel) \u2014 Padelclub L'Oeuf",
     "triagedAt": "2026-09-25T18:33:00Z",
     "triagedBy": "padel-find-tick"
   },
@@ -1039,7 +1039,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T19:08:17.233Z",
     "rejectedAt": "2026-09-25T19:27:26.000Z",
-    "note": "OOS Germany (Berlin Mitte) — BeachMitte Playtomic club outside Africa catalog"
+    "note": "OOS Germany (Berlin Mitte) \u2014 BeachMitte Playtomic club outside Africa catalog"
   },
   {
     "candidateId": "fair-padelivu-blue-padel-rivas",
@@ -1051,17 +1051,17 @@
     "researchSources": [
       "https://padelivu.com/club/blue-padel-rivas"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T19:13:34.966Z",
     "rejectedAt": "2026-09-25T19:27:26.000Z",
-    "note": "OOS Spain (Rivas Vaciamadrid) — Blue Padel Rivas outside Africa catalog"
+    "note": "OOS Spain (Rivas Vaciamadrid) \u2014 Blue Padel Rivas outside Africa catalog"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-fuchse-berlin",
     "sourceId": "playtomic",
     "sourceName": "Playtomic",
-    "name": "Book a court in \nFüchse Berlin",
+    "name": "Book a court in \nF\u00fcchse Berlin",
     "citationUrl": "https://playtomic.com/clubs/fuchse-berlin",
     "website": "https://app.playtomic.io/",
     "researchSources": [
@@ -1071,7 +1071,7 @@
     "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T20:13:40.907Z",
-    "note": "OOS Germany (Berlin) — Füchse Berlin Playtomic club outside Africa catalog",
+    "note": "OOS Germany (Berlin) \u2014 F\u00fcchse Berlin Playtomic club outside Africa catalog",
     "rejectedAt": "2026-09-25T20:33:06.000Z"
   },
   {
@@ -1089,7 +1089,7 @@
     "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "promoted",
     "extractedAt": "2026-09-25T20:16:01.439Z",
-    "note": "Verified Morocco venue — PADEL HUB Tangier Desserte Qur Golf; phone +212 665-692032; seeded MAR-VEN-018",
+    "note": "Verified Morocco venue \u2014 PADEL HUB Tangier Desserte Qur Golf; phone +212 665-692032; seeded MAR-VEN-018",
     "promotedAt": "2026-09-25T20:33:06.000Z",
     "recordId": "MAR-VEN-018"
   },
@@ -1107,7 +1107,7 @@
     "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T20:28:55.621Z",
-    "note": "OOS USA (West Palm Beach FL) — generic PadelUSA club listing outside Africa catalog",
+    "note": "OOS USA (West Palm Beach FL) \u2014 generic PadelUSA club listing outside Africa catalog",
     "rejectedAt": "2026-09-25T20:33:06.000Z"
   },
   {
@@ -1124,7 +1124,7 @@
     "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T21:19:00.218Z",
-    "note": "OOS Germany (Berlin Kreuzberg) — Birgit/Kreuzberg Padel Playtomic outside Africa catalog",
+    "note": "OOS Germany (Berlin Kreuzberg) \u2014 Birgit/Kreuzberg Padel Playtomic outside Africa catalog",
     "triagedAt": "2026-09-25T21:41:04.000Z",
     "rejectedAt": "2026-09-25T21:41:04.000Z"
   },
@@ -1145,23 +1145,23 @@
     "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "skipped_duplicate",
     "extractedAt": "2026-09-25T21:21:22.366Z",
-    "note": "Already seeded MAR-VEN-017 Kick Off Marrakech (Targa) — Actu duplicate lead",
+    "note": "Already seeded MAR-VEN-017 Kick Off Marrakech (Targa) \u2014 Actu duplicate lead",
     "triagedAt": "2026-09-25T21:41:04.000Z"
   },
   {
     "candidateId": "fair-padelivu-padelprix-tenis-5-leon",
     "sourceId": "padelivu",
     "sourceName": "Padelivu",
-    "name": "Padelprix Tenis 5 León",
+    "name": "Padelprix Tenis 5 Le\u00f3n",
     "citationUrl": "https://padelivu.com/club/padelprix-tenis-5-leon",
     "website": "",
     "researchSources": [
       "https://padelivu.com/club/padelprix-tenis-5-leon"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T21:24:24.210Z",
-    "note": "OOS Spain (León) — Padelprix Tenis 5 León outside Africa catalog",
+    "note": "OOS Spain (Le\u00f3n) \u2014 Padelprix Tenis 5 Le\u00f3n outside Africa catalog",
     "triagedAt": "2026-09-25T21:41:04.000Z",
     "rejectedAt": "2026-09-25T21:41:04.000Z"
   },
@@ -1179,7 +1179,7 @@
     "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T21:37:30.136Z",
-    "note": "OOS USA (McAllen TX) — RGV Padel Club outside Africa catalog",
+    "note": "OOS USA (McAllen TX) \u2014 RGV Padel Club outside Africa catalog",
     "triagedAt": "2026-09-25T21:41:04.000Z",
     "rejectedAt": "2026-09-25T21:41:04.000Z"
   },
@@ -1197,7 +1197,7 @@
     "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T22:08:31.333Z",
-    "note": "OOS Germany (Berlin Ostkreuz) — Playtomic club outside Africa catalog",
+    "note": "OOS Germany (Berlin Ostkreuz) \u2014 Playtomic club outside Africa catalog",
     "triagedAt": "2026-09-25T22:30:46.000Z",
     "rejectedAt": "2026-09-25T22:30:46.000Z"
   },
@@ -1218,7 +1218,7 @@
     "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "promoted",
     "extractedAt": "2026-09-25T22:10:50.200Z",
-    "note": "Verified Morocco venue — Padel Plaza Ain Attig/Temara Lot 21 ZK2; phone +212 662-202000; seeded MAR-VEN-019",
+    "note": "Verified Morocco venue \u2014 Padel Plaza Ain Attig/Temara Lot 21 ZK2; phone +212 662-202000; seeded MAR-VEN-019",
     "triagedAt": "2026-09-25T22:30:46.000Z",
     "promotedAt": "2026-09-25T22:30:46.000Z",
     "recordId": "MAR-VEN-019"
@@ -1230,14 +1230,14 @@
     "name": "Los Naranjos Padel Club",
     "citationUrl": "https://padelivu.com/club/los-naranjos-padel-club",
     "website": "",
-    "addressHint": "Avenida Valle Inclán, 41 , Nueva Andalucia, 29660, Marbella, Spain",
+    "addressHint": "Avenida Valle Incl\u00e1n, 41 , Nueva Andalucia, 29660, Marbella, Spain",
     "researchSources": [
       "https://padelivu.com/club/los-naranjos-padel-club"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T22:13:51.985Z",
-    "note": "OOS Spain — Los Naranjos Padel Club outside Africa catalog",
+    "note": "OOS Spain \u2014 Los Naranjos Padel Club outside Africa catalog",
     "triagedAt": "2026-09-25T22:30:46.000Z",
     "rejectedAt": "2026-09-25T22:30:46.000Z"
   },
@@ -1256,7 +1256,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-25T23:13:00.457Z",
     "rejectedAt": "2026-09-25T23:28:34.000Z",
-    "note": "Outside Africa scope — Playtomic DE/EU club (Padelhaus GmbH); not Padel Africa catalog."
+    "note": "Outside Africa scope \u2014 Playtomic DE/EU club (Padelhaus GmbH); not Padel Africa catalog."
   },
   {
     "candidateId": "fair-actu-padel-padel-square-marrakech",
@@ -1290,11 +1290,11 @@
     "researchSources": [
       "https://padelivu.com/club/antwerp-padelclub-berchem"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-25T23:18:22.927Z",
     "rejectedAt": "2026-09-25T23:28:34.000Z",
-    "note": "Outside Africa scope — Belgium (Berchem/Antwerp); not Padel Africa catalog."
+    "note": "Outside Africa scope \u2014 Belgium (Berchem/Antwerp); not Padel Africa catalog."
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-tio-tio-rooftop",
@@ -1311,7 +1311,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T00:17:02.384Z",
     "rejectedAt": "2026-09-26T00:35:28.000Z",
-    "note": "Outside Africa scope — Berlin DE rooftop (Marktstraße); not Padel Africa catalog."
+    "note": "Outside Africa scope \u2014 Berlin DE rooftop (Marktstra\u00dfe); not Padel Africa catalog."
   },
   {
     "candidateId": "fair-actu-padel-padel-valley",
@@ -1332,7 +1332,7 @@
     "extractedAt": "2026-09-26T00:19:21.992Z",
     "promotedAt": "2026-09-26T00:35:28.000Z",
     "recordId": "MAR-VEN-020",
-    "note": "Promoted → MAR-VEN-020 Domaine Oued Ykem Tamesna; Visit Rabat phone +212 677885017."
+    "note": "Promoted \u2192 MAR-VEN-020 Domaine Oued Ykem Tamesna; Visit Rabat phone +212 677885017."
   },
   {
     "candidateId": "fair-padelusa-icon-padel-club",
@@ -1349,7 +1349,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T00:32:14.495Z",
     "rejectedAt": "2026-09-26T00:35:28.000Z",
-    "note": "Outside Africa scope — USA Florida (Aventura) PadelUSA listing."
+    "note": "Outside Africa scope \u2014 USA Florida (Aventura) PadelUSA listing."
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-padel-kas",
@@ -1366,7 +1366,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T01:05:11.666Z",
     "rejectedAt": "2026-09-26T01:29:22.000Z",
-    "note": "Outside Africa scope — Madrid ES (Vallecas); not Padel Africa catalog."
+    "note": "Outside Africa scope \u2014 Madrid ES (Vallecas); not Padel Africa catalog."
   },
   {
     "candidateId": "fair-actu-padel-palmarena",
@@ -1386,14 +1386,14 @@
     "extractedAt": "2026-09-26T01:07:27.792Z",
     "promotedAt": "2026-09-26T01:29:22.000Z",
     "recordId": "MAR-VEN-021",
-    "note": "Promoted → MAR-VEN-021 Rocade Palmeraie Marrakech; phone +212 608 853 012.",
+    "note": "Promoted \u2192 MAR-VEN-021 Rocade Palmeraie Marrakech; phone +212 608 853 012.",
     "addressHint": "Rocade Palmeraie, Marrakech 40000, Morocco"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-club-de-padel-y-tenis-fuencarral",
     "sourceId": "playtomic",
     "sourceName": "Playtomic",
-    "name": "Book a court in \nClub de Pádel y Tenis Fuencarral",
+    "name": "Book a court in \nClub de P\u00e1del y Tenis Fuencarral",
     "citationUrl": "https://playtomic.com/clubs/cpt-fuencarral",
     "website": "https://app.playtomic.io/",
     "researchSources": [
@@ -1404,7 +1404,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T02:10:21.968Z",
     "rejectedAt": "2026-09-26T02:35:24.000Z",
-    "note": "Outside Africa scope — Madrid ES (Fuencarral); not Padel Africa catalog."
+    "note": "Outside Africa scope \u2014 Madrid ES (Fuencarral); not Padel Africa catalog."
   },
   {
     "candidateId": "fair-actu-padel-ptt-tennis-club",
@@ -1423,7 +1423,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T02:12:41.290Z",
     "rejectedAt": "2026-09-26T02:35:24.000Z",
-    "note": "Insufficient evidence — Fez plus-code locality only; no published phone/booking URL; fair-use website wrong (YMCA Quebec). Fes Country Club already MAR-VEN-010."
+    "note": "Insufficient evidence \u2014 Fez plus-code locality only; no published phone/booking URL; fair-use website wrong (YMCA Quebec). Fes Country Club already MAR-VEN-010."
   },
   {
     "candidateId": "fair-padelivu-home-padel",
@@ -1436,17 +1436,17 @@
     "researchSources": [
       "https://padelivu.com/club/home-padel"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T02:15:42.974Z",
     "rejectedAt": "2026-09-26T02:35:24.000Z",
-    "note": "Outside Africa scope — Hoofddorp NL; not Padel Africa catalog."
+    "note": "Outside Africa scope \u2014 Hoofddorp NL; not Padel Africa catalog."
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-forus-caja-magica",
     "sourceId": "playtomic",
     "sourceName": "Playtomic",
-    "name": "Book a court in \nForus Caja Mágica",
+    "name": "Book a court in \nForus Caja M\u00e1gica",
     "citationUrl": "https://playtomic.com/clubs/forus-caja-magica",
     "website": "https://app.playtomic.io/",
     "researchSources": [
@@ -1457,7 +1457,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T03:14:53.163Z",
     "rejectedAt": "2026-09-26T03:37:36.000Z",
-    "note": "Outside Africa scope — Madrid ES (Caja Mágica); not Padel Africa catalog."
+    "note": "Outside Africa scope \u2014 Madrid ES (Caja M\u00e1gica); not Padel Africa catalog."
   },
   {
     "candidateId": "fair-padelusa-los-angeles-padel-club",
@@ -1474,7 +1474,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T03:32:29.137Z",
     "rejectedAt": "2026-09-26T03:37:36.000Z",
-    "note": "Outside Africa scope — USA (Los Angeles); not Padel Africa catalog."
+    "note": "Outside Africa scope \u2014 USA (Los Angeles); not Padel Africa catalog."
   },
   {
     "candidateId": "fair-padelivu-wellsport-padel-club",
@@ -1483,15 +1483,15 @@
     "name": "Wellsport Padel Club",
     "citationUrl": "https://padelivu.com/club/wellsport-padel-club",
     "website": "",
-    "addressHint": "Calle Humanes de Madrid, 6, 28914, Leganés, Spain",
+    "addressHint": "Calle Humanes de Madrid, 6, 28914, Legan\u00e9s, Spain",
     "researchSources": [
       "https://padelivu.com/club/wellsport-padel-club"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T04:22:58.655Z",
     "rejectedAt": "2026-09-26T04:35:53.000Z",
-    "rejectReason": "Spain Leganés — out of Africa scope"
+    "rejectReason": "Spain Legan\u00e9s \u2014 out of Africa scope"
   },
   {
     "candidateId": "fair-padelusa-giammalva-padel-club",
@@ -1508,7 +1508,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T04:33:00.011Z",
     "rejectedAt": "2026-09-26T04:35:53.000Z",
-    "rejectReason": "USA Texas — out of Africa scope"
+    "rejectReason": "USA Texas \u2014 out of Africa scope"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-matcha-club-al-quoz",
@@ -1525,7 +1525,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T05:05:22.336Z",
     "rejectedAt": "2026-09-26T05:15:56.000Z",
-    "rejectReason": "UAE Al Quoz — out of Africa scope"
+    "rejectReason": "UAE Al Quoz \u2014 out of Africa scope"
   },
   {
     "candidateId": "fair-actu-padel-camps-bay-retreat-padel",
@@ -1554,15 +1554,15 @@
     "name": "La Pista Padel Club",
     "citationUrl": "https://padelivu.com/club/la-pista-padel-club-cabries",
     "website": "",
-    "addressHint": "408 allée du golf, 13480, Cabriès, France",
+    "addressHint": "408 all\u00e9e du golf, 13480, Cabri\u00e8s, France",
     "researchSources": [
       "https://padelivu.com/club/la-pista-padel-club-cabries"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T05:10:40.595Z",
     "rejectedAt": "2026-09-26T05:15:56.000Z",
-    "rejectReason": "France Cabriès — out of Africa scope"
+    "rejectReason": "France Cabri\u00e8s \u2014 out of Africa scope"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-padel-pro-one-central",
@@ -1579,7 +1579,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T06:09:22.111Z",
     "rejectedAt": "2026-09-26T06:28:08.000Z",
-    "rejectReason": "UAE Dubai — out of Africa scope"
+    "rejectReason": "UAE Dubai \u2014 out of Africa scope"
   },
   {
     "candidateId": "fair-actu-padel-net-set-padel-sandton-city",
@@ -1611,11 +1611,11 @@
     "researchSources": [
       "https://padelivu.com/club/carbon-padel-club"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T06:14:42.460Z",
     "rejectedAt": "2026-09-26T06:28:08.000Z",
-    "rejectReason": "UK Manchester — out of Africa scope"
+    "rejectReason": "UK Manchester \u2014 out of Africa scope"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-padel-social-club",
@@ -1632,7 +1632,7 @@
     "status": "rejected",
     "extractedAt": "2026-09-26T07:11:32.038Z",
     "rejectedAt": "2026-09-26T07:26:04.000Z",
-    "rejectReason": "UK London — out of Africa scope"
+    "rejectReason": "UK London \u2014 out of Africa scope"
   },
   {
     "candidateId": "fair-actu-padel-sandton-racket-club-padel",
@@ -1657,18 +1657,18 @@
     "candidateId": "fair-padelivu-aurial-padel-mas-sedo",
     "sourceId": "padelivu",
     "sourceName": "Padelivu",
-    "name": "Aurial Padel Mas Sedó",
+    "name": "Aurial Padel Mas Sed\u00f3",
     "citationUrl": "https://padelivu.com/club/aurial-padel-mas-sedo",
     "website": "",
     "addressHint": "T-310, 1, 43206 Reus, Tarragona, 43206, Reus, Spain",
     "researchSources": [
       "https://padelivu.com/club/aurial-padel-mas-sedo"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T07:16:52.427Z",
     "rejectedAt": "2026-09-26T07:26:04.000Z",
-    "rejectReason": "Spain Reus — out of Africa scope"
+    "rejectReason": "Spain Reus \u2014 out of Africa scope"
   },
   {
     "candidateId": "fair-playtomic-book-a-court-in-s3-padel-wembley",
@@ -1694,7 +1694,7 @@
     "name": "Symbezi ProSport Centre",
     "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-symbezi-prosport-kwadukuza-local/",
     "website": "https://playtomic.com/clubs/padelsymbezi",
-    "addressHint": "29deg17’40",
+    "addressHint": "29deg17\u201940",
     "researchSources": [
       "https://actu-padel.com/en/directory/padel-club/padel-symbezi-prosport-kwadukuza-local/",
       "https://playtomic.com/clubs/padelsymbezi"
@@ -1716,7 +1716,7 @@
     "researchSources": [
       "https://padelivu.com/club/padel-g24"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T08:20:57.460Z",
     "rejectReason": "outside_africa_spain_arroyomolinos",
@@ -1807,7 +1807,7 @@
     "researchSources": [
       "https://padelivu.com/club/the-bubble-club-blaricum-premium-sports-and-social-club"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T10:17:52.971Z",
     "rejectedAt": "2026-09-26T10:33:04Z",
@@ -1878,11 +1878,11 @@
     "name": "Club Delfos",
     "citationUrl": "https://padelivu.com/club/club-delfos",
     "website": "",
-    "addressHint": "Carrer de la Verge de Montserrat, 48, 08940, Cornellà de Llobregat, Spain",
+    "addressHint": "Carrer de la Verge de Montserrat, 48, 08940, Cornell\u00e0 de Llobregat, Spain",
     "researchSources": [
       "https://padelivu.com/club/club-delfos"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T12:12:17.472Z",
     "rejectedAt": "2026-09-26T12:32:14Z",
@@ -1936,7 +1936,7 @@
     "researchSources": [
       "https://padelivu.com/club/power-padel"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T13:17:09.403Z",
     "rejectedAt": "2026-09-26T13:36:52Z",
@@ -2003,11 +2003,11 @@
     "name": "Padel VIP Rio",
     "citationUrl": "https://padelivu.com/club/padel-vip-rio",
     "website": "",
-    "addressHint": "Antonio Castro Leal 615, Los Sabinos Tres Rios, 80010, Culiacán Rosales, Mexico",
+    "addressHint": "Antonio Castro Leal 615, Los Sabinos Tres Rios, 80010, Culiac\u00e1n Rosales, Mexico",
     "researchSources": [
       "https://padelivu.com/club/padel-vip-rio"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T14:20:45.487Z",
     "triagedAt": "2026-09-26T14:34:31Z",
@@ -2044,7 +2044,7 @@
     "researchSources": [
       "https://padelivu.com/club/hanse-padel-hamburg"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T15:24:44.276Z",
     "triagedAt": "2026-09-26T15:37:16Z",
@@ -2137,7 +2137,7 @@
     "researchSources": [
       "https://padelivu.com/club/park-and-padel"
     ],
-    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
     "status": "rejected",
     "extractedAt": "2026-09-26T17:16:26.754Z",
     "triagedAt": "2026-09-26T17:33:08Z",
@@ -2159,5 +2159,59 @@
     "extractedAt": "2026-09-26T17:28:53.047Z",
     "triagedAt": "2026-09-26T17:33:08Z",
     "triageNote": "non_africa"
+  },
+  {
+    "candidateId": "fair-actu-padel-atlantic-padel-parklands",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Atlantic Padel Parklands",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-atlantic-parklands-riverside/",
+    "website": "http://atlanticpadel.co.za/",
+    "cityHint": "Cape Town",
+    "countryHint": "South Africa",
+    "addressHint": "Hubble Street, Cape Farms, Cape Town, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-atlantic-parklands-riverside/",
+      "http://atlanticpadel.co.za/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "promoted",
+    "extractedAt": "2026-09-26T18:18:46.762Z",
+    "promotedRecordId": "ZAF-VEN-060",
+    "triagedAt": "2026-09-26T18:26:49.953639Z",
+    "triageNote": "Street+phone+Playtomic cleared; fixture ZAF-VEN-060"
+  },
+  {
+    "candidateId": "fair-padelivu-epica-academia-padel-club-merida",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Epica Academia Padel Club M\u00e9rida",
+    "citationUrl": "https://padelivu.com/club/epica-academia-padel-club-merida",
+    "website": "",
+    "researchSources": [
+      "https://padelivu.com/club/epica-academia-padel-club-merida"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T18:21:48.886Z",
+    "triagedAt": "2026-09-26T18:26:49.953651Z",
+    "triageNote": "Mexico (M\u00e9rida) \u2014 out of Africa scope"
+  },
+  {
+    "candidateId": "fair-padelusa-pelota-padel-club",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "PELOTA Padel Club",
+    "citationUrl": "https://padelusa.org/clubs/texas/the-woodlands/pelota-padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/texas/the-woodlands/pelota-padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T18:31:40.251Z",
+    "triagedAt": "2026-09-26T18:34:22.777336Z",
+    "triageNote": "USA (The Woodlands, TX) \u2014 out of Africa scope"
   }
 ]

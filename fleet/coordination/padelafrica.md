@@ -909,3 +909,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Fair-use promote → **`ZAF-VEN-059` Atlantic Padel @ Atlantic Beach** DISCOVERED
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-26 — padelafrica (tick ~18:13–18:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 305 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 45 (28 sources). **Promoted** Atlantic Padel Parklands → `ZAF-VEN-060`. **Rejected** Epica Academia Mérida (MX), PELOTA Padel Club (US). `needs_verify` cleared.
+
+**FIND:**
+- KE densify → **`KEN-VEN-017` Westlands**, **`KEN-VEN-018` Gigiri**, **`KEN-VEN-019` Duma Ole Sereni**, **`KEN-VEN-020` SD Ridgeways** DISCOVERED
+- TN densify → **`TUN-VEN-018` Padel Connection Borj Louzir** DISCOVERED
+- ZA Atlantic densify → **`ZAF-VEN-060` Parklands**, **`ZAF-VEN-061` Table View**, **`ZAF-VEN-062` Sunningdale** DISCOVERED
+- Thin skip: Pro Padel Nairobi (no phone). Zero: DZ Padel Impact/Bay One (no street+phone)
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+

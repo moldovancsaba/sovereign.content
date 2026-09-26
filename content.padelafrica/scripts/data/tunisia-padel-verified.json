@@ -415,5 +415,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND tick 2026-09-26. Skipped Museal (equipment shop, not courts)."
+  },
+  {
+    "recordId": "TUN-VEN-018",
+    "name": "Padel Connection",
+    "city": "Ariana",
+    "region": "Ariana Governorate",
+    "countryCode": "TN",
+    "line1": "Rue Sanhaja, Borj Louzir",
+    "lat": 36.8606537,
+    "lng": 10.2087006,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Borj Louzir (Ariana) locality pin — Rue Sanhaja not rooftop-geocoded",
+    "website": "https://padeltunisia.com/?page_id=607",
+    "phone": "+216 29 460 000",
+    "email": "Eleuch_omar@yahoo.fr",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed on directory page — call ahead.",
+    "description": "Padel Connection in Borj Louzir (Ariana) lists Rue Sanhaja with one outdoor and four indoor courts, parking and a published phone. A clear Greater Tunis densify pick distinct from Padel House on Avenue Jaafer Sidi Amor. Call ahead to confirm indoor court availability.",
+    "primarySourceUrl": "https://padeltunisia.com/?page_id=607",
+    "secondarySourceUrl": "https://padeltunisia.com/?page_id=607",
+    "sourceTypes": "Padel Tunisia directory club page (address, phone, email, court mix)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "FIND tick 2026-09-26T18"
   }
 ]

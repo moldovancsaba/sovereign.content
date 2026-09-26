@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T17:33:08Z",
+  "updatedAt": "2026-09-26T18:25:48.701226Z",
   "attempts": [
     {
       "cc": "CF",
@@ -69,7 +69,7 @@
     },
     {
       "cc": "ST",
-      "city": "São Tomé",
+      "city": "S\u00e3o Tom\u00e9",
       "outcome": "zero-result",
       "at": "2026-09-24T09:42:02.233Z"
     },
@@ -141,13 +141,13 @@
     },
     {
       "cc": "CI",
-      "city": "Bouaké",
+      "city": "Bouak\u00e9",
       "outcome": "zero-result",
       "at": "2026-09-24T14:10:15.626Z"
     },
     {
       "cc": "CI",
-      "city": "San-Pédro",
+      "city": "San-P\u00e9dro",
       "outcome": "zero-result",
       "at": "2026-09-24T14:10:16.140Z"
     },
@@ -297,10 +297,10 @@
     },
     {
       "cc": "SN",
-      "city": "Thiès",
+      "city": "Thi\u00e8s",
       "outcome": "seeded",
       "at": "2026-09-25T00:12:13.000Z",
-      "note": "fixture_only_pending_ingest SEN-VEN-004 Blu Padel Ngaparou (Thiès Region)"
+      "note": "fixture_only_pending_ingest SEN-VEN-004 Blu Padel Ngaparou (Thi\u00e8s Region)"
     },
     {
       "cc": "SN",
@@ -473,7 +473,7 @@
       "at": "2026-09-25T06:22:00.000Z",
       "outcome": "seeded",
       "recordId": "MAR-VEN-009",
-      "note": "FIND deepen Le Carré Padel Odyssee Park; Padel Factory already OSM"
+      "note": "FIND deepen Le Carr\u00e9 Padel Odyssee Park; Padel Factory already OSM"
     },
     {
       "cc": "TN",
@@ -690,7 +690,7 @@
     },
     {
       "cc": "MA",
-      "city": "Salé",
+      "city": "Sal\u00e9",
       "at": "2026-09-25T11:27:00.000Z",
       "outcome": "seeded",
       "recordId": "MAR-VEN-014",
@@ -801,7 +801,7 @@
     },
     {
       "cc": "CM",
-      "city": "Yaoundé",
+      "city": "Yaound\u00e9",
       "at": "2026-09-25T14:18:00.000Z",
       "outcome": "zero-result",
       "note": "Elite_Padel_phone_only_no_address; BENDO_already_sampled"
@@ -844,7 +844,7 @@
       "city": "Tripoli",
       "query": "Oxygen Padel Hay Andalus",
       "outcome": "zero-result",
-      "note": "Club present (oxygensc.ly / LinkedIn) but no published phone on public pages — skip invent"
+      "note": "Club present (oxygensc.ly / LinkedIn) but no published phone on public pages \u2014 skip invent"
     },
     {
       "at": "2026-09-25T15:08:00Z",
@@ -914,14 +914,14 @@
       "at": "2026-09-25T17:15:00Z",
       "cc": "MA",
       "city": "Marrakech",
-      "query": "Urban Padel Marrakech Guéliz",
+      "query": "Urban Padel Marrakech Gu\u00e9liz",
       "outcome": "verified",
       "recordId": "MAR-VEN-016"
     },
     {
       "at": "2026-09-25T17:15:00Z",
       "cc": "TN",
-      "city": "Kalâa Kebira",
+      "city": "Kal\u00e2a Kebira",
       "query": "Seabel Padel Club Sousse",
       "outcome": "verified",
       "recordId": "TUN-VEN-009"
@@ -964,7 +964,7 @@
       "city": "New Administrative Capital",
       "query": "Il Bosco Sports Club padel",
       "outcome": "zero-result",
-      "note": "Tournament venue confirmed but only real-estate sales phones published — skip invent club line"
+      "note": "Tournament venue confirmed but only real-estate sales phones published \u2014 skip invent club line"
     },
     {
       "at": "2026-09-25T18:33:00Z",
@@ -995,7 +995,7 @@
       "at": "2026-09-25T19:20:00Z",
       "cc": "MG",
       "city": "Antananarivo",
-      "query": "Soavina Atmosphère Grand Soavina Tanjombato",
+      "query": "Soavina Atmosph\u00e8re Grand Soavina Tanjombato",
       "outcome": "verified",
       "recordId": "MDG-VEN-006"
     },
@@ -1010,7 +1010,7 @@
     {
       "at": "2026-09-25T20:25:00Z",
       "cc": "TG",
-      "city": "Lomé",
+      "city": "Lom\u00e9",
       "query": "Padel Up Togo Tokoin Wuiti",
       "outcome": "verified",
       "recordId": "TGO-VEN-003"
@@ -1019,7 +1019,7 @@
       "at": "2026-09-25T20:25:00Z",
       "cc": "GA",
       "city": "Libreville",
-      "query": "Beach Club Libreville padel Sablière",
+      "query": "Beach Club Libreville padel Sabli\u00e8re",
       "outcome": "verified",
       "recordId": "GAB-VEN-003"
     },
@@ -1084,14 +1084,14 @@
       "at": "2026-09-25T21:30:00Z",
       "cc": "CI",
       "city": "Abidjan",
-      "query": "Ivoire Padel Rue Zéphirs Marcory",
+      "query": "Ivoire Padel Rue Z\u00e9phirs Marcory",
       "outcome": "verified",
       "recordId": "CIV-VEN-007"
     },
     {
       "at": "2026-09-25T21:30:00Z",
       "cc": "MU",
-      "city": "Grande Rivière Noire",
+      "city": "Grande Rivi\u00e8re Noire",
       "query": "ClubHouse Vanilla Connect padel",
       "outcome": "verified",
       "recordId": "MUS-VEN-005"
@@ -1147,10 +1147,10 @@
     {
       "at": "2026-09-25T22:25:00Z",
       "cc": "CM",
-      "city": "Yaoundé",
+      "city": "Yaound\u00e9",
       "query": "Elite Padel Yaounde street address",
       "outcome": "zero-result",
-      "note": "Phone only on Padel Lands — no street-level address within tick"
+      "note": "Phone only on Padel Lands \u2014 no street-level address within tick"
     },
     {
       "at": "2026-09-25T22:25:00Z",
@@ -1163,7 +1163,7 @@
     {
       "at": "2026-09-25T22:30:46.000Z",
       "cc": "MA",
-      "city": "Aïn Attig",
+      "city": "A\u00efn Attig",
       "query": "Padel Plaza Ain Attig Temara",
       "outcome": "verified",
       "recordId": "MAR-VEN-019",
@@ -1347,7 +1347,7 @@
       "at": "2026-09-26T01:05:00.000Z",
       "cc": "MU",
       "city": "Beau Plan",
-      "query": "Caña padel Mon Rocher",
+      "query": "Ca\u00f1a padel Mon Rocher",
       "outcome": "verified",
       "recordId": "MUS-VEN-006"
     },
@@ -1378,7 +1378,7 @@
     {
       "at": "2026-09-26T01:05:00.000Z",
       "cc": "CM",
-      "city": "Yaoundé",
+      "city": "Yaound\u00e9",
       "query": "Elite Padel Yaounde street",
       "outcome": "zero-result",
       "note": "phone only; no published street"
@@ -1589,14 +1589,14 @@
       "countryCode": "BW",
       "query": "District 267 Gaborone",
       "outcome": "skipped",
-      "note": "phone only — no street address published"
+      "note": "phone only \u2014 no street address published"
     },
     {
       "at": "2026-09-26T04:20:00Z",
       "countryCode": "CM",
       "query": "Club PAD Douala",
       "outcome": "skipped",
-      "note": "Port Autonome tennis/multisport — not padel"
+      "note": "Port Autonome tennis/multisport \u2014 not padel"
     },
     {
       "at": "2026-09-26T04:20:00Z",
@@ -1664,7 +1664,7 @@
       "countryCode": "CI",
       "query": "Padel House Zone 3",
       "outcome": "skipped",
-      "note": "Zone 3 only — street too thin"
+      "note": "Zone 3 only \u2014 street too thin"
     },
     {
       "at": "2026-09-26T05:10:00Z",
@@ -1684,7 +1684,7 @@
     {
       "at": "2026-09-26T06:12:00Z",
       "countryCode": "CI",
-      "query": "Padel Square Biétry",
+      "query": "Padel Square Bi\u00e9try",
       "outcome": "seeded",
       "recordId": "CIV-VEN-009"
     },
@@ -1714,7 +1714,7 @@
       "countryCode": "LY",
       "query": "Oxygen Sports Club Tripoli",
       "outcome": "skipped",
-      "note": "Hay El Andalous locality only — no phone"
+      "note": "Hay El Andalous locality only \u2014 no phone"
     },
     {
       "at": "2026-09-26T06:12:00Z",
@@ -1775,16 +1775,16 @@
     {
       "at": "2026-09-26T07:15:00Z",
       "countryCode": "CM",
-      "query": "Elite Padel Yaoundé",
+      "query": "Elite Padel Yaound\u00e9",
       "outcome": "skipped",
       "note": "phone only no street"
     },
     {
       "at": "2026-09-26T07:15:00Z",
       "countryCode": "DZ",
-      "query": "AZAL Reghaïa",
+      "query": "AZAL Regha\u00efa",
       "outcome": "skipped",
-      "note": "pool complex — padel not evidenced"
+      "note": "pool complex \u2014 padel not evidenced"
     },
     {
       "at": "2026-09-26T07:15:00Z",
@@ -1817,7 +1817,7 @@
     {
       "at": "2026-09-26T08:25:00Z",
       "countryCode": "ZM",
-      "query": "Atlético Lusaka Complex Lukasu Kasiba",
+      "query": "Atl\u00e9tico Lusaka Complex Lukasu Kasiba",
       "outcome": "seeded",
       "recordId": "ZMB-VEN-009"
     },
@@ -1838,7 +1838,7 @@
     {
       "at": "2026-09-26T08:25:00Z",
       "countryCode": "TN",
-      "query": "Just Padel Route de Gabès km 7 Sfax",
+      "query": "Just Padel Route de Gab\u00e8s km 7 Sfax",
       "outcome": "seeded",
       "recordId": "TUN-VEN-016"
     },
@@ -1890,7 +1890,7 @@
       "countryCode": "UG",
       "query": "Lubowa Bugolobi padel under construction",
       "outcome": "skipped",
-      "note": "Herman article launch-stage — no street+phone live venue"
+      "note": "Herman article launch-stage \u2014 no street+phone live venue"
     },
     {
       "at": "2026-09-26T08:25:00Z",
@@ -1944,7 +1944,7 @@
     {
       "at": "2026-09-26T09:20:00Z",
       "countryCode": "CM",
-      "query": "BENDO Yaoundé Golf WhatsApp fill",
+      "query": "BENDO Yaound\u00e9 Golf WhatsApp fill",
       "outcome": "verified",
       "recordId": "CMR-VEN-005"
     },
@@ -1960,7 +1960,7 @@
       "countryCode": "BW",
       "query": "District 267 Gaborone",
       "outcome": "skipped",
-      "note": "phone only — no street address on first-party site"
+      "note": "phone only \u2014 no street address on first-party site"
     },
     {
       "at": "2026-09-26T09:20:00Z",
@@ -1981,7 +1981,7 @@
       "countryCode": "DZ",
       "query": "Padel Impact Bay One Algiers",
       "outcome": "skipped",
-      "note": "under-development network mention — no street+phone"
+      "note": "under-development network mention \u2014 no street+phone"
     },
     {
       "at": "2026-09-26T09:20:00Z",
@@ -2549,6 +2549,34 @@
       "at": "2026-09-26T17:33:08Z",
       "outcome": "rejected",
       "note": "Charlotte Padel Club non_africa"
+    },
+    {
+      "cc": "KE",
+      "city": "Nairobi Westlands/Gigiri/Ole Sereni/Ridgeways",
+      "at": "2026-09-26T18:25:48.701226Z",
+      "outcome": "seeded",
+      "note": "KEN-VEN-017..020"
+    },
+    {
+      "cc": "TN",
+      "city": "Borj Louzir Ariana",
+      "at": "2026-09-26T18:25:48.701226Z",
+      "outcome": "seeded",
+      "note": "TUN-VEN-018 Padel Connection"
+    },
+    {
+      "cc": "DZ",
+      "city": "Algiers Padel Impact/Bay One",
+      "at": "2026-09-26T18:25:48.701226Z",
+      "outcome": "zero-result",
+      "note": "affiliates named; no public street+phone"
+    },
+    {
+      "cc": "KE",
+      "city": "Nairobi Pro Padel Forest Road",
+      "at": "2026-09-26T18:25:48.701226Z",
+      "outcome": "thin",
+      "note": "Playtomic street only; no phone; geocode ambiguous \u2014 skip"
     }
   ]
 }
