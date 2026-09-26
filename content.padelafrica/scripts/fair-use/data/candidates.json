@@ -1563,5 +1563,58 @@
     "extractedAt": "2026-09-26T05:10:40.595Z",
     "rejectedAt": "2026-09-26T05:15:56.000Z",
     "rejectReason": "France Cabriès — out of Africa scope"
+  },
+  {
+    "candidateId": "fair-playtomic-book-a-court-in-padel-pro-one-central",
+    "sourceId": "playtomic",
+    "sourceName": "Playtomic",
+    "name": "Book a court in \nPadel Pro One Central",
+    "citationUrl": "https://playtomic.com/clubs/padel-pro-one-central",
+    "website": "https://app.playtomic.io/",
+    "researchSources": [
+      "https://playtomic.com/clubs/padel-pro-one-central",
+      "https://app.playtomic.io/"
+    ],
+    "researchNote": "Discovered via Playtomic fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T06:09:22.111Z",
+    "rejectedAt": "2026-09-26T06:28:08.000Z",
+    "rejectReason": "UAE Dubai — out of Africa scope"
+  },
+  {
+    "candidateId": "fair-actu-padel-net-set-padel-sandton-city",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Net Set Padel Sandton City",
+    "citationUrl": "https://actu-padel.com/directory/padel-club/padel-net-set-city-sandton/",
+    "website": "https://www.netsetsandtoncity.co.za/",
+    "cityHint": "Johannesburg",
+    "countryHint": "South Africa",
+    "researchSources": [
+      "https://actu-padel.com/directory/padel-club/padel-net-set-city-sandton/",
+      "https://www.netsetsandtoncity.co.za/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-26T06:11:40.914Z",
+    "skippedAt": "2026-09-26T06:28:08.000Z",
+    "skipReason": "Already ZAF-VEN-010 Net Set Padel Sandton City"
+  },
+  {
+    "candidateId": "fair-padelivu-carbon-padel-club",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Carbon Padel Club",
+    "citationUrl": "https://padelivu.com/club/carbon-padel-club",
+    "website": "",
+    "addressHint": "Unit 9 Vaughan Street Industrial Estate, M12 5BT, Manchester, United Kingdom",
+    "researchSources": [
+      "https://padelivu.com/club/carbon-padel-club"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "status": "rejected",
+    "extractedAt": "2026-09-26T06:14:42.460Z",
+    "rejectedAt": "2026-09-26T06:28:08.000Z",
+    "rejectReason": "UK Manchester — out of Africa scope"
   }
 ]

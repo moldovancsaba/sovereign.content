@@ -316,5 +316,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Evidence: sassistadium.com + Padel Lands phone +216 98289000 + Sidi Hssine. Nominatim Sidi Hassine locality."
+  },
+  {
+    "recordId": "TUN-VEN-014",
+    "name": "Bourgo Arena Padel Djerba",
+    "city": "Midoun",
+    "region": "Médenine",
+    "countryCode": "TN",
+    "line1": "Bourgo Mall / Djerba Mall Géant, 1er étage, Midoun, Djerba",
+    "lat": 33.818394,
+    "lng": 10.9698789,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM Bourgo Mall Midoun pin",
+    "website": "https://bourgoarena.com/",
+    "phone": "+216 29 239 570",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 07:00–23:00; reserve padel ahead.",
+    "description": "Bourgo Arena at Bourgo Mall Midoun publishes covered padel among a multi-sport indoor complex on Djerba. A clear recommendation when you want a named island padel stop beyond the mainland Tunisian sample. Confirm court booking on the venue site or by phone before travelling to Midoun.",
+    "primarySourceUrl": "https://bourgoarena.com/",
+    "secondarySourceUrl": "https://bourgoarena.com/",
+    "sourceTypes": "Venue website contact + padel section",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "First Djerba seed; phone from bourgoarena.com"
   }
 ]

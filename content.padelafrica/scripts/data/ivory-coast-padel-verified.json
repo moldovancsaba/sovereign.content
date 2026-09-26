@@ -185,5 +185,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Also listed +225 07 10 77 39 16 on Padel Lands — primary +225 07 11 46 75 65 from GoAfricaOnline"
+  },
+  {
+    "recordId": "CIV-VEN-009",
+    "name": "Padel Square Abidjan",
+    "city": "Abidjan",
+    "region": "Lagunes",
+    "countryCode": "CI",
+    "line1": "Boulevard de Marseille, Biétry, Zone 4",
+    "lat": 5.2743696,
+    "lng": -3.9789016,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Biétry / Boulevard Phillipe Grégoire Yacé corridor — house number not separately geocoded",
+    "phone": "+225 07 14 93 9393",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet — call ahead.",
+    "description": "Padel Square Abidjan lists Boulevard de Marseille in Biétry Zone 4 with a published phone distinct from District Padel Marcory on the same boulevard. A clear recommendation when you want a named Biétry padel stop in the Zone 4 belt. Locality pin only until a building geocode is confirmed.",
+    "primarySourceUrl": "https://padellands.com/pistas-de-padel/padel-square-abidjan/",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/cote-divoire/",
+    "sourceTypes": "Padel Lands club card; CI directory",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "Distinct phone from CIV-VEN-005 District Padel (+225 07 10 11 11 11)"
   }
 ]

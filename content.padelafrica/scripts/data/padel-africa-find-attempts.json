@@ -1680,6 +1680,62 @@
       "outcome": "seeded",
       "recordId": "ZAF-VEN-017",
       "note": "fair-use promote; street+phone+Playtomic"
+    },
+    {
+      "at": "2026-09-26T06:12:00Z",
+      "countryCode": "CI",
+      "query": "Padel Square Biétry",
+      "outcome": "seeded",
+      "recordId": "CIV-VEN-009"
+    },
+    {
+      "at": "2026-09-26T06:12:00Z",
+      "countryCode": "TN",
+      "query": "Bourgo Arena Djerba padel",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-014"
+    },
+    {
+      "at": "2026-09-26T06:12:00Z",
+      "countryCode": "EG",
+      "query": "Padel It Arkan Plaza",
+      "outcome": "seeded",
+      "recordId": "EGY-VEN-012"
+    },
+    {
+      "at": "2026-09-26T06:12:00Z",
+      "countryCode": "EG",
+      "query": "The Padel Club Galleria 40",
+      "outcome": "seeded",
+      "recordId": "EGY-VEN-013"
+    },
+    {
+      "at": "2026-09-26T06:12:00Z",
+      "countryCode": "LY",
+      "query": "Oxygen Sports Club Tripoli",
+      "outcome": "skipped",
+      "note": "Hay El Andalous locality only — no phone"
+    },
+    {
+      "at": "2026-09-26T06:12:00Z",
+      "countryCode": "MZ",
+      "query": "Club Padel Matola",
+      "outcome": "skipped",
+      "note": "Spain Elche mislist on Padel Lands"
+    },
+    {
+      "at": "2026-09-26T06:12:00Z",
+      "countryCode": "CI",
+      "query": "Le Temple du Padel",
+      "outcome": "skipped",
+      "note": "Temple du Foot football venue ambiguity"
+    },
+    {
+      "at": "2026-09-26T06:12:00Z",
+      "countryCode": "EG",
+      "query": "Cairo Padel Park Mall",
+      "outcome": "skipped",
+      "note": "multi-branch; Park Mall pin unresolved"
     }
   ]
 }

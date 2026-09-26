@@ -692,3 +692,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - MZ Play Padel COOP / LY Lebanon mislist / CI Padel House Zone 3 / GH Mamba → skipped (evidence bar)
 
 **Inbox:** refreshed. HiTL none. Not claiming PUBLISHED. Core reconcile still awaiting management.
+
+
+### 2026-09-26 — padelafrica (tick ~06:05–06:28 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 240 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 33 (28 sources). No new Africa promote. `skipped_duplicate` Net Set Sandton City (already `ZAF-VEN-010`). Rejected Padel Pro One Central (UAE), Carbon Padel Club (UK).
+
+**FIND:**
+- CI Biétry → **`CIV-VEN-009` Padel Square Abidjan** DISCOVERED
+- TN Midoun/Djerba → **`TUN-VEN-014` Bourgo Arena Padel Djerba** DISCOVERED
+- EG Sheikh Zayed → **`EGY-VEN-012` Padel It Arkan Plaza** DISCOVERED
+- EG Sheikh Zayed → **`EGY-VEN-013` The Padel Club Galleria 40** DISCOVERED
+- LY Oxygen / MZ Matola mislist / CI Temple du Padel / EG Cairo Padel Park Mall → skipped (evidence bar)
+
+**Inbox:** refreshed. HiTL none. Not claiming PUBLISHED.
