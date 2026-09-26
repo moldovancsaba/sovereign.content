@@ -9,8 +9,12 @@
  * 4. ingestSourceText → DISCOVERED cards (D metric)
  * 5. Mark ingested/rejected
  *
+ * Határon túl seeds (`camera: hataron-tul` / territory HATARON-TUL) send
+ * `x-sportolok-camera: hataron-tul` so management routes into `${MONGODB_DB}_hataron-tul`.
+ *
  *   npm run fair-use:enrich
  *   npm run fair-use:enrich -- --dry-run --limit=5
+ *   npm run fair-use:enrich -- --camera=hataron-tul --limit=3
  */
 
 import fs from "fs";
@@ -36,11 +40,22 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const FIND_SEEDS_FILE = path.join(__dirname, "data", "find-seeds.json");
 
+const HT_COUNTRY_LABEL: Record<string, { en: string; hu: string }> = {
+  RO: { en: "Romania", hu: "Románia" },
+  RS: { en: "Serbia", hu: "Szerbia" },
+  SK: { en: "Slovakia", hu: "Szlovákia" },
+  UA: { en: "Ukraine", hu: "Ukrajna" },
+  HR: { en: "Croatia", hu: "Horvátország" },
+  SI: { en: "Slovenia", hu: "Szlovénia" },
+  AT: { en: "Austria", hu: "Ausztria" },
+};
+
 interface EnrichmentResult {
   seedId: string;
   outcome: "ingested" | "rejected" | "error";
   reason: string;
   listingId?: string;
+  camera?: string;
   response?: unknown;
 }
 
@@ -52,6 +67,14 @@ function loadConfig(): IngestConfig {
   const apiKey = process.env.INGEST_API_KEY || process.env.SPORT_INGEST_API_KEY || "";
   if (!apiKey) throw new Error("INGEST_API_KEY required for live enrich");
   return { baseUrl, apiKey };
+}
+
+function isHataronTul(seed: FindSeed): boolean {
+  return seed.camera === "hataron-tul" || seed.territory === "HATARON-TUL";
+}
+
+function seedCamera(seed: FindSeed): "itthon" | "hataron-tul" {
+  return isHataronTul(seed) ? "hataron-tul" : "itthon";
 }
 
 async function deepenSeed(seed: FindSeed): Promise<FindSeed> {
@@ -130,15 +153,32 @@ async function deepenSeed(seed: FindSeed): Promise<FindSeed> {
 
 function buildSourceText(seed: FindSeed, about: string): string {
   const c = seed.initialFacts.contact || {};
+  const ht = isHataronTul(seed);
+  const code = (seed.countryCode || (ht ? "" : "HU")).toUpperCase();
+  const country = ht
+    ? HT_COUNTRY_LABEL[code]?.en || code || "Unknown"
+    : "Hungary";
+  const locality = ht
+    ? seed.initialFacts.address || HT_COUNTRY_LABEL[code]?.hu || country
+    : seed.territory === "HUN-BUD"
+      ? "Budapest"
+      : "Hungary";
+  const qualified =
+    seed.activityType === "swimming"
+      ? "swimming-facility"
+      : seed.activityType === "fitness"
+        ? "fitness-facility"
+        : "sport-facility";
   const lines = [
     `URL: ${seed.researchSources[0]?.url || ""}`,
-    "Qualified as: swimming-facility",
+    `Qualified as: ${qualified}`,
     `Name: ${seed.initialFacts.name}`,
     `Venue: ${seed.initialFacts.name}`,
     seed.initialFacts.address ? `Address: ${seed.initialFacts.address}` : null,
-    seed.territory === "HUN-BUD" ? "Locality: Budapest" : "Locality: Hungary",
-    "Country: Hungary",
-    "CountryCode: HU",
+    `Locality: ${locality}`,
+    `Country: ${country}`,
+    code ? `CountryCode: ${code}` : null,
+    ht ? "Camera: hataron-tul" : null,
     c.phone ? `Phone: ${c.phone}` : null,
     c.email ? `Email: ${c.email}` : null,
     c.website ? `Website: ${c.website}` : null,
@@ -154,6 +194,9 @@ function buildSourceText(seed: FindSeed, about: string): string {
 
 function buildAbout(seed: FindSeed): string {
   const { name, address } = seed.initialFacts;
+  const ht = isHataronTul(seed);
+  const code = (seed.countryCode || "").toUpperCase();
+  const countryHu = ht ? HT_COUNTRY_LABEL[code]?.hu : undefined;
   const kind =
     seed.activityType === "swimming"
       ? "tanuszoda / uszoda"
@@ -165,10 +208,14 @@ function buildAbout(seed: FindSeed): string {
             ? "edzőterem"
             : seed.activityType === "school-sport"
               ? "iskolai sportlétesítmény"
-              : "sportlétesítmény";
+              : ht
+                ? "magyar nyelvű sportklub / sportegyesület"
+                : "sportlétesítmény";
   // Hungarian visitor copy — no English fair-use boilerplate, no invented phones.
   let about = `A ${name} ${kind}`;
-  if (address) about += ` (${address})`;
+  if (address) about += ` (${address}`;
+  if (countryHu) about += address ? `, ${countryHu}` : ` (${countryHu}`;
+  if (address || countryHu) about += ")";
   about += ".";
   about +=
     " Helyszíni programok, belépés és nyitvatartás előtt érdemes a hivatalos oldalon tájékozódni.";
@@ -176,6 +223,9 @@ function buildAbout(seed: FindSeed): string {
 }
 
 function researchCardId(seed: FindSeed): string {
+  if (seed.seedId.startsWith("seed-ht-")) {
+    return `research-ht-${seed.seedId.replace(/^seed-ht-/, "")}`;
+  }
   const slug = seed.seedId.replace(/^seed-hun-/, "");
   return `research-hun-${slug}`;
 }
@@ -214,13 +264,26 @@ async function enrichSeed(
     return { seedId: seed.seedId, outcome: "rejected", reason: "confidence_low" };
   }
 
+  // Határon túl needs CountryCode for territory admission — never invent phones.
+  if (isHataronTul(deepened) && !deepened.countryCode) {
+    return { seedId: seed.seedId, outcome: "rejected", reason: "ht_missing_country_code" };
+  }
+
   const about = buildAbout(deepened);
   const sourceText = buildSourceText(deepened, about);
   const id = researchCardId(deepened);
+  const camera = seedCamera(deepened);
 
   if (dryRun) {
-    console.log(`   [DRY RUN] Would ingest ${id} (${sourceText.length} chars)`);
-    return { seedId: seed.seedId, outcome: "ingested", reason: "dry-run-success", listingId: id };
+    console.log(`   [DRY RUN] Would ingest ${id} camera=${camera} (${sourceText.length} chars)`);
+    console.log(`   --- sourceText preview ---\n${sourceText.slice(0, 400)}\n   ---`);
+    return {
+      seedId: seed.seedId,
+      outcome: "ingested",
+      reason: "dry-run-success",
+      listingId: id,
+      camera,
+    };
   }
 
   try {
@@ -230,13 +293,15 @@ async function enrichSeed(
       sourceText,
       sourcePool: "live_discovery",
       reprocess: false,
+      camera,
     });
-    console.log(`   ✅ Ingested ${id}`);
+    console.log(`   ✅ Ingested ${id} → camera ${camera}`);
     return {
       seedId: seed.seedId,
       outcome: "ingested",
       reason: "ingest-success",
       listingId: id,
+      camera,
       response,
     };
   } catch (error: any) {
@@ -245,6 +310,7 @@ async function enrichSeed(
       seedId: seed.seedId,
       outcome: "error",
       reason: `ingest-error: ${error.message}`,
+      camera,
     };
   }
 }
@@ -253,10 +319,13 @@ async function main() {
   const dryRun = process.argv.includes("--dry-run");
   const limitArg = process.argv.find((arg) => arg.startsWith("--limit="));
   const limit = limitArg ? parseInt(limitArg.split("=")[1], 10) : 5;
+  const cameraArg = process.argv.find((arg) => arg.startsWith("--camera="));
+  const cameraFilter = cameraArg?.split("=")[1]?.trim() || null;
 
   console.log("🌱 Sportolok Fair-Use Enrichment Agent");
   console.log(`   Mode: ${dryRun ? "DRY RUN" : "LIVE"}`);
   console.log(`   Limit: ${limit}`);
+  if (cameraFilter) console.log(`   Camera filter: ${cameraFilter}`);
 
   if (!fs.existsSync(FIND_SEEDS_FILE)) {
     console.log("📭 No find-seeds.json — run fair-use:one-pass first.");
@@ -264,7 +333,12 @@ async function main() {
   }
 
   const findSeeds = loadFindSeeds(FIND_SEEDS_FILE);
-  const pendingSeeds = getPendingSeeds(findSeeds);
+  let pendingSeeds = getPendingSeeds(findSeeds);
+  if (cameraFilter === "hataron-tul") {
+    pendingSeeds = pendingSeeds.filter(isHataronTul);
+  } else if (cameraFilter === "itthon") {
+    pendingSeeds = pendingSeeds.filter((s) => !isHataronTul(s));
+  }
   console.log(`📊 Pending: ${pendingSeeds.length} / total ${Object.keys(findSeeds).length}`);
 
   if (!pendingSeeds.length) {
@@ -297,6 +371,7 @@ async function main() {
       {
         job: "sportolok:fair-use-enrich",
         dryRun,
+        cameraFilter,
         summary: { ingested, rejected, errors, remaining: pendingSeeds.length - toProcess.length },
         results,
       },

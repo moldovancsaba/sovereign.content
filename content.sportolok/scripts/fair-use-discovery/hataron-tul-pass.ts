@@ -6,7 +6,8 @@
  * sources-hataron-tul.json only — RO/RS/HR/SI/AT/SK/UA Hungarian-language
  * venues/clubs under one big "Határon túl" product mode.
  *
- * Does NOT ingest to production (management territoryScope is still HU-only).
+ * Discovery only — enrich via `fair-use:enrich -- --camera=hataron-tul` once
+ * management pack.cities includes Határon túl (routes to `${MONGODB_DB}_hataron-tul`).
  * Seeds land in find-seeds.json with territory HATARON-TUL + camera hataron-tul.
  *
  *   npm run fair-use:hataron-tul-pass
@@ -148,7 +149,7 @@ async function main() {
     hataronTulSeedsTotal: htTotal,
     hataronTulPending: htPending,
     perSource,
-    note: "Discovery only — do not enrich/ingest until management territoryScope admits Határon túl",
+    note: "Discovery done. Enrich with fair-use:enrich --camera=hataron-tul after management cities deploy.",
   };
   fs.writeFileSync(METRICS_FILE, JSON.stringify(metrics, null, 2) + "\n");
 
