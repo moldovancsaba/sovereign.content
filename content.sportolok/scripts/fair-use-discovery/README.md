@@ -36,6 +36,20 @@ data/find-seeds.json (queue)
 ingest API → sport.doneisbetter.com
 ```
 
+## Határon túl (separate camera)
+
+One big **Határon túl** product mode (not “Határon”) — Hungarian-language venues in RO/RS/HR/SI/AT/SK/UA.
+
+```bash
+npm run fair-use:hataron-tul-pass:dry
+npm run fair-use:hataron-tul-pass -- --no-sleep
+```
+
+- Registry: `sources-hataron-tul.json` (does **not** touch Itthon `sources.json`)
+- Directory SSOT: `directories/hataron-tul.json`
+- Seeds: `territory: HATARON-TUL`, `camera: hataron-tul`, ids `seed-ht-*`
+- **Do not enrich/ingest** until management `territoryScope` / pack cities admit Határon túl
+
 ## Directories (SSOT for “what to search”)
 
 | File | Contents | Job use |

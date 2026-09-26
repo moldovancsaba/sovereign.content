@@ -1,0 +1,135 @@
+{
+  "updatedAt": "2026-09-26",
+  "camera": "hataron-tul",
+  "label": "Határon túl",
+  "description": "One big Határon túl camera: Hungarian-language sport venues/clubs in RO, RS, HR, SI, AT, SK, UA. Pair with Itthon (HU). Not a vármegye filter — ClassScout city-switcher analog.",
+  "countries": [
+    { "code": "RO", "labelHu": "Románia", "regionsNote": "Erdély / Partium / Bánság" },
+    { "code": "RS", "labelHu": "Szerbia", "regionsNote": "Vajdaság" },
+    { "code": "SK", "labelHu": "Szlovákia", "regionsNote": "Felvidék" },
+    { "code": "UA", "labelHu": "Ukrajna", "regionsNote": "Kárpátalja" },
+    { "code": "HR", "labelHu": "Horvátország", "regionsNote": "Drávaszög / muramenti" },
+    { "code": "SI", "labelHu": "Szlovénia", "regionsNote": "Muravidék" },
+    { "code": "AT", "labelHu": "Ausztria", "regionsNote": "Őrvidék / Burgenland" }
+  ],
+  "authorityNotes": [
+    "v1: one camera for all seven countries — no per-country cameras yet.",
+    "Prefer Hungarian-language pages (Accept-Language: hu).",
+    "verifiedPages = URLs proven reachable for fair-use extract; expand later."
+  ],
+  "entries": [
+    {
+      "id": "ro-erdelystat-civil-sport",
+      "countryCode": "RO",
+      "kind": "directory",
+      "label": "Erdélystat — romániai magyar civil szervezetek (sport filter)",
+      "territory": "HATARON-TUL",
+      "officialWebsite": "https://intezmenytar.erdelystat.ro/",
+      "verifiedPages": {
+        "sport": [
+          "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/12"
+        ]
+      }
+    },
+    {
+      "id": "ro-civilportal-database",
+      "countryCode": "RO",
+      "kind": "directory",
+      "label": "MCSZESZ Civilportal adatbázis",
+      "territory": "HATARON-TUL",
+      "officialWebsite": "https://civilportal.ro/",
+      "verifiedPages": {
+        "sport": ["https://civilportal.ro/category/database/"]
+      }
+    },
+    {
+      "id": "ro-csikszereda-sportclub",
+      "countryCode": "RO",
+      "kind": "club-site",
+      "label": "Csíkszeredai Sportklub",
+      "locality": "Csíkszereda",
+      "territory": "HATARON-TUL",
+      "officialWebsite": "https://www.sportclub.ro/",
+      "verifiedPages": {
+        "sport": ["https://www.sportclub.ro/", "https://www.sportclub.ro/hu/team"]
+      }
+    },
+    {
+      "id": "ro-oradea-sport",
+      "countryCode": "RO",
+      "kind": "municipal",
+      "label": "Nagyvárad / Oradea — sport (HU)",
+      "locality": "Nagyvárad",
+      "territory": "HATARON-TUL",
+      "officialWebsite": "https://oradea.ro/",
+      "verifiedPages": {
+        "sport": ["https://oradea.ro/hu/polgarok-szamara/a-polgaroknak/sport/"]
+      }
+    },
+    {
+      "id": "sk-komarno-komsport",
+      "countryCode": "SK",
+      "kind": "municipal-sport",
+      "label": "Komárom — KOMSPORT",
+      "locality": "Komárom",
+      "territory": "HATARON-TUL",
+      "officialWebsite": "https://komsport.eu/",
+      "verifiedPages": {
+        "sport": ["https://komsport.eu/"]
+      }
+    },
+    {
+      "id": "sk-komarno-hivatal-sport",
+      "countryCode": "SK",
+      "kind": "municipal",
+      "label": "Komárom — Oktatási/Kulturális/Sportügyi főosztály (HU)",
+      "locality": "Komárom",
+      "territory": "HATARON-TUL",
+      "officialWebsite": "https://www.komarno.sk/",
+      "verifiedPages": {
+        "sport": [
+          "https://www.komarno.sk/hu/varosi-hivatal/iskola-szocialis-kultur-es-sportugyi-foosztaly/"
+        ]
+      }
+    },
+    {
+      "id": "sk-dunaszerdahely-sport",
+      "countryCode": "SK",
+      "kind": "municipal",
+      "label": "Dunaszerdahely — szabadidő és sport",
+      "locality": "Dunaszerdahely",
+      "territory": "HATARON-TUL",
+      "officialWebsite": "https://www.dunaszerdahely.sk/",
+      "verifiedPages": {
+        "sport": ["https://www.dunaszerdahely.sk/volny-cas-sport"]
+      }
+    },
+    {
+      "id": "si-lendava-sport-hall",
+      "countryCode": "SI",
+      "kind": "facility",
+      "label": "Lendva — többfunkciós sportcsarnok uszodával",
+      "locality": "Lendva",
+      "territory": "HATARON-TUL",
+      "officialWebsite": "https://www.lendava.si/",
+      "verifiedPages": {
+        "sport": [
+          "https://www.lendava.si/vsebina/vecnamenska-sportna-dvorana-z-bazenom"
+        ]
+      }
+    },
+    {
+      "id": "rs-szabadka-portal",
+      "countryCode": "RS",
+      "kind": "portal",
+      "label": "Szabadka.rs (HU portal — seed, weak facility list)",
+      "locality": "Szabadka",
+      "territory": "HATARON-TUL",
+      "officialWebsite": "https://www.szabadka.rs/",
+      "verifiedPages": {
+        "sport": ["https://www.szabadka.rs/"]
+      },
+      "statusNote": "reachable; facility extractor thin — keep for probe, expect few candidates"
+    }
+  ]
+}

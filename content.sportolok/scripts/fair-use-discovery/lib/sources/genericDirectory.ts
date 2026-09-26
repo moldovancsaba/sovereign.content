@@ -48,6 +48,7 @@ export async function processGenericDirectory(
       sourceUrl: source.url,
       territory: source.territory,
       activityTypes: source.activityTypes,
+      countryCode: source.countryCode,
     });
 
     console.log(`   ✓ Extracted ${candidates.length} candidate(s)`);

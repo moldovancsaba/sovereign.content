@@ -1,0 +1,47 @@
+{
+  "ht-ro-erdelystat-civil-sport": {
+    "sourceId": "ht-ro-erdelystat-civil-sport",
+    "lastFetchMs": 1790451749348,
+    "lastStatus": "ok"
+  },
+  "ht-ro-civilportal-database": {
+    "sourceId": "ht-ro-civilportal-database",
+    "lastFetchMs": 1790451749348,
+    "lastStatus": "ok"
+  },
+  "ht-ro-csikszereda-sportclub": {
+    "sourceId": "ht-ro-csikszereda-sportclub",
+    "lastFetchMs": 1790451749348,
+    "lastStatus": "ok"
+  },
+  "ht-ro-oradea-sport": {
+    "sourceId": "ht-ro-oradea-sport",
+    "lastFetchMs": 1790451749348,
+    "lastStatus": "ok"
+  },
+  "ht-sk-komsport": {
+    "sourceId": "ht-sk-komsport",
+    "lastFetchMs": 1790451749348,
+    "lastStatus": "ok"
+  },
+  "ht-sk-komarno-sport-osztaly": {
+    "sourceId": "ht-sk-komarno-sport-osztaly",
+    "lastFetchMs": 1790451749348,
+    "lastStatus": "ok"
+  },
+  "ht-sk-dunaszerdahely-sport": {
+    "sourceId": "ht-sk-dunaszerdahely-sport",
+    "lastFetchMs": 1790451749348,
+    "lastStatus": "ok"
+  },
+  "ht-si-lendava-sport-hall": {
+    "sourceId": "ht-si-lendava-sport-hall",
+    "lastFetchMs": 1790451749348,
+    "lastStatus": "ok"
+  },
+  "ht-rs-szabadka-portal": {
+    "sourceId": "ht-rs-szabadka-portal",
+    "lastFetchMs": 1790451749348,
+    "lastStatus": "ok"
+  }
+}

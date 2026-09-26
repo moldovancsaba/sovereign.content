@@ -1,0 +1,118 @@
+{
+  "updatedAt": "2026-09-26",
+  "description": "Határon túl fair-use sources (one camera). Hungarian-language venues/clubs in RO/RS/HR/SI/AT/SK/UA. Separate from Itthon sources.json so hourly HU drain is untouched.",
+  "camera": "hataron-tul",
+  "label": "Határon túl",
+  "defaultInterSourceSec": 20,
+  "defaultPassSleepSec": 120,
+  "defaultCooldownSec": 600,
+  "sources": [
+    {
+      "id": "ht-ro-erdelystat-civil-sport",
+      "name": "Erdélystat — romániai magyar civil (sport)",
+      "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/12",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "RO",
+      "camera": "hataron-tul",
+      "activityTypes": [
+        "various",
+        "ice-sports",
+        "football",
+        "handball",
+        "swimming",
+        "fitness",
+        "martial"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "ht-ro-civilportal-database",
+      "name": "Civilportal — erdélyi civil adatbázis",
+      "url": "https://civilportal.ro/category/database/",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "RO",
+      "camera": "hataron-tul",
+      "activityTypes": ["various", "football", "fitness", "martial"],
+      "status": "active"
+    },
+    {
+      "id": "ht-ro-csikszereda-sportclub",
+      "name": "Csíkszeredai Sportklub",
+      "url": "https://www.sportclub.ro/",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "RO",
+      "camera": "hataron-tul",
+      "activityTypes": ["ice-sports", "football", "various"],
+      "status": "active"
+    },
+    {
+      "id": "ht-ro-oradea-sport",
+      "name": "Nagyvárad — sport (HU)",
+      "url": "https://oradea.ro/hu/polgarok-szamara/a-polgaroknak/sport/",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "RO",
+      "camera": "hataron-tul",
+      "activityTypes": ["various", "swimming", "football", "fitness"],
+      "status": "active"
+    },
+    {
+      "id": "ht-sk-komsport",
+      "name": "Komárom — KOMSPORT",
+      "url": "https://komsport.eu/",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "SK",
+      "camera": "hataron-tul",
+      "activityTypes": ["various", "swimming", "football", "fitness"],
+      "status": "active"
+    },
+    {
+      "id": "ht-sk-komarno-sport-osztaly",
+      "name": "Komárom — sportügyi főosztály (HU)",
+      "url": "https://www.komarno.sk/hu/varosi-hivatal/iskola-szocialis-kultur-es-sportugyi-foosztaly/",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "SK",
+      "camera": "hataron-tul",
+      "activityTypes": ["various", "school-sport"],
+      "status": "active"
+    },
+    {
+      "id": "ht-sk-dunaszerdahely-sport",
+      "name": "Dunaszerdahely — szabadidő és sport",
+      "url": "https://www.dunaszerdahely.sk/volny-cas-sport",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "SK",
+      "camera": "hataron-tul",
+      "activityTypes": ["various", "football", "swimming"],
+      "status": "active"
+    },
+    {
+      "id": "ht-si-lendava-sport-hall",
+      "name": "Lendva — sportcsarnok uszodával",
+      "url": "https://www.lendava.si/vsebina/vecnamenska-sportna-dvorana-z-bazenom",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "SI",
+      "camera": "hataron-tul",
+      "activityTypes": ["swimming", "various", "fitness"],
+      "status": "active"
+    },
+    {
+      "id": "ht-rs-szabadka-portal",
+      "name": "Szabadka.rs (HU portal)",
+      "url": "https://www.szabadka.rs/",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "RS",
+      "camera": "hataron-tul",
+      "activityTypes": ["various"],
+      "status": "active"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "clientId": "sportolok",
-  "observedAt": "2026-09-26T19:12:00Z",
+  "observedAt": "2026-09-26T19:43:30Z",
   "source": "sportolok-tick",
   "workingEnv": {
     "ingestOnlyDoctrine": true,
@@ -11,7 +11,8 @@
     "subscriptionId": "sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc",
     "timerDelaySeconds": 3600,
     "directoriesPresent": true,
-    "releaseBranchCommitsStopped": "acknowledged"
+    "releaseBranchCommitsStopped": "acknowledged",
+    "hataronTulJobs": true
   },
   "outcomes": {
     "MM_SP": {
@@ -36,7 +37,17 @@
       "ice-sports": 4
     },
     "about_qa_garble_fixed": 4,
-    "about_writer": "aboutQuality.ts"
+    "about_writer": "aboutQuality.ts",
+    "hataron_tul_pass": {
+      "candidates": 54,
+      "pending": 54,
+      "byCountry": {
+        "RO": 52,
+        "SK": 1,
+        "SI": 1
+      },
+      "ingest": "blocked_until_territoryScope"
+    }
   },
   "openDebt": [
     {

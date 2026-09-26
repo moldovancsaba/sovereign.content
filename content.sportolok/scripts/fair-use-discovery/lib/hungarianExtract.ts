@@ -4,12 +4,15 @@
  */
 
 import type { Candidate } from "./common";
+import { extractHataronTul } from "./hataronTulExtract";
 
 export interface ExtractOptions {
   sourceId: string;
   sourceUrl: string;
   territory: string;
   activityTypes: string[];
+  /** ISO country for Határon túl sources */
+  countryCode?: string;
 }
 
 const JUNK_TITLES = [
@@ -29,6 +32,16 @@ export function extractHungarianSportFacility(
   url: string,
   opts: ExtractOptions
 ): Candidate[] {
+  // Határon túl: never fall through to HU municipal extractors
+  if (
+    opts.territory === "HATARON-TUL" ||
+    /intezmenytar\.erdelystat\.ro|civilportal\.ro|sportclub\.ro|komsport\.eu|lendava\.si\/.*sportna-dvorana/i.test(
+      url,
+    )
+  ) {
+    return extractHataronTul(html, url, opts);
+  }
+
   if (/magyaruszodak\.hu\/uszoda\//i.test(url)) {
     const detail = extractMagyarUszodakDetail(html, url, opts);
     if (detail.length) return detail;

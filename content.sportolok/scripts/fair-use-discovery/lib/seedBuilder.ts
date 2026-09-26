@@ -16,6 +16,10 @@ export interface FindSeed {
     discoveredAt: string;
   }>;
   territory: string;
+  /** Product camera when set (itthon default / hataron-tul) */
+  camera?: "itthon" | "hataron-tul";
+  /** ISO country for Határon túl seeds */
+  countryCode?: string;
   activityType: string;
   initialFacts: {
     name: string;
@@ -94,6 +98,15 @@ export function addCandidateToSeeds(
     }
   } else {
     // New seed
+    const camera =
+      candidate.extractedFacts?.camera === "hataron-tul" ||
+      candidate.territory === "HATARON-TUL"
+        ? ("hataron-tul" as const)
+        : undefined;
+    const countryCode =
+      typeof candidate.extractedFacts?.countryCode === "string"
+        ? candidate.extractedFacts.countryCode
+        : undefined;
     seeds[candidate.seedId] = {
       seedId: candidate.seedId,
       discoveryDate: candidate.discoveredAt.split("T")[0],
@@ -105,6 +118,8 @@ export function addCandidateToSeeds(
         },
       ],
       territory: candidate.territory,
+      ...(camera ? { camera } : {}),
+      ...(countryCode ? { countryCode } : {}),
       activityType: candidate.activityType,
       initialFacts: {
         name: candidate.title,

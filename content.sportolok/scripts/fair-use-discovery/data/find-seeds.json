@@ -8394,5 +8394,1316 @@
     },
     "confidence": "low",
     "status": "pending"
+  },
+  "seed-ht-87xexa": {
+    "seedId": "seed-ht-87xexa",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/agyagfalvi-lendulet-sportklub/20856",
+        "discoveredAt": "2026-09-26T19:42:32.034Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Agyagfalvi Lendület Sportklub",
+      "address": "Bögöz",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/agyagfalvi-lendulet-sportklub/20856"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-yn33o4": {
+    "seedId": "seed-ht-yn33o4",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/aranykalasz-kulturalis-ifjusagi-es-sportegyesulet/20964",
+        "discoveredAt": "2026-09-26T19:42:32.034Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Aranykalász Kulturális, Ifjúsági és Sportegyesület",
+      "address": "Kányád",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/aranykalasz-kulturalis-ifjusagi-es-sportegyesulet/20964"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-gp2igh": {
+    "seedId": "seed-ht-gp2igh",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/barot-varosi-sportklub-egyesulet/20609",
+        "discoveredAt": "2026-09-26T19:42:32.034Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Barót Városi Sportklub Egyesület",
+      "address": "Barót",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/barot-varosi-sportklub-egyesulet/20609"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-b7zu2s": {
+    "seedId": "seed-ht-b7zu2s",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/bastya-sportklub/20914",
+        "discoveredAt": "2026-09-26T19:42:32.034Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Bástya Sportklub",
+      "address": "Szárhegy",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/bastya-sportklub/20914"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-gnz5iu": {
+    "seedId": "seed-ht-gnz5iu",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/bgk-sportegyesulet-nagyenyed/19879",
+        "discoveredAt": "2026-09-26T19:42:32.035Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Bgk Sportegyesület Nagyenyed",
+      "address": "Nagyenyed",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/bgk-sportegyesulet-nagyenyed/19879"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-kzetcs": {
+    "seedId": "seed-ht-kzetcs",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csikfalva-millenium-sportklub/21565",
+        "discoveredAt": "2026-09-26T19:42:32.035Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Csíkfalva Millenium Sportklub",
+      "address": "Csíkfalva",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csikfalva-millenium-sportklub/21565"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-wfclvy": {
+    "seedId": "seed-ht-wfclvy",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csiki-jegkorong-onkormanyzati-fejlesztesi-tarsulas/20798",
+        "discoveredAt": "2026-09-26T19:42:32.035Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "ice-sports",
+    "initialFacts": {
+      "name": "Csíki Jégkorong Önkormányzati Fejlesztési Társulás",
+      "address": "Karcfalva",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csiki-jegkorong-onkormanyzati-fejlesztesi-tarsulas/20798"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-fvdojp": {
+    "seedId": "seed-ht-fvdojp",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csikpalfalva-kozseg-sportklub-egyesulet/21083",
+        "discoveredAt": "2026-09-26T19:42:32.035Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Csíkpálfalva Község Sportklub Egyesület",
+      "address": "Csíkpálfalva",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csikpalfalva-kozseg-sportklub-egyesulet/21083"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-3gmvsj": {
+    "seedId": "seed-ht-3gmvsj",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csikszentimrei-toviske-sportklub/21275",
+        "discoveredAt": "2026-09-26T19:42:32.035Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Csikszentimrei Töviske Sportklub",
+      "address": "Csíkszentimre",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csikszentimrei-toviske-sportklub/21275"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-soralg": {
+    "seedId": "seed-ht-soralg",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csomafalvi-delhegy-sportklub/20804",
+        "discoveredAt": "2026-09-26T19:42:32.035Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Csomafalvi Délhegy Sportklub",
+      "address": "Gyergyócsomafalva",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/csomafalvi-delhegy-sportklub/20804"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-szx0dq": {
+    "seedId": "seed-ht-szx0dq",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/extreme-sportklub-egyesulet/21112",
+        "discoveredAt": "2026-09-26T19:42:32.035Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Extreme Sportklub Egyesület",
+      "address": "Tusnádfürdő",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/extreme-sportklub-egyesulet/21112"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-uakzz2": {
+    "seedId": "seed-ht-uakzz2",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/fejer-sportklub/21271",
+        "discoveredAt": "2026-09-26T19:42:32.035Z"
+      },
+      {
+        "sourceId": "ht-ro-civilportal-database",
+        "url": "https://civilportal.ro/alapitvanyok/fejer-sportklub-szekelyudvarhely/",
+        "discoveredAt": "2026-09-26T19:42:33.695Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Fejér Sportklub",
+      "address": "Székelyudvarhely",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/fejer-sportklub/21271"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-9148ki": {
+    "seedId": "seed-ht-9148ki",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/fiatfalvi-sportegyesulet/21332",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Fiatfalvi Sportegyesület",
+      "address": "Székelykeresztúr",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/fiatfalvi-sportegyesulet/21332"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-fne3jy": {
+    "seedId": "seed-ht-fne3jy",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/fudoshin-sportklub-szekelykeresztur/21105",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "martial",
+    "initialFacts": {
+      "name": "Fudoshin Sportklub Székelykeresztúr",
+      "address": "Székelykeresztúr",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/fudoshin-sportklub-szekelykeresztur/21105"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-351a6f": {
+    "seedId": "seed-ht-351a6f",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/gobek-a-sportert-egyesulet-sportegyesulet/21194",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      },
+      {
+        "sourceId": "ht-ro-civilportal-database",
+        "url": "https://civilportal.ro/alapitvanyok/gobek-a-sportert-egyesulet-sportegyesulet-szekelyudvarhely/",
+        "discoveredAt": "2026-09-26T19:42:33.695Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Góbék A Sportért Egyesület Sportegyesület",
+      "address": "Székelyudvarhely",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/gobek-a-sportert-egyesulet-sportegyesulet/21194"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-q5eaz7": {
+    "seedId": "seed-ht-q5eaz7",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/gyimesi-kulturalis-es-sportegyesulet/20777",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Gyimesi Kulturális és Sportegyesület",
+      "address": "Gyimesfelsőlok",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/gyimesi-kulturalis-es-sportegyesulet/20777"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-cc9t7r": {
+    "seedId": "seed-ht-cc9t7r",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/h-c-csikszereda-sportklub/21111",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "H.C. Csíkszereda Sportklub",
+      "address": "Csíkszereda",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/h-c-csikszereda-sportklub/21111"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-y8cceg": {
+    "seedId": "seed-ht-y8cceg",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/hal-kan-sportegyesulet/21523",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Hal-Kan Sportegyesület",
+      "address": "Nyárádgálfalva",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/hal-kan-sportegyesulet/21523"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-ufu6fs": {
+    "seedId": "seed-ht-ufu6fs",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/hargita-offroad-sportklub/21302",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Hargita Offroad Sportklub",
+      "address": "Székelyudvarhely",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/hargita-offroad-sportklub/21302"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-kzobxz": {
+    "seedId": "seed-ht-kzobxz",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/imperial-wet-sportklub/21146",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Imperial Wet Sportklub",
+      "address": "Csíkszereda",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/imperial-wet-sportklub/21146"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-keav7h": {
+    "seedId": "seed-ht-keav7h",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/katorzsa-sportklub-egyesulet/20845",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Katorzsa Sportklub Egyesület",
+      "address": "Gyergyóújfalu",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/katorzsa-sportklub-egyesulet/20845"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-9qg4aj": {
+    "seedId": "seed-ht-9qg4aj",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/kavalliera-sportegyesulet/20946",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Kavalliera Sportegyesület",
+      "address": "Csíkszentgyörgy",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/kavalliera-sportegyesulet/20946"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-4owuf7": {
+    "seedId": "seed-ht-4owuf7",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/kereszthegy-sportklub-egyesulet/20923",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Kereszthegy Sportklub Egyesület",
+      "address": "Gyergyóremete",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/kereszthegy-sportklub-egyesulet/20923"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-q3gzcr": {
+    "seedId": "seed-ht-q3gzcr",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/kiralypingvinek-jegkorong-klub-sportszervezetenek-egyesulete/20610",
+        "discoveredAt": "2026-09-26T19:42:32.036Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "ice-sports",
+    "initialFacts": {
+      "name": "Királypingvinek Jégkorong Klub Sportszervezetének Egyesülete",
+      "address": "Sepsiszentgyörgy",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/kiralypingvinek-jegkorong-klub-sportszervezetenek-egyesulete/20610"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-ltdt8l": {
+    "seedId": "seed-ht-ltdt8l",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/lobogo-sportklub-egyesulet/20925",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Lobogó Sportklub Egyesület",
+      "address": "Szentegyháza",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/lobogo-sportklub-egyesulet/20925"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-cphbfo": {
+    "seedId": "seed-ht-cphbfo",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/lofo-lovas-hagyomanyorzo-es-sportegyesulet/20752",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Lofo Lovas Hagyományörző és Sportegyesület",
+      "address": "Farkaslaka",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/lofo-lovas-hagyomanyorzo-es-sportegyesulet/20752"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-voxe1w": {
+    "seedId": "seed-ht-voxe1w",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/losonczy-istvan-hagyomanyorzo-es-sportegyesulet/21860",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Losonczy István Hagyományőrző És Sportegyesület",
+      "address": "Temesvár",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/losonczy-istvan-hagyomanyorzo-es-sportegyesulet/21860"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-7kbo83": {
+    "seedId": "seed-ht-7kbo83",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/marefalvi-sportklub/20941",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Máréfalvi Sportklub",
+      "address": "Máréfalva",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/marefalvi-sportklub/20941"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-xk2iv7": {
+    "seedId": "seed-ht-xk2iv7",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/medvenyelv-sportegyesulet/20854",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Medvenyelv Sportegyesület",
+      "address": "Máréfalva",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/medvenyelv-sportegyesulet/20854"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-2kyfgn": {
+    "seedId": "seed-ht-2kyfgn",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/nyarad-sportegyesulet/21511",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Nyárád Sportegyesület",
+      "address": "Nyárádremete",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/nyarad-sportegyesulet/21511"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-bcnide": {
+    "seedId": "seed-ht-bcnide",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/nyarad-varosi-sportegyesulet/21566",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Nyárád Városi Sportegyesület",
+      "address": "Nyárádszereda",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/nyarad-varosi-sportegyesulet/21566"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-vcsb5e": {
+    "seedId": "seed-ht-vcsb5e",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/nyaradballoon-sky-team-sportegyesulet/21512",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Nyárádballoon Sky Team Sportegyesület",
+      "address": "Nyárádremete",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/nyaradballoon-sky-team-sportegyesulet/21512"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-9ypd8u": {
+    "seedId": "seed-ht-9ypd8u",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/partiumi-kereszteny-egyetem-sportklubja/20026",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Partiumi Keresztény Egyetem Sportklubja",
+      "address": "Nagyvárad",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/partiumi-kereszteny-egyetem-sportklubja/20026"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-fmh4ni": {
+    "seedId": "seed-ht-fmh4ni",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/powerhuni-team-sportklub/21071",
+        "discoveredAt": "2026-09-26T19:42:32.037Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Powerhuni Team Sportklub",
+      "address": "Csíkszereda",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/powerhuni-team-sportklub/21071"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-x4ec3o": {
+    "seedId": "seed-ht-x4ec3o",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/remetei-lovas-sportklub/20875",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Remetei Lovas Sportklub",
+      "address": "Gyergyóremete",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/remetei-lovas-sportklub/20875"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-kpah3o": {
+    "seedId": "seed-ht-kpah3o",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/senshi-sportklub/21294",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "martial",
+    "initialFacts": {
+      "name": "Senshi Sportklub",
+      "address": "Gyergyószentmiklós",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/senshi-sportklub/21294"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-vcqivt": {
+    "seedId": "seed-ht-vcqivt",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/sicul-baschet-sportegyesulet/20414",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Sicul Baschet Sportegyesület",
+      "address": "Kovászna",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/sicul-baschet-sportegyesulet/20414"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-n278v0": {
+    "seedId": "seed-ht-n278v0",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/siraly-sportegyesulet/20933",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Sirály Sportegyesület",
+      "address": "Székelyudvarhely",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/siraly-sportegyesulet/20933"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-u2bzi3": {
+    "seedId": "seed-ht-u2bzi3",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/squash-kovaszna-sportklub-egyesulet/20637",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Squash Kovászna Sportklub Egyesület",
+      "address": "Árkos",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/squash-kovaszna-sportklub-egyesulet/20637"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-2aeoxx": {
+    "seedId": "seed-ht-2aeoxx",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/sugo-bacon-sportegyesulet/20685",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Sugó Bacon Sportegyesület",
+      "address": "Nagybacon",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/sugo-bacon-sportegyesulet/20685"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-aexaok": {
+    "seedId": "seed-ht-aexaok",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/sulisport-sportegyesulet/20643",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Sulisport Sportegyesület",
+      "address": "Barót",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/sulisport-sportegyesulet/20643"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-2zrrgz": {
+    "seedId": "seed-ht-2zrrgz",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szatmari-tenisz-klub-csikszereda/21148",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Szatmári Tenisz Klub Csíkszereda",
+      "address": "Csíkszereda",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szatmari-tenisz-klub-csikszereda/21148"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-d0ip8l": {
+    "seedId": "seed-ht-d0ip8l",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szekelyudvarhelyi-noi-kezilabda-klub/20866",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "handball",
+    "initialFacts": {
+      "name": "Székelyudvarhelyi Női Kézilabda Klub",
+      "address": "Székelyudvarhely",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szekelyudvarhelyi-noi-kezilabda-klub/20866"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-gcsznf": {
+    "seedId": "seed-ht-gcsznf",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szik-baranta-sportegyesulet/20781",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Szik Baranta Sportegyesület",
+      "address": "Farkaslaka",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szik-baranta-sportegyesulet/20781"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-2pa7cw": {
+    "seedId": "seed-ht-2pa7cw",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szirtisas-ijasz-sportklub-egyesulet/20757",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Szirtisas Ijász Sportklub Egyesület",
+      "address": "Parajd",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szirtisas-ijasz-sportklub-egyesulet/20757"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-3u0q2y": {
+    "seedId": "seed-ht-3u0q2y",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szotyori-olt-sportegyesulet/20527",
+        "discoveredAt": "2026-09-26T19:42:32.038Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Szotyori Olt Sportegyesület",
+      "address": "Sepsiszentgyörgy",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/szotyori-olt-sportegyesulet/20527"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-fzrnkg": {
+    "seedId": "seed-ht-fzrnkg",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/toldy-sportklub/21518",
+        "discoveredAt": "2026-09-26T19:42:32.039Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Toldy Sportklub",
+      "address": "Marossárpatak",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/toldy-sportklub/21518"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-11fjj8": {
+    "seedId": "seed-ht-11fjj8",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/union-sportklub/21125",
+        "discoveredAt": "2026-09-26T19:42:32.039Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Union Sportklub",
+      "address": "Csíkszereda",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/union-sportklub/21125"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-akdi6d": {
+    "seedId": "seed-ht-akdi6d",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/unirea-ermihalyfalvi-sportklub-egyesulet/20062",
+        "discoveredAt": "2026-09-26T19:42:32.039Z"
+      },
+      {
+        "sourceId": "ht-ro-civilportal-database",
+        "url": "https://civilportal.ro/alapitvanyok/unirea-ermihalyfalvi-sportklub-egyesulet-ermihalyfalva/",
+        "discoveredAt": "2026-09-26T19:42:33.695Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Unirea Érmihályfalvi Sportklub Egyesület",
+      "address": "Érmihályfalva",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/unirea-ermihalyfalvi-sportklub-egyesulet/20062"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-e0rlq9": {
+    "seedId": "seed-ht-e0rlq9",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-erdelystat-civil-sport",
+        "url": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/vasgyurok-sportegyesulet/20919",
+        "discoveredAt": "2026-09-26T19:42:32.039Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Vasgyurók Sportegyesület",
+      "address": "Szentegyháza",
+      "contact": {
+        "website": "https://intezmenytar.erdelystat.ro/intezmenyek/romaniai-magyar-civil-szervezetek/vasgyurok-sportegyesulet/20919"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-y1dwab": {
+    "seedId": "seed-ht-y1dwab",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-civilportal-database",
+        "url": "https://civilportal.ro/alapitvanyok/agyagfalvi-lendulet-sportklub-lovete/",
+        "discoveredAt": "2026-09-26T19:42:33.695Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Agyagfalvi Lendület Sportklub",
+      "address": "Lövéte",
+      "contact": {
+        "website": "https://civilportal.ro/alapitvanyok/agyagfalvi-lendulet-sportklub-lovete/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-94tqwy": {
+    "seedId": "seed-ht-94tqwy",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-ro-csikszereda-sportclub",
+        "url": "https://www.sportclub.ro/",
+        "discoveredAt": "2026-09-26T19:42:37.585Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "RO",
+    "activityType": "ice-sports",
+    "initialFacts": {
+      "name": "Csíkszeredai Sportklub",
+      "address": "Csíkszereda",
+      "contact": {
+        "website": "https://www.sportclub.ro/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-uxci36": {
+    "seedId": "seed-ht-uxci36",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-sk-komsport",
+        "url": "https://komsport.eu/",
+        "discoveredAt": "2026-09-26T19:42:38.722Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "SK",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "KOMSPORT — Komáromi sportlétesítmények",
+      "address": "Komárom, Szlovákia",
+      "contact": {
+        "website": "https://komsport.eu/"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
+  },
+  "seed-ht-vjpt82": {
+    "seedId": "seed-ht-vjpt82",
+    "discoveryDate": "2026-09-26",
+    "researchSources": [
+      {
+        "sourceId": "ht-si-lendava-sport-hall",
+        "url": "https://www.lendava.si/vsebina/vecnamenska-sportna-dvorana-z-bazenom",
+        "discoveredAt": "2026-09-26T19:42:44.474Z"
+      }
+    ],
+    "territory": "HATARON-TUL",
+    "camera": "hataron-tul",
+    "countryCode": "SI",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Lendvai többfunkciós sportcsarnok uszodával",
+      "address": "Lendva, Szlovénia",
+      "contact": {
+        "website": "https://www.lendava.si/vsebina/vecnamenska-sportna-dvorana-z-bazenom"
+      }
+    },
+    "confidence": "medium",
+    "status": "pending"
   }
 }
