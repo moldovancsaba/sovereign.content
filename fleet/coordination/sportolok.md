@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → sportolok)
 
-**Gov + school source wave live (2026-09-26T01:24Z).** City/kerület önkormányzat + school directories wired; one-pass 408 candidates; enrich +70 DISCOVERED. Do not declare production-ready. Core still owns `release/sportolok` reconcile. Continue enriching ~298 pending seeds.
+**Directory SSOT shipped (2026-09-26).** `directories/local-governments.json` (BP23+MJV25) + `directories/school-authorities.json` (KIR/SZIR + 60 KK tankerületek); `fair-use:expand-directories` merges verified pages into `sources.json`. Do not declare production-ready. Continue enriching pending seeds.
 
 ## Open checklist (SC)
 

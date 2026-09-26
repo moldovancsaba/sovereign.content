@@ -382,6 +382,18 @@
         "water-polo"
       ],
       "status": "paused"
+    },
+    {
+      "id": "schools-debrecen-hu-hu-debreceni-oktatas",
+      "name": "Debrecen Megyei Jogú Város — iskolák",
+      "url": "https://www.debrecen.hu/hu/debreceni/oktatas/",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "school-sport"
+      ],
+      "status": "active",
+      "fromDirectory": "mjv-debrecen"
     }
   ]
 }

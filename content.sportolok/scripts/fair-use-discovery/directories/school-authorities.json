@@ -1,0 +1,1070 @@
+{
+  "updatedAt": "2026-09-26",
+  "description": "Authoritative school registries + KK tankerületi központ index. Jobs use registries for school-sport discovery; tankerület pages list maintained institutions.",
+  "registries": [
+    {
+      "id": "kir-intezmenytorzs",
+      "name": "KIR — Köznevelési Információs Rendszer intézménytörzs",
+      "authority": "Oktatási Hivatal",
+      "searchUrl": "https://kir.oktatas.hu/kirint.search",
+      "portalUrl": "https://www.oktatas.hu/kozneveles/intezmenykereso/koznevelesi_intezmenykereso",
+      "publicDataUrl": "https://dari.oktatas.hu/kirpub/index",
+      "publicDataNote": "Daily-updated XLSX: Működő köznevelési intézmények / feladatellátási helyek",
+      "covers": [
+        "általános iskola",
+        "gimnázium",
+        "óvoda",
+        "kollégium",
+        "EGYMI"
+      ],
+      "excludes": [
+        "szakképző iskola / technikum after 2020-07 → use SZIR"
+      ],
+      "jobUse": "Primary school directory. Prefer public XLSX download when reachable; otherwise use municipal school list pages from local-governments.json verifiedPages.schools.",
+      "status": "authority"
+    },
+    {
+      "id": "szir-intezmenykereso",
+      "name": "SZIR — Szakképzési Információs Rendszer intézménykereső",
+      "authority": "NSZFH / Oktatási Hivatal",
+      "searchUrl": "https://szir.nive.hu/publikus/intezmeny-kereso",
+      "covers": [
+        "technikum",
+        "szakképző iskola",
+        "szakképzési centrum"
+      ],
+      "jobUse": "Vocational schools not in KIR after 2020.",
+      "status": "authority"
+    },
+    {
+      "id": "kk-tankeruletek-index",
+      "name": "Klebelsberg Központ — Tankerületi Központok",
+      "authority": "Klebelsberg Központ",
+      "indexUrl": "https://kk.gov.hu/tankeruletek",
+      "jobUse": "Index of state school maintainers; each tankerület page lists maintained institutions and contacts.",
+      "status": "authority"
+    }
+  ],
+  "tankeruletek": [
+    {
+      "id": "tankerulet-baja",
+      "name": "Bajai Tankerületi Központ",
+      "slug": "baja",
+      "url": "https://kk.gov.hu/baja",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-balassagyarmat",
+      "name": "Balassagyarmati Tankerületi Központ",
+      "slug": "balassagyarmat",
+      "url": "https://kk.gov.hu/balassagyarmat",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-balatonfured",
+      "name": "Balatonfüredi Tankerületi Központ",
+      "slug": "balatonfured",
+      "url": "https://kk.gov.hu/balatonfured",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-bekescsaba",
+      "name": "Békéscsabai Tankerületi Központ",
+      "slug": "bekescsaba",
+      "url": "https://kk.gov.hu/bekescsaba",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-belsopest",
+      "name": "Belső-Pesti Tankerületi Központ",
+      "slug": "belsopest",
+      "url": "https://kk.gov.hu/belsopest",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN-BUD",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-berettyoujfalu",
+      "name": "Berettyóújfalui Tankerületi Központ",
+      "slug": "berettyoujfalu",
+      "url": "https://kk.gov.hu/berettyoujfalu",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-cegled",
+      "name": "Ceglédi Tankerületi Központ",
+      "slug": "cegled",
+      "url": "https://kk.gov.hu/cegled",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-debrecen",
+      "name": "Debreceni Tankerületi Központ",
+      "slug": "debrecen",
+      "url": "https://kk.gov.hu/debrecen",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-delbuda",
+      "name": "Dél-Budai Tankerületi Központ",
+      "slug": "delbuda",
+      "url": "https://kk.gov.hu/delbuda",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN-BUD",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-delpest",
+      "name": "Dél-Pesti Tankerületi Központ",
+      "slug": "delpest",
+      "url": "https://kk.gov.hu/delpest",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN-BUD",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-dunakeszi",
+      "name": "Dunakeszi Tankerületi Központ",
+      "slug": "dunakeszi",
+      "url": "https://kk.gov.hu/dunakeszi",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-dunaujvaros",
+      "name": "Dunaújvárosi Tankerületi Központ",
+      "slug": "dunaujvaros",
+      "url": "https://kk.gov.hu/dunaujvaros",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-eger",
+      "name": "Egri Tankerületi Központ",
+      "slug": "eger",
+      "url": "https://kk.gov.hu/eger",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-esztergom",
+      "name": "Esztergomi Tankerületi Központ",
+      "slug": "esztergom",
+      "url": "https://kk.gov.hu/esztergom",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-erd",
+      "name": "Érdi Tankerületi Központ",
+      "slug": "erd",
+      "url": "https://kk.gov.hu/erd",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-eszakbudapest",
+      "name": "Észak-Budapesti Tankerületi Központ",
+      "slug": "eszakbudapest",
+      "url": "https://kk.gov.hu/eszakbudapest",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN-BUD",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-eszakpest",
+      "name": "Észak-Pesti Tankerületi Központ",
+      "slug": "eszakpest",
+      "url": "https://kk.gov.hu/eszakpest",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN-BUD",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-gyor",
+      "name": "Győri Tankerületi Központ",
+      "slug": "gyor",
+      "url": "https://kk.gov.hu/gyor",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-gyula",
+      "name": "Gyulai Tankerületi Központ",
+      "slug": "gyula",
+      "url": "https://kk.gov.hu/gyula",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-hajduboszormeny",
+      "name": "Hajdúböszörményi Tankerületi Központ",
+      "slug": "hajduboszormeny",
+      "url": "https://kk.gov.hu/hajduboszormeny",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-hatvan",
+      "name": "Hatvani Tankerületi Központ",
+      "slug": "hatvan",
+      "url": "https://kk.gov.hu/hatvan",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-hodmezovasarhely",
+      "name": "Hódmezővásárhelyi Tankerületi Központ",
+      "slug": "hodmezovasarhely",
+      "url": "https://kk.gov.hu/hodmezovasarhely",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-jaszbereny",
+      "name": "Jászberényi Tankerületi Központ",
+      "slug": "jaszbereny",
+      "url": "https://kk.gov.hu/jaszbereny",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-kaposvar",
+      "name": "Kaposvári Tankerületi Központ",
+      "slug": "kaposvar",
+      "url": "https://kk.gov.hu/kaposvar",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-karcag",
+      "name": "Karcagi Tankerületi Központ",
+      "slug": "karcag",
+      "url": "https://kk.gov.hu/karcag",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-kazincbarcika",
+      "name": "Kazincbarcikai Tankerületi Központ",
+      "slug": "kazincbarcika",
+      "url": "https://kk.gov.hu/kazincbarcika",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-kecskemet",
+      "name": "Kecskeméti Tankerületi Központ",
+      "slug": "kecskemet",
+      "url": "https://kk.gov.hu/kecskemet",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-keletpest",
+      "name": "Kelet-Pesti Tankerületi Központ",
+      "slug": "keletpest",
+      "url": "https://kk.gov.hu/keletpest",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN-BUD",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-kiskoros",
+      "name": "Kiskőrösi Tankerületi Központ",
+      "slug": "kiskoros",
+      "url": "https://kk.gov.hu/kiskoros",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-kisvarda",
+      "name": "Kisvárdai Tankerületi Központ",
+      "slug": "kisvarda",
+      "url": "https://kk.gov.hu/kisvarda",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-kozepbuda",
+      "name": "Közép- Budai Tankerületi Központ",
+      "slug": "kozepbuda",
+      "url": "https://kk.gov.hu/kozepbuda",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN-BUD",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-kozeppest",
+      "name": "Közép-Pesti Tankerületi Központ",
+      "slug": "kozeppest",
+      "url": "https://kk.gov.hu/kozeppest",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN-BUD",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-kulsopest",
+      "name": "Külső-Pesti Tankerületi Központ",
+      "slug": "kulsopest",
+      "url": "https://kk.gov.hu/kulsopest",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN-BUD",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-mateszalka",
+      "name": "Mátészalkai Tankerületi Központ",
+      "slug": "mateszalka",
+      "url": "https://kk.gov.hu/mateszalka",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-mezokovesd",
+      "name": "Mezőkövesdi Tankerületi Központ",
+      "slug": "mezokovesd",
+      "url": "https://kk.gov.hu/mezokovesd",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-miskolc",
+      "name": "Miskolci Tankerületi Központ",
+      "slug": "miskolc",
+      "url": "https://kk.gov.hu/miskolc",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-mohacs",
+      "name": "Mohácsi Tankerületi Központ",
+      "slug": "mohacs",
+      "url": "https://kk.gov.hu/mohacs",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-monor",
+      "name": "Monori Tankerületi Központ",
+      "slug": "monor",
+      "url": "https://kk.gov.hu/monor",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-nagykanizsa",
+      "name": "Nagykanizsai Tankerületi Központ",
+      "slug": "nagykanizsa",
+      "url": "https://kk.gov.hu/nagykanizsa",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-nyiregyhaza",
+      "name": "Nyíregyházi Tankerületi Központ",
+      "slug": "nyiregyhaza",
+      "url": "https://kk.gov.hu/nyiregyhaza",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-papa",
+      "name": "Pápai Tankerületi Központ",
+      "slug": "papa",
+      "url": "https://kk.gov.hu/papa",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-pecs",
+      "name": "Pécsi Tankerületi Központ",
+      "slug": "pecs",
+      "url": "https://kk.gov.hu/pecs",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-salgotarjan",
+      "name": "Salgótarjáni Tankerületi Központ",
+      "slug": "salgotarjan",
+      "url": "https://kk.gov.hu/salgotarjan",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-sarospatak",
+      "name": "Sárospataki Tankerületi Központ",
+      "slug": "sarospatak",
+      "url": "https://kk.gov.hu/sarospatak",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-sarvar",
+      "name": "Sárvári Tankerületi Központ",
+      "slug": "sarvar",
+      "url": "https://kk.gov.hu/sarvar",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-siofok",
+      "name": "Siófoki Tankerületi Központ",
+      "slug": "siofok",
+      "url": "https://kk.gov.hu/siofok",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-sopron",
+      "name": "Soproni Tankerületi Központ",
+      "slug": "sopron",
+      "url": "https://kk.gov.hu/sopron",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-szeged",
+      "name": "Szegedi Tankerületi Központ",
+      "slug": "szeged",
+      "url": "https://kk.gov.hu/szeged",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-szekesfehervar",
+      "name": "Székesfehérvári Tankerületi Központ",
+      "slug": "szekesfehervar",
+      "url": "https://kk.gov.hu/szekesfehervar",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-szekszard",
+      "name": "Szekszárdi Tankerületi Központ",
+      "slug": "szekszard",
+      "url": "https://kk.gov.hu/szekszard",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-szerencs",
+      "name": "Szerencsi Tankerületi Központ",
+      "slug": "szerencs",
+      "url": "https://kk.gov.hu/szerencs",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-szigetszentmiklos",
+      "name": "Szigetszentmiklósi Tankerületi Központ",
+      "slug": "szigetszentmiklos",
+      "url": "https://kk.gov.hu/szigetszentmiklos",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-szigetvar",
+      "name": "Szigetvári Tankerületi Központ",
+      "slug": "szigetvar",
+      "url": "https://kk.gov.hu/szigetvar",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-szolnok",
+      "name": "Szolnoki Tankerületi Központ",
+      "slug": "szolnok",
+      "url": "https://kk.gov.hu/szolnok",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-szombathely",
+      "name": "Szombathelyi Tankerületi Központ",
+      "slug": "szombathely",
+      "url": "https://kk.gov.hu/szombathely",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-tamasi",
+      "name": "Tamási Tankerületi Központ",
+      "slug": "tamasi",
+      "url": "https://kk.gov.hu/tamasi",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-tatabanya",
+      "name": "Tatabányai Tankerületi Központ",
+      "slug": "tatabanya",
+      "url": "https://kk.gov.hu/tatabanya",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-vac",
+      "name": "Váci Tankerületi Központ",
+      "slug": "vac",
+      "url": "https://kk.gov.hu/vac",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-veszprem",
+      "name": "Veszprémi Tankerületi Központ",
+      "slug": "veszprem",
+      "url": "https://kk.gov.hu/veszprem",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "tankerulet-zalaegerszeg",
+      "name": "Zalaegerszegi Tankerületi Központ",
+      "slug": "zalaegerszeg",
+      "url": "https://kk.gov.hu/zalaegerszeg",
+      "kind": "tankeruleti-kozpont",
+      "territory": "HUN",
+      "searchHints": {
+        "schoolListPaths": [
+          "/",
+          "/intezmenyek",
+          "/fenntartott-intezmenyek",
+          "/altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    }
+  ]
+}

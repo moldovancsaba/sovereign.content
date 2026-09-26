@@ -1,0 +1,36 @@
+{
+  "updatedAt": "2026-09-26T17:38:59.278Z",
+  "dryRun": false,
+  "probe": false,
+  "directoryCounts": {
+    "localGovernments": 48,
+    "tankeruletek": 60,
+    "registries": 3
+  },
+  "wouldAdd": 0,
+  "byStatus": {
+    "active": 0,
+    "planned": 0
+  },
+  "probedOk": [],
+  "probedFail": [],
+  "skippedAlready": 23,
+  "addedIds": [],
+  "registryBookmarks": [
+    {
+      "id": "kir-intezmenytorzs",
+      "name": "KIR — Köznevelési Információs Rendszer intézménytörzs",
+      "url": "https://kir.oktatas.hu/kirint.search"
+    },
+    {
+      "id": "szir-intezmenykereso",
+      "name": "SZIR — Szakképzési Információs Rendszer intézménykereső",
+      "url": "https://szir.nive.hu/publikus/intezmeny-kereso"
+    },
+    {
+      "id": "kk-tankeruletek-index",
+      "name": "Klebelsberg Központ — Tankerületi Központok",
+      "url": "https://kk.gov.hu/tankeruletek"
+    }
+  ]
+}
