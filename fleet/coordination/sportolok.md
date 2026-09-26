@@ -668,3 +668,26 @@ Honest limits: magyaruszodak detail pages often only yield locality-level addres
 **Also on main:** merged PR branch fair-use/directories work; `directories/local-governments.json` + `school-authorities.json` present.
 
 **Do not claim production-ready.**
+
+### 2026-09-26 — SC-central / sportolok (hourly tick #2 · 18:00Z fire)
+
+**Ask:** timer delivery `sportolok-tick` at 2026-09-26T18:00:13Z — run standing contract; leave timer subscribed.
+
+**Timer**
+- Still subscribed `sportolok-tick` · `sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc` · delay 3600s · deliveryCount 1
+
+**This tick (live, INGEST_API_KEY present)**
+| Step | Result |
+| --- | --- |
+| `catalog:quality-loop` | **5** PUBLISHED patches (ingest); 6 skip |
+| `fair-use:one-pass` | **skipped** (ran prior hour) |
+| `fair-use:enrich --limit=30` | **+30** DISCOVERED; pending **274→244**; 0 rejected |
+| `catalog:about-curate` / executorIngest | About clarity on `l-research-hun-rl5244` (Bánfalvi Zsigmond) → `patched: true` PUBLISHED |
+
+**MM/SP:** **D:171 | E:6 | P:8** (D cumulative fair-use ingested; E = quality+about this tick; P prior)
+
+**openDebt:** `release/sportolok` core reconcile · **244** pending seeds · tankerület extractor still missing
+
+**Blockers:** none this tick. source-state.json unchanged (one-pass skipped).
+
+**Do not claim production-ready.**

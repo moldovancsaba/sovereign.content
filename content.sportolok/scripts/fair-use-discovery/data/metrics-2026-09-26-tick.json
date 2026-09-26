@@ -1,36 +1,45 @@
 {
-  "updatedAt": "2026-09-26T18:14:59Z",
+  "updatedAt": "2026-09-26T18:17:52Z",
   "job": "sportolok-tick",
   "timer": {
     "name": "sportolok-tick",
     "subscriptionId": "sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc",
-    "delaySeconds": 3600
+    "delaySeconds": 3600,
+    "firedAt": "2026-09-26T18:00:13Z",
+    "deliveryCount": 1
   },
   "qualityLoop": {
+    "scanned": 11,
+    "belowThreshold": 8,
     "patched": 5,
-    "skipped": 4
-  },
-  "onePass": {
-    "sourcesProcessed": 29,
-    "candidates": 418,
-    "pendingAfter": 299
-  },
-  "enrich": {
-    "limit": 25,
-    "ingested": 25,
-    "rejected": 0,
+    "skipped": 6,
     "errors": 0
   },
+  "onePass": {
+    "skipped": true,
+    "reason": "ran prior hour; this delivery drained enrich instead"
+  },
+  "enrich": {
+    "limit": 30,
+    "pendingBefore": 274,
+    "ingested": 30,
+    "rejected": 0,
+    "errors": 0,
+    "remaining": 244
+  },
   "executorIngest": {
-    "listingId": "l-research-hun-exwfxp",
+    "listingId": "l-research-hun-rl5244",
+    "name": "Bánfalvi Zsigmond Járási Tanuszoda",
     "field": "description",
+    "reason": "catalog-about-curate:clarity_improve",
+    "scoreBefore": 40,
     "patched": true,
     "lifecycleState": "PUBLISHED"
   },
   "catalog": {
     "seedsTotal": 415,
-    "seedsPending": 274,
-    "seedsIngested": 141,
+    "seedsPending": 244,
+    "seedsIngested": 171,
     "activityMix": {
       "school-sport": 155,
       "swimming": 152,
@@ -46,9 +55,9 @@
     }
   },
   "mmsp": {
-    "D": 141,
+    "D": 171,
     "E": 6,
     "P": 8,
-    "note": "D=cumulative fair-use DISCOVERED; E=this-tick About/quality patches via ingest; P unchanged prior"
+    "note": "D=cumulative fair-use DISCOVERED; E=this-tick quality(5)+about(1) via ingest; P unchanged prior"
   }
 }

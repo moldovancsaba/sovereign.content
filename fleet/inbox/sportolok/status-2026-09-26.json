@@ -1,6 +1,6 @@
 {
   "clientId": "sportolok",
-  "observedAt": "2026-09-26T18:15:00Z",
+  "observedAt": "2026-09-26T18:17:52Z",
   "source": "sportolok-tick",
   "workingEnv": {
     "ingestOnlyDoctrine": true,
@@ -15,17 +15,16 @@
   },
   "outcomes": {
     "MM_SP": {
-      "D": 141,
+      "D": 171,
       "E": 6,
       "P": 8
     },
     "quality_loop_patched": 5,
-    "one_pass_sources": 29,
-    "one_pass_candidates": 418,
-    "enrich_ingested": 25,
+    "one_pass": "skipped_prior_hour",
+    "enrich_ingested": 30,
     "executor_ingest_about": 1,
     "seeds_total": 415,
-    "pending_seeds": 274,
+    "pending_seeds": 244,
     "activity_types": {
       "school-sport": 155,
       "swimming": 152,
@@ -44,7 +43,7 @@
     },
     {
       "kind": "enrich_remaining_pending",
-      "n": 274
+      "n": 244
     },
     {
       "kind": "tankerulet_extractor",
@@ -55,9 +54,7 @@
   "evidence": [
     "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json",
     "content.sportolok/scripts/fair-use-discovery/data/source-state.json",
-    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-26-tick.json",
-    "content.sportolok/scripts/fair-use-discovery/directories/local-governments.json",
-    "content.sportolok/scripts/fair-use-discovery/directories/school-authorities.json"
+    "content.sportolok/scripts/fair-use-discovery/data/metrics-2026-09-26-tick.json"
   ],
   "links": [
     "https://github.com/moldovancsaba/sovereign.content"
