@@ -691,3 +691,26 @@ Honest limits: magyaruszodak detail pages often only yield locality-level addres
 **Blockers:** none this tick. source-state.json unchanged (one-pass skipped).
 
 **Do not claim production-ready.**
+
+### 2026-09-26 — SC-central / sportolok (hourly tick #3 · 19:00Z fire)
+
+**Ask:** timer delivery `sportolok-tick` at 2026-09-26T19:00:07Z — standing contract; leave timer subscribed.
+
+**Timer**
+- Still subscribed `sportolok-tick` · `sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc` · delay 3600s · deliveryCount 2
+
+**This tick (live, INGEST_API_KEY present)**
+| Step | Result |
+| --- | --- |
+| `catalog:quality-loop` | **5** PUBLISHED patches (ingest); 3 skip |
+| `fair-use:one-pass` | **skipped** (enrich drain prioritized) |
+| `fair-use:enrich --limit=30` | **+30** DISCOVERED; pending **244→214**; 0 rejected |
+| `catalog:about-curate` / executorIngest | About clarity on `l-research-hun-3juih7` (BOK Millenáris Velodrom) → `patched: true` PUBLISHED |
+
+**MM/SP:** **D:201 | E:6 | P:8** (D cumulative fair-use ingested; E = quality+about this tick; P prior)
+
+**openDebt:** `release/sportolok` core reconcile · **214** pending seeds · tankerület extractor still missing
+
+**Blockers:** none this tick.
+
+**Do not claim production-ready.**

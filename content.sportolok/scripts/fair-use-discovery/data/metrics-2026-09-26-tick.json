@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-09-26T18:17:52Z",
+  "updatedAt": "2026-09-26T19:01:37Z",
   "job": "sportolok-tick",
   "timer": {
     "name": "sportolok-tick",
     "subscriptionId": "sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc",
     "delaySeconds": 3600,
-    "firedAt": "2026-09-26T18:00:13Z",
-    "deliveryCount": 1
+    "firedAt": "2026-09-26T19:00:07Z",
+    "deliveryCount": 2
   },
   "qualityLoop": {
-    "scanned": 11,
+    "scanned": 8,
     "belowThreshold": 8,
     "patched": 5,
-    "skipped": 6,
+    "skipped": 3,
     "errors": 0
   },
   "onePass": {
     "skipped": true,
-    "reason": "ran prior hour; this delivery drained enrich instead"
+    "reason": "pending enrich drain prioritized (214 remaining after this tick)"
   },
   "enrich": {
     "limit": 30,
-    "pendingBefore": 274,
+    "pendingBefore": 244,
     "ingested": 30,
     "rejected": 0,
     "errors": 0,
-    "remaining": 244
+    "remaining": 214
   },
   "executorIngest": {
-    "listingId": "l-research-hun-rl5244",
-    "name": "Bánfalvi Zsigmond Járási Tanuszoda",
+    "listingId": "l-research-hun-3juih7",
+    "name": "BOK Millenáris Velodrom",
     "field": "description",
     "reason": "catalog-about-curate:clarity_improve",
     "scoreBefore": 40,
@@ -38,8 +38,8 @@
   },
   "catalog": {
     "seedsTotal": 415,
-    "seedsPending": 244,
-    "seedsIngested": 171,
+    "seedsPending": 214,
+    "seedsIngested": 201,
     "activityMix": {
       "school-sport": 155,
       "swimming": 152,
@@ -55,7 +55,7 @@
     }
   },
   "mmsp": {
-    "D": 171,
+    "D": 201,
     "E": 6,
     "P": 8,
     "note": "D=cumulative fair-use DISCOVERED; E=this-tick quality(5)+about(1) via ingest; P unchanged prior"
