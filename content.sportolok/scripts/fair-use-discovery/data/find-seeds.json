@@ -4027,7 +4027,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-itth14": {
     "seedId": "seed-hun-itth14",
@@ -4047,7 +4047,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-oj3osl": {
     "seedId": "seed-hun-oj3osl",
@@ -4067,7 +4067,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-49wpre": {
     "seedId": "seed-hun-49wpre",
@@ -4087,7 +4087,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-r49hgz": {
     "seedId": "seed-hun-r49hgz",
@@ -4132,7 +4132,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-tv4y0n": {
     "seedId": "seed-hun-tv4y0n",
@@ -4154,7 +4154,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-g929u3": {
     "seedId": "seed-hun-g929u3",
@@ -4176,7 +4176,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-uobfjd": {
     "seedId": "seed-hun-uobfjd",
@@ -4198,7 +4198,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-z8o6ys": {
     "seedId": "seed-hun-z8o6ys",
@@ -4220,7 +4220,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-l08g44": {
     "seedId": "seed-hun-l08g44",
@@ -4242,7 +4242,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-az9thu": {
     "seedId": "seed-hun-az9thu",
@@ -4264,7 +4264,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-ka2cwu": {
     "seedId": "seed-hun-ka2cwu",
@@ -4286,7 +4286,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-z99krw": {
     "seedId": "seed-hun-z99krw",
