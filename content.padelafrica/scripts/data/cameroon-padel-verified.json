@@ -85,13 +85,14 @@
     "geoSource": "nominatim",
     "geoNote": "Carrefour Golf landmark for Quartier Golf — no street pin or first-party site in the audit",
     "venueModel": "own_premises",
-    "seasonNote": "Hours not listed yet.",
-    "description": "BENDO is a multi-sport club in Quartier Golf, Yaoundé, where current recruitment listings describe padel alongside pickleball, pétanque, lessons and events. A useful lead when mapping Yaoundé padel beyond Elite — neighbourhood pin only, with no public phone, website or court count verified in the audit window. Ask locally before you travel; do not invent contact details.",
-    "primarySourceUrl": "https://cm.linkedin.com/jobs/view/g%C3%A9rant-e-de-club-sportif-at-bendo-4460734449",
-    "secondarySourceUrl": "https://cameroon.mimusjobs.com/job/gerante-de-club-sportif/",
-    "sourceTypes": "Recruitment listings (LinkedIn + local job boards)",
+    "seasonNote": "Hours not published; WhatsApp line from club hiring notices.",
+    "description": "BENDO is a multi-sport club in Quartier Golf, Yaoundé, dedicated to padel, pickleball and pétanque with lessons, tournaments and a published WhatsApp contact from current club hiring notices. A clear Yaoundé recommendation when you want Golf-neighbourhood courts beyond Elite phone-only listings. Message ahead — no first-party website or rooftop street pin in this pass.",
+    "primarySourceUrl": "https://sportsjobsfinder.com/job/gerante-de-club-sportif/",
+    "secondarySourceUrl": "https://cm.jobiglo.com/emploi-gerante-de-club-sportif-j-6a9a5415a8f4324baa0afb70",
+    "sourceTypes": "BENDO club hiring notices (Quartier Golf Yaoundé + WhatsApp 691777657)",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Thin directory-style seed — hiring signal only; no invented contact"
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "FIND tick 2026-09-26 phone backfill from WA on hiring posts; still Medium — no street beyond Quartier Golf.",
+    "phone": "+237 691 777 657"
   }
 ]

@@ -95,5 +95,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Contact Tel +248 43 94 000; Padel Lands lists same phone"
+  },
+  {
+    "recordId": "SYC-VEN-005",
+    "name": "Club Med Seychelles Padel",
+    "city": "Sainte Anne Island",
+    "region": "Inner Islands",
+    "countryCode": "SC",
+    "line1": "Club Med Seychelles, Sainte Anne Island (ferry from Victoria / Mahé)",
+    "lat": -4.6059735,
+    "lng": 55.5042448,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Île Sainte-Anne island pin — resort campus not rooftop-geocoded",
+    "website": "https://www.clubmed.fr/r/seychelles/y",
+    "phone": "+248 4 399 600",
+    "email": "daypass-seychelles@clubmed.com",
+    "venueModel": "resort",
+    "seasonNote": "Guest padel initiation from age 6; day-pass access subject to availability — contact resort.",
+    "description": "Club Med Seychelles on Sainte Anne Island publishes padel courts (four listed in directory coverage) with a resort phone and day-pass contact. A clear Seychelles recommendation beyond Eden Island, Labriz Bel Ombre, Kempinski Baie Lazare and Cheval Blanc Intendance when you want Sainte Anne Marine Park resort courts. Call for day-pass or guest access — ferry from Victoria required.",
+    "primarySourceUrl": "https://factsheets.clubmed/en-us/factsheet_seyc.pdf",
+    "secondarySourceUrl": "https://padellands.com/en/accommodation-with-padel-courts/club-med-seychelles/",
+    "sourceTypes": "Club Med Seychelles factsheet (padel initiation); Club Med day-pass phone/email; Padel Lands resort listing (4 courts)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "FIND tick 2026-09-26."
   }
 ]

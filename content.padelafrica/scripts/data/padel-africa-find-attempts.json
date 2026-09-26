@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T08:25:52Z",
+  "updatedAt": "2026-09-26T09:12:45Z",
   "attempts": [
     {
       "cc": "CF",
@@ -1919,6 +1919,90 @@
       "query": "PADEL G24 Arroyomolinos fair-use",
       "outcome": "rejected",
       "note": "Spain outside Africa"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "TZ",
+      "query": "EARSC Moyo Kawe Tuari Road",
+      "outcome": "seeded",
+      "recordId": "TZA-VEN-009"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "SC",
+      "query": "Club Med Seychelles Sainte Anne padel",
+      "outcome": "seeded",
+      "recordId": "SYC-VEN-005"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "CD",
+      "query": "River Padel Avenue de la Mission phone fill",
+      "outcome": "verified",
+      "recordId": "COD-VEN-004"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "CM",
+      "query": "BENDO Yaoundé Golf WhatsApp fill",
+      "outcome": "verified",
+      "recordId": "CMR-VEN-005"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "TG",
+      "query": "Padel Family Club Rue 152 AFG fill",
+      "outcome": "verified",
+      "recordId": "TGO-VEN-002"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "BW",
+      "query": "District 267 Gaborone",
+      "outcome": "skipped",
+      "note": "phone only — no street address on first-party site"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "TZ",
+      "query": "EARSC Heaven of Peace Masaki padel",
+      "outcome": "skipped",
+      "note": "pickleball event evidence; padel courts not confirmed"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "MZ",
+      "query": "Play Padel COOP Maputo",
+      "outcome": "skipped",
+      "note": "street Coop named but no published phone this pass"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "DZ",
+      "query": "Padel Impact Bay One Algiers",
+      "outcome": "skipped",
+      "note": "under-development network mention — no street+phone"
+    },
+    {
+      "at": "2026-09-26T09:20:00Z",
+      "countryCode": "GH",
+      "query": "Accra deepen Aura Clan Padel Club",
+      "outcome": "skipped_duplicate",
+      "note": "already GHA-VEN-001..006"
+    },
+    {
+      "at": "2026-09-26T09:15:00Z",
+      "countryCode": "ZA",
+      "query": "Gonubie Padel fair-use promote",
+      "outcome": "seeded",
+      "recordId": "ZAF-VEN-020"
+    },
+    {
+      "at": "2026-09-26T09:15:00Z",
+      "countryCode": "ZA",
+      "query": "Action Padel Century City fair-use promote",
+      "outcome": "seeded",
+      "recordId": "ZAF-VEN-021"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-26T08:35:00Z",
+  "observedAt": "2026-09-26T09:25:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 35,
+    "fairUsePassCount": 36,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,40 +22,38 @@
     "managementReleaseEqualsMain": true
   },
   "outcomes": {
-    "qualityLoopScanned": 246,
+    "qualityLoopScanned": 254,
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
-    "fairUsePass": 35,
+    "fairUsePass": 36,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "MWI-VEN-005",
-      "NAM-VEN-007",
-      "ZMB-VEN-009",
-      "ZMB-VEN-010",
-      "TUN-VEN-015",
-      "TUN-VEN-016",
-      "TUN-VEN-017",
-      "ZAF-VEN-019"
+      "TZA-VEN-009",
+      "SYC-VEN-005",
+      "ZAF-VEN-020",
+      "ZAF-VEN-021"
     ],
     "findPhoneBackfill": [
-      "MWI-VEN-001",
-      "KEN-VEN-001",
-      "KEN-VEN-002"
+      "COD-VEN-004",
+      "CMR-VEN-005",
+      "TGO-VEN-002"
     ],
     "findBookingUrlBackfill": [],
-    "findSkippedDuplicate": [],
-    "findZeroResult": [
-      "RW Kigali deepen beyond Bounce/Mamba",
-      "UG Lubowa/Bugolobi launch-stage",
-      "CM Padel Business Center ambiguous",
-      "TN Museal shop not courts"
+    "findSkippedDuplicate": [
+      "GH Accra deepen already seeded"
     ],
-    "ingestDiscoveredOk": 11,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T08.json",
+    "findZeroResult": [
+      "BW District 267 no street",
+      "TZ Heaven of Peace pickleball-only",
+      "MZ Play Padel COOP no phone",
+      "DZ Padel Impact/Bay One under development"
+    ],
+    "ingestDiscoveredOk": 7,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-26T09.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "08:12 tick: Hashtag Blantyre; LivPadel SKW; Atlético Lusaka; Fallsway; Eleven/Just Sfax; Padel Marsa; Symbezi fair-use promote. Phone backfill Pulse Park, Ace, Padel254. Rejected UK Wembley + Spain G24. Not claiming PUBLISHED."
+    "note": "09:03 tick: EARSC Moyo Kawe; Club Med Sainte Anne; Gonubie + Action Century City fair-use promotes. Backfill River Padel, BENDO WhatsApp, Padel Family Rue 152. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [

@@ -196,5 +196,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Evidence: padelcentretz.com Ryan's Bay Mwanza + same booking phone; Nominatim Ryan's Bay Hotel / Capri Point."
+  },
+  {
+    "recordId": "TZA-VEN-009",
+    "name": "EARSC Moyo Kawe Padel",
+    "city": "Dar es Salaam",
+    "region": "Dar es Salaam",
+    "countryCode": "TZ",
+    "line1": "Tuari Road, Kawe Beach (Moyo Kawe)",
+    "lat": -6.7321363,
+    "lng": 39.2353415,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Tuari Road Kawe / Mbezi street corridor pin",
+    "website": "https://earsportsclub.com/",
+    "phone": "+255 658 322 244",
+    "email": "info@earsportsclub.com",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Book via EARSC app; shared switchboard with Gymkhana / Heaven of Peace branches.",
+    "description": "EARSC Moyo Kawe adds two padel courts on Tuari Road at Kawe Beach, bookable through the EARSC app with a published club phone. A clear Dar es Salaam north-coast recommendation beyond Slipway, Masaki PSA and Gymkhana Kisutu. Reserve in the EARSC app or call ahead — Heaven of Peace Masaki remains pickleball-led in this pass.",
+    "primarySourceUrl": "https://earsportsclub.com/NewsItem.aspx?id=d4f40f4963ad13530111be3098647540",
+    "secondarySourceUrl": "https://earsportsclub.com/",
+    "sourceTypes": "EARSC news (Moyo Kawe 2 padel courts + Tuari Road); EARSC contact (0658322244 / info@)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "FIND tick 2026-09-26. Skipped Heaven of Peace Masaki as padel courts not evidenced (pickleball event listing)."
   }
 ]

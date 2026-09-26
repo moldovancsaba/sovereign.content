@@ -762,3 +762,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - RW Kigali deepen / UG Lubowa launch / CM Business Center ambiguous / TN Museal shop → skipped
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-26 — padelafrica (tick ~09:03–09:25 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 254 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 36 (28 sources). **Promoted** Gonubie Padel → `ZAF-VEN-020`; Action Padel Century City → `ZAF-VEN-021`. `needs_verify` cleared.
+
+**FIND:**
+- TZ Kawe Beach → **`TZA-VEN-009` EARSC Moyo Kawe Padel** DISCOVERED
+- SC Sainte Anne → **`SYC-VEN-005` Club Med Seychelles Padel** DISCOVERED
+- ZA East London / Century City → **`ZAF-VEN-020` Gonubie Padel** + **`ZAF-VEN-021` Action Padel Century City** DISCOVERED (fair-use)
+- Phone/address backfill → `COD-VEN-004` River Padel, `CMR-VEN-005` BENDO, `TGO-VEN-002` Padel Family Rue 152
+- BW District 267 / TZ Heaven of Peace pickleball / MZ Play Padel COOP / DZ under-dev → skipped
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
