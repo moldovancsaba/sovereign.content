@@ -20,7 +20,10 @@ Based on `content.classscout/scripts/rqk-fair-use` proven pattern.
 ### Data Flow
 
 ```
-sources.json (registry)
+directories/local-governments.json   ← what gov sites to search (BP 23 + MJV 25)
+directories/school-authorities.json  ← KIR / SZIR / KK tankerületek (60)
+    ↓ expand-directories.ts
+sources.json (crawl registry)
     ↓
 one-pass.ts (crawler)
     ↓ extract facts
@@ -29,12 +32,26 @@ lib/hungarianExtract.ts
 lib/seedBuilder.ts
     ↓
 data/find-seeds.json (queue)
-    ↓ [future: enrichment agent]
+    ↓ enrich-seeds.ts
 ingest API → sport.doneisbetter.com
 ```
 
+## Directories (SSOT for “what to search”)
+
+| File | Contents | Job use |
+| --- | --- | --- |
+| `directories/local-governments.json` | 23 Budapest kerületek + 25 megyei jogú város — official website, path hints, `verifiedPages` | Expand → sport/school sources |
+| `directories/school-authorities.json` | KIR + SZIR registry bookmarks + 60 KK tankerületi központ URLs | Expand → planned school sources; agents use KIR XLSX when reachable |
+
+Authoritative school registries (not invented lists):
+- **KIR** — `https://kir.oktatas.hu/kirint.search` + public XLSX at `https://dari.oktatas.hu/kirpub/index`
+- **SZIR** — vocational schools: `https://szir.nive.hu/publikus/intezmeny-kereso`
+- **KK tankerületek** — `https://kk.gov.hu/tankeruletek`
+
 ## Files
 
+- **`directories/*.json`** - Local-government + school-authority directories
+- **`expand-directories.ts`** - Directory → `sources.json` merger (`--probe` optional)
 - **`sources.json`** - Source registry with cooldowns and territories
 - **`one-pass.ts`** - Main crawler (one page per source per pass)
 - **`lib/common.ts`** - Shared types, polite HTTP, rate-limit helpers
@@ -43,8 +60,20 @@ ingest API → sport.doneisbetter.com
 - **`lib/sources/genericDirectory.ts`** - Generic directory processor
 - **`data/source-state.json`** - Last-fetch timestamps (auto-created)
 - **`data/find-seeds.json`** - Pending enrichment queue (auto-created)
+- **`data/directory-expansion.json`** - Last expand report
 
 ## Usage
+
+### Expand directories into sources
+
+```bash
+# Merge verifiedPages + tankerületek into sources.json (no network)
+npm run fair-use:expand-directories:dry
+npm run fair-use:expand-directories
+
+# Optionally probe path hints on official websites (polite, limited)
+npm run fair-use:expand-directories -- --probe --limit=20
+```
 
 ### Dry Run (No Network)
 

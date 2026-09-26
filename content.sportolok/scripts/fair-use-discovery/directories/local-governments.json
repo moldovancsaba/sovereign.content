@@ -1,0 +1,1752 @@
+{
+  "updatedAt": "2026-09-26",
+  "description": "Job-consumable directory of Hungarian local governments for fair-use sport/school discovery. Use expand-directories to turn verifiedPages + path hints into sources.json entries.",
+  "authorityNotes": [
+    "Budapest: 23 kerületi önkormányzat official websites (curated).",
+    "Cities: all 25 megyei jogú város (MJV) from public list.",
+    "verifiedPages = URLs already proven extractable; searchHints = path suffixes to probe on officialWebsite."
+  ],
+  "pathTemplates": {
+    "sport": [
+      "/sport",
+      "/sport/",
+      "/kerulet/sport-mozgas/",
+      "/elet-keruletben/sport",
+      "/sport-intezmenyek/",
+      "/intezmeny-kategoria/sport-szinterek/",
+      "/elet-a-varosban/sport/sportletesitmenyek",
+      "/gyor/sport/letesitmenyek/",
+      "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+      "/varosunk/kozosseg/sport",
+      "/telephelyeink/",
+      "/letesitmenyeink"
+    ],
+    "schools": [
+      "/intezmenyek/iskolak/",
+      "/intezmenyek/oktatas",
+      "/intezmenyek/altalanos-iskola",
+      "/intezmenyek/kozepiskola",
+      "/intezmeny-kategoria/altalanos-iskolak/",
+      "/intezmeny-kategoria/kozepiskolak/",
+      "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+      "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+      "/polgarmesteri-hivatal/altalanos-iskolak/",
+      "/kozintezmenyek-hivatalok/kozepiskolak/",
+      "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+      "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+      "/hu/debreceni/oktatas/",
+      "/elet-keruletben/intezmenyek"
+    ]
+  },
+  "entries": [
+    {
+      "id": "bp-i",
+      "kind": "budapest-district",
+      "label": "Budapest I. kerület — Budavár",
+      "roman": "I",
+      "locality": "Budapest I",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.budavar.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-ii",
+      "kind": "budapest-district",
+      "label": "Budapest II. kerület — II. kerület",
+      "roman": "II",
+      "locality": "Budapest II",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.masodikkerulet.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-iii",
+      "kind": "budapest-district",
+      "label": "Budapest III. kerület — Óbuda-Békásmegyer",
+      "roman": "III",
+      "locality": "Budapest III",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.obuda.hu",
+      "altWebsites": [
+        "https://obudasport.hu"
+      ],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {
+        "sport": [
+          "https://obudasport.hu/letesitmenyeink"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "bp-iv",
+      "kind": "budapest-district",
+      "label": "Budapest IV. kerület — Újpest",
+      "roman": "IV",
+      "locality": "Budapest IV",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://ujpest.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {
+        "sport": [
+          "https://ujpest.hu/sport-intezmenyek/"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "bp-v",
+      "kind": "budapest-district",
+      "label": "Budapest V. kerület — Belváros-Lipótváros",
+      "roman": "V",
+      "locality": "Budapest V",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.belvaros-lipotvaros.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-vi",
+      "kind": "budapest-district",
+      "label": "Budapest VI. kerület — Terézváros",
+      "roman": "VI",
+      "locality": "Budapest VI",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://terezvaros.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-vii",
+      "kind": "budapest-district",
+      "label": "Budapest VII. kerület — Erzsébetváros",
+      "roman": "VII",
+      "locality": "Budapest VII",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://erzsebetvaros.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-viii",
+      "kind": "budapest-district",
+      "label": "Budapest VIII. kerület — Józsefváros",
+      "roman": "VIII",
+      "locality": "Budapest VIII",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://jozsefvaros.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {
+        "sport": [
+          "https://jozsefvaros.hu/otthon/szolgaltatasok-es-intezmenyek/sport-es-mozgas/2022/01/uszodak/"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "bp-ix",
+      "kind": "budapest-district",
+      "label": "Budapest IX. kerület — Ferencváros",
+      "roman": "IX",
+      "locality": "Budapest IX",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.ferencvaros.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-x",
+      "kind": "budapest-district",
+      "label": "Budapest X. kerület — Kőbánya",
+      "roman": "X",
+      "locality": "Budapest X",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.kobanya.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xi",
+      "kind": "budapest-district",
+      "label": "Budapest XI. kerület — Újbuda",
+      "roman": "XI",
+      "locality": "Budapest XI",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://ujbuda.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xii",
+      "kind": "budapest-district",
+      "label": "Budapest XII. kerület — Hegyvidék",
+      "roman": "XII",
+      "locality": "Budapest XII",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.hegyvidek.hu",
+      "altWebsites": [
+        "https://hegyvideksport.hu"
+      ],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {
+        "sport": [
+          "https://hegyvideksport.hu/"
+        ],
+        "schools": [
+          "https://www.hegyvidek.hu/elet-a-hegyvideken/oktatas-neveles/iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xiii",
+      "kind": "budapest-district",
+      "label": "Budapest XIII. kerület — XIII. kerület",
+      "roman": "XIII",
+      "locality": "Budapest XIII",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.budapest13.hu",
+      "altWebsites": [
+        "https://sport13.hu"
+      ],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {
+        "sport": [
+          "https://www.budapest13.hu/intezmeny-kategoria/sport-szinterek/",
+          "https://sport13.hu/telephelyeink/"
+        ],
+        "schools": [
+          "https://www.budapest13.hu/intezmeny-kategoria/altalanos-iskolak/",
+          "https://www.budapest13.hu/intezmeny-kategoria/kozepiskolak/"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xiv",
+      "kind": "budapest-district",
+      "label": "Budapest XIV. kerület — Zugló",
+      "roman": "XIV",
+      "locality": "Budapest XIV",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.zuglo.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xv",
+      "kind": "budapest-district",
+      "label": "Budapest XV. kerület — XV. kerület",
+      "roman": "XV",
+      "locality": "Budapest XV",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://bpxv.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xvi",
+      "kind": "budapest-district",
+      "label": "Budapest XVI. kerület — XVI. kerület",
+      "roman": "XVI",
+      "locality": "Budapest XVI",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.bp16.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {
+        "schools": [
+          "https://www.bp16.hu/intezmenyek/altalanos-iskola",
+          "https://www.bp16.hu/intezmenyek/kozepiskola"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xvii",
+      "kind": "budapest-district",
+      "label": "Budapest XVII. kerület — Rákosmente",
+      "roman": "XVII",
+      "locality": "Budapest XVII",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.rakosmente.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xviii",
+      "kind": "budapest-district",
+      "label": "Budapest XVIII. kerület — Pestszentlőrinc-Pestszentimre",
+      "roman": "XVIII",
+      "locality": "Budapest XVIII",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.bp18.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xix",
+      "kind": "budapest-district",
+      "label": "Budapest XIX. kerület — Kispest",
+      "roman": "XIX",
+      "locality": "Budapest XIX",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.kispest.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xx",
+      "kind": "budapest-district",
+      "label": "Budapest XX. kerület — Pesterzsébet",
+      "roman": "XX",
+      "locality": "Budapest XX",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://pesterzsebet.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {
+        "schools": [
+          "https://pesterzsebet.hu/intezmenyek/iskolak/"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xxi",
+      "kind": "budapest-district",
+      "label": "Budapest XXI. kerület — Csepel",
+      "roman": "XXI",
+      "locality": "Budapest XXI",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.csepel.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xxii",
+      "kind": "budapest-district",
+      "label": "Budapest XXII. kerület — Budafok-Tétény",
+      "roman": "XXII",
+      "locality": "Budapest XXII",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.budafokteteny.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {
+        "schools": [
+          "https://www.budafokteteny.hu/intezmenyek/oktatas"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "bp-xxiii",
+      "kind": "budapest-district",
+      "label": "Budapest XXIII. kerület — Soroksár",
+      "roman": "XXIII",
+      "locality": "Budapest XXIII",
+      "territory": "HUN-BUD",
+      "officialWebsite": "https://www.soroksar.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/kerulet/sport-mozgas/",
+          "/elet-keruletben/sport",
+          "/sport-intezmenyek/",
+          "/intezmeny-kategoria/sport-szinterek/",
+          "/letesitmenyeink",
+          "/telephelyeink/"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/intezmenyek/oktatas",
+          "/intezmenyek/oktatas/",
+          "/intezmenyek/altalanos-iskola",
+          "/intezmenyek/kozepiskola",
+          "/intezmeny-kategoria/altalanos-iskolak/",
+          "/intezmeny-kategoria/kozepiskolak/",
+          "/elet-a-hegyvideken/oktatas-neveles/iskolak",
+          "/elet-keruletben/intezmenyek"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-baja",
+      "kind": "megyei-jogu-varos",
+      "label": "Baja Megyei Jogú Város",
+      "locality": "Baja",
+      "county": "Bács-Kiskun vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.bajavaros.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-bekescsaba",
+      "kind": "megyei-jogu-varos",
+      "label": "Békéscsaba Megyei Jogú Város",
+      "locality": "Békéscsaba",
+      "county": "Békés vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.bekescsaba.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-debrecen",
+      "kind": "megyei-jogu-varos",
+      "label": "Debrecen Megyei Jogú Város",
+      "locality": "Debrecen",
+      "county": "Hajdú-Bihar vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.debrecen.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {
+        "sport": [
+          "https://www.debrecen.hu/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok"
+        ],
+        "schools": [
+          "https://www.debrecen.hu/hu/debreceni/oktatas/"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-dunaujvaros",
+      "kind": "megyei-jogu-varos",
+      "label": "Dunaújváros Megyei Jogú Város",
+      "locality": "Dunaújváros",
+      "county": "Fejér vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.dunaujvaros.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-eger",
+      "kind": "megyei-jogu-varos",
+      "label": "Eger Megyei Jogú Város",
+      "locality": "Eger",
+      "county": "Heves vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.eger.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-esztergom",
+      "kind": "megyei-jogu-varos",
+      "label": "Esztergom Megyei Jogú Város",
+      "locality": "Esztergom",
+      "county": "Komárom-Esztergom vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.esztergom.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-erd",
+      "kind": "megyei-jogu-varos",
+      "label": "Érd Megyei Jogú Város",
+      "locality": "Érd",
+      "county": "Pest vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.erd.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-gyor",
+      "kind": "megyei-jogu-varos",
+      "label": "Győr Megyei Jogú Város",
+      "locality": "Győr",
+      "county": "Győr-Moson-Sopron vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://gyor.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {
+        "sport": [
+          "https://gyor.hu/gyor/sport/letesitmenyek/"
+        ],
+        "schools": [
+          "https://gyor.hu/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-hodmezovasarhely",
+      "kind": "megyei-jogu-varos",
+      "label": "Hódmezővásárhely Megyei Jogú Város",
+      "locality": "Hódmezővásárhely",
+      "county": "Csongrád-Csanád vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.hodmezovasarhely.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-kaposvar",
+      "kind": "megyei-jogu-varos",
+      "label": "Kaposvár Megyei Jogú Város",
+      "locality": "Kaposvár",
+      "county": "Somogy vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.kaposvar.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-kecskemet",
+      "kind": "megyei-jogu-varos",
+      "label": "Kecskemét Megyei Jogú Város",
+      "locality": "Kecskemét",
+      "county": "Bács-Kiskun vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://kecskemet.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {
+        "schools": [
+          "https://kecskemet.hu/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "https://kecskemet.hu/varosunk/oktatas-neveles/kozepiskolak-kollegiumok"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-miskolc",
+      "kind": "megyei-jogu-varos",
+      "label": "Miskolc Megyei Jogú Város",
+      "locality": "Miskolc",
+      "county": "Borsod-Abaúj-Zemplén vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.miskolc.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {
+        "sport": [
+          "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-nagykanizsa",
+      "kind": "megyei-jogu-varos",
+      "label": "Nagykanizsa Megyei Jogú Város",
+      "locality": "Nagykanizsa",
+      "county": "Zala vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.nagykanizsa.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-nyiregyhaza",
+      "kind": "megyei-jogu-varos",
+      "label": "Nyíregyháza Megyei Jogú Város",
+      "locality": "Nyíregyháza",
+      "county": "Szabolcs-Szatmár-Bereg vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.nyiregyhaza.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-pecs",
+      "kind": "megyei-jogu-varos",
+      "label": "Pécs Megyei Jogú Város",
+      "locality": "Pécs",
+      "county": "Baranya vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://pecs.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-salgotarjan",
+      "kind": "megyei-jogu-varos",
+      "label": "Salgótarján Megyei Jogú Város",
+      "locality": "Salgótarján",
+      "county": "Nógrád vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.salgotarjan.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-sopron",
+      "kind": "megyei-jogu-varos",
+      "label": "Sopron Megyei Jogú Város",
+      "locality": "Sopron",
+      "county": "Győr-Moson-Sopron vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.sopron.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-szeged",
+      "kind": "megyei-jogu-varos",
+      "label": "Szeged Megyei Jogú Város",
+      "locality": "Szeged",
+      "county": "Csongrád-Csanád vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.szeged.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-szekesfehervar",
+      "kind": "megyei-jogu-varos",
+      "label": "Székesfehérvár Megyei Jogú Város",
+      "locality": "Székesfehérvár",
+      "county": "Fejér vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.szekesfehervar.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {
+        "schools": [
+          "https://www.szekesfehervar.hu/szekesfehervari-tankerulet-fenntartasaban-mukodo-altalanos-iskolak"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-szekszard",
+      "kind": "megyei-jogu-varos",
+      "label": "Szekszárd Megyei Jogú Város",
+      "locality": "Szekszárd",
+      "county": "Tolna vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.szekszard.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-szolnok",
+      "kind": "megyei-jogu-varos",
+      "label": "Szolnok Megyei Jogú Város",
+      "locality": "Szolnok",
+      "county": "Jász-Nagykun-Szolnok vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.szolnok.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-szombathely",
+      "kind": "megyei-jogu-varos",
+      "label": "Szombathely Megyei Jogú Város",
+      "locality": "Szombathely",
+      "county": "Vas vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.szombathely.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-tatabanya",
+      "kind": "megyei-jogu-varos",
+      "label": "Tatabánya Megyei Jogú Város",
+      "locality": "Tatabánya",
+      "county": "Komárom-Esztergom vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.tatabanya.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-veszprem",
+      "kind": "megyei-jogu-varos",
+      "label": "Veszprém Megyei Jogú Város",
+      "locality": "Veszprém",
+      "county": "Veszprém vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://veszprem.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {
+        "schools": [
+          "https://veszprem.hu/polgarmesteri-hivatal/altalanos-iskolak/",
+          "https://veszprem.hu/kozintezmenyek-hivatalok/kozepiskolak/"
+        ]
+      },
+      "status": "indexed"
+    },
+    {
+      "id": "mjv-zalaegerszeg",
+      "kind": "megyei-jogu-varos",
+      "label": "Zalaegerszeg Megyei Jogú Város",
+      "locality": "Zalaegerszeg",
+      "county": "Zala vármegye",
+      "territory": "HUN",
+      "officialWebsite": "https://www.zalaegerszeg.hu",
+      "altWebsites": [],
+      "searchHints": {
+        "sportPathSuffixes": [
+          "/sport",
+          "/sport/",
+          "/elet-a-varosban/sport/sportletesitmenyek",
+          "/gyor/sport/letesitmenyek/",
+          "/hu/debreceni/aktiv-kikapcsolodas/kategoria/sportcsarnokok",
+          "/varosunk/kozosseg/sport",
+          "/sportletesitmenyek"
+        ],
+        "schoolPathSuffixes": [
+          "/intezmenyek/iskolak/",
+          "/varoshaza/intezmenyek/oktatasi-intezmenyek/iskolak/",
+          "/polgarmesteri-hivatal/altalanos-iskolak/",
+          "/kozintezmenyek-hivatalok/kozepiskolak/",
+          "/varosunk/oktatas-neveles/altalanos-iskolak-es-alapfoku-muveszeti-iskolak",
+          "/varosunk/oktatas-neveles/kozepiskolak-kollegiumok",
+          "/hu/debreceni/oktatas/",
+          "/oktatas/"
+        ]
+      },
+      "verifiedPages": {},
+      "status": "indexed"
+    }
+  ]
+}

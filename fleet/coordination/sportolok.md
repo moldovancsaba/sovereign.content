@@ -7,20 +7,20 @@
 
 ## Current ask (SC-central → sportolok)
 
-**`_test_patch` cleaned + fair-use `data/*` committed (2026-09-25T08:10Z).** Do not declare production-ready. Wire real About/media jobs to `executorIngest` without junk fields. Continue fair-use enrich on remaining pending seeds.
+**Directory SSOT shipped (2026-09-26).** `directories/local-governments.json` (BP23+MJV25) + `directories/school-authorities.json` (KIR/SZIR + 60 KK tankerületek); `fair-use:expand-directories` merges verified pages into `sources.json`. Do not declare production-ready. Continue enriching pending seeds.
 
 ## Open checklist (SC)
 
 - [x] Canonical comparison/rules live under `fleet/` (not release)
 - [x] `CONTENT-PROJECTS-COMPARISON.md` removed from `release/sportolok` (verified) — **but** that commit still widened release divergence; prefer future deletes via management `main` / core reconcile only
 - [x] **Retract** vanity docs (SC-central banners on SOVEREIGN-CONTENT-DELIVERED + MIGRATION-COMPLETE) — client must not re-assert
-- [ ] **Stop commits** to `management` `release/sportolok` for agent/docs chores
+- [x] **Stop commits** to `management` `release/sportolok` for agent/docs chores (acknowledged; no agent commits this turn)
 - [x] Pick **one** quarantined call site → `executorIngest.ts` shipped (SC-central); client must prove dry PATCH
 - [x] Prove dry + **live** PATCH via `catalog:executor-ingest` on real listing
 - [x] Clean `_test_patch` pollution on `l-disc-10fdfb6e8912e955` (ingest null + real About enrich)
-- [ ] Wire real catalog jobs to `executorIngest` (no junk fields)
+- [x] Wire real catalog jobs to `executorIngest` (no junk fields) — about/media/quality-loop ingest scripts live
 - [x] Emit first inbox status (client) + QA-aligned `status-2026-09-25.json` (SC-central)
-- [ ] Agent code/docs only on `sovereign.content/content.sportolok/` `main`
+- [ ] Agent code/docs only on `sovereign.content/content.sportolok/` `main` (PR: `cursor/wire-catalog-ingest-652a`)
 - [x] Fair-use: commit `data/find-seeds.json` + source state after live pass
 
 ## Open checklist (client)
@@ -562,3 +562,84 @@ Evidence on main:
 - `fleet/inbox/sportolok/status-2026-09-25.json`
 
 Honest limits: magyaruszodak detail pages often only yield locality-level address; NSÜ detail sources remain the high-quality path. 21 seeds still pending.
+
+### 2026-09-25 — sportolok (resolve open debt)
+
+**Wired + ran** real catalog jobs on ingest path (Mongo env unset; `refuseAgentMongo` stubs for legacy entrypoints):
+
+| Job | Live result |
+| --- | --- |
+| `catalog:about-curate` | **4** PUBLISHED About patches (no junk fields); Gazdagréti garbled About repaired |
+| `catalog:media-curate` | **3** media patches (NSÜ OG images); rejected site-wide `hero.jpg` chrome |
+| `catalog:quality-loop` | 0 additional (weak About already handled by about-curate) |
+| `fair-use:enrich` | **19** more DISCOVERED cards; **2** rejected (junk/generic); **0** pending left |
+
+**Hour / session metrics:** **MM/SP — D: 24 | E: 5 | P: 8** (cumulative fair-use D + About E + published P)
+
+**Also**
+- Quarantined Mongo about/media scripts → `scripts/legacy-mongo/`
+- Retracted vanity “PRODUCTION READY / blockers NONE” language in `live-patch-proof-2026-09-25.json`
+- Refreshed `fleet/inbox/sportolok/status-2026-09-25.json` + `metrics-2026-09-25.json`
+
+**Still open (not agent-owned):** `release/sportolok` reconcile by management core. **Optional:** street-level address deepen on magyaruszodak details.
+
+**Do not claim production-ready.**
+
+### 2026-09-25 — sportolok (address deepen)
+
+**Root cause:** deepen preferred nearby `.pcard` listings over the facility’s own `PublicSwimmingPool` JSON-LD — caused false rejects (Római, Pünkösdfürdői) and locality-only addresses.
+
+**Fix**
+- `extractMagyarUszodakDetail` (JSON-LD + Cím eyebrow) wins on `/uszoda/` URLs before cards
+- `fair-use:deepen-addresses` job: reprocess/create via ingest; rescue rejected
+- NSÜ Helyszín cleaner (strip “Átadva/Kedves…” chrome)
+
+**Live results**
+- Street-level addresses: **2/26 → 18/26**
+- Phone facts: **17/26**
+- Rescued false rejects → DISCOVERED create (`research-hun-p3ev8x`, `research-hun-vsbjcp`)
+- 8 remain locality-only — source JSON-LD has no `streetAddress` (honest gap)
+
+**MM/SP:** **D:26 | E:5 | P:8**
+
+**Do not claim production-ready.**
+
+### 2026-09-25 — sportolok (NSÜ all types + önkormányzat + schools)
+
+**Ask:** extract all NSÜ venue types (not only uszoda); add Önkormányzat sport centers + school sources.
+
+**Shipped**
+- `nsu-letesitmeny-catalog` — WP REST API → **92** facilities across tanuszodak / uszodak / sportlétesítmények / olimpiai központok / egészségközpont / sportmúzeum
+- NSÜ category HTML sources + activity typing (swimming, handball, water-sports, football, ice, fitness, training-camp, …)
+- Önkormányzat: Újpest sportlétesítmények, BP13 sport színterek, Hegyvidéki Sportközpont, Óbudai Sport létesítmények
+- Schools: BP13 általános + középiskolák (name+street address cards), Hegyvidék iskolák list
+- Extractors in `hungarianExtract.ts` + `nsuCatalog.ts`
+
+**Live one-pass:** 13 sources → **247** candidates → find-seeds (**221** pending before enrich batch; **+20** DISCOVERED this turn)
+
+**Activity mix (seeds):** swimming 143 · school-sport 24 · various 44 · handball 17 · water-sports 8 · …
+
+**MM/SP:** **D:46 | E:5 | P:8** (enrich drain continues)
+
+**Do not claim production-ready.**
+
+### 2026-09-26 — sportolok (more önkormányzat + school sources)
+
+**Ask:** keep finding reliable local-government and school sources.
+
+**New active sources (15)**
+- Municipal sport: Sport13 telephelyeink, Miskolc sportlétesítmények, Győr létesítmények, Debrecen sportcsarnokok, Józsefváros uszodák
+- Schools: BP16 általános+közép (street/phone cards), BP22 Budafok, Pesterzsébet, Győr table, Székesfehérvár tankerület, Veszprém általános+közép, Kecskemét általános+közép
+
+**Extractors:** `hungarianExtract.ts` (+ UA/TLS politeFetch tweaks in `common.ts`)
+
+**Live**
+- One-pass 28 sources → **408** candidates → **414** seeds total
+- Recovered Debrecen (403→UA fix) + BP22 (TLS leaf; seeded from prior probe)
+- Enrich batches: **+70** DISCOVERED (`created: true` / reprocess ok)
+
+**Activity mix (seeds):** school-sport 154 · swimming 152 · various 67 · handball 17 · …
+
+**MM/SP:** **D:116 | E:5 | P:8**
+
+**Do not claim production-ready.**

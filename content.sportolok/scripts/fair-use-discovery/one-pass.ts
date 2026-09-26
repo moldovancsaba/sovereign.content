@@ -27,6 +27,7 @@ import {
   sleepBetweenSources,
 } from "./lib/common";
 import { processGenericDirectory } from "./lib/sources/genericDirectory";
+import { processNsuCatalog } from "./lib/sources/nsuCatalog";
 import {
   loadFindSeeds,
   saveFindSeeds,
@@ -92,8 +93,11 @@ async function main() {
 
     console.log(`[${i + 1}/${readySources.length}] ${source.name}`);
 
-    // Process source
-    const result = await processGenericDirectory(source, dryRun);
+    // Process source — NSÜ full catalog uses WP API (all venue types)
+    const result =
+      source.id === "nsu-letesitmeny-catalog"
+        ? await processNsuCatalog(source, dryRun)
+        : await processGenericDirectory(source, dryRun);
 
     // Update state
     state[source.id] = {

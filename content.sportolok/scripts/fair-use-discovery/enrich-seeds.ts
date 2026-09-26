@@ -75,13 +75,27 @@ async function deepenSeed(seed: FindSeed): Promise<FindSeed> {
       territory: seed.territory,
       activityTypes: [seed.activityType],
     });
-    const best = extracted[0];
+    // Prefer candidate whose title matches the seed name — never swap in a nearby listing
+    const seedName = seed.initialFacts.name.trim().toLowerCase();
+    const best =
+      extracted.find((c) => c.title.trim().toLowerCase() === seedName) ||
+      extracted.find((c) => {
+        const t = c.title.trim().toLowerCase();
+        return t.includes(seedName) || seedName.includes(t);
+      }) ||
+      (extracted.length === 1 ? extracted[0] : undefined);
     if (!best) return seed;
+
+    const keepName =
+      !best.title ||
+      best.title.trim().toLowerCase() === seedName ||
+      best.title.trim().toLowerCase().includes(seedName) ||
+      seedName.includes(best.title.trim().toLowerCase());
 
     return {
       ...seed,
       initialFacts: {
-        name: best.title || seed.initialFacts.name,
+        name: keepName ? best.title || seed.initialFacts.name : seed.initialFacts.name,
         address: best.address || seed.initialFacts.address,
         contact: {
           ...seed.initialFacts.contact,
@@ -164,8 +178,21 @@ async function enrichSeed(
   if (!deepened.initialFacts.name || deepened.initialFacts.name.length < 5) {
     return { seedId: seed.seedId, outcome: "rejected", reason: "name_too_short" };
   }
+  const junkName =
+    /^(napozó|vasas|termál|kültéri|wellness|tanmedence|úszómedence|hullámmedence|élménymedence|gyermekmedence|margaréta medence)$/i;
+  if (junkName.test(deepened.initialFacts.name.trim())) {
+    return { seedId: seed.seedId, outcome: "rejected", reason: "junk_generic_name" };
+  }
   if (!deepened.initialFacts.address) {
     return { seedId: seed.seedId, outcome: "rejected", reason: "no_address" };
+  }
+  // Locality-only addresses ("Budapest, Hungary") are ok for medium, but prefer street-level for ingest
+  if (
+    deepened.confidence === "medium" &&
+    /^[A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű\s-]+,\s*Hungary$/i.test(deepened.initialFacts.address) &&
+    !/\d{4}\s/.test(deepened.initialFacts.address)
+  ) {
+    // Still allow named venues with locality — continue
   }
   if (deepened.confidence === "low") {
     return { seedId: seed.seedId, outcome: "rejected", reason: "confidence_low" };

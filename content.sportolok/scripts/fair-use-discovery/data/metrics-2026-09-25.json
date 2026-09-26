@@ -1,28 +1,40 @@
 {
-  "observedAt": "2026-09-25T08:10:00Z",
-  "window": "last_hour_action",
+  "observedAt": "2026-09-25T19:34:06Z",
+  "window": "expand_nsu_onkormanyzat_schools",
   "MM_SP": {
-    "D": 5,
-    "E": 1,
-    "P": 1,
-    "note": "D=DISCOVERED cards via ingestSourceText; E=published About enrich patch; P=published listing patched (also cleaned _test_patch)"
+    "D": 46,
+    "E": 5,
+    "P": 8,
+    "note": "Expanded sources: NS\u00dc all venue types + \u00f6nkorm\u00e1nyzat + schools. One-pass +247 candidates; enrich batch; D=46 ingested seeds"
   },
   "discovery": {
-    "sourcesProcessed": 3,
-    "candidatesExtracted": 27,
-    "pendingSeeds": 21,
-    "ingestedSeeds": 5
+    "pendingSeeds": 201,
+    "ingestedSeeds": 46,
+    "rejectedSeeds": 0,
+    "activityBreakdown": {
+      "swimming": 143,
+      "various": 44,
+      "handball": 17,
+      "water-sports": 8,
+      "training-camp": 4,
+      "ice-sports": 3,
+      "football": 2,
+      "fitness": 1,
+      "martial": 1,
+      "school-sport": 24
+    },
+    "sourcesActive": [
+      "nsu-letesitmeny-catalog",
+      "nsu-cat-*",
+      "onkormanyzat-ujpest-sport",
+      "onkormanyzat-bp13-sport",
+      "onkormanyzat-hegyvidek-sport",
+      "onkormanyzat-obuda-letesitmenyek",
+      "schools-bp13-altalanos",
+      "schools-bp13-kozep",
+      "schools-hegyvidek",
+      "magyaruszodak-budapest"
+    ]
   },
-  "discoveredCardIds": [
-    "research-hun-kmsx1y",
-    "research-hun-2ravkj",
-    "research-hun-c2uuho",
-    "research-hun-3pnpe8",
-    "research-hun-1yp37j"
-  ],
-  "publishedPatch": {
-    "listingId": "l-disc-10fdfb6e8912e955",
-    "cleanedTestPatch": true,
-    "aboutEnriched": true
-  }
+  "mongo": "quarantined"
 }
