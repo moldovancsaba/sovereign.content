@@ -61,44 +61,46 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-26",
-  "updatedAt": "2026-09-26T21:35:29.627299Z",
+  "updatedAt": "2026-09-26T22:23:31.121455Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 322,
+    "scanned": 324,
     "belowThreshold": 0,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 48,
+    "passCount": 49,
     "promoted": [
-      "ZAF-VEN-064 BAS Padel Ferrum"
+      "ZAF-VEN-035 Bay Padel Tokai (already seeded)"
     ],
     "rejected": [
-      "Pins Padel Club (ES)",
-      "Kraken Padel Club (US)"
+      "Club Maspadel (ES)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "MAR-VEN-030 Arena Ville Verte",
-      "MAR-VEN-002 Padel 4 (backfill)",
-      "NGA-VEN-001..004 Lagos densify/backfill",
-      "SEN-VEN-001..002 Senegal backfill",
-      "CMR-VEN-002 Kimal\u00e9",
-      "GHA-VEN-004 Aura",
-      "ZWE-VEN-001 Padel Zim Hub",
-      "RWA-VEN-001 Bounce Kiyovu",
-      "BWA-VEN-001 Gamecity",
-      "ZAF-VEN-064 BAS Padel Ferrum"
+      "ZAF-VEN-065 Prime Padel Newcastle",
+      "ZAF-VEN-066 Mojos Padel Newcastle",
+      "MAR-VEN-031 Everyday The Wellness Society",
+      "NGA-VEN-005..006",
+      "SEN-VEN-003..004",
+      "MAR-VEN-003 Club Wifaq",
+      "EGY-VEN-001 WePadel Complex",
+      "CMR-VEN-003 Pro Padel Cameroun",
+      "GHA-VEN-005 Padel Accra by S2",
+      "TZA-VEN-002 The Hub Bwejuu",
+      "ZMB-VEN-001 Deuce",
+      "MOZ-VEN-001 Gayle",
+      "TUN-VEN-001 Sky Padel Charguia"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~21:13\u201321:40 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
+  "notes": "Tick ~22:01\u201322:30 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
 }

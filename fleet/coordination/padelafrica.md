@@ -977,3 +977,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
 
+
+### 2026-09-26 — padelafrica (tick ~22:01–22:30 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 324 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 49 (28 sources). **Promoted** Bay Padel Tokai → already `ZAF-VEN-035`. **Rejected** Club Maspadel (ES). `needs_verify` cleared.
+
+**FIND:**
+- ZA Newcastle densify → **`ZAF-VEN-065` Prime Padel**, **`ZAF-VEN-066` Mojos Padel** DISCOVERED
+- MA densify → **`MAR-VEN-031` Everyday The Wellness Society** DISCOVERED
+- Backfill → **`NGA-005/006`**, **`SEN-003/004`**, **`MAR-003`**, **`EGY-001`**, **`CMR-003`**, **`GHA-005`**, **`TZA-002`**, **`ZMB-001`**, **`MOZ-001`**, **`TUN-001`** DISCOVERED
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+

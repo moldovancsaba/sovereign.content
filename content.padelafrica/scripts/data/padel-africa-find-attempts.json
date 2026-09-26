@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T21:14:44.112187Z",
+  "updatedAt": "2026-09-26T22:03:00.686114Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2674,6 +2674,26 @@
       "cc": "BW",
       "city": "Gaborone Gamecity BWA-001",
       "at": "2026-09-26T21:14:44.112187Z",
+      "outcome": "seeded"
+    },
+    {
+      "cc": "ZA",
+      "city": "Newcastle Prime + Mojos",
+      "at": "2026-09-26T22:03:00.686114Z",
+      "outcome": "seeded",
+      "note": "ZAF-VEN-065..066"
+    },
+    {
+      "cc": "MA",
+      "city": "Bouskoura Everyday TWS",
+      "at": "2026-09-26T22:03:00.686114Z",
+      "outcome": "seeded",
+      "note": "MAR-VEN-031"
+    },
+    {
+      "cc": "MULTI",
+      "city": "backfill NG/SN/MA/EG/CM/GH/TZ/ZM/MZ/TN",
+      "at": "2026-09-26T22:03:00.686114Z",
       "outcome": "seeded"
     }
   ]

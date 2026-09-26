@@ -739,5 +739,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND tick 2026-09-26T21"
+  },
+  {
+    "recordId": "MAR-VEN-031",
+    "name": "Everyday The Wellness Society",
+    "city": "Bouskoura",
+    "region": "Casablanca-Settat",
+    "countryCode": "MA",
+    "line1": "Ville Verte, Bouskoura",
+    "lat": 33.474702,
+    "lng": -7.6009654,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Ville Verte II Bouskoura locality pin \u2014 Everyday campus rooftop not separately geocoded",
+    "website": "https://apps.apple.com/ma/app/everyday-ville-verte/id6757535645",
+    "phone": "+212 661 298 215",
+    "venueModel": "own_premises",
+    "seasonNote": "Club app booking; FRMT tournament contact line published for Everyday events.",
+    "description": "Everyday The Wellness Society in Bouskoura Ville Verte hosts a large padel campus with a published event contact phone and Everyday Ville Verte app booking. A clear Casablanca south densify pick distinct from Arena Ville Verte on P3020. Call ahead or book in the Everyday app.",
+    "primarySourceUrl": "https://sportcalendar.ma/scm-back-office/events/everyday-padel-tour",
+    "secondarySourceUrl": "https://www.lesiteinfo.com/sport/672353-le-dislog-maroc-padel-masters-lance-sa-saison-2026-avec-une-premiere-edition-dexception-a-bouskoura.html",
+    "sourceTypes": "FRMT Everyday Padel Tour listing (phone+Bouskoura); LeSiteInfo Dislog Masters venue feature",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-09-26",
+    "researchNotes": "FIND tick 2026-09-26T22 \u2014 street is Ville Verte campus; phone from Everyday Padel Tour infos"
   }
 ]
