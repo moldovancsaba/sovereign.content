@@ -1051,3 +1051,7 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Timer:** still subscribed. Not claiming PUBLISHED.
 
+### 2026-09-27 — padelafrica (merged)
+
+**Management:** PR [#291](https://github.com/moldovancsaba/management/pull/291) **merged** to `release/padel-africa` @ `b3b88a2` (phone-optional + city-pin publish honesty). Both ends now aligned.
+

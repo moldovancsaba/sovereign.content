@@ -56,3 +56,9 @@ FIND + fair-use promote bar (agent SSOT in `src/lib/catalogFind/brief.ts`):
 - **No street** → approximate city-level `line1` + OSM/Nominatim **city pin** (`geoPrecision: locality`).
 - Empty phone/street is honest debt; improve later when better evidence appears.
 - Management publish gate already admits `locality` pins via `isMappable` / `checkRealAddress` and does not require `phone` for completeness.
+
+
+### Management publish-evidence merge (2026-09-27T02:44Z)
+
+PR [#291](https://github.com/moldovancsaba/management/pull/291) merged to `release/padel-africa` @ `b3b88a2` — phone-optional + city-pin locality publish honesty now on the product tip. Agent FIND bar already matched on SC `main`.
+
