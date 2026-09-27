@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T16:22:00Z",
+  "observedAt": "2026-09-27T17:28:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 66,
+    "fairUsePassCount": 67,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,40 +23,32 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 450,
-    "qualityLoopBelowThreshold": 7,
-    "qualityLoopApplied": 6,
-    "fairUsePass": 66,
+    "qualityLoopScanned": 460,
+    "qualityLoopBelowThreshold": 5,
+    "qualityLoopApplied": 4,
+    "fairUsePass": 67,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-164",
-      "ZAF-VEN-165",
-      "ZAF-VEN-166",
-      "ZAF-VEN-167",
-      "ZAF-VEN-168",
-      "ZAF-VEN-169",
-      "ZAF-VEN-170",
-      "ZAF-VEN-171",
-      "ZAF-VEN-172",
-      "ZAF-VEN-173"
+      "ZAF-VEN-174",
+      "ZAF-VEN-175",
+      "ZAF-VEN-176",
+      "ZAF-VEN-177",
+      "ZAF-VEN-178",
+      "ZAF-VEN-179",
+      "ZAF-VEN-180",
+      "ZAF-VEN-181"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
-    "findZeroResult": [
-      "Makhanda/Mthatha/KWT Eastern Cape no operating clubs",
-      "Ismailia/Mansoura/Tanta Egypt no public club listings"
-    ],
-    "findSkipped": [
-      "Komani GC Padel Playtomic-only thin contact",
-      "Clarens Kiara/Groenhoek thin contact"
-    ],
-    "ingestDiscoveredOk": 10,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-31.json",
+    "findZeroResult": [],
+    "findSkipped": [],
+    "ingestDiscoveredOk": 8,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-32.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 16: Ermelo/Standerton/White River/Clarens/Harrismith/Ladysmith/Hartbeespoort/Brits. Fair-use rejected Tres Cantos (ES). Not claiming PUBLISHED."
+    "note": "Tick 17: Dullstroom/Hoedspruit/Komatipoort/Winterton/Emgwenya/Frankfort/Dundee. Fair-use pass 67 quiet. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -69,42 +61,38 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T16:22:00.000000Z",
+  "updatedAt": "2026-09-27T17:28:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 450,
-    "belowThreshold": 7,
-    "applied": 6,
+    "scanned": 460,
+    "belowThreshold": 5,
+    "applied": 4,
     "mongo": "quarantined",
-    "note": "compose_about on recent seeds; TUN-019 skip_closed"
+    "note": "compose_about ZAF-VEN-165/167/169/172; TUN-019 skip_closed"
   },
   "fairUse": {
-    "passCount": 66,
+    "passCount": 67,
     "promoted": [],
-    "rejected": [
-      "Padel Sport Center Tres Cantos (ES)"
-    ],
+    "rejected": [],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-164 10by20 Ermelo (new city)",
-      "ZAF-VEN-165 Padel 101 Standerton (new city)",
-      "ZAF-VEN-166 White River Padel @ Country Club (new city)",
-      "ZAF-VEN-167 360 Padel Clarens (new city)",
-      "ZAF-VEN-168 Play Padel La La Nathi (Harrismith new city)",
-      "ZAF-VEN-169 NKR Padel (Ladysmith new city)",
-      "ZAF-VEN-170 Smash Padel Ladysmith (Instagram contact)",
-      "ZAF-VEN-171 Ballerz Padel Arena Hartbeespoort (new city)",
-      "ZAF-VEN-172 Padel Park Hartbeespoort",
-      "ZAF-VEN-173 Padel @ Seasons Brits (new city)"
+      "ZAF-VEN-174 Dullstroom Padel @ Dunkeld Estate (new city)",
+      "ZAF-VEN-175 Highland Gate Golf & Trout Estate Padel (Dullstroom densify)",
+      "ZAF-VEN-176 Hoedspruit Padel (new city)",
+      "ZAF-VEN-177 Shawu's Hills Bush Padel (Komatipoort new city)",
+      "ZAF-VEN-178 Cayley Padel (Winterton new city)",
+      "ZAF-VEN-179 Padel @ Malaga Hotel (Emgwenya new city)",
+      "ZAF-VEN-180 Frankfort Padel (new city; phone-optional street pin)",
+      "ZAF-VEN-181 Padel Pit (Dundee new city; phone-optional)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T16:22Z tick 16 Highveld / Clarens / Harties densify. Timer left subscribed."
+  "notes": "2026-09-27T17:28Z tick 17 Lowveld / Drakensberg densify. Timer left subscribed."
 }

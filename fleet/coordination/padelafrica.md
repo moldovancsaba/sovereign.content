@@ -1322,3 +1322,23 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **10/10** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~17:00–17:28 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 460 scanned, **5 below → 4 applied** (compose_about `ZAF-VEN-165`/`167`/`169`/`172`; TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 67 (28 sources). Quiet — no new `needs_verify`. Cleared.
+
+**FIND:**
+- ZA Mpumalanga → **`ZAF-VEN-174` Dullstroom Padel @ Dunkeld**, **`ZAF-VEN-175` Highland Gate** DISCOVERED (new Dullstroom cell)
+- ZA Limpopo → **`ZAF-VEN-176` Hoedspruit Padel** DISCOVERED (new city; phone/email/IG)
+- ZA Mpumalanga → **`ZAF-VEN-177` Shawu's Hills Bush Padel** DISCOVERED (new Komatipoort cell)
+- ZA KZN → **`ZAF-VEN-178` Cayley Padel** DISCOVERED (new Winterton/Drakensberg cell)
+- ZA Mpumalanga → **`ZAF-VEN-179` Padel @ Malaga Hotel** DISCOVERED (new Emgwenya cell)
+- ZA Free State → **`ZAF-VEN-180` Frankfort Padel** DISCOVERED (new city; phone-optional street pin)
+- ZA KZN → **`ZAF-VEN-181` Padel Pit** DISCOVERED (new Dundee cell; phone-optional)
+- Ingest → **8/8** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
