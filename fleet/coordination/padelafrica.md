@@ -1360,3 +1360,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **8/8** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~19:00–19:24 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 476 scanned, **4 below → 3 applied** (compose_about `ZAF-VEN-184`/`185`/`189`; TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 69 (28 sources). **Rejected** Rocket Padel (Bristol, UK) + Laredo Padel Club (Texas, USA). `needs_verify` cleared.
+
+**FIND:**
+- ZA South Coast → **`ZAF-VEN-190` PadelNation Arbour Corner Toti**, **`ZAF-VEN-191` Umdoni Point Pennington**, **`ZAF-VEN-192` Southbroom Padel** DISCOVERED (three new cities)
+- ZA Upper Highway → **`ZAF-VEN-193` Fig Tree Farm**, **`ZAF-VEN-194` Morewood Padel** DISCOVERED (new Hillcrest cell)
+- ZA Westville → **`ZAF-VEN-195` Chiltern Park Padel Ace**, **`ZAF-VEN-196` Saxony Westwood**, **`ZAF-VEN-197` Padel Lab Westville** DISCOVERED (new Westville cell)
+- Skip → Cotswold residents-only; Westville Padel Club under construction; Bluff opening-soon; Morocco Settat/Khouribga/Berkane/Larache/Taza zero-result
+- Ingest → **8/8** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

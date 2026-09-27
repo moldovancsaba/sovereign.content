@@ -2773,5 +2773,39 @@
     "extractedAt": "2026-09-27T16:08:59.182Z",
     "rejectReason": "Non-Africa (Tres Cantos, Spain). Rejected tick 16 fair-use pass 66.",
     "rejectedAt": "2026-09-27T16:19:30Z"
+  },
+  {
+    "candidateId": "fair-padelivu-rocket-padel",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Rocket Padel",
+    "citationUrl": "https://padelivu.com/club/rocket-padel",
+    "website": "",
+    "addressHint": "Bristol, United Kingdom",
+    "researchSources": [
+      "https://padelivu.com/club/rocket-padel"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T19:09:04.561Z",
+    "rejectReason": "Non-Africa (Bristol, United Kingdom). Rejected tick 19 fair-use pass 69.",
+    "rejectedAt": "2026-09-27T19:21:54Z"
+  },
+  {
+    "candidateId": "fair-padelusa-laredo-padel-club",
+    "sourceId": "padelusa",
+    "sourceName": "USPA / Padel USA",
+    "name": "Laredo Padel Club",
+    "citationUrl": "https://padelusa.org/clubs/texas/laredo/laredo-padel-club/",
+    "website": "https://noxsportusa.com/pages/padel",
+    "researchSources": [
+      "https://padelusa.org/clubs/texas/laredo/laredo-padel-club/",
+      "https://noxsportusa.com/pages/padel"
+    ],
+    "researchNote": "Discovered via USPA / Padel USA fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T19:18:55.850Z",
+    "rejectReason": "Non-Africa (Laredo, Texas, USA). Rejected tick 19 fair-use pass 69.",
+    "rejectedAt": "2026-09-27T19:21:54Z"
   }
 ]

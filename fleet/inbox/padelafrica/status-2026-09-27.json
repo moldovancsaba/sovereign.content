@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T18:24:00Z",
+  "observedAt": "2026-09-27T19:24:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 68,
+    "fairUsePassCount": 69,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,38 +23,38 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 468,
-    "qualityLoopBelowThreshold": 3,
-    "qualityLoopApplied": 2,
-    "fairUsePass": 68,
+    "qualityLoopScanned": 476,
+    "qualityLoopBelowThreshold": 4,
+    "qualityLoopApplied": 3,
+    "fairUsePass": 69,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-182",
-      "ZAF-VEN-183",
-      "ZAF-VEN-184",
-      "ZAF-VEN-185",
-      "ZAF-VEN-186",
-      "ZAF-VEN-187",
-      "ZAF-VEN-188",
-      "ZAF-VEN-189"
+      "ZAF-VEN-190",
+      "ZAF-VEN-191",
+      "ZAF-VEN-192",
+      "ZAF-VEN-193",
+      "ZAF-VEN-194",
+      "ZAF-VEN-195",
+      "ZAF-VEN-196",
+      "ZAF-VEN-197"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
-    "findSkippedDuplicate": [
-      "Newcastle BAS/Prime/Mojos already seeded ZAF-VEN-064..066"
-    ],
+    "findSkippedDuplicate": [],
     "findZeroResult": [
-      "Phalaborwa / Richards Bay / Empangeni / Barberton / Vryheid no operating public listings"
+      "Settat/Khouribga/Berkane/Larache/Taza Morocco still no operating public clubs"
     ],
     "findSkipped": [
-      "Tzaneen Padel Playtomic slug opening-soon — used MY PADEL Tzaneen instead"
+      "Cotswold Downs Hillcrest residents-only",
+      "Westville Padel Club under construction",
+      "Bluff Padel Craze opening-soon"
     ],
     "ingestDiscoveredOk": 8,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-33.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-34.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 18: Volksrust/Lydenburg/Underberg/Kokstad/Mkhondo/Port Shepstone/Scottburgh/Tzaneen. Fair-use pass 68 quiet. Not claiming PUBLISHED."
+    "note": "Tick 19: Amanzimtoti/Pennington/Southbroom/Hillcrest/Westville densify. Fair-use rejected Rocket Padel (UK) + Laredo (US). Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -67,38 +67,41 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T18:24:00.000000Z",
+  "updatedAt": "2026-09-27T19:24:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 468,
-    "belowThreshold": 3,
-    "applied": 2,
+    "scanned": 476,
+    "belowThreshold": 4,
+    "applied": 3,
     "mongo": "quarantined",
-    "note": "compose_about ZAF-VEN-179/180; TUN-019 skip_closed"
+    "note": "compose_about ZAF-VEN-184/185/189; TUN-019 skip_closed"
   },
   "fairUse": {
-    "passCount": 68,
+    "passCount": 69,
     "promoted": [],
-    "rejected": [],
+    "rejected": [
+      "Rocket Padel (Bristol, UK)",
+      "Laredo Padel Club (Texas, USA)"
+    ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-182 Windsor Padel Volksrust (new city)",
-      "ZAF-VEN-183 Lydenburg Golf Club Padel (new city)",
-      "ZAF-VEN-184 Underberg Padel Club (new city)",
-      "ZAF-VEN-185 Kokstad Padel Club (new city)",
-      "ZAF-VEN-186 Ultimate Padel Mkhondo (new city; phone-optional)",
-      "ZAF-VEN-187 Sheppie Padel Port Shepstone (new city)",
-      "ZAF-VEN-188 WI PADEL Scottburgh (new city)",
-      "ZAF-VEN-189 MY PADEL Tzaneen (new city)"
+      "ZAF-VEN-190 PadelNation Arbour Corner Toti (Amanzimtoti new city)",
+      "ZAF-VEN-191 Umdoni Point Sports & Leisure (Pennington new city)",
+      "ZAF-VEN-192 Southbroom Padel (new city)",
+      "ZAF-VEN-193 Fig Tree Farm Padel (Hillcrest new city)",
+      "ZAF-VEN-194 Morewood Padel Hillcrest",
+      "ZAF-VEN-195 Chiltern Park Padel Ace (Westville new city)",
+      "ZAF-VEN-196 Saxony Padel Westwood Mall",
+      "ZAF-VEN-197 Padel Lab Westville"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T18:24Z tick 18 northern KZN / Mpumalanga / Limpopo densify. Timer left subscribed."
+  "notes": "2026-09-27T19:24Z tick 19 Upper Highway / South Coast densify. Timer left subscribed."
 }
