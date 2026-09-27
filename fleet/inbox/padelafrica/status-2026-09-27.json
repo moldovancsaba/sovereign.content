@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T02:45:44Z",
+  "observedAt": "2026-09-27T03:30:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 52,
+    "fairUsePassCount": 53,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,40 +22,36 @@
     "evidenceCityPinOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 336,
-    "qualityLoopBelowThreshold": 7,
-    "qualityLoopApplied": 7,
-    "fairUsePass": 52,
+    "qualityLoopScanned": 343,
+    "qualityLoopBelowThreshold": 5,
+    "qualityLoopApplied": 4,
+    "fairUsePass": 53,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "KEN-VEN-021",
-      "ALG-VEN-006",
-      "ALG-VEN-007",
-      "ZAF-VEN-073",
-      "ZAF-VEN-074",
-      "ZAF-VEN-075",
-      "ZAF-VEN-076",
-      "ALG-VEN-001..005",
-      "MAR-VEN-017",
-      "KEN-VEN-015/016",
-      "GHA-VEN-001/003",
-      "NAM-VEN-003",
-      "BWA-VEN-002"
+      "NGA-VEN-012",
+      "MAR-VEN-034",
+      "ZAF-VEN-077",
+      "ZAF-VEN-078",
+      "ZAF-VEN-073..076",
+      "NGA-VEN-009..011",
+      "MAR-VEN-018",
+      "ZAF-VEN-024/045/056/058"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
-    "findSkippedDuplicate": [],
-    "findZeroResult": [
-      "SUMA Padel Club Alfafar ES out-of-scope"
+    "findSkippedDuplicate": [
+      "Urban Padel Royal already MAR-VEN-024",
+      "Smash/Herman Uganda already seeded"
     ],
-    "ingestDiscoveredOk": 19,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T02.json",
+    "findZeroResult": [
+      "Addis Ababa launching-only (Addis Padel Club sales hiring — not bookable)"
+    ],
+    "ingestDiscoveredOk": 16,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T03.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "PR #291 merged to release/padel-africa @ b3b88a2. Pipeline-feed 80 DISCOVERED awaiting publish earn. Not claiming PUBLISHED.",
-    "pipelineFeedDiscoveredOk": 80,
-    "pipelineFeedEvidence": "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-27T02-39-27-455Z.json"
+    "note": "PR #291 already merged. Tick 03 densify + fair-use promote. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -68,40 +64,37 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T02:45:44.427642Z",
+  "updatedAt": "2026-09-27T03:30:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 336,
-    "belowThreshold": 7,
-    "applied": 7,
+    "scanned": 343,
+    "belowThreshold": 5,
+    "applied": 4,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 52,
+    "passCount": 53,
     "promoted": [
-      "ZAF-VEN-076 ClubPadel Pirates"
+      "ZAF-VEN-078 Core Padel Durban North"
     ],
     "rejected": [
-      "SUMA Padel Club Alfafar (ES)"
+      "Møkster Padel (SE / svenskpadel.se)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "KEN-VEN-021 Pro Padel Nairobi (phone-optional)",
-      "ALG-VEN-006 Padel Impact (city pin)",
-      "ALG-VEN-007 Bay One Padel Club (city pin)",
-      "ZAF-VEN-073 Discovery Padel Park Net Set Ramblers",
-      "ZAF-VEN-074 Net Set Padel Oud Studente",
-      "ZAF-VEN-075 LivPadel Knysna Hollow",
-      "ZAF-VEN-076 ClubPadel Pirates"
+      "NGA-VEN-012 Extreme Padel Abuja (Mabushi city pin + phone)",
+      "MAR-VEN-034 Hilton Tangier Al Houara Padel (hotel pin + phone/email)",
+      "ZAF-VEN-077 Padel GQ Walmer Heights (Playtomic; phone optional)",
+      "ZAF-VEN-078 Core Padel Durban North (fair-use promote)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "PR #291 merged 2026-09-27T02:44Z. Evidence bar live on both ends."
+  "notes": "Tick ~03:07–03:30 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
 }

@@ -267,5 +267,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Hotel PDF/BTW phone +234 803 901 3000; address 1 Aguiyi Ironsi St Maitama"
+  },
+  {
+    "recordId": "NGA-VEN-012",
+    "name": "Extreme Padel Abuja",
+    "city": "Abuja",
+    "region": "Federal Capital Territory",
+    "countryCode": "NG",
+    "line1": "Near Mabushi, Abuja",
+    "lat": 9.0837669,
+    "lng": 7.4493904,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Mabushi admin centroid — street not published on directory card",
+    "phone": "+234 707 315 1515",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed yet — call ahead.",
+    "description": "Extreme Padel Abuja is a named Mabushi padel club with a published booking phone on Padel Lands. A clear Abuja densify pick distinct from Padelon (Wuse 2), Magic Padel, Monoliza, and Transcorp Hilton. Call ahead to confirm court times — street pin not published yet, so the listing uses an honest Mabushi city pin.",
+    "primarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/nigeria/",
+    "secondarySourceUrl": "https://padellands.com/pistas-de-padel/otros-paises/nigeria/",
+    "sourceTypes": "Padel Lands Nigeria directory (Mabushi + phone)",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "FIND tick 03 — phone-optional bar; city pin OK. Distinct from Extreme Arena Kano (NGA-VEN-008)."
   }
 ]

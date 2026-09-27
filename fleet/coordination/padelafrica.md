@@ -1055,3 +1055,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Management:** PR [#291](https://github.com/moldovancsaba/management/pull/291) **merged** to `release/padel-africa` @ `b3b88a2` (phone-optional + city-pin publish honesty). Both ends now aligned.
 
+
+### 2026-09-27 — padelafrica (tick ~03:07–03:30 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_cc879624-…`).
+
+**Quality:** 343 scanned, **5 below → 4 applied** (compose_about on ZAF-073..076; TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 53 (28 sources). **Promoted** Core Padel Durban North → `ZAF-VEN-078`. **Rejected** Møkster Padel (SE). `needs_verify` cleared.
+
+**FIND:**
+- NG densify → **`NGA-VEN-012` Extreme Padel Abuja** DISCOVERED (Mabushi city pin + phone; phone-optional bar)
+- MA densify → **`MAR-VEN-034` Hilton Tangier Al Houara Padel** DISCOVERED (RN1 hotel pin + phone/email; public booking)
+- ZA densify → **`ZAF-VEN-077` Padel GQ** DISCOVERED (Walmer Heights / Playtomic; no phone)
+- Fair-use promote → **`ZAF-VEN-078` Core Padel** DISCOVERED
+- Skip → Addis Ababa still launching-only (sales hiring, not bookable); Urban Padel Royal / Smash UG already seeded
+- Backfill ZAF-073..076 + NGA-009..011 + MAR-018 + Gqeberha cluster → **16/16** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
