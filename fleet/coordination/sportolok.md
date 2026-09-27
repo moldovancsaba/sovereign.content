@@ -842,3 +842,21 @@ Base `sportolok` content_cards: **0** HT leak. Pending HT seeds: **52**.
 **Timer** re-subscribed with drain + P honesty in standing contract.
 
 **Do not claim production-ready.**
+
+### 2026-09-27T01:14Z — sportolok-tick (Step|Result segments)
+
+Tick ~01:11–01:14 UTC on `sovereign.content` main. Adopted padel Step|Result report format for segments.
+
+| Step | Result |
+| :--- | :--- |
+| **Quality** | 30 scanned, 5 below threshold, **5 patched** (Mongo quarantined) — e.g. Hodos Tamás Tollaslabda, Kőér Utcai Uszoda |
+| **Fair-use HT** | **8/8 DISCOVERED** RO densify: Csíkpálfalva, Töviske, Délhegy, Extreme, Fejér, Fiatfalva, Fudoshin, Góbék → HT pending **39** |
+| **Fair-use Itthon** | **6/6 DISCOVERED** XIII / vocational schools batch; itthon pending **162** |
+| **Drain** | soft-incomplete **0**; attempted 0; REVIEW_READY **2** flagged (denylist) untouched |
+| **MM_SP / P** | **868 → 868 (ΔP 0)** — honest triage; DISCOVERED ≠ PUBLISHED |
+| **Inbox** | `status-2026-09-27-tick-0100.json` + this Turn |
+| **Timer** | Still subscribed (`sub_7791eb21-…`) |
+
+**Format note:** Keep Step\|Result for every tick — one row per contract segment, bold the countable outcome, never claim P from enrich alone.
+
+**Do not claim production-ready.**

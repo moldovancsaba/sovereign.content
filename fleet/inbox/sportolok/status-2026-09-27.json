@@ -1,0 +1,100 @@
+{
+  "clientId": "sportolok",
+  "observedAt": "2026-09-27T01:14:34Z",
+  "source": "sportolok-tick",
+  "workingEnv": {
+    "ingestOnlyDoctrine": true,
+    "quarantineActive": true,
+    "timerSubscribed": true,
+    "timerName": "sportolok-tick",
+    "subscriptionId": "sub_7791eb21-fe17-44ef-a0d0-374b6b3f5c8c",
+    "productionHataronTulRoute": "200",
+    "forcePublishIngest": true,
+    "reportFormat": "padel-step-result-segments"
+  },
+  "outcomes": {
+    "quality_loop_scanned": 30,
+    "quality_loop_below_threshold": 5,
+    "quality_loop_patched": 5,
+    "quality_sample_ids": [
+      "l-research-hun-q2ai2z",
+      "l-research-hun-uisr9l",
+      "l-research-hun-uobfjd",
+      "l-research-hun-ecl7ch",
+      "l-research-hun-r4my4e"
+    ],
+    "fair_use_ht_ingested": 8,
+    "fair_use_itthon_ingested": 6,
+    "fair_use_rejected": 0,
+    "enrich_cards_ht": [
+      "research-ht-fvdojp",
+      "research-ht-3gmvsj",
+      "research-ht-soralg",
+      "research-ht-szx0dq",
+      "research-ht-uakzz2",
+      "research-ht-9148ki",
+      "research-ht-fne3jy",
+      "research-ht-351a6f"
+    ],
+    "enrich_cards_itthon": [
+      "research-hun-b3ad1c",
+      "research-hun-yjpmxp",
+      "research-hun-lxj5up",
+      "research-hun-at96ae",
+      "research-hun-8m409f",
+      "research-hun-j0krhg"
+    ],
+    "drain_review_ready": {
+      "softIncomplete": 0,
+      "attempted": 0,
+      "published": 0
+    },
+    "executor_ingest": "via_quality_loop",
+    "pending_seeds": 201,
+    "hataron_tul_pending": 39,
+    "MM_SP": {
+      "P_before": 868,
+      "P_after": 868,
+      "delta_P": 0,
+      "REVIEW_READY": 2,
+      "reviewReadySoftIncomplete": 0,
+      "DISCOVERED_itthon_snapshot": 6,
+      "note": "P honest from /api/machine/catalog triage; DISCOVERED≠PUBLISHED"
+    }
+  },
+  "openDebt": [
+    {
+      "kind": "review_ready_flagged_remainder",
+      "n": 2,
+      "note": "hungarian-sport-denylist:review_flag — staff path, not soft-incomplete"
+    },
+    {
+      "kind": "hataron_tul_enrich_remaining",
+      "n": 39
+    },
+    {
+      "kind": "itthon_enrich_remaining",
+      "n": 162
+    },
+    {
+      "kind": "pipeline_extract_discovered",
+      "n": 14,
+      "note": "new DISCOVERED need extraction without Ollama"
+    }
+  ],
+  "evidence": [
+    "fleet/inbox/sportolok/status-2026-09-27-tick-0100.json",
+    "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json"
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/management/pull/287",
+    "https://github.com/moldovancsaba/management/pull/289"
+  ],
+  "timer": {
+    "name": "sportolok-tick",
+    "subscriptionId": "sub_7791eb21-fe17-44ef-a0d0-374b6b3f5c8c",
+    "stillSubscribed": true
+  },
+  "claimPublished": false,
+  "notes": "Tick ~01:11–01:14 UTC. Step|Result segment report. ΔP=0; +14 DISCOVERED (8 HT / 6 Itthon)."
+}
