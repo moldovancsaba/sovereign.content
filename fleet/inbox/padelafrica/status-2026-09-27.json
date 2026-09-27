@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T05:32:00Z",
+  "observedAt": "2026-09-27T06:32:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 55,
+    "fairUsePassCount": 56,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,35 +22,30 @@
     "evidenceCityPinOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 352,
+    "qualityLoopScanned": 356,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
-    "fairUsePass": 55,
+    "fairUsePass": 56,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-083",
-      "ZAF-VEN-084",
-      "ZAF-VEN-085",
-      "GHA-VEN-007",
-      "ZAF-VEN-079/080/081/077/082",
-      "GHA-VEN-001/002/004/005/006"
+      "ZAF-VEN-086",
+      "ZAF-VEN-087",
+      "ZAF-VEN-088",
+      "MAR-VEN-036",
+      "ZAF-VEN-083/084/085/045/020/022/023",
+      "MAR-VEN-034/035",
+      "GHA-VEN-007"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
-    "findSkippedDuplicate": [
-      "Discovery Padel Park Sandton already ZAF-VEN-003"
-    ],
-    "findZeroResult": [
-      "Elite Padel Yaoundé hiring/launching-only",
-      "Annaba Algeria under development only",
-      "Kumasi/Takoradi Ghana no verified courts"
-    ],
+    "findSkippedDuplicate": [],
+    "findZeroResult": [],
     "ingestDiscoveredOk": 14,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T05.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T06.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 05 Gqeberha densify + Accra Mamba. Not claiming PUBLISHED."
+    "note": "Tick 06 Eastern Cape secondary cities + Oujda. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -63,38 +58,35 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T05:32:00.000000Z",
+  "updatedAt": "2026-09-27T06:32:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 352,
+    "scanned": 356,
     "belowThreshold": 1,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 55,
+    "passCount": 56,
     "promoted": [],
-    "skipped_duplicate": [
-      "Discovery Padel Park Sandton (ZAF-VEN-003)"
-    ],
     "rejected": [
-      "X7 Padel Barcelona Sabadell (ES)"
+      "Ic\u00f3nico Sports & Social Club (ES / Sevilla)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-083 Trend Entertainment Centre",
-      "ZAF-VEN-084 Valley Road Padel",
-      "ZAF-VEN-085 Sunridge Action Arena",
-      "GHA-VEN-007 Mamba Club Accra (phone-optional)"
+      "ZAF-VEN-086 Padel City GQ",
+      "ZAF-VEN-087 Port Alfred Padel (new city)",
+      "ZAF-VEN-088 Kenton Padel (new city)",
+      "MAR-VEN-036 Sporting Tennis Club Oujda (new city)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~05:08–05:32 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
+  "notes": "Tick ~06:08\u201306:32 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
 }

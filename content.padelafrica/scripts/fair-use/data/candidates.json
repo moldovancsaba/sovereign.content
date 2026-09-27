@@ -2565,5 +2565,22 @@
     "extractedAt": "2026-09-27T05:17:25.446Z",
     "triagedAt": "2026-09-27T05:29:58.474Z",
     "triageNote": "Out of Africa scope (Sabadell / Barcelona ES)"
+  },
+  {
+    "candidateId": "fair-padelivu-iconico-sports-social-club",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Icónico Sports & Social Club",
+    "citationUrl": "https://padelivu.com/club/iconico-sports-social-club",
+    "website": "",
+    "addressHint": "Calle Economía 11-13, 41007, Sevilla, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/iconico-sports-social-club"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone optional; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T06:17:55.595Z",
+    "triagedAt": "2026-09-27T06:30:27.639Z",
+    "triageNote": "Out of Africa scope (Sevilla ES)"
   }
 ]

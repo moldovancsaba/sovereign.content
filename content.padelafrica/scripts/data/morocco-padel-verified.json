@@ -860,5 +860,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-27",
     "researchNotes": "FIND tick 04 — distinct venue from MAR-VEN-027 downtown. Court count on brand site not asserted."
+  },
+  {
+    "recordId": "MAR-VEN-036",
+    "name": "Sporting Tennis Club Oujda",
+    "city": "Oujda",
+    "region": "Oriental",
+    "countryCode": "MA",
+    "line1": "Parc Lalla Aïcha",
+    "lat": 34.6725762,
+    "lng": -1.9057575,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM Parc Lalla Aicha park pin",
+    "phone": "+212 667 17 93 34",
+    "venueModel": "hosted_facility",
+    "seasonNote": "Reportedly ~09:00–22:00 daily; call ahead for padel slots.",
+    "description": "Sporting Tennis Club Oujda (STCO) hosts padel at Parc Lalla Aïcha with a published booking phone on the Padel Maroc annuaire. A clear Oriental densify seed — first Oujda listing beyond the Casablanca–Tangier belt. Call ahead to confirm open play and guest access at the tennis club.",
+    "primarySourceUrl": "https://padel.co.ma/annuaire-des-clubs/",
+    "secondarySourceUrl": "https://activityz.ma/oujda/sporting-tennis-club-oujda/",
+    "sourceTypes": "Padel Maroc annuaire (Club STCO Parc Lalla Aicha + phone); Activityz STCO listing (hours/rates)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "FIND tick 06 — new Oujda city cell. Court count listed as 2 on annuaire — not asserted."
   }
 ]

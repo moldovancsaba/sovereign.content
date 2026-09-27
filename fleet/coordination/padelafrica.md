@@ -1105,3 +1105,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill Gqeberha/Accra cluster → **14/14** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~06:08–06:32 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_cc879624-…`).
+
+**Quality:** 356 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 56 (28 sources). **Rejected** Icónico Sports & Social Club (ES / Sevilla). `needs_verify` cleared.
+
+**FIND:**
+- ZA densify → **`ZAF-VEN-086` Padel City GQ** DISCOVERED
+- ZA secondary cities → **`ZAF-VEN-087` Port Alfred Padel**, **`ZAF-VEN-088` Kenton Padel** DISCOVERED (new city cells)
+- MA Oriental densify → **`MAR-VEN-036` Sporting Tennis Club Oujda** DISCOVERED (new city)
+- Backfill Eastern Cape + Hilton/Universiapolis/Mamba → **14/14** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
