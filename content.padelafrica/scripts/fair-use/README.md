@@ -68,7 +68,7 @@ Override: `FAIR_USE_SOURCES=padelrevive,findapadelcourt-za,actu-padel` or `FAIR_
 4. **User-Agent:** `PadelAfricaCatalogResearch/1.0 (+https://padel-africa.doneisbetter.com; fair-use one-lead research)`.
 5. **Extract facts only.** Do not paste directory narrative into listing About.
 6. **Attribution:** every candidate records `researchSources` naming the citation page.
-7. **Confirm on the official site** before treating contacts as verified; status stays `needs_verify` until then.
+7. **Confirm on the official site** before treating contacts as verified; status stays `needs_verify` until then. Phone is optional; missing street → city-level line1 + OSM city pin.
 8. Reject hubs / one-offs / guide titles (`guide_or_hub_name`, `one_off_event`).
 9. Emit `fair_use_attempt` / `fair_use_reject` / `fair_use_seed` into `data/events.jsonl`.
 10. Cloudflare / 403 / 429 → **soft skip** — do not bypass. Use citation inbox when live fetch is blocked.
@@ -114,7 +114,7 @@ continue `--until-found` WebSearch as usual. Do **not** replace until-found with
 ## Promote to ingest
 
 1. Pick a candidate from `fair-use:status`.
-2. Confirm street/locality + contact **or** booking/first-party URL on the official site.
+2. Confirm evidence bar: named venue + (street **or** city-level line1 with OSM city pin). **Phone is optional** — do not reject for missing phone. Prefer booking/first-party URL or any printed contact; directory citation + city pin is enough to seed and improve later.
 3. Append a row to the country `scripts/data/<country>-padel-verified.json` fixture.
 4. Apply via `ingest/client.ts` / `apply-pending-ingest-queue.ts` (DISCOVERED). Never Mongo-apply.
 

@@ -41,7 +41,7 @@ npm run catalog:find -- --record-attempt --cc=ST --city="São Tomé" --outcome=z
 | **BalleJaune** | Francophone booking cards (SN) |
 | **Playtomic / Matchpoint** | Bookable clubs where the network operates |
 | **First-party club sites** | Phone / hours / address after WebSearch hits |
-| **OSM** | Corroboration only — still need contact or booking URL for a research seed |
+| **OSM** | City / street pin corroboration — when street is missing, use the OSM city pin (`locality`) with approximate city-level `line1` |
 
 Every `--brief` expands these into concrete URLs + 8 search queries for the target city.
 
@@ -81,11 +81,11 @@ Secondary cities live in `src/lib/catalogFind/africaCells.ts` (capitals + deepen
 ## Evidence bar (never invent)
 
 - Named operating venue
-- Street or locality pin in-country
-- Contact channel **or** first-party / booking URL
-- Prefer two independent sources
+- Prefer street pin; **if no street** → approximate city-level `line1` (e.g. `Near Nairobi`) + **OSM/Nominatim city pin** (`geoPrecision: locality`). Do **not** skip for missing street
+- **Phone is optional** — do **not** skip solely because phone is missing. Prefer any printed contact; else a first-party / booking / directory citation URL that places the venue in-city
+- Prefer two independent sources when available; single-source + city pin is OK — improve later when better facts appear
 - About ≥120 chars without URL/phone chrome
-- No invented court counts, ages, emails, phones
+- No invented court counts, ages, emails, phones (empty fields = honest debt, not a skip)
 
 ## Do-until-find (`--until-found`)
 

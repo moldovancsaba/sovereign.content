@@ -1023,3 +1023,7 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** day status `status-2026-09-27.json`. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
 
+### 2026-09-27 — padelafrica (rules)
+
+**Evidence / publish (both ends):** Do **not** skip FIND for missing phone. If no street → city-level `line1` + OSM city pin (`locality`). Improve later. SC FIND bar + fair-use + timer updated; management publish-gate regression documents city pin without phone.
+

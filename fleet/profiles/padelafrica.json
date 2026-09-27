@@ -2,7 +2,9 @@
   "id": "padelafrica",
   "folder": "content.padelafrica",
   "displayName": "Padel Africa",
-  "siteUrls": ["https://padel-africa.doneisbetter.com"],
+  "siteUrls": [
+    "https://padel-africa.doneisbetter.com"
+  ],
   "productRepo": "moldovancsaba/management",
   "productBranch": "release/padel-africa",
   "contentUnit": "padel_venue_listing",
@@ -12,7 +14,9 @@
   "honestyBar": [
     "never_invent_contacts",
     "never_invent_court_counts",
-    "find_evidence_grade_required"
+    "find_evidence_grade_required",
+    "phone_optional_seed",
+    "city_pin_ok_without_street"
   ],
   "mediaPolicy": "r2_primary_imgbb_backup",
   "fairKpis": [

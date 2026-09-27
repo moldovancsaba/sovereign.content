@@ -62,6 +62,9 @@ describe("catalogFind continent plan", () => {
     expect(brief.searchQueries.length).toBeGreaterThanOrEqual(5);
     expect(brief.excludeNames).toContain("Cotonou Padel Club");
     expect(brief.evidenceBar.length).toBeGreaterThan(3);
+    expect(brief.evidenceBar.some((line) => /phone is optional/i.test(line))).toBe(true);
+    expect(brief.evidenceBar.some((line) => /city pin|geoPrecision=locality/i.test(line))).toBe(true);
+    expect(brief.steps.some((s) => /do not skip for missing phone/i.test(s))).toBe(true);
     expect(brief.applyCommands[0]).toContain("--dry-run");
   });
 

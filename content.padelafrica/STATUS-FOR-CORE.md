@@ -47,3 +47,12 @@ Verified on `moldovancsaba/management` remotes (no force-push from this agent):
 Padel Cloud Agent owns **only** `content.padelafrica/` (+ `fleet/inbox/padelafrica/` status JSON + coord Turns).  
 No new agent code onto management release branches. No Mongo-from-agent.  
 Engine fixes → reviewed PR to management **`main`** only.
+
+### Evidence / publish honesty (2026-09-27)
+
+FIND + fair-use promote bar (agent SSOT in `src/lib/catalogFind/brief.ts`):
+
+- **Phone optional** — do not skip solely for missing phone.
+- **No street** → approximate city-level `line1` + OSM/Nominatim **city pin** (`geoPrecision: locality`).
+- Empty phone/street is honest debt; improve later when better evidence appears.
+- Management publish gate already admits `locality` pins via `isMappable` / `checkRealAddress` and does not require `phone` for completeness.

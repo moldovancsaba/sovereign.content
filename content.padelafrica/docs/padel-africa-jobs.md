@@ -177,7 +177,9 @@ Research / contact gaps do **not** block FIND — work them in parallel via
 ## Example: `catalog:find --until-found` (do-until-seed)
 
 **Contract:** CLI plans and seeds; the **agent** must WebSearch, verify evidence, write fixtures.
-Never invent phones, emails, ages, or court counts.
+Never invent phones, emails, ages, or court counts. **Phone is optional** — do not skip for
+missing phone. **Missing street** → city-level `line1` + OSM/Nominatim city pin (`locality`);
+improve later when better facts appear.
 
 ```bash
 npm run catalog:find -- --until-found --max-cells 8

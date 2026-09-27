@@ -31,7 +31,7 @@ export function buildCandidate(
     website
       ? "Official club website is the Find/ingest target; directory page is citation only."
       : "No external club website extracted — agent must confirm an official URL before ingest.",
-    "Status needs_verify: clear evidence bar (street/locality + contact or booking URL) before fixture apply.",
+    "Status needs_verify: clear evidence bar before fixture apply — phone optional; if no street use city-level line1 + OSM city pin (locality).",
   ].join(" ");
 
   return {
