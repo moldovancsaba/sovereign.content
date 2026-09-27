@@ -9,11 +9,11 @@
           "reason": "guide_or_hub_name"
         }
       },
-      "discoveryCursor": 8,
+      "discoveryCursor": 9,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:00:38.010Z",
+      "lastFetchAt": "2026-09-27T14:00:52.292Z",
       "lastError": {
-        "at": "2026-09-27T04:17:15.380Z",
+        "at": "2026-09-27T14:00:52.566Z",
         "url": "https://padellands.com/en/pistas-de-padel/otros-paises/libya/",
         "reasonCode": "fetch_error"
       }
@@ -23,12 +23,11 @@
       "done": {},
       "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:05:11.197Z",
+      "lastFetchAt": "2026-09-27T14:05:24.623Z",
       "lastError": null
     },
     "actu-padel": {
       "queue": [
-        "https://actu-padel.com/en/directory/padel-club/padel-coach-sara-alaoui-tangier-en/",
         "https://actu-padel.com/en/directory/padel-club/padel-f5-ouidane-en/",
         "https://actu-padel.com/en/directory/padel-club/padel-fes-country-fez-en/",
         "https://actu-padel.com/en/directory/padel-club/padel-juande-morillo-coach-casablanca-en/",
@@ -101,9 +100,9 @@
           "reason": "duplicate"
         },
         "https://actu-padel.com/en/directory/padel-club/padel-coach-sara-alaoui-tangier/": {
-          "at": "2026-09-25T15:09:58.438Z",
-          "reasonCode": "seeded",
-          "reason": "seeded"
+          "at": "2026-09-27T14:06:13.892Z",
+          "reasonCode": "duplicate",
+          "reason": "duplicate"
         },
         "https://actu-padel.com/directory/padel-club/padel-fes-country-fez/": {
           "at": "2026-09-25T16:12:53.058Z",
@@ -303,7 +302,7 @@
       },
       "discoveryCursor": 2,
       "leadsAdded": 46,
-      "lastFetchAt": "2026-09-27T13:05:59.775Z",
+      "lastFetchAt": "2026-09-27T14:06:13.183Z",
       "lastError": {
         "at": "2026-09-26T23:12:42.773Z",
         "url": "https://actu-padel.com/en/directory/padel-club/padel-chiltern-ace-clermont-en/",
@@ -339,9 +338,9 @@
           "reason": "duplicate"
         }
       },
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 4,
-      "lastFetchAt": "2026-09-27T13:06:45.542Z",
+      "lastFetchAt": "2026-09-27T14:06:58.908Z",
       "lastError": {
         "at": "2026-09-25T15:10:56.262Z",
         "url": "https://padelrevive.com/padel-clubs-in-africa/",
@@ -351,9 +350,9 @@
     "findapadelcourt-za": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 3,
+      "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:07:31.459Z",
+      "lastFetchAt": "2026-09-27T14:07:44.973Z",
       "lastError": {
         "at": "2026-09-27T13:07:31.529Z",
         "url": "https://findapadelcourt.co.za/johannesburg",
@@ -369,17 +368,17 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 1,
-      "lastFetchAt": "2026-09-27T13:11:18.081Z",
+      "lastFetchAt": "2026-09-27T14:11:31.108Z",
       "lastError": null
     },
     "padelfip": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 2,
+      "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:15:05.412Z",
+      "lastFetchAt": "2026-09-27T14:15:18.434Z",
       "lastError": null
     },
     "africapadel": {
@@ -387,12 +386,11 @@
       "done": {},
       "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:08:16.545Z",
+      "lastFetchAt": "2026-09-27T14:08:30.079Z",
       "lastError": null
     },
     "padelivu": {
       "queue": [
-        "https://padelivu.com/club/la-maso-sports-club",
         "https://padelivu.com/club/las-rozas-padel-center",
         "https://padelivu.com/club/padel-sport-center-tres-cantos",
         "https://padelivu.com/club/ter-eiken-boechout"
@@ -677,19 +675,24 @@
           "at": "2026-09-27T13:09:02.568Z",
           "reasonCode": "seeded",
           "reason": "seeded"
+        },
+        "https://padelivu.com/club/la-maso-sports-club": {
+          "at": "2026-09-27T14:09:15.552Z",
+          "reasonCode": "seeded",
+          "reason": "seeded"
         }
       },
       "discoveryCursor": 1,
-      "leadsAdded": 40,
-      "lastFetchAt": "2026-09-27T13:09:01.956Z",
+      "leadsAdded": 41,
+      "lastFetchAt": "2026-09-27T14:09:15.481Z",
       "lastError": null
     },
     "padelmap": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 2,
+      "discoveryCursor": 3,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:09:47.584Z",
+      "lastFetchAt": "2026-09-27T14:10:00.568Z",
       "lastError": null
     },
     "padel-magazine-uk": {
@@ -711,9 +714,9 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 2,
+      "discoveryCursor": 3,
       "leadsAdded": 2,
-      "lastFetchAt": "2026-09-27T13:13:34.211Z",
+      "lastFetchAt": "2026-09-27T14:13:47.077Z",
       "lastError": {
         "at": "2026-09-26T06:19:43.950Z",
         "url": "https://www.padel-magazine.co.uk/the-shop/",
@@ -723,17 +726,17 @@
     "analistas": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 2,
+      "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:01:23.613Z",
+      "lastFetchAt": "2026-09-27T14:01:37.582Z",
       "lastError": null
     },
     "ballejaune": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 4,
+      "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:02:54.496Z",
+      "lastFetchAt": "2026-09-27T14:03:08.424Z",
       "lastError": {
         "at": "2026-09-27T13:02:54.659Z",
         "url": "https://ballejaune.com/maroc/",
@@ -743,12 +746,12 @@
     "padel-without-borders": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:02:09.420Z",
+      "lastFetchAt": "2026-09-27T14:02:23.364Z",
       "lastError": {
-        "at": "2026-09-27T13:02:09.483Z",
-        "url": "https://www.padelwithoutborders.com/",
+        "at": "2026-09-27T14:02:23.408Z",
+        "url": "https://www.padelwithoutborders.com/category/africa/",
         "reasonCode": "http_blocked"
       }
     },
@@ -911,9 +914,9 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 2,
+      "discoveryCursor": 1,
       "leadsAdded": 30,
-      "lastFetchAt": "2026-09-27T13:03:39.675Z",
+      "lastFetchAt": "2026-09-27T14:03:53.781Z",
       "lastError": null
     },
     "matchpoint": {
@@ -921,9 +924,9 @@
       "done": {},
       "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:04:25.041Z",
+      "lastFetchAt": "2026-09-27T14:04:38.818Z",
       "lastError": {
-        "at": "2026-09-27T13:04:26.180Z",
+        "at": "2026-09-27T14:04:39.606Z",
         "url": "https://www.matchpoint.com.es/",
         "reasonCode": "fetch_error"
       }
@@ -933,18 +936,18 @@
       "done": {},
       "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:10:32.671Z",
+      "lastFetchAt": "2026-09-27T14:10:45.669Z",
       "lastError": null
     },
     "worldpadelnetwork": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:12:03.144Z",
+      "lastFetchAt": "2026-09-27T14:12:16.175Z",
       "lastError": {
-        "at": "2026-09-27T13:12:03.361Z",
-        "url": "https://www.worldpadelnetwork.com/padel-businesses/",
+        "at": "2026-09-27T14:12:16.330Z",
+        "url": "https://www.worldpadelnetwork.com/",
         "reasonCode": "http_blocked"
       }
     },
@@ -969,7 +972,7 @@
       },
       "discoveryCursor": 1,
       "leadsAdded": 2,
-      "lastFetchAt": "2026-09-27T13:12:48.377Z",
+      "lastFetchAt": "2026-09-27T14:13:01.346Z",
       "lastError": null
     },
     "padelmagazine-fr": {
@@ -981,9 +984,9 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 3,
+      "discoveryCursor": 1,
       "leadsAdded": 1,
-      "lastFetchAt": "2026-09-27T13:14:19.783Z",
+      "lastFetchAt": "2026-09-27T14:14:32.797Z",
       "lastError": {
         "at": "2026-09-25T21:30:11.511Z",
         "url": "https://padelmagazine.fr/le-calendrier-du-padel-francais/",
@@ -993,9 +996,9 @@
     "premierpadel": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:15:50.725Z",
+      "lastFetchAt": "2026-09-27T14:16:03.708Z",
       "lastError": null
     },
     "thepadeldirectory": {
@@ -1037,14 +1040,13 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 3,
+      "discoveryCursor": 1,
       "leadsAdded": 7,
-      "lastFetchAt": "2026-09-27T13:16:36.249Z",
+      "lastFetchAt": "2026-09-27T14:16:49.691Z",
       "lastError": null
     },
     "matchi": {
       "queue": [
-        "https://www.matchi.se/venues/2986?lang=nl",
         "https://www.matchi.se/venues/2986?lang=no",
         "https://www.matchi.se/venues/2986?lang=sv"
       ],
@@ -1103,28 +1105,31 @@
           "at": "2026-09-27T13:17:21.717Z",
           "reasonCode": "duplicate",
           "reason": "duplicate"
+        },
+        "https://www.matchi.se/venues/2986?lang=nl": {
+          "at": "2026-09-27T14:17:35.183Z",
+          "reasonCode": "duplicate",
+          "reason": "duplicate"
         }
       },
       "discoveryCursor": 1,
       "leadsAdded": 1,
-      "lastFetchAt": "2026-09-27T13:17:21.385Z",
+      "lastFetchAt": "2026-09-27T14:17:34.758Z",
       "lastError": null
     },
     "anybuddy": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:18:06.734Z",
+      "lastFetchAt": "2026-09-27T14:18:20.199Z",
       "lastError": null
     },
     "padelusa": {
-      "queue": [
-        "https://padelusa.org/us-padel-clubs/"
-      ],
+      "queue": [],
       "done": {
         "https://padelusa.org/where-to-play/": {
-          "at": "2026-09-27T12:18:40.323Z",
+          "at": "2026-09-27T14:19:06.976Z",
           "reasonCode": "guide_or_hub_name",
           "reason": "guide_or_hub_name"
         },
@@ -1201,7 +1206,7 @@
       },
       "discoveryCursor": 1,
       "leadsAdded": 14,
-      "lastFetchAt": "2026-09-27T13:18:52.500Z",
+      "lastFetchAt": "2026-09-27T14:19:05.671Z",
       "lastError": null
     },
     "padelbrowser": {
@@ -1215,7 +1220,7 @@
       },
       "discoveryCursor": 1,
       "leadsAdded": 1,
-      "lastFetchAt": "2026-09-27T13:19:41.373Z",
+      "lastFetchAt": "2026-09-27T14:19:51.993Z",
       "lastError": null
     },
     "bounce-game": {
@@ -1223,7 +1228,7 @@
       "done": {},
       "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:20:26.535Z",
+      "lastFetchAt": "2026-09-27T14:20:37.139Z",
       "lastError": null
     },
     "totalpadel": {
@@ -1231,10 +1236,10 @@
       "done": {},
       "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-09-27T13:21:11.650Z",
+      "lastFetchAt": "2026-09-27T14:21:22.305Z",
       "lastError": null
     }
   },
-  "passCount": 63,
-  "lastPassAt": "2026-09-27T13:21:12.180Z"
+  "passCount": 64,
+  "lastPassAt": "2026-09-27T14:21:22.858Z"
 }

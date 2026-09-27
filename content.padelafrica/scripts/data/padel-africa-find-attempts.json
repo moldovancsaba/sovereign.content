@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T02:35:44.214522Z",
+  "updatedAt": "2026-09-27T14:20:00Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2791,6 +2791,76 @@
       "at": "2026-09-27T02:35:44.214522Z",
       "outcome": "seeded",
       "note": "ZAF-VEN-076 fair-use promote"
+    },
+    {
+      "cell": "Rustenburg Padel T / Kloof-Weg / WIPADEL",
+      "status": "seeded",
+      "note": "ZAF-VEN-138..140",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Potchefstroom Circle / Techno / Kleinplaas",
+      "status": "seeded",
+      "note": "ZAF-VEN-141..143",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Vanderbijlpark V-Town / Emfuleni / Emerald",
+      "status": "seeded",
+      "note": "ZAF-VEN-144..146",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Vereeniging Kings / 10by20 Three Rivers",
+      "status": "seeded",
+      "note": "ZAF-VEN-147..148",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Klerksdorp Padel Inspired Matlosana",
+      "status": "seeded",
+      "note": "ZAF-VEN-149",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Sun City Net Set",
+      "status": "seeded",
+      "note": "ZAF-VEN-150",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Pilanesberg Kingdom Padel",
+      "status": "skipped",
+      "note": "under construction",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Eldoret/Naivasha/Thika Kenya",
+      "status": "zero-result",
+      "note": "no operating public clubs found",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Benguela/Lobito/Huambo Angola",
+      "status": "zero-result",
+      "note": "no clubs outside Luanda found",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Kumasi Ghana",
+      "status": "zero-result",
+      "note": "no operating club; Tema installer-only thin",
+      "at": "2026-09-27T14:20:00Z",
+      "tick": "padel-find-tick-14"
     }
   ]
 }

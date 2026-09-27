@@ -2703,5 +2703,22 @@
     "extractedAt": "2026-09-27T13:09:02.565Z",
     "triageNote": "Non-Africa. Rejected tick 13 fair-use pass 63.",
     "triagedAt": "2026-09-27T13:21:00Z"
+  },
+  {
+    "candidateId": "fair-padelivu-la-maso-sports-club",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "La Maso Sports Club",
+    "citationUrl": "https://padelivu.com/club/la-maso-sports-club",
+    "website": "",
+    "addressHint": "Calle de La Maso, 34, 28035, Madrid, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/la-maso-sports-club"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T14:09:15.549Z",
+    "rejectReason": "Non-Africa (Madrid, Spain). Rejected tick 14 fair-use pass 64.",
+    "rejectedAt": "2026-09-27T14:14:00Z"
   }
 ]

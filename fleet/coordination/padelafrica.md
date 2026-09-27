@@ -1262,3 +1262,23 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill Port Edward / Courtside / Tamaris → **12/12** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~14:00–14:22 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 423 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 64 (28 sources). **Rejected** La Masó Sports Club (ES / Madrid). `needs_verify` cleared.
+
+**FIND:**
+- ZA North West → **`ZAF-VEN-138` Padel T**, **`ZAF-VEN-139` Kloof-Weg Padel**, **`ZAF-VEN-140` WIPADEL @ Bergsig** DISCOVERED (new Rustenburg cell)
+- ZA North West → **`ZAF-VEN-141` Padel Circle**, **`ZAF-VEN-142` Techno Padel Potch**, **`ZAF-VEN-143` Kleinplaas** DISCOVERED (new Potchefstroom cell)
+- ZA Vaal → **`ZAF-VEN-144` V-Town Padel**, **`ZAF-VEN-145` Emfuleni Estate**, **`ZAF-VEN-146` Emerald Resort** DISCOVERED (new Vanderbijlpark cell)
+- ZA Vaal → **`ZAF-VEN-147` Kings Padel Vaal**, **`ZAF-VEN-148` 10by20 Three Rivers** DISCOVERED (new Vereeniging cell; IG contact on 10by20)
+- ZA North West → **`ZAF-VEN-149` Padel Inspired Matlosana** DISCOVERED (new Klerksdorp cell)
+- ZA North West → **`ZAF-VEN-150` Net Set Padel Sun City** DISCOVERED (new Sun City cell)
+- Skip → Kingdom Padel Pilanesberg under construction; Eldoret/Naivasha/Thika / Benguela–Huambo / Kumasi zero-result
+- Ingest North West / Vaal → **13/13** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
