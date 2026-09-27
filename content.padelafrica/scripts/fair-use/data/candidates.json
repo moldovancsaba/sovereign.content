@@ -2528,5 +2528,42 @@
     "extractedAt": "2026-09-27T04:25:40.496Z",
     "triagedAt": "2026-09-27T04:38:24.673Z",
     "triageNote": "Out of Africa scope (MyPadel Riga Latvia)"
+  },
+  {
+    "candidateId": "fair-actu-padel-discovery-padel-park-sandton",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Discovery Padel Park Sandton",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-discovery-sandton-johannesburg/",
+    "website": "http://www.africapadel.com/",
+    "cityHint": "Johannesburg",
+    "countryHint": "South Africa",
+    "addressHint": "181 Empire Place Cnr, Wierda Rd W, Sandhurst, Sandton, 2196, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-discovery-sandton-johannesburg/",
+      "http://www.africapadel.com/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar before fixture apply — phone optional; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-27T05:14:23.588Z",
+    "triagedAt": "2026-09-27T05:29:58.474Z",
+    "triageNote": "Already seeded as ZAF-VEN-003 Discovery Padel Park Sandton"
+  },
+  {
+    "candidateId": "fair-padelivu-x7-padel-barcelona-sabadell",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "X7 Padel Barcelona Sabadell",
+    "citationUrl": "https://padelivu.com/club/x7-padel-barcelona-sabadell",
+    "website": "",
+    "addressHint": "Carrer de Francesc Duran i Reynals, 1, 08192, Sabadell, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/x7-padel-barcelona-sabadell"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone optional; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T05:17:25.446Z",
+    "triagedAt": "2026-09-27T05:29:58.474Z",
+    "triageNote": "Out of Africa scope (Sabadell / Barcelona ES)"
   }
 ]

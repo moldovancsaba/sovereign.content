@@ -142,5 +142,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Court count listed as 2 — not asserted. Distinct from GHA-VEN-001 Clan 7 and GHA-VEN-005 S2 Spintex."
+  },
+  {
+    "recordId": "GHA-VEN-007",
+    "name": "Mamba Club Accra",
+    "city": "Accra",
+    "region": "Greater Accra",
+    "countryCode": "GH",
+    "line1": "42 Orphan Crescent, Labone",
+    "lat": 5.5699877,
+    "lng": -0.1725978,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Orphan Crescent Labone street pin",
+    "website": "https://padelrevive.com/padel-in-ghana/",
+    "venueModel": "own_premises",
+    "seasonNote": "Reportedly ~06:00–00:00; book via Mamba Club app.",
+    "description": "Mamba Club Accra is a Labone padel club on Orphan Crescent with a published street address on Padel Lands and Accra court guides. A clear Accra densify pick distinct from Clan 7, The Padel Club Adjiringanor, Aura Osu, and S2 Spintex. Phone not listed yet — book via the club app and confirm open play before travelling across town.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/mamba-club-accra/",
+    "secondarySourceUrl": "https://aiimasports.com/blogs/nyheter/padel-courts-in-accra",
+    "sourceTypes": "Padel Lands Mamba Club Accra card (Orphan Cres); AIIMA Accra padel guide (hours + Labone address)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "FIND tick 05 — phone optional; app booking cited by Labari Journal / MWM. Court counts in guides not asserted."
   }
 ]

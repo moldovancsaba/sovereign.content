@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T04:40:00Z",
+  "observedAt": "2026-09-27T05:32:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 54,
+    "fairUsePassCount": 55,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,34 +22,35 @@
     "evidenceCityPinOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 347,
+    "qualityLoopScanned": 352,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
-    "fairUsePass": 54,
+    "fairUsePass": 55,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-079",
-      "ZAF-VEN-080",
-      "ZAF-VEN-081",
-      "ZAF-VEN-082",
-      "MAR-VEN-035",
-      "ZAF-VEN-077/078/024/045/056/058",
-      "MAR-VEN-027/009/034",
-      "NGA-VEN-012"
+      "ZAF-VEN-083",
+      "ZAF-VEN-084",
+      "ZAF-VEN-085",
+      "GHA-VEN-007",
+      "ZAF-VEN-079/080/081/077/082",
+      "GHA-VEN-001/002/004/005/006"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [
-      "PLAYON/Smash Mombasa already seeded",
-      "Fes Country Club already seeded"
+      "Discovery Padel Park Sandton already ZAF-VEN-003"
     ],
-    "findZeroResult": [],
-    "ingestDiscoveredOk": 15,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T04.json",
+    "findZeroResult": [
+      "Elite Padel Yaoundé hiring/launching-only",
+      "Annaba Algeria under development only",
+      "Kumasi/Takoradi Ghana no verified courts"
+    ],
+    "ingestDiscoveredOk": 14,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T05.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 04 Gqeberha densify + Agadir campus + Crystal promote. Not claiming PUBLISHED."
+    "note": "Tick 05 Gqeberha densify + Accra Mamba. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -62,38 +63,38 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T04:40:00.000000Z",
+  "updatedAt": "2026-09-27T05:32:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 347,
+    "scanned": 352,
     "belowThreshold": 1,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 54,
-    "promoted": [
-      "ZAF-VEN-082 Crystal Padel Montroux"
+    "passCount": 55,
+    "promoted": [],
+    "skipped_duplicate": [
+      "Discovery Padel Park Sandton (ZAF-VEN-003)"
     ],
     "rejected": [
-      "MyPadel (LV / Riga)"
+      "X7 Padel Barcelona Sabadell (ES)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-079 Techno Padel Walmer Golf Club",
-      "ZAF-VEN-080 TPC The Padel Centre Fairview",
-      "ZAF-VEN-081 New Era Padel Sport Fairview",
-      "MAR-VEN-035 Padel Factory Universiapolis",
-      "ZAF-VEN-082 Crystal Padel (fair-use promote)"
+      "ZAF-VEN-083 Trend Entertainment Centre",
+      "ZAF-VEN-084 Valley Road Padel",
+      "ZAF-VEN-085 Sunridge Action Arena",
+      "GHA-VEN-007 Mamba Club Accra (phone-optional)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~04:16–04:40 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
+  "notes": "Tick ~05:08–05:32 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
 }

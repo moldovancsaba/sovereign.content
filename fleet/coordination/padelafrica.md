@@ -1089,3 +1089,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill Gqeberha/Agadir/Hilton/Extreme cluster → **15/15** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~05:08–05:32 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_cc879624-…`).
+
+**Quality:** 352 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 55 (28 sources). **Skipped duplicate** Discovery Padel Park Sandton (`ZAF-VEN-003`). **Rejected** X7 Padel Barcelona Sabadell (ES). `needs_verify` cleared.
+
+**FIND:**
+- ZA Gqeberha densify → **`ZAF-VEN-083` Trend Entertainment Centre**, **`ZAF-VEN-084` Valley Road Padel**, **`ZAF-VEN-085` Sunridge Action Arena** DISCOVERED
+- GH Accra densify → **`GHA-VEN-007` Mamba Club Accra** DISCOVERED (Orphan Crescent street pin; phone optional)
+- Skip → Elite Padel Yaoundé hiring-only; Annaba under development; Kumasi/Takoradi no verified courts
+- Backfill Gqeberha/Accra cluster → **14/14** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
