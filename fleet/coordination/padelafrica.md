@@ -1121,3 +1121,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill Eastern Cape + Hilton/Universiapolis/Mamba → **14/14** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~07:11–07:38 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_cc879624-…`).
+
+**Quality:** 360 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 57 (28 sources). **Rejected** Indie Pádel Club (ES / Madrid). `needs_verify` cleared.
+
+**FIND:**
+- ZA North Coast → **`ZAF-VEN-089` Africa Padel Ballito**, **`ZAF-VEN-090` Rockets Padel + Social**, **`ZAF-VEN-091` Ballito Virgin Active Indoor** DISCOVERED (new Ballito city cell)
+- MA Meknès → **`MAR-VEN-037` MOTIV'CLUB Meknès Padel** DISCOVERED (new city)
+- MA Fès densify → **`MAR-VEN-038` Le Padel Spot Club Fès** DISCOVERED (phone optional / corridor pin)
+- KE Nairobi densify → **`KEN-VEN-022` Karen Country Club Padel**, **`KEN-VEN-023` Matteo's Padel Karen** DISCOVERED
+- Skip → Kisumu plans-only; Port Harcourt no operating club; Entebbe Kampala-only
+- Backfill Ballito/Salt Rock + EC + Oujda/Hilton + Pro Padel → **14/14** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

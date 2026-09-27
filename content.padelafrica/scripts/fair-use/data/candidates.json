@@ -2582,5 +2582,22 @@
     "extractedAt": "2026-09-27T06:17:55.595Z",
     "triagedAt": "2026-09-27T06:30:27.639Z",
     "triageNote": "Out of Africa scope (Sevilla ES)"
+  },
+  {
+    "candidateId": "fair-padelivu-indie-padel-club",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Indie Pádel Club",
+    "citationUrl": "https://padelivu.com/club/indie-padel-club",
+    "website": "",
+    "addressHint": "Avenida de la Democracia 11, 28031, Madrid, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/indie-padel-club"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone optional; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T07:20:24.635Z",
+    "triagedAt": "2026-09-27T07:25:28.520Z",
+    "triageNote": "Out of Africa scope (Madrid ES)"
   }
 ]

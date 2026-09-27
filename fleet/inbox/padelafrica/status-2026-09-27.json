@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T06:32:00Z",
+  "observedAt": "2026-09-27T07:38:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 56,
+    "fairUsePassCount": 57,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,30 +22,37 @@
     "evidenceCityPinOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 356,
+    "qualityLoopScanned": 360,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
-    "fairUsePass": 56,
+    "fairUsePass": 57,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-086",
-      "ZAF-VEN-087",
-      "ZAF-VEN-088",
-      "MAR-VEN-036",
-      "ZAF-VEN-083/084/085/045/020/022/023",
-      "MAR-VEN-034/035",
-      "GHA-VEN-007"
+      "ZAF-VEN-089",
+      "ZAF-VEN-090",
+      "ZAF-VEN-091",
+      "MAR-VEN-037",
+      "MAR-VEN-038",
+      "KEN-VEN-022",
+      "KEN-VEN-023",
+      "ZAF-VEN-015/086/087/088",
+      "MAR-VEN-036/034",
+      "KEN-VEN-021"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
-    "findZeroResult": [],
+    "findZeroResult": [
+      "Kisumu KE (plans-only)",
+      "Port Harcourt NG (no operating club)",
+      "Entebbe UG (Kampala-only)"
+    ],
     "ingestDiscoveredOk": 14,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T06.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T07.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 06 Eastern Cape secondary cities + Oujda. Not claiming PUBLISHED."
+    "note": "Tick 07 Ballito + Meknès + Fès densify + Nairobi Karen. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -58,35 +65,38 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T06:32:00.000000Z",
+  "updatedAt": "2026-09-27T07:38:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 356,
+    "scanned": 360,
     "belowThreshold": 1,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 56,
+    "passCount": 57,
     "promoted": [],
     "rejected": [
-      "Ic\u00f3nico Sports & Social Club (ES / Sevilla)"
+      "Indie Pádel Club (ES / Madrid)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-086 Padel City GQ",
-      "ZAF-VEN-087 Port Alfred Padel (new city)",
-      "ZAF-VEN-088 Kenton Padel (new city)",
-      "MAR-VEN-036 Sporting Tennis Club Oujda (new city)"
+      "ZAF-VEN-089 Africa Padel Ballito (new city)",
+      "ZAF-VEN-090 Rockets Padel + Social (Ballito)",
+      "ZAF-VEN-091 Ballito Virgin Active Padel Club Indoor",
+      "MAR-VEN-037 MOTIV'CLUB Meknès Padel (new city)",
+      "MAR-VEN-038 Le Padel Spot Club Fès",
+      "KEN-VEN-022 Karen Country Club Padel",
+      "KEN-VEN-023 Matteo's Padel Karen"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~06:08\u201306:32 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
+  "notes": "Tick ~07:11–07:38 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
 }
