@@ -1411,3 +1411,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **8/8** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~22:05–22:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 500 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 72 (28 sources). **Rejected** Pintopadel (Madrid, Spain). `needs_verify` cleared.
+
+**FIND:**
+- ZA Pretoria East → **`ZAF-VEN-214` Thrashers Menlyn**, **`ZAF-VEN-215` Padel Parq Kimiad**, **`ZAF-VEN-216` MK Padel Mooikloof**, **`ZAF-VEN-218` U-Pro Atterbury**, **`ZAF-VEN-219` Grove Lynnwood Rd** DISCOVERED
+- ZA Pretoria → **`ZAF-VEN-217` Waterkloof Racquet Club**, **`ZAF-VEN-220` Lynnwood Padel**, **`ZAF-VEN-221` Menlo Padel** DISCOVERED
+- Skip/dup → The Net / Village / Rietondale already seeded; Centre Court Lynnwood Glen contact-thin
+- Ingest → **8/8** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

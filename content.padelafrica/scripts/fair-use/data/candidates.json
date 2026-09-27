@@ -2841,5 +2841,22 @@
     "extractedAt": "2026-09-27T21:15:35.004Z",
     "rejectedAt": "2026-09-27T21:22:00.000Z",
     "note": "Out of scope — Badhoevedorp/Netherlands (Europe), not Africa"
+  },
+  {
+    "candidateId": "fair-padelivu-pintopadel",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Pintopadel",
+    "citationUrl": "https://padelivu.com/club/pintopadel",
+    "website": "",
+    "addressHint": "Calle Asturias, 30, Pinto, Madrid, 28320, Madrid, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/pintopadel"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T22:14:37.249Z",
+    "rejectedAt": "2026-09-27T22:30:00.000Z",
+    "note": "Out of scope — Pinto/Madrid, Spain (Europe), not Africa"
   }
 ]
