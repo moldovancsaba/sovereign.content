@@ -3636,7 +3636,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "rejected"
+    "status": "ingested"
   },
   "seed-hun-hln45e": {
     "seedId": "seed-hun-hln45e",
@@ -3655,7 +3655,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "rejected"
+    "status": "ingested"
   },
   "seed-hun-xdus5e": {
     "seedId": "seed-hun-xdus5e",
@@ -3693,7 +3693,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "rejected"
+    "status": "ingested"
   },
   "seed-hun-63sdvg": {
     "seedId": "seed-hun-63sdvg",
@@ -3712,7 +3712,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "rejected"
+    "status": "ingested"
   },
   "seed-hun-r4my4e": {
     "seedId": "seed-hun-r4my4e",
@@ -3788,7 +3788,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "rejected"
+    "status": "pending"
   },
   "seed-hun-mo7j66": {
     "seedId": "seed-hun-mo7j66",
@@ -3807,7 +3807,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "rejected"
+    "status": "pending"
   },
   "seed-hun-faly86": {
     "seedId": "seed-hun-faly86",

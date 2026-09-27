@@ -1,9 +1,9 @@
 #!/usr/bin/env tsx
 /**
- * Re-fetch facility detail pages and deepen street-level addresses.
+ * Re-fetch facility detail pages and deepen addresses.
  *
- * Fixes the prior bug where deepen preferred nearby `.pcard` listings over the
- * facility's own PublicSwimmingPool JSON-LD.
+ * Prefer street when the source has one. Otherwise emit city-level `Near {city}`
+ * (Nominatim locality pin). Phone is optional — never required to proceed.
  *
  *   npm run fair-use:deepen-addresses -- --dry-run --limit=10
  *   npm run fair-use:deepen-addresses -- --limit=20
@@ -23,20 +23,11 @@ import {
   ingestPatch,
   type IngestConfig,
 } from "../../ingest/client.ts";
+import { isStreetLevel, resolvePlaceLine } from "./lib/placeAddress.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const FIND_SEEDS_FILE = path.join(__dirname, "data", "find-seeds.json");
-
-function isStreetLevel(address?: string): boolean {
-  if (!address) return false;
-  // postal code OR house number + street token
-  return (
-    /\d{4}\s+\S+/.test(address) ||
-    /^\d+\s+\S+/.test(address) ||
-    /\s\d+[.,]?\s*(utca|út|útja|tér|körút|krt)/i.test(address)
-  );
-}
 
 function loadConfig(): IngestConfig {
   const baseUrl =
@@ -57,10 +48,20 @@ function publishedListingId(seed: FindSeed): string {
   return `l-${researchCardId(seed)}`;
 }
 
+function placeFor(seed: FindSeed) {
+  return resolvePlaceLine({
+    address: seed.initialFacts.address,
+    territory: seed.territory,
+    name: seed.initialFacts.name,
+  });
+}
+
 function buildAbout(seed: FindSeed): string {
-  const { name, address } = seed.initialFacts;
+  const { name } = seed.initialFacts;
+  const place = placeFor(seed);
+  const label = place?.streetLevel ? place.line1 : place?.locality;
   let about = `A ${name} tanuszoda / uszoda`;
-  if (address) about += ` (${address})`;
+  if (label) about += ` (${label})`;
   about += ".";
   about +=
     " Helyszíni programok, belépés és nyitvatartás előtt érdemes a hivatalos oldalon tájékozódni.";
@@ -70,13 +71,15 @@ function buildAbout(seed: FindSeed): string {
 function buildSourceText(seed: FindSeed): string {
   const c = seed.initialFacts.contact || {};
   const about = buildAbout(seed);
+  const place = placeFor(seed);
+  // Phone optional — omit when absent. No street → Near {city} for locality pin.
   return [
     `URL: ${seed.researchSources[0]?.url || ""}`,
     "Qualified as: swimming-facility",
     `Name: ${seed.initialFacts.name}`,
     `Venue: ${seed.initialFacts.name}`,
-    seed.initialFacts.address ? `Address: ${seed.initialFacts.address}` : null,
-    seed.territory === "HUN-BUD" ? "Locality: Budapest" : "Locality: Hungary",
+    place ? `Address: ${place.line1}` : null,
+    place ? `Locality: ${place.locality}` : null,
     "Country: Hungary",
     "CountryCode: HU",
     c.phone ? `Phone: ${c.phone}` : null,
@@ -92,25 +95,27 @@ function buildSourceText(seed: FindSeed): string {
     .join("\n");
 }
 
-function parseAddressParts(address: string): {
-  line1?: string;
+function parseAddressParts(seed: FindSeed): {
+  line1: string;
   locality: string;
   postalCode?: string;
 } {
-  const postal = address.match(/\b(\d{4})\b/)?.[1];
-  const localityMatch = address.match(/\b(Budapest|Hungary)\b/i);
-  const locality = localityMatch?.[1] === "Hungary" ? "Budapest" : localityMatch?.[1] || "Budapest";
-  // Prefer street before first comma if it looks like a street
-  const first = address.split(",")[0]?.trim() || "";
-  let line1: string | undefined;
-  if (/^\d+\s+/.test(first) || /(utca|út|útja|tér|körút)/i.test(first)) {
-    line1 = first;
-  } else {
-    // "1039 Budapest, 272 Királyok útja" style after our formatter
-    const street = address.match(/\d+\s+[^,]+(?:utca|út|útja|tér|körút)[^,]*/i)?.[0];
-    line1 = street?.trim();
+  const place = placeFor(seed);
+  const addr = seed.initialFacts.address || "";
+  const postal = addr.match(/\b(\d{4})\b/)?.[1];
+  if (place?.streetLevel) {
+    const first = addr.split(",")[0]?.trim() || place.line1;
+    const street =
+      (/^\d+\s+/.test(first) || /(utca|út|útja|tér|körút)/i.test(first)
+        ? first
+        : addr.match(/\d+\s+[^,]+(?:utca|út|útja|tér|körút)[^,]*/i)?.[0]?.trim()) || place.line1;
+    return { line1: street, locality: place.locality, postalCode: postal };
   }
-  return { line1, locality, postalCode: postal };
+  return {
+    line1: place?.line1 || `Near ${place?.locality || "Budapest"}`,
+    locality: place?.locality || "Budapest",
+    postalCode: postal,
+  };
 }
 
 async function deepenOne(
@@ -149,33 +154,39 @@ async function deepenOne(
   const gotStreet = !!(best?.address && isStreetLevel(best.address));
   const gotPhone =
     !!best?.contact?.phone && best.contact.phone !== seed.initialFacts.contact?.phone;
-  if (!gotStreet && !gotPhone) {
-    return {
-      seedId: seed.seedId,
-      outcome: "no_street",
-      reason: "source_lacks_street_or_new_phone",
-      got: best?.address || null,
-    };
-  }
+  const cityHint = best?.address && !isStreetLevel(best.address) ? best.address : seed.initialFacts.address;
 
   const updated: FindSeed = {
     ...seed,
     initialFacts: {
       name: seed.initialFacts.name,
-      address: gotStreet ? best!.address! : seed.initialFacts.address,
+      address: gotStreet ? best!.address! : cityHint,
       contact: { ...seed.initialFacts.contact, ...best?.contact },
     },
     confidence: gotStreet ? "high" : seed.confidence === "low" ? "medium" : seed.confidence,
     status: seed.status === "rejected" ? "pending" : seed.status,
   };
 
+  const place = placeFor(updated);
+  // Phone optional. No street → city-level Near pin is enough to proceed.
+  if (!gotStreet && !gotPhone && !place) {
+    return {
+      seedId: seed.seedId,
+      outcome: "skip",
+      reason: "no_street_phone_or_city",
+      got: best?.address || null,
+    };
+  }
+
   if (dryRun) {
     return {
       seedId: seed.seedId,
       outcome: "dry-run",
       addressBefore: seed.initialFacts.address,
-      addressAfter: best.address,
-      phone: best.contact?.phone,
+      addressAfter: gotStreet ? best?.address : place?.line1,
+      phone: best?.contact?.phone || null,
+      phoneOptional: true,
+      geoPrecision: gotStreet ? "street" : "locality",
     };
   }
 
@@ -206,13 +217,13 @@ async function deepenOne(
           seedId: seed.seedId,
           outcome: "error",
           reason: `create_failed: ${errCreate.message}`,
-          addressAfter: updated.initialFacts.address,
+          addressAfter: place?.line1 || updated.initialFacts.address,
         };
       }
     } else {
-      // Fallback: patch published listing venue.address
+      // Fallback: patch published listing venue.address (Near {city} when no street)
       pathUsed = "patch";
-      const parts = parseAddressParts(updated.initialFacts.address || "");
+      const parts = parseAddressParts(updated);
       try {
         ingestOutcome = await ingestPatch(cfg!, {
           id: publishedListingId(updated),
@@ -233,7 +244,7 @@ async function deepenOne(
           seedId: seed.seedId,
           outcome: "error",
           reason: `ingest_failed: ${err.message} / ${err2.message}`,
-          addressAfter: updated.initialFacts.address,
+          addressAfter: parts.line1,
         };
       }
     }
@@ -244,8 +255,9 @@ async function deepenOne(
     outcome: "deepened",
     path: pathUsed,
     addressBefore: seed.initialFacts.address,
-    addressAfter: best.address,
-    phone: best.contact?.phone,
+    addressAfter: gotStreet ? best?.address : place?.line1,
+    phone: best?.contact?.phone || updated.initialFacts.contact?.phone || null,
+    geoPrecision: gotStreet ? "street" : "locality",
     response: ingestOutcome,
     seedUpdate: updated,
   };
@@ -278,7 +290,7 @@ async function main() {
     .filter((s) => !isStreetLevel(s.initialFacts.address))
     .slice(0, limit);
 
-  console.log(`📊 Candidates needing street address: ${candidates.length}`);
+  console.log(`📊 Candidates needing street or city-level pin: ${candidates.length}`);
 
   const cfg = dryRun ? null : loadConfig();
   const results: Array<Record<string, unknown>> = [];
@@ -302,7 +314,7 @@ async function main() {
   }
 
   const deepened = results.filter((r) => r.outcome === "deepened" || r.outcome === "dry-run").length;
-  const noStreet = results.filter((r) => r.outcome === "no_street").length;
+  const skipped = results.filter((r) => r.outcome === "skip" || r.outcome === "no_street").length;
   const errors = results.filter((r) => r.outcome === "error").length;
 
   console.log(
@@ -310,7 +322,7 @@ async function main() {
       {
         job: "sportolok:fair-use-deepen-addresses",
         dryRun,
-        summary: { deepened, noStreet, errors, scanned: results.length },
+        summary: { deepened, skipped, errors, scanned: results.length },
         results,
       },
       null,
