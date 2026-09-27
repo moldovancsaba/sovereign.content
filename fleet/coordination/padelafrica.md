@@ -1244,3 +1244,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill Worcester / Oudtshoorn / Sibaya → **13/13** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~13:00–13:22 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 414 scanned, **2 below → 1 applied** (compose_about `ZAF-VEN-124`; TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 63 (28 sources). **Rejected** Villapadierna Padel Club (ES / Estepona). `needs_verify` cleared.
+
+**FIND:**
+- ZA Midlands → **`ZAF-VEN-129` Net Set Nottingham Road**, **`ZAF-VEN-130` Howick Padel Club**, **`ZAF-VEN-131` Padel Up Howick**, **`ZAF-VEN-132` LivPadel Hilton** DISCOVERED (three new city cells)
+- ZA Free State → **`ZAF-VEN-133` Padel Haven Welkom**, **`ZAF-VEN-134` Padel Inspired Goudveld** DISCOVERED (new Welkom cell)
+- ZA Northern Cape → **`ZAF-VEN-135` Upington Padel** DISCOVERED (new city)
+- ZA Lowveld densify → **`ZAF-VEN-136` Play 360 Nelspruit**, **`ZAF-VEN-137` Bat Hawk Padel** DISCOVERED
+- Skip → Constantine no operating evidence beyond Oran/Bir El Djir already seeded
+- Backfill Port Edward / Courtside / Tamaris → **12/12** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

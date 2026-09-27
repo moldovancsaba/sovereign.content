@@ -1,0 +1,138 @@
+{
+  "appliedAt": "2026-09-27T13:02:05.023Z",
+  "baseUrl": "https://padel-africa.doneisbetter.com",
+  "results": [
+    {
+      "recordId": "ZAF-VEN-129",
+      "id": "research-zaf-ven-129",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-129",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-130",
+      "id": "research-zaf-ven-130",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-130",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-131",
+      "id": "research-zaf-ven-131",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-131",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-132",
+      "id": "research-zaf-ven-132",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-132",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-133",
+      "id": "research-zaf-ven-133",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-133",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-134",
+      "id": "research-zaf-ven-134",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-134",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-135",
+      "id": "research-zaf-ven-135",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-135",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-136",
+      "id": "research-zaf-ven-136",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-136",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-137",
+      "id": "research-zaf-ven-137",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zaf-ven-137",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-120",
+      "id": "research-zaf-ven-120",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zaf-ven-120",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ZAF-VEN-122",
+      "id": "research-zaf-ven-122",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zaf-ven-122",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MAR-VEN-047",
+      "id": "research-mar-ven-047",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mar-ven-047",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

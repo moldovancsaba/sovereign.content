@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T12:22:00Z",
+  "observedAt": "2026-09-27T13:22:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 62,
+    "fairUsePassCount": 63,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,36 +23,34 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 404,
-    "qualityLoopBelowThreshold": 1,
-    "qualityLoopApplied": 0,
-    "fairUsePass": 62,
+    "qualityLoopScanned": 414,
+    "qualityLoopBelowThreshold": 2,
+    "qualityLoopApplied": 1,
+    "fairUsePass": 63,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-120",
-      "ZAF-VEN-121",
-      "ZAF-VEN-122",
-      "ZAF-VEN-123",
-      "ZAF-VEN-124",
-      "ZAF-VEN-125",
-      "ZAF-VEN-126",
-      "ZAF-VEN-127",
-      "ZAF-VEN-128",
-      "MAR-VEN-047"
+      "ZAF-VEN-129",
+      "ZAF-VEN-130",
+      "ZAF-VEN-131",
+      "ZAF-VEN-132",
+      "ZAF-VEN-133",
+      "ZAF-VEN-134",
+      "ZAF-VEN-135",
+      "ZAF-VEN-136",
+      "ZAF-VEN-137"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "Docs Padel Kimberley opening-soon",
-      "Beni Mellal no operating padel"
+      "Constantine no operating club evidence"
     ],
-    "ingestDiscoveredOk": 13,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-27.json",
+    "ingestDiscoveredOk": 12,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-28.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 12: KZN South Coast + PMB densify + Northern Cape + Tamaris. Not claiming PUBLISHED."
+    "note": "Tick 13: Midlands + Welkom + Upington + Mbombela densify. Quality applied compose_about ZAF-124. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -65,41 +63,41 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T12:22:00.000000Z",
+  "updatedAt": "2026-09-27T13:22:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 404,
-    "belowThreshold": 1,
-    "applied": 0,
-    "mongo": "quarantined"
+    "scanned": 414,
+    "belowThreshold": 2,
+    "applied": 1,
+    "mongo": "quarantined",
+    "note": "compose_about ZAF-VEN-124"
   },
   "fairUse": {
-    "passCount": 62,
+    "passCount": 63,
     "promoted": [],
     "rejected": [
-      "Club Tennis Sabadell (ES)"
+      "Villapadierna Padel Club (ES / Estepona)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-120 Sun Padel Wild Coast (Port Edward \u2014 new city)",
-      "ZAF-VEN-121 South Coast Padel (Uvongo \u2014 new city)",
-      "ZAF-VEN-122 Courtside Padel (PMB densify; IG)",
-      "ZAF-VEN-123 Mountain Rise Padel",
-      "ZAF-VEN-124 Matchpoint Padel Club",
-      "ZAF-VEN-125 Padel Power",
-      "ZAF-VEN-126 The Padel Factory (Kathu \u2014 new city)",
-      "ZAF-VEN-127 Lifestyle Padel (Kuruman \u2014 new city)",
-      "ZAF-VEN-128 Jubilee Padel (Hartswater \u2014 new city)",
-      "MAR-VEN-047 Tamaris Foot & Padel (new city)"
+      "ZAF-VEN-129 Net Set Padel Nottingham Road (new city)",
+      "ZAF-VEN-130 Howick Padel Club (new city)",
+      "ZAF-VEN-131 Padel Up Howick",
+      "ZAF-VEN-132 LivPadel Hilton (new city)",
+      "ZAF-VEN-133 Padel Haven Welkom (new city)",
+      "ZAF-VEN-134 Padel Inspired Goudveld",
+      "ZAF-VEN-135 Upington Padel (new city)",
+      "ZAF-VEN-136 Play 360 Nelspruit (Mbombela densify)",
+      "ZAF-VEN-137 Bat Hawk Padel (Mbombela densify)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T12:22Z tick 12 South Coast / PMB / Northern Cape / Tamaris. Timer left subscribed."
+  "notes": "2026-09-27T13:22Z tick 13 Midlands / Free State / Northern Cape / Lowveld. Timer left subscribed."
 }
