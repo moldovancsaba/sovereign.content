@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T17:28:00Z",
+  "observedAt": "2026-09-27T18:24:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 67,
+    "fairUsePassCount": 68,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,32 +23,38 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 460,
-    "qualityLoopBelowThreshold": 5,
-    "qualityLoopApplied": 4,
-    "fairUsePass": 67,
+    "qualityLoopScanned": 468,
+    "qualityLoopBelowThreshold": 3,
+    "qualityLoopApplied": 2,
+    "fairUsePass": 68,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-174",
-      "ZAF-VEN-175",
-      "ZAF-VEN-176",
-      "ZAF-VEN-177",
-      "ZAF-VEN-178",
-      "ZAF-VEN-179",
-      "ZAF-VEN-180",
-      "ZAF-VEN-181"
+      "ZAF-VEN-182",
+      "ZAF-VEN-183",
+      "ZAF-VEN-184",
+      "ZAF-VEN-185",
+      "ZAF-VEN-186",
+      "ZAF-VEN-187",
+      "ZAF-VEN-188",
+      "ZAF-VEN-189"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
-    "findSkippedDuplicate": [],
-    "findZeroResult": [],
-    "findSkipped": [],
+    "findSkippedDuplicate": [
+      "Newcastle BAS/Prime/Mojos already seeded ZAF-VEN-064..066"
+    ],
+    "findZeroResult": [
+      "Phalaborwa / Richards Bay / Empangeni / Barberton / Vryheid no operating public listings"
+    ],
+    "findSkipped": [
+      "Tzaneen Padel Playtomic slug opening-soon — used MY PADEL Tzaneen instead"
+    ],
     "ingestDiscoveredOk": 8,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-32.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-33.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 17: Dullstroom/Hoedspruit/Komatipoort/Winterton/Emgwenya/Frankfort/Dundee. Fair-use pass 67 quiet. Not claiming PUBLISHED."
+    "note": "Tick 18: Volksrust/Lydenburg/Underberg/Kokstad/Mkhondo/Port Shepstone/Scottburgh/Tzaneen. Fair-use pass 68 quiet. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -61,38 +67,38 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T17:28:00.000000Z",
+  "updatedAt": "2026-09-27T18:24:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 460,
-    "belowThreshold": 5,
-    "applied": 4,
+    "scanned": 468,
+    "belowThreshold": 3,
+    "applied": 2,
     "mongo": "quarantined",
-    "note": "compose_about ZAF-VEN-165/167/169/172; TUN-019 skip_closed"
+    "note": "compose_about ZAF-VEN-179/180; TUN-019 skip_closed"
   },
   "fairUse": {
-    "passCount": 67,
+    "passCount": 68,
     "promoted": [],
     "rejected": [],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-174 Dullstroom Padel @ Dunkeld Estate (new city)",
-      "ZAF-VEN-175 Highland Gate Golf & Trout Estate Padel (Dullstroom densify)",
-      "ZAF-VEN-176 Hoedspruit Padel (new city)",
-      "ZAF-VEN-177 Shawu's Hills Bush Padel (Komatipoort new city)",
-      "ZAF-VEN-178 Cayley Padel (Winterton new city)",
-      "ZAF-VEN-179 Padel @ Malaga Hotel (Emgwenya new city)",
-      "ZAF-VEN-180 Frankfort Padel (new city; phone-optional street pin)",
-      "ZAF-VEN-181 Padel Pit (Dundee new city; phone-optional)"
+      "ZAF-VEN-182 Windsor Padel Volksrust (new city)",
+      "ZAF-VEN-183 Lydenburg Golf Club Padel (new city)",
+      "ZAF-VEN-184 Underberg Padel Club (new city)",
+      "ZAF-VEN-185 Kokstad Padel Club (new city)",
+      "ZAF-VEN-186 Ultimate Padel Mkhondo (new city; phone-optional)",
+      "ZAF-VEN-187 Sheppie Padel Port Shepstone (new city)",
+      "ZAF-VEN-188 WI PADEL Scottburgh (new city)",
+      "ZAF-VEN-189 MY PADEL Tzaneen (new city)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T17:28Z tick 17 Lowveld / Drakensberg densify. Timer left subscribed."
+  "notes": "2026-09-27T18:24Z tick 18 northern KZN / Mpumalanga / Limpopo densify. Timer left subscribed."
 }

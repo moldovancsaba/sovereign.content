@@ -1342,3 +1342,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **8/8** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~18:00–18:24 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 468 scanned, **3 below → 2 applied** (compose_about `ZAF-VEN-179`/`180`; TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 68 (28 sources). Quiet — no new `needs_verify`. Cleared.
+
+**FIND:**
+- ZA Mpumalanga → **`ZAF-VEN-182` Windsor Volksrust**, **`ZAF-VEN-183` Lydenburg Golf Club**, **`ZAF-VEN-186` Ultimate Padel Mkhondo** DISCOVERED (three new cities)
+- ZA KZN Drakensberg → **`ZAF-VEN-184` Underberg Padel**, **`ZAF-VEN-185` Kokstad Padel** DISCOVERED (two new cities)
+- ZA KZN South Coast → **`ZAF-VEN-187` Sheppie Port Shepstone**, **`ZAF-VEN-188` WI PADEL Scottburgh** DISCOVERED (two new cities)
+- ZA Limpopo → **`ZAF-VEN-189` MY PADEL Tzaneen** DISCOVERED (new city)
+- Skip/dup → Newcastle already seeded; Tzaneen opening-soon slug skipped; Phalaborwa/Richards Bay/Empangeni/Barberton/Vryheid zero-result
+- Ingest → **8/8** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
