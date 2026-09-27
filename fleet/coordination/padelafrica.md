@@ -1395,3 +1395,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **8/8** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~21:06–21:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 492 scanned, **4 below → 3 applied** (compose_about `ZAF-VEN-198`/`202`/`205`; TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 71 (28 sources). **Rejected** Padelpoints Badhoevedorp (Netherlands). `needs_verify` cleared.
+
+**FIND:**
+- ZA Centurion/Irene → **`ZAF-VEN-206` Proactive Irene CC**, **`ZAF-VEN-209` Tayfin Country Club**, **`ZAF-VEN-210` Golden Point** DISCOVERED (Centurion densify)
+- ZA Pretoria East → **`ZAF-VEN-207` Proactive Wingate**, **`ZAF-VEN-208` Proactive Woodhill**, **`ZAF-VEN-211` PadelTop West53**, **`ZAF-VEN-212` DPT Elarduspark**, **`ZAF-VEN-213` Padel Lab Elarduspark** DISCOVERED
+- Skip → Cornwall/Cotswold residents-only (prior); Woodhill non-residents allowed with access codes — seeded
+- Ingest → **8/8** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

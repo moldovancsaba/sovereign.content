@@ -2824,5 +2824,22 @@
     "extractedAt": "2026-09-27T20:09:30.761Z",
     "rejectReason": "Non-Africa (Tampico, Mexico). Rejected tick 20 fair-use pass 70.",
     "rejectedAt": "2026-09-27T20:22:41Z"
+  },
+  {
+    "candidateId": "fair-padelivu-padelpoints-badhoevedorp",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Padelpoints Badhoevedorp",
+    "citationUrl": "https://padelivu.com/club/padelpoints-badhoevedorp",
+    "website": "",
+    "addressHint": "Sloterweg 301, 1171 VB, Badhoevedorp, Netherlands",
+    "researchSources": [
+      "https://padelivu.com/club/padelpoints-badhoevedorp"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T21:15:35.004Z",
+    "rejectedAt": "2026-09-27T21:22:00.000Z",
+    "note": "Out of scope — Badhoevedorp/Netherlands (Europe), not Africa"
   }
 ]

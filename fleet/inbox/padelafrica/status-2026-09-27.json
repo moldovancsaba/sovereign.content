@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T20:24:00Z",
+  "observedAt": "2026-09-27T21:35:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 70,
+    "fairUsePassCount": 71,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,39 +23,35 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 484,
-    "qualityLoopBelowThreshold": 5,
-    "qualityLoopApplied": 4,
-    "fairUsePass": 70,
+    "qualityLoopScanned": 492,
+    "qualityLoopBelowThreshold": 4,
+    "qualityLoopApplied": 3,
+    "fairUsePass": 71,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-198",
-      "ZAF-VEN-199",
-      "ZAF-VEN-200",
-      "ZAF-VEN-201",
-      "ZAF-VEN-202",
-      "ZAF-VEN-203",
-      "ZAF-VEN-204",
-      "ZAF-VEN-205"
+      "ZAF-VEN-206",
+      "ZAF-VEN-207",
+      "ZAF-VEN-208",
+      "ZAF-VEN-209",
+      "ZAF-VEN-210",
+      "ZAF-VEN-211",
+      "ZAF-VEN-212",
+      "ZAF-VEN-213"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
-    "findZeroResult": [
-      "Kisumu Kenya plans-only / no operating clubs",
-      "Kumasi/Takoradi Ghana no operating public clubs",
-      "Francistown Botswana under construction; Maun BMC phone unverified"
-    ],
+    "findZeroResult": [],
     "findSkipped": [
-      "Ghana Padel Town/Zone/Boho/Mamba Blu — contact not independently verified this tick",
-      "Cotswold Downs residents-only (prior)"
+      "Cornwall / Cotswold residents-only (prior)",
+      "Kisumu/Kumasi/Francistown zero or plans-only (prior)"
     ],
     "ingestDiscoveredOk": 8,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-35.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-36.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 20: Kloof/Forest Hills + Centurion/Bedfordview/Midstream densify. Fair-use rejected Padel 11:11 (MX). Not claiming PUBLISHED."
+    "note": "Tick 21: Pretoria East/Centurion densify (Proactive Irene/Wingate/Woodhill, Tayfin, Golden Point, PadelTop West53, DPT + Padel Lab Elarduspark). Fair-use rejected Padelpoints Badhoevedorp (NL). Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -68,40 +64,11 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T20:24:00.000000Z",
+  "updatedAt": "2026-09-27T21:35:00Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
+    "delaySeconds": 3600,
     "stillSubscribed": true
-  },
-  "qualityLoop": {
-    "scanned": 484,
-    "belowThreshold": 5,
-    "applied": 4,
-    "mongo": "quarantined",
-    "note": "compose_about ZAF-VEN-191/192/194/196; TUN-019 skip_closed"
-  },
-  "fairUse": {
-    "passCount": 70,
-    "promoted": [],
-    "rejected": [
-      "Padel 11:11 (Tampico, Mexico)"
-    ],
-    "needs_verify": 0
-  },
-  "find": {
-    "seededDiscovered": [
-      "ZAF-VEN-198 Padel Up Kloof High School",
-      "ZAF-VEN-199 Padel Up Forest View (Forest Hills new city)",
-      "ZAF-VEN-200 LivPadel SuperSport Park Centurion",
-      "ZAF-VEN-201 LivPadel Jeppe Quondam (Bedfordview new city)",
-      "ZAF-VEN-202 Midstream Padel Club (new city)",
-      "ZAF-VEN-203 Gayle Padel @ Nexia SAB&T Centurion",
-      "ZAF-VEN-204 TopPadel Zwartkop Country Club Centurion",
-      "ZAF-VEN-205 Padel Lab Clubview Centurion"
-    ]
-  },
-  "hitl": [],
-  "claimPublished": false,
-  "notes": "2026-09-27T20:24Z tick 20 Upper Highway + Centurion corridor densify. Timer left subscribed."
+  }
 }
