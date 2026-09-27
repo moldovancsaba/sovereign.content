@@ -1226,3 +1226,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill Langebaan / PadelX / Coalition / Essaouira → **13/13** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~12:00–12:22 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 404 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 62 (28 sources). **Rejected** Club Tennis Sabadell (ES). `needs_verify` cleared.
+
+**FIND:**
+- ZA South Coast → **`ZAF-VEN-120` Sun Padel Wild Coast** (Port Edward), **`ZAF-VEN-121` South Coast Padel** (Uvongo) DISCOVERED
+- ZA PMB densify → **`ZAF-VEN-122` Courtside Padel**, **`ZAF-VEN-123` Mountain Rise**, **`ZAF-VEN-124` Matchpoint**, **`ZAF-VEN-125` Padel Power** DISCOVERED
+- ZA Northern Cape → **`ZAF-VEN-126` The Padel Factory Kathu**, **`ZAF-VEN-127` Lifestyle Padel Kuruman**, **`ZAF-VEN-128` Jubilee Padel Hartswater** DISCOVERED (three new cities)
+- MA Casablanca belt → **`MAR-VEN-047` Tamaris Foot & Padel** DISCOVERED (new Tamaris cell)
+- Skip → Docs Kimberley opening-soon; Beni Mellal tennis-only
+- Backfill Worcester / Oudtshoorn / Sibaya → **13/13** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

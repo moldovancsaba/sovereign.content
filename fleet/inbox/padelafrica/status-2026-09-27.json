@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T11:22:00Z",
+  "observedAt": "2026-09-27T12:22:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 61,
+    "fairUsePassCount": 62,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,36 +23,36 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 395,
+    "qualityLoopScanned": 404,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
-    "fairUsePass": 61,
+    "fairUsePass": 62,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-111",
-      "ZAF-VEN-112",
-      "ZAF-VEN-113",
-      "ZAF-VEN-114",
-      "ZAF-VEN-115",
-      "ZAF-VEN-116",
-      "ZAF-VEN-117",
-      "ZAF-VEN-118",
-      "ZAF-VEN-119"
+      "ZAF-VEN-120",
+      "ZAF-VEN-121",
+      "ZAF-VEN-122",
+      "ZAF-VEN-123",
+      "ZAF-VEN-124",
+      "ZAF-VEN-125",
+      "ZAF-VEN-126",
+      "ZAF-VEN-127",
+      "ZAF-VEN-128",
+      "MAR-VEN-047"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "Nador/Safi company-registry only",
-      "Richards Bay no operating club",
-      "Bizerte/Gabès no verified courts"
+      "Docs Padel Kimberley opening-soon",
+      "Beni Mellal no operating padel"
     ],
     "ingestDiscoveredOk": 13,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-26.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-27.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 11: Winelands secondary cities + Garden Route + Oudtshoorn + Sibaya. Not claiming PUBLISHED."
+    "note": "Tick 12: KZN South Coast + PMB densify + Northern Cape + Tamaris. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -65,38 +65,41 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T11:22:00.000000Z",
+  "updatedAt": "2026-09-27T12:22:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 395,
+    "scanned": 404,
     "belowThreshold": 1,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 61,
+    "passCount": 62,
     "promoted": [],
-    "rejected": [],
+    "rejected": [
+      "Club Tennis Sabadell (ES)"
+    ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-111 The Gym Padel Worcester (new city)",
-      "ZAF-VEN-112 Dragon Padel Wellington (new city; IG)",
-      "ZAF-VEN-113 Rickety Bridge Franschhoek (new city)",
-      "ZAF-VEN-114 Ceres Padel (new city)",
-      "ZAF-VEN-115 Wild Padel Wilderness (new city)",
-      "ZAF-VEN-116 Sedge Padel Sedgefield (new city)",
-      "ZAF-VEN-117 Oudtshoorn Padel (new city)",
-      "ZAF-VEN-118 Gimmie Padel Oudtshoorn",
-      "ZAF-VEN-119 Sun Padel Sibaya (Umhlanga densify)"
+      "ZAF-VEN-120 Sun Padel Wild Coast (Port Edward \u2014 new city)",
+      "ZAF-VEN-121 South Coast Padel (Uvongo \u2014 new city)",
+      "ZAF-VEN-122 Courtside Padel (PMB densify; IG)",
+      "ZAF-VEN-123 Mountain Rise Padel",
+      "ZAF-VEN-124 Matchpoint Padel Club",
+      "ZAF-VEN-125 Padel Power",
+      "ZAF-VEN-126 The Padel Factory (Kathu \u2014 new city)",
+      "ZAF-VEN-127 Lifestyle Padel (Kuruman \u2014 new city)",
+      "ZAF-VEN-128 Jubilee Padel (Hartswater \u2014 new city)",
+      "MAR-VEN-047 Tamaris Foot & Padel (new city)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T11:22Z tick 11 Winelands / Garden Route / Klein Karoo / Sibaya. Timer left subscribed."
+  "notes": "2026-09-27T12:22Z tick 12 South Coast / PMB / Northern Cape / Tamaris. Timer left subscribed."
 }

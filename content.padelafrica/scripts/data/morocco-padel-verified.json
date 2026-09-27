@@ -1122,5 +1122,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-27",
     "researchNotes": "FIND tick 10 — new Essaouira city cell. Court counts not asserted beyond club claims."
+  },
+  {
+    "recordId": "MAR-VEN-047",
+    "name": "Tamaris Foot & Padel",
+    "city": "Tamaris",
+    "region": "Casablanca-Settat",
+    "countryCode": "MA",
+    "line1": "Route d'Azzemour, Commune Oulad Azzouz, Province Nouaceur",
+    "lat": 33.4964312,
+    "lng": -7.7978839,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Oulad Azzouz / Nouaceur corridor pin — Tamaris complex POI not separately geocoded",
+    "website": "https://tamarisfootpadel.ma/",
+    "phone": "+212 6 64 24 96 75",
+    "venueModel": "commercial_club",
+    "seasonNote": "Directory hours commonly 08:00–00:00 daily.",
+    "description": "Tamaris Foot & Padel on Route d'Azzemour in Oulad Azzouz publishes padel alongside football with a published phone on SAM.ma / Activityz. Opens / densifies the Tamaris Casablanca-belt cell under the phone-optional / city-pin evidence bar.",
+    "primarySourceUrl": "https://sam.ma/loisir/tamaris-foot-padel-casablanca",
+    "secondarySourceUrl": "https://activityz.ma/casablanca/tamaris-foot-padel/",
+    "sourceTypes": "SAM.ma listing (phone/address) + Activityz Casablanca listing + first-party domain",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "FIND tick 12 — new Tamaris city cell (Casablanca belt)."
   }
 ]

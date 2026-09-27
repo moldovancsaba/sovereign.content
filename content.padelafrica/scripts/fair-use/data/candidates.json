@@ -2669,5 +2669,22 @@
     "extractedAt": "2026-09-27T10:08:43.466Z",
     "triageNote": "Non-Africa (Odense, Denmark). Rejected tick 10 fair-use pass 60.",
     "triagedAt": "2026-09-27T10:21:01Z"
+  },
+  {
+    "candidateId": "fair-padelivu-club-tennis-sabadell",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Club Tennis Sabadell",
+    "citationUrl": "https://padelivu.com/club/club-tennis-sabadell",
+    "website": "",
+    "addressHint": "Prat de la Riba, 91, 08206, Sabadell, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/club-tennis-sabadell"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T12:08:48.327Z",
+    "triageNote": "Non-Africa (Sabadell, Spain). Rejected tick 12 fair-use pass 62.",
+    "triagedAt": "2026-09-27T12:21:38Z"
   }
 ]
