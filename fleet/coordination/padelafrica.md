@@ -1282,3 +1282,25 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest North West / Vaal → **13/13** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~15:00–15:22 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 436 scanned, **4 below → 3 applied** (compose_about `ZAF-VEN-143`/`145`/`146`; TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 65 (28 sources). **Promoted** F5 Sports Club (Ouidane) → **`MAR-VEN-048`**. **Rejected** Las Rozas Padel Center (ES). `needs_verify` cleared.
+
+**FIND:**
+- ZA Mpumalanga → **`ZAF-VEN-151` Net Set Secunda**, **`ZAF-VEN-152` Lob & Lounge**, **`ZAF-VEN-153` Go Padel Terranova** DISCOVERED (new Secunda cell)
+- ZA Free State → **`ZAF-VEN-154` Hello Padel**, **`ZAF-VEN-155` Pick a Padel** DISCOVERED (new Parys cell)
+- ZA Free State → **`ZAF-VEN-156` Padel Haven Bethlehem**, **`ZAF-VEN-157` Pro Padel Bethlehem** DISCOVERED (new Bethlehem cell; IG on Pro)
+- ZA Free State → **`ZAF-VEN-158` Hacienda Padel** DISCOVERED (new Kroonstad cell)
+- ZA Mpumalanga → **`ZAF-VEN-159` Padel 24 Witbank**, **`ZAF-VEN-160` Riverview Padel** DISCOVERED (new eMalahleni cell)
+- ZA Mpumalanga → **`ZAF-VEN-161` Techno Padel Middelburg**, **`ZAF-VEN-162` Pro Padel Africa** DISCOVERED (new Middelburg cell)
+- ZA West Rand → **`ZAF-VEN-163` Padel Farm** DISCOVERED (new Krugersdorp cell)
+- MA Ouidane → **`MAR-VEN-048` F5 Sports Club** DISCOVERED (fair-use promote)
+- Skip → Settat/Khouribga/Berkane/Larache zero-result
+- Ingest → **14/14** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

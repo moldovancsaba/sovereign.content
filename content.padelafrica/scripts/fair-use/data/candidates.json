@@ -2720,5 +2720,42 @@
     "extractedAt": "2026-09-27T14:09:15.549Z",
     "rejectReason": "Non-Africa (Madrid, Spain). Rejected tick 14 fair-use pass 64.",
     "rejectedAt": "2026-09-27T14:14:00Z"
+  },
+  {
+    "candidateId": "fair-actu-padel-f5-sports-club",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "F5 SPORTS CLUB",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-f5-ouidane/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "countryHint": "Morocco",
+    "addressHint": "Km 11 Route de Fes, Ouidane, 40000, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-f5-ouidane/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "promoted",
+    "extractedAt": "2026-09-27T15:06:07.918Z",
+    "promotedRecordId": "MAR-VEN-048",
+    "promotedAt": "2026-09-27T15:15:00Z",
+    "triageNote": "Promoted tick 15 — Ouidane/Marrakech padel operating; phone + Instagram evidence."
+  },
+  {
+    "candidateId": "fair-padelivu-las-rozas-padel-center",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Las Rozas Padel Center",
+    "citationUrl": "https://padelivu.com/club/las-rozas-padel-center",
+    "website": "",
+    "addressHint": "Avenida Nuestra Señora de Retamar, 16-B, 28232, Las Rozas de Madrid, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/las-rozas-padel-center"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T15:09:10.132Z",
+    "rejectReason": "Non-Africa (Las Rozas de Madrid, Spain). Rejected tick 15 fair-use pass 65.",
+    "rejectedAt": "2026-09-27T15:15:00Z"
   }
 ]

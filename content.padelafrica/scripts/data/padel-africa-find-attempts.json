@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T14:20:00Z",
+  "updatedAt": "2026-09-27T15:20:00Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2861,6 +2861,62 @@
       "note": "no operating club; Tema installer-only thin",
       "at": "2026-09-27T14:20:00Z",
       "tick": "padel-find-tick-14"
+    },
+    {
+      "cell": "Secunda Net Set / Lob Lounge / Go Padel",
+      "status": "seeded",
+      "note": "ZAF-VEN-151..153",
+      "at": "2026-09-27T15:20:00Z",
+      "tick": "padel-find-tick-15"
+    },
+    {
+      "cell": "Parys Hello / Pick a Padel",
+      "status": "seeded",
+      "note": "ZAF-VEN-154..155",
+      "at": "2026-09-27T15:20:00Z",
+      "tick": "padel-find-tick-15"
+    },
+    {
+      "cell": "Bethlehem Haven / Pro Padel",
+      "status": "seeded",
+      "note": "ZAF-VEN-156..157",
+      "at": "2026-09-27T15:20:00Z",
+      "tick": "padel-find-tick-15"
+    },
+    {
+      "cell": "Kroonstad Hacienda",
+      "status": "seeded",
+      "note": "ZAF-VEN-158",
+      "at": "2026-09-27T15:20:00Z",
+      "tick": "padel-find-tick-15"
+    },
+    {
+      "cell": "eMalahleni Padel 24 / Riverview",
+      "status": "seeded",
+      "note": "ZAF-VEN-159..160",
+      "at": "2026-09-27T15:20:00Z",
+      "tick": "padel-find-tick-15"
+    },
+    {
+      "cell": "Middelburg Techno / Pro Padel Africa",
+      "status": "seeded",
+      "note": "ZAF-VEN-161..162",
+      "at": "2026-09-27T15:20:00Z",
+      "tick": "padel-find-tick-15"
+    },
+    {
+      "cell": "Krugersdorp Padel Farm",
+      "status": "seeded",
+      "note": "ZAF-VEN-163",
+      "at": "2026-09-27T15:20:00Z",
+      "tick": "padel-find-tick-15"
+    },
+    {
+      "cell": "Settat/Khouribga/Berkane/Larache Morocco",
+      "status": "zero-result",
+      "note": "no operating clubs found",
+      "at": "2026-09-27T15:20:00Z",
+      "tick": "padel-find-tick-15"
     }
   ]
 }

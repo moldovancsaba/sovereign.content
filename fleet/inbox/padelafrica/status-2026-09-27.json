@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T14:22:00Z",
+  "observedAt": "2026-09-27T15:22:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 64,
+    "fairUsePassCount": 65,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,43 +23,39 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 423,
-    "qualityLoopBelowThreshold": 1,
-    "qualityLoopApplied": 0,
-    "fairUsePass": 64,
+    "qualityLoopScanned": 436,
+    "qualityLoopBelowThreshold": 4,
+    "qualityLoopApplied": 3,
+    "fairUsePass": 65,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-138",
-      "ZAF-VEN-139",
-      "ZAF-VEN-140",
-      "ZAF-VEN-141",
-      "ZAF-VEN-142",
-      "ZAF-VEN-143",
-      "ZAF-VEN-144",
-      "ZAF-VEN-145",
-      "ZAF-VEN-146",
-      "ZAF-VEN-147",
-      "ZAF-VEN-148",
-      "ZAF-VEN-149",
-      "ZAF-VEN-150"
+      "ZAF-VEN-151",
+      "ZAF-VEN-152",
+      "ZAF-VEN-153",
+      "ZAF-VEN-154",
+      "ZAF-VEN-155",
+      "ZAF-VEN-156",
+      "ZAF-VEN-157",
+      "ZAF-VEN-158",
+      "ZAF-VEN-159",
+      "ZAF-VEN-160",
+      "ZAF-VEN-161",
+      "ZAF-VEN-162",
+      "ZAF-VEN-163",
+      "MAR-VEN-048"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "Eldoret/Naivasha/Thika Kenya no operating clubs",
-      "Benguela/Lobito/Huambo Angola no clubs outside Luanda",
-      "Kumasi Ghana no operating club"
+      "Settat/Khouribga/Berkane/Larache Morocco no operating clubs"
     ],
-    "findSkipped": [
-      "Pilanesberg Kingdom Padel under construction"
-    ],
-    "ingestDiscoveredOk": 13,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-29.json",
+    "ingestDiscoveredOk": 14,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-30.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 14: Rustenburg + Potchefstroom + Vanderbijlpark + Vereeniging + Klerksdorp + Sun City. Fair-use rejected La Masó (ES). Not claiming PUBLISHED."
+    "note": "Tick 15: Secunda/Parys/Bethlehem/Kroonstad/eMalahleni/Middelburg/Krugersdorp + fair-use promote F5 Ouidane. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -72,45 +68,48 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T14:22:00.000000Z",
+  "updatedAt": "2026-09-27T15:22:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 423,
-    "belowThreshold": 1,
-    "applied": 0,
+    "scanned": 436,
+    "belowThreshold": 4,
+    "applied": 3,
     "mongo": "quarantined",
-    "note": "TUN-019 skip_closed"
+    "note": "compose_about ZAF-143/145/146; TUN-019 skip_closed"
   },
   "fairUse": {
-    "passCount": 64,
-    "promoted": [],
+    "passCount": 65,
+    "promoted": [
+      "F5 Sports Club (MA / Ouidane) → MAR-VEN-048"
+    ],
     "rejected": [
-      "La Masó Sports Club (ES / Madrid)"
+      "Las Rozas Padel Center (ES / Madrid)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-138 Padel T (Rustenburg new city)",
-      "ZAF-VEN-139 Kloof-Weg Padel (Rustenburg densify)",
-      "ZAF-VEN-140 WIPADEL @ Bergsig Academy (Rustenburg densify)",
-      "ZAF-VEN-141 Padel Circle Potchefstroom (new city)",
-      "ZAF-VEN-142 Techno Padel @ Potch Country Club",
-      "ZAF-VEN-143 Kleinplaas Padel",
-      "ZAF-VEN-144 V-Town Padel (Vanderbijlpark new city)",
-      "ZAF-VEN-145 Emfuleni Estate Padel Club",
-      "ZAF-VEN-146 Emerald Resort Padel",
-      "ZAF-VEN-147 Kings Padel Vaal (Vereeniging new city)",
-      "ZAF-VEN-148 10by20 Three Rivers (Instagram contact)",
-      "ZAF-VEN-149 Padel Inspired Matlosana (Klerksdorp new city)",
-      "ZAF-VEN-150 Net Set Padel Sun City (new city)"
+      "ZAF-VEN-151 Net Set Padel Secunda (new city)",
+      "ZAF-VEN-152 Lob & Lounge Padel Club (Instagram contact)",
+      "ZAF-VEN-153 Go Padel Terranova",
+      "ZAF-VEN-154 Hello Padel (Parys new city)",
+      "ZAF-VEN-155 Pick a Padel",
+      "ZAF-VEN-156 Padel Haven Bethlehem (new city)",
+      "ZAF-VEN-157 Pro Padel Bethlehem (Instagram contact)",
+      "ZAF-VEN-158 Hacienda Padel (Kroonstad new city)",
+      "ZAF-VEN-159 Padel 24 Witbank (eMalahleni new city)",
+      "ZAF-VEN-160 Riverview Padel",
+      "ZAF-VEN-161 Techno Padel Middelburg (new city)",
+      "ZAF-VEN-162 Pro Padel Africa Middelburg",
+      "ZAF-VEN-163 Padel Farm (Krugersdorp new city)",
+      "MAR-VEN-048 F5 Sports Club (Ouidane new city; fair-use promote)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T14:22Z tick 14 North West / Vaal Triangle densify. Timer left subscribed."
+  "notes": "2026-09-27T15:22Z tick 15 Highveld / Free State densify + MA Ouidane promote. Timer left subscribed."
 }

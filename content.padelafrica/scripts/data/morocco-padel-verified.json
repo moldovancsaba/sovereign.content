@@ -1146,5 +1146,28 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-27",
     "researchNotes": "FIND tick 12 — new Tamaris city cell (Casablanca belt)."
+  },
+  {
+    "recordId": "MAR-VEN-048",
+    "name": "F5 Sports Club",
+    "city": "Ouidane",
+    "region": "Marrakech-Safi",
+    "countryCode": "MA",
+    "line1": "Km 11 Route de Fès, Ouidane",
+    "lat": 31.6297805,
+    "lng": -7.8799131,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Al Ouidane commune Nominatim pin — Route de Fès Km 11",
+    "phone": "+212 661-288777",
+    "instagram": "https://www.instagram.com/f5.sports.club/",
+    "venueModel": "hosted_facility",
+    "description": "F5 Sports Club lists a padel centre at Km 11 Route de Fès in Ouidane (Marrakech) with phone, Instagram @f5.sports.club, and Actu Padel directory citation. Seeds a new Ouidane cell (fair-use promote).",
+    "primarySourceUrl": "https://actu-padel.com/en/directory/padel-club/padel-f5-ouidane/",
+    "secondarySourceUrl": "https://www.instagram.com/f5.sports.club/",
+    "sourceTypes": "Actu Padel directory (phone/address) + Instagram + Tourist.com contact corroboration",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "FIND tick 15 — fair-use promote F5 Ouidane."
   }
 ]
