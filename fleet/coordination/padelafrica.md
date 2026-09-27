@@ -1304,3 +1304,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **14/14** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~16:00–16:22 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 450 scanned, **7 below → 6 applied** (compose_about on recent seeds; TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 66 (28 sources). **Rejected** Padel Sport Center Tres Cantos (ES). `needs_verify` cleared.
+
+**FIND:**
+- ZA Mpumalanga → **`ZAF-VEN-164` 10by20 Ermelo**, **`ZAF-VEN-165` Padel 101 Standerton**, **`ZAF-VEN-166` White River Padel @ Country Club** DISCOVERED (three new cities)
+- ZA Free State → **`ZAF-VEN-167` 360 Padel Clarens**, **`ZAF-VEN-168` Play Padel La La Nathi** DISCOVERED (Clarens + Harrismith new cities)
+- ZA KZN → **`ZAF-VEN-169` NKR Padel**, **`ZAF-VEN-170` Smash Padel Ladysmith** DISCOVERED (new Ladysmith cell; IG on Smash)
+- ZA North West → **`ZAF-VEN-171` Ballerz Hartbeespoort**, **`ZAF-VEN-172` Padel Park Hartbeespoort**, **`ZAF-VEN-173` Padel @ Seasons Brits** DISCOVERED (Hartbeespoort + Brits new cells)
+- Skip → Komani GC / Clarens Kiara–Groenhoek thin contact; Makhanda/Mthatha/KWT + Egypt Ismailia/Mansoura/Tanta zero-result
+- Ingest → **10/10** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

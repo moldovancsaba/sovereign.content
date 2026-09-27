@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T15:20:00Z",
+  "updatedAt": "2026-09-27T16:20:00Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2917,6 +2917,90 @@
       "note": "no operating clubs found",
       "at": "2026-09-27T15:20:00Z",
       "tick": "padel-find-tick-15"
+    },
+    {
+      "cell": "Ermelo 10by20",
+      "status": "seeded",
+      "note": "ZAF-VEN-164",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Standerton Padel 101",
+      "status": "seeded",
+      "note": "ZAF-VEN-165",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "White River Country Club Padel",
+      "status": "seeded",
+      "note": "ZAF-VEN-166",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Clarens 360 Padel",
+      "status": "seeded",
+      "note": "ZAF-VEN-167",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Harrismith La La Nathi",
+      "status": "seeded",
+      "note": "ZAF-VEN-168",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Ladysmith NKR / Smash",
+      "status": "seeded",
+      "note": "ZAF-VEN-169..170",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Hartbeespoort Ballerz / Padel Park",
+      "status": "seeded",
+      "note": "ZAF-VEN-171..172",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Brits Padel @ Seasons",
+      "status": "seeded",
+      "note": "ZAF-VEN-173",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Komani GC Padel",
+      "status": "thin",
+      "note": "Playtomic only; no phone/social — skip",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Clarens Kiara / Groenhoek",
+      "status": "thin",
+      "note": "resort/farm thin contact — defer",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Makhanda/Mthatha/KWT Eastern Cape",
+      "status": "zero-result",
+      "note": "no operating clubs found",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
+    },
+    {
+      "cell": "Ismailia/Mansoura/Tanta Egypt",
+      "status": "zero-result",
+      "note": "no public club listings found",
+      "at": "2026-09-27T16:20:00Z",
+      "tick": "padel-find-tick-16"
     }
   ]
 }

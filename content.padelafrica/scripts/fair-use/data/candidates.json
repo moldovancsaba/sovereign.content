@@ -2757,5 +2757,21 @@
     "extractedAt": "2026-09-27T15:09:10.132Z",
     "rejectReason": "Non-Africa (Las Rozas de Madrid, Spain). Rejected tick 15 fair-use pass 65.",
     "rejectedAt": "2026-09-27T15:15:00Z"
+  },
+  {
+    "candidateId": "fair-padelivu-padel-sport-center-tres-cantos",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Padel Sport Center Tres Cantos",
+    "citationUrl": "https://padelivu.com/club/padel-sport-center-tres-cantos",
+    "website": "",
+    "researchSources": [
+      "https://padelivu.com/club/padel-sport-center-tres-cantos"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T16:08:59.182Z",
+    "rejectReason": "Non-Africa (Tres Cantos, Spain). Rejected tick 16 fair-use pass 66.",
+    "rejectedAt": "2026-09-27T16:19:30Z"
   }
 ]
