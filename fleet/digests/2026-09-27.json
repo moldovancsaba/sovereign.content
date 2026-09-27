@@ -1,0 +1,348 @@
+{
+  "job": "fleet:daily-swot",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T06:07:54.866Z",
+  "executiveBrief": "Fleet snapshot for 2026-09-27: all three product sites returned HTTP 200. Working-environment composite is effectively tied among content.padelafrica + content.classscout (checklist-complete homes); report lead is content.padelafrica as the portable Jobs reference pattern. Inbox status present for: content.padelafrica, content.sportolok. Outcome scores stay conservative until profile-fair KPI parsing (Phase 3) — do not invent Mongo numbers beyond the snapshots. Missing today's inbox (outcomes insufficient_signal): content.classscout. Sportolok hourly tick is live (quality + fair-use enrich + drain); efficiency still limited by enrich-queue burn-down and quarantine (do not re-enable Mongo). SC-central QA owns quarantine guards + vanity retracts; client chats own ticks and inbox refresh.",
+  "agents": [
+    {
+      "id": "padelafrica",
+      "folder": "content.padelafrica",
+      "displayName": "Padel Africa",
+      "density": "sparse_continent",
+      "growthMode": "research_until_found",
+      "scheduleFamily": "management_recurring_slot_weekday",
+      "fairKpis": [
+        "find_seeded_vs_zero_result",
+        "about_debt_open",
+        "media_host_mix",
+        "hitl_backlog",
+        "settled_empty_ticks_honest"
+      ],
+      "unfairComparisons": [
+        "raw_daily_publish_count_vs_dense_us",
+        "forever_loop_cycle_rate"
+      ],
+      "swot": {
+        "strengths": [
+          "Ingest client + content-data-contract mirror present",
+          "Single-orchestrator timer prompt documented",
+          "Live product HTTP smoke returned 200",
+          "Recent agent-folder git activity (56 commit(s) in window)",
+          "Mature FIND / self-heal / HiTL playbooks aligned with SSOT Jobs examples",
+          "fleet/inbox day status present (orchestrator tick snapshots)",
+          "Inbox claims ingestOnlyReality=true (writes via post_api_ingest)",
+          "Quality loop mode: ingest_score_improve_encode",
+          "Core reconcile handshake: reconciled_observed"
+        ],
+        "weaknesses": [],
+        "opportunities": [
+          "classscout_deep_enrich_orchestration_only",
+          "sportolok_decision_audit_trail_shape"
+        ],
+        "threats": [
+          "Stealing padel-find-tick from padel chat would break ownership split"
+        ]
+      },
+      "scores": {
+        "reliability": {
+          "value": 100,
+          "note": "5/5: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok"
+        },
+        "consistency": {
+          "value": 100,
+          "note": "4/4: agents_md=ok, content_contract=ok, playbook_docs=ok, heal_before_find_documented=ok"
+        },
+        "efficiency": {
+          "value": 100,
+          "note": "2/2: single_orchestrator_pattern=ok, docs_home_complete=ok"
+        },
+        "environmentFit": {
+          "value": 100,
+          "note": "7/7: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, playbook_docs=ok, heal_before_find_documented=ok"
+        },
+        "outcomeNormalized": {
+          "value": 50,
+          "note": "snapshot present — outcome scoring still Phase 3 (counts only when profile-fair fields exist)"
+        }
+      },
+      "signals": {
+        "http": [
+          {
+            "url": "https://padel-africa.doneisbetter.com",
+            "status": 200
+          }
+        ],
+        "gitCommitCount": 56,
+        "gitSubjects": [
+          "coord(padel): tick densify Trend/Valley/Sunridge + Mamba Accra",
+          "coord(padel): tick densify Gqeberha trio + Universiapolis + Crystal",
+          "coord(padel): tick densify Extreme Abuja + Hilton Tangier + Padel GQ",
+          "coord(padel): note PR #291 merged to release/padel-africa",
+          "coord(padel): deliver PR #291 + pipeline-feed 80 DISCOVERED"
+        ],
+        "snapshotCount": 1,
+        "latestSnapshot": {
+          "observedAt": "2026-09-27T05:32:00Z",
+          "source": "padel-find-tick",
+          "openDebt": [],
+          "ingestOnlyReality": true,
+          "qualityLoop": "ingest_score_improve_encode"
+        },
+        "inboxDate": "2026-09-27",
+        "docsCount": 18,
+        "lessonCount": null,
+        "lessonsUpdatedAt": null,
+        "migration": "see MIGRATION-FROM-MANAGEMENT.md + STATUS-FOR-CORE.md — await core reconcile of release/padel-africa (PRs #222/#227)"
+      }
+    },
+    {
+      "id": "sportolok",
+      "folder": "content.sportolok",
+      "displayName": "Sportolok",
+      "density": "dense_local",
+      "growthMode": "evaluate_delivery_plus_ingest_cutover",
+      "scheduleFamily": "management_recurring_slot_weekday",
+      "fairKpis": [
+        "ingest_patch_success_rate",
+        "schedule_validation_failures",
+        "quarantine_burn_down",
+        "decision_staff_agreement_when_live",
+        "release_branch_reconcile_status"
+      ],
+      "unfairComparisons": [
+        "raw_find_seeds_vs_padel_africa",
+        "forever_loop_cycle_rate"
+      ],
+      "swot": {
+        "strengths": [
+          "Ingest client + content-data-contract mirror present",
+          "Single-orchestrator timer prompt documented",
+          "Live product HTTP smoke returned 200",
+          "Recent agent-folder git activity (31 commit(s) in window)",
+          "QUARANTINE.md + migration list published for core reconcile",
+          "Hourly sportolok-tick subscribed (sportolok-tick)",
+          "Ingest quality-loop active (scanned 30, patched 5)"
+        ],
+        "weaknesses": [
+          "Sovereign Mongo executor still quarantined — keep refuseAgentMongo; burn down enrich queues without re-enabling Mongo",
+          "Itthon enrich queue still open (n=134)"
+        ],
+        "opportunities": [
+          "padel_heal_before_find_orchestration",
+          "padel_hitl_delivery_classes",
+          "classscout_hourly_scorecard_shape"
+        ],
+        "threats": [
+          "Re-enabling quarantined executor against shared Mongo could repeat schedule outage",
+          "weekdays[] RecurringSlot shape remains a permanent contract threat"
+        ]
+      },
+      "scores": {
+        "reliability": {
+          "value": 100,
+          "note": "7/7: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, quarantine_documented=ok, no_live_mongo_executor=ok"
+        },
+        "consistency": {
+          "value": 100,
+          "note": "3/3: agents_md=ok, content_contract=ok, migration_note_in_pointers=ok"
+        },
+        "efficiency": {
+          "value": 100,
+          "note": "1/1: ingest_rewrite_complete=ok"
+        },
+        "environmentFit": {
+          "value": 89,
+          "note": "8/9: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, quarantine_documented=ok, migration_note_in_pointers=ok, no_live_mongo_executor=ok, ingest_rewrite_complete=gap"
+        },
+        "outcomeNormalized": {
+          "value": 50,
+          "note": "snapshot present — outcome scoring still Phase 3 (counts only when profile-fair fields exist)"
+        }
+      },
+      "signals": {
+        "http": [
+          {
+            "url": "https://sport.doneisbetter.com",
+            "status": 200
+          }
+        ],
+        "gitCommitCount": 31,
+        "gitSubjects": [
+          "sportolok-tick: quality 5, enrich HT cleared + Itthon 6, ΔP +1",
+          "sportolok-tick: quality 3, enrich +14, drain ΔP +3; Step|Result inbox",
+          "sportolok-tick: quality 6, enrich +14, ΔP 0; Step|Result inbox",
+          "sportolok-tick: quality 8, enrich +14, drain ΔP +4; Step|Result inbox",
+          "sportolok-tick: quality 5, enrich +14, drain ΔP +8; Step|Result inbox"
+        ],
+        "snapshotCount": 1,
+        "latestSnapshot": {
+          "observedAt": "2026-09-27T06:01:30Z",
+          "source": "sportolok-tick",
+          "openDebt": [
+            {
+              "kind": "review_ready_flagged_remainder",
+              "n": 2
+            },
+            {
+              "kind": "hataron_tul_enrich_remaining",
+              "n": 0
+            },
+            {
+              "kind": "itthon_enrich_remaining",
+              "n": 134
+            },
+            {
+              "kind": "pipeline_extract_discovered",
+              "n": 6
+            },
+            {
+              "kind": "ht_seed_replenish",
+              "n": 1,
+              "note": "HT pending emptied — next ticks need fair-use:hataron-tul-pass / FIND"
+            }
+          ],
+          "ingestOnlyReality": null,
+          "qualityLoop": null
+        },
+        "inboxDate": "2026-09-27",
+        "docsCount": 20,
+        "lessonCount": null,
+        "lessonsUpdatedAt": null,
+        "migration": "see MIGRATION-FROM-MANAGEMENT.md + SOVEREIGN-MIGRATION-COMPLETE-2026-09-24.md — core reconcile complete"
+      }
+    },
+    {
+      "id": "classscout",
+      "folder": "content.classscout",
+      "displayName": "ClassScout / Your Field",
+      "density": "dense_metro_us",
+      "growthMode": "forever_find_improve",
+      "scheduleFamily": "classscout_recurring_programs_days_of_week",
+      "fairKpis": [
+        "lasting_public_rate",
+        "improve_fill_rate",
+        "find_smoke_pass",
+        "tier_a_auto_pause_health",
+        "scarcity_brief_freshness"
+      ],
+      "unfairComparisons": [
+        "sparse_continent_find_until_found_seeds",
+        "r2_media_host_mix"
+      ],
+      "swot": {
+        "strengths": [
+          "Ingest client + content-data-contract mirror present",
+          "Single-orchestrator timer prompt documented",
+          "Live product HTTP smoke returned 200",
+          "Forever Find→Improve runners + lessons.json live under agent home",
+          "Encoded lessons log present (79 lessons, updated 2026-09-24T13:04:31.871Z)"
+        ],
+        "weaknesses": [
+          "No fleet/inbox status snapshot for today — lasting-public / smoke KPIs not mirrored"
+        ],
+        "opportunities": [
+          "padel_self_heal_defer_when_about_debt_hot",
+          "padel_hitl_delivery_classes",
+          "sportolok_decision_audit_when_useful"
+        ],
+        "threats": [
+          "Merging forever-Find engine with padel until-found would violate twin doctrine",
+          "Accidentally sending management RecurringSlot shapes to ClassScout ingest"
+        ]
+      },
+      "scores": {
+        "reliability": {
+          "value": 100,
+          "note": "5/5: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok"
+        },
+        "consistency": {
+          "value": 100,
+          "note": "3/3: agents_md=ok, content_contract=ok, schedule_family_classscout=ok"
+        },
+        "efficiency": {
+          "value": 100,
+          "note": "2/2: forever_loop_present=ok, encoded_lessons=ok"
+        },
+        "environmentFit": {
+          "value": 100,
+          "note": "8/8: agents_md=ok, timer_prompt=ok, ingest_client=ok, content_contract=ok, site_http_ok=ok, forever_runner=ok, lessons_log=ok, schedule_family_classscout=ok"
+        },
+        "outcomeNormalized": {
+          "status": "insufficient_signal",
+          "note": "no fleet/inbox status snapshot for this client today"
+        }
+      },
+      "signals": {
+        "http": [
+          {
+            "url": "https://getyourfield.com",
+            "status": 200
+          },
+          {
+            "url": "https://classscout.ai",
+            "status": 200
+          }
+        ],
+        "gitCommitCount": 0,
+        "gitSubjects": [],
+        "snapshotCount": 0,
+        "latestSnapshot": null,
+        "inboxDate": "2026-09-27",
+        "docsCount": 8,
+        "lessonCount": 79,
+        "lessonsUpdatedAt": "2026-09-24T13:04:31.871Z",
+        "migration": null
+      }
+    }
+  ],
+  "environmentComparison": {
+    "bestFitFolder": "content.padelafrica",
+    "rationale": "content.padelafrica leads working-environment fitness today (composite 100/100; env 100, efficiency 100). Rank reflects ops readiness in the Cursor/dual-repo environment — not which vertical publishes more listings. Margin vs content.classscout: 0 pts.",
+    "caveats": [
+      "No content-outcome winner declared until Phase 3 profile-fair KPI parsing — inventing Mongo numbers is forbidden.",
+      "Unfair to compare padel FIND seeds vs ClassScout forever-loop volume (see profiles.unfairComparisons).",
+      "Sportolok score is capped by intentional quarantine / incomplete catalog-job wiring; treat ingest migration progress as the improvement vector.",
+      "Composite = mean of available reliability, consistency, efficiency, environmentFit."
+    ]
+  },
+  "recommendations": [
+    {
+      "target": "content.sportolok",
+      "problem": "Enrich / extract queues still open after hourly ticks",
+      "why": "Timer is live; burn-down of Itthon/HT/DISCOVERED extract is the efficiency vector — not another scaffold",
+      "how": "Keep sportolok-tick: quality → fair-use enrich pending → drain-review-ready → honest P delta in inbox; replenish HT when pending=0",
+      "evidence": [
+        "fleet/coordination/sportolok.md",
+        "fleet/inbox/sportolok/status-2026-09-27.json",
+        "content.sportolok/scripts/fair-use-discovery/"
+      ],
+      "delivery": "agent_execute"
+    },
+    {
+      "target": "content.classscout",
+      "problem": "No fleet/inbox status snapshot for today",
+      "why": "Central comparison lacks ClassScout outcome fitness without daily snapshots",
+      "how": "Have quality-rollup or forever tick write fleet/inbox/classscout/status-DATE.json (counts/enums only)",
+      "evidence": [
+        "content.classscout/docs/catalog-find-improve-loop.md",
+        "fleet/inbox/README.md"
+      ],
+      "delivery": "agent_execute"
+    },
+    {
+      "target": "content.classscout",
+      "problem": "Product-repo transitional catalog-loop copies may still be the live runners",
+      "why": "Agent-home cutover incomplete → consistency risk across environments",
+      "how": "When ready, point forever/fair-use at content.classscout/scripts with CLASSSCOUT_PRODUCT_ROOT; flip cutover-status.md + inbox foreverRunsFrom same hour",
+      "evidence": [
+        "content.classscout/docs/cutover-status.md",
+        "content.classscout/AGENTS.md",
+        "fleet/coordination/classscout.md"
+      ],
+      "delivery": "hitl_review"
+    }
+  ],
+  "insufficientSignals": [
+    "content.classscout: no fleet/inbox/classscout/status-2026-09-27.json — outcomes insufficient_signal"
+  ]
+}

@@ -214,10 +214,17 @@ function evaluateWorkingEnv(client, profile, signals) {
 
   const efficiencyChecks = [];
   if (client.id === "sportolok") {
+    const o = signals.snapshots?.[0]?.outcomes || {};
+    const jobsLive =
+      o.quality_loop_scanned != null ||
+      o.quality_loop_patched != null ||
+      signals.snapshots?.[0]?.workingEnv?.timerSubscribed === true;
     efficiencyChecks.push({
       id: "ingest_rewrite_complete",
-      pass: false,
-      note: "quarantined runtime not yet rewritten to ingest",
+      pass: jobsLive,
+      note: jobsLive
+        ? "hourly ingest quality/fair-use path observed in inbox"
+        : "quarantined runtime not yet rewritten to ingest",
     });
   } else if (client.id === "padelafrica") {
     efficiencyChecks.push({
@@ -294,9 +301,14 @@ function buildSwot(client, profile, signals, scores) {
       if (snap?.workingEnv?.qualityLoop) {
         strengths.push(`Quality loop mode: ${snap.workingEnv.qualityLoop}`);
       }
-      weaknesses.push(
-        "Core reconcile of management release/padel-africa still awaiting management (agent-side debt largely cleared)",
-      );
+      const handshake = snap?.workingEnv?.coreReconcileHandshake;
+      if (handshake === "reconciled_observed" || snap?.workingEnv?.managementReleaseEqualsMain) {
+        strengths.push(`Core reconcile handshake: ${handshake || "managementReleaseEqualsMain"}`);
+      } else {
+        weaknesses.push(
+          "Core reconcile of management release/padel-africa still awaiting management (agent-side debt largely cleared)",
+        );
+      }
     } else {
       weaknesses.push(
         "No fleet/inbox status snapshot today — outcome KPIs cannot be scored without inventing Mongo numbers",
@@ -308,15 +320,31 @@ function buildSwot(client, profile, signals, scores) {
 
   if (client.id === "sportolok") {
     strengths.push("QUARANTINE.md + migration list published for core reconcile");
-    if (snap?.workingEnv?.executorIngestLivePatchProven) {
-      strengths.push("executorIngest live PATCH proven (prior inbox evidence)");
+    if (snap?.workingEnv?.executorIngestLivePatchProven || snap?.workingEnv?.timerSubscribed) {
+      strengths.push(
+        snap?.workingEnv?.timerSubscribed
+          ? `Hourly sportolok-tick subscribed (${snap.workingEnv.timerName || "sportolok-tick"})`
+          : "executorIngest live PATCH proven (prior inbox evidence)",
+      );
+    }
+    const o = snap?.outcomes || {};
+    if (o.quality_loop_scanned != null || o.quality_loop_patched != null) {
+      strengths.push(
+        `Ingest quality-loop active (scanned ${o.quality_loop_scanned ?? "?"}, patched ${o.quality_loop_patched ?? "?"})`,
+      );
     }
     weaknesses.push(
-      "Sovereign Mongo executor still quarantined — real catalog jobs not fully wired to ingest",
+      "Sovereign Mongo executor still quarantined — keep refuseAgentMongo; burn down enrich queues without re-enabling Mongo",
     );
-    weaknesses.push("release/sportolok still diverged; core reconcile pending");
     if (!hasInboxToday) {
       weaknesses.push("No fleet/inbox status snapshot for today");
+    } else {
+      const itthon = (snap?.openDebt || []).find(
+        (d) => d && typeof d === "object" && d.kind === "itthon_enrich_remaining",
+      );
+      if (itthon?.n) {
+        weaknesses.push(`Itthon enrich queue still open (n=${itthon.n})`);
+      }
     }
     opportunities.push(...(profile.siblingOpportunities || []));
     threats.push("Re-enabling quarantined executor against shared Mongo could repeat schedule outage");
@@ -367,19 +395,40 @@ function buildRecommendations(agents) {
           evidence: ["fleet/inbox/README.md", "fleet/profiles/sportolok.json"],
           delivery: "agent_execute",
         });
+      } else {
+        const itthon = openDebt.find(
+          (d) => d && typeof d === "object" && d.kind === "itthon_enrich_remaining" && d.n > 0,
+        );
+        const extract = openDebt.find(
+          (d) => d && typeof d === "object" && d.kind === "pipeline_extract_discovered" && d.n > 0,
+        );
+        if (itthon || extract) {
+          recs.push({
+            target: "content.sportolok",
+            problem: "Enrich / extract queues still open after hourly ticks",
+            why: "Timer is live; burn-down of Itthon/HT/DISCOVERED extract is the efficiency vector — not another scaffold",
+            how: "Keep sportolok-tick: quality → fair-use enrich pending → drain-review-ready → honest P delta in inbox; replenish HT when pending=0",
+            evidence: [
+              "fleet/coordination/sportolok.md",
+              `fleet/inbox/sportolok/status-${a.signals.inboxDate || "YYYY-MM-DD"}.json`,
+              "content.sportolok/scripts/fair-use-discovery/",
+            ],
+            delivery: "agent_execute",
+          });
+        } else {
+          recs.push({
+            target: "content.sportolok",
+            problem: "Keep refuseAgentMongo; chase core reconcile of release/sportolok",
+            why: "Ingest path is live; remaining risk is release divergence + accidental Mongo re-enable",
+            how: "No release/sportolok agent commits; document reconcile via CORE-TEAM-STATUS; continue hourly ticks",
+            evidence: [
+              "content.sportolok/src/QUARANTINE.md",
+              "content.sportolok/scripts/lib/refuseAgentMongo.ts",
+            ],
+            delivery: "hitl_review",
+          });
+        }
       }
-      recs.push({
-        target: "content.sportolok",
-        problem: "Real catalog jobs still not fully wired to executorIngest / ingest client",
-        why: "Live PATCH proven is not the same as autonomous quality/media ticks; environment efficiency stays capped",
-        how: "Wire About/media callers to executorIngest (no junk fields); keep Mongo executor quarantined; chase core reconcile of release/sportolok",
-        evidence: [
-          "content.sportolok/src/QUARANTINE.md",
-          "content.sportolok/src/lib/sovereign/executorIngest.ts",
-          "fleet/coordination/sportolok.md",
-        ],
-        delivery: "agent_execute",
-      });
     }
 
     if (a.id === "padelafrica") {
@@ -738,7 +787,8 @@ async function main() {
     .map((a) => a.folder);
   const sportolokAgent = agents.find((a) => a.id === "sportolok");
   let sportolokLivePatch = Boolean(
-    sportolokAgent?.signals?.latestSnapshot?.workingEnv?.executorIngestLivePatchProven,
+    sportolokAgent?.signals?.latestSnapshot?.workingEnv?.executorIngestLivePatchProven ||
+      sportolokAgent?.signals?.latestSnapshot?.workingEnv?.timerSubscribed,
   );
   if (!sportolokLivePatch) {
     // Fall back to most recent prior-day inbox if today is missing
@@ -751,7 +801,10 @@ async function main() {
       for (const f of prior) {
         try {
           const s = readJson(join(dir, f));
-          if (s?.workingEnv?.executorIngestLivePatchProven) {
+          if (
+            s?.workingEnv?.executorIngestLivePatchProven ||
+            s?.workingEnv?.timerSubscribed
+          ) {
             sportolokLivePatch = true;
             break;
           }
@@ -761,9 +814,14 @@ async function main() {
       }
     }
   }
-  const sportolokLine = sportolokLivePatch
-    ? "Sportolok live PATCH proven earlier; still capped until real catalog jobs wire to ingest + core reconciles release/sportolok."
-    : "Sportolok remains capped until ingest rewrite / proven PATCH + core reconciles release/sportolok.";
+  const sportolokTicking = Boolean(
+    sportolokAgent?.signals?.latestSnapshot?.workingEnv?.timerSubscribed,
+  );
+  const sportolokLine = sportolokTicking
+    ? "Sportolok hourly tick is live (quality + fair-use enrich + drain); efficiency still limited by enrich-queue burn-down and quarantine (do not re-enable Mongo)."
+    : sportolokLivePatch
+      ? "Sportolok live PATCH proven earlier; still capped until real catalog jobs wire to ingest + core reconciles release/sportolok."
+      : "Sportolok remains capped until ingest rewrite / proven PATCH + core reconciles release/sportolok.";
   const executiveBrief = [
     `Fleet snapshot for ${date}: all three product sites returned HTTP 200.`,
     tied.length > 1
