@@ -1157,3 +1157,19 @@ Tick ~19:10–19:11 UTC on `sovereign.content` main.
 | **Timer** | Still subscribed (`sub_7791eb21-…`) |
 
 **Do not claim production-ready.**
+
+### 2026-09-27T20:14Z — sportolok-tick (Step|Result)
+
+Tick ~20:13–20:14 UTC on `sovereign.content` main.
+
+| Step | Result |
+| :--- | :--- |
+| **Quality** | 30 scanned, 6 below threshold, **6 patched** (Mongo quarantined) |
+| **Fair-use HT** | pending **0** |
+| **Fair-use Itthon** | **8/8 DISCOVERED** → pending **26** |
+| **Drain** | soft-incomplete **3 → 0**; forcePublish **3** |
+| **MM_SP / P** | **1006 → 1009 (ΔP +3)** |
+| **Inbox** | `status-2026-09-27-tick-2000.json` + this Turn |
+| **Timer** | Still subscribed (`sub_7791eb21-…`) |
+
+**Do not claim production-ready.**
