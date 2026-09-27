@@ -82,7 +82,8 @@ Secondary cities live in `src/lib/catalogFind/africaCells.ts` (capitals + deepen
 
 - Named operating venue
 - Prefer street pin; **if no street** → approximate city-level `line1` (e.g. `Near Nairobi`) + **OSM/Nominatim city pin** (`geoPrecision: locality`). Do **not** skip for missing street
-- **Phone is optional** — do **not** skip solely because phone is missing. Prefer any printed contact; else a first-party / booking / directory citation URL that places the venue in-city
+- **Phone/email optional.** Official **WhatsApp / Instagram / Facebook / X.com** = contact (same grade as phone) — do **not** skip “Instagram-only” when the handle is the venue’s
+- **Phone/email are optional.** Official **WhatsApp / Instagram / Facebook / X.com** count as contact (same grade as phone) — do **not** skip “Instagram-only” when the handle is the venue’s. Prefer any printed contact; else a first-party / booking / directory citation URL that places the venue in-city
 - Prefer two independent sources when available; single-source + city pin is OK — improve later when better facts appear
 - About ≥120 chars without URL/phone chrome
 - No invented court counts, ages, emails, phones (empty fields = honest debt, not a skip)

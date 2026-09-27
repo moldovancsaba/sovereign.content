@@ -10,7 +10,7 @@ Four **Active** venues. Not seeded as new research cards:
 | Record | Why |
 | --- | --- |
 | CMR-ORG-001 FECAPADEL | National association — not a playable venue |
-| CMR-VEN-001 Elite Padel Yaoundé | Already published as OSM `osm-way-1524068106` (enriched with research website/phone/Instagram/About instead of duplicating) |
+| CMR-VEN-001 Elite Padel Yaoundé | Historically enriched on OSM `osm-way-1524068106`; **2026-09-27 revisit** also seeded `CMR-VEN-006` / `research-cmr-ven-006` under social-contact evidence bar (Padel Lands phone + Instagram) |
 | CMR-DEV-001 Tennis Club de Douala | Planned padel extension — not active |
 
 | Id | Listing | Locality | Geo |

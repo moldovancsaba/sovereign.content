@@ -1158,3 +1158,17 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill Ballito + Match Fourways Mall + Meknès/Fes + Karen → **14/14** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (social-contact evidence bar + revisit)
+
+**Rule (both ends):** Official **WhatsApp / Instagram / Facebook / X.com** count as a point of contact — same grade as phone/email. Do **not** skip “Instagram-only” when the handle is the venue’s. Phone/email remain optional; city pin still OK without street.
+
+**Management:** branch `cursor/pa-social-contact-channels-9e3d` — `CONTACT_LINK_TYPES` += `whatsapp`/`twitter`; structured ingest maps social headers → `contactLinks`; publish-evidence doc + gate regression.
+
+**Revisit previously skipped:**
+- **`MAR-VEN-041` Warehouse Padel Club** (Tétouan) — was tick-08 Instagram-only skip → DISCOVERED
+- **`MAR-VEN-042` Colmena Paddle Cabo Negro** — Tétouan-belt densify with Instagram → DISCOVERED
+- **`CMR-VEN-006` Elite Padel Yaoundé** — was hiring-only hold; now phone + Instagram on Padel Lands → DISCOVERED
+- Still skip launching-only / under-construction / plans-only cells (Addis, Annaba, Kisumu, Port Harcourt) — social does not waive operating-venue bar
+
+**Ingest:** 6/6 ok (`tick-ingest-2026-09-27-social-revisit.json`). Not claiming PUBLISHED.

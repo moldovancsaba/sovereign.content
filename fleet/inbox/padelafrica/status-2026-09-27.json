@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T08:25:00Z",
+  "observedAt": "2026-09-27T08:55:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -19,7 +19,8 @@
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
     "evidencePhoneOptional": true,
-    "evidenceCityPinOk": true
+    "evidenceCityPinOk": true,
+    "evidenceSocialContactOk": true
   },
   "outcomes": {
     "qualityLoopScanned": 367,
@@ -28,16 +29,11 @@
     "fairUsePass": 58,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-092",
-      "ZAF-VEN-093",
-      "ZAF-VEN-094",
-      "ZAF-VEN-095",
-      "ZAF-VEN-096",
-      "MAR-VEN-039",
-      "MAR-VEN-040",
-      "ZAF-VEN-089/090/091/011",
-      "MAR-VEN-037/038",
-      "KEN-VEN-022"
+      "MAR-VEN-041",
+      "MAR-VEN-042",
+      "CMR-VEN-006",
+      "MAR-VEN-038/040",
+      "CMR-VEN-005"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
@@ -46,12 +42,12 @@
       "Warehouse Padel Tétouan (Instagram-only / no street)",
       "Jozi Padel already seeded ZAF-VEN-029"
     ],
-    "ingestDiscoveredOk": 14,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T08.json",
+    "ingestDiscoveredOk": 6,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-social-revisit.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 08 Hermanus + Paarl + El Jadida + Kénitra. Not claiming PUBLISHED."
+    "note": "Social-contact rule (WA/IG/FB/X) + revisit Warehouse/Colmena/Elite Yaoundé. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -64,7 +60,7 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T08:25:00.000000Z",
+  "updatedAt": "2026-09-27T08:55:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
@@ -86,16 +82,13 @@
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-092 Play Padel Hermanus (new city)",
-      "ZAF-VEN-093 Paarl Indoor Padel (new city)",
-      "ZAF-VEN-094 Padel Ace Paarl",
-      "ZAF-VEN-095 iDig Padel Boschenmeer",
-      "ZAF-VEN-096 Match Padel SA Cedar Square",
-      "MAR-VEN-039 WiPadel El Jadida (new city)",
-      "MAR-VEN-040 Elite Padel Club Kénitra (new city)"
-    ]
+      "MAR-VEN-041 Warehouse Padel Club (Tétouan — Instagram revisit)",
+      "MAR-VEN-042 Colmena Paddle Cabo Negro (social contact)",
+      "CMR-VEN-006 Elite Padel Yaoundé (phone+IG revisit)"
+    ],
+    "ruleUpdate": "Official WhatsApp/Instagram/Facebook/X = contact (same grade as phone/email)"
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~08:02–08:25 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
+  "notes": "2026-09-27T08:55Z social-contact evidence bar + skipped-listing revisit. Timer left subscribed."
 }

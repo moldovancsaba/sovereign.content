@@ -78,7 +78,7 @@ const TABLE: Record<
   find_seed_evidence: {
     delivery: "agent_execute",
     risk: "medium",
-    why: "Agent must clear the evidence bar (named venue, street or OSM city pin, URL/contact; phone optional). Do not skip for missing phone/street — city pin OK. No HiTL if bar is met.",
+    why: "Agent must clear the evidence bar (named venue, street or OSM city pin, URL/contact; phone optional; official WhatsApp/Instagram/Facebook/X = contact). Do not skip for missing phone/street or Instagram-only official handles — city pin OK. No HiTL if bar is met.",
     operatorPrompt:
       "Review only if the seed is single-source, launching-only, or contact was inferred rather than printed.",
   },

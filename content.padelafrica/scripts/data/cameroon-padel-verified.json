@@ -94,5 +94,30 @@
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND tick 2026-09-26 phone backfill from WA on hiring posts; still Medium — no street beyond Quartier Golf.",
     "phone": "+237 691 777 657"
+  },
+  {
+    "recordId": "CMR-VEN-006",
+    "name": "Elite Padel Yaoundé",
+    "city": "Yaoundé",
+    "region": "Centre",
+    "countryCode": "CM",
+    "line1": "Dragages, Yaoundé",
+    "lat": 3.8689867,
+    "lng": 11.5213344,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Yaoundé city pin — Dragages neighbourhood not separately geocoded",
+    "phone": "+237 674 85 87 28",
+    "instagram": "https://www.instagram.com/elitepadelyaounde/",
+    "website": "https://www.instagram.com/elitepadelyde/",
+    "venueModel": "commercial_club",
+    "seasonNote": "Book by phone or Instagram; confirm open-play vs membership before travel.",
+    "description": "Elite Padel Yaoundé lists a published phone on Padel Lands (Dragages) plus official Instagram handles for player contact. Previously held as hiring-only / launching — reseeded now that a directory phone and social channels clear the evidence bar. Call or message Instagram ahead to confirm bookable courts.",
+    "primarySourceUrl": "https://padellands.com/en/padel-courts/elite-padel-yaounde/",
+    "secondarySourceUrl": "https://www.instagram.com/elitepadelyaounde/",
+    "sourceTypes": "Padel Lands Elite Padel Yaounde (phone + Dragages) + Instagram @elitepadelyaounde / @elitepadelyde",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "Revisit 2026-09-27 — tick 05 skipped hiring-only; phone+IG now printed. May overlap OSM osm-way-1524068106 if already live — research id still seeded for DISCOVERED backfill."
   }
 ]

@@ -114,7 +114,7 @@ continue `--until-found` WebSearch as usual. Do **not** replace until-found with
 ## Promote to ingest
 
 1. Pick a candidate from `fair-use:status`.
-2. Confirm evidence bar: named venue + (street **or** city-level line1 with OSM city pin). **Phone is optional** — do not reject for missing phone. Prefer booking/first-party URL or any printed contact; directory citation + city pin is enough to seed and improve later.
+2. Confirm evidence bar: named venue + (street **or** city-level line1 with OSM city pin). **Phone/email are optional.** Official **WhatsApp / Instagram / Facebook / X.com** count as contact (same grade as phone) — do not reject “Instagram-only” when the handle is the venue’s. Prefer booking/first-party URL or any printed contact; directory citation + city pin is enough to seed and improve later.
 3. Append a row to the country `scripts/data/<country>-padel-verified.json` fixture.
 4. Apply via `ingest/client.ts` / `apply-pending-ingest-queue.ts` (DISCOVERED). Never Mongo-apply.
 

@@ -52,10 +52,11 @@ Engine fixes → reviewed PR to management **`main`** only.
 
 FIND + fair-use promote bar (agent SSOT in `src/lib/catalogFind/brief.ts`):
 
-- **Phone optional** — do not skip solely for missing phone.
+- **Phone / email optional** — do not skip solely for missing phone or email.
+- **Official social / messaging = contact** — WhatsApp, Instagram, Facebook, or X.com (Twitter) published by the venue counts as a point of contact, same grade as phone/email. Prefer typed `contactLinks` / fixture fields. Do not skip for “Instagram-only” when the handle is official.
 - **No street** → approximate city-level `line1` + OSM/Nominatim **city pin** (`geoPrecision: locality`).
-- Empty phone/street is honest debt; improve later when better evidence appears.
-- Management publish gate already admits `locality` pins via `isMappable` / `checkRealAddress` and does not require `phone` for completeness.
+- Empty phone/street is honest debt; improve later when better evidence appears. Do not invent social handles.
+- Management publish gate admits `locality` pins via `isMappable` / `checkRealAddress`, does not require `phone` for completeness, and types `whatsapp` / `twitter` on `Listing.contactLinks`.
 
 
 ### Management publish-evidence merge (2026-09-27T02:44Z)

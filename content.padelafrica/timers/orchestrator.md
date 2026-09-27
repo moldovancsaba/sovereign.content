@@ -24,11 +24,13 @@ Timed job tick (padel-africa — sovereign.content/content.padelafrica ONLY):
     run `npm run fair-use:status`; if pendingCandidates is low, run ONE `npm run fair-use:one-pass`
     (Africa directories → needs_verify candidates). Do NOT forever-loop. Soft-skip CF/403.
     Promote candidates after evidence bar → scripts/data/*-verified.json → ingest.
-    Evidence: phone optional (do NOT skip for no phone); if no street use city-level line1
-    + OSM/Nominatim city pin (geoPrecision=locality). Improve listings later when facts improve.
+    Evidence: phone/email optional; official WhatsApp/Instagram/Facebook/X = contact
+    (same grade as phone — do NOT skip Instagram-only when the handle is official);
+    if no street use city-level line1 + OSM/Nominatim city pin (geoPrecision=locality).
+    Improve listings later when facts improve.
 5) Self-heal digest honesty: doctrine vs reality; hitl_review queue for operator.
 6) After tick: fleet/inbox/padelafrica/status-YYYY-MM-DD.json (fair KPIs only).
-7) Never invent phones/emails (empty phone/street is OK debt). Leave this timer subscribed.
+7) Never invent phones/emails/social handles (empty phone/street is OK debt). Leave this timer subscribed.
    Do not force-push release/padel-africa.
 ```
 
