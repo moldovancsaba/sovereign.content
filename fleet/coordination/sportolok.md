@@ -878,3 +878,19 @@ Tick ~02:01–02:02 UTC on `sovereign.content` main.
 Open: REVIEW_READY **2** flagged; engine Near-city PR [#292](https://github.com/moldovancsaba/management/pull/292) pending deploy.
 
 **Do not claim production-ready.**
+
+### 2026-09-27T03:01Z — sportolok-tick (Step|Result)
+
+Tick ~03:00–03:01 UTC on `sovereign.content` main.
+
+| Step | Result |
+| :--- | :--- |
+| **Quality** | 16 scanned, 8 below threshold, **8 patched** (Mongo quarantined) |
+| **Fair-use HT** | **8/8 DISCOVERED** RO densify (Királypingvinek … Nyárád) → pending **23** |
+| **Fair-use Itthon** | **6/6 DISCOVERED** Újpest / free-time batch → pending **152** |
+| **Drain** | soft-incomplete **4 → 0**; forcePublish **4** |
+| **MM_SP / P** | **885 → 889 (ΔP +4)** |
+| **Inbox** | `status-2026-09-27-tick-0300.json` + this Turn |
+| **Timer** | Still subscribed (`sub_7791eb21-…`) |
+
+**Do not claim production-ready.**
