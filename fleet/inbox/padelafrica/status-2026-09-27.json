@@ -1,11 +1,11 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T08:55:00Z",
+  "observedAt": "2026-09-27T09:33:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
-    "timerSubscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
+    "timerSubscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "ingestOnlyDoctrine": true,
     "ingestOnlyReality": true,
     "ingestApiKeyPresent": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 58,
+    "fairUsePassCount": 59,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,31 +23,32 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 367,
+    "qualityLoopScanned": 377,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
-    "fairUsePass": 58,
+    "fairUsePass": 59,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "MAR-VEN-041",
-      "MAR-VEN-042",
-      "CMR-VEN-006",
-      "MAR-VEN-038/040",
-      "CMR-VEN-005"
+      "ZAF-VEN-097",
+      "ZAF-VEN-098",
+      "ZAF-VEN-099",
+      "ZAF-VEN-100",
+      "ZAF-VEN-101",
+      "ZAF-VEN-102",
+      "MAR-VEN-043",
+      "MAR-VEN-044",
+      "MAR-VEN-045"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
-    "findZeroResult": [
-      "Warehouse Padel Tétouan (Instagram-only / no street)",
-      "Jozi Padel already seeded ZAF-VEN-029"
-    ],
-    "ingestDiscoveredOk": 6,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-social-revisit.json",
+    "findZeroResult": [],
+    "ingestDiscoveredOk": 12,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-24.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Social-contact rule (WA/IG/FB/X) + revisit Warehouse/Colmena/Elite Yaoundé. Not claiming PUBLISHED."
+    "note": "Tick 09: Jeffreys Bay / Mossel Bay / St Francis Bay + Mohammedia / Saïdia densify. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -60,35 +61,41 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T08:55:00.000000Z",
+  "updatedAt": "2026-09-27T09:33:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
-    "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
+    "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 367,
+    "scanned": 377,
     "belowThreshold": 1,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 58,
+    "passCount": 59,
     "promoted": [],
     "rejected": [
-      "Joy Padel Club (IT / Roma)"
+      "Red Padel Roma (IT / Roma)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "MAR-VEN-041 Warehouse Padel Club (Tétouan — Instagram revisit)",
-      "MAR-VEN-042 Colmena Paddle Cabo Negro (social contact)",
-      "CMR-VEN-006 Elite Padel Yaoundé (phone+IG revisit)"
+      "ZAF-VEN-097 Jbay Padel (Jeffreys Bay — new city)",
+      "ZAF-VEN-098 Mentors Padel (Jeffreys Bay densify)",
+      "ZAF-VEN-099 Mossel Bay Padel (new city)",
+      "ZAF-VEN-100 Point Padel Mossel Bay",
+      "ZAF-VEN-101 River Club St Francis Bay (new city)",
+      "ZAF-VEN-102 Pinnacle Padel (Mossel Bay densify; phone optional)",
+      "MAR-VEN-043 VGK Village Mohammedia (new city)",
+      "MAR-VEN-044 Royal Tennis Club Mohammedia",
+      "MAR-VEN-045 Azur Arena Saidia (new city)"
     ],
-    "ruleUpdate": "Official WhatsApp/Instagram/Facebook/X = contact (same grade as phone/email)"
+    "ruleUpdate": "Official WhatsApp/Instagram/Facebook/X = contact (same grade as phone/email); timer prompt refreshed"
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T08:55Z social-contact evidence bar + skipped-listing revisit. Timer left subscribed."
+  "notes": "2026-09-27T09:33Z tick 09 densify Eastern Cape / Garden Route / Mohammedia / Saïdia. Timer left subscribed with social-contact 4b."
 }

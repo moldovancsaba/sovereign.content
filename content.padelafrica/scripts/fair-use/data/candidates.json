@@ -2616,5 +2616,22 @@
     "extractedAt": "2026-09-27T08:11:47.869Z",
     "triagedAt": "2026-09-27T08:20:34.596Z",
     "triageNote": "Out of Africa scope (Roma IT)"
+  },
+  {
+    "candidateId": "fair-padelivu-red-padel-roma",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Red Padel Roma",
+    "citationUrl": "https://padelivu.com/club/red-padel-roma",
+    "website": "",
+    "addressHint": "Via Ranuccio Bianchi Bandinelli 48, 00178, Roma, Italy",
+    "researchSources": [
+      "https://padelivu.com/club/red-padel-roma"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T09:20:05.891Z",
+    "triageNote": "Non-Africa (Roma, Italy). Rejected tick 09 fair-use pass 59.",
+    "triagedAt": "2026-09-27T09:25:00Z"
   }
 ]

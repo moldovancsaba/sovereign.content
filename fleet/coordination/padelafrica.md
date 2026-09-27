@@ -1172,3 +1172,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Still skip launching-only / under-construction / plans-only cells (Addis, Annaba, Kisumu, Port Harcourt) — social does not waive operating-venue bar
 
 **Ingest:** 6/6 ok (`tick-ingest-2026-09-27-social-revisit.json`). Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~09:11–09:33 UTC)
+
+**Timer:** `padel-find-tick` resubscribed with social-contact 4b (`sub_0f76edb1-…`).
+
+**Quality:** 377 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 59 (28 sources). **Rejected** Red Padel Roma (IT). `needs_verify` cleared.
+
+**FIND:**
+- ZA Eastern Cape → **`ZAF-VEN-097` Jbay Padel**, **`ZAF-VEN-098` Mentors Padel** DISCOVERED (new Jeffreys Bay cell; IG contact on Jbay)
+- ZA Garden Route → **`ZAF-VEN-099` Mossel Bay Padel**, **`ZAF-VEN-100` Point Padel Mossel Bay**, **`ZAF-VEN-102` Pinnacle Padel** DISCOVERED (new Mossel Bay cell)
+- ZA St Francis → **`ZAF-VEN-101` River Club St Francis Bay** DISCOVERED (new city)
+- MA Casablanca belt → **`MAR-VEN-043` VGK Village Mohammedia**, **`MAR-VEN-044` Royal Tennis Club Mohammedia** DISCOVERED (new Mohammedia cell)
+- MA Oriental → **`MAR-VEN-045` Azur Arena Saidia** DISCOVERED (new Saïdia city)
+- Backfill Paarl Indoor / Cedar Square / Warehouse → **12/12** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
