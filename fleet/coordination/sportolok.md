@@ -926,3 +926,21 @@ Tick ~05:00–05:01 UTC on `sovereign.content` main.
 | **Timer** | Still subscribed (`sub_7791eb21-…`) |
 
 **Do not claim production-ready.**
+
+### 2026-09-27T06:01Z — sportolok-tick (Step|Result)
+
+Tick ~06:00–06:01 UTC on `sovereign.content` main.
+
+| Step | Result |
+| :--- | :--- |
+| **Quality** | 30 scanned, 5 below threshold, **5 patched** (Mongo quarantined) |
+| **Fair-use HT** | **7/7 DISCOVERED** → pending **0** |
+| **Fair-use Itthon** | **6/6 DISCOVERED** → pending **134** |
+| **Drain** | soft-incomplete **1 → 0**; forcePublish **1** |
+| **MM_SP / P** | **906 → 907 (ΔP +1)** |
+| **Inbox** | `status-2026-09-27-tick-0600.json` + this Turn |
+| **Timer** | Still subscribed (`sub_7791eb21-…`) |
+
+HT pending cleared — FIND/hataron-tul-pass needed next.
+
+**Do not claim production-ready.**
