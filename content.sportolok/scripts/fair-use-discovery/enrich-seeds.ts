@@ -5,9 +5,12 @@
  * Processes find-seeds.json:
  * 1. Pending seeds (high confidence first)
  * 2. Optional detail-page fetch for address/phone (ONE fetch per seed)
- * 3. Quality gate
+ * 3. Quality gate — phone optional; no street → `Near {city}` (Nominatim locality pin)
  * 4. ingestSourceText → DISCOVERED cards (D metric)
  * 5. Mark ingested/rejected
+ *
+ * Empty phone/street are honest debt — never invent placeholders. Improve later
+ * when better facts appear.
  *
  * Határon túl seeds (`camera: hataron-tul` / territory HATARON-TUL) send
  * `x-sportolok-camera: hataron-tul` so management routes into `${MONGODB_DB}_hataron-tul`.
@@ -35,6 +38,7 @@ import {
   ingestSourceText,
   type IngestConfig,
 } from "../../ingest/client.ts";
+import { resolvePlaceLine } from "./lib/placeAddress.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -151,18 +155,32 @@ async function deepenSeed(seed: FindSeed): Promise<FindSeed> {
   }
 }
 
-function buildSourceText(seed: FindSeed, about: string): string {
-  const c = seed.initialFacts.contact || {};
+function placeForSeed(seed: FindSeed) {
   const ht = isHataronTul(seed);
   const code = (seed.countryCode || (ht ? "" : "HU")).toUpperCase();
   const country = ht
     ? HT_COUNTRY_LABEL[code]?.en || code || "Unknown"
     : "Hungary";
-  const locality = ht
-    ? seed.initialFacts.address || HT_COUNTRY_LABEL[code]?.hu || country
-    : seed.territory === "HUN-BUD"
-      ? "Budapest"
-      : "Hungary";
+  return {
+    country,
+    code,
+    place: resolvePlaceLine({
+      address: seed.initialFacts.address,
+      territory: seed.territory,
+      countryCode: code || undefined,
+      name: seed.initialFacts.name,
+      // HT may fall back to country label; itthon must not emit Near Hungary.
+      countryLocalityFallback: ht ? HT_COUNTRY_LABEL[code]?.hu : undefined,
+      countryName: ht ? country : undefined,
+    }),
+  };
+}
+
+function buildSourceText(seed: FindSeed, about: string): string {
+  const c = seed.initialFacts.contact || {};
+  const ht = isHataronTul(seed);
+  const { country, code, place } = placeForSeed(seed);
+  // Phone optional — omit header when absent (honest debt, never invent).
   const qualified =
     seed.activityType === "swimming"
       ? "swimming-facility"
@@ -174,8 +192,8 @@ function buildSourceText(seed: FindSeed, about: string): string {
     `Qualified as: ${qualified}`,
     `Name: ${seed.initialFacts.name}`,
     `Venue: ${seed.initialFacts.name}`,
-    seed.initialFacts.address ? `Address: ${seed.initialFacts.address}` : null,
-    `Locality: ${locality}`,
+    place ? `Address: ${place.line1}` : null,
+    place ? `Locality: ${place.locality}` : null,
     `Country: ${country}`,
     code ? `CountryCode: ${code}` : null,
     ht ? "Camera: hataron-tul" : null,
@@ -193,10 +211,16 @@ function buildSourceText(seed: FindSeed, about: string): string {
 }
 
 function buildAbout(seed: FindSeed): string {
-  const { name, address } = seed.initialFacts;
+  const { name } = seed.initialFacts;
   const ht = isHataronTul(seed);
   const code = (seed.countryCode || "").toUpperCase();
   const countryHu = ht ? HT_COUNTRY_LABEL[code]?.hu : undefined;
+  const { place } = placeForSeed(seed);
+  const placeLabel = place?.streetLevel
+    ? place.line1
+    : place
+      ? place.locality
+      : undefined;
   const kind =
     seed.activityType === "swimming"
       ? "tanuszoda / uszoda"
@@ -213,9 +237,9 @@ function buildAbout(seed: FindSeed): string {
                 : "sportlétesítmény";
   // Hungarian visitor copy — no English fair-use boilerplate, no invented phones.
   let about = `A ${name} ${kind}`;
-  if (address) about += ` (${address}`;
-  if (countryHu) about += address ? `, ${countryHu}` : ` (${countryHu}`;
-  if (address || countryHu) about += ")";
+  if (placeLabel) about += ` (${placeLabel}`;
+  if (countryHu) about += placeLabel ? `, ${countryHu}` : ` (${countryHu}`;
+  if (placeLabel || countryHu) about += ")";
   about += ".";
   about +=
     " Helyszíni programok, belépés és nyitvatartás előtt érdemes a hivatalos oldalon tájékozódni.";
@@ -239,7 +263,11 @@ async function enrichSeed(
   console.log(`   Confidence: ${seed.confidence}`);
 
   const deepened = await deepenSeed(seed);
-  console.log(`   Address: ${deepened.initialFacts.address || "(none)"}`);
+  const { place } = placeForSeed(deepened);
+  console.log(
+    `   Address: ${deepened.initialFacts.address || "(none)"} → ${place ? place.line1 : "(no place)"}` +
+      ` | phone: ${deepened.initialFacts.contact?.phone || "(optional/absent)"}`,
+  );
 
   if (!deepened.initialFacts.name || deepened.initialFacts.name.length < 5) {
     return { seedId: seed.seedId, outcome: "rejected", reason: "name_too_short" };
@@ -249,17 +277,12 @@ async function enrichSeed(
   if (junkName.test(deepened.initialFacts.name.trim())) {
     return { seedId: seed.seedId, outcome: "rejected", reason: "junk_generic_name" };
   }
-  if (!deepened.initialFacts.address) {
-    return { seedId: seed.seedId, outcome: "rejected", reason: "no_address" };
+  // Phone is optional. No street → city-level Near {city} (engine: Nominatim locality pin).
+  // Do not reject for missing phone or missing street — empty fields are honest debt.
+  if (!place) {
+    return { seedId: seed.seedId, outcome: "rejected", reason: "no_placeable_locality" };
   }
-  // Locality-only addresses ("Budapest, Hungary") are ok for medium, but prefer street-level for ingest
-  if (
-    deepened.confidence === "medium" &&
-    /^[A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű\s-]+,\s*Hungary$/i.test(deepened.initialFacts.address) &&
-    !/\d{4}\s/.test(deepened.initialFacts.address)
-  ) {
-    // Still allow named venues with locality — continue
-  }
+  // Low-confidence name-only junk still out; city/street place does not waive that alone.
   if (deepened.confidence === "low") {
     return { seedId: seed.seedId, outcome: "rejected", reason: "confidence_low" };
   }
@@ -333,6 +356,16 @@ async function main() {
   }
 
   const findSeeds = loadFindSeeds(FIND_SEEDS_FILE);
+  // Rescue false rejects: missing street/phone is no longer a skip reason.
+  let rescued = 0;
+  for (const s of Object.values(findSeeds)) {
+    if (s.status === "rejected" && !s.initialFacts.address) {
+      s.status = "pending";
+      rescued++;
+    }
+  }
+  if (rescued) console.log(`♻️  Rescued ${rescued} rejected seed(s) (no street/phone — now city-level Near pin)`);
+
   let pendingSeeds = getPendingSeeds(findSeeds);
   if (cameraFilter === "hataron-tul") {
     pendingSeeds = pendingSeeds.filter(isHataronTul);
