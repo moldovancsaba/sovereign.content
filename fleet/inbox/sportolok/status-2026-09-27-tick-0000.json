@@ -1,0 +1,53 @@
+{
+  "clientId": "sportolok",
+  "observedAt": "2026-09-27T00:01:55Z",
+  "source": "sportolok-tick",
+  "workingEnv": {
+    "ingestOnlyDoctrine": true,
+    "quarantineActive": true,
+    "timerSubscribed": true,
+    "timerName": "sportolok-tick",
+    "subscriptionId": "sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc",
+    "productionHataronTulRoute": "404_until_pr_287_deploy",
+    "managementPr287": "OPEN"
+  },
+  "outcomes": {
+    "quality_loop_patched": 3,
+    "quality_sample_ids": [
+      "l-research-hun-ka2cwu",
+      "l-research-hun-l08g44",
+      "l-research-hun-49wpre"
+    ],
+    "enrich_ingested": 12,
+    "enrich_rejected": 0,
+    "enrich_camera": "itthon",
+    "enrich_cards": [
+      "research-hun-z99krw",
+      "research-hun-etz52j",
+      "research-hun-wt5p8y",
+      "research-hun-dyti5v",
+      "research-hun-ukt3nd",
+      "research-hun-m9rosq",
+      "research-hun-3a0x1v",
+      "research-hun-uisr9l",
+      "research-hun-w1ed8y",
+      "research-hun-k11mn6",
+      "research-hun-q2ai2z",
+      "research-hun-q2jjw6"
+    ],
+    "executor_ingest": "via_quality_loop",
+    "pending_seeds": 220,
+    "hataron_tul_pending": 52,
+    "management_pr": "https://github.com/moldovancsaba/management/pull/287"
+  },
+  "openDebt": [
+    { "kind": "merge_deploy_pr_287", "n": 1 },
+    { "kind": "enrich_remaining_pending", "n": 220 },
+    { "kind": "hataron_tul_enrich_remaining", "n": 52 }
+  ],
+  "evidence": [
+    "content.sportolok/scripts/fair-use-discovery/data/find-seeds.json",
+    "fleet/inbox/sportolok/status-2026-09-27-tick-0000.json"
+  ],
+  "links": ["https://github.com/moldovancsaba/management/pull/287"]
+}

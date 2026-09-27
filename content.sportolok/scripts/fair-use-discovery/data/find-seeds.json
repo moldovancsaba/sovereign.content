@@ -4308,7 +4308,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-etz52j": {
     "seedId": "seed-hun-etz52j",
@@ -4330,7 +4330,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-wt5p8y": {
     "seedId": "seed-hun-wt5p8y",
@@ -4352,7 +4352,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-dyti5v": {
     "seedId": "seed-hun-dyti5v",
@@ -4374,7 +4374,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-ukt3nd": {
     "seedId": "seed-hun-ukt3nd",
@@ -4396,7 +4396,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-m9rosq": {
     "seedId": "seed-hun-m9rosq",
@@ -4418,7 +4418,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-3a0x1v": {
     "seedId": "seed-hun-3a0x1v",
@@ -4440,7 +4440,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-uisr9l": {
     "seedId": "seed-hun-uisr9l",
@@ -4460,7 +4460,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-w1ed8y": {
     "seedId": "seed-hun-w1ed8y",
@@ -4480,7 +4480,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-k11mn6": {
     "seedId": "seed-hun-k11mn6",
@@ -4500,7 +4500,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-q2ai2z": {
     "seedId": "seed-hun-q2ai2z",
@@ -4520,7 +4520,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-q2jjw6": {
     "seedId": "seed-hun-q2jjw6",
@@ -4540,7 +4540,7 @@
       "contact": {}
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-b3ad1c": {
     "seedId": "seed-hun-b3ad1c",
