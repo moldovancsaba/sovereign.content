@@ -1027,3 +1027,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Evidence / publish (both ends):** Do **not** skip FIND for missing phone. If no street → city-level `line1` + OSM city pin (`locality`). Improve later. SC FIND bar + fair-use + timer updated; management publish-gate regression documents city pin without phone.
 
+### 2026-09-27 — padelafrica (tick ~02:13–02:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_cc879624-…`).
+
+**Quality:** 336 scanned, **7 below → 7 applied** (compose_about on prior densify seeds). Mongo refused.
+
+**Fair-use:** pass 52. **Promoted** ClubPadel Pirates → `ZAF-VEN-076`. **Rejected** SUMA Alfafar (ES). `needs_verify` cleared.
+
+**FIND (new evidence bar — phone optional / city pin OK):**
+- KE → **`KEN-VEN-021` Pro Padel Nairobi** DISCOVERED (Playtomic Forest Road; no phone)
+- DZ → **`ALG-VEN-006` Padel Impact**, **`ALG-VEN-007` Bay One** DISCOVERED (Near Algiers + OSM city pin; Mindset network)
+- ZA densify → **`ZAF-VEN-073` Net Set Ramblers**, **`ZAF-VEN-074` Oud Studente**, **`ZAF-VEN-075` Knysna Hollow**, **`ZAF-VEN-076` ClubPadel Pirates** DISCOVERED
+- Backfill ALG-001..005 + MAR/KE/GH/NA/BW → 19/19 ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+

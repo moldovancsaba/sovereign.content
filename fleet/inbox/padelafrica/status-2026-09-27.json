@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T01:05:54Z",
+  "observedAt": "2026-09-27T02:36:04Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,52 +14,46 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 51,
+    "fairUsePassCount": 52,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
-    "day3InboxCalendar": true,
-    "managementReleaseEqualsMain": true,
     "evidencePhoneOptional": true,
     "evidenceCityPinOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 329,
-    "qualityLoopBelowThreshold": 0,
-    "qualityLoopApplied": 0,
-    "fairUsePass": 51,
+    "qualityLoopScanned": 336,
+    "qualityLoopBelowThreshold": 7,
+    "qualityLoopApplied": 7,
+    "fairUsePass": 52,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-067",
-      "ZAF-VEN-068",
-      "ZAF-VEN-069",
-      "ZAF-VEN-070",
-      "ZAF-VEN-071",
-      "ZAF-VEN-072",
-      "TUN-VEN-019",
-      "TUN-VEN-009",
-      "TUN-VEN-010",
-      "EGY-VEN-004",
-      "EGY-VEN-005",
-      "EGY-VEN-007",
-      "KEN-VEN-007",
-      "KEN-VEN-009",
-      "KEN-VEN-010",
-      "SEN-VEN-009",
-      "MAR-VEN-016",
-      "TZA-VEN-003",
-      "ZMB-VEN-003"
+      "KEN-VEN-021",
+      "ALG-VEN-006",
+      "ALG-VEN-007",
+      "ZAF-VEN-073",
+      "ZAF-VEN-074",
+      "ZAF-VEN-075",
+      "ZAF-VEN-076",
+      "ALG-VEN-001..005",
+      "MAR-VEN-017",
+      "KEN-VEN-015/016",
+      "GHA-VEN-001/003",
+      "NAM-VEN-003",
+      "BWA-VEN-002"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
-    "findZeroResult": [],
+    "findZeroResult": [
+      "SUMA Padel Club Alfafar ES out-of-scope"
+    ],
     "ingestDiscoveredOk": 19,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T00.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T02.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "00:11 tick: ZA secondary-city densify + Stars Sousse + City Club fair-use promote; 19 DISCOVERED. Not claiming PUBLISHED. Rules: phone optional; city pin OK without street."
+    "note": "02:13 tick: phone-optional Pro Padel Nairobi + DZ Impact/Bay One city pins; Bloem/Knysna densify; ClubPadel Pirates promote; quality 7 applied. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -71,45 +65,40 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T01:05:54.505616Z",
+  "updatedAt": "2026-09-27T02:36:04.794599Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 329,
-    "belowThreshold": 0,
-    "applied": 0,
+    "scanned": 336,
+    "belowThreshold": 7,
+    "applied": 7,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 51,
+    "passCount": 52,
     "promoted": [
-      "ZAF-VEN-072 City Club Padel Woodstock"
+      "ZAF-VEN-076 ClubPadel Pirates"
     ],
-    "rejected": [],
+    "rejected": [
+      "SUMA Padel Club Alfafar (ES)"
+    ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-067 N1 Padel Polokwane",
-      "ZAF-VEN-068 534 Home of Padel Polokwane",
-      "ZAF-VEN-069 Padel PMB",
-      "ZAF-VEN-070 Padel 24 Mbombela",
-      "ZAF-VEN-071 AP Padel Kimberley",
-      "ZAF-VEN-072 City Club Padel Woodstock",
-      "TUN-VEN-019 Stars Padel Club Akouda",
-      "TUN-VEN-009..010",
-      "EGY-VEN-004/005/007",
-      "KEN-VEN-007/009/010",
-      "SEN-VEN-009",
-      "MAR-VEN-016",
-      "TZA-VEN-003",
-      "ZMB-VEN-003"
+      "KEN-VEN-021 Pro Padel Nairobi (phone-optional)",
+      "ALG-VEN-006 Padel Impact (city pin)",
+      "ALG-VEN-007 Bay One Padel Club (city pin)",
+      "ZAF-VEN-073 Discovery Padel Park Net Set Ramblers",
+      "ZAF-VEN-074 Net Set Padel Oud Studente",
+      "ZAF-VEN-075 LivPadel Knysna Hollow",
+      "ZAF-VEN-076 ClubPadel Pirates"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Evidence bar updated 2026-09-27: phone optional; city-level OSM pin when no street. Timer resubscribed."
+  "notes": "Tick ~02:13\u201302:40 UTC. New evidence bar exercised. Not claiming PUBLISHED."
 }

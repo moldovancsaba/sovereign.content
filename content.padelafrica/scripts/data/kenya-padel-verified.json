@@ -493,5 +493,28 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND tick 2026-09-26T18 — phone corroborated by local Ridgeways directory"
+  },
+  {
+    "recordId": "KEN-VEN-021",
+    "name": "Pro Padel Nairobi",
+    "city": "Nairobi",
+    "region": "Nairobi County",
+    "countryCode": "KE",
+    "line1": "Forest Road, Nairobi",
+    "lat": -1.302398,
+    "lng": 36.8288509,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Nairobi city pin (Nominatim) — Forest Road street from Playtomic; precise building not geocoded",
+    "website": "https://playtomic.com/clubs/pro-padel-nairobi",
+    "venueModel": "commercial_club",
+    "seasonNote": "Book via Playtomic; no public phone listed (phone optional).",
+    "description": "Pro Padel Nairobi lists Forest Road on Playtomic with online court booking. Previously held for missing phone — seeded under phone-optional evidence bar with city pin until a street-level geocode is available.",
+    "primarySourceUrl": "https://playtomic.com/clubs/pro-padel-nairobi",
+    "secondarySourceUrl": "https://padellands.com/en/padel-courts/pro-padel-nairobi/",
+    "sourceTypes": "Playtomic booking (Forest Road) + Padel Lands listing (no phone)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "FIND tick 2026-09-27T02 phone-optional city-pin seed"
   }
 ]

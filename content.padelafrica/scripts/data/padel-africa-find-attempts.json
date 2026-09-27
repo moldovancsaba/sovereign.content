@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T00:36:04.903709Z",
+  "updatedAt": "2026-09-27T02:35:44.214522Z",
   "attempts": [
     {
       "cc": "CF",
@@ -2756,6 +2756,41 @@
       "at": "2026-09-27T00:36:04.903709Z",
       "outcome": "seeded",
       "note": "ZAF-VEN-072 fair-use promote"
+    },
+    {
+      "cc": "KE",
+      "city": "Nairobi Pro Padel",
+      "at": "2026-09-27T02:15:30.184818Z",
+      "outcome": "seeded",
+      "note": "KEN-VEN-021 phone-optional"
+    },
+    {
+      "cc": "DZ",
+      "city": "Algiers Impact + Bay One",
+      "at": "2026-09-27T02:15:30.184818Z",
+      "outcome": "seeded",
+      "note": "ALG-VEN-006..007 city-pin"
+    },
+    {
+      "cc": "ZA",
+      "city": "Bloemfontein Net Set densify",
+      "at": "2026-09-27T02:15:30.184818Z",
+      "outcome": "seeded",
+      "note": "ZAF-VEN-073..074"
+    },
+    {
+      "cc": "ZA",
+      "city": "Knysna Hollow LivPadel",
+      "at": "2026-09-27T02:15:30.184818Z",
+      "outcome": "seeded",
+      "note": "ZAF-VEN-075"
+    },
+    {
+      "cc": "ZA",
+      "city": "Johannesburg ClubPadel Pirates",
+      "at": "2026-09-27T02:35:44.214522Z",
+      "outcome": "seeded",
+      "note": "ZAF-VEN-076 fair-use promote"
     }
   ]
 }

@@ -2416,5 +2416,42 @@
     "extractedAt": "2026-09-27T00:20:05.726Z",
     "promotedRecordId": "ZAF-VEN-072",
     "promotedCardId": "research-zaf-ven-072"
+  },
+  {
+    "candidateId": "fair-actu-padel-clubpadel-pirates",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "ClubPadel Pirates",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-clubpadel-pirates-rosebank/",
+    "website": "http://clubpadel.co.za/",
+    "cityHint": "Johannesburg",
+    "countryHint": "South Africa",
+    "addressHint": "Cr of 4th Avenue and, Cruden Lane, Greenside, Johannesburg, 2193, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-clubpadel-pirates-rosebank/",
+      "http://clubpadel.co.za/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar before fixture apply \u2014 phone optional; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "promoted",
+    "extractedAt": "2026-09-27T02:19:47.557Z",
+    "promotedRecordId": "ZAF-VEN-076",
+    "promotedCardId": "research-zaf-ven-076"
+  },
+  {
+    "candidateId": "fair-padelivu-suma-padel-club-alfafar",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "SUMA Padel Club Alfafar",
+    "citationUrl": "https://padelivu.com/club/suma-padel-club-alfafar",
+    "website": "",
+    "addressHint": "c/ Manuel Andr\u00e9s Baixauili S/N, 46910, Valencia, Spain",
+    "researchSources": [
+      "https://padelivu.com/club/suma-padel-club-alfafar"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply \u2014 phone optional; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T02:22:49.365Z",
+    "rejectedAt": "2026-09-27T02:35:44.000Z",
+    "rejectReason": "out_of_scope_spain"
   }
 ]
