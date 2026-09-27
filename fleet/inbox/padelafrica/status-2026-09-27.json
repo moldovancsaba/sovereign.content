@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T22:35:00Z",
+  "observedAt": "2026-09-27T23:35:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 72,
+    "fairUsePassCount": 73,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,38 +23,34 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 500,
+    "qualityLoopScanned": 508,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
-    "fairUsePass": 72,
+    "fairUsePass": 73,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-214",
-      "ZAF-VEN-215",
-      "ZAF-VEN-216",
-      "ZAF-VEN-217",
-      "ZAF-VEN-218",
-      "ZAF-VEN-219",
-      "ZAF-VEN-220",
-      "ZAF-VEN-221"
+      "ZAF-VEN-222",
+      "ZAF-VEN-223",
+      "ZAF-VEN-224",
+      "ZAF-VEN-225",
+      "ZAF-VEN-226",
+      "ZAF-VEN-227",
+      "ZAF-VEN-228",
+      "ZAF-VEN-229"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
-    "findSkippedDuplicate": [
-      "The Net Social Club (ZAF-VEN-005)",
-      "Village Padel (ZAF-VEN-027)",
-      "Rietondale Padel (ZAF-VEN-028)"
-    ],
+    "findSkippedDuplicate": [],
     "findZeroResult": [],
     "findSkipped": [
-      "Centre Court Lynnwood Glen \u2014 Playtomic-only, no phone/social verified this tick"
+      "Techno Avion Kempton / Team Padel Derdepoort / Serengeti Estates \u2014 deferred to next tick"
     ],
     "ingestDiscoveredOk": 8,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-37.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-38.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 22: Pretoria East densify (Thrashers, Padel Parq, MK Mooikloof, Waterkloof RC, U-Pro Atterbury, Grove, Lynnwood, Menlo). Fair-use rejected Pintopadel (Madrid). Not claiming PUBLISHED."
+    "note": "Tick 23: East Rand densify (Benoni, Boksburg, Kempton Park, Edenvale, Modderfontein). Fair-use rejected Padelife Silicella (Rome). Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -67,7 +63,7 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T22:35:00Z",
+  "updatedAt": "2026-09-27T23:35:00Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",

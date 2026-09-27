@@ -2858,5 +2858,22 @@
     "extractedAt": "2026-09-27T22:14:37.249Z",
     "rejectedAt": "2026-09-27T22:30:00.000Z",
     "note": "Out of scope — Pinto/Madrid, Spain (Europe), not Africa"
+  },
+  {
+    "candidateId": "fair-padelivu-padelife-silicella",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Padelife Silicella",
+    "citationUrl": "https://padelivu.com/club/padelife-silicella",
+    "website": "",
+    "addressHint": "via Silicella 158, 00169, Roma, Italy",
+    "researchSources": [
+      "https://padelivu.com/club/padelife-silicella"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T23:14:34.194Z",
+    "rejectedAt": "2026-09-27T23:30:00.000Z",
+    "note": "Out of scope — Rome, Italy (Europe), not Africa"
   }
 ]

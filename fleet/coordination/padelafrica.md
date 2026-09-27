@@ -1427,3 +1427,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **8/8** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~23:05–23:35 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 508 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 73 (28 sources). **Rejected** Padelife Silicella (Rome, Italy). `needs_verify` cleared.
+
+**FIND:**
+- ZA East Rand → **`ZAF-VEN-222` PadelPlus Benoni**, **`ZAF-VEN-223` Techno ERPM**, **`ZAF-VEN-224` Padel Active** DISCOVERED (new Benoni + Boksburg cells)
+- ZA East Rand → **`ZAF-VEN-225` Kempton Park Padel Club**, **`ZAF-VEN-226` Padel Bar Glendower** DISCOVERED (new Kempton Park + Edenvale cells)
+- ZA Modderfontein → **`ZAF-VEN-227` Padel 365 Greenstone**, **`ZAF-VEN-228` Techno Modderfontein**, **`ZAF-VEN-229` Padel Wolf** DISCOVERED (new Modderfontein cell)
+- Deferred → Avion Kempton / Team Padel Derdepoort / Serengeti Estates
+- Ingest → **8/8** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
