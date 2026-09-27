@@ -5196,7 +5196,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-1cbtbk": {
     "seedId": "seed-hun-1cbtbk",
@@ -5218,7 +5218,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-palht1": {
     "seedId": "seed-hun-palht1",
@@ -5240,7 +5240,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-f94bhy": {
     "seedId": "seed-hun-f94bhy",
@@ -5262,7 +5262,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-b03fk6": {
     "seedId": "seed-hun-b03fk6",
@@ -5284,7 +5284,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-7v3t7m": {
     "seedId": "seed-hun-7v3t7m",
@@ -5306,7 +5306,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-hun-ywqyyl": {
     "seedId": "seed-hun-ywqyyl",
@@ -9363,7 +9363,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-aexaok": {
     "seedId": "seed-ht-aexaok",
@@ -9387,7 +9387,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-2zrrgz": {
     "seedId": "seed-ht-2zrrgz",
@@ -9411,7 +9411,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-d0ip8l": {
     "seedId": "seed-ht-d0ip8l",
@@ -9435,7 +9435,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-gcsznf": {
     "seedId": "seed-ht-gcsznf",
@@ -9459,7 +9459,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-2pa7cw": {
     "seedId": "seed-ht-2pa7cw",
@@ -9483,7 +9483,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-3u0q2y": {
     "seedId": "seed-ht-3u0q2y",
@@ -9507,7 +9507,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-fzrnkg": {
     "seedId": "seed-ht-fzrnkg",
@@ -9531,7 +9531,7 @@
       }
     },
     "confidence": "medium",
-    "status": "pending"
+    "status": "ingested"
   },
   "seed-ht-11fjj8": {
     "seedId": "seed-ht-11fjj8",
