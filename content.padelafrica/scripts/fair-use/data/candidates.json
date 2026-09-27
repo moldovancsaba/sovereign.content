@@ -2807,5 +2807,22 @@
     "extractedAt": "2026-09-27T19:18:55.850Z",
     "rejectReason": "Non-Africa (Laredo, Texas, USA). Rejected tick 19 fair-use pass 69.",
     "rejectedAt": "2026-09-27T19:21:54Z"
+  },
+  {
+    "candidateId": "fair-padelivu-padel-1111",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Padel 11:11",
+    "citationUrl": "https://padelivu.com/club/padel-11-11",
+    "website": "",
+    "addressHint": "Avenida Faja de Oro, Flamboyanes, 89330, Tampico, Mexico",
+    "researchSources": [
+      "https://padelivu.com/club/padel-11-11"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T20:09:30.761Z",
+    "rejectReason": "Non-Africa (Tampico, Mexico). Rejected tick 20 fair-use pass 70.",
+    "rejectedAt": "2026-09-27T20:22:41Z"
   }
 ]

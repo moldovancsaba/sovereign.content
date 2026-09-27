@@ -1377,3 +1377,21 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **8/8** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~20:00–20:24 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 484 scanned, **5 below → 4 applied** (compose_about `ZAF-VEN-191`/`192`/`194`/`196`; TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 70 (28 sources). **Rejected** Padel 11:11 (Tampico, Mexico). `needs_verify` cleared.
+
+**FIND:**
+- ZA Upper Highway → **`ZAF-VEN-198` Padel Up Kloof High**, **`ZAF-VEN-199` Padel Up Forest View** DISCOVERED (Forest Hills new city)
+- ZA Gauteng → **`ZAF-VEN-200` LivPadel SuperSport Park**, **`ZAF-VEN-203` Gayle Nexia**, **`ZAF-VEN-204` TopPadel Zwartkop**, **`ZAF-VEN-205` Padel Lab Clubview** DISCOVERED (Centurion densify)
+- ZA Gauteng → **`ZAF-VEN-201` LivPadel Jeppe** DISCOVERED (new Bedfordview cell)
+- ZA Gauteng → **`ZAF-VEN-202` Midstream Padel Club** DISCOVERED (new Midstream cell)
+- Skip → Kisumu/Kumasi/Takoradi/Francistown zero or plans-only; Ghana Accra gaps contact-thin this tick
+- Ingest → **8/8** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

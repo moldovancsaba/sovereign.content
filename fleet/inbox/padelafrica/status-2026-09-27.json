@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T19:24:00Z",
+  "observedAt": "2026-09-27T20:24:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 69,
+    "fairUsePassCount": 70,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,38 +23,39 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 476,
-    "qualityLoopBelowThreshold": 4,
-    "qualityLoopApplied": 3,
-    "fairUsePass": 69,
+    "qualityLoopScanned": 484,
+    "qualityLoopBelowThreshold": 5,
+    "qualityLoopApplied": 4,
+    "fairUsePass": 70,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-190",
-      "ZAF-VEN-191",
-      "ZAF-VEN-192",
-      "ZAF-VEN-193",
-      "ZAF-VEN-194",
-      "ZAF-VEN-195",
-      "ZAF-VEN-196",
-      "ZAF-VEN-197"
+      "ZAF-VEN-198",
+      "ZAF-VEN-199",
+      "ZAF-VEN-200",
+      "ZAF-VEN-201",
+      "ZAF-VEN-202",
+      "ZAF-VEN-203",
+      "ZAF-VEN-204",
+      "ZAF-VEN-205"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "Settat/Khouribga/Berkane/Larache/Taza Morocco still no operating public clubs"
+      "Kisumu Kenya plans-only / no operating clubs",
+      "Kumasi/Takoradi Ghana no operating public clubs",
+      "Francistown Botswana under construction; Maun BMC phone unverified"
     ],
     "findSkipped": [
-      "Cotswold Downs Hillcrest residents-only",
-      "Westville Padel Club under construction",
-      "Bluff Padel Craze opening-soon"
+      "Ghana Padel Town/Zone/Boho/Mamba Blu — contact not independently verified this tick",
+      "Cotswold Downs residents-only (prior)"
     ],
     "ingestDiscoveredOk": 8,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-34.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-35.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 19: Amanzimtoti/Pennington/Southbroom/Hillcrest/Westville densify. Fair-use rejected Rocket Padel (UK) + Laredo (US). Not claiming PUBLISHED."
+    "note": "Tick 20: Kloof/Forest Hills + Centurion/Bedfordview/Midstream densify. Fair-use rejected Padel 11:11 (MX). Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -67,41 +68,40 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T19:24:00.000000Z",
+  "updatedAt": "2026-09-27T20:24:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 476,
-    "belowThreshold": 4,
-    "applied": 3,
+    "scanned": 484,
+    "belowThreshold": 5,
+    "applied": 4,
     "mongo": "quarantined",
-    "note": "compose_about ZAF-VEN-184/185/189; TUN-019 skip_closed"
+    "note": "compose_about ZAF-VEN-191/192/194/196; TUN-019 skip_closed"
   },
   "fairUse": {
-    "passCount": 69,
+    "passCount": 70,
     "promoted": [],
     "rejected": [
-      "Rocket Padel (Bristol, UK)",
-      "Laredo Padel Club (Texas, USA)"
+      "Padel 11:11 (Tampico, Mexico)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-190 PadelNation Arbour Corner Toti (Amanzimtoti new city)",
-      "ZAF-VEN-191 Umdoni Point Sports & Leisure (Pennington new city)",
-      "ZAF-VEN-192 Southbroom Padel (new city)",
-      "ZAF-VEN-193 Fig Tree Farm Padel (Hillcrest new city)",
-      "ZAF-VEN-194 Morewood Padel Hillcrest",
-      "ZAF-VEN-195 Chiltern Park Padel Ace (Westville new city)",
-      "ZAF-VEN-196 Saxony Padel Westwood Mall",
-      "ZAF-VEN-197 Padel Lab Westville"
+      "ZAF-VEN-198 Padel Up Kloof High School",
+      "ZAF-VEN-199 Padel Up Forest View (Forest Hills new city)",
+      "ZAF-VEN-200 LivPadel SuperSport Park Centurion",
+      "ZAF-VEN-201 LivPadel Jeppe Quondam (Bedfordview new city)",
+      "ZAF-VEN-202 Midstream Padel Club (new city)",
+      "ZAF-VEN-203 Gayle Padel @ Nexia SAB&T Centurion",
+      "ZAF-VEN-204 TopPadel Zwartkop Country Club Centurion",
+      "ZAF-VEN-205 Padel Lab Clubview Centurion"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T19:24Z tick 19 Upper Highway / South Coast densify. Timer left subscribed."
+  "notes": "2026-09-27T20:24Z tick 20 Upper Highway + Centurion corridor densify. Timer left subscribed."
 }
