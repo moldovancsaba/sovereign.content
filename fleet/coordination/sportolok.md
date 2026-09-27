@@ -944,3 +944,23 @@ Tick ~06:00–06:01 UTC on `sovereign.content` main.
 HT pending cleared — FIND/hataron-tul-pass needed next.
 
 **Do not claim production-ready.**
+
+### 2026-09-27T07:04Z — sportolok-tick (Step|Result)
+
+Tick ~07:00–07:04 UTC on `sovereign.content` main.
+
+| Step | Result |
+| :--- | :--- |
+| **Quality** | 30 scanned, 0 below threshold, **0 patched** (already good) |
+| **FIND HT** | Pass 5 sources, **56** candidates, **0 new pending** (all known/ingested) |
+| **Fair-use HT** | pending **0** — nothing to enrich |
+| **Fair-use Itthon** | **6/6 DISCOVERED** → pending **128** |
+| **Media** | **5 patched** via executorIngest (Tungsram / Újpest FC) |
+| **Drain** | soft-incomplete **4 → 0**; forcePublish **4** |
+| **MM_SP / P** | **909 → 914 (ΔP +5)** |
+| **Inbox** | `status-2026-09-27-tick-0700.json` + this Turn |
+| **Timer** | Still subscribed (`sub_7791eb21-…`) |
+
+HT seed queue still empty after FIND — need new Határon túl sources beyond erdelystat/civilportal.
+
+**Do not claim production-ready.**
