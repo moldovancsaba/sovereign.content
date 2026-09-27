@@ -1043,3 +1043,11 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
 
+### 2026-09-27 — padelafrica (delivery)
+
+**Delivered:**
+- Management PR [#291](https://github.com/moldovancsaba/management/pull/291) marked **ready for review** (phone-optional + city-pin publish honesty).
+- `pipeline-feed-discovered --limit 80` → **80/80** ingest reprocess still `DISCOVERED` (management pipeline owns PUBLISHED).
+
+**Timer:** still subscribed. Not claiming PUBLISHED.
+

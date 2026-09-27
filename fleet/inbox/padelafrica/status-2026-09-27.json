@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T02:36:04Z",
+  "observedAt": "2026-09-27T02:39:37Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -53,7 +53,9 @@
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "02:13 tick: phone-optional Pro Padel Nairobi + DZ Impact/Bay One city pins; Bloem/Knysna densify; ClubPadel Pirates promote; quality 7 applied. Not claiming PUBLISHED."
+    "note": "Delivered: PR #291 ready-for-review; pipeline-feed 80/80 DISCOVERED reprocess. Not claiming PUBLISHED.",
+    "pipelineFeedDiscoveredOk": 80,
+    "pipelineFeedEvidence": "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-27T02-39-27-455Z.json"
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -65,7 +67,7 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T02:36:04.794599Z",
+  "updatedAt": "2026-09-27T02:39:37.673984Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
@@ -100,5 +102,5 @@
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~02:13\u201302:40 UTC. New evidence bar exercised. Not claiming PUBLISHED."
+  "notes": "Delivery 2026-09-27T02:39Z \u2014 management PR #291 ready; 80 DISCOVERED re-fed for publish pipeline."
 }
