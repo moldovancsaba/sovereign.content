@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T03:30:00Z",
+  "observedAt": "2026-09-27T04:40:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 53,
+    "fairUsePassCount": 54,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,36 +22,34 @@
     "evidenceCityPinOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 343,
-    "qualityLoopBelowThreshold": 5,
-    "qualityLoopApplied": 4,
-    "fairUsePass": 53,
+    "qualityLoopScanned": 347,
+    "qualityLoopBelowThreshold": 1,
+    "qualityLoopApplied": 0,
+    "fairUsePass": 54,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "NGA-VEN-012",
-      "MAR-VEN-034",
-      "ZAF-VEN-077",
-      "ZAF-VEN-078",
-      "ZAF-VEN-073..076",
-      "NGA-VEN-009..011",
-      "MAR-VEN-018",
-      "ZAF-VEN-024/045/056/058"
+      "ZAF-VEN-079",
+      "ZAF-VEN-080",
+      "ZAF-VEN-081",
+      "ZAF-VEN-082",
+      "MAR-VEN-035",
+      "ZAF-VEN-077/078/024/045/056/058",
+      "MAR-VEN-027/009/034",
+      "NGA-VEN-012"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [
-      "Urban Padel Royal already MAR-VEN-024",
-      "Smash/Herman Uganda already seeded"
+      "PLAYON/Smash Mombasa already seeded",
+      "Fes Country Club already seeded"
     ],
-    "findZeroResult": [
-      "Addis Ababa launching-only (Addis Padel Club sales hiring — not bookable)"
-    ],
-    "ingestDiscoveredOk": 16,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T03.json",
+    "findZeroResult": [],
+    "ingestDiscoveredOk": 15,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T04.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "PR #291 already merged. Tick 03 densify + fair-use promote. Not claiming PUBLISHED."
+    "note": "Tick 04 Gqeberha densify + Agadir campus + Crystal promote. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -64,37 +62,38 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T03:30:00.000000Z",
+  "updatedAt": "2026-09-27T04:40:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 343,
-    "belowThreshold": 5,
-    "applied": 4,
+    "scanned": 347,
+    "belowThreshold": 1,
+    "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 53,
+    "passCount": 54,
     "promoted": [
-      "ZAF-VEN-078 Core Padel Durban North"
+      "ZAF-VEN-082 Crystal Padel Montroux"
     ],
     "rejected": [
-      "Møkster Padel (SE / svenskpadel.se)"
+      "MyPadel (LV / Riga)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "NGA-VEN-012 Extreme Padel Abuja (Mabushi city pin + phone)",
-      "MAR-VEN-034 Hilton Tangier Al Houara Padel (hotel pin + phone/email)",
-      "ZAF-VEN-077 Padel GQ Walmer Heights (Playtomic; phone optional)",
-      "ZAF-VEN-078 Core Padel Durban North (fair-use promote)"
+      "ZAF-VEN-079 Techno Padel Walmer Golf Club",
+      "ZAF-VEN-080 TPC The Padel Centre Fairview",
+      "ZAF-VEN-081 New Era Padel Sport Fairview",
+      "MAR-VEN-035 Padel Factory Universiapolis",
+      "ZAF-VEN-082 Crystal Padel (fair-use promote)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~03:07–03:30 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
+  "notes": "Tick ~04:16–04:40 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
 }

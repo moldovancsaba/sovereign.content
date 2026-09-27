@@ -2491,5 +2491,42 @@
     "extractedAt": "2026-09-27T03:24:16.664Z",
     "triagedAt": "2026-09-27T03:29:07.449Z",
     "triageNote": "Out of Africa scope (Møkster / svenskpadel.se Sweden)"
+  },
+  {
+    "candidateId": "fair-actu-padel-crystal-padel",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Crystal Padel",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-crystal-johannesburg/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "cityHint": "Johannesburg",
+    "countryHint": "South Africa",
+    "addressHint": "162 Beyers Naude Dr, Montroux, Johannesburg, 2195, South Africa",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-crystal-johannesburg/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar before fixture apply — phone optional; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "promoted",
+    "extractedAt": "2026-09-27T04:22:38.443Z",
+    "triagedAt": "2026-09-27T04:38:24.673Z",
+    "triageNote": "Promoted → ZAF-VEN-082 Crystal Padel Montroux (Playtomic + Actu Padel)"
+  },
+  {
+    "candidateId": "fair-padelivu-mypadel",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "MyPadel",
+    "citationUrl": "https://padelivu.com/club/mypadel",
+    "website": "",
+    "addressHint": "Grenču iela 5, LV-1029, Rīga, Latvia",
+    "researchSources": [
+      "https://padelivu.com/club/mypadel"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone optional; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T04:25:40.496Z",
+    "triagedAt": "2026-09-27T04:38:24.673Z",
+    "triageNote": "Out of Africa scope (MyPadel Riga Latvia)"
   }
 ]

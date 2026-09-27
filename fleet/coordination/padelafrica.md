@@ -1073,3 +1073,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill ZAF-073..076 + NGA-009..011 + MAR-018 + Gqeberha cluster → **16/16** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~04:16–04:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_cc879624-…`).
+
+**Quality:** 347 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 54 (28 sources). **Promoted** Crystal Padel Montroux → `ZAF-VEN-082`. **Rejected** MyPadel (LV). `needs_verify` cleared.
+
+**FIND:**
+- ZA Gqeberha densify → **`ZAF-VEN-079` Techno Padel Walmer**, **`ZAF-VEN-080` TPC Fairview**, **`ZAF-VEN-081` New Era Padel** DISCOVERED
+- MA Agadir densify → **`MAR-VEN-035` Padel Factory Universiapolis** DISCOVERED
+- Fair-use promote → **`ZAF-VEN-082` Crystal Padel** DISCOVERED
+- Backfill Gqeberha/Agadir/Hilton/Extreme cluster → **15/15** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

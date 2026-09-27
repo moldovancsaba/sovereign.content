@@ -836,5 +836,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-27",
     "researchNotes": "FIND tick 03 — Oct 2025 press: outdoor courts, 100 MAD/person/90min. Court count in press not asserted on listing."
+  },
+  {
+    "recordId": "MAR-VEN-035",
+    "name": "Padel Factory Universiapolis",
+    "city": "Agadir",
+    "region": "Souss-Massa",
+    "countryCode": "MA",
+    "line1": "Universiapolis Campus, RN1 Tassila",
+    "lat": 30.4033956,
+    "lng": -9.5297168,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "OSM Universiapolis campus pin on RN1 Tassila",
+    "website": "https://padelfactoryagadir.com/en",
+    "phone": "+212 633 80 99 81",
+    "venueModel": "own_premises",
+    "seasonNote": "Book via brand WhatsApp / site; campus branch distinct from downtown.",
+    "description": "Padel Factory Universiapolis is the campus branch of Agadir’s Padel Factory network on RN1 at Universiapolis with a published booking phone on the brand site. A clear Agadir densify pick distinct from downtown Rue Ibn Arabi and Le Carré at Odyssée Park. Call or WhatsApp ahead to confirm open play on campus.",
+    "primarySourceUrl": "https://padelfactoryagadir.com/en",
+    "secondarySourceUrl": "https://discoveragadir.com/en/padel-agadir/",
+    "sourceTypes": "Padel Factory brand site (Universiapolis campus + phone); Discover Agadir padel guide",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "FIND tick 04 — distinct venue from MAR-VEN-027 downtown. Court count on brand site not asserted."
   }
 ]
