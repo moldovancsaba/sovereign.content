@@ -1209,3 +1209,20 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
 
+### 2026-09-27 — padelafrica (tick ~11:00–11:22 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 395 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 61 (28 sources). No new `needs_verify`. Cleared.
+
+**FIND:**
+- ZA Winelands secondary → **`ZAF-VEN-111` The Gym Padel Worcester**, **`ZAF-VEN-112` Dragon Padel Wellington**, **`ZAF-VEN-113` Rickety Bridge Franschhoek**, **`ZAF-VEN-114` Ceres Padel** DISCOVERED (four new city cells)
+- ZA Garden Route → **`ZAF-VEN-115` Wild Padel Wilderness**, **`ZAF-VEN-116` Sedge Padel** DISCOVERED (new cities)
+- ZA Klein Karoo → **`ZAF-VEN-117` Oudtshoorn Padel**, **`ZAF-VEN-118` Gimmie Padel** DISCOVERED (new Oudtshoorn cell)
+- ZA KZN densify → **`ZAF-VEN-119` Sun Padel Sibaya** DISCOVERED (Umhlanga)
+- Skip → Nador/Safi registry-only; Richards Bay / Bizerte / Gabès no operating clubs
+- Backfill Langebaan / PadelX / Coalition / Essaouira → **13/13** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

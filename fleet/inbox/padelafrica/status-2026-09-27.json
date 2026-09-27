@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T10:22:00Z",
+  "observedAt": "2026-09-27T11:22:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 60,
+    "fairUsePassCount": 61,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,34 +23,36 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 386,
+    "qualityLoopScanned": 395,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
-    "fairUsePass": 60,
+    "fairUsePass": 61,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-103",
-      "ZAF-VEN-104",
-      "ZAF-VEN-105",
-      "ZAF-VEN-106",
-      "ZAF-VEN-107",
-      "ZAF-VEN-108",
-      "ZAF-VEN-109",
-      "ZAF-VEN-110",
-      "MAR-VEN-046"
+      "ZAF-VEN-111",
+      "ZAF-VEN-112",
+      "ZAF-VEN-113",
+      "ZAF-VEN-114",
+      "ZAF-VEN-115",
+      "ZAF-VEN-116",
+      "ZAF-VEN-117",
+      "ZAF-VEN-118",
+      "ZAF-VEN-119"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
-    "findSkippedDuplicate": [
-      "Club Padel Maroc (MAR-VEN-014)"
+    "findSkippedDuplicate": [],
+    "findZeroResult": [
+      "Nador/Safi company-registry only",
+      "Richards Bay no operating club",
+      "Bizerte/Gabès no verified courts"
     ],
-    "findZeroResult": [],
     "ingestDiscoveredOk": 13,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-25.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-26.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 10: Langebaan / Knysna / Plett / Somerset West / Midrand + Essaouira. Not claiming PUBLISHED."
+    "note": "Tick 11: Winelands secondary cities + Garden Route + Oudtshoorn + Sibaya. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -63,43 +65,38 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T10:22:00.000000Z",
+  "updatedAt": "2026-09-27T11:22:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 386,
+    "scanned": 395,
     "belowThreshold": 1,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 60,
+    "passCount": 61,
     "promoted": [],
-    "rejected": [
-      "Padelboxen (DK / Odense)"
-    ],
-    "skipped_duplicate": [
-      "Club Padel Maroc (MAR-VEN-014)"
-    ],
+    "rejected": [],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-103 LCE Padel (Langebaan — new city)",
-      "ZAF-VEN-104 Club Mykonos Langebaan Resort",
-      "ZAF-VEN-105 Villa Del Mare Estate Padel (phone optional)",
-      "ZAF-VEN-106 Simola Padel (Knysna densify)",
-      "ZAF-VEN-107 Padel @ Plett Country Club",
-      "ZAF-VEN-108 PadelX Somerset West (WA/IG contact)",
-      "ZAF-VEN-109 Coalition Padel (Midrand — new city)",
-      "ZAF-VEN-110 Midpoint Padel (Midrand densify)",
-      "MAR-VEN-046 Club des Douars (Essaouira — new city)"
+      "ZAF-VEN-111 The Gym Padel Worcester (new city)",
+      "ZAF-VEN-112 Dragon Padel Wellington (new city; IG)",
+      "ZAF-VEN-113 Rickety Bridge Franschhoek (new city)",
+      "ZAF-VEN-114 Ceres Padel (new city)",
+      "ZAF-VEN-115 Wild Padel Wilderness (new city)",
+      "ZAF-VEN-116 Sedge Padel Sedgefield (new city)",
+      "ZAF-VEN-117 Oudtshoorn Padel (new city)",
+      "ZAF-VEN-118 Gimmie Padel Oudtshoorn",
+      "ZAF-VEN-119 Sun Padel Sibaya (Umhlanga densify)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T10:22Z tick 10 West Coast / Garden Route / Midrand / Essaouira densify. Timer left subscribed."
+  "notes": "2026-09-27T11:22Z tick 11 Winelands / Garden Route / Klein Karoo / Sibaya. Timer left subscribed."
 }
