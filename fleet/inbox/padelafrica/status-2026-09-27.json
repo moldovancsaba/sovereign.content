@@ -1,11 +1,11 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T00:36:35Z",
+  "observedAt": "2026-09-27T01:05:54Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
-    "timerSubscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
+    "timerSubscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
     "ingestOnlyDoctrine": true,
     "ingestOnlyReality": true,
     "ingestApiKeyPresent": true,
@@ -19,7 +19,9 @@
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
     "day3InboxCalendar": true,
-    "managementReleaseEqualsMain": true
+    "managementReleaseEqualsMain": true,
+    "evidencePhoneOptional": true,
+    "evidenceCityPinOk": true
   },
   "outcomes": {
     "qualityLoopScanned": 329,
@@ -57,7 +59,7 @@
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "00:11 tick: ZA secondary-city densify + Stars Sousse + City Club fair-use promote; 19 DISCOVERED. Not claiming PUBLISHED."
+    "note": "00:11 tick: ZA secondary-city densify + Stars Sousse + City Club fair-use promote; 19 DISCOVERED. Not claiming PUBLISHED. Rules: phone optional; city pin OK without street."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -69,10 +71,10 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T00:36:35.657817Z",
+  "updatedAt": "2026-09-27T01:05:54.505616Z",
   "timer": {
     "name": "padel-find-tick",
-    "subscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
+    "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
     "stillSubscribed": true
   },
   "qualityLoop": {
@@ -109,5 +111,5 @@
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~00:11\u201300:40 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
+  "notes": "Evidence bar updated 2026-09-27: phone optional; city-level OSM pin when no street. Timer resubscribed."
 }
