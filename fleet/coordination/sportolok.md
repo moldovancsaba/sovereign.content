@@ -964,3 +964,20 @@ Tick ~07:00–07:04 UTC on `sovereign.content` main.
 HT seed queue still empty after FIND — need new Határon túl sources beyond erdelystat/civilportal.
 
 **Do not claim production-ready.**
+
+### 2026-09-27T08:02Z — sportolok-tick (Step|Result)
+
+Tick ~08:00–08:02 UTC on `sovereign.content` main.
+
+| Step | Result |
+| :--- | :--- |
+| **Quality** | 30 scanned, 3 below threshold, **3 patched** (Mongo quarantined) |
+| **FIND HT** | 9 sources walked, **57** candidates, **0 new pending** |
+| **Fair-use HT** | pending **0** |
+| **Fair-use Itthon** | **6/6 DISCOVERED** → pending **122** |
+| **Drain** | soft-incomplete **2 → 0**; forcePublish **2** |
+| **MM_SP / P** | **918 → 920 (ΔP +2)** |
+| **Inbox** | `status-2026-09-27-tick-0800.json` + this Turn |
+| **Timer** | Still subscribed (`sub_7791eb21-…`) |
+
+**Do not claim production-ready.**
