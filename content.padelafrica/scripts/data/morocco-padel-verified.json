@@ -1097,5 +1097,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-27",
     "researchNotes": "FIND tick 09 — new Saïdia city cell."
+  },
+  {
+    "recordId": "MAR-VEN-046",
+    "name": "Club des Douars",
+    "city": "Essaouira",
+    "region": "Marrakech-Safi",
+    "countryCode": "MA",
+    "line1": "Douar Sidi Yassine",
+    "lat": 31.5118281,
+    "lng": -9.7620903,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Essaouira city pin — Douar Sidi Yassine not separately geocoded",
+    "website": "https://clubdesdouars.com/",
+    "phone": "+212 703 165 114",
+    "email": "info@clubdesdouars.com",
+    "venueModel": "commercial_club",
+    "seasonNote": "Open daily; Playtomic booking; membership and guest rates published locally.",
+    "description": "Club des Douars is Essaouira’s private padel club at Douar Sidi Yassine with first-party phone/email on clubdesdouars.com and live Playtomic booking. Opens the Essaouira Atlantic coast city cell. Book via Playtomic or call the club.",
+    "primarySourceUrl": "https://clubdesdouars.com/",
+    "secondarySourceUrl": "https://playtomic.com/clubs/club-des-douars",
+    "sourceTypes": "Club des Douars first-party site (phone/email/address) + Playtomic booking",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "FIND tick 10 — new Essaouira city cell. Court counts not asserted beyond club claims."
   }
 ]

@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T09:33:00Z",
+  "observedAt": "2026-09-27T10:22:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 59,
+    "fairUsePassCount": 60,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -23,32 +23,34 @@
     "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 377,
+    "qualityLoopScanned": 386,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
-    "fairUsePass": 59,
+    "fairUsePass": 60,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-097",
-      "ZAF-VEN-098",
-      "ZAF-VEN-099",
-      "ZAF-VEN-100",
-      "ZAF-VEN-101",
-      "ZAF-VEN-102",
-      "MAR-VEN-043",
-      "MAR-VEN-044",
-      "MAR-VEN-045"
+      "ZAF-VEN-103",
+      "ZAF-VEN-104",
+      "ZAF-VEN-105",
+      "ZAF-VEN-106",
+      "ZAF-VEN-107",
+      "ZAF-VEN-108",
+      "ZAF-VEN-109",
+      "ZAF-VEN-110",
+      "MAR-VEN-046"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
-    "findSkippedDuplicate": [],
+    "findSkippedDuplicate": [
+      "Club Padel Maroc (MAR-VEN-014)"
+    ],
     "findZeroResult": [],
-    "ingestDiscoveredOk": 12,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-24.json",
+    "ingestDiscoveredOk": 13,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27-25.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 09: Jeffreys Bay / Mossel Bay / St Francis Bay + Mohammedia / Saïdia densify. Not claiming PUBLISHED."
+    "note": "Tick 10: Langebaan / Knysna / Plett / Somerset West / Midrand + Essaouira. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -61,41 +63,43 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T09:33:00.000000Z",
+  "updatedAt": "2026-09-27T10:22:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 377,
+    "scanned": 386,
     "belowThreshold": 1,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 59,
+    "passCount": 60,
     "promoted": [],
     "rejected": [
-      "Red Padel Roma (IT / Roma)"
+      "Padelboxen (DK / Odense)"
+    ],
+    "skipped_duplicate": [
+      "Club Padel Maroc (MAR-VEN-014)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-097 Jbay Padel (Jeffreys Bay — new city)",
-      "ZAF-VEN-098 Mentors Padel (Jeffreys Bay densify)",
-      "ZAF-VEN-099 Mossel Bay Padel (new city)",
-      "ZAF-VEN-100 Point Padel Mossel Bay",
-      "ZAF-VEN-101 River Club St Francis Bay (new city)",
-      "ZAF-VEN-102 Pinnacle Padel (Mossel Bay densify; phone optional)",
-      "MAR-VEN-043 VGK Village Mohammedia (new city)",
-      "MAR-VEN-044 Royal Tennis Club Mohammedia",
-      "MAR-VEN-045 Azur Arena Saidia (new city)"
-    ],
-    "ruleUpdate": "Official WhatsApp/Instagram/Facebook/X = contact (same grade as phone/email); timer prompt refreshed"
+      "ZAF-VEN-103 LCE Padel (Langebaan — new city)",
+      "ZAF-VEN-104 Club Mykonos Langebaan Resort",
+      "ZAF-VEN-105 Villa Del Mare Estate Padel (phone optional)",
+      "ZAF-VEN-106 Simola Padel (Knysna densify)",
+      "ZAF-VEN-107 Padel @ Plett Country Club",
+      "ZAF-VEN-108 PadelX Somerset West (WA/IG contact)",
+      "ZAF-VEN-109 Coalition Padel (Midrand — new city)",
+      "ZAF-VEN-110 Midpoint Padel (Midrand densify)",
+      "MAR-VEN-046 Club des Douars (Essaouira — new city)"
+    ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "2026-09-27T09:33Z tick 09 densify Eastern Cape / Garden Route / Mohammedia / Saïdia. Timer left subscribed with social-contact 4b."
+  "notes": "2026-09-27T10:22Z tick 10 West Coast / Garden Route / Midrand / Essaouira densify. Timer left subscribed."
 }

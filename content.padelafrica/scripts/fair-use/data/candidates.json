@@ -2633,5 +2633,41 @@
     "extractedAt": "2026-09-27T09:20:05.891Z",
     "triageNote": "Non-Africa (Roma, Italy). Rejected tick 09 fair-use pass 59.",
     "triagedAt": "2026-09-27T09:25:00Z"
+  },
+  {
+    "candidateId": "fair-actu-padel-club-padel-maroc",
+    "sourceId": "actu-padel",
+    "sourceName": "Actu Padel",
+    "name": "Club Padel Maroc",
+    "citationUrl": "https://actu-padel.com/en/directory/padel-club/padel-maroc-sale-en/",
+    "website": "https://cookiedatabase.org/tcf/purposes/",
+    "countryHint": "Morocco",
+    "addressHint": "Dar Assikkah, Sale 10190, Morocco",
+    "researchSources": [
+      "https://actu-padel.com/en/directory/padel-club/padel-maroc-sale-en/",
+      "https://cookiedatabase.org/tcf/purposes/"
+    ],
+    "researchNote": "Discovered via Actu Padel fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-09-27T10:05:41.463Z",
+    "triageNote": "Already seeded MAR-VEN-014 Club Padel Maroc Salé. Tick 10 fair-use pass 60.",
+    "triagedAt": "2026-09-27T10:21:01Z"
+  },
+  {
+    "candidateId": "fair-padelivu-padelboxen",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Padelboxen",
+    "citationUrl": "https://padelivu.com/club/padelboxen",
+    "website": "",
+    "addressHint": "Tolderlundsvej 92, 5000, Odense, Denmark",
+    "researchSources": [
+      "https://padelivu.com/club/padelboxen"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T10:08:43.466Z",
+    "triageNote": "Non-Africa (Odense, Denmark). Rejected tick 10 fair-use pass 60.",
+    "triagedAt": "2026-09-27T10:21:01Z"
   }
 ]

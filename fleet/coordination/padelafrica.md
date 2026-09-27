@@ -1190,3 +1190,22 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill Paarl Indoor / Cedar Square / Warehouse → **12/12** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~10:00–10:22 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Quality:** 386 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 60 (28 sources). **Skipped duplicate** Club Padel Maroc (`MAR-VEN-014`). **Rejected** Padelboxen (DK). `needs_verify` cleared.
+
+**FIND:**
+- ZA West Coast → **`ZAF-VEN-103` LCE Padel**, **`ZAF-VEN-104` Club Mykonos Langebaan**, **`ZAF-VEN-105` Villa Del Mare Estate** DISCOVERED (new Langebaan cell)
+- ZA Garden Route densify → **`ZAF-VEN-106` Simola Padel** (Knysna), **`ZAF-VEN-107` Padel @ Plett Country Club** DISCOVERED
+- ZA Winelands densify → **`ZAF-VEN-108` PadelX Somerset West** DISCOVERED (phone + WhatsApp + Instagram)
+- ZA Gauteng → **`ZAF-VEN-109` Coalition Padel**, **`ZAF-VEN-110` Midpoint Padel** DISCOVERED (new Midrand cell)
+- MA Atlantic → **`MAR-VEN-046` Club des Douars** DISCOVERED (new Essaouira city)
+- Backfill Jeffreys Bay / Mossel Bay / Mohammedia / Saïdia → **13/13** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
