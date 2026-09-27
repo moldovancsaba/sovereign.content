@@ -860,3 +860,21 @@ Tick ~01:11–01:14 UTC on `sovereign.content` main. Adopted padel Step|Result r
 **Format note:** Keep Step\|Result for every tick — one row per contract segment, bold the countable outcome, never claim P from enrich alone.
 
 **Do not claim production-ready.**
+
+### 2026-09-27T02:02Z — sportolok-tick (Step|Result)
+
+Tick ~02:01–02:02 UTC on `sovereign.content` main.
+
+| Step | Result |
+| :--- | :--- |
+| **Quality** | 30 scanned, 5 below threshold, **5 patched** (Mongo quarantined) |
+| **Fair-use HT** | **8/8 DISCOVERED** RO densify (Gyimesi … Kereszthegy) → pending **31** |
+| **Fair-use Itthon** | **6/6 DISCOVERED** (Tüskecsarnok / Veszprém NSÜ + BGSZC schools) → pending **158** |
+| **Drain** | soft-incomplete **8 → 0**; forcePublish **8** |
+| **MM_SP / P** | **875 → 883 (ΔP +8)** — triage-honest |
+| **Inbox** | `status-2026-09-27-tick-0200.json` + this Turn |
+| **Timer** | Still subscribed (`sub_7791eb21-…`) |
+
+Open: REVIEW_READY **2** flagged; engine Near-city PR [#292](https://github.com/moldovancsaba/management/pull/292) pending deploy.
+
+**Do not claim production-ready.**
