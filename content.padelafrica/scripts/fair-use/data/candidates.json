@@ -2599,5 +2599,22 @@
     "extractedAt": "2026-09-27T07:20:24.635Z",
     "triagedAt": "2026-09-27T07:25:28.520Z",
     "triageNote": "Out of Africa scope (Madrid ES)"
+  },
+  {
+    "candidateId": "fair-padelivu-joy-padel-club",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Joy Padel Club",
+    "citationUrl": "https://padelivu.com/club/joy-padel-club",
+    "website": "",
+    "addressHint": "via di torre spaccata 155, 00173, Roma, Italy",
+    "researchSources": [
+      "https://padelivu.com/club/joy-padel-club"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply — phone optional; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-27T08:11:47.869Z",
+    "triagedAt": "2026-09-27T08:20:34.596Z",
+    "triageNote": "Out of Africa scope (Roma IT)"
   }
 ]

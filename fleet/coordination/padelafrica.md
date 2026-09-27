@@ -1139,3 +1139,22 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Backfill Ballito/Salt Rock + EC + Oujda/Hilton + Pro Padel → **14/14** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-27 — padelafrica (tick ~08:02–08:25 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_cc879624-…`).
+
+**Quality:** 367 scanned, **1 below → 0 applied** (TUN-019 skip_closed). Mongo refused.
+
+**Fair-use:** pass 58 (28 sources). **Rejected** Joy Padel Club (IT / Roma). `needs_verify` cleared.
+
+**FIND:**
+- ZA Overberg → **`ZAF-VEN-092` Play Padel Hermanus** DISCOVERED (new city)
+- ZA Winelands → **`ZAF-VEN-093` Paarl Indoor Padel**, **`ZAF-VEN-094` Padel Ace Paarl**, **`ZAF-VEN-095` iDig Padel Boschenmeer** DISCOVERED (new Paarl cell)
+- ZA Fourways densify → **`ZAF-VEN-096` Match Padel SA Cedar Square** DISCOVERED
+- MA Atlantic → **`MAR-VEN-039` WiPadel El Jadida** DISCOVERED (new city)
+- MA Rabat belt → **`MAR-VEN-040` Elite Padel Club Kénitra** DISCOVERED (new city; city pin)
+- Skip → Warehouse Tétouan Instagram-only; Jozi already seeded
+- Backfill Ballito + Match Fourways Mall + Meknès/Fes + Karen → **14/14** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

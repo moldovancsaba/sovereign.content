@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-27T07:38:00Z",
+  "observedAt": "2026-09-27T08:25:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 57,
+    "fairUsePassCount": 58,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "coreReconcileHandshake": "reconciled_observed",
@@ -22,37 +22,36 @@
     "evidenceCityPinOk": true
   },
   "outcomes": {
-    "qualityLoopScanned": 360,
+    "qualityLoopScanned": 367,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
-    "fairUsePass": 57,
+    "fairUsePass": 58,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-089",
-      "ZAF-VEN-090",
-      "ZAF-VEN-091",
-      "MAR-VEN-037",
-      "MAR-VEN-038",
-      "KEN-VEN-022",
-      "KEN-VEN-023",
-      "ZAF-VEN-015/086/087/088",
-      "MAR-VEN-036/034",
-      "KEN-VEN-021"
+      "ZAF-VEN-092",
+      "ZAF-VEN-093",
+      "ZAF-VEN-094",
+      "ZAF-VEN-095",
+      "ZAF-VEN-096",
+      "MAR-VEN-039",
+      "MAR-VEN-040",
+      "ZAF-VEN-089/090/091/011",
+      "MAR-VEN-037/038",
+      "KEN-VEN-022"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "Kisumu KE (plans-only)",
-      "Port Harcourt NG (no operating club)",
-      "Entebbe UG (Kampala-only)"
+      "Warehouse Padel Tétouan (Instagram-only / no street)",
+      "Jozi Padel already seeded ZAF-VEN-029"
     ],
     "ingestDiscoveredOk": 14,
-    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T07.json",
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T08.json",
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 07 Ballito + Meknès + Fès densify + Nairobi Karen. Not claiming PUBLISHED."
+    "note": "Tick 08 Hermanus + Paarl + El Jadida + Kénitra. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -65,38 +64,38 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-27",
-  "updatedAt": "2026-09-27T07:38:00.000000Z",
+  "updatedAt": "2026-09-27T08:25:00.000000Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_cc879624-d5b1-47a3-91a2-31ce69d9625c",
     "stillSubscribed": true
   },
   "qualityLoop": {
-    "scanned": 360,
+    "scanned": 367,
     "belowThreshold": 1,
     "applied": 0,
     "mongo": "quarantined"
   },
   "fairUse": {
-    "passCount": 57,
+    "passCount": 58,
     "promoted": [],
     "rejected": [
-      "Indie Pádel Club (ES / Madrid)"
+      "Joy Padel Club (IT / Roma)"
     ],
     "needs_verify": 0
   },
   "find": {
     "seededDiscovered": [
-      "ZAF-VEN-089 Africa Padel Ballito (new city)",
-      "ZAF-VEN-090 Rockets Padel + Social (Ballito)",
-      "ZAF-VEN-091 Ballito Virgin Active Padel Club Indoor",
-      "MAR-VEN-037 MOTIV'CLUB Meknès Padel (new city)",
-      "MAR-VEN-038 Le Padel Spot Club Fès",
-      "KEN-VEN-022 Karen Country Club Padel",
-      "KEN-VEN-023 Matteo's Padel Karen"
+      "ZAF-VEN-092 Play Padel Hermanus (new city)",
+      "ZAF-VEN-093 Paarl Indoor Padel (new city)",
+      "ZAF-VEN-094 Padel Ace Paarl",
+      "ZAF-VEN-095 iDig Padel Boschenmeer",
+      "ZAF-VEN-096 Match Padel SA Cedar Square",
+      "MAR-VEN-039 WiPadel El Jadida (new city)",
+      "MAR-VEN-040 Elite Padel Club Kénitra (new city)"
     ]
   },
   "hitl": [],
   "claimPublished": false,
-  "notes": "Tick ~07:11–07:38 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
+  "notes": "Tick ~08:02–08:25 UTC. Evidence bar phone-optional / city pin. Timer left subscribed."
 }
