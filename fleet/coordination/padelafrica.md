@@ -1007,3 +1007,19 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
 
+### 2026-09-27 — padelafrica (tick ~00:11–00:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_ccf42feb-…`).
+
+**Quality:** `npm run catalog:quality-loop` → 329 scanned, 0 below threshold. Mongo refused.
+
+**Fair-use:** pass 51 (28 sources). **Promoted** City Club Padel Woodstock → `ZAF-VEN-072`. `needs_verify` cleared.
+
+**FIND:**
+- ZA secondary densify → **`ZAF-VEN-067` N1 Padel Polokwane**, **`ZAF-VEN-068` 534 Home of Padel**, **`ZAF-VEN-069` Padel PMB**, **`ZAF-VEN-070` Padel 24 Mbombela**, **`ZAF-VEN-071` AP Padel Kimberley** DISCOVERED
+- Fair-use promote → **`ZAF-VEN-072` City Club Padel** DISCOVERED
+- TN densify → **`TUN-VEN-019` Stars Padel Club Akouda** DISCOVERED
+- Backfill → **`TUN-009/010`**, **`EGY-004/005/007`**, **`KEN-007/009/010`**, **`SEN-009`**, **`MAR-016`**, **`TZA-003`**, **`ZMB-003`** DISCOVERED (19/19 ingest ok)
+
+**Inbox:** day status `status-2026-09-27.json`. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+

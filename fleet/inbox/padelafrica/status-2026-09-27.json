@@ -1,0 +1,113 @@
+{
+  "clientId": "padelafrica",
+  "observedAt": "2026-09-27T00:36:35Z",
+  "source": "padel-find-tick",
+  "workingEnv": {
+    "timerSubscribed": true,
+    "timerName": "padel-find-tick",
+    "timerSubscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
+    "ingestOnlyDoctrine": true,
+    "ingestOnlyReality": true,
+    "ingestApiKeyPresent": true,
+    "writesPath": "post_api_ingest",
+    "tickCompleted": true,
+    "skippedManagementMongoCatalogJobs": true,
+    "qualityLoop": "ingest_score_improve_encode",
+    "fairUseSources": 28,
+    "fairUsePassCount": 51,
+    "refuseAgentMongoGuards": true,
+    "pipelineFeedDiscovered": true,
+    "coreReconcileHandshake": "reconciled_observed",
+    "day3InboxCalendar": true,
+    "managementReleaseEqualsMain": true
+  },
+  "outcomes": {
+    "qualityLoopScanned": 329,
+    "qualityLoopBelowThreshold": 0,
+    "qualityLoopApplied": 0,
+    "fairUsePass": 51,
+    "fairUsePendingAfterTriage": 0,
+    "findSeeded": [
+      "ZAF-VEN-067",
+      "ZAF-VEN-068",
+      "ZAF-VEN-069",
+      "ZAF-VEN-070",
+      "ZAF-VEN-071",
+      "ZAF-VEN-072",
+      "TUN-VEN-019",
+      "TUN-VEN-009",
+      "TUN-VEN-010",
+      "EGY-VEN-004",
+      "EGY-VEN-005",
+      "EGY-VEN-007",
+      "KEN-VEN-007",
+      "KEN-VEN-009",
+      "KEN-VEN-010",
+      "SEN-VEN-009",
+      "MAR-VEN-016",
+      "TZA-VEN-003",
+      "ZMB-VEN-003"
+    ],
+    "findPhoneBackfill": [],
+    "findBookingUrlBackfill": [],
+    "findSkippedDuplicate": [],
+    "findZeroResult": [],
+    "ingestDiscoveredOk": 19,
+    "ingestEvidence": "content.padelafrica/scripts/data/tick-ingest-2026-09-27T00.json",
+    "publishedClaimed": false,
+    "hitlBacklog": 0,
+    "aboutDebtOpen": 0,
+    "note": "00:11 tick: ZA secondary-city densify + Stars Sousse + City Club fair-use promote; 19 DISCOVERED. Not claiming PUBLISHED."
+  },
+  "openDebt": [],
+  "resolvedDebt": [
+    "ingest_backed_quality_loop_full_rewrite",
+    "discovered_to_published_pipeline_agent_feeder",
+    "day3_inbox_continuity_spike_gate",
+    "day3_inbox_calendar_2026-09-26",
+    "core_reconcile_release_padel_africa_awaiting_management"
+  ],
+  "client": "padelafrica",
+  "date": "2026-09-27",
+  "updatedAt": "2026-09-27T00:36:35.657817Z",
+  "timer": {
+    "name": "padel-find-tick",
+    "subscriptionId": "sub_ccf42feb-8059-45b1-acf0-3d4f5340dc5b",
+    "stillSubscribed": true
+  },
+  "qualityLoop": {
+    "scanned": 329,
+    "belowThreshold": 0,
+    "applied": 0,
+    "mongo": "quarantined"
+  },
+  "fairUse": {
+    "passCount": 51,
+    "promoted": [
+      "ZAF-VEN-072 City Club Padel Woodstock"
+    ],
+    "rejected": [],
+    "needs_verify": 0
+  },
+  "find": {
+    "seededDiscovered": [
+      "ZAF-VEN-067 N1 Padel Polokwane",
+      "ZAF-VEN-068 534 Home of Padel Polokwane",
+      "ZAF-VEN-069 Padel PMB",
+      "ZAF-VEN-070 Padel 24 Mbombela",
+      "ZAF-VEN-071 AP Padel Kimberley",
+      "ZAF-VEN-072 City Club Padel Woodstock",
+      "TUN-VEN-019 Stars Padel Club Akouda",
+      "TUN-VEN-009..010",
+      "EGY-VEN-004/005/007",
+      "KEN-VEN-007/009/010",
+      "SEN-VEN-009",
+      "MAR-VEN-016",
+      "TZA-VEN-003",
+      "ZMB-VEN-003"
+    ]
+  },
+  "hitl": [],
+  "claimPublished": false,
+  "notes": "Tick ~00:11\u201300:40 UTC. Ingest-only DISCOVERED seeds. Not claiming PUBLISHED."
+}

@@ -440,5 +440,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND tick 2026-09-26T18"
+  },
+  {
+    "recordId": "TUN-VEN-019",
+    "name": "Stars Padel Club",
+    "city": "Akouda",
+    "region": "Sousse",
+    "countryCode": "TN",
+    "line1": "P1, Akouda, 4022 Sousse",
+    "lat": 35.8657303,
+    "lng": 10.5678382,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Akouda village pin; street P1 from padeltunisia map",
+    "website": "https://ballejaune.com/club/spcsousse/contact",
+    "phone": "+216 23 684 001",
+    "venueModel": "commercial_club",
+    "seasonNote": "Sahel club; confirm hours with Stars.",
+    "description": "Stars Padel Club (Akouda / Sousse) lists a club phone on BalleJaune and hosts TPC circuit stages — Tunisian Sahel densify beyond KING/Padelium/Yalla.",
+    "primarySourceUrl": "https://ballejaune.com/club/spcsousse/contact",
+    "secondarySourceUrl": "https://padeltunisia.com/?page_id=446",
+    "sourceTypes": "BalleJaune contact (+216 23 684 001); padeltunisia map P1 Akouda",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-09-27",
+    "researchNotes": "FIND tick 2026-09-27T00"
   }
 ]
