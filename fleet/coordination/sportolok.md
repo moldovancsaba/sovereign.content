@@ -830,3 +830,15 @@ Base `sportolok` content_cards: **0** HT leak. Pending HT seeds: **52**.
 **Timer** left subscribed.
 
 **Do not claim production-ready.**
+
+### 2026-09-27T00:58Z — delivery unblock (do these)
+
+1. **Merged** [PR #287](https://github.com/moldovancsaba/management/pull/287) — prod `/hataron-tul` **200**; territoryScope HU+neighbours  
+2. **Merged** [PR #289](https://github.com/moldovancsaba/management/pull/289) — ingest `{forcePublish:true}`  
+3. **Drained** soft-incomplete REVIEW_READY: **+278 PUBLISHED** (590 → **868**); soft-incomplete **0**; REVIEW_READY **2** left (flagged)  
+4. HT enrich **+5** on prod camera; **47** HT pending  
+5. Tick KPIs: report **P** from machine catalog triage — enrich ≠ delivered  
+
+**Timer** re-subscribed with drain + P honesty in standing contract.
+
+**Do not claim production-ready.**

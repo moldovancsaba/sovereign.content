@@ -1,0 +1,55 @@
+{
+  "clientId": "sportolok",
+  "observedAt": "2026-09-27T00:58:00Z",
+  "source": "delivery-unblock",
+  "workingEnv": {
+    "ingestOnlyDoctrine": true,
+    "timerSubscribed": true,
+    "hataronTulProd": true,
+    "forcePublishIngest": true
+  },
+  "outcomes": {
+    "pr_287_merged": "https://github.com/moldovancsaba/management/pull/287",
+    "pr_289_merged": "https://github.com/moldovancsaba/management/pull/289",
+    "hataron_tul_prod": "200",
+    "ht_enrich_ingested": 5,
+    "ht_pending_remaining": 47,
+    "review_ready_drain": {
+      "published": 278,
+      "softIncompleteBefore": 278,
+      "softIncompleteAfter": 0
+    },
+    "MM_SP": {
+      "P_before": 590,
+      "P_after": 868,
+      "delta_P": 278,
+      "REVIEW_READY_before": 280,
+      "REVIEW_READY_after": 2,
+      "listingsTotal": 877
+    }
+  },
+  "openDebt": [
+    {
+      "kind": "review_ready_flagged_remainder",
+      "n": 2,
+      "note": "not soft-incomplete; likely safety flags — staff approve path"
+    },
+    {
+      "kind": "hataron_tul_enrich_remaining",
+      "n": 47
+    },
+    {
+      "kind": "pipeline_extract_discovered",
+      "n": 1,
+      "note": "new DISCOVERED still need extraction without Ollama / structured path"
+    }
+  ],
+  "evidence": [
+    "fleet/inbox/sportolok/status-2026-09-27-delivery.json",
+    "content.sportolok/scripts/drain-review-ready-ingest.ts"
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/management/pull/287",
+    "https://github.com/moldovancsaba/management/pull/289"
+  ]
+}
