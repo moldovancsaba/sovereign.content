@@ -1,0 +1,114 @@
+{
+  "clientId": "classscout",
+  "observedAt": "2026-09-28T00:28:55.098Z",
+  "source": "classscout-find-tick",
+  "workingEnv": {
+    "timerSubscribed": true,
+    "timerName": "classscout-find-tick",
+    "foreverProcessUp": true,
+    "foreverPid": 796432,
+    "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
+    "canonicalAgentHome": "sovereign.content/content.classscout",
+    "cutoverComplete": false,
+    "cutoverStep1Started": false,
+    "cutoverHoldReason": "deferred_visibility_first",
+    "stepTimeoutsEnabled": true,
+    "findFirstEnabled": true,
+    "externalWatchdog": true,
+    "singleSlotForever": true,
+    "ingestOnly": "partial",
+    "enginesMergedWithPadel": false
+  },
+  "outcomes": {
+    "lasting_public_rate": 0.7525987525987526,
+    "find_lasting_public": "362/481",
+    "find_smoke_pass": 1,
+    "find_smoke_fail": 85,
+    "find_publish_total_hourly": 6,
+    "find_public_new_hourly": 1,
+    "find_publish_recent_3h": 8,
+    "find_publish_recent_public_target": 8,
+    "improve_applied_hourly": 3,
+    "improve_recommend_open": 13,
+    "improve_cycle": 852,
+    "seeds_pending": 1,
+    "fair_use_funnel": "29→1 seeds / 14 rejects",
+    "loop_up": true,
+    "find_stalled": false,
+    "find_age_sec": 257,
+    "scarcity_brief_freshness": "hourly",
+    "tier_a_auto_pause_health": "active",
+    "self_heal_defer_find": true,
+    "self_heal_priority_open": 1,
+    "self_heal_weak_about_open": 0,
+    "lessons_open": 0,
+    "recent_publishes": [
+      {
+        "seedId": "prov-bos-sociedad-latina",
+        "publicTarget": true,
+        "at": "2026-09-27T21:43:35.728Z"
+      },
+      {
+        "seedId": "prov-bos-hyde-square-task-force",
+        "publicTarget": true,
+        "at": "2026-09-27T21:42:51.024Z"
+      },
+      {
+        "seedId": "prov-bos-boston-string-academy",
+        "publicTarget": true,
+        "at": "2026-09-27T21:42:02.253Z"
+      },
+      {
+        "seedId": "prov-bos-826-boston",
+        "publicTarget": true,
+        "at": "2026-09-27T21:41:14.712Z"
+      },
+      {
+        "seedId": "prov-bos-boston-music-project",
+        "publicTarget": true,
+        "at": "2026-09-27T21:37:23.674Z"
+      },
+      {
+        "seedId": "prov-bos-wai-kru-allston",
+        "publicTarget": true,
+        "at": "2026-09-27T21:36:38.200Z"
+      },
+      {
+        "seedId": "prov-la-los-angeles-gymnastics-center",
+        "publicTarget": true,
+        "at": "2026-09-27T21:35:18.162Z"
+      },
+      {
+        "seedId": "prov-la-santa-monica-public-library-youth",
+        "publicTarget": true,
+        "at": "2026-09-27T21:34:05.792Z"
+      }
+    ]
+  },
+  "openDebt": [
+    {
+      "kind": "priority_open",
+      "n": 1
+    },
+    {
+      "kind": "contact_debt_open",
+      "n": 1
+    },
+    {
+      "kind": "cutover_step1",
+      "n": 1
+    }
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/classscout.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/inbox/README.md",
+    "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
+  ],
+  "date": "2026-09-28",
+  "updatedAt": "2026-09-28T00:28:55.098Z",
+  "timer": {
+    "name": "classscout-find-tick",
+    "stillSubscribed": true,
+    "delaySeconds": 3600
+  }
+}
