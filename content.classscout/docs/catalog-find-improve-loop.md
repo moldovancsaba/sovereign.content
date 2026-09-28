@@ -2,8 +2,6 @@
 
 **Status:** LIVE as of 2026-09-21 in the ClassScout cloud-agent environment.
 **Scope (owner):** this environment only · find new listings · improve existing listings.
-**Storage:** TARGET home is `sovereign.content/content.classscout/` ([`sovereign-content-storage.md`](sovereign-content-storage.md),
-rule 454). Runners remain in `scripts/catalog-loop/` until that cutover.
 **Not this doc:** ClassScout Lite daemon design, OpenClaw/`researchandenrich` internals, board
 planning — those remain in their own SSOTs. This loop is an **ops runner** that writes through the
 same production ingest gate.
@@ -33,19 +31,22 @@ Both jobs are **evidence-only**. Unpublished phones/emails/trials stay blank. No
 
 ```
 tmux session: catalog-find-improve
-  └─ bash scripts/catalog-loop/forever.sh
-       ├─ node scripts/catalog-loop/feedback-intake.cjs
-       ├─ node scripts/catalog-loop/recommend-improve.cjs
-       ├─ node scripts/catalog-loop/sovereign-self-heal.cjs   # defer Find when About debt hot
-       ├─ node scripts/catalog-loop/improve-cycle.cjs      # deep enrich oldest blanks + apply
-       ├─ node scripts/catalog-loop/find-cycle.cjs         # find (or self-heal defer)
-       ├─ node scripts/catalog-loop/reclassify-watch.cjs
-       ├─ node scripts/catalog-loop/encode-lessons.cjs     # Tier A auto-pause
-       ├─ node scripts/catalog-loop/scarcity-research-brief.cjs  # once per UTC hour
-       ├─ node scripts/catalog-loop/quality-rollup.cjs     # once per UTC hour
-       ├─ node scripts/catalog-loop/weekly-digest.cjs      # Mondays
-       └─ sleep 120s → repeat
+  ├─ bash scripts/catalog-loop/forever.sh          # single-slot flock; Find-first
+  └─ bash scripts/catalog-loop/watchdog-loop.sh    # external restart (rule 470)
+       forever tick:
+       ├─ stall check (find-cycle-last age → FOREVER_STALL_ALARM)
+       ├─ feedback / retire / self-heal status     # walled
+       ├─ find-cycle                               # FIND FIRST
+       ├─ recommend-improve → improve-cycle        # after Find; walled
+       ├─ reclassify / encode / hourly rollup…
+       └─ sleep ≤300s → repeat
 ```
+
+Cloud Agent wake (Padel twin): `npm run catalog-loop:sparse-timer -- --with-watchdog --with-find-on-stall --with-fleet-inbox`
+(~hourly `subscribe_timer`). Status: `npm run catalog-loop:status` → `data/loop-status.json`.
+Fleet SWOT signal (rule 471): `npm run catalog-loop:fleet-inbox -- --push` →
+`sovereign.content/fleet/inbox/classscout/status-YYYY-MM-DD.json` (forever hourly +
+watchdog also emit). Without this, SC-central reports ClassScout as silent.
 
 npm aliases: `catalog-loop:forever` · `catalog-loop:find` · `catalog-loop:improve` · `catalog-loop:watch`
 · `catalog-loop:rollup` · `catalog-loop:digest` · `catalog-loop:scarcity-brief`.
@@ -64,8 +65,9 @@ npm aliases: `catalog-loop:forever` · `catalog-loop:find` · `catalog-loop:impr
 | `scripts/catalog-loop/forever.sh` | Outer forever loop + quality hooks |
 | `scripts/catalog-loop/scarcity-research-brief.cjs` | Hourly thin neighborhoods + scarce sports brief |
 | `scripts/catalog-loop/improve-cycle.cjs` | Deep enrich oldest blanks (all lanes) + apply + touch |
-| `scripts/catalog-loop/deep-enrich-scan.mjs` | Bounded multi-page official-site enrich |
+| `scripts/catalog-loop/deep-enrich-scan.mjs` | Bounded multi-page official-site enrich (per-item worker wall) |
 | `scripts/catalog-loop/lib/deepEnrichOfficialSite.cjs` | Shared deep-enrich helper (Find + Improve) |
+| `scripts/catalog-loop/lib/deepEnrichWithWall.cjs` | Killable worker wall for hung HTML parse (Find + Improve) |
 | `scripts/catalog-loop/improve-scan.mjs` | Fetch official pages; extract trial/sessions/contacts/price/age |
 | `scripts/catalog-loop/apply-improve.cjs` | Normalize + reject false positives + ingest patch (all lanes) |
 | `scripts/catalog-loop/trial-scan.mjs` / `apply-trial-fix.cjs` | Thin wrappers for the trial lane |
@@ -95,10 +97,19 @@ Ingest base: `https://getyourfield.com` (override with `CATALOG_LOOP_BASE` if ne
 Optional env:
 
 - `CATALOG_FIND_BATCH` — seeds attempted per cycle (default `4` → ~4–8 public finds/hour at 8–12 cycles when evidence is ready)
-- `CATALOG_LOOP_SLEEP_SEC` — sleep between cycles (default `120`)
+- `CATALOG_LOOP_SLEEP_SEC` — sleep between cycles (default `120`, **hard max `300`** — larger env values are clamped so a bad sleep cannot look like a dead loop)
 - `CATALOG_LOOP_DATA_DIR` — durable state/events dir (default `scripts/catalog-loop/data`)
 - `CATALOG_IMPROVE_BATCH` — listings scanned per improve lane cycle (default `20`)
 - `CATALOG_LOOP_TIER_A_THRESHOLD` — identical host+skip count in 24h before auto-pause (default `3`)
+- `CATALOG_FIND_CYCLE_WALL_SEC` — forever kills Find after this many seconds (default `900`)
+- `CATALOG_IMPROVE_CYCLE_WALL_SEC` — forever kills Improve after this many seconds (default `600`)
+- `CATALOG_FIND_STALL_SEC` — if `find-cycle-last.json` is older than this, forever prints `FOREVER_STALL_ALARM` and forces Find (default `1800`)
+- `CATALOG_LOOP_STALL_SEC` — loop heartbeat age for watchdog soft/hard decisions (default `2700`)
+- `CATALOG_WATCHDOG_INTERVAL_SEC` — `watchdog-loop.sh` check interval (default `600`, max `1800`)
+- `CATALOG_WATCHDOG_EMERGENCY_FIND=1` — watchdog runs one forced Find on soft Find stall
+- `CATALOG_IMPROVE_SCAN_WALL_MS` — improve-cycle SIGKILL on deep-enrich-scan (default `600000`)
+- `CATALOG_DEEP_ENRICH_WALL_MS` — per-listing enrich worker wall for Improve / repair (default `60000`)
+- `CATALOG_FIND_ENRICH_WALL_MS` — Find per-seed enrich wall (default `25000`, **hard max `25000`** — stale 60s/90s env values are clamped so a Find batch cannot burn eight minutes on deep enrich alone)
 
 ### 2.3 Safety / quality gates (already on the write path)
 
@@ -142,10 +153,13 @@ Find writes every evidenced listing; the client's runtime config only decides wh
   `scripts/catalog-loop/lib/cityRegions.ts` → `allCities()`), never a hardcoded `"nyc"` — an LA or Boston region is filed
   under `la`/`bos`. A region no registered city owns skips with `region_unknown` (data quality: no
   filing city), which is the only geography stop.
-- **The runtime config is a label, not a gate.** `find-cycle.cjs` fetches `/api/public/runtime-config`
-  once per cycle; a seed in a disabled region, activity or category still upserts and is recorded as
-  inventory (`hiddenByClient` on `find_publish`). It appears publicly the moment the client enables
-  its cell — no re-Find. There is no hardcoded "public" borough or category list any more.
+- **The runtime config is a label, not a gate.** `find-cycle.cjs` fetches
+  `/api/public/runtime-config?city=` for **nyc, la, and bos** each cycle and scores lasting-public
+  against the seed's owning city (LA/BOS disable `drop-in-activities`; NYC does not). A seed in a
+  disabled region, activity or category still upserts and is recorded as inventory
+  (`hiddenByClient` on `find_publish`). It appears publicly the moment the client enables its cell —
+  no re-Find. Non-canonical activity tags (e.g. bare `Outdoor`, `Circus`) are not lasting-public fuel;
+  bare `Outdoor` normalizes to `Outdoor Activities`.
 - **KPIs are split:** `upserted` (written) vs. `publicPublished` (public smoke 200). A client-hidden
   write is a real delivery, never narrated as a failed Find.
 
@@ -310,14 +324,25 @@ productive backlog — lower when seeds skip (blocked pages / no address / no im
    `{ "providerId"|"seedId", "tag", "note" }` using tags
    `wrong_address` · `wrong_phone` · `not_public_worthy` · `reclassified` · `good_example` ·
    `seed_url_bad` · `duplicate`.
-5. **Fair-use multi-source feeder** — `npm run catalog-loop:fair-use:forever` walks RQK + peer
-   classified sites (one page per source per pass). See
+5. **Fair-use multi-source feeder** — `npm run catalog-loop:fair-use:forever` walks all registered
+   sources across NYC + LA + Boston, one page per source per pass. City-scoped adapters stamp
+   `cityDefault` so seeds land as `prov-la-*` / `prov-bos-*` and refill thin-city queues
+   (rule 460). Nationwide networks must cover every live city (rule 461). See
    [`scripts/catalog-loop/rqk-fair-use/README.md`](../scripts/catalog-loop/rqk-fair-use/README.md)
-   (rule 422).
+   (rule 422). Market membership is per source city — never treat non-NYC as out-of-market by default.
 6. **Scarcity research brief + oldest-updated enrich** — rule 423. Hourly
    `scarcity-research-brief.json` steers Find seeds and fair-use discovery toward thin public
    neighborhoods and scarce sport activities; Improve always works the oldest-updated blank card
    and bumps `updatedAt` after each investigation so the next cycle rotates.
+7. **Oldest-attempted territory Find rotation** — rule 458. Each Find cycle aims at the
+   least-recently-attempted canonical territory (NYC public chips + LA areas + Boston regions).
+   When the cycle ends — publish or zero results — stamp `lastAttemptedAt` so the next cycle
+   moves on (`scarcity-territory-rotation.json`). Prevents thrashing the same thin neighborhood.
+8. **City-fair Find (no NYC starve of LA/BOS)** — rule 459. Scarcity brief ranks thin cities +
+   LA/BOS areas (`preferCities`). After virgin-first, pending seeds are round-robined across
+   nyc/la/bos so a deep NYC tinyout backlog cannot fill every forever batch alone. Unlocked
+   natural proof (2026-09-26): three consecutive forever-style cycles published 4 / 5 / 6 with
+   LA+BOS in the batch head — [`reports/find-proof-natural-multicity-2026-09-26.json`](reports/find-proof-natural-multicity-2026-09-26.json).
 
 ---
 
@@ -332,6 +357,10 @@ productive backlog — lower when seeds skip (blocked pages / no address / no im
 - Continuous quality improvement (implemented): [`catalog-loop-quality-improvement-plan.md`](catalog-loop-quality-improvement-plan.md) (rules 420–421)
 - Fair-use multi-source discovery: `docs/business-rules.md` rule 422
 - Scarcity brief + oldest-updated enrich: `docs/business-rules.md` rule 423
+- Oldest-attempted territory Find rotation: `docs/business-rules.md` rule 458
+  (`scripts/catalog-loop/lib/scarcityTerritoryRotation.cjs`)
+- City-fair Find (LA/BOS vs NYC backlog): `docs/business-rules.md` rule 459
+  (`scripts/catalog-loop/lib/findCityFair.cjs`)
 - Job hardening (image fallback / trial chrome / scarce-sport map): `docs/business-rules.md` rule 424
 - Catalog KPIs on `/admin/stats`: `docs/business-rules.md` rule 419 (`GET /api/stats/catalog-loop`,
   `POST /api/ingest/catalog-loop-stats`, `npm run catalog-loop:push-stats`)
