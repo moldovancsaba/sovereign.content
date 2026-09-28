@@ -1,26 +1,52 @@
 {
   "date": "2026-09-28",
   "client": "sportolok",
-  "tick": "replenish-intake-then-extract",
-  "kpis": {
-    "itthon": {
-      "published": 1024,
-      "discovered": 14,
-      "reviewReady": 2,
-      "reviewReadySoftIncomplete": 0,
-      "listings": 1033,
-      "note": "P flat; +4 DISCOVERED from FIND (padel/climbing/pool). soft=0 so no forcePublish."
+  "tick": "3-consecutive-delivery-loops",
+  "mm_sp": {
+    "itthon_prod_catalog": {
+      "P_before": 1032,
+      "P_after": 1040,
+      "P_delta": 8,
+      "D_before": 6,
+      "D_after": 0,
+      "listings": 1049,
+      "soft_incomplete": 0
     },
-    "hataronTul": {
-      "catalogVisible": false,
-      "note": "Camera routing + advance undeployed until management PR #329. 54 HT seeds already ingested at DISCOVERED in sportolok_hataron-tul."
+    "hataron_tul_db": {
+      "P_start": 0,
+      "P_after_warmup": 8,
+      "P_after_loop1": 18,
+      "P_after_loop2": 28,
+      "P_after_loop3": 38,
+      "P_final": 39,
+      "D_final": 15,
+      "note": "Published via local advance-city-cycles (structured extract). Prod catalog still base-only until PR #329 deploy."
     }
   },
-  "actions": [
-    "FIND Itthon: added MHSSZ/magyaruszodak/budapest-padel/duna-padel sources; enrich ingested 4 new DISCOVERED",
-    "FIND HT: SK adatbank source added (0 extract this pass); existing HT pages already ingested",
-    "Added ingest {advance:true} + catalog:extract-discovered (no Ollama); awaits deploy of #329",
-    "forcePublish not used (soft-incomplete=0)"
+  "loops": [
+    {
+      "n": 1,
+      "itthon": "P+7 D cleared",
+      "ht": "P+10"
+    },
+    {
+      "n": 2,
+      "itthon": "queue empty OK",
+      "ht": "P+10"
+    },
+    {
+      "n": 3,
+      "itthon": "queue empty OK",
+      "ht": "P+10"
+    }
   ],
-  "blockedOn": "Merge/deploy https://github.com/moldovancsaba/management/pull/329 then npm run catalog:extract-discovered"
+  "public": {
+    "hataron_tul_page": 200,
+    "sample_listing": "https://sport.doneisbetter.com/hataron-tul/listing/l-research-ht-yn33o4 -> 200"
+  },
+  "blockers_cleared": [
+    "MongoClient hang after advance (process.exit)",
+    "SC drain refused when MONGODB_URI set (env -u for drain)"
+  ],
+  "still_open": "Merge/deploy PR #329 so cron/catalog camera routing + ingest advance work on production without local Mongo runner"
 }
