@@ -1,6 +1,6 @@
 {
   "clientId": "classscout",
-  "observedAt": "2026-09-28T00:20:04.257Z",
+  "observedAt": "2026-09-28T00:21:05.214Z",
   "source": "product-catalog-loop-forever",
   "workingEnv": {
     "timerSubscribed": true,
@@ -23,19 +23,19 @@
     "lasting_public_rate": 0.7525987525987526,
     "find_lasting_public": "362/481",
     "find_smoke_pass": 1,
-    "find_smoke_fail": 40,
-    "find_publish_total_hourly": 1,
+    "find_smoke_fail": 84,
+    "find_publish_total_hourly": 5,
     "find_public_new_hourly": 1,
     "find_publish_recent_3h": 8,
-    "find_publish_recent_public_target": 2,
-    "improve_applied_hourly": 0,
-    "improve_recommend_open": 12,
+    "find_publish_recent_public_target": 4,
+    "improve_applied_hourly": 2,
+    "improve_recommend_open": 13,
     "improve_cycle": 852,
-    "seeds_pending": 1,
-    "fair_use_funnel": "7→0 seeds / 7 rejects",
+    "seeds_pending": 0,
+    "fair_use_funnel": "20→0 seeds / 13 rejects",
     "loop_up": true,
     "find_stalled": false,
-    "find_age_sec": 568,
+    "find_age_sec": 629,
     "scarcity_brief_freshness": "hourly",
     "tier_a_auto_pause_health": "active",
     "self_heal_defer_find": false,
@@ -43,6 +43,16 @@
     "self_heal_weak_about_open": 2,
     "lessons_open": 0,
     "recent_publishes": [
+      {
+        "seedId": "prov-bos-boston-music-project",
+        "publicTarget": true,
+        "at": "2026-09-27T21:37:23.674Z"
+      },
+      {
+        "seedId": "prov-bos-wai-kru-allston",
+        "publicTarget": true,
+        "at": "2026-09-27T21:36:38.200Z"
+      },
       {
         "seedId": "prov-la-los-angeles-gymnastics-center",
         "publicTarget": true,
@@ -72,16 +82,6 @@
         "seedId": "prov-tinyout-bat-haus",
         "publicTarget": false,
         "at": "2026-09-27T21:22:07.898Z"
-      },
-      {
-        "seedId": "prov-tinyout-arts-in-mission",
-        "publicTarget": false,
-        "at": "2026-09-27T21:20:58.386Z"
-      },
-      {
-        "seedId": "prov-tinyout-ny-sluggers-academy",
-        "publicTarget": false,
-        "at": "2026-09-27T21:20:10.031Z"
       }
     ]
   },
@@ -109,7 +109,7 @@
     "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
   ],
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T00:20:04.257Z",
+  "updatedAt": "2026-09-28T00:21:05.214Z",
   "timer": {
     "name": "classscout-find-tick",
     "stillSubscribed": true,
