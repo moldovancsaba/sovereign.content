@@ -1,12 +1,12 @@
 {
   "clientId": "classscout",
-  "observedAt": "2026-09-28T00:41:08.759Z",
+  "observedAt": "2026-09-28T00:51:11.025Z",
   "source": "product-catalog-loop-forever",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "classscout-find-tick",
     "foreverProcessUp": true,
-    "foreverPid": 805930,
+    "foreverPid": 806601,
     "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
     "canonicalAgentHome": "sovereign.content/content.classscout",
     "cutoverComplete": false,
@@ -27,7 +27,7 @@
     "find_publish_total_hourly": 6,
     "find_public_new_hourly": 1,
     "find_publish_recent_3h": 8,
-    "find_publish_recent_public_target": 8,
+    "find_publish_recent_public_target": 5,
     "improve_applied_hourly": 3,
     "improve_recommend_open": 13,
     "improve_cycle": 853,
@@ -35,14 +35,34 @@
     "fair_use_funnel": "29→1 seeds / 14 rejects",
     "loop_up": true,
     "find_stalled": false,
-    "find_age_sec": 353,
+    "find_age_sec": 596,
     "scarcity_brief_freshness": "hourly",
     "tier_a_auto_pause_health": "active",
     "self_heal_defer_find": false,
-    "self_heal_priority_open": 3,
-    "self_heal_weak_about_open": 0,
+    "self_heal_priority_open": 4,
+    "self_heal_weak_about_open": 1,
     "lessons_open": 0,
     "recent_publishes": [
+      {
+        "seedId": "prov-tinyout-luna-de-papel",
+        "publicTarget": false,
+        "at": "2026-09-28T00:14:08.835Z"
+      },
+      {
+        "seedId": "prov-tinyout-lucent-music-amp-arts",
+        "publicTarget": false,
+        "at": "2026-09-28T00:12:57.088Z"
+      },
+      {
+        "seedId": "prov-tinyout-happy-day-play-family-learning-at-bernikow-jcc-g",
+        "publicTarget": false,
+        "at": "2026-09-28T00:11:46.213Z"
+      },
+      {
+        "seedId": "prov-la-sender-one-playa-vista",
+        "publicTarget": true,
+        "at": "2026-09-28T00:00:32.142Z"
+      },
       {
         "seedId": "prov-la-jag-gym-culver-city",
         "publicTarget": true,
@@ -62,33 +82,17 @@
         "seedId": "prov-la-the-klub-gymnastics",
         "publicTarget": true,
         "at": "2026-09-27T23:56:18.243Z"
-      },
-      {
-        "seedId": "prov-bos-sociedad-latina",
-        "publicTarget": true,
-        "at": "2026-09-27T21:43:35.728Z"
-      },
-      {
-        "seedId": "prov-bos-hyde-square-task-force",
-        "publicTarget": true,
-        "at": "2026-09-27T21:42:51.024Z"
-      },
-      {
-        "seedId": "prov-bos-boston-string-academy",
-        "publicTarget": true,
-        "at": "2026-09-27T21:42:02.253Z"
-      },
-      {
-        "seedId": "prov-bos-826-boston",
-        "publicTarget": true,
-        "at": "2026-09-27T21:41:14.712Z"
       }
     ]
   },
   "openDebt": [
     {
       "kind": "priority_open",
-      "n": 3
+      "n": 4
+    },
+    {
+      "kind": "weak_about_open",
+      "n": 1
     },
     {
       "kind": "contact_debt_open",
@@ -105,7 +109,7 @@
     "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
   ],
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T00:41:08.759Z",
+  "updatedAt": "2026-09-28T00:51:11.025Z",
   "timer": {
     "name": "classscout-find-tick",
     "stillSubscribed": true,
