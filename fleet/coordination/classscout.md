@@ -110,3 +110,15 @@ Forever restarted with `improveTimeout=1500s`. Cutover still product-tree PID.
 
 **Nudge:** refresh inbox once more before UTC day-roll if forever produces new publishes; day-3 file tomorrow. Cutover step 1 still intentionally blocked.
 
+
+### 2026-09-28 — classscout (fleet silence → inbox restore)
+
+**Owner signal:** fleet SWOT window showed ClassScout `0 commits / 0 inbox` (last signal 2026-09-25) while Padel/Sportolok had 12 hourly ticks. Root cause: self-heal ran locally but **never wrote** `fleet/inbox/classscout/status-DATE.json`, so SC-central correctly scored `insufficient_signal`.
+
+**Shipped (product + SC):**
+- Rule **471** — forever hourly rollup + watchdog + sparse-timer `--with-fleet-inbox` emit/push inbox status.
+- Emitter: `scripts/catalog-loop/fleet-inbox-status.cjs` (`npm run catalog-loop:fleet-inbox -- --push`).
+- Day status restored: [`fleet/inbox/classscout/status-2026-09-28.json`](../inbox/classscout/status-2026-09-28.json) (loop_up, lasting_public_rate, openDebt enums, cutover hold honest).
+
+**Still open:** cutover step 1 when SC scripts proven; engines unmerged with padel.
+
