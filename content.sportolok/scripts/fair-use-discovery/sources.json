@@ -6,6 +6,29 @@
   "defaultCooldownSec": 600,
   "sources": [
     {
+      "id": "pecs-uszas",
+      "name": "Pécs — úszás page",
+      "url": "https://pecs.hu/uszas/",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "swimming"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "szeged-sport-letesitmenyek",
+      "name": "Szegedi Sport és Fürdők — létesítmények",
+      "url": "https://www.szegedsport.hu/letesitmenyek",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "swimming",
+        "various"
+      ],
+      "status": "active"
+    },
+    {
       "id": "mhssz-maszotermek",
       "name": "MHSSZ — mászótermek directory",
       "url": "https://mhssz.hu/versenymaszas/maszotermek/",

@@ -11,27 +11,27 @@
   },
   "nsu-cat-olimpiai-kozpontok": {
     "sourceId": "nsu-cat-olimpiai-kozpontok",
-    "lastFetchMs": 1790444888951,
+    "lastFetchMs": 1790555126270,
     "lastStatus": "ok"
   },
   "nsu-cat-tanuszodak": {
     "sourceId": "nsu-cat-tanuszodak",
-    "lastFetchMs": 1790444888951,
+    "lastFetchMs": 1790555126270,
     "lastStatus": "ok"
   },
   "nsu-cat-uszodak": {
     "sourceId": "nsu-cat-uszodak",
-    "lastFetchMs": 1790444888951,
+    "lastFetchMs": 1790555126270,
     "lastStatus": "ok"
   },
   "magyaruszodak-budapest": {
     "sourceId": "magyaruszodak-budapest",
-    "lastFetchMs": 1790444888951,
+    "lastFetchMs": 1790555126270,
     "lastStatus": "ok"
   },
   "onkormanyzat-ujpest-sport": {
     "sourceId": "onkormanyzat-ujpest-sport",
-    "lastFetchMs": 1790444888951,
+    "lastFetchMs": 1790555126270,
     "lastStatus": "ok"
   },
   "onkormanyzat-bp13-sport": {
@@ -146,22 +146,32 @@
   },
   "mhssz-maszotermek": {
     "sourceId": "mhssz-maszotermek",
-    "lastFetchMs": 1790554900253,
+    "lastFetchMs": 1790559302543,
     "lastStatus": "ok"
   },
   "magyaruszodak-home": {
     "sourceId": "magyaruszodak-home",
-    "lastFetchMs": 1790554900253,
+    "lastFetchMs": 1790559302543,
     "lastStatus": "ok"
   },
   "budapest-padel": {
     "sourceId": "budapest-padel",
-    "lastFetchMs": 1790554900253,
+    "lastFetchMs": 1790559302543,
     "lastStatus": "ok"
   },
   "duna-padel": {
     "sourceId": "duna-padel",
-    "lastFetchMs": 1790554900253,
+    "lastFetchMs": 1790559302543,
+    "lastStatus": "ok"
+  },
+  "pecs-uszas": {
+    "sourceId": "pecs-uszas",
+    "lastFetchMs": 1790559361566,
+    "lastStatus": "ok"
+  },
+  "szeged-sport-letesitmenyek": {
+    "sourceId": "szeged-sport-letesitmenyek",
+    "lastFetchMs": 1790559361566,
     "lastStatus": "ok"
   }
 }

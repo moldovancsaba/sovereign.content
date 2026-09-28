@@ -1,52 +1,30 @@
 {
   "date": "2026-09-28",
   "client": "sportolok",
-  "tick": "3-consecutive-delivery-loops",
+  "tick": "sportolok-tick",
   "mm_sp": {
-    "itthon_prod_catalog": {
-      "P_before": 1032,
-      "P_after": 1040,
-      "P_delta": 8,
-      "D_before": 6,
-      "D_after": 0,
-      "listings": 1049,
-      "soft_incomplete": 0
+    "itthon": {
+      "P_before": 1040,
+      "P_after": 1042,
+      "P_delta": 2,
+      "D": 0,
+      "REVIEW_READY": 2,
+      "soft_incomplete": 0,
+      "listings": 1051
     },
     "hataron_tul_db": {
-      "P_start": 0,
-      "P_after_warmup": 8,
-      "P_after_loop1": 18,
-      "P_after_loop2": 28,
-      "P_after_loop3": 38,
-      "P_final": 39,
-      "D_final": 15,
-      "note": "Published via local advance-city-cycles (structured extract). Prod catalog still base-only until PR #329 deploy."
+      "P_before_tick": 39,
+      "P_after": 54,
+      "P_delta": 15,
+      "D_after": 0,
+      "note": "advance-city-cycles (PR #329 still OPEN \u2014 prod ingest advance not live)"
     }
   },
-  "loops": [
-    {
-      "n": 1,
-      "itthon": "P+7 D cleared",
-      "ht": "P+10"
-    },
-    {
-      "n": 2,
-      "itthon": "queue empty OK",
-      "ht": "P+10"
-    },
-    {
-      "n": 3,
-      "itthon": "queue empty OK",
-      "ht": "P+10"
-    }
+  "actions": [
+    "quality-loop: patched 2 Abouts (Budapest Padel + Tomori) via ingest",
+    "FIND: added Szeged+P\u00e9cs sources; ingested 2 new Itthon DISCOVERED\u2192PUBLISHED",
+    "HT: published remaining DISCOVERED (+15 this tick; funnel clear)",
+    "drain: soft=0 \u2014 no forcePublish"
   ],
-  "public": {
-    "hataron_tul_page": 200,
-    "sample_listing": "https://sport.doneisbetter.com/hataron-tul/listing/l-research-ht-yn33o4 -> 200"
-  },
-  "blockers_cleared": [
-    "MongoClient hang after advance (process.exit)",
-    "SC drain refused when MONGODB_URI set (env -u for drain)"
-  ],
-  "still_open": "Merge/deploy PR #329 so cron/catalog camera routing + ingest advance work on production without local Mongo runner"
+  "blocker": "PR #329 not merged \u2014 cron/catalog camera + ingest {advance} still missing on prod"
 }
