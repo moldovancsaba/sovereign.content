@@ -1,0 +1,118 @@
+{
+  "clientId": "classscout",
+  "observedAt": "2026-09-28T00:15:17.714Z",
+  "source": "classscout-watchdog-tick",
+  "workingEnv": {
+    "timerSubscribed": true,
+    "timerName": "classscout-catalog-watchdog-tick",
+    "foreverProcessUp": true,
+    "foreverPid": 796432,
+    "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
+    "canonicalAgentHome": "sovereign.content/content.classscout",
+    "cutoverComplete": false,
+    "cutoverStep1Started": false,
+    "cutoverHoldReason": "intentional_until_sc_scripts_proven",
+    "stepTimeoutsEnabled": true,
+    "findFirstEnabled": true,
+    "externalWatchdog": true,
+    "singleSlotForever": true,
+    "ingestOnly": "partial",
+    "enginesMergedWithPadel": false
+  },
+  "outcomes": {
+    "lasting_public_rate": 0.7525987525987526,
+    "find_lasting_public": "362/481",
+    "find_smoke_pass": 1,
+    "find_smoke_fail": 40,
+    "find_publish_total_hourly": 1,
+    "find_public_new_hourly": 1,
+    "find_publish_recent_3h": 8,
+    "find_publish_recent_public_target": 0,
+    "improve_applied_hourly": 0,
+    "improve_recommend_open": 12,
+    "improve_cycle": 851,
+    "seeds_pending": 1,
+    "fair_use_funnel": "7→0 seeds / 7 rejects",
+    "loop_up": true,
+    "find_stalled": false,
+    "find_age_sec": 320,
+    "scarcity_brief_freshness": "hourly",
+    "tier_a_auto_pause_health": "active",
+    "self_heal_defer_find": false,
+    "self_heal_priority_open": 8,
+    "self_heal_weak_about_open": 2,
+    "lessons_open": 0,
+    "recent_publishes": [
+      {
+        "seedId": "prov-tinyout-arts-in-mission",
+        "publicTarget": false,
+        "at": "2026-09-27T21:20:58.386Z"
+      },
+      {
+        "seedId": "prov-tinyout-ny-sluggers-academy",
+        "publicTarget": false,
+        "at": "2026-09-27T21:20:10.031Z"
+      },
+      {
+        "seedId": "prov-tinyout-lehman-center-for-the-performing-arts",
+        "publicTarget": false,
+        "at": "2026-09-27T21:19:22.698Z"
+      },
+      {
+        "seedId": "prov-tinyout-city-island-theatre-group",
+        "publicTarget": false,
+        "at": "2026-09-27T21:18:34.577Z"
+      },
+      {
+        "seedId": "prov-tinyout-two-the-moon",
+        "publicTarget": false,
+        "at": "2026-09-27T21:17:49.613Z"
+      },
+      {
+        "seedId": "prov-tinyout-toc-toc-spanish-for-kids",
+        "publicTarget": false,
+        "at": "2026-09-27T21:16:57.958Z"
+      },
+      {
+        "seedId": "prov-tinyout-tiger-badminton-training-center",
+        "publicTarget": false,
+        "at": "2026-09-27T21:16:11.263Z"
+      },
+      {
+        "seedId": "prov-tinyout-team-jucao-long-island-city-brazilian-jiu-jitsu",
+        "publicTarget": false,
+        "at": "2026-09-27T21:15:26.530Z"
+      }
+    ]
+  },
+  "openDebt": [
+    {
+      "kind": "priority_open",
+      "n": 8
+    },
+    {
+      "kind": "weak_about_open",
+      "n": 2
+    },
+    {
+      "kind": "contact_debt_open",
+      "n": 7
+    },
+    {
+      "kind": "cutover_step1",
+      "n": 1
+    }
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/classscout.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/inbox/README.md",
+    "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
+  ],
+  "date": "2026-09-28",
+  "updatedAt": "2026-09-28T00:15:17.714Z",
+  "timer": {
+    "name": "classscout-catalog-watchdog-tick",
+    "stillSubscribed": true,
+    "delaySeconds": 3600
+  }
+}
