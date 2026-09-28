@@ -1,12 +1,12 @@
 {
   "clientId": "classscout",
-  "observedAt": "2026-09-28T01:22:35.470Z",
+  "observedAt": "2026-09-28T09:37:43.371Z",
   "source": "product-catalog-loop-forever",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "classscout-find-tick",
     "foreverProcessUp": true,
-    "foreverPid": 808718,
+    "foreverPid": 809819,
     "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
     "canonicalAgentHome": "sovereign.content/content.classscout",
     "cutoverComplete": false,
@@ -26,64 +26,23 @@
     "find_smoke_fail": 85,
     "find_publish_total_hourly": 6,
     "find_public_new_hourly": 1,
-    "find_publish_recent_3h": 8,
-    "find_publish_recent_public_target": 5,
+    "find_publish_recent_3h": 0,
+    "find_publish_recent_public_target": 0,
     "improve_applied_hourly": 3,
     "improve_recommend_open": 13,
     "improve_cycle": 853,
     "seeds_pending": 1,
     "fair_use_funnel": "29→1 seeds / 14 rejects",
     "loop_up": true,
-    "find_stalled": false,
-    "find_age_sec": 596,
+    "find_stalled": true,
+    "find_age_sec": 28824,
     "scarcity_brief_freshness": "hourly",
     "tier_a_auto_pause_health": "active",
     "self_heal_defer_find": false,
     "self_heal_priority_open": 4,
     "self_heal_weak_about_open": 1,
     "lessons_open": 0,
-    "recent_publishes": [
-      {
-        "seedId": "prov-tinyout-luna-de-papel",
-        "publicTarget": false,
-        "at": "2026-09-28T00:14:08.835Z"
-      },
-      {
-        "seedId": "prov-tinyout-lucent-music-amp-arts",
-        "publicTarget": false,
-        "at": "2026-09-28T00:12:57.088Z"
-      },
-      {
-        "seedId": "prov-tinyout-happy-day-play-family-learning-at-bernikow-jcc-g",
-        "publicTarget": false,
-        "at": "2026-09-28T00:11:46.213Z"
-      },
-      {
-        "seedId": "prov-la-sender-one-playa-vista",
-        "publicTarget": true,
-        "at": "2026-09-28T00:00:32.142Z"
-      },
-      {
-        "seedId": "prov-la-jag-gym-culver-city",
-        "publicTarget": true,
-        "at": "2026-09-27T23:59:43.273Z"
-      },
-      {
-        "seedId": "prov-la-persistence-gymnastics-south-pasadena",
-        "publicTarget": true,
-        "at": "2026-09-27T23:57:49.677Z"
-      },
-      {
-        "seedId": "prov-la-payke-gymnastics-alhambra",
-        "publicTarget": true,
-        "at": "2026-09-27T23:57:03.674Z"
-      },
-      {
-        "seedId": "prov-la-the-klub-gymnastics",
-        "publicTarget": true,
-        "at": "2026-09-27T23:56:18.243Z"
-      }
-    ]
+    "recent_publishes": []
   },
   "openDebt": [
     {
@@ -99,6 +58,11 @@
       "n": 2
     },
     {
+      "kind": "find_stalled",
+      "n": 1,
+      "ageSec": 28824
+    },
+    {
       "kind": "cutover_step1",
       "n": 1
     }
@@ -109,7 +73,7 @@
     "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
   ],
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T01:22:35.470Z",
+  "updatedAt": "2026-09-28T09:37:43.371Z",
   "timer": {
     "name": "classscout-find-tick",
     "stillSubscribed": true,
