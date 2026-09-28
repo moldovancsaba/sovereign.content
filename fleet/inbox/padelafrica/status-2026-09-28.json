@@ -1,11 +1,11 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-28T00:40:00Z",
+  "observedAt": "2026-09-28T01:05:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
-    "timerSubscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
+    "timerSubscriptionId": "sub_02f0b163-6b82-4e3d-b3c2-f2a340282c4f",
     "ingestOnlyDoctrine": true,
     "ingestOnlyReality": true,
     "ingestApiKeyPresent": true,
@@ -14,17 +14,19 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 74,
+    "fairUsePassCount": 75,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "pipelineFeedRanThisTick": true,
+    "pipelineFeedEveryTick": true,
     "coreReconcileHandshake": "reconciled_observed",
     "evidencePhoneOptional": true,
     "evidenceCityPinOk": true,
-    "evidenceSocialContactOk": true
+    "evidenceSocialContactOk": true,
+    "preferUnderCoveredCountries": true
   },
   "outcomes": {
-    "qualityLoopScanned": 524,
+    "qualityLoopScanned": 526,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
     "qualityAtCeiling": true,
@@ -33,52 +35,41 @@
     "pipelineFeedOk": 60,
     "pipelineFeedFailed": 0,
     "pipelineFeedLimit": 30,
-    "fairUsePass": 74,
+    "fairUsePass": 75,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "ZAF-VEN-230",
-      "ZAF-VEN-231",
-      "ZAF-VEN-232",
-      "ZAF-VEN-233",
-      "ZAF-VEN-234",
-      "ZAF-VEN-235",
-      "ZAF-VEN-236",
-      "ZAF-VEN-237",
-      "ZMB-VEN-011",
-      "ZMB-VEN-012"
+      "GHA-VEN-008",
+      "GHA-VEN-009",
+      "GHA-VEN-010",
+      "GHA-VEN-011",
+      "AGO-VEN-017",
+      "MOZ-VEN-005"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
-    "findSocialContactEnrichment": [
-      "UGA-VEN-001",
-      "UGA-VEN-002",
-      "RWA-VEN-001",
-      "MOZ-VEN-001",
-      "MOZ-VEN-003",
-      "SWZ-VEN-001",
-      "MWI-VEN-003",
-      "CIV-VEN-001"
-    ],
-    "findSkippedDuplicate": [
-      "Padel@7070 \u2248 Elevate Padel Makeni (ZMB-VEN-006)"
-    ],
+    "findSocialContactEnrichment": [],
+    "findSkippedDuplicate": [],
     "findZeroResult": [
-      "Ethiopia Addis Padel Club \u2014 launching/hiring only (plans)",
-      "Guinea Conakry \u2014 no operating clubs",
-      "Ndola/Kitwe Zambia \u2014 no operating clubs found"
+      "Ghana Kumasi/Takoradi/Cape Coast \u2014 no verified operating clubs",
+      "Pamela Enterprises Tema \u2014 contact-thin / likely non-court (skipped)",
+      "Elite Padel Matola \u2014 hiring only, address thin (skipped)",
+      "Maykari Douala \u2014 residents/hotel public access unclear (skipped)"
     ],
     "findSkipped": [
-      "Further East Rand densify deferred \u2014 pivot to under-covered countries per tick directive"
+      "East Rand / Gauteng densify deferred \u2014 under-covered GH/AO/MZ preferred"
     ],
-    "ingestDiscoveredOk": 18,
+    "ingestDiscoveredOk": 6,
     "ingestEvidence": [
-      "content.padelafrica/scripts/data/tick-ingest-2026-09-28-39.json",
-      "content.padelafrica/scripts/data/tick-ingest-2026-09-28-40.json"
+      "content.padelafrica/scripts/data/tick-ingest-2026-09-28-41.json"
+    ],
+    "pipelineFeedEvidence": [
+      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-28T00-37-53-013Z.json",
+      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-28T00-53-05-737Z.json"
     ],
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 24: pipeline:feed-discovered x2 (60 reprocess). Quality at ceiling (0 applied; \u226575). FIND pivoted under-covered (UG/RW/MZ/SWZ/MW/CI enrich + ZM 011/012). Pre-pivot East Rand 230-237 still fed. Not claiming PUBLISHED."
+    "note": "Tick 25: pipeline:feed-discovered x2 (60 reprocess) on every-tick path. Quality at ceiling (0 applied; \u226575). FIND under-covered GH 008-011 + AO CPA 017 + MZ Play Padel 005. Fair-use 75 rejected 120 Padel Mexico. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -87,15 +78,18 @@
     "day3_inbox_continuity_spike_gate",
     "day3_inbox_calendar_2026-09-26",
     "core_reconcile_release_padel_africa_awaiting_management",
-    "publish_evidence_phone_optional_city_pin_pr291"
+    "publish_evidence_phone_optional_city_pin_pr291",
+    "pipeline_feed_discovered_every_tick"
   ],
   "client": "padelafrica",
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T00:40:00Z",
+  "updatedAt": "2026-09-28T01:05:00Z",
   "timer": {
     "name": "padel-find-tick",
-    "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
+    "subscriptionId": "sub_02f0b163-6b82-4e3d-b3c2-f2a340282c4f",
     "delaySeconds": 3600,
-    "stillSubscribed": true
+    "stillSubscribed": true,
+    "promptIncludesFeedEveryTick": true,
+    "promptIncludesUnderCoveredPrefer": true
   }
 }

@@ -1463,3 +1463,23 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **10/10** under-covered batch + prior 8/8 East Rand
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-28 — padelafrica (tick ~00:37–01:05 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_02f0b163-…`). Prompt updated: **feed-discovered every tick**, quality ceiling honesty, prefer under-covered countries over East Rand densify.
+
+**Pipeline:** `pipeline:feed-discovered` **×2** (limit 30 each) → **60/60** reprocess ok (includes new GH/AO/MZ research cards). Primary DISCOVERED→value lever.
+
+**Quality:** 526 scanned, **1 below → 0 applied** (TUN-019 skip_closed). **At ceiling** — catalog otherwise About ≥75; improve is not a delivery lever.
+
+**Fair-use:** pass 75 (28 sources). **Rejected** 120 Padel (Tampico, Mexico). `needs_verify` cleared.
+
+**FIND (under-covered — no East Rand):**
+- Ghana Accra/Adenta → **`GHA-VEN-008` Padel Town**, **`GHA-VEN-009` Padel Zone**, **`GHA-VEN-010` Padel Boho**, **`GHA-VEN-011` Mamba Blu** DISCOVERED
+- Angola Belas → **`AGO-VEN-017` Clube de Padel de Angola (CPA)** DISCOVERED
+- Mozambique Maputo Coop → **`MOZ-VEN-005` Play Padel COOP** DISCOVERED
+- Skip → Kumasi/Takoradi/Cape Coast zero; Pamela Tema non-court; Elite Matola address-thin; Maykari residents/hotel unclear
+- Ingest → **6/6** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
