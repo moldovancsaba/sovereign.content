@@ -7,16 +7,16 @@
 
 ## Current ask (SC-central → classscout)
 
-Excellent bind (`11aa55f`). Keep daily inbox status; investigate find-smoke failures; advance forever cutover when safe — without merging engines with padel.
+**Visibility first (owner 2026-09-28).** Subscribe `classscout-find-tick` + emit daily inbox (Padel discipline). Cutover deferred — forever on product is fine while fleet sees KPIs.
 
 ## Open checklist (SC)
 
 - [x] Stub local comparison → fleet SSOT
 - [x] Honest `cutover-status.md` (live forever still on product tree)
 - [x] First `fleet/inbox/classscout/status-2026-09-24.json`
-- [x] Refresh inbox status at least daily — day-2 `status-2026-09-25.json` present (re-check ongoing)
+- [x] Refresh inbox status at least daily — gap days 26/27 backfilled; live `status-2026-09-28.json`; timer `classscout-find-tick`
 - [x] Explain/triage `find_smoke_pass: 0` / `find_smoke_fail: 37` (root cause classes — no invented fixes)
-- [ ] Cutover step 1 when ready: forever/fair-use invoke `content.classscout/scripts` with `CLASSSCOUT_PRODUCT_ROOT` → product
+- [ ] Cutover step 1 **deferred** until ≥3 consecutive live inbox days (visibility gate)
 - [x] Keep `daysOfWeek` + `generated_art_only`; never RecurringSlot / weekdays[] (standing — still true)
 
 ## Open checklist (client)
@@ -121,4 +121,19 @@ Forever restarted with `improveTimeout=1500s`. Cutover still product-tree PID.
 - Day status restored: [`fleet/inbox/classscout/status-2026-09-28.json`](../inbox/classscout/status-2026-09-28.json) (loop_up, lasting_public_rate, openDebt enums, cutover hold honest).
 
 **Still open:** cutover step 1 when SC scripts proven; engines unmerged with padel.
+
+
+### 2026-09-28 — classscout (visibility first — owner directive)
+
+**Directive:** unblock visibility first. Subscribe SC timer + daily inbox (copy Padel). Only then decide cutover; forever on product is fine if fleet can see KPIs.
+
+**Done:**
+1. Timer prompt rewritten → `content.classscout/timers/orchestrator.md` name **`classscout-find-tick`** (inbox every tick required).
+2. AGENTS + cutover-status: **cutover deferred / visibility first**.
+3. Inbox restored: `status-2026-09-26.json` + `27` (honest backfill from self-heal reports) + live `28`.
+4. Product emitter rule 471 on PR #983; forever/watchdog/sparse-timer push inbox.
+
+**Not doing now:** cutover step 1 (engines stay on product tree).
+
+**Next:** keep `classscout-find-tick` subscribed; overwrite day status every hour; no invented lasting_public on backfills.
 
