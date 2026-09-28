@@ -1,6 +1,6 @@
 {
   "clientId": "classscout",
-  "observedAt": "2026-09-28T00:28:44.109Z",
+  "observedAt": "2026-09-28T00:31:06.363Z",
   "source": "product-catalog-loop-forever",
   "workingEnv": {
     "timerSubscribed": true,
@@ -30,12 +30,12 @@
     "find_publish_recent_public_target": 8,
     "improve_applied_hourly": 3,
     "improve_recommend_open": 13,
-    "improve_cycle": 852,
+    "improve_cycle": 853,
     "seeds_pending": 1,
     "fair_use_funnel": "29→1 seeds / 14 rejects",
     "loop_up": true,
     "find_stalled": false,
-    "find_age_sec": 257,
+    "find_age_sec": 399,
     "scarcity_brief_freshness": "hourly",
     "tier_a_auto_pause_health": "active",
     "self_heal_defer_find": true,
@@ -105,7 +105,7 @@
     "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
   ],
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T00:28:44.109Z",
+  "updatedAt": "2026-09-28T00:31:06.363Z",
   "timer": {
     "name": "classscout-find-tick",
     "stillSubscribed": true,
