@@ -66,8 +66,8 @@ export default function HomePage() {
           Where to build
         </Title>
         <Text c="dimmed" mb="md" maw={560}>
-          Pick the runtime that will run the jobs. Cursor is the proven first environment; others are
-          stubs until their playbooks land.
+          Pick the runtime that will run the jobs. Cursor and OpenClaw have working playbooks;
+          local daemon and Vercel Cron are stubs until theirs land.
         </Text>
         <Box
           style={{

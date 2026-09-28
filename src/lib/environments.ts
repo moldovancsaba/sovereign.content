@@ -26,11 +26,11 @@ export const ENVIRONMENTS: Environment[] = [
     id: "openclaw",
     name: "OpenClaw",
     href: "/environments/openclaw",
-    state: "soon",
-    status: "Planned",
+    state: "ready",
+    status: "Ready",
     summary:
-      "Hosted research / enrichment workers that already share SSOT vocabulary with management clients.",
-    cta: "Coming next",
+      "Self-hosted Python workers, no Mongo access, ingest-API-only writes, local model instead of AI Gateway — running classscout, padel-africa and sportolok in parallel with Cursor today.",
+    cta: "Open OpenClaw playbook",
   },
   {
     id: "local-daemon",

@@ -5,6 +5,7 @@ export const DOC_NAV = [
   { href: "/jobs", label: "Jobs", id: "jobs" },
   { href: "/implement", label: "Implement", id: "implement" },
   { href: "/environments/cursor", label: "Cursor", id: "cursor" },
+  { href: "/environments/openclaw", label: "OpenClaw", id: "openclaw" },
   { href: "/adopting", label: "Adopting", id: "adopting" },
   { href: "/recommendations", label: "Recommend", id: "recommendations" },
   { href: "/repos", label: "Repos", id: "repos" },
