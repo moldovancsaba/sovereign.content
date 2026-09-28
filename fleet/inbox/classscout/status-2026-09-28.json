@@ -1,12 +1,12 @@
 {
   "clientId": "classscout",
-  "observedAt": "2026-09-28T00:31:06.363Z",
+  "observedAt": "2026-09-28T00:41:08.759Z",
   "source": "product-catalog-loop-forever",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "classscout-find-tick",
     "foreverProcessUp": true,
-    "foreverPid": 796432,
+    "foreverPid": 805930,
     "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
     "canonicalAgentHome": "sovereign.content/content.classscout",
     "cutoverComplete": false,
@@ -35,14 +35,34 @@
     "fair_use_funnel": "29→1 seeds / 14 rejects",
     "loop_up": true,
     "find_stalled": false,
-    "find_age_sec": 399,
+    "find_age_sec": 353,
     "scarcity_brief_freshness": "hourly",
     "tier_a_auto_pause_health": "active",
-    "self_heal_defer_find": true,
-    "self_heal_priority_open": 1,
+    "self_heal_defer_find": false,
+    "self_heal_priority_open": 3,
     "self_heal_weak_about_open": 0,
     "lessons_open": 0,
     "recent_publishes": [
+      {
+        "seedId": "prov-la-jag-gym-culver-city",
+        "publicTarget": true,
+        "at": "2026-09-27T23:59:43.273Z"
+      },
+      {
+        "seedId": "prov-la-persistence-gymnastics-south-pasadena",
+        "publicTarget": true,
+        "at": "2026-09-27T23:57:49.677Z"
+      },
+      {
+        "seedId": "prov-la-payke-gymnastics-alhambra",
+        "publicTarget": true,
+        "at": "2026-09-27T23:57:03.674Z"
+      },
+      {
+        "seedId": "prov-la-the-klub-gymnastics",
+        "publicTarget": true,
+        "at": "2026-09-27T23:56:18.243Z"
+      },
       {
         "seedId": "prov-bos-sociedad-latina",
         "publicTarget": true,
@@ -62,37 +82,17 @@
         "seedId": "prov-bos-826-boston",
         "publicTarget": true,
         "at": "2026-09-27T21:41:14.712Z"
-      },
-      {
-        "seedId": "prov-bos-boston-music-project",
-        "publicTarget": true,
-        "at": "2026-09-27T21:37:23.674Z"
-      },
-      {
-        "seedId": "prov-bos-wai-kru-allston",
-        "publicTarget": true,
-        "at": "2026-09-27T21:36:38.200Z"
-      },
-      {
-        "seedId": "prov-la-los-angeles-gymnastics-center",
-        "publicTarget": true,
-        "at": "2026-09-27T21:35:18.162Z"
-      },
-      {
-        "seedId": "prov-la-santa-monica-public-library-youth",
-        "publicTarget": true,
-        "at": "2026-09-27T21:34:05.792Z"
       }
     ]
   },
   "openDebt": [
     {
       "kind": "priority_open",
-      "n": 1
+      "n": 3
     },
     {
       "kind": "contact_debt_open",
-      "n": 1
+      "n": 2
     },
     {
       "kind": "cutover_step1",
@@ -105,7 +105,7 @@
     "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
   ],
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T00:31:06.363Z",
+  "updatedAt": "2026-09-28T00:41:08.759Z",
   "timer": {
     "name": "classscout-find-tick",
     "stillSubscribed": true,
