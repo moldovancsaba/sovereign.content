@@ -90,13 +90,12 @@
     "publish_evidence_phone_optional_city_pin_pr291"
   ],
   "client": "padelafrica",
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "updatedAt": "2026-09-28T00:40:00Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_0f76edb1-e64e-4784-b746-8d9fc2d21f24",
     "delaySeconds": 3600,
     "stillSubscribed": true
-  },
-  "note": "Superseded by status-2026-09-28.json for tick 24"
+  }
 }

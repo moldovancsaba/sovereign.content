@@ -20,8 +20,10 @@
     "secondarySourceUrl": "https://padeltaabidjan.com/",
     "sourceTypes": "Padelta first-party site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Sample audit — Ace padel already live as OSM osm-node-12650488436; WePadel Marcory and others remain for fuller CI pass"
+    "lastVerifiedUtc": "2026-09-28",
+    "researchNotes": "Sample audit — Ace padel already live as OSM osm-node-12650488436; WePadel Marcory and others remain for fuller CI pass | FIND tick 24 — under-covered social/contact enrichment (not ZA densify).",
+    "instagram": "https://www.instagram.com/padelta.ci/",
+    "whatsapp": "+225 07 87 87 44 44"
   },
   {
     "recordId": "CIV-VEN-002",

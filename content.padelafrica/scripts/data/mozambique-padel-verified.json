@@ -21,8 +21,9 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/gayle-padel-club-moz/",
     "sourceTypes": "Gayle locations page; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "OSM Padel Club Maputo osm-way-1183409068 already live — do not duplicate"
+    "lastVerifiedUtc": "2026-09-28",
+    "researchNotes": "OSM Padel Club Maputo osm-way-1183409068 already live — do not duplicate | FIND tick 24 — under-covered social/contact enrichment (not ZA densify).",
+    "instagram": "https://www.instagram.com/gaylepadelclub_moz/"
   },
   {
     "recordId": "MOZ-VEN-002",
@@ -68,8 +69,9 @@
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/mozambique/",
     "sourceTypes": "Padel Lands Mozambique directory (address+phone+court count listing)",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick kick 2026-09-25. Directory-only evidence (Medium). Distinct from MOZ-VEN-001 Gayle (Glória Mall Marginal). Court count listed as 4 — not asserted."
+    "lastVerifiedUtc": "2026-09-28",
+    "researchNotes": "FIND tick kick 2026-09-25. Directory-only evidence (Medium). Distinct from MOZ-VEN-001 Gayle (Glória Mall Marginal). Court count listed as 4 — not asserted. | FIND tick 24 — under-covered social/contact enrichment (not ZA densify).",
+    "instagram": "https://www.instagram.com/padelclubmaputo/"
   },
   {
     "recordId": "MOZ-VEN-004",

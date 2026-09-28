@@ -1444,3 +1444,22 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **8/8** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+### 2026-09-28 — padelafrica (tick ~00:07–00:40 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_0f76edb1-…`).
+
+**Pipeline:** `pipeline:feed-discovered` **×2** (limit 30 each) → **60/60** reprocess ok. Primary DISCOVERED→value lever this tick.
+
+**Quality:** 524 scanned, **1 below → 0 applied** (TUN-019 skip_closed). **At ceiling** — catalog otherwise About ≥75; improve is not a delivery lever.
+
+**Fair-use:** pass 74 (28 sources). Quiet — no new `needs_verify`.
+
+**FIND (under-covered pivot — stop East Rand saturation):**
+- Social/contact enrich → **UGA-001/002**, **RWA-001**, **MOZ-001/003**, **SWZ-001**, **MWI-003**, **CIV-001** re-ingested
+- Zambia → **`ZMB-VEN-011` Makeni Islamic**, **`ZMB-VEN-012` Lusaka Padel Club** DISCOVERED
+- Pre-pivot (already live) East Rand **`ZAF-VEN-230`–`237`** also pipeline-fed
+- Skip → Addis launching-only; Guinea zero; further East Rand densify deferred
+- Ingest → **10/10** under-covered batch + prior 8/8 East Rand
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
