@@ -3,9 +3,11 @@
  * Drain soft-incomplete REVIEW_READY cards via ingest force-publish.
  *
  *   npm run catalog:drain-review-ready -- --limit=25
+ *   npm run catalog:drain-review-ready -- --camera=hataron-tul --limit=25
  *   npm run catalog:drain-review-ready:dry -- --limit=10
  *
- * Requires production (or preview) that supports POST /api/ingest {forcePublish:true}.
+ * Requires production (or preview) that supports POST /api/ingest {forcePublish:true}
+ * and camera-aware GET /api/machine/catalog (x-sportolok-camera).
  * Never invents phones — only promotes cards the gate already passed with soft gaps.
  */
 import { exitIfMongoEnv } from "./lib/refuseAgentMongo.ts";
@@ -16,6 +18,8 @@ type ReviewSample = {
   lastReason: string | null;
   listingId?: string | null;
 };
+
+type SportolokCamera = "itthon" | "hataron-tul";
 
 function argFlag(name: string): boolean {
   return process.argv.includes(name);
@@ -28,6 +32,14 @@ function argInt(name: string, fallback: number): number {
   return Number.isFinite(n) ? n : fallback;
 }
 
+function argCamera(): SportolokCamera | undefined {
+  const hit = process.argv.find((a) => a.startsWith("--camera="));
+  if (!hit) return undefined;
+  const v = hit.split("=")[1]?.trim();
+  if (v === "itthon" || v === "hataron-tul") return v;
+  throw new Error(`--camera must be itthon|hataron-tul, got ${v}`);
+}
+
 function loadConfig(): { baseUrl: string; apiKey: string } {
   const baseUrl =
     process.env.INGEST_BASE_URL ||
@@ -38,16 +50,24 @@ function loadConfig(): { baseUrl: string; apiKey: string } {
   return { baseUrl: baseUrl.replace(/\/$/, ""), apiKey };
 }
 
+function cameraHeaders(camera?: SportolokCamera): Record<string, string> {
+  if (!camera) return {};
+  return { "x-sportolok-camera": camera, "x-engine-city": camera };
+}
+
 async function main() {
   exitIfMongoEnv("drain-review-ready-ingest.ts");
   const dryRun = argFlag("--dry-run");
   const limit = argInt("--limit", 25);
+  const camera = argCamera();
   const cfg = loadConfig();
+  const cam = cameraHeaders(camera);
 
   const catalogRes = await fetch(`${cfg.baseUrl}/api/machine/catalog?limit=1`, {
-    headers: { "x-api-key": cfg.apiKey },
+    headers: { "x-api-key": cfg.apiKey, ...cam },
   });
   const catalog = (await catalogRes.json()) as {
+    city?: string | null;
     triage?: {
       byState?: Record<string, number>;
       reviewReadySoftIncomplete?: number;
@@ -89,6 +109,7 @@ async function main() {
       headers: {
         "content-type": "application/json",
         "x-api-key": cfg.apiKey,
+        ...cam,
       },
       body: JSON.stringify({ id: card.id, forcePublish: true, reason }),
     });
@@ -121,7 +142,7 @@ async function main() {
   }
 
   const afterRes = await fetch(`${cfg.baseUrl}/api/machine/catalog?limit=1`, {
-    headers: { "x-api-key": cfg.apiKey },
+    headers: { "x-api-key": cfg.apiKey, ...cam },
   });
   const after = afterRes.ok ? ((await afterRes.json()) as { triage?: { byState?: Record<string, number> } }) : null;
 
@@ -129,14 +150,15 @@ async function main() {
     JSON.stringify(
       {
         job: "catalog:drain-review-ready",
+        camera: camera ?? null,
+        catalogCity: catalog.city ?? null,
         dryRun,
-        before: catalog.triage?.byState,
-        reviewReadySoftIncomplete: catalog.triage?.reviewReadySoftIncomplete,
-        attempted: toDrain.length,
+        considered: toDrain.length,
         published,
         refused,
         errors,
-        after: after?.triage?.byState ?? null,
+        byStateBefore: catalog.triage?.byState ?? null,
+        byStateAfter: after?.triage?.byState ?? null,
         results,
       },
       null,
