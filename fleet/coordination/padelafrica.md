@@ -1483,3 +1483,23 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **6/6** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-28 — padelafrica (tick ~01:05–01:28 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_02f0b163-…`).
+
+**Pipeline:** `pipeline:feed-discovered` **×2** (limit 30) → **60/60** reprocess ok.
+
+**Quality:** 532 scanned, **1 below → 0 applied** (TUN-019 skip_closed). **At ceiling** — About ≥75; improve is not a delivery lever.
+
+**Fair-use:** pass 76 (28 sources). Quiet — no new `needs_verify`.
+
+**FIND (under-covered — no East Rand):**
+- Botswana Maun → **`BWA-VEN-005` BMC Maun Sports Club Padel** DISCOVERED
+- Namibia Windhoek → **`NAM-VEN-008` Elisenheim Padel** DISCOVERED
+- Burundi → **`BDI-VEN-001`** social/geo enrich (IG + ESB pin) re-ingested
+- Skip → Addis launching; Pemba contact-thin; Henties Matchpoint unpublished; Matola Spain collision
+- Ingest → **3/3** ingest ok
+
+**Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.

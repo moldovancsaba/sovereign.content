@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-09-28T01:05:00Z",
+  "observedAt": "2026-09-28T01:28:00Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -14,7 +14,7 @@
     "skippedManagementMongoCatalogJobs": true,
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
-    "fairUsePassCount": 75,
+    "fairUsePassCount": 76,
     "refuseAgentMongoGuards": true,
     "pipelineFeedDiscovered": true,
     "pipelineFeedRanThisTick": true,
@@ -26,7 +26,7 @@
     "preferUnderCoveredCountries": true
   },
   "outcomes": {
-    "qualityLoopScanned": 526,
+    "qualityLoopScanned": 532,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
     "qualityAtCeiling": true,
@@ -35,41 +35,39 @@
     "pipelineFeedOk": 60,
     "pipelineFeedFailed": 0,
     "pipelineFeedLimit": 30,
-    "fairUsePass": 75,
+    "fairUsePass": 76,
     "fairUsePendingAfterTriage": 0,
     "findSeeded": [
-      "GHA-VEN-008",
-      "GHA-VEN-009",
-      "GHA-VEN-010",
-      "GHA-VEN-011",
-      "AGO-VEN-017",
-      "MOZ-VEN-005"
+      "BWA-VEN-005",
+      "NAM-VEN-008"
     ],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
-    "findSocialContactEnrichment": [],
+    "findSocialContactEnrichment": [
+      "BDI-VEN-001"
+    ],
     "findSkippedDuplicate": [],
     "findZeroResult": [
-      "Ghana Kumasi/Takoradi/Cape Coast \u2014 no verified operating clubs",
-      "Pamela Enterprises Tema \u2014 contact-thin / likely non-court (skipped)",
-      "Elite Padel Matola \u2014 hiring only, address thin (skipped)",
-      "Maykari Douala \u2014 residents/hotel public access unclear (skipped)"
+      "Ethiopia Addis Padel Club \u2014 still launching/hiring",
+      "Pemba Mozambique \u2014 press mention only, no club contact",
+      "Jakkalspits Henties Bay \u2014 Matchpoint/phone not published",
+      "Matola Mozambique \u2014 Spanish namesake collision; A1 contact thin"
     ],
     "findSkipped": [
-      "East Rand / Gauteng densify deferred \u2014 under-covered GH/AO/MZ preferred"
+      "East Rand / Gauteng densify deferred \u2014 under-covered BW/NA/BI preferred"
     ],
-    "ingestDiscoveredOk": 6,
+    "ingestDiscoveredOk": 3,
     "ingestEvidence": [
-      "content.padelafrica/scripts/data/tick-ingest-2026-09-28-41.json"
+      "content.padelafrica/scripts/data/tick-ingest-2026-09-28-42.json"
     ],
     "pipelineFeedEvidence": [
-      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-28T00-37-53-013Z.json",
-      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-28T00-53-05-737Z.json"
+      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-28T01-05-31-194Z.json",
+      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-28T01-06-31-168Z.json"
     ],
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick 25: pipeline:feed-discovered x2 (60 reprocess) on every-tick path. Quality at ceiling (0 applied; \u226575). FIND under-covered GH 008-011 + AO CPA 017 + MZ Play Padel 005. Fair-use 75 rejected 120 Padel Mexico. Not claiming PUBLISHED."
+    "note": "Tick 26: pipeline:feed-discovered x2 (60). Quality at ceiling (0 applied; \u226575). FIND under-covered BW Maun + NA Elisenheim + BI enrich. Fair-use 76 quiet. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "resolvedDebt": [
@@ -83,7 +81,7 @@
   ],
   "client": "padelafrica",
   "date": "2026-09-28",
-  "updatedAt": "2026-09-28T01:05:00Z",
+  "updatedAt": "2026-09-28T01:28:00Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_02f0b163-6b82-4e3d-b3c2-f2a340282c4f",
