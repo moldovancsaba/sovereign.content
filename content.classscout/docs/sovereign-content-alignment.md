@@ -1,10 +1,5 @@
 # Sovereign Content alignment (ClassScout)
 
-**Storage (BINDING):** [`sovereign-content-storage.md`](sovereign-content-storage.md) — product vs
-`sovereign.content/content.classscout/` agent home · migration inventory
-[`reports/sovereign-content-classscout-migration.md`](reports/sovereign-content-classscout-migration.md) ·
-rule **454**.
-
 **Cross-vertical SSOT:** [https://sovereigncontent.messmass.com](https://sovereigncontent.messmass.com)  
 **Jobs / Cursor / Adopting / Implement:**
 [Jobs](https://sovereigncontent.messmass.com/jobs) ·
@@ -12,13 +7,11 @@ rule **454**.
 [Adopting](https://sovereigncontent.messmass.com/adopting) ·
 [Implement](https://sovereigncontent.messmass.com/implement)  
 **This vertical’s runner SSOT:** [`catalog-find-improve-loop.md`](catalog-find-improve-loop.md)  
-**Business rules:** [`business-rules.md`](business-rules.md) rule **450** (self-heal / About bar / archive) · **452** (orchestration gaps) · **453** (smart delivery) · **454** (agent storage) · aliases live in this doc (not rule 434)
+**Business rules:** [`business-rules.md`](business-rules.md) rule **434** (aliases) · **450** (self-heal / About bar / archive) · **452** (orchestration gaps: until-found, contact enrich, cron twins) · **453** (smart delivery: reasoned reports + auto vs HitL)
 
 ClassScout keeps its battle-tested Find/Improve forever loop. Sovereign Content supplies the
 portable job vocabulary and adoption playbook used across verticals (Padel Africa / management
-first). **Agent runners are migrating to `sovereign.content/content.classscout/`** (client-folder model);
-today they still run from `scripts/catalog-loop/` in this product repo (transitional). This doc is
-the **alias map + how we run the SC job names here** — not a second doctrine.
+first). This doc is the **alias map + how we run the SC job names here** — not a second doctrine.
 Copy contracts from padel job examples; do **not** copy padel fixtures or switch media to OG scrape.
 
 ## Intentional product diffs (keep)
@@ -44,8 +37,10 @@ Copy contracts from padel job examples; do **not** copy padel fixtures or switch
 | `catalog:find --until-found` | Scarcity briefs + one-seed stop; agent WebSearch path | `npm run catalog:find -- --until-found` |
 | `catalog:archive-snapshot` | Dated JSON facts under `archive/classscout/content/` | `npm run catalog:archive-snapshot` |
 | `serving:reconcile` | Sparse-timer after about/quality/hygiene (auto unless `--no-serving-reconcile`) | `npm run serving:reconcile` |
-| Continuous Find+Improve | `forever.sh` (self-heal → improve → Find-or-defer) | `npm run catalog-loop:forever` |
-| Sparse timer ticks | `sparse-timer.sh` | `npm run catalog-loop:sparse-timer` |
+| Continuous Find+Improve | `forever.sh` (Find-first; self-heal → Find → Improve) + `watchdog-loop.sh` | `npm run catalog-loop:forever` · `npm run catalog-loop:watchdog-loop` |
+| Sparse timer ticks | `sparse-timer.sh` (`--with-watchdog` / `--with-find-on-stall` / `--with-fleet-inbox`) | `npm run catalog-loop:sparse-timer` |
+| Fleet SWOT inbox signal | `fleet-inbox-status.cjs` → `fleet/inbox/classscout/status-DATE.json` (rule 471) | `npm run catalog-loop:fleet-inbox -- --push` |
+| Loop status / stall | `loop-status.json` (last Find / forever alive / recentRuns) | `npm run catalog-loop:status` |
 | Cron ↔ CLI twins | `check:cron-cli-twins` in the delivery gauntlet | `npm run check:cron-cli-twins` |
 
 Legacy `catalog-loop:*` names remain the primary day-to-day aliases. SC names are thin twins so
@@ -97,7 +92,7 @@ Override: `CATALOG_SELF_HEAL_FORCE_FIND=1` or `CATALOG_SELF_HEAL_DEFER_FIND=0`.
 | **Auto** | chrome strip, About compose from facts, contact from official page, evidence Improve, seed Tier A pause, defer Find | forever / `--apply-auto` |
 | **HitL (owner review)** | hide/quarantine, duplicate twin hide, invent address/contact, exhausted address decision, until-found publish, media policy change, operator note → About | review-packet checklist |
 
-Reports live under `scripts/catalog-loop/data/self-heal-reports/` (`latest.md` + `review-packet-latest.json`).
+Reports live under `scripts/catalog-loop/data/self-heal-reports/` (`latest.md` + `review-packet-latest.json`). <!-- doc-symbols-allow: runtime output, gitignored (/scripts/catalog-loop/data/**) -->
 They are reasoned write-ups (verdict, samples, owner questions) — not mechanical KPI dumps.
 
 **Operator `/stats` feedback:** intake opens improve recommendations and lessons. The note is stored
@@ -134,9 +129,8 @@ npm run catalog:archive-snapshot -- --dry-run --limit 5
 npm run catalog:archive-snapshot
 ```
 
-Mongo remains live SSOT. Snapshots hold listing facts + media URLs — never binaries.
-**Agent code TARGET** is `sovereign.content/content.classscout/` (rule 454); process doctrine stays on the
-SC site root. Do not park listing About/media in `sovereign.content`.
+Mongo remains live SSOT. Snapshots hold listing facts + media URLs — never binaries, never into
+`sovereign.content`.
 
 ## Cron ↔ CLI twins
 
@@ -166,16 +160,12 @@ File process (not catalog) recommendations so other verticals inherit them — e
 (#6–#21).
 
 **Filed 2026-09-24** — #22 city/borough · #23 chatbot About · #24 self-heal/archive twins ·
-[#25 until-found / contact enrich / cron-cli-twins](https://github.com/moldovancsaba/sovereign.content/issues/25) ·
-[#27 client folders (`content.classscout/` / `sportolok/` / `content.padelafrica/`)](https://github.com/moldovancsaba/sovereign.content/issues/27)
-(storage model; #26 was an accidental probe).
+[#25 until-found / contact enrich / cron-cli-twins](https://github.com/moldovancsaba/sovereign.content/issues/25).
 
 ## Agent pointers
 
-- **Where code/docs live (BINDING):** [`sovereign-content-storage.md`](sovereign-content-storage.md)
 - Cross-vertical doctrine / jobs / Cursor playbook: `https://sovereigncontent.messmass.com`
 - ClassScout loop ops: this file + [`catalog-find-improve-loop.md`](catalog-find-improve-loop.md)
-- Migration inventory: [`reports/sovereign-content-classscout-migration.md`](reports/sovereign-content-classscout-migration.md)
 - Self-heal / feedback effectiveness audit + build plan:
   [`reports/self-heal-feedback-audit-plan.md`](reports/self-heal-feedback-audit-plan.md)
 - ClassScout system map: [`INDEX.md`](INDEX.md)
