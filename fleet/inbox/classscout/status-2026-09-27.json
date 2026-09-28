@@ -1,0 +1,63 @@
+{
+  "clientId": "classscout",
+  "observedAt": "2026-09-27T21:46:02.694Z",
+  "source": "product-self-heal-report-backfill",
+  "workingEnv": {
+    "timerSubscribed": true,
+    "timerName": "classscout-find-tick",
+    "foreverProcessUp": true,
+    "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
+    "canonicalAgentHome": "sovereign.content/content.classscout",
+    "cutoverComplete": false,
+    "cutoverStep1Started": false,
+    "cutoverHoldReason": "deferred_visibility_first",
+    "backfill": true,
+    "backfillFrom": "2026-09-27T21-46-02-694Z.json",
+    "enginesMergedWithPadel": false
+  },
+  "outcomes": {
+    "find_publish_recent_24h": 318,
+    "improve_applied_recent_24h": 70,
+    "find_skip_recent_24h": 497,
+    "find_deferred_recent_24h": 11,
+    "contact_no_evidence_recent_24h": 30,
+    "event_count_24h": 5675,
+    "loop_up": true,
+    "self_heal_defer_find": true,
+    "self_heal_priority_open": 8,
+    "self_heal_weak_about_open": 0,
+    "self_heal_contact_debt_open": 6,
+    "auto_delivery_kinds": 1,
+    "hitl_review_kinds": 2,
+    "auto_provider_hint": 25,
+    "hitl_provider_hint": 89,
+    "scarcity_brief_freshness": "hourly",
+    "tier_a_auto_pause_health": "active",
+    "note": "Backfilled from local self-heal report — lasting_public_rate omitted (not invent)."
+  },
+  "openDebt": [
+    {
+      "kind": "priority_open",
+      "n": 8
+    },
+    {
+      "kind": "contact_debt_open",
+      "n": 6
+    },
+    {
+      "kind": "cutover_step1",
+      "n": 1
+    }
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/classscout.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/inbox/README.md"
+  ],
+  "date": "2026-09-27",
+  "updatedAt": "2026-09-28T00:20:01.313Z",
+  "timer": {
+    "name": "classscout-find-tick",
+    "stillSubscribed": true,
+    "delaySeconds": 3600
+  }
+}
