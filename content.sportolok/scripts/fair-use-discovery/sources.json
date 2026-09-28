@@ -6,6 +6,50 @@
   "defaultCooldownSec": 600,
   "sources": [
     {
+      "id": "mhssz-maszotermek",
+      "name": "MHSSZ — mászótermek directory",
+      "url": "https://mhssz.hu/versenymaszas/maszotermek/",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "climbing"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "magyaruszodak-home",
+      "name": "Magyar Uszodák — national pool directory",
+      "url": "https://www.magyaruszodak.hu/",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "swimming"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "budapest-padel",
+      "name": "Budapest Padel — venue page",
+      "url": "https://budapestpadel.hu/",
+      "cooldownSec": 1800,
+      "territory": "HUN-BUD",
+      "activityTypes": [
+        "racket-sports"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "duna-padel",
+      "name": "Duna Padel Budafok — venue page",
+      "url": "https://dunapadel.hu/",
+      "cooldownSec": 1800,
+      "territory": "HUN-BUD",
+      "activityTypes": [
+        "racket-sports"
+      ],
+      "status": "active"
+    },
+    {
       "id": "nsu-letesitmeny-catalog",
       "name": "NSÜ létesítmény katalógus (összes típus)",
       "url": "https://nsu.hu/wp-json/wp/v2/letesitmeny?per_page=100&_fields=id,link,title,class_list",

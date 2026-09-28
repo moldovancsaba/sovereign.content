@@ -9705,5 +9705,91 @@
     },
     "confidence": "medium",
     "status": "ingested"
+  },
+  "seed-hun-uivvhx": {
+    "seedId": "seed-hun-uivvhx",
+    "discoveryDate": "2026-09-28",
+    "researchSources": [
+      {
+        "sourceId": "mhssz-maszotermek",
+        "url": "https://mhssz.hu/versenymaszas/maszotermek/",
+        "discoveredAt": "2026-09-28T00:21:40.957Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "climbing",
+    "initialFacts": {
+      "name": "Mászótermek",
+      "address": "3533 Miskolc, Ó-gyár tér 1.",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-68l3fi": {
+    "seedId": "seed-hun-68l3fi",
+    "discoveryDate": "2026-09-28",
+    "researchSources": [
+      {
+        "sourceId": "magyaruszodak-home",
+        "url": "https://www.magyaruszodak.hu/uszoda/termalfurdo-es-kemping-letenye/",
+        "discoveredAt": "2026-09-28T00:21:41.811Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Kisteleki Termálfürdő",
+      "address": "Csongrád, Hungary",
+      "contact": {}
+    },
+    "confidence": "medium",
+    "status": "ingested"
+  },
+  "seed-hun-u4nqhy": {
+    "seedId": "seed-hun-u4nqhy",
+    "discoveryDate": "2026-09-28",
+    "researchSources": [
+      {
+        "sourceId": "budapest-padel",
+        "url": "https://budapestpadel.hu/",
+        "discoveredAt": "2026-09-28T00:21:43.885Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "racket-sports",
+    "initialFacts": {
+      "name": "BUDAPEST PADEL – Padel élmény kimaxolva",
+      "address": "1163 Budapest, Kövirózsa utca",
+      "contact": {
+        "phone": "+36705540071",
+        "email": "budapestpadel@gmail.com"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
+  },
+  "seed-hun-blnqb4": {
+    "seedId": "seed-hun-blnqb4",
+    "discoveryDate": "2026-09-28",
+    "researchSources": [
+      {
+        "sourceId": "duna-padel",
+        "url": "https://dunapadel.hu/",
+        "discoveredAt": "2026-09-28T00:21:49.133Z"
+      }
+    ],
+    "territory": "HUN-BUD",
+    "activityType": "racket-sports",
+    "initialFacts": {
+      "name": "Duna Padel Budapest (Budafok) – Fedett padel pályák",
+      "address": "1222 Budapest, Gyár u. 15., \"M\" Csarnok",
+      "contact": {
+        "phone": "+36301305505",
+        "email": "info@dunapadel.hu"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
   }
 }

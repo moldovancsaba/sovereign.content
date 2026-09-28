@@ -41,8 +41,17 @@ const SOURCES_FILE = path.join(SCRIPT_DIR, "sources.json");
 const STATE_FILE = path.join(SCRIPT_DIR, "data", "source-state.json");
 const FIND_SEEDS_FILE = path.join(SCRIPT_DIR, "data", "find-seeds.json");
 
+function argInt(name: string, fallback: number): number {
+  const hit = process.argv.find((a) => a.startsWith(`${name}=`));
+  if (!hit) return fallback;
+  const n = parseInt(hit.split("=")[1], 10);
+  return Number.isFinite(n) ? n : fallback;
+}
+
 async function main() {
   const dryRun = process.argv.includes("--dry-run");
+  const limit = argInt("--limit", 99);
+  const skipSleep = process.argv.includes("--no-sleep");
 
   console.log("🚀 Sportolok Fair-Use Discovery - One Pass");
   console.log(`   Mode: ${dryRun ? "DRY RUN" : "LIVE"}`);
@@ -71,11 +80,12 @@ async function main() {
 
   // Filter ready sources
   const activeSources = registry.sources.filter((s) => s.status === "active" || s.status === "planned");
-  const readySources = activeSources.filter((source) =>
+  let readySources = activeSources.filter((source) =>
     isSourceReady(state[source.id], source.cooldownSec, nowMs)
   );
+  if (limit < readySources.length) readySources = readySources.slice(0, limit);
 
-  console.log(`✅ ${readySources.length} sources ready (${activeSources.length - readySources.length} on cooldown)`);
+  console.log(`✅ ${readySources.length} sources ready (${activeSources.length - readySources.length} on cooldown; limit=${limit})`);
   console.log("");
 
   if (readySources.length === 0) {
@@ -115,8 +125,8 @@ async function main() {
 
     console.log("");
 
-    // Inter-source delay
-    if (i < readySources.length - 1) {
+    // Inter-source delay (skip with --no-sleep for agent ticks)
+    if (i < readySources.length - 1 && !skipSleep) {
       await sleepBetweenSources(registry.defaultInterSourceSec);
     }
   }

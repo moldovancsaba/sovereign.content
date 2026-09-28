@@ -1,12 +1,12 @@
 {
   "nsu-letesitmeny-catalog": {
     "sourceId": "nsu-letesitmeny-catalog",
-    "lastFetchMs": 1790444888951,
+    "lastFetchMs": 1790554900253,
     "lastStatus": "ok"
   },
   "nsu-cat-sportletesitmenyek": {
     "sourceId": "nsu-cat-sportletesitmenyek",
-    "lastFetchMs": 1790444888951,
+    "lastFetchMs": 1790554900253,
     "lastStatus": "ok"
   },
   "nsu-cat-olimpiai-kozpontok": {
@@ -142,6 +142,26 @@
   "schools-debrecen-hu-hu-debreceni-oktatas": {
     "sourceId": "schools-debrecen-hu-hu-debreceni-oktatas",
     "lastFetchMs": 1790444888951,
+    "lastStatus": "ok"
+  },
+  "mhssz-maszotermek": {
+    "sourceId": "mhssz-maszotermek",
+    "lastFetchMs": 1790554900253,
+    "lastStatus": "ok"
+  },
+  "magyaruszodak-home": {
+    "sourceId": "magyaruszodak-home",
+    "lastFetchMs": 1790554900253,
+    "lastStatus": "ok"
+  },
+  "budapest-padel": {
+    "sourceId": "budapest-padel",
+    "lastFetchMs": 1790554900253,
+    "lastStatus": "ok"
+  },
+  "duna-padel": {
+    "sourceId": "duna-padel",
+    "lastFetchMs": 1790554900253,
     "lastStatus": "ok"
   }
 }

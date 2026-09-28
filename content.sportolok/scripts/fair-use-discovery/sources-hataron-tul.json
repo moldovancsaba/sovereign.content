@@ -113,6 +113,17 @@
       "camera": "hataron-tul",
       "activityTypes": ["various"],
       "status": "active"
+    },
+    {
+      "id": "ht-sk-adatbank-intezmenyek",
+      "name": "Szlovákiai Magyar Adatbank — intézmények, szervezetek",
+      "url": "https://intezmenyek-szervezetek.adatbank.sk/",
+      "cooldownSec": 900,
+      "territory": "HATARON-TUL",
+      "countryCode": "SK",
+      "camera": "hataron-tul",
+      "activityTypes": ["various", "football", "fitness"],
+      "status": "active"
     }
   ]
 }
