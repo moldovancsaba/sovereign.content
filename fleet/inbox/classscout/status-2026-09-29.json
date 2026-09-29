@@ -1,12 +1,12 @@
 {
   "clientId": "classscout",
-  "observedAt": "2026-09-29T07:03:42.835Z",
+  "observedAt": "2026-09-29T21:09:17.401Z",
   "source": "product-catalog-loop-forever",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "classscout-find-tick",
-    "foreverProcessUp": true,
-    "foreverPid": 814823,
+    "foreverProcessUp": false,
+    "foreverPid": 817713,
     "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
     "canonicalAgentHome": "sovereign.content/content.classscout",
     "cutoverComplete": false,
@@ -30,32 +30,29 @@
     "find_publish_recent_public_target": 0,
     "improve_applied_hourly": 1,
     "improve_recommend_open": 11,
-    "improve_cycle": 863,
+    "improve_cycle": 866,
     "seeds_pending": 0,
     "fair_use_funnel": "0→0 seeds / 0 rejects",
-    "loop_up": true,
-    "find_stalled": false,
-    "find_age_sec": 137,
+    "loop_up": false,
+    "find_stalled": true,
+    "find_age_sec": 50121,
     "scarcity_brief_freshness": "hourly",
     "tier_a_auto_pause_health": "active",
-    "self_heal_defer_find": true,
-    "self_heal_priority_open": 13,
-    "self_heal_weak_about_open": 4,
+    "self_heal_defer_find": false,
+    "self_heal_priority_open": 0,
+    "self_heal_weak_about_open": 0,
     "lessons_open": 0,
     "recent_publishes": []
   },
   "openDebt": [
     {
-      "kind": "priority_open",
-      "n": 13
+      "kind": "find_stalled",
+      "n": 1,
+      "ageSec": 50121
     },
     {
-      "kind": "weak_about_open",
-      "n": 4
-    },
-    {
-      "kind": "contact_debt_open",
-      "n": 9
+      "kind": "forever_down",
+      "n": 1
     },
     {
       "kind": "cutover_step1",
@@ -68,7 +65,7 @@
     "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
   ],
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T07:03:42.835Z",
+  "updatedAt": "2026-09-29T21:09:17.401Z",
   "timer": {
     "name": "classscout-find-tick",
     "stillSubscribed": true,
