@@ -1,0 +1,78 @@
+{
+  "clientId": "classscout",
+  "observedAt": "2026-09-29T07:02:58.314Z",
+  "source": "classscout-find-tick",
+  "workingEnv": {
+    "timerSubscribed": true,
+    "timerName": "classscout-find-tick",
+    "foreverProcessUp": true,
+    "foreverPid": 814823,
+    "foreverRunsFrom": "moldovancsaba/classscout/scripts/catalog-loop",
+    "canonicalAgentHome": "sovereign.content/content.classscout",
+    "cutoverComplete": false,
+    "cutoverStep1Started": false,
+    "cutoverHoldReason": "deferred_visibility_first",
+    "stepTimeoutsEnabled": true,
+    "findFirstEnabled": true,
+    "externalWatchdog": true,
+    "singleSlotForever": true,
+    "ingestOnly": "partial",
+    "enginesMergedWithPadel": false,
+    "watchdogAction": "restart_find_dark_2x"
+  },
+  "outcomes": {
+    "lasting_public_rate": 0.7494824016563147,
+    "find_lasting_public": "362/483",
+    "find_smoke_pass": 0,
+    "find_smoke_fail": 0,
+    "find_publish_total_hourly": 0,
+    "find_public_new_hourly": 0,
+    "find_publish_recent_3h": 0,
+    "find_publish_recent_public_target": 0,
+    "improve_applied_hourly": 0,
+    "improve_recommend_open": 13,
+    "improve_cycle": 862,
+    "seeds_pending": 0,
+    "fair_use_funnel": "0→0 seeds / 0 rejects",
+    "loop_up": true,
+    "find_stalled": false,
+    "find_age_sec": 80,
+    "scarcity_brief_freshness": "hourly",
+    "tier_a_auto_pause_health": "active",
+    "self_heal_defer_find": true,
+    "self_heal_priority_open": 13,
+    "self_heal_weak_about_open": 4,
+    "lessons_open": 0,
+    "recent_publishes": []
+  },
+  "openDebt": [
+    {
+      "kind": "priority_open",
+      "n": 13
+    },
+    {
+      "kind": "weak_about_open",
+      "n": 4
+    },
+    {
+      "kind": "contact_debt_open",
+      "n": 9
+    },
+    {
+      "kind": "cutover_step1",
+      "n": 1
+    }
+  ],
+  "links": [
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/coordination/classscout.md",
+    "https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/inbox/README.md",
+    "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
+  ],
+  "date": "2026-09-29",
+  "updatedAt": "2026-09-29T07:02:58.314Z",
+  "timer": {
+    "name": "classscout-find-tick",
+    "stillSubscribed": true,
+    "delaySeconds": 3600
+  }
+}
