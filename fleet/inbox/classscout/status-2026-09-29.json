@@ -1,6 +1,6 @@
 {
   "clientId": "classscout",
-  "observedAt": "2026-09-29T07:01:25.082Z",
+  "observedAt": "2026-09-29T07:02:25.198Z",
   "source": "product-catalog-loop-forever",
   "workingEnv": {
     "timerSubscribed": true,
@@ -34,21 +34,28 @@
     "seeds_pending": 0,
     "fair_use_funnel": "3→0 seeds / 2 rejects",
     "loop_up": true,
-    "find_stalled": true,
-    "find_age_sec": 73007,
+    "find_stalled": false,
+    "find_age_sec": 59,
     "scarcity_brief_freshness": "hourly",
     "tier_a_auto_pause_health": "active",
     "self_heal_defer_find": false,
-    "self_heal_priority_open": 0,
-    "self_heal_weak_about_open": 0,
+    "self_heal_priority_open": 13,
+    "self_heal_weak_about_open": 4,
     "lessons_open": 0,
     "recent_publishes": []
   },
   "openDebt": [
     {
-      "kind": "find_stalled",
-      "n": 1,
-      "ageSec": 73007
+      "kind": "priority_open",
+      "n": 13
+    },
+    {
+      "kind": "weak_about_open",
+      "n": 4
+    },
+    {
+      "kind": "contact_debt_open",
+      "n": 9
     },
     {
       "kind": "cutover_step1",
@@ -61,7 +68,7 @@
     "https://github.com/moldovancsaba/classscout/blob/main/docs/sovereign-content-alignment.md"
   ],
   "date": "2026-09-29",
-  "updatedAt": "2026-09-29T07:01:25.082Z",
+  "updatedAt": "2026-09-29T07:02:25.198Z",
   "timer": {
     "name": "classscout-find-tick",
     "stillSubscribed": true,
