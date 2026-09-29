@@ -6,6 +6,40 @@
   "defaultCooldownSec": 600,
   "sources": [
     {
+      "id": "gyor-aqua-sport",
+      "name": "Győr Aqua Sportközpont",
+      "url": "https://gyorprojekt.hu/aqua-sport-kozpont/rolunk",
+      "cooldownSec": 1800,
+      "territory": "HUN",
+      "activityTypes": [
+        "swimming"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "nyiregyhazi-sportcentrum",
+      "name": "Nyíregyházi Sportcentrum",
+      "url": "https://nyiregyhazisc.hu/",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "various"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "nyir-mozdulj-helyszinek",
+      "name": "Mozdulj Nyíregyháza — helyszínek",
+      "url": "https://mozduljnyiregyhaza.hu/helyszinek",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "various",
+        "swimming"
+      ],
+      "status": "active"
+    },
+    {
       "id": "pecs-uszas",
       "name": "Pécs — úszás page",
       "url": "https://pecs.hu/uszas/",

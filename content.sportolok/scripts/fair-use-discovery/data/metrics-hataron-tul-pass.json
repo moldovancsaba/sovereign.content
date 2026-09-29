@@ -1,21 +1,37 @@
 {
-  "updatedAt": "2026-09-28T00:23:25.161Z",
+  "updatedAt": "2026-09-29T20:17:54.744Z",
   "job": "fair-use:hataron-tul-pass",
   "camera": "hataron-tul",
   "label": "Határon túl",
   "dryRun": false,
-  "sourcesProcessed": 1,
-  "candidates": 0,
+  "sourcesProcessed": 2,
+  "candidates": 54,
   "hataronTulSeedsTotal": 54,
   "hataronTulPending": 0,
   "perSource": [
     {
-      "sourceId": "ht-sk-adatbank-intezmenyek",
-      "countryCode": "SK",
+      "sourceId": "ht-ro-erdelystat-civil-sport",
+      "countryCode": "RO",
       "success": true,
-      "candidates": 0,
+      "candidates": 50,
       "droppedJunk": 0,
-      "sample": []
+      "sample": [
+        "Agyagfalvi Lendület Sportklub",
+        "Aranykalász Kulturális, Ifjúsági és Sportegyesület",
+        "Barót Városi Sportklub Egyesület"
+      ]
+    },
+    {
+      "sourceId": "ht-ro-civilportal-database",
+      "countryCode": "RO",
+      "success": true,
+      "candidates": 4,
+      "droppedJunk": 0,
+      "sample": [
+        "Fejér Sportklub",
+        "Góbék A Sportért Egyesület Sportegyesület",
+        "Unirea Érmihályfalvi Sportklub Egyesület"
+      ]
     }
   ],
   "note": "Discovery done. Enrich with fair-use:enrich --camera=hataron-tul after management cities deploy."

@@ -9835,5 +9835,140 @@
     },
     "confidence": "high",
     "status": "ingested"
+  },
+  "seed-hun-jezopg": {
+    "seedId": "seed-hun-jezopg",
+    "discoveryDate": "2026-09-29",
+    "researchSources": [
+      {
+        "sourceId": "nyiregyhazi-sportcentrum",
+        "url": "https://nyiregyhazisc.hu/",
+        "discoveredAt": "2026-09-29T20:18:47.221Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Nyíregyházi Sportcentrum",
+      "address": "4400 Nyíregyháza, Géza u. 8-16.",
+      "contact": {
+        "email": "titkarsag@nyiregyhazisc.hu",
+        "website": "https://nyiregyhazisc.hu/"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested",
+    "camera": "itthon"
+  },
+  "seed-hun-r9jin": {
+    "seedId": "seed-hun-r9jin",
+    "discoveryDate": "2026-09-29",
+    "researchSources": [
+      {
+        "sourceId": "nyir-mozdulj-helyszinek",
+        "url": "https://mozduljnyiregyhaza.hu/helyszinek",
+        "discoveredAt": "2026-09-29T20:18:48.003Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Helyszínek – Mozdulj Nyíregyháza!",
+      "contact": {}
+    },
+    "confidence": "low",
+    "status": "rejected"
+  },
+  "seed-hun-nyir-uszoda": {
+    "seedId": "seed-hun-nyir-uszoda",
+    "discoveryDate": "2026-09-29",
+    "status": "ingested",
+    "confidence": "high",
+    "territory": "HUN",
+    "camera": "itthon",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Városi Uszoda Nyíregyháza",
+      "address": "4400 Nyíregyháza",
+      "contact": {
+        "website": "https://mozduljnyiregyhaza.hu/helyszinek"
+      }
+    },
+    "researchSources": [
+      {
+        "sourceId": "nyir-mozdulj-helyszinek",
+        "url": "https://mozduljnyiregyhaza.hu/helyszinek",
+        "discoveredAt": "2026-09-29T20:19:18.773228Z"
+      }
+    ]
+  },
+  "seed-hun-nyir-arena": {
+    "seedId": "seed-hun-nyir-arena",
+    "discoveryDate": "2026-09-29",
+    "status": "ingested",
+    "confidence": "high",
+    "territory": "HUN",
+    "camera": "itthon",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Continental Arena",
+      "address": "4400 Nyíregyháza, Géza u. 8-16.",
+      "contact": {
+        "website": "https://mozduljnyiregyhaza.hu/helyszinek"
+      }
+    },
+    "researchSources": [
+      {
+        "sourceId": "nyir-mozdulj-helyszinek",
+        "url": "https://mozduljnyiregyhaza.hu/helyszinek",
+        "discoveredAt": "2026-09-29T20:19:18.773228Z"
+      }
+    ]
+  },
+  "seed-hun-nyir-atletika": {
+    "seedId": "seed-hun-nyir-atletika",
+    "discoveryDate": "2026-09-29",
+    "status": "ingested",
+    "confidence": "high",
+    "territory": "HUN",
+    "camera": "itthon",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Atlétikai Centrum Nyíregyháza",
+      "address": "4400 Nyíregyháza",
+      "contact": {
+        "website": "https://mozduljnyiregyhaza.hu/helyszinek"
+      }
+    },
+    "researchSources": [
+      {
+        "sourceId": "nyir-mozdulj-helyszinek",
+        "url": "https://mozduljnyiregyhaza.hu/helyszinek",
+        "discoveredAt": "2026-09-29T20:19:18.773228Z"
+      }
+    ]
+  },
+  "seed-hun-nyir-jeg": {
+    "seedId": "seed-hun-nyir-jeg",
+    "discoveryDate": "2026-09-29",
+    "status": "ingested",
+    "confidence": "high",
+    "territory": "HUN",
+    "camera": "itthon",
+    "activityType": "various",
+    "initialFacts": {
+      "name": "Nyíregyháza Városi Jégpálya",
+      "address": "4400 Nyíregyháza, István u. 7.",
+      "contact": {
+        "website": "https://mozduljnyiregyhaza.hu/helyszinek"
+      }
+    },
+    "researchSources": [
+      {
+        "sourceId": "nyir-mozdulj-helyszinek",
+        "url": "https://mozduljnyiregyhaza.hu/helyszinek",
+        "discoveredAt": "2026-09-29T20:19:18.773228Z"
+      }
+    ]
   }
 }
