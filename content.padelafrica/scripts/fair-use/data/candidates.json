@@ -2892,5 +2892,22 @@
     "extractedAt": "2026-09-28T00:49:17.701Z",
     "rejectedAt": "2026-09-28T01:03:56.000Z",
     "note": "Out of scope \u2014 Tampico, Mexico (Americas), not Africa"
+  },
+  {
+    "candidateId": "fair-padelivu-padel-arena-berlin",
+    "sourceId": "padelivu",
+    "sourceName": "Padelivu",
+    "name": "Padel Arena Berlin",
+    "citationUrl": "https://padelivu.com/club/padel-arena-berlin",
+    "website": "",
+    "addressHint": "Haberstra\u00dfe 18, 12057, Berlin, Germany",
+    "researchSources": [
+      "https://padelivu.com/club/padel-arena-berlin"
+    ],
+    "researchNote": "Discovered via Padelivu fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar before fixture apply \u2014 phone/email optional; official WhatsApp/Instagram/Facebook/X count as contact; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected",
+    "extractedAt": "2026-09-29T21:09:23.635Z",
+    "rejectedAt": "2026-09-29T21:25:44.000Z",
+    "note": "Out of scope \u2014 Berlin, Germany (Europe), not Africa"
   }
 ]

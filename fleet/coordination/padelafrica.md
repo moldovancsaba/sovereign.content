@@ -1503,3 +1503,22 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **3/3** ingest ok
 
 **Inbox:** refreshed. HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-09-29 — padelafrica (tick ~21:00–21:26 UTC)
+
+**Timer:** `padel-find-tick` still subscribed (`sub_02f0b163-…`).
+
+**Pipeline:** `pipeline:feed-discovered` **×2** → **59/60** reprocess ok (AGO-VEN-017 mid-pipeline 409 once).
+
+**Quality:** 534 scanned, **1 below → 0 applied** (TUN-019 skip_closed). **At ceiling** — About ≥75; improve is not a delivery lever.
+
+**Fair-use:** pass 77 (28 sources). **Rejected** Padel Arena Berlin (Germany). `needs_verify` cleared.
+
+**FIND (under-covered — no East Rand):**
+- Zanzibar Shangani → **`TZA-VEN-010` Karibu Padel** DISCOVERED
+- Thin-country enrich → **BEN-001**, **MWI-003**, **RWA-001**, **GAB-001**, **COD-002** re-ingested
+- Skip → Jinja/Entebbe gaps; further Kigali densify; Mwanza Tennis Club contact-thin
+- Ingest → **6/6** ingest ok
+
+**Inbox:** refreshed (2026-09-29). HiTL none. `openDebt: []`. Not claiming PUBLISHED.

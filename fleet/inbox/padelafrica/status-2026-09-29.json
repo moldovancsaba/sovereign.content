@@ -1,0 +1,96 @@
+{
+  "clientId": "padelafrica",
+  "observedAt": "2026-09-29T21:26:00Z",
+  "source": "padel-find-tick",
+  "workingEnv": {
+    "timerSubscribed": true,
+    "timerName": "padel-find-tick",
+    "timerSubscriptionId": "sub_02f0b163-6b82-4e3d-b3c2-f2a340282c4f",
+    "ingestOnlyDoctrine": true,
+    "ingestOnlyReality": true,
+    "ingestApiKeyPresent": true,
+    "writesPath": "post_api_ingest",
+    "tickCompleted": true,
+    "skippedManagementMongoCatalogJobs": true,
+    "qualityLoop": "ingest_score_improve_encode",
+    "fairUseSources": 28,
+    "fairUsePassCount": 77,
+    "refuseAgentMongoGuards": true,
+    "pipelineFeedDiscovered": true,
+    "pipelineFeedRanThisTick": true,
+    "pipelineFeedEveryTick": true,
+    "coreReconcileHandshake": "reconciled_observed",
+    "evidencePhoneOptional": true,
+    "evidenceCityPinOk": true,
+    "evidenceSocialContactOk": true,
+    "preferUnderCoveredCountries": true
+  },
+  "outcomes": {
+    "qualityLoopScanned": 534,
+    "qualityLoopBelowThreshold": 1,
+    "qualityLoopApplied": 0,
+    "qualityAtCeiling": true,
+    "qualityNote": "Only TUN-VEN-019 below About target (skip_closed). Catalog otherwise \u226575 \u2014 improve is not a delivery lever this tick.",
+    "pipelineFeedBatches": 2,
+    "pipelineFeedOk": 59,
+    "pipelineFeedFailed": 1,
+    "pipelineFeedLimit": 30,
+    "pipelineFeedNote": "Batch A 30/30; batch B 29/30 (AGO-VEN-017 mid-pipeline 409 conflict)",
+    "fairUsePass": 77,
+    "fairUsePendingAfterTriage": 0,
+    "findSeeded": [
+      "TZA-VEN-010"
+    ],
+    "findPhoneBackfill": [],
+    "findBookingUrlBackfill": [],
+    "findSocialContactEnrichment": [
+      "BEN-VEN-001",
+      "MWI-VEN-003",
+      "RWA-VEN-001",
+      "GAB-VEN-001",
+      "COD-VEN-002"
+    ],
+    "findSkippedDuplicate": [],
+    "findZeroResult": [
+      "Uganda Jinja/Entebbe new clubs \u2014 none beyond Herman/Smash/Serena",
+      "Rwanda beyond Bounce/Mamba/Pinnacle \u2014 none verified",
+      "Mwanza Tennis Club padel \u2014 contact-thin vs Ryan's Bay already seeded"
+    ],
+    "findSkipped": [
+      "East Rand / Gauteng densify deferred \u2014 under-covered TZ/BJ/MW/RW/GA/CD preferred"
+    ],
+    "ingestDiscoveredOk": 6,
+    "ingestEvidence": [
+      "content.padelafrica/scripts/data/tick-ingest-2026-09-29-43.json"
+    ],
+    "pipelineFeedEvidence": [
+      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-29T21-01-00-296Z.json",
+      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-09-29T21-01-40-065Z.json"
+    ],
+    "publishedClaimed": false,
+    "hitlBacklog": 0,
+    "aboutDebtOpen": 0,
+    "note": "Tick 27: feed-discovered x2 (59 ok / 1 mid-pipeline). Quality at ceiling (0 applied; \u226575). FIND Karibu Zanzibar + thin-country enrich (BJ/MW/RW/GA/CD). Fair-use 77 rejected Berlin OOS. Not claiming PUBLISHED."
+  },
+  "openDebt": [],
+  "resolvedDebt": [
+    "ingest_backed_quality_loop_full_rewrite",
+    "discovered_to_published_pipeline_agent_feeder",
+    "day3_inbox_continuity_spike_gate",
+    "day3_inbox_calendar_2026-09-26",
+    "core_reconcile_release_padel_africa_awaiting_management",
+    "publish_evidence_phone_optional_city_pin_pr291",
+    "pipeline_feed_discovered_every_tick"
+  ],
+  "client": "padelafrica",
+  "date": "2026-09-29",
+  "updatedAt": "2026-09-29T21:26:00Z",
+  "timer": {
+    "name": "padel-find-tick",
+    "subscriptionId": "sub_02f0b163-6b82-4e3d-b3c2-f2a340282c4f",
+    "delaySeconds": 3600,
+    "stillSubscribed": true,
+    "promptIncludesFeedEveryTick": true,
+    "promptIncludesUnderCoveredPrefer": true
+  }
+}
