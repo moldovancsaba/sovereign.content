@@ -6,6 +6,29 @@
   "defaultCooldownSec": 600,
   "sources": [
     {
+      "id": "miskolc-dijak-sport",
+      "name": "Miskolc — sport page",
+      "url": "https://www.miskolc.hu/elet-a-varosban/sport/sportletesitmenyek",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "various"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "debrecen-sportcentrum",
+      "name": "Debreceni Sportcentrum",
+      "url": "https://www.debrecenisportcentrum.hu/",
+      "cooldownSec": 1200,
+      "territory": "HUN",
+      "activityTypes": [
+        "various",
+        "swimming"
+      ],
+      "status": "active"
+    },
+    {
       "id": "gyor-aqua-sport",
       "name": "Győr Aqua Sportközpont",
       "url": "https://gyorprojekt.hu/aqua-sport-kozpont/rolunk",

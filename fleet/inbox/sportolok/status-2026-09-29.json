@@ -4,29 +4,28 @@
   "tick": "sportolok-tick",
   "mm_sp": {
     "itthon": {
-      "P_before": 1066,
-      "P_after_drain": 1072,
-      "P_final": 1077,
-      "P_delta": 11,
+      "P_before": 1082,
+      "P_final": 1083,
+      "P_delta": 1,
       "D": 0,
       "REVIEW_READY": 3,
       "soft_incomplete": 0,
-      "listings": 1087
+      "listings": 1093
     },
     "hataron_tul_db": {
       "P": 54,
       "D": 0,
-      "QUARANTINED": 35,
+      "QUARANTINED": 36,
       "PARKED_COOLDOWN": 2,
-      "note": "No new HT DISCOVERED this tick; prior funnel still at P=54"
+      "note": "No new HT DISCOVERED; HT FIND pages already ingested"
     }
   },
   "actions": [
-    "quality-loop: 5 About patches via ingest",
-    "drain soft-incomplete: 7 forcePublish (6+1 uszoda) \u2192 P 1066\u21921077",
-    "FIND: Ny\u00edregyh\u00e1za Sportcentrum + arena/atletika/j\u00e9g \u2192 +4 PUBLISHED",
-    "about-curate: 2 improved",
-    "HT: idle at P=54 (no new DISCOVERED)"
+    "FIND: Debreceni Sportcentrum + Miskolc page; Debrecen ingested\u2192PUBLISHED",
+    "quality-loop: 3 About patches",
+    "about-curate: 1 improved",
+    "drain: soft=0 \u2014 no forcePublish",
+    "HT: idle at P=54"
   ],
-  "blocker": "PR #329 still OPEN \u2014 prod ingest {advance}/camera catalog not live"
+  "blocker": "PR #329 still OPEN \u2014 prod {advance}/camera catalog not live"
 }

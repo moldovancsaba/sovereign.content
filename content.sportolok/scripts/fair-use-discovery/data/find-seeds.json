@@ -9970,5 +9970,27 @@
         "discoveredAt": "2026-09-29T20:19:18.773228Z"
       }
     ]
+  },
+  "seed-hun-7pd98d": {
+    "seedId": "seed-hun-7pd98d",
+    "discoveryDate": "2026-09-29",
+    "researchSources": [
+      {
+        "sourceId": "debrecen-sportcentrum",
+        "url": "https://www.debrecenisportcentrum.hu/",
+        "discoveredAt": "2026-09-29T21:08:10.296Z"
+      }
+    ],
+    "territory": "HUN",
+    "activityType": "swimming",
+    "initialFacts": {
+      "name": "Debreceni Sportcentrum",
+      "address": "4032 Debrecen, Oláh Gábor u. 5.",
+      "contact": {
+        "email": "info@debrecenisportcentrum.hu"
+      }
+    },
+    "confidence": "high",
+    "status": "ingested"
   }
 }

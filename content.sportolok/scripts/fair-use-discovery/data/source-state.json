@@ -176,18 +176,28 @@
   },
   "gyor-aqua-sport": {
     "sourceId": "gyor-aqua-sport",
-    "lastFetchMs": 1790713124679,
+    "lastFetchMs": 1790716087150,
     "lastStatus": "error",
     "lastError": "HTTP 403: Forbidden"
   },
   "nyiregyhazi-sportcentrum": {
     "sourceId": "nyiregyhazi-sportcentrum",
-    "lastFetchMs": 1790713124679,
+    "lastFetchMs": 1790716087150,
     "lastStatus": "ok"
   },
   "nyir-mozdulj-helyszinek": {
     "sourceId": "nyir-mozdulj-helyszinek",
     "lastFetchMs": 1790713124679,
+    "lastStatus": "ok"
+  },
+  "miskolc-dijak-sport": {
+    "sourceId": "miskolc-dijak-sport",
+    "lastFetchMs": 1790716087150,
+    "lastStatus": "ok"
+  },
+  "debrecen-sportcentrum": {
+    "sourceId": "debrecen-sportcentrum",
+    "lastFetchMs": 1790716087150,
     "lastStatus": "ok"
   }
 }
