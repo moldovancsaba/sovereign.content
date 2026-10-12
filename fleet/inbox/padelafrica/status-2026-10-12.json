@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-10-12T20:10:00Z",
+  "observedAt": "2026-10-12T21:00:54Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -32,28 +32,27 @@
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
     "qualityAtCeiling": null,
-    "qualityNote": "Skipped — INGEST_API_KEY missing in Cloud Agent env; cannot reprocess.",
+    "qualityNote": "Skipped — INGEST_API_KEY still missing after second hourly fire.",
     "pipelineFeedBatches": 0,
     "pipelineFeedOk": 0,
     "pipelineFeedFailed": 0,
     "pipelineFeedLimit": 30,
-    "pipelineFeedNote": "Skipped — INGEST_API_KEY required by pipeline-feed-discovered.ts",
+    "pipelineFeedNote": "Skipped — INGEST_API_KEY required",
     "fairUsePass": 77,
     "fairUsePendingAfterTriage": 0,
-    "fairUseNote": "status-only this tick (pendingCandidates=0; lastPassAt 2026-09-29). No one-pass without ingest promote path.",
+    "fairUseNote": "No new pass; pendingCandidates still 0 from 2026-09-29 state.",
     "findSeeded": [],
     "findPhoneBackfill": [],
     "findBookingUrlBackfill": [],
     "findSocialContactEnrichment": [],
     "findSkippedDuplicate": [],
     "findResearchLeads": [
-      "Uganda PadelX Academy — active on padeluganda.com event listings; no independent street/phone/official social verified this tick (do not invent; may share Herman footprint)"
+      "Uganda PadelX Academy — events on padeluganda.com; independent venue contact not verified (see prior tick)"
     ],
     "findZeroResult": [],
     "findSkipped": [
-      "East Rand / Gauteng densify deferred",
-      "Ethiopia Addis Padel — still launch/recruit language; plans-only skip",
-      "PadelX Academy Kampala — contact-thin / venue identity unclear vs Herman"
+      "East Rand densify deferred",
+      "Full FIND/seed deferred until ingest key present"
     ],
     "ingestDiscoveredOk": 0,
     "ingestEvidence": [],
@@ -61,10 +60,11 @@
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Tick blocked on missing INGEST_API_KEY after timer resubscribe. SC main pulled (ff9fd02). Fair-use status: pending 0 / pass 77. FIND research only. Not claiming PUBLISHED."
+    "note": "Second fire 21:00Z still blocked on INGEST_API_KEY. Timer left subscribed. SC push previously 403 for cursor[bot]. Not claiming PUBLISHED."
   },
   "openDebt": [
-    "cloud_agent_env_missing_INGEST_API_KEY"
+    "cloud_agent_env_missing_INGEST_API_KEY",
+    "sc_main_push_denied_cursor_bot"
   ],
   "resolvedDebt": [
     "ingest_backed_quality_loop_full_rewrite",
@@ -78,7 +78,7 @@
   ],
   "client": "padelafrica",
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T20:10:00Z",
+  "updatedAt": "2026-10-12T21:00:54Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_46391b98-b00c-456a-98f9-7dd67fc42494",
@@ -86,6 +86,7 @@
     "stillSubscribed": true,
     "promptIncludesFeedEveryTick": true,
     "promptIncludesUnderCoveredPrefer": true,
-    "promptIncludesStructuredSocialHeaders": true
+    "promptIncludesStructuredSocialHeaders": true,
+    "deliveryCountAtTick": 2
   }
 }

@@ -1542,3 +1542,12 @@ Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.pad
 - FIND research (no seed): Uganda **PadelX Academy** appears on padeluganda.com events but lacks independent address/phone/official social this tick; Ethiopia **Addis Padel** still launch/recruit language → skip plans-only; no East Rand densify
 
 **Inbox:** `fleet/inbox/padelafrica/status-2026-10-12.json`. HiTL none. `openDebt: [cloud_agent_env_missing_INGEST_API_KEY]`. Not claiming PUBLISHED.
+
+
+### 2026-10-12 — padelafrica (tick ~21:00 UTC — still blocked)
+
+**Timer:** still subscribed (`sub_46391b98-…`), second delivery.
+
+**Blocked again:** `INGEST_API_KEY` still absent → no feed / quality / ingest. Secret request re-filed for the Cloud Agent env. SC `main` push also denied to `cursor[bot]` (local commits only).
+
+**Inbox:** overwritten `status-2026-10-12.json`. Not claiming PUBLISHED.
