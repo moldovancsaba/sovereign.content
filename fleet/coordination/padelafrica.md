@@ -1551,3 +1551,7 @@ Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.pad
 **Blocked again:** `INGEST_API_KEY` still absent → no feed / quality / ingest. Secret request re-filed for the Cloud Agent env. SC `main` push also denied to `cursor[bot]` (local commits only).
 
 **Inbox:** overwritten `status-2026-10-12.json`. Not claiming PUBLISHED.
+
+### 2026-10-12 — padelafrica (tick ~22:00 UTC — still blocked)
+
+**Timer:** still subscribed (`sub_46391b98-…`), third delivery. **`INGEST_API_KEY` still absent** — no feed/quality/FIND writes. Inbox refreshed. Not claiming PUBLISHED.

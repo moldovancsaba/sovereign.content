@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-10-12T21:00:54Z",
+  "observedAt": "2026-10-12T22:00:29Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -32,12 +32,12 @@
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
     "qualityAtCeiling": null,
-    "qualityNote": "Skipped — INGEST_API_KEY still missing after second hourly fire.",
+    "qualityNote": "Skipped \u2014 INGEST_API_KEY still missing (third hourly fire).",
     "pipelineFeedBatches": 0,
     "pipelineFeedOk": 0,
     "pipelineFeedFailed": 0,
     "pipelineFeedLimit": 30,
-    "pipelineFeedNote": "Skipped — INGEST_API_KEY required",
+    "pipelineFeedNote": "Skipped \u2014 INGEST_API_KEY required",
     "fairUsePass": 77,
     "fairUsePendingAfterTriage": 0,
     "fairUseNote": "No new pass; pendingCandidates still 0 from 2026-09-29 state.",
@@ -47,7 +47,7 @@
     "findSocialContactEnrichment": [],
     "findSkippedDuplicate": [],
     "findResearchLeads": [
-      "Uganda PadelX Academy — events on padeluganda.com; independent venue contact not verified (see prior tick)"
+      "Uganda PadelX Academy \u2014 events on padeluganda.com; independent venue contact not verified (see prior tick)"
     ],
     "findZeroResult": [],
     "findSkipped": [
@@ -60,7 +60,7 @@
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Second fire 21:00Z still blocked on INGEST_API_KEY. Timer left subscribed. SC push previously 403 for cursor[bot]. Not claiming PUBLISHED."
+    "note": "Third fire 22:00Z still blocked on INGEST_API_KEY. Timer left subscribed. Not claiming PUBLISHED."
   },
   "openDebt": [
     "cloud_agent_env_missing_INGEST_API_KEY",
@@ -78,7 +78,7 @@
   ],
   "client": "padelafrica",
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T21:00:54Z",
+  "updatedAt": "2026-10-12T22:00:29Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_46391b98-b00c-456a-98f9-7dd67fc42494",
@@ -87,6 +87,6 @@
     "promptIncludesFeedEveryTick": true,
     "promptIncludesUnderCoveredPrefer": true,
     "promptIncludesStructuredSocialHeaders": true,
-    "deliveryCountAtTick": 2
+    "deliveryCountAtTick": 3
   }
 }
