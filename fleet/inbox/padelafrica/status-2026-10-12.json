@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-10-12T22:00:29Z",
+  "observedAt": "2026-10-12T23:00:30Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -32,7 +32,7 @@
     "qualityLoopBelowThreshold": 0,
     "qualityLoopApplied": 0,
     "qualityAtCeiling": null,
-    "qualityNote": "Skipped \u2014 INGEST_API_KEY still missing (third hourly fire).",
+    "qualityNote": "Skipped \u2014 INGEST_API_KEY still missing (fourth hourly fire).",
     "pipelineFeedBatches": 0,
     "pipelineFeedOk": 0,
     "pipelineFeedFailed": 0,
@@ -60,7 +60,7 @@
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Third fire 22:00Z still blocked on INGEST_API_KEY. Timer left subscribed. Not claiming PUBLISHED."
+    "note": "Fourth fire 23:00Z still blocked on INGEST_API_KEY. Timer left subscribed. Not claiming PUBLISHED."
   },
   "openDebt": [
     "cloud_agent_env_missing_INGEST_API_KEY",
@@ -78,7 +78,7 @@
   ],
   "client": "padelafrica",
   "date": "2026-10-12",
-  "updatedAt": "2026-10-12T22:00:29Z",
+  "updatedAt": "2026-10-12T23:00:30Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_46391b98-b00c-456a-98f9-7dd67fc42494",
@@ -87,6 +87,6 @@
     "promptIncludesFeedEveryTick": true,
     "promptIncludesUnderCoveredPrefer": true,
     "promptIncludesStructuredSocialHeaders": true,
-    "deliveryCountAtTick": 3
+    "deliveryCountAtTick": 4
   }
 }
