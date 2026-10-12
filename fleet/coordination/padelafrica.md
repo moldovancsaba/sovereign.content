@@ -1529,3 +1529,16 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.padelafrica/timers/orchestrator.md`: **pipeline:feed-discovered every tick** + under-covered FIND priority; qualityAtCeiling honesty when About ≥75.
 
 **Ask:** re-subscribe `padel-find-tick` on the Padel chat (wake text in `OPERATOR-HANDOFF.md`), run one tick now, emit `fleet/inbox/padelafrica/status-YYYY-MM-DD.json` + Turn. Do **not** attach `fleet-daily-swot` here.
+
+### 2026-10-12 — padelafrica (tick ~20:05 UTC — blocked)
+
+**Timer:** `padel-find-tick` re-subscribed (`sub_46391b98-…`); prompt includes feed-every-tick, under-covered FIND, structured social http(s) headers.
+
+**Blocked:** Cloud Agent env has **no `INGEST_API_KEY`** → feed-discovered, quality-loop, and fixture ingest all exit immediately. Owner action: add the padel-africa ingest key to this environment’s secrets.
+
+**Ran without write path:**
+- Pulled SC `main` (`ff9fd02`); agent home at `/tmp/sovereign.content/content.padelafrica`
+- Fair-use status: pass **77**, `pendingCandidates` **0**, last pass 2026-09-29
+- FIND research (no seed): Uganda **PadelX Academy** appears on padeluganda.com events but lacks independent address/phone/official social this tick; Ethiopia **Addis Padel** still launch/recruit language → skip plans-only; no East Rand densify
+
+**Inbox:** `fleet/inbox/padelafrica/status-2026-10-12.json`. HiTL none. `openDebt: [cloud_agent_env_missing_INGEST_API_KEY]`. Not claiming PUBLISHED.

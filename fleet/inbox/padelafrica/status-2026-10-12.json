@@ -1,0 +1,91 @@
+{
+  "clientId": "padelafrica",
+  "observedAt": "2026-10-12T20:10:00Z",
+  "source": "padel-find-tick",
+  "workingEnv": {
+    "timerSubscribed": true,
+    "timerName": "padel-find-tick",
+    "timerSubscriptionId": "sub_46391b98-b00c-456a-98f9-7dd67fc42494",
+    "ingestOnlyDoctrine": true,
+    "ingestOnlyReality": false,
+    "ingestApiKeyPresent": false,
+    "writesPath": "blocked_missing_ingest_api_key",
+    "tickCompleted": false,
+    "skippedManagementMongoCatalogJobs": true,
+    "qualityLoop": "skipped_no_ingest_key",
+    "fairUseSources": 28,
+    "fairUsePassCount": 77,
+    "refuseAgentMongoGuards": true,
+    "pipelineFeedDiscovered": true,
+    "pipelineFeedRanThisTick": false,
+    "pipelineFeedEveryTick": true,
+    "coreReconcileHandshake": "reconciled_observed",
+    "evidencePhoneOptional": true,
+    "evidenceCityPinOk": true,
+    "evidenceSocialContactOk": true,
+    "preferUnderCoveredCountries": true,
+    "managementReleaseTip": "0.137.0@6a638b8",
+    "structuredSocialHeadersLive": true
+  },
+  "outcomes": {
+    "qualityLoopScanned": 0,
+    "qualityLoopBelowThreshold": 0,
+    "qualityLoopApplied": 0,
+    "qualityAtCeiling": null,
+    "qualityNote": "Skipped — INGEST_API_KEY missing in Cloud Agent env; cannot reprocess.",
+    "pipelineFeedBatches": 0,
+    "pipelineFeedOk": 0,
+    "pipelineFeedFailed": 0,
+    "pipelineFeedLimit": 30,
+    "pipelineFeedNote": "Skipped — INGEST_API_KEY required by pipeline-feed-discovered.ts",
+    "fairUsePass": 77,
+    "fairUsePendingAfterTriage": 0,
+    "fairUseNote": "status-only this tick (pendingCandidates=0; lastPassAt 2026-09-29). No one-pass without ingest promote path.",
+    "findSeeded": [],
+    "findPhoneBackfill": [],
+    "findBookingUrlBackfill": [],
+    "findSocialContactEnrichment": [],
+    "findSkippedDuplicate": [],
+    "findResearchLeads": [
+      "Uganda PadelX Academy — active on padeluganda.com event listings; no independent street/phone/official social verified this tick (do not invent; may share Herman footprint)"
+    ],
+    "findZeroResult": [],
+    "findSkipped": [
+      "East Rand / Gauteng densify deferred",
+      "Ethiopia Addis Padel — still launch/recruit language; plans-only skip",
+      "PadelX Academy Kampala — contact-thin / venue identity unclear vs Herman"
+    ],
+    "ingestDiscoveredOk": 0,
+    "ingestEvidence": [],
+    "pipelineFeedEvidence": [],
+    "publishedClaimed": false,
+    "hitlBacklog": 0,
+    "aboutDebtOpen": 0,
+    "note": "Tick blocked on missing INGEST_API_KEY after timer resubscribe. SC main pulled (ff9fd02). Fair-use status: pending 0 / pass 77. FIND research only. Not claiming PUBLISHED."
+  },
+  "openDebt": [
+    "cloud_agent_env_missing_INGEST_API_KEY"
+  ],
+  "resolvedDebt": [
+    "ingest_backed_quality_loop_full_rewrite",
+    "discovered_to_published_pipeline_agent_feeder",
+    "day3_inbox_continuity_spike_gate",
+    "day3_inbox_calendar_2026-09-26",
+    "core_reconcile_release_padel_africa_awaiting_management",
+    "publish_evidence_phone_optional_city_pin_pr291",
+    "pipeline_feed_discovered_every_tick",
+    "timer_resubscribed_2026-10-12"
+  ],
+  "client": "padelafrica",
+  "date": "2026-10-12",
+  "updatedAt": "2026-10-12T20:10:00Z",
+  "timer": {
+    "name": "padel-find-tick",
+    "subscriptionId": "sub_46391b98-b00c-456a-98f9-7dd67fc42494",
+    "delaySeconds": 3600,
+    "stillSubscribed": true,
+    "promptIncludesFeedEveryTick": true,
+    "promptIncludesUnderCoveredPrefer": true,
+    "promptIncludesStructuredSocialHeaders": true
+  }
+}
