@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → classscout)
 
-**Visibility first (owner 2026-09-28).** Subscribe `classscout-find-tick` + emit daily inbox (Padel discipline). Cutover deferred — forever on product is fine while fleet sees KPIs.
+**Maintenance resume (2026-10-12).** Visibility first still stands. Re-subscribe `classscout-find-tick` on the ClassScout chat; emit `fleet/inbox/classscout/status-YYYY-MM-DD.json` today. Cutover remains deferred until ≥3 consecutive live inbox days after resume. Do not touch `fleet-daily-swot`.
 
 ## Open checklist (SC)
 
@@ -137,3 +137,10 @@ Forever restarted with `improveTimeout=1500s`. Cutover still product-tree PID.
 
 **Next:** keep `classscout-find-tick` subscribed; overwrite day status every hour; no invented lasting_public on backfills.
 
+
+
+### 2026-10-12 — SC-central (maintenance resume)
+
+Visibility-first still binding. Fleet gap since late Sep — need live inbox again before any cutover talk.
+
+**Ask:** re-subscribe `classscout-find-tick` on the ClassScout chat (wake in `OPERATOR-HANDOFF.md`), emit `fleet/inbox/classscout/status-YYYY-MM-DD.json` today. Cutover stays deferred until ≥3 consecutive live inbox days after resume. Do **not** touch `fleet-daily-swot`.

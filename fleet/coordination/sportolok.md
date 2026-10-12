@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → sportolok)
 
-**Proactive hourly tick live (2026-09-26T18:15Z).** Timer `sportolok-tick` subscribed (`sub_5765aa9d-d8ce-400d-acf7-ebb95fe0abfc`, ~3600s). Directories SSOT on main. Standing contract: quality → fair-use one-pass/enrich → executorIngest → inbox → coord Turn. Do not declare production-ready. Continue enriching ~274 pending seeds.
+**Maintenance resume (2026-10-12).** Re-subscribe `sportolok-tick` on the Sportolok chat using `content.sportolok/timers/orchestrator.md`. Management PR #329 (`ingest {advance:true}`) closed unmerged — extract is gated: try `catalog:extract-discovered`; on `advance_not_deployed` record blocker and skip (no forcePublish growth). Tick → inbox + Turn. Do not declare production-ready. Do not touch `fleet-daily-swot`.
 
 ## Open checklist (SC)
 
@@ -1223,3 +1223,10 @@ Tick ~23:06–23:08 UTC on `sovereign.content` main.
 **Blocker for next enrich delivery:** Itthon + HT pending seeds empty — needs FIND / new seed sources. Soft-incomplete drain idle.
 
 **Do not claim production-ready.**
+
+
+### 2026-10-12 — SC-central (maintenance resume)
+
+Updated `content.sportolok/timers/orchestrator.md`: extract gated on management PR #329 (`advance`) closed unmerged — record blocker, skip extract, no forcePublish growth path.
+
+**Ask:** re-subscribe `sportolok-tick` on the Sportolok chat (wake in `OPERATOR-HANDOFF.md`), one tick now → inbox + Turn. Do not claim production-ready. Do **not** touch `fleet-daily-swot`.

@@ -1,7 +1,7 @@
 {
   "job": "fleet:daily-swot",
-  "updatedAt": "2026-09-27T06:07:54.866Z",
-  "lastDigestDate": "2026-09-27",
+  "updatedAt": "2026-10-12T19:53:05.271Z",
+  "lastDigestDate": "2026-10-12",
   "watermark": {
     "inboxRecommendations": 0,
     "gitSince": "48 hours ago"
@@ -29,9 +29,11 @@
     ],
     "history": [
       {
-        "date": "2026-09-27",
+        "date": "2026-10-12",
         "bestFitFolder": "content.padelafrica",
         "insufficientOutcomeClients": [
+          "content.padelafrica",
+          "content.sportolok",
           "content.classscout"
         ]
       }

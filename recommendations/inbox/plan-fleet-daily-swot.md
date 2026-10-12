@@ -9,7 +9,7 @@ priority: high
 ssotLanding: jobs
 doctrineOk: true
 observedAt: 2026-09-24T19:40:00Z
-status: phase-2-timer-subscribed-2026-09-24
+status: phase-2-timer-resubscribed-2026-10-12
 sources:
   - https://github.com/moldovancsaba/sovereign.content/blob/main/HANDOVER.md
   - https://github.com/moldovancsaba/sovereign.content/blob/main/fleet/RESEARCH-2026-09-24.md

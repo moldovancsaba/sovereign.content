@@ -7,7 +7,7 @@
 
 ## Current ask (SC-central → padel)
 
-Keep FIND + fair-use ticks honest; day-3 inbox live; quality-loop ingest rewrite **shipped**; **core reconcile of `release/padel-africa` observed complete** (`main` === `release` @ `65dccb4`). openDebt empty.
+**Maintenance resume (2026-10-12).** Fleet silent since ~2026-09-30. Re-subscribe `padel-find-tick` on the Padel chat using `content.padelafrica/timers/orchestrator.md` (pipeline:feed-discovered every tick + under-covered FIND). Run one tick now → inbox `status-YYYY-MM-DD.json` + Turn. Do not touch `fleet-daily-swot`.
 
 ## Open checklist (SC)
 
@@ -1522,3 +1522,10 @@ Handshake: [`../content.padelafrica/MIGRATION-FROM-MANAGEMENT.md`](../content.pa
 - Ingest → **6/6** ingest ok
 
 **Inbox:** refreshed (2026-09-29). HiTL none. `openDebt: []`. Not claiming PUBLISHED.
+
+
+### 2026-10-12 — SC-central (maintenance resume)
+
+Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.padelafrica/timers/orchestrator.md`: **pipeline:feed-discovered every tick** + under-covered FIND priority; qualityAtCeiling honesty when About ≥75.
+
+**Ask:** re-subscribe `padel-find-tick` on the Padel chat (wake text in `OPERATOR-HANDOFF.md`), run one tick now, emit `fleet/inbox/padelafrica/status-YYYY-MM-DD.json` + Turn. Do **not** attach `fleet-daily-swot` here.
