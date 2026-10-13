@@ -70,8 +70,10 @@
     "secondarySourceUrl": "https://www.padelfip.com/events/fip-silver-ivory-coast-ii-2025/",
     "sourceTypes": "Padel Magic Club site (phone+hours); FIP Silver Ivory Coast venue card (Central Tennis Club Cocody address)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25 Abidjan deepen. Court count from operator page not asserted in description."
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-09-25 Abidjan deepen. Court count from operator page not asserted in description.; tick 2026-10-13 enrich IG/FB from first-party footer",
+    "instagram": "https://www.instagram.com/padelmagic.ci/",
+    "facebook": "https://www.facebook.com/padelmagic.ci"
   },
   {
     "recordId": "CIV-VEN-004",

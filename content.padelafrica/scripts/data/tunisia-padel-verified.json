@@ -566,5 +566,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — under-covered Sfax densify beyond three existing."
+  },
+  {
+    "recordId": "TUN-VEN-024",
+    "name": "4everpadel",
+    "city": "Sfax",
+    "region": "Sfax",
+    "countryCode": "TN",
+    "line1": "Km 11, Route Gremda Ténior",
+    "lat": 34.8253334,
+    "lng": 10.7124193,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin — Gremda; distinct from Eleven (Sakiet Ezzit Route de Tunis) and Casa (Sidi Mansour km 6)",
+    "website": "https://ballejaune.com/club/4Everpadel/contact",
+    "phone": "+216 58 410 915",
+    "email": null,
+    "instagram": "https://www.instagram.com/4everpadel.club/",
+    "venueModel": "own_premises",
+    "seasonNote": "Confirm hours with 4everpadel / BalleJaune.",
+    "description": "4everpadel is a named Sfax club on Route Gremda Ténior km 11 with a published phone and Instagram — distinct from Casa Del Padel, Eleven and Sfax Padel Indoor. A clear fifth Sfax densify pick when mapping southern Tunisia padel. Call or message via Instagram for booking.",
+    "primarySourceUrl": "https://ballejaune.com/club/4Everpadel/contact",
+    "secondarySourceUrl": "https://padelrevive.com/padel-in-tunisia/",
+    "sourceTypes": "BalleJaune contact (+216 58 410 915); Reclub Instagram; PadelRevive CSV",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — Sfax densify."
   }
 ]

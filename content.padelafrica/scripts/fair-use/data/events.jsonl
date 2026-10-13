@@ -4185,3 +4185,5 @@
 {"at":"2026-10-13T19:10:49.798Z","type":"fair_use_reject","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/ghana","status":429,"blocked":true,"reasonCode":"http_blocked"}
 {"at":"2026-10-13T20:00:44.325Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery","url":"https://www.courtpro.com/clubs/egypt"}
 {"at":"2026-10-13T20:00:46.116Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery_harvest","url":"https://www.courtpro.com/clubs/egypt","harvested":0}
+{"at":"2026-10-13T21:01:04.365Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-in-ghana/"}
+{"at":"2026-10-13T21:01:05.085Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-ghana/","harvested":1}

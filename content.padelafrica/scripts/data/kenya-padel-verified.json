@@ -770,5 +770,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — Coast densify from PadelRevive CSV gap."
+  },
+  {
+    "recordId": "KEN-VEN-032",
+    "name": "Serve & Turf Padel",
+    "city": "Mombasa",
+    "region": "Mombasa County",
+    "countryCode": "KE",
+    "line1": "Mwamba Drive",
+    "lat": -4.0239047,
+    "lng": 39.7242363,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin for Serve & Turf on Mwamba Drive",
+    "website": "https://serveandturf.co.ke/",
+    "phone": "+254 119 072 271",
+    "email": null,
+    "instagram": "https://www.instagram.com/serve.and.turf.ke/",
+    "venueModel": "own_premises",
+    "seasonNote": "Book via serveandturf.co.ke; confirm hours on CourtPro.",
+    "description": "Serve & Turf Padel is a bookable Mombasa club on Mwamba Drive with a published phone and Instagram — distinct from Tudor Waterfront, Bellpoint Kengeleni and PLAYON Nyali. A clear Coast densify pick when you want another named court north of the creek. Reserve on the first-party booking site or call ahead.",
+    "primarySourceUrl": "https://serveandturf.co.ke/",
+    "secondarySourceUrl": "https://www.courtpro.com/clubs/kenya/mombasa/serve-and-turf-padel",
+    "sourceTypes": "First-party booking site; CourtPro club page (phone, Mwamba Drive)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — Coast densify from PadelRevive CSV gap."
   }
 ]
