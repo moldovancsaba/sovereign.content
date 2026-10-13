@@ -11,16 +11,16 @@
     "geoPrecision": "locality",
     "geoSource": "nominatim",
     "geoNote": "Tevragh Zeina locality pin — neighbourhood from Padel Lands; street not published",
-    "website": "https://saharapadel.com/",
+    "website": "https://padelmates.se/club/ac84bea14a274e86bb98bd736a21d8be",
     "venueModel": "own_premises",
-    "seasonNote": "Hours not listed yet.",
-    "description": "Sahara Padel Club anchors Mauritanian padel in Tevragh Zeina, Nouakchott, with two outdoor courts, gym and shop — the country’s visible club since 2023 and a CICP international participant. A clear recommendation when you want named Nouakchott padel rather than an anonymous pitch. Confirm booking via the club’s app or social channels before you travel.",
-    "primarySourceUrl": "https://padelmagazine.fr/sahara-padel-club-la-mauritanie-entre-dans-larene-du-padel-international/",
-    "secondarySourceUrl": "https://padellands.com/en/padel-courts/sahara-padel-club/",
+    "seasonNote": "Daily 08:30–23:59 (Padel Mates listing); book via SAHARA PADEL CLUB app",
+    "description": "Sahara Padel Club in Tevragh Zeina, Nouakchott offers bookable padel with gym, rooftop and kids facilities plus a dedicated club app. A clear Mauritania recommendation when you want a named capital club with a published phone. Book in the SAHARA PADEL CLUB app or call ahead for evening slots.",
+    "primarySourceUrl": "https://padelmates.se/club/ac84bea14a274e86bb98bd736a21d8be",
+    "secondarySourceUrl": "https://apps.apple.com/mr/app/sahara-padel-club/id6742560493",
     "sourceTypes": "Padel Magazine interview; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Phone not published on audited pages — not invented; WhatsApp from saharapadel.com (+212 number) 2026-09-26",
-    "phone": "+212 694 198 993"
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "Phone not published on audited pages — not invented; WhatsApp from saharapadel.com (+212 number) 2026-09-26; tick 2026-10-13 enrich — Tevragh Zeina +22237622706 + app listing (not Morocco saharapadel.com); cleared Morocco saharapadel.com contamination — that domain is +212 Club Sahara Padel Morocco",
+    "phone": "+222 37 62 27 06"
   }
 ]

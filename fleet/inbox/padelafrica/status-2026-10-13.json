@@ -1,11 +1,11 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-10-13T05:53:11Z",
+  "observedAt": "2026-10-13T06:02:47Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
     "timerName": "padel-find-tick",
-    "timerSubscriptionId": "sub_0066d7f7-a337-4852-a97d-4500194d24cd",
+    "timerSubscriptionId": "sub_b5b82cda-51c5-40a4-9c64-a2f1c9d7bf0e",
     "ingestOnlyDoctrine": true,
     "ingestOnlyReality": true,
     "ingestApiKeyPresent": true,
@@ -15,8 +15,6 @@
     "qualityLoop": "ingest_score_improve_encode",
     "fairUseSources": 28,
     "fairUsePassCount": 78,
-    "refuseAgentMongoGuards": true,
-    "pipelineFeedDiscovered": true,
     "pipelineFeedRanThisTick": true,
     "pipelineFeedEveryTick": true,
     "preferUnderCoveredCountries": true,
@@ -26,42 +24,41 @@
   },
   "outcomes": {
     "qualityLoopScanned": 535,
-    "qualityLoopBelowThreshold": 1,
-    "qualityLoopApplied": 1,
-    "qualityAtCeiling": false,
-    "qualityNote": "TUN-VEN-019 compose_about 45\u219280 applied via ingest reprocess",
+    "qualityLoopBelowThreshold": 0,
+    "qualityLoopApplied": 0,
+    "qualityAtCeiling": true,
+    "qualityNote": "0 below About 75 \u2014 ceiling; improve not a lever",
     "pipelineFeedBatches": 2,
-    "pipelineFeedOk": 59,
-    "pipelineFeedFailed": 1,
+    "pipelineFeedOk": 60,
+    "pipelineFeedFailed": 0,
     "pipelineFeedLimit": 30,
-    "pipelineFeedNote": "Batch A 30/30; batch B 29/30 (KEN-VEN-022 mid-pipeline 409)",
+    "pipelineFeedNote": "Batch A 30/30; batch B 30/30",
     "fairUsePass": 78,
     "fairUsePendingAfterTriage": 0,
-    "fairUseNote": "one-pass \u2192 pending Play Padel Laguna (Torre\u00f3n, MX) rejected OOS",
-    "findSeeded": [],
+    "fairUseNote": "status only \u2014 last one-pass ~05:51Z; pending 0; skip back-to-back 20min pass",
+    "findSeeded": [
+      "DJI-VEN-001"
+    ],
     "findSocialContactEnrichment": [
-      "BDI-VEN-001"
+      "MRT-VEN-001"
     ],
     "findSkipped": [
       "East Rand densify deferred",
-      "Ethiopia Addis Padel \u2014 first-party still marketing-thin / prior launch language; skip seed",
-      "Benin/Guinea \u2014 no new venue beyond existing single seeds"
+      "Ethiopia Addis still marketing-thin"
     ],
-    "findZeroResult": [],
     "ingestDiscoveredOk": 2,
     "ingestEvidence": [
-      "research-uga-ven-001 auth smoke reprocess",
-      "research-bdi-ven-001 bujapadel.com enrich",
-      "research-tun-ven-019 quality compose"
+      "research-dji-ven-001 created",
+      "research-mrt-ven-001 reprocessed (cleared Morocco phone/site contamination)"
     ],
     "pipelineFeedEvidence": [
-      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-10-13T05-30-35-415Z.json",
-      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-10-13T05-51-52-500Z.json"
+      "feed-2026-10-13T06-00-23-931Z.json",
+      "feed-2026-10-13T06-01-26-682Z.json"
     ],
     "publishedClaimed": false,
     "hitlBacklog": 0,
     "aboutDebtOpen": 0,
-    "note": "Key verified (auth 400 vs wrong 401; write 200). Resumed timer. Feed x2, quality applied TUN-019, fair-use pass 78, BDI enrich. Not claiming PUBLISHED."
+    "note": "Hourly tick with stored key. Feed 60/60. Quality at ceiling. FIND DJI create + MRT phone/site fix. Not claiming PUBLISHED."
   },
   "openDebt": [
     "sc_main_push_denied_cursor_bot"
@@ -71,10 +68,10 @@
   ],
   "client": "padelafrica",
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T05:53:11Z",
+  "updatedAt": "2026-10-13T06:02:47Z",
   "timer": {
     "name": "padel-find-tick",
-    "subscriptionId": "sub_0066d7f7-a337-4852-a97d-4500194d24cd",
+    "subscriptionId": "sub_b5b82cda-51c5-40a4-9c64-a2f1c9d7bf0e",
     "delaySeconds": 3600,
     "stillSubscribed": true
   }

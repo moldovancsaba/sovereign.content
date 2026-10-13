@@ -1579,3 +1579,20 @@ Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.pad
 **FIND:** BDI-VEN-001 enrich → first-party `bujapadel.com` + phones/WhatsApp re-ingested. Skip Addis (still thin). No East Rand densify.
 
 **Inbox:** refreshed. HiTL none. SC push still 403 for cursor[bot]. Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~06:00 UTC)
+
+**Timer:** still subscribed (`sub_b5b82cda-…`); loaded stored ingest key.
+
+**Pipeline:** feed-discovered ×2 → **60/60** ok.
+
+**Quality:** 535 scanned, **0 below → 0 applied**. At ceiling (≥75).
+
+**Fair-use:** pass 78, pending 0 — skipped back-to-back one-pass (ran ~05:51Z).
+
+**FIND:**
+- Djibouti → **`DJI-VEN-001` Djibouti Padel One** created DISCOVERED (Haramous, phone/email/app hours)
+- Mauritania → **`MRT-VEN-001`** reprocessed — cleared Morocco `+212` / saharapadel.com contamination; Tevragh Zeina +222 phone + Padel Mates/app sources
+- Skip → East Rand; Addis still thin
+
+**Inbox:** refreshed. SC push still 403. Not claiming PUBLISHED.
