@@ -515,5 +515,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND/fair-use tick 2026-10-13 — promoted fair-courtpro-djerba-padel-club; Canva portfolio URL not used as Website."
+  },
+  {
+    "recordId": "TUN-VEN-022",
+    "name": "Arena Gym",
+    "city": "Tunis",
+    "region": "Tunis",
+    "countryCode": "TN",
+    "line1": "Avenue Slimen Ben Slimen, El Menzah",
+    "lat": 36.8378915,
+    "lng": 10.1565846,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin for Arena Gym Tunis",
+    "website": "https://www.courtpro.com/clubs/tunisia/tunis/arena-gym",
+    "phone": "+216 71 889 658",
+    "email": null,
+    "venueModel": "club_shared",
+    "seasonNote": "CourtPro: Mon–Fri 07:00–22:00; Sat 07:00–18:00; Sun 08:00–14:00.",
+    "description": "Arena Gym lists bookable padel on Avenue Slimen Ben Slimen in El Menzah, Tunis — distinct from Sky Padel Charguia and Padel House. A clear Greater Tunis densify pick with a published landline. Book on CourtPro or call ahead for weekend slots.",
+    "primarySourceUrl": "https://www.courtpro.com/clubs/tunisia/tunis/arena-gym",
+    "secondarySourceUrl": "https://padelrevive.com/padel-in-tunisia/",
+    "sourceTypes": "CourtPro club page (phone, hours, address); PadelRevive CSV",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — CourtPro Africa densify."
   }
 ]

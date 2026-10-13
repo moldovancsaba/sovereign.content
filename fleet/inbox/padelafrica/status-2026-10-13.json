@@ -1,36 +1,39 @@
 {
   "client": "padelafrica",
   "date": "2026-10-13",
-  "tickUtc": "2026-10-13T17:04Z",
+  "tickUtc": "2026-10-13T19:14Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "TUN-VEN-019 skip_closed; scanned 546",
+  "qualityNote": "TUN-VEN-019 skip_closed; scanned 549",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 84,
+    "passCount": 85,
     "pendingCandidates": 0
   },
   "find": {
     "seeded": [
-      "TUN-VEN-021",
-      "UGA-VEN-004",
-      "KEN-VEN-028"
+      "KEN-VEN-029",
+      "KEN-VEN-030",
+      "TUN-VEN-022"
     ],
     "enriched": [
-      "RWA-VEN-002"
+      "SLE-VEN-002",
+      "GMB-VEN-001"
     ],
     "zeroResult": [
-      "RW Musanze/Huye"
+      "BI Gitega",
+      "SZ Mbabane"
     ],
     "skipped": [
-      "ZA densify"
+      "ZA densify",
+      "18:00 interrupted"
     ]
   },
   "hitlBacklog": 0,

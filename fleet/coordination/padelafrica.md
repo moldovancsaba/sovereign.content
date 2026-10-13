@@ -1707,3 +1707,13 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **TUN-VEN-021 Djerba Padel Club**, **UGA-VEN-004 PadelX Academy** (Bugolobi), **KEN-VEN-028 Fomo Padel Kilifi** created DISCOVERED. **RWA-VEN-002** Mamba first-party/IG/WhatsApp enrich. Rwanda Musanze/Huye → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~19:00 UTC)
+
+**Note:** 18:00 tick interrupted by operator status ask; this tick covers the gap.
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** pass **85**; rejected PadelRevive Nigeria hub; unbounded one-pass killed (actu-padel thrash) — bounded padelrevive cooldown.
+
+**FIND / ingest:** **KEN-VEN-029 Bellpoint Arena** + **KEN-VEN-030 Jimmy's Padel** + **TUN-VEN-022 Arena Gym** created DISCOVERED. **SLE-VEN-002** clear Instagram-as-Website; **GMB-VEN-001** IG/FB/WhatsApp enrich. BI Gitega + SZ Mbabane → zero-result.
+
+Not claiming PUBLISHED.
