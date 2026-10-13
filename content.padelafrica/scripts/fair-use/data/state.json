@@ -28,7 +28,6 @@
     },
     "actu-padel": {
       "queue": [
-        "https://actu-padel.com/directory/padel-club/padel-action-milnerton-en/",
         "https://actu-padel.com/en/directory/padel-club/padel-africa-camps-cape-town-en/",
         "https://actu-padel.com/directory/padel-club/padel-africa-claremont-cape-town-en/",
         "https://actu-padel.com/en/directory/padel-club/padel-africa-country-kloof-en/",
@@ -190,9 +189,9 @@
           "reason": "duplicate"
         },
         "https://actu-padel.com/directory/padel-club/padel-action-milnerton/": {
-          "at": "2026-09-26T09:09:00.953Z",
-          "reasonCode": "seeded",
-          "reason": "seeded"
+          "at": "2026-10-13T14:03:24.916Z",
+          "reasonCode": "duplicate",
+          "reason": "duplicate"
         },
         "https://actu-padel.com/en/directory/padel-club/padel-africa-camps-cape-town/": {
           "at": "2026-09-26T10:14:50.813Z",
@@ -357,7 +356,7 @@
       },
       "discoveryCursor": 4,
       "leadsAdded": 47,
-      "lastFetchAt": "2026-10-13T13:05:47.762Z",
+      "lastFetchAt": "2026-10-13T14:03:22.198Z",
       "lastError": {
         "at": "2026-09-28T00:13:18.360Z",
         "url": "https://actu-padel.com/en/directory/country/senegal/",
@@ -393,9 +392,9 @@
           "reason": "duplicate"
         }
       },
-      "discoveryCursor": 3,
+      "discoveryCursor": 4,
       "leadsAdded": 4,
-      "lastFetchAt": "2026-10-13T13:01:14.788Z",
+      "lastFetchAt": "2026-10-13T14:01:05.984Z",
       "lastError": {
         "at": "2026-09-25T15:10:56.262Z",
         "url": "https://padelrevive.com/padel-clubs-in-africa/",
@@ -908,12 +907,12 @@
     "ballejaune": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 4,
+      "discoveryCursor": 5,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-13T13:05:02.507Z",
+      "lastFetchAt": "2026-10-13T14:02:37.006Z",
       "lastError": {
-        "at": "2026-10-13T13:05:02.744Z",
-        "url": "https://ballejaune.com/maroc/",
+        "at": "2026-10-13T14:02:37.181Z",
+        "url": "https://ballejaune.com/tunisie/",
         "reasonCode": "fetch_error"
       }
     },
@@ -1437,19 +1436,22 @@
       "lastError": null
     },
     "courtpro": {
-      "queue": [
-        "https://www.courtpro.com/clubs/listing"
-      ],
+      "queue": [],
       "done": {
         "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club": {
           "at": "2026-10-13T13:02:47.063Z",
           "reasonCode": "seeded",
           "reason": "seeded"
+        },
+        "https://www.courtpro.com/clubs/listing": {
+          "at": "2026-10-13T14:01:51.990Z",
+          "reasonCode": "seeded",
+          "reason": "seeded"
         }
       },
       "discoveryCursor": 1,
-      "leadsAdded": 1,
-      "lastFetchAt": "2026-10-13T13:02:46.485Z",
+      "leadsAdded": 2,
+      "lastFetchAt": "2026-10-13T14:01:51.706Z",
       "lastError": null
     },
     "playtomic-directory": {
@@ -1473,6 +1475,6 @@
       "lastError": null
     }
   },
-  "passCount": 80,
-  "lastPassAt": "2026-10-13T13:14:10.614Z"
+  "passCount": 81,
+  "lastPassAt": "2026-10-13T14:03:24.918Z"
 }

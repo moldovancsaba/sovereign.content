@@ -3022,6 +3022,21 @@
       "city": "Belas",
       "outcome": "seeded",
       "recordId": "AGO-VEN-018"
+    },
+    {
+      "at": "2026-10-13T14:04:15.837699+00:00",
+      "cc": "KE",
+      "city": "Eldoret",
+      "outcome": "seeded",
+      "recordId": "KEN-VEN-025"
+    },
+    {
+      "at": "2026-10-13T14:04:15.837721+00:00",
+      "cc": "GN",
+      "city": "Conakry",
+      "outcome": "enriched",
+      "recordId": "GIN-VEN-001",
+      "note": "instagram @rivierapadelclb"
     }
   ]
 }

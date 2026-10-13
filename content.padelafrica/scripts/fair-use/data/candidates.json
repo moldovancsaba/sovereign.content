@@ -2940,5 +2940,21 @@
     "status": "rejected_oos",
     "extractedAt": "2026-10-13T13:02:47.059Z",
     "rejectReason": "out_of_scope_non_africa"
+  },
+  {
+    "candidateId": "fair-courtpro-find-padel-clubs-and-courts-worldwide",
+    "sourceId": "courtpro",
+    "sourceName": "CourtPro club directory",
+    "name": "Find Padel Clubs and Courts Worldwide",
+    "citationUrl": "https://www.courtpro.com/clubs/listing",
+    "website": "",
+    "countryHint": "Algeria",
+    "researchSources": [
+      "https://www.courtpro.com/clubs/listing"
+    ],
+    "researchNote": "Discovered via CourtPro club directory fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) \u2014 phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) \u2192 contactLinks; bare WhatsApp \u2192 wa.me; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected_hub",
+    "extractedAt": "2026-10-13T14:01:51.987Z",
+    "rejectReason": "guide_or_hub_name"
   }
 ]

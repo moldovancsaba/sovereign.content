@@ -1675,3 +1675,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **KEN-VEN-024 Watamu Padel House** + **AGO-VEN-018 Padel Lounge Patriota** created DISCOVERED. Kisumu Public Service → thin (no seed).
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~14:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** bounded pass; rejected CourtPro worldwide hub listing.
+
+**FIND / ingest:** **KEN-VEN-025 Eldoret Club** created DISCOVERED. **GIN-VEN-001** Instagram enrich; **MDG-VEN-001** email enrich.
+
+Not claiming PUBLISHED.

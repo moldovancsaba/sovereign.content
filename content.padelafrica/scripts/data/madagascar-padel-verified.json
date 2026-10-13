@@ -20,8 +20,9 @@
     "secondarySourceUrl": "https://www.annuaire.tourisme.gov.mg/etablissement-de-restauration/tropical-padel",
     "sourceTypes": "Tropical Padel site; tourism ministry directory; local tournament coverage",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Lamakoo Padel center already OSM osm-node-11844432371 — not duplicated"
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "Lamakoo Padel center already OSM osm-node-11844432371 — not duplicated; tick 2026-10-13 enrich — email from tropical-padel.com",
+    "email": "tropicalpadeltana@gmail.com"
   },
   {
     "recordId": "MDG-VEN-002",

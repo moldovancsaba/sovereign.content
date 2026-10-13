@@ -4123,3 +4123,11 @@
 {"at":"2026-10-13T13:13:25.083Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery_harvest","url":"https://www.padelfip.com/","harvested":0}
 {"at":"2026-10-13T13:14:10.099Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery","url":"https://premierpadel.com/en/home-page"}
 {"at":"2026-10-13T13:14:10.613Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/en/home-page","harvested":0}
+{"at":"2026-10-13T14:01:05.985Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-in-kenya/"}
+{"at":"2026-10-13T14:01:06.690Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-kenya/","harvested":0}
+{"at":"2026-10-13T14:01:51.706Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/listing"}
+{"at":"2026-10-13T14:01:51.990Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/listing","candidateId":"fair-courtpro-find-padel-clubs-and-courts-worldwide","reasonCode":"seeded"}
+{"at":"2026-10-13T14:02:37.006Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/tunisie/"}
+{"at":"2026-10-13T14:02:37.181Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/tunisie/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-10-13T14:03:22.198Z","type":"fair_use_attempt","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/directory/padel-club/padel-action-milnerton-en/"}
+{"at":"2026-10-13T14:03:24.916Z","type":"fair_use_reject","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/directory/padel-club/padel-action-milnerton/","candidateId":"fair-actu-padel-action-padel-sa","reasonCode":"duplicate"}

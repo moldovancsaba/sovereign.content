@@ -589,5 +589,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — under-covered Watamu/Coast densify; also branded Non Solo Padel Kenya on Tripadvisor."
+  },
+  {
+    "recordId": "KEN-VEN-025",
+    "name": "Eldoret Club",
+    "city": "Eldoret",
+    "region": "Uasin Gishu",
+    "countryCode": "KE",
+    "line1": "Kipkenyo Nandi, Kapseret",
+    "lat": 0.501015,
+    "lng": 35.294477,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive Kapseret pin — first-party site markets multi-sport club; padel listed on CourtPro booking stack",
+    "website": "https://www.eldoretclub.co.ke/",
+    "phone": "+254 725 736066",
+    "email": "info@eldoretclub.co.ke",
+    "venueModel": "club_shared",
+    "seasonNote": "CourtPro booking window Mon–Fri 08:00–17:00; Sat 08:00–12:00; Sun closed. Club front desk Mon–Sun 06:00–23:00.",
+    "description": "Eldoret Club is the highland multi-sport members club in Kapseret with padel listed on CourtPro and PadelRevive alongside golf and tennis. A clear Rift Valley recommendation when you want named padel outside Nairobi and Nakuru. Call the club desk to confirm padel court access for members and guests.",
+    "primarySourceUrl": "https://www.courtpro.com/clubs/kenya/kapseret/eldoret-club",
+    "secondarySourceUrl": "https://www.eldoretclub.co.ke/",
+    "sourceTypes": "CourtPro club page; PadelRevive Kenya atlas; Eldoret Club first-party contact",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — prior note said site no padel; CourtPro now publishes padel booking hours + Kapseret address. Medium confidence until first-party padel page appears."
   }
 ]
