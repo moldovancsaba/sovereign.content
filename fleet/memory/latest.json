@@ -1,9 +1,9 @@
 {
   "job": "fleet:daily-swot",
-  "updatedAt": "2026-10-12T19:53:05.271Z",
-  "lastDigestDate": "2026-10-12",
+  "updatedAt": "2026-10-13T06:06:11.521Z",
+  "lastDigestDate": "2026-10-13",
   "watermark": {
-    "inboxRecommendations": 0,
+    "inboxRecommendations": 1,
     "gitSince": "48 hours ago"
   },
   "rolling": {
@@ -29,7 +29,7 @@
     ],
     "history": [
       {
-        "date": "2026-10-12",
+        "date": "2026-10-13",
         "bestFitFolder": "content.padelafrica",
         "insufficientOutcomeClients": [
           "content.padelafrica",
