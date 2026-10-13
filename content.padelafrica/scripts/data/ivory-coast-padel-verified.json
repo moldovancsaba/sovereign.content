@@ -119,8 +119,9 @@
     "secondarySourceUrl": "https://baab.ci/loisirs_baab/padel-district/",
     "sourceTypes": "AnnuaireCI District Padel card (Bd Marseille + phone + hours); Baab Padel District listing (Zone 4 Marcory + phone)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Court count listed as 4 — not asserted. Distinct from CIV-VEN-002 WePadel Marcory."
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 4 — not asserted. Distinct from CIV-VEN-002 WePadel Marcory.; tick 2026-10-13 enrich WhatsApp from published phone (Baab/AnnuaireCI)",
+    "whatsapp": "https://wa.me/2250710111111"
   },
   {
     "recordId": "CIV-VEN-006",

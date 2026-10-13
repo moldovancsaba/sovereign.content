@@ -592,5 +592,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — Sfax densify."
+  },
+  {
+    "recordId": "TUN-VEN-025",
+    "name": "Euphoria Padel Ezzahra",
+    "city": "Ez Zahra",
+    "region": "Ben Arous",
+    "countryCode": "TN",
+    "line1": "GP1 KM13, Ez Zahra 2034",
+    "lat": 36.7351812,
+    "lng": 10.3080914,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin for Euphoria Padel Ezzahra — Banlieue Sud densify",
+    "website": "https://www.courtpro.com/clubs/tunisia/ez-zahra/euphoria-padel-ezzahra",
+    "phone": "+216 53 847 847",
+    "email": null,
+    "instagram": "https://www.instagram.com/euphoriapadelezzahra/",
+    "venueModel": "own_premises",
+    "seasonNote": "Open daily (Padelmesh); FTT circuit host — confirm hours by phone.",
+    "description": "Euphoria Padel Ezzahra puts two outdoor courts on GP1 KM13 in Ez Zahra (Ben Arous) with a published phone and Instagram — a clear Banlieue Sud densify pick beyond Greater Tunis clubs already mapped. Host of FTT circuit stages. Call or message ahead for evening sessions.",
+    "primarySourceUrl": "https://www.courtpro.com/clubs/tunisia/ez-zahra/euphoria-padel-ezzahra",
+    "secondarySourceUrl": "https://padelmesh.com/en/tn/ez-zahra/clubs/euphoria-padel-ezzahra",
+    "sourceTypes": "CourtPro club page; Padelmesh contact; Padel Tunisia tournament pages",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — under-covered Ben Arous densify."
   }
 ]

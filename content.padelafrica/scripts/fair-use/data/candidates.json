@@ -3006,5 +3006,22 @@
     "status": "rejected_hub",
     "extractedAt": "2026-10-13T19:00:51.943Z",
     "rejectReason": "guide_or_hub_name"
+  },
+  {
+    "candidateId": "fair-padelrevive-padel-in-ghana-alle-clubs-courts",
+    "sourceId": "padelrevive",
+    "sourceName": "PadelRevive Africa",
+    "name": "Padel in Ghana: alle Clubs & Courts",
+    "citationUrl": "https://padelrevive.com/de/padel-clubs-in-ghana/",
+    "website": "",
+    "cityHint": "Accra",
+    "countryHint": "Ghana",
+    "researchSources": [
+      "https://padelrevive.com/de/padel-clubs-in-ghana/"
+    ],
+    "researchNote": "Discovered via PadelRevive Africa fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) — phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) → contactLinks; bare WhatsApp → wa.me; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected_hub",
+    "extractedAt": "2026-10-13T22:01:34.487Z",
+    "rejectReason": "guide_or_hub_name"
   }
 ]

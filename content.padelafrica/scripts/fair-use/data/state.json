@@ -362,9 +362,7 @@
       }
     },
     "padelrevive": {
-      "queue": [
-        "https://padelrevive.com/de/padel-clubs-in-ghana/"
-      ],
+      "queue": [],
       "done": {
         "https://padelrevive.com/de/padel-clubs-in-afrika/": {
           "at": "2026-09-25T05:04:49.884Z",
@@ -395,11 +393,16 @@
           "at": "2026-10-13T19:00:51.948Z",
           "reasonCode": "seeded",
           "reason": "seeded"
+        },
+        "https://padelrevive.com/de/padel-clubs-in-ghana/": {
+          "at": "2026-10-13T22:01:34.491Z",
+          "reasonCode": "seeded",
+          "reason": "seeded"
         }
       },
       "discoveryCursor": 7,
-      "leadsAdded": 5,
-      "lastFetchAt": "2026-10-13T21:01:04.365Z",
+      "leadsAdded": 6,
+      "lastFetchAt": "2026-10-13T22:01:33.414Z",
       "lastError": {
         "at": "2026-09-25T15:10:56.262Z",
         "url": "https://padelrevive.com/padel-clubs-in-africa/",
@@ -1490,6 +1493,6 @@
       "lastError": null
     }
   },
-  "passCount": 88,
-  "lastPassAt": "2026-10-13T21:01:39.796Z"
+  "passCount": 89,
+  "lastPassAt": "2026-10-13T22:01:34.492Z"
 }

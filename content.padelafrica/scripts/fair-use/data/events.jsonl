@@ -4187,3 +4187,5 @@
 {"at":"2026-10-13T20:00:46.116Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery_harvest","url":"https://www.courtpro.com/clubs/egypt","harvested":0}
 {"at":"2026-10-13T21:01:04.365Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-in-ghana/"}
 {"at":"2026-10-13T21:01:05.085Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-ghana/","harvested":1}
+{"at":"2026-10-13T22:01:33.416Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"detail","url":"https://padelrevive.com/de/padel-clubs-in-ghana/"}
+{"at":"2026-10-13T22:01:34.491Z","type":"fair_use_seed","sourceId":"padelrevive","mode":"detail","url":"https://padelrevive.com/de/padel-clubs-in-ghana/","candidateId":"fair-padelrevive-padel-in-ghana-alle-clubs-courts","reasonCode":"seeded"}

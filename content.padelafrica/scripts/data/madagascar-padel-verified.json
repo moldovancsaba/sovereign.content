@@ -30,7 +30,7 @@
     "city": "Antananarivo",
     "region": "Analamanga",
     "countryCode": "MG",
-    "line1": "Ivandry",
+    "line1": "IIK63 TER Lotissement Bonnet, Ivandry",
     "lat": -18.8758484,
     "lng": 47.5236374,
     "geoPrecision": "locality",
@@ -44,7 +44,11 @@
     "secondarySourceUrl": "https://gardenpadel.net/",
     "sourceTypes": "Garden Padel first-party site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-10-13",
+    "phone": "+261 34 84 79 457",
+    "email": "gardenpadelivandry@gmail.com",
+    "facebook": "https://www.facebook.com/703559436172017",
+    "researchNotes": "; tick 2026-10-13 enrich phone/email/FB + street from directories/PadelVector"
   },
   {
     "recordId": "MDG-VEN-003",
