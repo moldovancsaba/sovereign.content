@@ -489,5 +489,31 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND/fair-use tick 2026-10-13 — promoted fair-courtpro-2s-padel-club-monastir."
+  },
+  {
+    "recordId": "TUN-VEN-021",
+    "name": "Djerba Padel Club",
+    "city": "Sidi Salem",
+    "region": "Médenine",
+    "countryCode": "TN",
+    "line1": "Route de la plage Sidi Salem, Djerba 4186",
+    "lat": 33.8954567,
+    "lng": 10.8245167,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin for Djerba Padel Club Sidi Salem — distinct from Bourgo Arena Midoun",
+    "website": "https://www.courtpro.com/clubs/tunisia/sidi-salem/djerba-padel-club",
+    "phone": "+216 54 000 056",
+    "email": "labombonera.djerba@gmail.com",
+    "instagram": "https://www.instagram.com/clubpadeldjerba/",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 07:00–00:00 (Padelmesh); CourtPro booking available.",
+    "description": "Djerba Padel Club puts outdoor padel courts on Route de la plage in Sidi Salem — distinct from Bourgo Arena Padel Djerba at Midoun. A clear island densify pick with a published phone and Instagram. Book on CourtPro or call ahead for evening LED sessions.",
+    "primarySourceUrl": "https://www.courtpro.com/clubs/tunisia/sidi-salem/djerba-padel-club",
+    "secondarySourceUrl": "https://padelmesh.com/en/tn/djerba/clubs/club-padel-djerba",
+    "sourceTypes": "CourtPro club page; Padelmesh contact; fair-use promote",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND/fair-use tick 2026-10-13 — promoted fair-courtpro-djerba-padel-club; Canva portfolio URL not used as Website."
   }
 ]

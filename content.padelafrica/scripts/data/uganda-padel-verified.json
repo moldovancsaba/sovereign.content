@@ -72,5 +72,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
     "researchNotes": "FIND tick 2026-09-25. Court count not asserted. Distinct from UGA-VEN-001 Herman and UGA-VEN-002 Smash Bukoto."
+  },
+  {
+    "recordId": "UGA-VEN-004",
+    "name": "PadelX Academy",
+    "city": "Kampala",
+    "region": "Central Region",
+    "countryCode": "UG",
+    "line1": "8 Plantation Road, Bugolobi",
+    "lat": 0.3138978,
+    "lng": 32.6220405,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Bugolobi suburb pin — street from CourtBrain; rooftop not geocoded",
+    "website": "http://padeluganda.com/",
+    "phone": null,
+    "email": null,
+    "venueModel": "academy",
+    "seasonNote": "Active Pointrise event schedule on padeluganda.com; confirm court hours with the academy.",
+    "description": "PadelX Academy runs Kampala's busiest published Americano programme from 8 Plantation Road in Bugolobi — distinct from Herman (Nsambya), Smash (Bukoto) and Serena Kigo. A clear fourth Uganda listing when you want Bugolobi densify beyond the three earlier Kampala pins. Contact via padeluganda.com events until a first-party phone is published.",
+    "primarySourceUrl": "http://padeluganda.com/",
+    "secondarySourceUrl": "https://www.courtbrain.com/kampala-uganda/kampala/padelx-academy",
+    "sourceTypes": "Padel Uganda Pointrise club board; CourtBrain address listing",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — under-covered UG densify; phone absent (honest debt); Instagram handle not confirmed as http(s) profile URL."
   }
 ]

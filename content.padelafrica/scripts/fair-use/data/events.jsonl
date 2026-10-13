@@ -4141,3 +4141,5 @@
 {"at":"2026-10-13T15:03:31.633Z","type":"fair_use_reject","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-africa-camps-cape-town/","candidateId":"fair-actu-padel-africa-padel-camps-bay","reasonCode":"duplicate"}
 {"at":"2026-10-13T16:01:38.659Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/tunisia/monastir/2s-padel-club-monastir"}
 {"at":"2026-10-13T16:01:39.190Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/tunisia/monastir/2s-padel-club-monastir","candidateId":"fair-courtpro-2s-padel-club-monastir","reasonCode":"seeded"}
+{"at":"2026-10-13T17:01:11.828Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/tunisia/sidi-salem/djerba-padel-club"}
+{"at":"2026-10-13T17:01:12.345Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/tunisia/sidi-salem/djerba-padel-club","candidateId":"fair-courtpro-djerba-padel-club","reasonCode":"seeded"}

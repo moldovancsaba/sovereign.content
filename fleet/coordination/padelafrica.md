@@ -1699,3 +1699,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **KEN-VEN-027 Padel Force Kilifi** + **TUN-VEN-020 2S Padel Club Monastir** created DISCOVERED. **GNQ-VEN-002** Ukomba Facebook/phone/email enrich.
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~17:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** pass **84**; CourtPro detail seeded + promoted **Djerba Padel Club** → TUN-021; pending 0.
+
+**FIND / ingest:** **TUN-VEN-021 Djerba Padel Club**, **UGA-VEN-004 PadelX Academy** (Bugolobi), **KEN-VEN-028 Fomo Padel Kilifi** created DISCOVERED. **RWA-VEN-002** Mamba first-party/IG/WhatsApp enrich. Rwanda Musanze/Huye → zero-result.
+
+Not claiming PUBLISHED.

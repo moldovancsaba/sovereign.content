@@ -665,5 +665,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — under-covered Kilifi coast densify; Instagram @padelforcekilifi."
+  },
+  {
+    "recordId": "KEN-VEN-028",
+    "name": "Fomo Padel Kilifi",
+    "city": "Kilifi",
+    "region": "Kilifi County",
+    "countryCode": "KE",
+    "line1": "Near Kilifi",
+    "lat": -3.6751657,
+    "lng": 39.8614802,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin — distinct from Padel Force Kilifi at Mnarani Beach Club",
+    "website": "https://www.courtpro.com/clubs/kenya/kilifi/fomo-padel-kilifi",
+    "phone": "+254 705 458826",
+    "email": null,
+    "instagram": "https://www.instagram.com/fomo.padel",
+    "venueModel": "own_premises",
+    "seasonNote": "Confirm hours on CourtPro / Instagram @fomo.padel.",
+    "description": "Fomo Padel Kilifi is a named Coast club listed on CourtPro and PadelRevive with a published phone and Instagram — distinct from Padel Force at Mnarani Beach Club. A useful second Kilifi option when mapping padel north of Mombasa. Call or message via Instagram for booking until a first-party site is published.",
+    "primarySourceUrl": "https://www.courtpro.com/clubs/kenya/kilifi/fomo-padel-kilifi",
+    "secondarySourceUrl": "https://padelrevive.com/padel-in-kenya/",
+    "sourceTypes": "CourtPro club page (phone); Reclub Instagram; PadelRevive Kenya map",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — Kilifi densify from PadelRevive CSV gap; street not published."
   }
 ]

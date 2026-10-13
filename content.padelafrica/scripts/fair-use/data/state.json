@@ -1435,9 +1435,7 @@
       "lastError": null
     },
     "courtpro": {
-      "queue": [
-        "https://www.courtpro.com/clubs/tunisia/sidi-salem/djerba-padel-club"
-      ],
+      "queue": [],
       "done": {
         "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club": {
           "at": "2026-10-13T13:02:47.063Z",
@@ -1453,11 +1451,16 @@
           "at": "2026-10-13T16:01:39.190Z",
           "reasonCode": "seeded",
           "reason": "seeded"
+        },
+        "https://www.courtpro.com/clubs/tunisia/sidi-salem/djerba-padel-club": {
+          "at": "2026-10-13T17:01:12.345Z",
+          "reasonCode": "seeded",
+          "reason": "seeded"
         }
       },
       "discoveryCursor": 2,
-      "leadsAdded": 3,
-      "lastFetchAt": "2026-10-13T16:01:38.658Z",
+      "leadsAdded": 4,
+      "lastFetchAt": "2026-10-13T17:01:11.826Z",
       "lastError": null
     },
     "playtomic-directory": {
@@ -1481,6 +1484,6 @@
       "lastError": null
     }
   },
-  "passCount": 83,
-  "lastPassAt": "2026-10-13T16:01:39.190Z"
+  "passCount": 84,
+  "lastPassAt": "2026-10-13T17:01:12.346Z"
 }
