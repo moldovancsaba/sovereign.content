@@ -4139,3 +4139,5 @@
 {"at":"2026-10-13T15:02:44.259Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery_harvest","url":"https://www.courtpro.com/clubs/tunisia","harvested":2}
 {"at":"2026-10-13T15:03:29.278Z","type":"fair_use_attempt","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-africa-camps-cape-town-en/"}
 {"at":"2026-10-13T15:03:31.633Z","type":"fair_use_reject","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-africa-camps-cape-town/","candidateId":"fair-actu-padel-africa-padel-camps-bay","reasonCode":"duplicate"}
+{"at":"2026-10-13T16:01:38.659Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/tunisia/monastir/2s-padel-club-monastir"}
+{"at":"2026-10-13T16:01:39.190Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/tunisia/monastir/2s-padel-club-monastir","candidateId":"fair-courtpro-2s-padel-club-monastir","reasonCode":"seeded"}

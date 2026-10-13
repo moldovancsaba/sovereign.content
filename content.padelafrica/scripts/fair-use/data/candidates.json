@@ -2956,5 +2956,21 @@
     "status": "rejected_hub",
     "extractedAt": "2026-10-13T14:01:51.987Z",
     "rejectReason": "guide_or_hub_name"
+  },
+  {
+    "candidateId": "fair-courtpro-2s-padel-club-monastir",
+    "sourceId": "courtpro",
+    "sourceName": "CourtPro club directory",
+    "name": "2S Padel Club Monastir",
+    "citationUrl": "https://www.courtpro.com/clubs/tunisia/monastir/2s-padel-club-monastir",
+    "website": "",
+    "countryHint": "Tunisia",
+    "researchSources": [
+      "https://www.courtpro.com/clubs/tunisia/monastir/2s-padel-club-monastir"
+    ],
+    "researchNote": "Discovered via CourtPro club directory fair-use one-lead research. No external club website extracted \u2014 agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) \u2014 phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) \u2192 contactLinks; bare WhatsApp \u2192 wa.me; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "promoted",
+    "extractedAt": "2026-10-13T16:01:39.187Z",
+    "promotedRecordId": "TUN-VEN-020"
   }
 ]

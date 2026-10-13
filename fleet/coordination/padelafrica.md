@@ -1691,3 +1691,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **KEN-VEN-026 Nakuru Tennis and Padel Coaching** created DISCOVERED. **DJI-VEN-001** FB/IG enrich; **GAB-VEN-003** Facebook enrich.
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~16:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (TUN-019 skip_closed). **Fair-use:** pass **83**; promoted CourtPro **2S Padel Club Monastir** → TUN-020; pending 0.
+
+**FIND / ingest:** **KEN-VEN-027 Padel Force Kilifi** + **TUN-VEN-020 2S Padel Club Monastir** created DISCOVERED. **GNQ-VEN-002** Ukomba Facebook/phone/email enrich.
+
+Not claiming PUBLISHED.

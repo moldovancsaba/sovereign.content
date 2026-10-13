@@ -44,7 +44,10 @@
     "sourceTypes": "Padel Lands; AnalistasPadel Guinea Ecuatorial feature; Padelazo Ukomba profile",
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
-    "researchNotes": "FIND tick 2026-09-23. Also known as Club Privado Ukomba / Ukomba Sport Club (Martínez Hermanos). No first-party club phone verified in the audit window — directory phone fields empty; salireneg numbers belong to the city guide, not retained.; tick 09:00 confirm still active (AnalistasPadel/Ukomba Bata)"
+    "researchNotes": "FIND tick 2026-09-23. Also known as Club Privado Ukomba / Ukomba Sport Club (Martínez Hermanos). No first-party club phone verified in the audit window — directory phone fields empty; salireneg numbers belong to the city guide, not retained.; tick 09:00 confirm still active (AnalistasPadel/Ukomba Bata); tick 2026-10-13 enrich — Club Deportivo Ukomba Facebook/phone/email",
+    "facebook": "https://www.facebook.com/100117609056656",
+    "phone": "+240 555 644 275",
+    "email": "designguinea@gmail.com"
   },
   {
     "recordId": "GNQ-VEN-003",

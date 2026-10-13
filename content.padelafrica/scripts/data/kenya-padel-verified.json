@@ -639,5 +639,31 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — under-covered Nakuru densify; phone absent (honest debt)."
+  },
+  {
+    "recordId": "KEN-VEN-027",
+    "name": "Padel Force Kilifi",
+    "city": "Kilifi",
+    "region": "Kilifi County",
+    "countryCode": "KE",
+    "line1": "Mnarani Beach Club",
+    "lat": -3.640040999999999,
+    "lng": 39.8505925,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "PadelRevive/CourtPro pin for Padel Force at Mnarani Beach Club",
+    "website": "https://playtomic.com/clubs/padel-force-kilifi",
+    "phone": "+254 748 388694",
+    "email": null,
+    "instagram": "https://www.instagram.com/padelforcekilifi/",
+    "venueModel": "resort",
+    "seasonNote": "Daily 07:00–23:00 (Playtomic).",
+    "description": "Padel Force Kilifi puts two padel courts at Mnarani Beach Club on Kilifi Creek, with Playtomic booking and a published Padel Force phone. A clear Coast recommendation when you want bookable padel between Mombasa and Watamu. Reserve on Playtomic or call ahead for coastal peak hours.",
+    "primarySourceUrl": "https://playtomic.com/clubs/padel-force-kilifi",
+    "secondarySourceUrl": "https://www.mnaranitales.com/index.php/2026/03/20/game-set-social-padel-at-mnarani-is-the-ultimate-holiday-hit/",
+    "sourceTypes": "Playtomic club page; Mnarani Tales launch; LinkedIn Mnarani booking note",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — under-covered Kilifi coast densify; Instagram @padelforcekilifi."
   }
 ]

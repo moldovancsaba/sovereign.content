@@ -1,29 +1,29 @@
 {
   "client": "padelafrica",
   "date": "2026-10-13",
-  "tickUtc": "2026-10-13T15:03Z",
+  "tickUtc": "2026-10-13T16:05Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "TUN-VEN-019 skip_closed; scanned 540",
+  "qualityNote": "TUN-VEN-019 skip_closed; scanned 543",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 82,
+    "passCount": 83,
     "pendingCandidates": 0
   },
   "find": {
     "seeded": [
-      "KEN-VEN-026"
+      "KEN-VEN-027",
+      "TUN-VEN-020"
     ],
     "enriched": [
-      "DJI-VEN-001",
-      "GAB-VEN-003"
+      "GNQ-VEN-002"
     ],
     "zeroResult": [],
     "skipped": [

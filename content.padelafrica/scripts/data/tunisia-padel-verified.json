@@ -464,5 +464,30 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-27",
     "researchNotes": "FIND tick 2026-09-27T00"
+  },
+  {
+    "recordId": "TUN-VEN-020",
+    "name": "2S Padel Club Monastir",
+    "city": "Monastir",
+    "region": "Monastir",
+    "countryCode": "TN",
+    "line1": "ZI, Monastir 5000",
+    "lat": 35.6334434,
+    "lng": 10.9318275,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Nominatim Zone Industrielle Monastir",
+    "website": "https://www.courtpro.com/clubs/tunisia/monastir/2s-padel-club-monastir",
+    "phone": null,
+    "email": null,
+    "venueModel": "own_premises",
+    "seasonNote": "CourtPro booking daily 08:00–01:00.",
+    "description": "2S Padel Club Monastir is a named CourtPro bookable club in Monastir's industrial zone (ZI), distinct from Padel Up Monastir. A useful second Monastir option when mapping Sahel padel. Confirm access and guest policy on the CourtPro listing until a first-party phone is published.",
+    "primarySourceUrl": "https://www.courtpro.com/clubs/tunisia/monastir/2s-padel-club-monastir",
+    "secondarySourceUrl": "https://padelrevive.com/padel-in-tunisia/",
+    "sourceTypes": "CourtPro club page; fair-use promote",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND/fair-use tick 2026-10-13 — promoted fair-courtpro-2s-padel-club-monastir."
   }
 ]
