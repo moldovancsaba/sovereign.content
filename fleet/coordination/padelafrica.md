@@ -1563,3 +1563,19 @@ Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.pad
 ### 2026-10-13 — padelafrica (tick ~00:00 UTC — timer paused)
 
 **Fifth** consecutive fire with **`INGEST_API_KEY` still absent**. Unsubscribed `padel-find-tick` to stop idle hourly wakes. Re-subscribe when the Cloud Agent env secret is set (and ideally when SC push access for this bot is fixed). Inbox: `status-2026-10-13.json`. Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~05:30 UTC — resumed)
+
+**Timer:** re-subscribed (`sub_0066d7f7-…`) after ingest key verified live.
+
+**Auth smoke:** valid key → 400 invalid payload; wrong key → 401; reprocess `research-uga-ven-001` → 200 DISCOVERED.
+
+**Pipeline:** feed-discovered ×2 → **59/60** ok (KEN-022 mid-pipeline 409 once).
+
+**Quality:** 535 scanned, **1 below → 1 applied** (TUN-VEN-019 compose_about 45→80).
+
+**Fair-use:** pass **78**; pending **Play Padel Laguna** (padelivu) — triage next (likely OOS).
+
+**FIND:** BDI-VEN-001 enrich → first-party `bujapadel.com` + phones/WhatsApp re-ingested. Skip Addis (still thin). No East Rand densify.
+
+**Inbox:** refreshed. HiTL none. SC push still 403 for cursor[bot]. Not claiming PUBLISHED.

@@ -1,44 +1,81 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-10-13T00:00:30Z",
+  "observedAt": "2026-10-13T05:53:11Z",
   "source": "padel-find-tick",
   "workingEnv": {
-    "timerSubscribed": false,
+    "timerSubscribed": true,
     "timerName": "padel-find-tick",
-    "timerSubscriptionId": "sub_46391b98-b00c-456a-98f9-7dd67fc42494",
-    "timerPausedReason": "missing_INGEST_API_KEY_after_5_blocked_fires",
+    "timerSubscriptionId": "sub_0066d7f7-a337-4852-a97d-4500194d24cd",
     "ingestOnlyDoctrine": true,
-    "ingestOnlyReality": false,
-    "ingestApiKeyPresent": false,
-    "writesPath": "blocked_missing_ingest_api_key",
-    "tickCompleted": false,
+    "ingestOnlyReality": true,
+    "ingestApiKeyPresent": true,
+    "writesPath": "post_api_ingest",
+    "tickCompleted": true,
     "skippedManagementMongoCatalogJobs": true,
-    "pipelineFeedRanThisTick": false,
+    "qualityLoop": "ingest_score_improve_encode",
+    "fairUseSources": 28,
+    "fairUsePassCount": 78,
+    "refuseAgentMongoGuards": true,
+    "pipelineFeedDiscovered": true,
+    "pipelineFeedRanThisTick": true,
     "pipelineFeedEveryTick": true,
-    "preferUnderCoveredCountries": true
+    "preferUnderCoveredCountries": true,
+    "evidencePhoneOptional": true,
+    "evidenceCityPinOk": true,
+    "evidenceSocialContactOk": true
   },
   "outcomes": {
-    "qualityLoopApplied": 0,
-    "pipelineFeedOk": 0,
-    "fairUsePass": 77,
-    "fairUsePendingAfterTriage": 0,
+    "qualityLoopScanned": 535,
+    "qualityLoopBelowThreshold": 1,
+    "qualityLoopApplied": 1,
+    "qualityAtCeiling": false,
+    "qualityNote": "TUN-VEN-019 compose_about 45\u219280 applied via ingest reprocess",
+    "pipelineFeedBatches": 2,
+    "pipelineFeedOk": 59,
+    "pipelineFeedFailed": 1,
+    "pipelineFeedLimit": 30,
+    "pipelineFeedNote": "Batch A 30/30; batch B 29/30 (KEN-VEN-022 mid-pipeline 409)",
+    "fairUsePass": 78,
+    "fairUsePendingAfterTriage": 1,
+    "fairUseNote": "one-pass harvested; pending Play Padel Laguna (padelivu) \u2014 triage OOS likely",
     "findSeeded": [],
+    "findSocialContactEnrichment": [
+      "BDI-VEN-001"
+    ],
+    "findSkipped": [
+      "East Rand densify deferred",
+      "Ethiopia Addis Padel \u2014 first-party still marketing-thin / prior launch language; skip seed",
+      "Benin/Guinea \u2014 no new venue beyond existing single seeds"
+    ],
+    "findZeroResult": [],
+    "ingestDiscoveredOk": 2,
+    "ingestEvidence": [
+      "research-uga-ven-001 auth smoke reprocess",
+      "research-bdi-ven-001 bujapadel.com enrich",
+      "research-tun-ven-019 quality compose"
+    ],
+    "pipelineFeedEvidence": [
+      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-10-13T05-30-35-415Z.json",
+      "content.padelafrica/scripts/data/pipeline-feed/feed-2026-10-13T05-51-52-500Z.json"
+    ],
     "publishedClaimed": false,
     "hitlBacklog": 0,
-    "note": "Fifth consecutive fire without INGEST_API_KEY. Timer unsubscribed to stop idle hourly wakes; re-subscribe when key is in env secrets."
+    "aboutDebtOpen": 0,
+    "note": "Key verified (auth 400 vs wrong 401; write 200). Resumed timer. Feed x2, quality applied TUN-019, fair-use pass 78, BDI enrich. Not claiming PUBLISHED."
   },
   "openDebt": [
-    "cloud_agent_env_missing_INGEST_API_KEY",
     "sc_main_push_denied_cursor_bot"
+  ],
+  "resolvedDebt": [
+    "cloud_agent_env_missing_INGEST_API_KEY"
   ],
   "client": "padelafrica",
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T00:00:30Z",
+  "updatedAt": "2026-10-13T05:53:11Z",
   "timer": {
     "name": "padel-find-tick",
-    "subscriptionId": "sub_46391b98-b00c-456a-98f9-7dd67fc42494",
-    "stillSubscribed": false,
-    "pausedAt": "2026-10-13T00:00:30Z",
-    "deliveryCountAtPause": 5
+    "subscriptionId": "sub_0066d7f7-a337-4852-a97d-4500194d24cd",
+    "delaySeconds": 3600,
+    "stillSubscribed": true
   }
 }
