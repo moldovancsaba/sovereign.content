@@ -405,5 +405,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-28",
     "researchNotes": "FIND tick 25 under-covered AO (not ZA densify). Distinct from AGO-VEN-001 Padel4um Forum and AGO-VEN-015 Playtime Belas. Court count listed as 6 on directories — not asserted."
+  },
+  {
+    "recordId": "AGO-VEN-018",
+    "name": "Padel Lounge Patriota",
+    "city": "Belas",
+    "region": "Luanda",
+    "countryCode": "AO",
+    "line1": "Estrada Lar do Patriota p/Benfica",
+    "lat": -8.9519945,
+    "lng": 13.198062,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim-cluster",
+    "geoNote": "Lar do Patriota locality pin shared with nearby KOOL cluster — street published on TieSports; distinct club from KOOL PADEL",
+    "website": "https://clubs.tiesports.com/en/angola/PadelLoungePatriota",
+    "phone": "+244 939 799 298",
+    "email": "padelpatriota@gmail.com",
+    "instagram": "https://www.instagram.com/padelpatriota/",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 08:00–22:00 (TieSports).",
+    "description": "Padel Lounge Patriota offers two indoor courts on Estrada Lar do Patriota toward Benfica in Belas, with TieSports booking, published phone and email. A clear Luanda-south recommendation distinct from KOOL PADEL at Rua 4. Call or book on TieSports before peak evenings.",
+    "primarySourceUrl": "https://clubs.tiesports.com/en/angola/PadelLoungePatriota",
+    "secondarySourceUrl": "https://www.tiepadel.com/padelloungepatriota",
+    "sourceTypes": "TieSports club page; TiePadel directory",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — distinct from AGO-VEN-005 KOOL PADEL; Instagram handle from TiePadel branding @padelpatriota."
   }
 ]

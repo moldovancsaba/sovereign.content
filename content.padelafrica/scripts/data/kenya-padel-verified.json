@@ -563,5 +563,31 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-27",
     "researchNotes": "FIND tick 07 — Nairobi densify. No dedicated padel phone asserted."
+  },
+  {
+    "recordId": "KEN-VEN-024",
+    "name": "Watamu Padel House",
+    "city": "Watamu",
+    "region": "Kilifi County",
+    "countryCode": "KE",
+    "line1": "Kanani / Jacaranda Road",
+    "lat": -3.3436453,
+    "lng": 40.030885,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "PadelRevive/CourtPro pin for Vineria Watamu Padel House",
+    "website": "https://playtomic.com/clubs/watamu-padel-house",
+    "phone": "+254 798 686420",
+    "email": null,
+    "instagram": "https://www.instagram.com/watamupadelhouse/",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily ~07:00–23:30 (Playtomic).",
+    "description": "Watamu Padel House puts three padel courts on Kanani/Jacaranda Road in Watamu, with Playtomic booking, coaching and an on-site wine lounge. A clear Coast recommendation when you want bookable padel outside Nairobi and Mombasa. Reserve ahead for evening lights and coastal weekends.",
+    "primarySourceUrl": "https://playtomic.com/clubs/watamu-padel-house",
+    "secondarySourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g661279-d26769937-Reviews-Non_Solo_Padel_Kenya-Watamu_Coast_Province.html",
+    "sourceTypes": "Playtomic club page; PadelRevive CSV; Tripadvisor contact pin",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — under-covered Watamu/Coast densify; also branded Non Solo Padel Kenya on Tripadvisor."
   }
 ]

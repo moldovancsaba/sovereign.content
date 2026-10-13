@@ -1667,3 +1667,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **TZA-VEN-011 Mwanza Tennis Club** created DISCOVERED (Isamilo; distinct from Ryan's Bay). **GAB-VEN-002** Eden Sport social enrich (IG/FB/email). **AGO-VEN-010** Q88 Instagram enrich. Comoros Moroni → still zero (FCP federation site, no court).
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~13:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** pass 80; rejected CourtPro US OOS; narrowed CourtPro discovery to Africa country paths.
+
+**FIND / ingest:** **KEN-VEN-024 Watamu Padel House** + **AGO-VEN-018 Padel Lounge Patriota** created DISCOVERED. Kisumu Public Service → thin (no seed).
+
+Not claiming PUBLISHED.

@@ -2924,5 +2924,21 @@
     "status": "rejected_oos",
     "extractedAt": "2026-10-13T05:39:30.144Z",
     "rejectReason": "out_of_scope_non_africa"
+  },
+  {
+    "candidateId": "fair-courtpro-40forty-padel-club",
+    "sourceId": "courtpro",
+    "sourceName": "CourtPro club directory",
+    "name": "40Forty Padel Club",
+    "citationUrl": "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club",
+    "website": "https://40fortypadel.com/",
+    "researchSources": [
+      "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club",
+      "https://40fortypadel.com/"
+    ],
+    "researchNote": "Discovered via CourtPro club directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) \u2014 phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) \u2192 contactLinks; bare WhatsApp \u2192 wa.me; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "rejected_oos",
+    "extractedAt": "2026-10-13T13:02:47.059Z",
+    "rejectReason": "out_of_scope_non_africa"
   }
 ]

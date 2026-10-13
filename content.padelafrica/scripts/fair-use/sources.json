@@ -68,7 +68,6 @@
       "base": "https://www.courtpro.com",
       "cooldownSec": 900,
       "discoveryPages": [
-        "https://www.courtpro.com/clubs",
         "https://www.courtpro.com/clubs/morocco",
         "https://www.courtpro.com/clubs/tunisia",
         "https://www.courtpro.com/clubs/kenya",
@@ -77,7 +76,11 @@
         "https://www.courtpro.com/clubs/south-africa",
         "https://www.courtpro.com/clubs/nigeria",
         "https://www.courtpro.com/clubs/ghana",
-        "https://www.courtpro.com/clubs/senegal"
+        "https://www.courtpro.com/clubs/senegal",
+        "https://www.courtpro.com/clubs/angola",
+        "https://www.courtpro.com/clubs/namibia",
+        "https://www.courtpro.com/clubs/burundi",
+        "https://www.courtpro.com/clubs/benin"
       ],
       "detailHrefPatterns": [
         "courtpro\\.com/clubs/[a-z0-9-]+/[a-z0-9-]+/[\\w-]+"

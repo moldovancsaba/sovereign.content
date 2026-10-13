@@ -4087,3 +4087,39 @@
 {"at":"2026-10-13T12:03:22.117Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/","reasonCode":"fetch_error","error":"fetch failed"}
 {"at":"2026-10-13T12:04:07.133Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery","url":"https://padelafrica.com/"}
 {"at":"2026-10-13T12:04:07.203Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery_harvest","url":"https://padelafrica.com/","harvested":0}
+{"at":"2026-10-13T13:01:14.788Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-in-tunisia/"}
+{"at":"2026-10-13T13:01:15.935Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-tunisia/","harvested":0}
+{"at":"2026-10-13T13:02:00.951Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/south-africa/"}
+{"at":"2026-10-13T13:02:01.468Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/south-africa/","harvested":0}
+{"at":"2026-10-13T13:02:46.485Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club"}
+{"at":"2026-10-13T13:02:47.063Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club","candidateId":"fair-courtpro-40forty-padel-club","reasonCode":"seeded"}
+{"at":"2026-10-13T13:03:32.079Z","type":"fair_use_attempt","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/egypt/"}
+{"at":"2026-10-13T13:03:32.109Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/egypt/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-10-13T13:04:17.125Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery","url":"https://playtomic.io/"}
+{"at":"2026-10-13T13:04:17.490Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery_harvest","url":"https://playtomic.io/","harvested":0}
+{"at":"2026-10-13T13:05:02.507Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/maroc/"}
+{"at":"2026-10-13T13:05:02.744Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/maroc/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-10-13T13:05:47.762Z","type":"fair_use_attempt","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-symbezi-prosport-kwadukuza-local-en/"}
+{"at":"2026-10-13T13:05:50.788Z","type":"fair_use_reject","sourceId":"actu-padel","mode":"detail","url":"https://actu-padel.com/en/directory/padel-club/padel-symbezi-prosport-kwadukuza-local/","candidateId":"fair-actu-padel-symbezi-prosport-centre","reasonCode":"duplicate"}
+{"at":"2026-10-13T13:06:35.806Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery","url":"https://padel.co.ma/annuaire-des-clubs/"}
+{"at":"2026-10-13T13:06:36.385Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}
+{"at":"2026-10-13T13:07:21.401Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/pretoria"}
+{"at":"2026-10-13T13:07:21.918Z","type":"fair_use_reject","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/pretoria","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-10-13T13:08:06.934Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery","url":"https://www.africapadel.com/"}
+{"at":"2026-10-13T13:08:07.254Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}
+{"at":"2026-10-13T13:08:52.270Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery","url":"https://padelafrica.com/tournaments"}
+{"at":"2026-10-13T13:08:52.328Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery_harvest","url":"https://padelafrica.com/tournaments","harvested":0}
+{"at":"2026-10-13T13:09:37.344Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery","url":"https://www.analistaspadel.com/padel-en-africa/"}
+{"at":"2026-10-13T13:09:38.108Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/padel-en-africa/","harvested":0}
+{"at":"2026-10-13T13:10:23.125Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/"}
+{"at":"2026-10-13T13:10:23.202Z","type":"fair_use_reject","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/","status":403,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-10-13T13:11:08.218Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/nigeria"}
+{"at":"2026-10-13T13:11:08.282Z","type":"fair_use_reject","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/nigeria","status":429,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-10-13T13:11:53.289Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
+{"at":"2026-10-13T13:11:54.004Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-10-13T13:12:39.021Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery","url":"https://padel.llc/"}
+{"at":"2026-10-13T13:12:39.769Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery_harvest","url":"https://padel.llc/","harvested":0}
+{"at":"2026-10-13T13:13:24.786Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery","url":"https://www.padelfip.com/"}
+{"at":"2026-10-13T13:13:25.083Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery_harvest","url":"https://www.padelfip.com/","harvested":0}
+{"at":"2026-10-13T13:14:10.099Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery","url":"https://premierpadel.com/en/home-page"}
+{"at":"2026-10-13T13:14:10.613Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/en/home-page","harvested":0}
