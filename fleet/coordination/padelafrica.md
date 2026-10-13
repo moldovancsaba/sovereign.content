@@ -1621,3 +1621,11 @@ Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.pad
 **FIND / ingest:** BEN-001 reprocess; **GIN-001** created; TGO-002 WhatsApp enrich. Chad + Niger → zero-result (no named open courts).
 
 **Note:** catalog writes via ingest only; SC push is inbox/fixtures bookkeeping. Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~09:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** one-pass running; EU OOS candidates rejected (Eschilo/Verneuil).
+
+**FIND / ingest:** Equatorial Guinea **GNQ-001/002/003** created/reprocessed (Sport Club Malabo, Ukomba, Padel Malabo booking). São Tomé → zero (ambiguous kayak/SUP listing).
+
+Not claiming PUBLISHED.

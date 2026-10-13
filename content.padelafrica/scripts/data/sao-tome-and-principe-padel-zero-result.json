@@ -1,0 +1,13 @@
+{
+  "recordKind": "country_audit_summary",
+  "country": "Sao Tome and Principe",
+  "iso3": "STP",
+  "countryCode": "ST",
+  "verifiedActiveVenueCount": 0,
+  "lastVerifiedUtc": "2026-10-13",
+  "conclusion": "No clear padel-sport court verified. Club Santana lists \"Kayak e Padel\" which is ambiguous with stand-up paddle; Portuguese federation equipment donation is not an operating venue.",
+  "notes": [
+    "Club Santana Beach & Resort activities list Kayak e Padel \u2014 not seeded as padel-club without court confirmation",
+    "Padel Without Borders: early/limited infrastructure"
+  ]
+}

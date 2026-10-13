@@ -17,12 +17,12 @@
     "venueModel": "own_premises",
     "seasonNote": "Hours not listed yet.",
     "description": "Sport Club Malabo puts dedicated padel courts beside the Venezuelan Embassy in Malabo, inside a multi-sport club with tennis, pool and gym. A clear recommendation for Equatorial Guinea when you want a named Malabo address with published phone and email rather than a directory-only pin. Confirm court availability before evening sessions; padelmalabo.com booking may serve the same local community and was not seeded as a second venue.",
-    "primarySourceUrl": "https://www.grupocaleyma.com/sport-club-malabo",
-    "secondarySourceUrl": "https://padelmalabo.com/",
+    "primarySourceUrl": "https://www.grupocaleyma.com/sportclubmalabo",
+    "secondarySourceUrl": "https://padelmalabo.com/book-appointment/",
     "sourceTypes": "Operator Grupo Caleyma site; Padel Malabo booking/league site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Padel Malabo (padelmalabo.com) shows active Malabo league play and Campo 1 booking but no distinct street address separate from Sport Club — not double-seeded"
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "Padel Malabo (padelmalabo.com) shows active Malabo league play and Campo 1 booking but no distinct street address separate from Sport Club — not double-seeded; ; tick 09:00 keep Sport Club Malabo first-party; Padel Malabo booking is separate GNQ-VEN-003"
   },
   {
     "recordId": "GNQ-VEN-002",
@@ -43,7 +43,30 @@
     "secondarySourceUrl": "https://www.analistaspadel.com/el-padel-en-guinea-ecuatorial/",
     "sourceTypes": "Padel Lands; AnalistasPadel Guinea Ecuatorial feature; Padelazo Ukomba profile",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-23",
-    "researchNotes": "FIND tick 2026-09-23. Also known as Club Privado Ukomba / Ukomba Sport Club (Martínez Hermanos). No first-party club phone verified in the audit window — directory phone fields empty; salireneg numbers belong to the city guide, not retained."
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-09-23. Also known as Club Privado Ukomba / Ukomba Sport Club (Martínez Hermanos). No first-party club phone verified in the audit window — directory phone fields empty; salireneg numbers belong to the city guide, not retained.; tick 09:00 confirm still active (AnalistasPadel/Ukomba Bata)"
+  },
+  {
+    "recordId": "GNQ-VEN-003",
+    "name": "Padel Malabo",
+    "city": "Malabo",
+    "region": "Bioko Norte",
+    "countryCode": "GQ",
+    "line1": "Near Malabo (Bahía de Venus / Cano-Sport area)",
+    "lat": 3.741877,
+    "lng": 8.7740663,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "website": "https://padelmalabo.com/book-appointment/",
+    "phone": "+240 222 56 57 88",
+    "venueModel": "own_premises",
+    "seasonNote": "Online court booking via padelmalabo.com",
+    "description": "Padel Malabo offers bookable padel courts in Malabo with a published phone and online reservation pages. A clear Equatorial Guinea recommendation on Bioko when you want named Malabo courts beyond Bata's Ukomba complex. Book on padelmalabo.com or call ahead.",
+    "primarySourceUrl": "https://padelmalabo.com/book-appointment/",
+    "secondarySourceUrl": "https://www.bestpadel.com/cancha-de-padel-bahia-de-venus",
+    "sourceTypes": "Padel Malabo booking; BestPadel Bahía de Venus listing",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 09:00 under-covered GNQ — first-party booking site + phone; may overlap Gepadel/Cano-Sport footprint; kept as Malabo booking brand"
   }
 ]

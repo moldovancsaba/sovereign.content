@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-10-13T08:02:20Z",
+  "observedAt": "2026-10-13T09:20:04Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -12,7 +12,6 @@
     "githubAsMoldovancsaba": true,
     "writesPath": "post_api_ingest",
     "tickCompleted": true,
-    "skippedManagementMongoCatalogJobs": true,
     "pipelineFeedRanThisTick": true,
     "preferUnderCoveredCountries": true
   },
@@ -21,41 +20,35 @@
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
     "qualityAtCeiling": true,
-    "qualityNote": "TUN-019 skip_closed (already 80)",
+    "qualityNote": "TUN-019 skip_closed",
     "pipelineFeedBatches": 2,
     "pipelineFeedOk": 60,
     "pipelineFeedFailed": 0,
     "fairUsePass": 78,
     "fairUsePendingAfterTriage": 0,
-    "fairUseNote": "status only; last one-pass 05:51Z",
+    "fairUseNote": "one-pass still running (~16m+); OOS pending (Eschilo IT, Verneuil FR) rejected; pending 0",
     "findSeeded": [
-      "GIN-VEN-001"
-    ],
-    "findSocialContactEnrichment": [
-      "BEN-VEN-001",
-      "TGO-VEN-002"
+      "GNQ-VEN-001",
+      "GNQ-VEN-002",
+      "GNQ-VEN-003"
     ],
     "findZeroResult": [
-      "Chad N'Djamena",
-      "Niger Niamey"
+      "Sao Tome and Principe \u2014 Kayak e Padel ambiguous SUP; not seeded"
     ],
     "findSkipped": [
-      "East Rand densify",
-      "Liberia launching"
+      "East Rand densify"
     ],
     "ingestDiscoveredOk": 3,
     "ingestEvidence": [
-      "research-ben-ven-001",
-      "research-gin-ven-001 created",
-      "research-tgo-ven-002"
+      "research-gnq-ven-001/002/003"
     ],
     "publishedClaimed": false,
-    "note": "08:00 tick. Feed 60/60. Quality ceiling. FIND BJ/GN/TG ingest; TD/NE zero. SC push = inbox only. Not claiming PUBLISHED."
+    "note": "09:00 tick. Feed 60/60. Quality ceiling. GNQ Malabo/Bata/Padel Malabo ingest. STP zero. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "client": "padelafrica",
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T08:02:20Z",
+  "updatedAt": "2026-10-13T09:20:04Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_b5b82cda-51c5-40a4-9c64-a2f1c9d7bf0e",
