@@ -13,7 +13,7 @@
     "geoNote": "Kololi Beach Resort pin — distinct from OSM Seaview Plaza Padel Club Gambia",
     "website": "https://kololi.com/padel-court/",
     "phone": "+220 215 8781",
-    "email": "bookings@kololi.com",
+    "email": "Bookings@kololi.com",
     "venueModel": "own_premises",
     "seasonNote": "Daily 09:00–20:00; reserve via reception",
     "description": "Kololi Beach Resort hosts a beachfront padel court on the Senegambia Strip — sea-breeze sessions with published day and evening rates and reception booking. A clear recommendation when you want resort padel in Kololi distinct from the Seaview Plaza OSM pin. Reserve ahead; payment is required in advance per the resort page.",
@@ -21,8 +21,9 @@
     "secondarySourceUrl": "https://kololi.com/contact/",
     "sourceTypes": "Kololi Beach Resort first-party padel and contact pages",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Not a duplicate of osm-way-1503420104 (Seaview Plaza) — different host property"
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "Not a duplicate of osm-way-1503420104 (Seaview Plaza) — different host property; tick 07:00 enrich WhatsApp +220877134203",
+    "whatsapp": "+220 8771 34203"
   },
   {
     "recordId": "GMB-VEN-002",
@@ -38,7 +39,7 @@
     "geoNote": "Vibe Fitness / Seaview Plaza Kololi pin; club lists Duplex junction behind Vibe Fitness",
     "website": "https://g7sportcenter-gm.matchpoint.com.es/",
     "phone": "+220 770 0009",
-    "email": "g7sportcenter24@gmail.com",
+    "email": "g7sportcentergambia@gmail.com",
     "venueModel": "outdoors",
     "seasonNote": "Daily 07:00–23:00; Matchpoint booking",
     "description": "G7 Sport Center offers Matchpoint-bookable padel at Duplex junction on the Senegambia strip behind Vibe Fitness, with a published phone and email. Distinct from Kololi Beach Resort padel. Book ahead for peak evenings.",
@@ -46,7 +47,8 @@
     "secondarySourceUrl": "https://g7sportcenter-gm.matchpoint.com.es/",
     "sourceTypes": "Matchpoint club portal",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Evidence: Matchpoint portal street+phone +220 7700009 + email. Nominatim Vibe Fitness Kololi as locality pin."
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "Evidence: Matchpoint portal street+phone +220 7700009 + email. Nominatim Vibe Fitness Kololi as locality pin.; tick 07:00 enrich Instagram @g7sportcentergambia + email",
+    "instagram": "https://www.instagram.com/g7sportcentergambia/"
   }
 ]

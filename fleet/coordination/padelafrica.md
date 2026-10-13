@@ -1596,3 +1596,20 @@ Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.pad
 - Skip → East Rand; Addis still thin
 
 **Inbox:** refreshed. SC push still 403. Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~07:00 UTC)
+
+**Timer:** still subscribed (`sub_b5b82cda-…`). GitHub push as **moldovancsaba** (PAT).
+
+**Pipeline:** feed-discovered ×2 → **60/60** ok.
+
+**Quality:** 535 scanned, 1 below → **0 applied** (TUN-019 skip_closed, already 80). At ceiling.
+
+**Fair-use:** pass 78; Laguna (MX) re-rejected OOS; pending 0.
+
+**FIND:**
+- Gambia → **`GMB-VEN-001`** created (WhatsApp), **`GMB-VEN-002`** IG/email reprocess
+- Sierra Leone → **`SLE-VEN-001`**, **`SLE-VEN-002`** created with Instagram contactLinks
+- Skip → Liberia Padel House launching; East Rand densify
+
+**Inbox:** refreshed. Not claiming PUBLISHED.
