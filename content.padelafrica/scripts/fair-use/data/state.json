@@ -394,9 +394,9 @@
           "reason": "duplicate"
         }
       },
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 4,
-      "lastFetchAt": "2026-10-13T05:37:13.132Z",
+      "lastFetchAt": "2026-10-13T12:01:50.895Z",
       "lastError": {
         "at": "2026-09-25T15:10:56.262Z",
         "url": "https://padelrevive.com/padel-clubs-in-africa/",
@@ -1436,8 +1436,39 @@
       "leadsAdded": 0,
       "lastFetchAt": "2026-10-13T05:51:39.057Z",
       "lastError": null
+    },
+    "courtpro": {
+      "queue": [
+        "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club",
+        "https://www.courtpro.com/clubs/listing"
+      ],
+      "done": {},
+      "discoveryCursor": 1,
+      "leadsAdded": 0,
+      "lastFetchAt": "2026-10-13T12:02:36.648Z",
+      "lastError": null
+    },
+    "playtomic-directory": {
+      "queue": [],
+      "done": {},
+      "discoveryCursor": 1,
+      "leadsAdded": 0,
+      "lastFetchAt": "2026-10-13T12:03:22.046Z",
+      "lastError": {
+        "at": "2026-10-13T12:03:22.117Z",
+        "url": "https://directory.playtomic.io/",
+        "reasonCode": "fetch_error"
+      }
+    },
+    "padelafrica-apc": {
+      "queue": [],
+      "done": {},
+      "discoveryCursor": 1,
+      "leadsAdded": 0,
+      "lastFetchAt": "2026-10-13T12:04:07.133Z",
+      "lastError": null
     }
   },
-  "passCount": 78,
-  "lastPassAt": "2026-10-13T05:51:39.588Z"
+  "passCount": 79,
+  "lastPassAt": "2026-10-13T12:04:07.204Z"
 }

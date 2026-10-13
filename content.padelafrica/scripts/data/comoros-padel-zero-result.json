@@ -8,13 +8,14 @@
   "verifiedFederationCount": 0,
   "verifiedLeagueOrCompetitionCount": 0,
   "verifiedCityCount": 0,
-  "lastVerifiedUtc": "2026-09-22",
+  "lastVerifiedUtc": "2026-10-13",
   "timeCapMinutes": 5,
-  "conclusion": "Zero verifiable padel clubs, venues, federations, leagues or competitions found; no entity rows were invented.",
+  "conclusion": "Zero verifiable operating padel venues; federation marketing site found but no court pin/contact clearing the evidence bar.",
   "seededListingIds": [],
   "notes": [
     "Padel Without Borders characterises Comoros padel as scarce or non-existent in organised form; Moroni public listings show no known padel courts",
     "Wikivoyage Tennis Club (Rue de la Corniche, Moroni) is tennis only — not counted as padel",
-    "No FIP Comoros federation or African Padel Confederation tournament surfaced within the cap"
+    "No FIP Comoros federation or African Padel Confederation tournament surfaced within the cap",
+    "FIND tick 2026-10-13: Fédération Comorienne de Padel site (federation-comores-padel.com) exists but publishes no named operating court/address/booking — federation ≠ venue; still zero evidence-grade clubs"
   ]
 }

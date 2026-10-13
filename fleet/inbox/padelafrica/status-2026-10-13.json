@@ -1,54 +1,51 @@
 {
-  "clientId": "padelafrica",
-  "observedAt": "2026-10-13T11:02:26Z",
-  "source": "padel-find-tick",
-  "workingEnv": {
-    "timerSubscribed": true,
-    "timerName": "padel-find-tick",
-    "timerSubscriptionId": "sub_b5b82cda-51c5-40a4-9c64-a2f1c9d7bf0e",
-    "ingestOnlyDoctrine": true,
-    "ingestOnlyReality": true,
-    "ingestApiKeyPresent": true,
-    "githubAsMoldovancsaba": true,
-    "writesPath": "post_api_ingest",
-    "tickCompleted": true,
-    "pipelineFeedRanThisTick": true,
-    "preferUnderCoveredCountries": true
-  },
-  "outcomes": {
-    "qualityLoopScanned": 536,
-    "qualityLoopBelowThreshold": 1,
-    "qualityLoopApplied": 0,
-    "qualityAtCeiling": true,
-    "pipelineFeedBatches": 2,
-    "pipelineFeedOk": 60,
-    "pipelineFeedFailed": 0,
-    "fairUsePass": 79,
-    "fairUsePendingAfterTriage": 0,
-    "findSeeded": [
-      "COG-VEN-001",
-      "COG-VEN-002",
-      "COG-VEN-003",
-      "COG-VEN-004"
-    ],
-    "findZeroResult": [
-      "Central African Republic Bangui"
-    ],
-    "findSkipped": [
-      "East Rand densify",
-      "COG-VEN-005 Le Derrick restaurant-thin"
-    ],
-    "ingestDiscoveredOk": 4,
-    "publishedClaimed": false,
-    "note": "11:00 tick. Feed 60/60. Quality ceiling. Congo-Brazzaville fixtures ingested; CAF zero. Not claiming PUBLISHED."
-  },
-  "openDebt": [],
   "client": "padelafrica",
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T11:02:26Z",
-  "timer": {
-    "name": "padel-find-tick",
-    "subscriptionId": "sub_b5b82cda-51c5-40a4-9c64-a2f1c9d7bf0e",
-    "stillSubscribed": true
-  }
+  "tickUtc": "2026-10-13T12:05Z",
+  "timer": "padel-find-tick",
+  "writesPath": "ingest_only",
+  "ingestOnlyReality": true,
+  "qualityAtCeiling": true,
+  "qualityLoopApplied": 0,
+  "qualityNote": "TUN-VEN-019 skip_closed; scanned 536 belowThreshold 1",
+  "pipelineFeed": {
+    "batches": 2,
+    "ok": 60,
+    "total": 60
+  },
+  "fairUse": {
+    "passCount": 79,
+    "pendingCandidates": 0,
+    "oosRejected": [
+      "fair-padelivu-play-padel-laguna"
+    ],
+    "onePass": {
+      "sources": [
+        "padelrevive",
+        "courtpro",
+        "playtomic-directory",
+        "padelafrica-apc"
+      ],
+      "courtproHarvested": 2,
+      "playtomicDirectory": "fetch_error"
+    }
+  },
+  "find": {
+    "seeded": [
+      "TZA-VEN-011"
+    ],
+    "enriched": [
+      "GAB-VEN-002",
+      "AGO-VEN-010"
+    ],
+    "zeroResult": [
+      "COM Moroni \u2014 federation site, no court"
+    ],
+    "skipped": [
+      "ZA densify"
+    ]
+  },
+  "hitlBacklog": 0,
+  "claimedPublished": false,
+  "rulesAligned": "LISTING-STANDARDS + Africa-first sources (f9a3c8a)"
 }

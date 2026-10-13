@@ -4079,3 +4079,11 @@
 {"at":"2026-10-13T05:50:54.040Z","type":"fair_use_attempt","sourceId":"bounce-game","mode":"discovery_harvest","url":"https://www.bounce.game/","harvested":0}
 {"at":"2026-10-13T05:51:39.057Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery","url":"https://www.totalpadel.com/"}
 {"at":"2026-10-13T05:51:39.587Z","type":"fair_use_attempt","sourceId":"totalpadel","mode":"discovery_harvest","url":"https://www.totalpadel.com/","harvested":0}
+{"at":"2026-10-13T12:01:50.895Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-in-morocco/"}
+{"at":"2026-10-13T12:01:51.631Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-morocco/","harvested":0}
+{"at":"2026-10-13T12:02:36.648Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery","url":"https://www.courtpro.com/clubs"}
+{"at":"2026-10-13T12:02:37.038Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery_harvest","url":"https://www.courtpro.com/clubs","harvested":2}
+{"at":"2026-10-13T12:03:22.047Z","type":"fair_use_attempt","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/"}
+{"at":"2026-10-13T12:03:22.117Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-10-13T12:04:07.133Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery","url":"https://padelafrica.com/"}
+{"at":"2026-10-13T12:04:07.203Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery_harvest","url":"https://padelafrica.com/","harvested":0}

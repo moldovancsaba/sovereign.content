@@ -1659,3 +1659,11 @@ Not claiming PUBLISHED.
 - Re-subscribed `padel-find-tick` with new prompt
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~12:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (TUN-019 skip_closed). **Fair-use:** rejected OOS Laguna; one-pass on new Africa sources (CourtPro harvested 2; playtomic-directory fetch_error).
+
+**FIND / ingest:** **TZA-VEN-011 Mwanza Tennis Club** created DISCOVERED (Isamilo; distinct from Ryan's Bay). **GAB-VEN-002** Eden Sport social enrich (IG/FB/email). **AGO-VEN-010** Q88 Instagram enrich. Comoros Moroni → still zero (FCP federation site, no court).
+
+Not claiming PUBLISHED.
