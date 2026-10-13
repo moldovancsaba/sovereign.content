@@ -618,5 +618,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — under-covered Ben Arous densify."
+  },
+  {
+    "recordId": "TUN-VEN-026",
+    "name": "Padel Megrine",
+    "city": "Mégrine",
+    "region": "Ben Arous",
+    "countryCode": "TN",
+    "line1": "Unilever, Rue de Skhira (en face Usine), Mégrine 2033",
+    "lat": 36.7743633,
+    "lng": 10.2222574,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin for Padel Megrine — Banlieue Sud densify distinct from Euphoria Ezzahra",
+    "website": "https://www.padelmegrine.com/",
+    "phone": "+216 98 702 060",
+    "email": null,
+    "instagram": "https://www.instagram.com/padelmegrine/",
+    "venueModel": "own_premises",
+    "seasonNote": "Ticket booking system (1.5h slots, 7-day calendar); confirm hours on padelmegrine.com.",
+    "description": "Padel Megrine puts three indoor courts by Unilever on Rue de Skhira in Mégrine with first-party ticket booking — distinct from Euphoria Ezzahra and Greater Tunis clubs. A clear Banlieue Sud densify pick with a published phone and Instagram. Buy tickets on padelmegrine.com or call ahead.",
+    "primarySourceUrl": "https://www.padelmegrine.com/",
+    "secondarySourceUrl": "https://www.courtpro.com/clubs/tunisia/megrine/padel-megrine",
+    "sourceTypes": "First-party padelmegrine.com; CourtPro (phone); Padelmesh; BalleJaune contact",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — Ben Arous densify; Padel Lands alternate phone +216 98 307 504 not retained (first-party/CourtPro agree on 98 702 060)."
   }
 ]
