@@ -1637,3 +1637,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** Burkina **BFA-001 Lancaster**, **BFA-002 KABB** created DISCOVERED. Mali → zero-result. Skip East Rand / Muraz (no padel).
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~11:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** pass 79, pending 0.
+
+**FIND / ingest:** Republic of the Congo **COG-001..004** via ingest (Brazzaville + Pointe-Noire). CAF Bangui → zero-result. Skip East Rand / Le Derrick restaurant-thin.
+
+Not claiming PUBLISHED.
