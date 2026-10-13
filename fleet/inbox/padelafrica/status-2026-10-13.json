@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-10-13T07:02:38Z",
+  "observedAt": "2026-10-13T08:02:20Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -13,11 +13,7 @@
     "writesPath": "post_api_ingest",
     "tickCompleted": true,
     "skippedManagementMongoCatalogJobs": true,
-    "qualityLoop": "ingest_score_improve_encode",
-    "fairUseSources": 28,
-    "fairUsePassCount": 78,
     "pipelineFeedRanThisTick": true,
-    "pipelineFeedEveryTick": true,
     "preferUnderCoveredCountries": true
   },
   "outcomes": {
@@ -25,50 +21,44 @@
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
     "qualityAtCeiling": true,
-    "qualityNote": "TUN-VEN-019 skip_closed (scoreAfter 80 already composed) \u2014 improve not a lever",
+    "qualityNote": "TUN-019 skip_closed (already 80)",
     "pipelineFeedBatches": 2,
     "pipelineFeedOk": 60,
     "pipelineFeedFailed": 0,
-    "pipelineFeedLimit": 30,
     "fairUsePass": 78,
     "fairUsePendingAfterTriage": 0,
-    "fairUseNote": "Play Padel Laguna (MX) re-rejected OOS; no one-pass (pending cleared)",
+    "fairUseNote": "status only; last one-pass 05:51Z",
     "findSeeded": [
-      "GMB-VEN-001",
-      "SLE-VEN-001",
-      "SLE-VEN-002"
+      "GIN-VEN-001"
     ],
     "findSocialContactEnrichment": [
-      "GMB-VEN-002"
+      "BEN-VEN-001",
+      "TGO-VEN-002"
+    ],
+    "findZeroResult": [
+      "Chad N'Djamena",
+      "Niger Niamey"
     ],
     "findSkipped": [
       "East Rand densify",
-      "Liberia Padel House Sinkor launching-only",
-      "Mogadishu zero beyond PadelSL Hargeisa already seeded"
+      "Liberia launching"
     ],
-    "ingestDiscoveredOk": 4,
+    "ingestDiscoveredOk": 3,
     "ingestEvidence": [
-      "research-gmb-ven-001 created",
-      "research-gmb-ven-002 reprocessed",
-      "research-sle-ven-001 created",
-      "research-sle-ven-002 created"
+      "research-ben-ven-001",
+      "research-gin-ven-001 created",
+      "research-tgo-ven-002"
     ],
     "publishedClaimed": false,
-    "hitlBacklog": 0,
-    "note": "07:00 tick. Feed 60/60. Quality ceiling. Gambia+Sierra Leone social/contact ingest. Push as moldovancsaba. Not claiming PUBLISHED."
+    "note": "08:00 tick. Feed 60/60. Quality ceiling. FIND BJ/GN/TG ingest; TD/NE zero. SC push = inbox only. Not claiming PUBLISHED."
   },
   "openDebt": [],
-  "resolvedDebt": [
-    "cloud_agent_env_missing_INGEST_API_KEY",
-    "sc_main_push_denied_cursor_bot"
-  ],
   "client": "padelafrica",
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T07:02:38Z",
+  "updatedAt": "2026-10-13T08:02:20Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_b5b82cda-51c5-40a4-9c64-a2f1c9d7bf0e",
-    "delaySeconds": 3600,
     "stillSubscribed": true
   }
 }

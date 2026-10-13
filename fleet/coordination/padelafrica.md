@@ -1613,3 +1613,11 @@ Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.pad
 - Skip → Liberia Padel House launching; East Rand densify
 
 **Inbox:** refreshed. Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~08:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (TUN-019 skip_closed). **Fair-use:** pending 0.
+
+**FIND / ingest:** BEN-001 reprocess; **GIN-001** created; TGO-002 WhatsApp enrich. Chad + Niger → zero-result (no named open courts).
+
+**Note:** catalog writes via ingest only; SC push is inbox/fixtures bookkeeping. Not claiming PUBLISHED.
