@@ -9,9 +9,9 @@
           "reason": "guide_or_hub_name"
         }
       },
-      "discoveryCursor": 4,
+      "discoveryCursor": 5,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-13T13:02:00.951Z",
+      "lastFetchAt": "2026-10-13T15:01:55.674Z",
       "lastError": {
         "at": "2026-09-28T00:07:56.548Z",
         "url": "https://padellands.com/en/pistas-de-padel/otros-paises/libya/",
@@ -28,7 +28,6 @@
     },
     "actu-padel": {
       "queue": [
-        "https://actu-padel.com/en/directory/padel-club/padel-africa-camps-cape-town-en/",
         "https://actu-padel.com/directory/padel-club/padel-africa-claremont-cape-town-en/",
         "https://actu-padel.com/en/directory/padel-club/padel-africa-country-kloof-en/",
         "https://actu-padel.com/en/directory/padel-club/padel-africa-lucia-umhlanga-rocks-en/",
@@ -194,9 +193,9 @@
           "reason": "duplicate"
         },
         "https://actu-padel.com/en/directory/padel-club/padel-africa-camps-cape-town/": {
-          "at": "2026-09-26T10:14:50.813Z",
-          "reasonCode": "seeded",
-          "reason": "seeded"
+          "at": "2026-10-13T15:03:31.633Z",
+          "reasonCode": "duplicate",
+          "reason": "duplicate"
         },
         "https://actu-padel.com/directory/padel-club/padel-africa-claremont-cape-town/": {
           "at": "2026-09-26T11:19:43.179Z",
@@ -356,7 +355,7 @@
       },
       "discoveryCursor": 4,
       "leadsAdded": 47,
-      "lastFetchAt": "2026-10-13T14:03:22.198Z",
+      "lastFetchAt": "2026-10-13T15:03:29.278Z",
       "lastError": {
         "at": "2026-09-28T00:13:18.360Z",
         "url": "https://actu-padel.com/en/directory/country/senegal/",
@@ -392,9 +391,9 @@
           "reason": "duplicate"
         }
       },
-      "discoveryCursor": 4,
+      "discoveryCursor": 5,
       "leadsAdded": 4,
-      "lastFetchAt": "2026-10-13T14:01:05.984Z",
+      "lastFetchAt": "2026-10-13T15:01:09.924Z",
       "lastError": {
         "at": "2026-09-25T15:10:56.262Z",
         "url": "https://padelrevive.com/padel-clubs-in-africa/",
@@ -1436,7 +1435,10 @@
       "lastError": null
     },
     "courtpro": {
-      "queue": [],
+      "queue": [
+        "https://www.courtpro.com/clubs/tunisia/monastir/2s-padel-club-monastir",
+        "https://www.courtpro.com/clubs/tunisia/sidi-salem/djerba-padel-club"
+      ],
       "done": {
         "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club": {
           "at": "2026-10-13T13:02:47.063Z",
@@ -1449,9 +1451,9 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 2,
-      "lastFetchAt": "2026-10-13T14:01:51.706Z",
+      "lastFetchAt": "2026-10-13T15:02:41.777Z",
       "lastError": null
     },
     "playtomic-directory": {
@@ -1475,6 +1477,6 @@
       "lastError": null
     }
   },
-  "passCount": 81,
-  "lastPassAt": "2026-10-13T14:03:24.918Z"
+  "passCount": 82,
+  "lastPassAt": "2026-10-13T15:03:31.634Z"
 }

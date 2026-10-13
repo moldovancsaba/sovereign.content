@@ -3037,6 +3037,27 @@
       "outcome": "enriched",
       "recordId": "GIN-VEN-001",
       "note": "instagram @rivierapadelclb"
+    },
+    {
+      "at": "2026-10-13T15:03:37.759968+00:00",
+      "cc": "KE",
+      "city": "Nakuru",
+      "outcome": "seeded",
+      "recordId": "KEN-VEN-026"
+    },
+    {
+      "at": "2026-10-13T15:03:37.759994+00:00",
+      "cc": "DJ",
+      "city": "Djibouti City",
+      "outcome": "enriched",
+      "recordId": "DJI-VEN-001"
+    },
+    {
+      "at": "2026-10-13T15:03:37.759996+00:00",
+      "cc": "GA",
+      "city": "Libreville",
+      "outcome": "enriched",
+      "recordId": "GAB-VEN-003"
     }
   ]
 }

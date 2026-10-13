@@ -614,5 +614,30 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — prior note said site no padel; CourtPro now publishes padel booking hours + Kapseret address. Medium confidence until first-party padel page appears."
+  },
+  {
+    "recordId": "KEN-VEN-026",
+    "name": "Nakuru Tennis and Padel Coaching",
+    "city": "Nakuru",
+    "region": "Nakuru County",
+    "countryCode": "KE",
+    "line1": "Near Biashara, Nakuru",
+    "lat": -0.2852102,
+    "lng": 36.0717935,
+    "geoPrecision": "locality",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin — street not published; distinct from Royal Padelzone Pavilion (Milimani)",
+    "website": "https://www.courtpro.com/clubs/kenya/nakuru/nakuru-tennis-and-padel-coaching",
+    "phone": null,
+    "email": null,
+    "venueModel": "coaching",
+    "seasonNote": "CourtPro lists open booking hours; confirm with operator.",
+    "description": "Nakuru Tennis and Padel Coaching is a named Rift Valley coaching and play venue listed on CourtPro and PadelRevive in Nakuru's Biashara area — distinct from Royal Padelzone Pavilion in Milimani. A useful second Nakuru option when mapping padel beyond the Pavilion courts. Contact via CourtPro listing until a first-party phone is published.",
+    "primarySourceUrl": "https://www.courtpro.com/clubs/kenya/nakuru/nakuru-tennis-and-padel-coaching",
+    "secondarySourceUrl": "https://padelrevive.com/padel-in-kenya/",
+    "sourceTypes": "CourtPro club page; PadelRevive Kenya atlas",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — under-covered Nakuru densify; phone absent (honest debt)."
   }
 ]

@@ -1,0 +1,38 @@
+{
+  "appliedAt": "2026-10-13T15:01:47.093Z",
+  "results": [
+    {
+      "recordId": "KEN-VEN-026",
+      "id": "research-ken-ven-026",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-ken-ven-026",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "DJI-VEN-001",
+      "id": "research-dji-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-dji-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GAB-VEN-003",
+      "id": "research-gab-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gab-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

@@ -1683,3 +1683,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **KEN-VEN-025 Eldoret Club** created DISCOVERED. **GIN-VEN-001** Instagram enrich; **MDG-VEN-001** email enrich.
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~15:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** bounded Africa pass.
+
+**FIND / ingest:** **KEN-VEN-026 Nakuru Tennis and Padel Coaching** created DISCOVERED. **DJI-VEN-001** FB/IG enrich; **GAB-VEN-003** Facebook enrich.
+
+Not claiming PUBLISHED.
