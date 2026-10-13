@@ -36,8 +36,8 @@
     "pipelineFeedLimit": 30,
     "pipelineFeedNote": "Batch A 30/30; batch B 29/30 (KEN-VEN-022 mid-pipeline 409)",
     "fairUsePass": 78,
-    "fairUsePendingAfterTriage": 1,
-    "fairUseNote": "one-pass harvested; pending Play Padel Laguna (padelivu) \u2014 triage OOS likely",
+    "fairUsePendingAfterTriage": 0,
+    "fairUseNote": "one-pass \u2192 pending Play Padel Laguna (Torre\u00f3n, MX) rejected OOS",
     "findSeeded": [],
     "findSocialContactEnrichment": [
       "BDI-VEN-001"
