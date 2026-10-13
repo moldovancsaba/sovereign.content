@@ -1629,3 +1629,11 @@ Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.pad
 **FIND / ingest:** Equatorial Guinea **GNQ-001/002/003** created/reprocessed (Sport Club Malabo, Ukomba, Padel Malabo booking). São Tomé → zero (ambiguous kayak/SUP listing).
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~10:00 UTC)
+
+**Pipeline:** feed ×2 → **59/60** (GMB-002 mid-pipeline 409 once). **Quality:** ceiling. **Fair-use:** pass **79**, pending 0.
+
+**FIND / ingest:** Burkina **BFA-001 Lancaster**, **BFA-002 KABB** created DISCOVERED. Mali → zero-result. Skip East Rand / Muraz (no padel).
+
+Not claiming PUBLISHED.

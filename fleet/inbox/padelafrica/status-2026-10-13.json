@@ -1,6 +1,6 @@
 {
   "clientId": "padelafrica",
-  "observedAt": "2026-10-13T09:20:04Z",
+  "observedAt": "2026-10-13T10:01:44Z",
   "source": "padel-find-tick",
   "workingEnv": {
     "timerSubscribed": true,
@@ -16,39 +16,41 @@
     "preferUnderCoveredCountries": true
   },
   "outcomes": {
-    "qualityLoopScanned": 535,
+    "qualityLoopScanned": 536,
     "qualityLoopBelowThreshold": 1,
     "qualityLoopApplied": 0,
     "qualityAtCeiling": true,
     "qualityNote": "TUN-019 skip_closed",
     "pipelineFeedBatches": 2,
-    "pipelineFeedOk": 60,
-    "pipelineFeedFailed": 0,
-    "fairUsePass": 78,
+    "pipelineFeedOk": 59,
+    "pipelineFeedFailed": 1,
+    "pipelineFeedNote": "Batch B GMB-VEN-002 mid-pipeline 409 (retried)",
+    "fairUsePass": 79,
     "fairUsePendingAfterTriage": 0,
-    "fairUseNote": "one-pass still running (~16m+); OOS pending (Eschilo IT, Verneuil FR) rejected; pending 0",
+    "fairUseNote": "prior one-pass completed 09:22Z",
     "findSeeded": [
-      "GNQ-VEN-001",
-      "GNQ-VEN-002",
-      "GNQ-VEN-003"
+      "BFA-VEN-001",
+      "BFA-VEN-002"
     ],
     "findZeroResult": [
-      "Sao Tome and Principe \u2014 Kayak e Padel ambiguous SUP; not seeded"
+      "Mali Bamako"
     ],
     "findSkipped": [
-      "East Rand densify"
+      "East Rand densify",
+      "Bobo Muraz tennis/squash only"
     ],
-    "ingestDiscoveredOk": 3,
+    "ingestDiscoveredOk": 2,
     "ingestEvidence": [
-      "research-gnq-ven-001/002/003"
+      "research-bfa-ven-001",
+      "research-bfa-ven-002"
     ],
     "publishedClaimed": false,
-    "note": "09:00 tick. Feed 60/60. Quality ceiling. GNQ Malabo/Bata/Padel Malabo ingest. STP zero. Not claiming PUBLISHED."
+    "note": "10:00 tick. Feed 59/60. Quality ceiling. BF Lancaster+KABB ingest created. Mali zero. Not claiming PUBLISHED."
   },
   "openDebt": [],
   "client": "padelafrica",
   "date": "2026-10-13",
-  "updatedAt": "2026-10-13T09:20:04Z",
+  "updatedAt": "2026-10-13T10:01:44Z",
   "timer": {
     "name": "padel-find-tick",
     "subscriptionId": "sub_b5b82cda-51c5-40a4-9c64-a2f1c9d7bf0e",
