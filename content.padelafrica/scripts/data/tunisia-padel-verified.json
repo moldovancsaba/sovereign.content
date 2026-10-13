@@ -540,5 +540,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — CourtPro Africa densify."
+  },
+  {
+    "recordId": "TUN-VEN-023",
+    "name": "Casa Del Padel Sfax",
+    "city": "Sfax",
+    "region": "Sfax",
+    "countryCode": "TN",
+    "line1": "Route Sidi Mansour km 6",
+    "lat": 34.7764879,
+    "lng": 10.815281,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin — distinct from Sfax Padel Indoor (Gabès km 1.5), Eleven (Sakiet Ezzit), Just Padel (Gabès km 7)",
+    "website": "https://www.casadelpadel.tn/",
+    "phone": "+216 58 444 440",
+    "email": "Contact@casadelpadel.tn",
+    "instagram": "https://www.instagram.com/casa_del_padel/",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 15:00–23:30 (Padelmesh); online booking on club site.",
+    "description": "Casa Del Padel Sfax puts four outdoor courts on Route Sidi Mansour km 6 with first-party online booking — distinct from Sfax Padel Indoor, Eleven and Just Padel. A clear Sfax densify pick with published phone, email and Instagram. Reserve on casadelpadel.tn or call ahead for evening slots.",
+    "primarySourceUrl": "https://www.casadelpadel.tn/",
+    "secondarySourceUrl": "https://padelmesh.com/en/tn/sfax/clubs/casa-del-padel-sfax",
+    "sourceTypes": "First-party casadelpadel.tn; Padelmesh contact; PadelRevive CSV",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — under-covered Sfax densify beyond three existing."
   }
 ]

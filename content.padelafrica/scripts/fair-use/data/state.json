@@ -1462,9 +1462,9 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 4,
+      "discoveryCursor": 5,
       "leadsAdded": 4,
-      "lastFetchAt": "2026-10-13T19:02:25.190Z",
+      "lastFetchAt": "2026-10-13T20:00:44.324Z",
       "lastError": null
     },
     "playtomic-directory": {
@@ -1488,6 +1488,6 @@
       "lastError": null
     }
   },
-  "passCount": 85,
-  "lastPassAt": "2026-10-13T19:11:34.645Z"
+  "passCount": 86,
+  "lastPassAt": "2026-10-13T20:00:46.117Z"
 }

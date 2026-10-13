@@ -743,5 +743,32 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — phone absent (honest debt)."
+  },
+  {
+    "recordId": "KEN-VEN-031",
+    "name": "Tudor Padel",
+    "city": "Mombasa",
+    "region": "Mombasa County",
+    "countryCode": "KE",
+    "line1": "Tom Mboya Road, Tudor Waterfront",
+    "lat": -4.0324927,
+    "lng": 39.6662483,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "PadelRevive/CourtPro pin; first-party schema also cites Tudor Waterfront geo near -4.0435,39.6682",
+    "website": "https://tudorpadel.com/",
+    "phone": "+254 113 666 444",
+    "email": "info@tudorpadel.com",
+    "instagram": "https://www.instagram.com/tudorpadel/",
+    "facebook": "https://www.facebook.com/tudorpadel",
+    "venueModel": "own_premises",
+    "seasonNote": "Book via tudorpadel.com; confirm hours on CourtPro / site.",
+    "description": "Tudor Padel is a first-party bookable club on Tom Mboya Road at Tudor Waterfront, Mombasa — distinct from Bellpoint, Jimmy's and PLAYON Nyali. A clear Coast recommendation with published phone, email, Instagram and Facebook. Reserve on tudorpadel.com or call ahead for coaching and evening sessions.",
+    "primarySourceUrl": "https://tudorpadel.com/",
+    "secondarySourceUrl": "https://www.courtpro.com/clubs/kenya/mombasa/tudor-padel",
+    "sourceTypes": "First-party site schema (phone/email/social/geo); CourtPro club page",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-13",
+    "researchNotes": "FIND tick 2026-10-13 — Coast densify from PadelRevive CSV gap."
   }
 ]

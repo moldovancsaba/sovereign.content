@@ -1717,3 +1717,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **KEN-VEN-029 Bellpoint Arena** + **KEN-VEN-030 Jimmy's Padel** + **TUN-VEN-022 Arena Gym** created DISCOVERED. **SLE-VEN-002** clear Instagram-as-Website; **GMB-VEN-001** IG/FB/WhatsApp enrich. BI Gitega + SZ Mbabane → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~20:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** bounded CourtPro pass **86** (Egypt harvest 0); skip actu-padel thrash; pending 0.
+
+**FIND / ingest:** **KEN-VEN-031 Tudor Padel** + **TUN-VEN-023 Casa Del Padel Sfax** created DISCOVERED. **NGA-VEN-006** PadelBay Instagram enrich. BJ Porto-Novo + GN Kindia → zero-result.
+
+Not claiming PUBLISHED.
