@@ -1559,3 +1559,7 @@ Fleet silent since ~2026-09-30 (last padel inbox/tick era). Updated `content.pad
 ### 2026-10-12 — padelafrica (tick ~23:00 UTC — still blocked)
 
 **Timer:** still subscribed (`sub_46391b98-…`), fourth delivery. **`INGEST_API_KEY` still absent**. Inbox refreshed. Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (tick ~00:00 UTC — timer paused)
+
+**Fifth** consecutive fire with **`INGEST_API_KEY` still absent**. Unsubscribed `padel-find-tick` to stop idle hourly wakes. Re-subscribe when the Cloud Agent env secret is set (and ideally when SC push access for this bot is fixed). Inbox: `status-2026-10-13.json`. Not claiming PUBLISHED.

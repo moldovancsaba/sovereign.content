@@ -1,0 +1,44 @@
+{
+  "clientId": "padelafrica",
+  "observedAt": "2026-10-13T00:00:30Z",
+  "source": "padel-find-tick",
+  "workingEnv": {
+    "timerSubscribed": false,
+    "timerName": "padel-find-tick",
+    "timerSubscriptionId": "sub_46391b98-b00c-456a-98f9-7dd67fc42494",
+    "timerPausedReason": "missing_INGEST_API_KEY_after_5_blocked_fires",
+    "ingestOnlyDoctrine": true,
+    "ingestOnlyReality": false,
+    "ingestApiKeyPresent": false,
+    "writesPath": "blocked_missing_ingest_api_key",
+    "tickCompleted": false,
+    "skippedManagementMongoCatalogJobs": true,
+    "pipelineFeedRanThisTick": false,
+    "pipelineFeedEveryTick": true,
+    "preferUnderCoveredCountries": true
+  },
+  "outcomes": {
+    "qualityLoopApplied": 0,
+    "pipelineFeedOk": 0,
+    "fairUsePass": 77,
+    "fairUsePendingAfterTriage": 0,
+    "findSeeded": [],
+    "publishedClaimed": false,
+    "hitlBacklog": 0,
+    "note": "Fifth consecutive fire without INGEST_API_KEY. Timer unsubscribed to stop idle hourly wakes; re-subscribe when key is in env secrets."
+  },
+  "openDebt": [
+    "cloud_agent_env_missing_INGEST_API_KEY",
+    "sc_main_push_denied_cursor_bot"
+  ],
+  "client": "padelafrica",
+  "date": "2026-10-13",
+  "updatedAt": "2026-10-13T00:00:30Z",
+  "timer": {
+    "name": "padel-find-tick",
+    "subscriptionId": "sub_46391b98-b00c-456a-98f9-7dd67fc42494",
+    "stillSubscribed": false,
+    "pausedAt": "2026-10-13T00:00:30Z",
+    "deliveryCountAtPause": 5
+  }
+}
