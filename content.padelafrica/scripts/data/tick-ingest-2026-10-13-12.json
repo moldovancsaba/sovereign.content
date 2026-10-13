@@ -1,0 +1,39 @@
+{
+  "appliedAt": "2026-10-13T12:05:43.520Z",
+  "baseUrl": "https://padel-africa.doneisbetter.com",
+  "results": [
+    {
+      "recordId": "TZA-VEN-011",
+      "id": "research-tza-ven-011",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-tza-ven-011",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "GAB-VEN-002",
+      "id": "research-gab-ven-002",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-gab-ven-002",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "AGO-VEN-010",
+      "id": "research-ago-ven-010",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ago-ven-010",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}
