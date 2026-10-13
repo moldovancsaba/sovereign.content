@@ -12,54 +12,11 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { ingestSourceText, type IngestConfig } from "../ingest/client.ts";
+import { buildStructuredSourceText } from "../ingest/buildStructuredSourceText.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = resolve(__dirname, "data");
 const OUT = resolve(DATA, "pipeline-feed");
-
-const COUNTRY_NAMES: Record<string, string> = {
-  ZA: "South Africa",
-  MA: "Morocco",
-  TN: "Tunisia",
-  KE: "Kenya",
-  SN: "Senegal",
-  NG: "Nigeria",
-  MU: "Mauritius",
-  BW: "Botswana",
-  EG: "Egypt",
-  ZW: "Zimbabwe",
-  ZM: "Zambia",
-  UG: "Uganda",
-  CI: "Ivory Coast",
-  MZ: "Mozambique",
-  NA: "Namibia",
-  RW: "Rwanda",
-  GH: "Ghana",
-  TZ: "Tanzania",
-  AO: "Angola",
-  DZ: "Algeria",
-  LY: "Libya",
-  CM: "Cameroon",
-  ET: "Ethiopia",
-  MG: "Madagascar",
-  MW: "Malawi",
-  SC: "Seychelles",
-  SL: "Sierra Leone",
-  TG: "Togo",
-  BF: "Burkina Faso",
-  GA: "Gabon",
-  BI: "Burundi",
-  DJ: "Djibouti",
-  GM: "Gambia",
-  GN: "Guinea",
-  GQ: "Equatorial Guinea",
-  MR: "Mauritania",
-  SO: "Somalia",
-  SZ: "Eswatini",
-  CV: "Cabo Verde",
-  CD: "DR Congo",
-  CG: "Republic of the Congo",
-};
 
 type Fixture = {
   recordId: string;
@@ -73,6 +30,10 @@ type Fixture = {
   website?: string;
   phone?: string;
   email?: string;
+  instagram?: string;
+  facebook?: string;
+  whatsapp?: string;
+  twitter?: string;
   description?: string;
   primarySourceUrl?: string;
   secondarySourceUrl?: string;
@@ -96,30 +57,8 @@ function researchId(recordId: string): string {
 }
 
 function buildSourceText(row: Fixture): string {
-  const country = COUNTRY_NAMES[row.countryCode] || row.countryCode;
-  const url = (row.primarySourceUrl || row.website || "").trim();
-  return [
-    url ? `URL: ${url}` : null,
-    "Qualified as: padel-club",
-    `Name: ${row.name.trim()}`,
-    `Venue: ${row.name.trim()}`,
-    `Address: ${(row.line1 || `Near ${row.city}`).trim()}`,
-    `Locality: ${row.city.trim()}`,
-    `Country: ${country}`,
-    `CountryCode: ${String(row.countryCode).toUpperCase()}`,
-    `Latitude: ${Number(row.lat)}`,
-    `Longitude: ${Number(row.lng)}`,
-    row.website ? `Website: ${row.website.trim()}` : null,
-    row.phone ? `Phone: ${row.phone.trim()}` : null,
-    "",
-    String(row.description || "").trim(),
-    row.region ? `Admin region: ${row.region.trim()}` : null,
-    row.email ? `Email: ${row.email.trim()}` : null,
-    row.secondarySourceUrl ? `Secondary source: ${row.secondarySourceUrl.trim()}` : null,
-    row.seasonNote ? `Season note: ${String(row.seasonNote).trim()}` : null,
-  ]
-    .filter((x): x is string => typeof x === "string" && x.length > 0)
-    .join("\n");
+  // LISTING-STANDARDS: social headers → contactLinks; Email in header block; WhatsApp → wa.me.
+  return buildStructuredSourceText(row);
 }
 
 /** Prefer cards we already live-applied (tick ingest evidence + pending apply). */

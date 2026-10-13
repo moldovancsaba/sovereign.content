@@ -10,7 +10,7 @@ export const EVIDENCE_BAR = [
   "Named operating venue (not a generic directory dump of the city).",
   "Location: prefer street pin; if no street is published, seed with an approximate city-level line1 (e.g. \"Near {city}\") and the OSM/Nominatim city pin (geoPrecision=locality). Do not skip for missing street.",
   "Phone and email are optional — do NOT skip solely because phone/email is missing.",
-  "Official social / messaging channels count as a point of contact, same grade as phone or email: WhatsApp, Instagram, Facebook, or X.com (Twitter) when the venue publishes the handle or chat link. Prefer typed contactLinks (whatsapp/instagram/facebook/twitter). Do NOT skip solely for missing phone when an official social channel is present.",
+  "Official social / messaging channels count as a point of contact, same grade as phone or email: WhatsApp, Instagram, Facebook, or X.com (Twitter) when the venue publishes an http(s) link. Store via structured headers → Listing.contactLinks: instagram/facebook typed; WhatsApp and X as type other (labels WhatsApp / X). Bare WhatsApp +digits → https://wa.me/<digits>. Bare @handles are not links — omit. Do NOT skip solely for missing phone when an official social channel is present. Never put Instagram in Website.",
   "Prefer any printed contact (phone, email, or official social), else a first-party / booking / directory citation URL that identifies the venue in-city.",
   "Corroboration: prefer two independent sources when available; single-source + city pin is acceptable — improve the listing later when better facts appear.",
   "About ≥120 chars, no embedded URLs/phones in description chrome.",

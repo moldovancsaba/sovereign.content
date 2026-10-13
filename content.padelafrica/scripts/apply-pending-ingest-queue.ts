@@ -9,6 +9,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { ingestSourceText, type IngestConfig } from "../ingest/client.ts";
+import { buildStructuredSourceText } from "../ingest/buildStructuredSourceText.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = resolve(__dirname, "data");
@@ -52,28 +53,7 @@ function researchId(recordId: string): string {
 }
 
 function buildSourceText(row: Fixture, countryName: string): string {
-  const url = (row.primarySourceUrl || row.website || "").trim();
-  const lines = [
-    url ? `URL: ${url}` : null,
-    "Qualified as: padel-club",
-    `Name: ${row.name.trim()}`,
-    `Venue: ${row.name.trim()}`,
-    `Address: ${(row.line1 || `Near ${row.city}`).trim()}`,
-    `Locality: ${row.city.trim()}`,
-    `Country: ${countryName}`,
-    `CountryCode: ${String(row.countryCode).toUpperCase()}`,
-    `Latitude: ${Number(row.lat)}`,
-    `Longitude: ${Number(row.lng)}`,
-    row.website ? `Website: ${row.website.trim()}` : null,
-    row.phone ? `Phone: ${row.phone.trim()}` : null,
-    "",
-    String(row.description || "").trim(),
-    row.region ? `Admin region: ${row.region.trim()}` : null,
-    row.email ? `Email: ${row.email.trim()}` : null,
-    row.secondarySourceUrl ? `Secondary source: ${row.secondarySourceUrl.trim()}` : null,
-    row.seasonNote ? `Season note: ${String(row.seasonNote).trim()}` : null,
-  ].filter((x): x is string => typeof x === "string" && x.length > 0);
-  return lines.join("\n");
+  return buildStructuredSourceText(row, countryName);
 }
 
 async function main() {

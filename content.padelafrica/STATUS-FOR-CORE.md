@@ -48,15 +48,16 @@ Padel Cloud Agent owns **only** `content.padelafrica/` (+ `fleet/inbox/padelafri
 No new agent code onto management release branches. No Mongo-from-agent.  
 Engine fixes → reviewed PR to management **`main`** only.
 
-### Evidence / publish honesty (2026-09-27)
+### Evidence / publish honesty (2026-09-27; store/show align 2026-10-13)
 
-FIND + fair-use promote bar (agent SSOT in `src/lib/catalogFind/brief.ts`):
+FIND + fair-use promote bar (agent SSOT: `docs/LISTING-STANDARDS.md` · `src/lib/catalogFind/brief.ts`):
 
 - **Phone / email optional** — do not skip solely for missing phone or email.
-- **Official social / messaging = contact** — WhatsApp, Instagram, Facebook, or X.com (Twitter) published by the venue counts as a point of contact, same grade as phone/email. Prefer typed `contactLinks` / fixture fields. Do not skip for “Instagram-only” when the handle is official.
+- **Official social / messaging = contact** — WhatsApp, Instagram, Facebook, or X.com (Twitter) as **http(s) URLs** → structured headers → `Listing.contactLinks` (`instagram` / `facebook`; WhatsApp + X as `type: "other"`). Bare WhatsApp digits → `https://wa.me/…`. Never put Instagram in `Website`. Detail page uses `publicContactRows`; browse cards strip contacts.
 - **No street** → approximate city-level `line1` + OSM/Nominatim **city pin** (`geoPrecision: locality`).
 - Empty phone/street is honest debt; improve later when better evidence appears. Do not invent social handles.
-- Management publish gate admits `locality` pins via `isMappable` / `checkRealAddress`, does not require `phone` for completeness, and types `whatsapp` / `twitter` on `Listing.contactLinks`.
+- Management publish gate admits `locality` pins via `isMappable` / `checkRealAddress` and does not require `phone` for completeness.
+- Hourly tick phases: discover → enrich → maintain → publish-via-ingest (`timers/orchestrator.md`). Africa-first fair-use catalogue (18 sources; EU/US OOS removed).
 
 
 ### Management publish-evidence merge (2026-09-27T02:44Z)

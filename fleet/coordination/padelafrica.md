@@ -1645,3 +1645,17 @@ Not claiming PUBLISHED.
 **FIND / ingest:** Republic of the Congo **COG-001..004** via ingest (Brazzaville + Pointe-Noire). CAF Bangui → zero-result. Skip East Rand / Le Derrick restaurant-thin.
 
 Not claiming PUBLISHED.
+
+### 2026-10-13 — padelafrica (rules + sources realign)
+
+**Ask:** Update jobs/rules for discovery, enrichment, listing maintenance, and new-listing publishing; align to latest store/show standards; improve fair-use source catalogue.
+
+**Shipped on SC `main`:**
+- `docs/LISTING-STANDARDS.md` — store/show SSOT (structured headers → `contactLinks`; phone optional; city pin; Instagram ≠ Website)
+- `ingest/buildStructuredSourceText.ts` — shared fixture→sourceText (WhatsApp → `wa.me`)
+- `timers/orchestrator.md` — phases: discover → enrich → maintain → publish-via-ingest
+- Fair-use **Africa-first**: 28→18 sources; dropped EU/US OOS; added CourtPro, Playtomic directory, APC; expanded PadelRevive/padellands
+- FIND brief/sources + pipeline-feed + content-data-contract aligned
+- Re-subscribed `padel-find-tick` with new prompt
+
+Not claiming PUBLISHED.

@@ -44,8 +44,9 @@ PRs #222 / #227 put agent Mongo writers onto `release/padel-africa`. That patter
 | Path | Purpose |
 | --- | --- |
 | `docs/` | Jobs, FIND, self-heal, dual-repo |
-| `timers/` | Orchestrator prompt |
-| `ingest/` | **Only** live write helpers |
+| `docs/LISTING-STANDARDS.md` | **How listings are stored & shown** (structured headers → contactLinks) |
+| `timers/` | Orchestrator prompt (discover → enrich → maintain → publish-via-ingest) |
+| `ingest/` | **Only** live write helpers (`buildStructuredSourceText` + client) |
 | `src/` | Migrated agent runtime (**quarantined** Mongo) |
 | `scripts/` | CLIs + research fixtures; quality-loop → ingest score/improve/encode; `pipeline:feed-discovered` |
 | `scripts/fair-use/` | Africa directory fair-use feeder (one page/source/pass → `needs_verify` candidates) |

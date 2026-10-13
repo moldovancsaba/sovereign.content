@@ -16,6 +16,9 @@ runs its `catalog:*` loop. Portable contracts live on the process SSOT
 | **sovereign.content site / fleet / other `content.*`** | **SC-central** — out of scope for the padel chat |
 | **GDS / vertical pack** | UI + serving projection only |
 
+**Store/show contract:** [`LISTING-STANDARDS.md`](LISTING-STANDARDS.md) — structured headers → `contactLinks`; phone optional; city pin OK.  
+**Hourly tick phases:** discover → enrich → maintain → publish-via-ingest ([`timers/orchestrator.md`](../timers/orchestrator.md)).
+
 **Padel Africa only.** Rid of sovereign-direct / multi-client ownership from this chat — see
 https://github.com/moldovancsaba/sovereign.content/blob/main/content.padelafrica/AGENTS.md
 

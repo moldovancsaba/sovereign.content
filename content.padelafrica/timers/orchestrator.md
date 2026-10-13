@@ -8,31 +8,48 @@ Interval: ~3600s
 
 Scope: **Padel Africa only.** Repo edits → `content.padelafrica/` + optional `fleet/inbox/padelafrica/status-YYYY-MM-DD.json`.
 
-**Writes:** `POST /api/ingest` only from this agent home. Do **not** run management Mongo `catalog:quality-loop` / listingQuality as agent doctrine. Migrated copies under `src/` are **quarantined** (`src/QUARANTINE.md`). Prefer `npm run catalog:quality-loop` in this folder once `INGEST_API_KEY` is set.
+**Writes:** `POST /api/ingest` only. Never Mongo from agent home. Prefer `npm run catalog:quality-loop` here once `INGEST_API_KEY` is set. Migrated `src/` is quarantined (`src/QUARANTINE.md`).
+
+**Listing contract (binding):** [`docs/LISTING-STANDARDS.md`](../docs/LISTING-STANDARDS.md) — structured headers, social → `contactLinks`, phone optional, city pin OK, never claim PUBLISHED. Builder: [`ingest/buildStructuredSourceText.ts`](../ingest/buildStructuredSourceText.ts).
 
 Fleet SSOT (read-only): `fleet/RULES.md` · `fleet/CLIENT-COMPARISON.md`.
 
-**Maintenance (2026-10-12):** After the Sep 30–Oct 12 silence, re-subscribe this timer on the **Padel** chat and run one tick immediately.
-
 ```
-Timed job tick (padel-africa — sovereign.content/content.padelafrica ONLY):
-1) Padel Africa only. No sportolok/classscout/fleet SWOT/SSOT doctrine edits.
-2) Listing writes ONLY via POST /api/ingest (content.padelafrica/ingest). Never MONGODB_URI from agent home.
-3) Quarantined Mongo listingQuality / old management catalog:* Mongo CLIs are NOT the steady-state path.
-4) Quality: npm run catalog:quality-loop (this folder). If catalog is at About ceiling (≥75 / skip_closed only),
-   record qualityAtCeiling=true and qualityLoopApplied honestly — do not pretend improve is the delivery lever.
-5) Pipeline (every tick, primary DISCOVERED→value lever): npm run pipeline:feed-discovered -- --limit 30
-   (run a second batch if the first is full). Management owns PUBLISHED — never claim lifecycle.
-6) Fair-use seed replenish (when pending verified/apply queue is empty): npm run fair-use:status;
-   if pendingCandidates is low, ONE npm run fair-use:one-pass. Do NOT forever-loop. Soft-skip CF/403.
-   Promote after evidence bar → scripts/data/*-verified.json → ingest.
-   Evidence: phone/email optional; official WhatsApp/Instagram/Facebook/X = contact;
-   if no street use city-level line1 + OSM/Nominatim city pin (geoPrecision=locality).
-7) FIND: evidence-only WebSearch; prefer under-covered countries over saturated ZA densify.
-   Seed via ingest DISCOVERED; commit tick-ingest evidence JSON when you apply.
-8) After tick: fleet/inbox/padelafrica/status-YYYY-MM-DD.json (fair KPIs only) + short Turn on
-   fleet/coordination/padelafrica.md when posture changes.
-9) Never invent phones/emails/social handles. Leave this timer subscribed. Do not force-push release/padel-africa.
+Timed job tick (padel-africa — discovery → enrich → maintain → publish-via-ingest):
+
+0) Scope. Padel Africa only. No sportolok/classscout/fleet SWOT/SSOT doctrine edits.
+   Listing writes ONLY via POST /api/ingest. Never invent phones/emails/social handles.
+   Align every seed/reprocess to docs/LISTING-STANDARDS.md (structured Name/Address/coords +
+   Instagram/Facebook/WhatsApp/Twitter/Email headers; Website never = Instagram).
+
+1) DISCOVER — fair-use + FIND under-covered countries.
+   a) npm run fair-use:status. If pendingCandidates is low / verified-apply queue empty:
+      ONE npm run fair-use:one-pass (Africa-first scripts/fair-use/sources.json). Soft-skip CF/403.
+      Do NOT forever-loop. Promote needs_verify → *-padel-verified.json only after evidence bar.
+   b) FIND: evidence-only WebSearch; prefer under-covered countries over saturated ZA densify.
+      Evidence: phone/email optional; official WhatsApp/Instagram/Facebook/X = contact
+      (http(s) URLs → contactLinks; WhatsApp bare +digits → https://wa.me/…);
+      no street → Near {city} + OSM/Nominatim city pin (geoPrecision=locality).
+   c) Seed new venues as DISCOVERED via ingest (buildStructuredSourceText). Commit tick-ingest
+      evidence JSON when you apply.
+
+2) ENRICH — fill honest debt on known listings (street, phone, social, first-party URL).
+   When a later tick finds better first-party/booking facts, reprocess via ingest with updated
+   structured headers (same id). Do not invent placeholders. Prefer contactLinks social over
+   leaving the detail contact panel empty.
+
+3) MAINTAIN — listing quality (About / encode), not Mongo catalog:*.
+   npm run catalog:quality-loop (this folder). If at About ceiling (≥75 / skip_closed only),
+   record qualityAtCeiling=true honestly — improve is not the growth lever.
+
+4) PUBLISH PATH — feed DISCOVERED so management can earn PUBLISHED (every tick).
+   npm run pipeline:feed-discovered -- --limit 30 (second batch if the first is full).
+   Management owns lifecycle — never claim PUBLISHED; never set lifecycleState.
+
+5) Bookkeeping.
+   fleet/inbox/padelafrica/status-YYYY-MM-DD.json (fair KPIs) + short Turn on
+   fleet/coordination/padelafrica.md when posture/rules/sources change.
+   Leave this timer subscribed. Do not force-push release/padel-africa.
 ```
 
-See `AGENTS.md`, `STATUS-FOR-CORE.md`, `MIGRATION-FROM-MANAGEMENT.md`, `docs/quality-loop-ingest.md`.
+See `AGENTS.md`, `docs/LISTING-STANDARDS.md`, `STATUS-FOR-CORE.md`, `scripts/fair-use/README.md`.

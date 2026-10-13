@@ -15,6 +15,12 @@
  *   Longitude: …
  *   Website: …
  *   Phone: …
+ *   Email: …        (staff-only, never public)
+ *   Instagram: …    Facebook: …    WhatsApp: …    Twitter: …   (X; official http(s) only)
+ *
+ * Agent SSOT for writers: docs/LISTING-STANDARDS.md + ingest/buildStructuredSourceText.ts.
+ * Live extraction that maps social → Listing.contactLinks lives on management
+ * (src/lib/pipeline/structuredSource.ts). This copy stays header-compatible for upsert/repair.
  *
  * Autopilot / Cloud Agent timed jobs use this path so extraction does NOT need AI Gateway.
  * LLM extraction remains available when auth is configured and no usable header is present.
@@ -37,6 +43,11 @@ const HEADER_KEYS = [
   "Longitude",
   "Website",
   "Phone",
+  "Email",
+  "Instagram",
+  "Facebook",
+  "WhatsApp",
+  "Twitter",
 ] as const;
 
 export type StructuredSourceHeaders = Partial<Record<(typeof HEADER_KEYS)[number], string>>;
@@ -149,11 +160,16 @@ export function extractionFromStructuredHeaders(
   // Locality blank when Latitude/Longitude are present (OSM). Prefer a geocodeable line
   // (Address → Locality → Country → venue name) so Nominatim can resolve cards that only
   // carried a city, and synthesize the minimum so coords-without-street still form a venue.
-  const addressLine1 = headers.Address || headers.Locality || headers.Country || venue;
+  // No street → honest city-level Near {locality} (management publish gate admits locality pins).
+  const addressLine1 =
+    headers.Address ||
+    (locality ? `Near ${locality}` : undefined) ||
+    venue;
   const descriptionParts = [
     `${headers.Name} is a ${pack.listingNoun.singular}${locality ? ` in ${locality}` : ""}${headers.Country ? `, ${headers.Country}` : ""}.`,
   ];
   if (headers.Address) descriptionParts.push(`Address: ${headers.Address}.`);
+  else if (locality) descriptionParts.push(`Address: Near ${locality} (city-level; street unknown).`);
 
   const candidate = {
     name: headers.Name,
@@ -169,9 +185,11 @@ export function extractionFromStructuredHeaders(
     // Completeness: missing schedule + thin description is a hard block. Structured headers rarely
     // carry hours; a short honest note keeps the card publishable (publish-now-enrich-later).
     scheduleNote: "Opening hours not listed on the source page.",
+    // Social URLs are never Website — management structuredSource maps them to contactLinks.
     website: headers.Website || undefined,
     // SC #17 — never promote all-zero / placeholder phones from structured headers.
     phone: headers.Phone && !isPlaceholderPhone(headers.Phone) ? headers.Phone : undefined,
+    email: headers.Email || undefined,
   };
 
   return ExtractionResultSchema.parse(candidate);

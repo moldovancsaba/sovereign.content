@@ -81,8 +81,8 @@ Longitude: 9.45
     expect(extracted).toMatchObject({
       name: "PADBOL GABON",
       venueName: "PADBOL GABON",
-      // Address empty → Locality empty → Country (geocodeable) before venue name
-      addressLine1: "Gabon",
+      // Address empty → Near Country (city-level honesty) before venue name
+      addressLine1: "Near Gabon",
       locality: "Gabon",
       countryCode: "GA",
       lat: -0.39,
@@ -90,7 +90,7 @@ Longitude: 9.45
     });
   });
 
-  it("prefers Locality over venue name when Address is empty (geocodeable)", () => {
+  it("uses Near {Locality} when Address is empty (city-level pin honesty)", () => {
     const text = `Name: Central Padel
 Venue: Central Padel
 Locality: Bir El Djir
@@ -98,8 +98,28 @@ Country: Algeria
 CountryCode: DZ
 `;
     const extracted = extractionFromStructuredHeaders(text, pack);
-    expect(extracted?.addressLine1).toBe("Bir El Djir");
+    expect(extracted?.addressLine1).toBe("Near Bir El Djir");
     expect(extracted?.countryCode).toBe("DZ");
+  });
+
+  it("parses social headers without promoting Instagram to Website", () => {
+    const text = `Name: Warehouse Padel Club
+Locality: Tetouan
+Country: Morocco
+CountryCode: MA
+Latitude: 35.57
+Longitude: -5.37
+Instagram: https://www.instagram.com/warehousepadelclub/
+WhatsApp: https://wa.me/212600000000
+
+Official Instagram is the published contact channel.`;
+    const h = parseStructuredSourceHeaders(text);
+    expect(h?.Instagram).toBe("https://www.instagram.com/warehousepadelclub/");
+    expect(h?.WhatsApp).toBe("https://wa.me/212600000000");
+    expect(h?.Website).toBeUndefined();
+    const extracted = extractionFromStructuredHeaders(text, pack);
+    expect(extracted?.website).toBeUndefined();
+    expect(extracted?.addressLine1).toBe("Near Tetouan");
   });
 
   it("upserts header values without rewriting the page dump", () => {
