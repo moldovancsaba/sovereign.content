@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-10-13",
-  "description": "Padel Africa fair-use feeder — Africa-first discovery catalogue. Directories/events/booking maps are citation paths only; official club websites (or booking pages) are the Find/ingest target. One HTTP page per source per pass. 2026-10-13: dropped EU/US OOS noise (padelusa, padelbrowser, UK/FR magazines, MATCHi, Bounce, Total Padel shops); expanded PadelRevive / CourtPro / Playtomic directory / padellands country pages for under-covered African markets.",
+  "description": "Padel Africa fair-use feeder — Africa-first discovery catalogue. Directories/events/booking maps are citation paths only; official club websites (or booking pages) are the Find/ingest target. One HTTP page per source per pass. 2026-10-13: dropped EU/US OOS noise; expanded PadelRevive / CourtPro / Playtomic directory / padellands. CourtPro discoveryPages are Africa country paths only (no global /clubs hub — that harvested US clubs).",
   "defaultInterSourceSec": 45,
   "defaultPassSleepSec": 300,
   "defaultCooldownSec": 600,
