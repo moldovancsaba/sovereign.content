@@ -1,0 +1,341 @@
+{
+  "job": "pipeline-feed-discovered",
+  "at": "2026-10-14T06:03:31.542Z",
+  "dryRun": false,
+  "queued": 30,
+  "ok": 30,
+  "failed": 0,
+  "note": "Reprocess feeds DISCOVERED cards; management pipeline owns PUBLISHED. Agents never set lifecycleState.",
+  "results": [
+    {
+      "recordId": "ETH-VEN-001",
+      "id": "research-eth-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-eth-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GMB-VEN-002",
+      "id": "research-gmb-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gmb-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GMB-VEN-003",
+      "id": "research-gmb-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gmb-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-002",
+      "id": "research-civ-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-004",
+      "id": "research-civ-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-008",
+      "id": "research-civ-ven-008",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-008",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-009",
+      "id": "research-civ-ven-009",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-009",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-033",
+      "id": "research-ken-ven-033",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ken-ven-033",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MDG-VEN-001",
+      "id": "research-mdg-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mdg-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MDG-VEN-004",
+      "id": "research-mdg-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mdg-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MWI-VEN-001",
+      "id": "research-mwi-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mwi-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "RWA-VEN-003",
+      "id": "research-rwa-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-rwa-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-017",
+      "id": "research-tun-ven-017",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-017",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-027",
+      "id": "research-tun-ven-027",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-027",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-028",
+      "id": "research-tun-ven-028",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-028",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-029",
+      "id": "research-tun-ven-029",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-029",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-030",
+      "id": "research-tun-ven-030",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-030",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-031",
+      "id": "research-tun-ven-031",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-031",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-032",
+      "id": "research-tun-ven-032",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-032",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ZMB-VEN-001",
+      "id": "research-zmb-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zmb-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ZMB-VEN-013",
+      "id": "research-zmb-ven-013",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zmb-ven-013",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "AGO-VEN-010",
+      "id": "research-ago-ven-010",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ago-ven-010",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "AGO-VEN-018",
+      "id": "research-ago-ven-018",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ago-ven-018",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "DJI-VEN-001",
+      "id": "research-dji-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-dji-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GNQ-VEN-002",
+      "id": "research-gnq-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gnq-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GAB-VEN-002",
+      "id": "research-gab-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gab-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GAB-VEN-003",
+      "id": "research-gab-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gab-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GMB-VEN-001",
+      "id": "research-gmb-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gmb-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GIN-VEN-001",
+      "id": "research-gin-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gin-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-003",
+      "id": "research-civ-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

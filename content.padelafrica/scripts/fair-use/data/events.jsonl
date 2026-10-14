@@ -4205,3 +4205,5 @@
 {"at":"2026-10-14T04:01:19.009Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/south-africa/","reasonCode":"fetch_error","error":"fetch failed"}
 {"at":"2026-10-14T05:00:59.725Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
 {"at":"2026-10-14T05:01:00.371Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-10-14T06:00:47.151Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery","url":"https://www.africapadel.com/"}
+{"at":"2026-10-14T06:00:47.553Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}

@@ -405,7 +405,7 @@
     "geoNote": "La Marsa locality pin \u2014 Terre el Krima / ASM tennis complex not rooftop-geocoded",
     "website": "https://padel-marsa.com/",
     "phone": "+216 25 239 239",
-    "email": "abonnement@padel-marsa.com",
+    "email": "contact@padel-marsa.com",
     "venueModel": "hosted_facility",
     "seasonNote": "Reservations commonly 07:00\u201300:00 daily via club / Balle Jaune.",
     "description": "Padel Marsa sits at Terre el Krima inside the Tennis Club ASM complex in La Marsa, with four panoramic courts, a published phone and first-party booking. A clear Greater Tunis recommendation when you want La Marsa courts beyond Sky Padel Charguia and Padel Country Club Lac. Book on padel-marsa.com or call ahead. Not the Museal Bullpadel shop on Rue Mohamed Braiem.",
@@ -413,8 +413,8 @@
     "secondarySourceUrl": "https://ballejaune.com/club/padelmarsa/contact",
     "sourceTypes": "Padel Marsa first-party site; Balle Jaune contact (Terre el Krima ASM + phone)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "FIND tick 2026-09-26. Skipped Museal (equipment shop, not courts)."
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "FIND tick 2026-09-26. Skipped Museal (equipment shop, not courts).; tick 2026-10-14 contact@padel-marsa.com from first-party /contact (abonnement@ retained historically)"
   },
   {
     "recordId": "TUN-VEN-018",
@@ -775,5 +775,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-14",
     "researchNotes": "FIND tick 2026-10-14 \u2014 distinct from TUN-VEN-009 (Zaarna Est Kal\u00e2a Kebira / 53 536 070 indoor). FB URL from Padelmesh @Seabel-Padel-Club-61556260584962 slug."
+  },
+  {
+    "recordId": "TUN-VEN-032",
+    "name": "Sidi Bou Said Padel Club",
+    "city": "Sidi Bou Said",
+    "region": "Tunis",
+    "countryCode": "TN",
+    "line1": "Parc Municipal, Avenue 14 Janvier",
+    "lat": 36.873931,
+    "lng": 10.335629,
+    "geoPrecision": "locality",
+    "geoSource": "maps",
+    "geoNote": "Maps pin at Parc Municipal / Av. 14 Janvier \u2014 outdoor Mondo WPT turf court",
+    "website": null,
+    "phone": "+216 55 122 765",
+    "facebook": "https://www.facebook.com/PadelClubSidiBou",
+    "instagram": "https://www.instagram.com/PadelClubSidiBou/",
+    "venueModel": "public_park",
+    "seasonNote": "Outdoor municipal park court; call ahead for access/booking.",
+    "description": "Sidi Bou Said Padel Club is an outdoor Mondo WPT padel court at Parc Municipal on Avenue 14 Janvier \u2014 a clear Greater Tunis densify pick distinct from Padel Marsa and Cap Bon clubs. Published phone plus Facebook/Instagram for the municipal park venue. Call ahead before peak hours.",
+    "primarySourceUrl": "https://www.facebook.com/PadelClubSidiBou",
+    "secondarySourceUrl": "https://accrosport.tn/index.php/2023/05/16/joma-padel-au-tournoi-padel-sidi-bou-said/",
+    "sourceTypes": "Maps place card (phone + Parc Municipal pin); Accrosport FTT tournament coverage; Facebook/Instagram club handles",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "FIND tick 2026-10-14 \u2014 Greater Tunis densify. 2023 FTT tournament corroboration; Instagram handle from public posts."
   }
 ]

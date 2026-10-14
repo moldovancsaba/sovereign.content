@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T05:02:13.345954+00:00",
+  "updatedAt": "2026-10-14T06:02:55.836971+00:00",
   "attempts": [
     {
       "cc": "CF",
@@ -3120,6 +3120,55 @@
       "city": "Bamako",
       "outcome": "zero-result",
       "note": "No evidence-grade padel club after cooldown"
+    },
+    {
+      "at": "2026-10-14T06:02:55.836971+00:00",
+      "cc": "TN",
+      "city": "Sidi Bou Said",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-032"
+    },
+    {
+      "at": "2026-10-14T06:02:55.836971+00:00",
+      "cc": "ZM",
+      "city": "Lusaka",
+      "outcome": "seeded",
+      "recordId": "ZMB-VEN-013"
+    },
+    {
+      "at": "2026-10-14T06:02:55.836971+00:00",
+      "cc": "TN",
+      "city": "La Marsa",
+      "outcome": "enriched",
+      "recordId": "TUN-VEN-017"
+    },
+    {
+      "at": "2026-10-14T06:02:55.836971+00:00",
+      "cc": "RW",
+      "city": "Kigali",
+      "outcome": "enriched",
+      "recordId": "RWA-VEN-003"
+    },
+    {
+      "at": "2026-10-14T06:02:55.836971+00:00",
+      "cc": "ZM",
+      "city": "Lusaka",
+      "outcome": "enriched",
+      "recordId": "ZMB-VEN-001"
+    },
+    {
+      "at": "2026-10-14T06:02:55.836971+00:00",
+      "cc": "MW",
+      "city": "Lilongwe",
+      "outcome": "enriched",
+      "recordId": "MWI-VEN-001"
+    },
+    {
+      "at": "2026-10-14T06:02:55.836971+00:00",
+      "cc": "BI",
+      "city": "Gitega",
+      "outcome": "zero-result",
+      "note": "Still tennis-only; Bujumbura club already live"
     }
   ]
 }
