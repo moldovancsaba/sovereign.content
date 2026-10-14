@@ -1,7 +1,7 @@
 {
   "client": "padelafrica",
   "date": "2026-10-14",
-  "tickUtc": "2026-10-14T06:03Z",
+  "tickUtc": "2026-10-14T07:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
@@ -14,22 +14,23 @@
     "total": 60
   },
   "fairUse": {
-    "passCount": 100,
+    "passCount": 101,
     "pendingCandidates": 0
   },
   "find": {
-    "seeded": [
-      "TUN-VEN-032",
-      "ZMB-VEN-013"
-    ],
+    "seeded": [],
     "enriched": [
-      "TUN-VEN-017",
-      "RWA-VEN-003",
-      "ZMB-VEN-001",
-      "MWI-VEN-001"
+      "NAM-VEN-001",
+      "NAM-VEN-007",
+      "MOZ-VEN-003",
+      "GHA-VEN-001",
+      "NGA-VEN-005",
+      "ZMB-VEN-002",
+      "ZMB-VEN-003",
+      "BWA-VEN-001"
     ],
     "zeroResult": [
-      "BI Gitega"
+      "GH Kumasi"
     ],
     "skipped": [
       "actu-padel thrash",

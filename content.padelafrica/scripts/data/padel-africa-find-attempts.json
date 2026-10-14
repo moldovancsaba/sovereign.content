@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T06:02:55.836971+00:00",
+  "updatedAt": "2026-10-14T07:01:30.620755+00:00",
   "attempts": [
     {
       "cc": "CF",
@@ -3169,6 +3169,69 @@
       "city": "Gitega",
       "outcome": "zero-result",
       "note": "Still tennis-only; Bujumbura club already live"
+    },
+    {
+      "at": "2026-10-14T07:01:30.620755+00:00",
+      "cc": "NA",
+      "city": "Windhoek",
+      "outcome": "enriched",
+      "recordId": "NAM-VEN-001"
+    },
+    {
+      "at": "2026-10-14T07:01:30.620755+00:00",
+      "cc": "NA",
+      "city": "Windhoek",
+      "outcome": "enriched",
+      "recordId": "NAM-VEN-007"
+    },
+    {
+      "at": "2026-10-14T07:01:30.620755+00:00",
+      "cc": "MZ",
+      "city": "Maputo",
+      "outcome": "enriched",
+      "recordId": "MOZ-VEN-003"
+    },
+    {
+      "at": "2026-10-14T07:01:30.620755+00:00",
+      "cc": "GH",
+      "city": "Accra",
+      "outcome": "enriched",
+      "recordId": "GHA-VEN-001"
+    },
+    {
+      "at": "2026-10-14T07:01:30.620755+00:00",
+      "cc": "NG",
+      "city": "Abuja",
+      "outcome": "enriched",
+      "recordId": "NGA-VEN-005"
+    },
+    {
+      "at": "2026-10-14T07:01:30.620755+00:00",
+      "cc": "ZM",
+      "city": "Lusaka",
+      "outcome": "enriched",
+      "recordId": "ZMB-VEN-002"
+    },
+    {
+      "at": "2026-10-14T07:01:30.620755+00:00",
+      "cc": "ZM",
+      "city": "Lusaka",
+      "outcome": "enriched",
+      "recordId": "ZMB-VEN-003"
+    },
+    {
+      "at": "2026-10-14T07:01:30.620755+00:00",
+      "cc": "BW",
+      "city": "Gaborone",
+      "outcome": "enriched",
+      "recordId": "BWA-VEN-001"
+    },
+    {
+      "at": "2026-10-14T07:01:30.620755+00:00",
+      "cc": "GH",
+      "city": "Kumasi",
+      "outcome": "zero-result",
+      "note": "Still no evidence-grade padel club beyond Accra cluster"
     }
   ]
 }

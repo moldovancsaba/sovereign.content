@@ -21,8 +21,9 @@
     "secondarySourceUrl": "https://namibiapadel.com/Pages/11-the_club_namibia_padel",
     "sourceTypes": "Namibia Padel official site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Swakopmund site is OSM osm-node-12477757278 \u2014 enrich only, do not duplicate"
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "Swakopmund site is OSM osm-node-12477757278 \u2014 enrich only, do not duplicate; tick 2026-10-14 WhatsApp booking line from namibiapadel.com news",
+    "whatsapp": "+264 85 798 3160"
   },
   {
     "recordId": "NAM-VEN-002",
@@ -159,18 +160,19 @@
     "geoPrecision": "street",
     "geoSource": "nominatim",
     "geoNote": "OSM Sport Klub Windhoek campus pin (Auas Road / Prosperita\u2013Olympia corridor)",
-    "website": "https://livpadelnamibia-na.matchpoint.com.es",
+    "website": "https://livpadel.co.za/sport-klub-windhoek",
     "phone": "+264 85 807 3141",
     "email": "skw@livpadel.com.na",
     "venueModel": "hosted_facility",
     "seasonNote": "Daily ~06:00\u201322:00 via Matchpoint / LivPadel booking.",
     "description": "LivPadel at Sport Klub Windhoek puts padel courts on the SKW campus (Wika Street / Olympia), with a published WhatsApp/phone line, email, and Matchpoint booking. A clear Windhoek recommendation beyond Namibia Padel Olympia and United Padel Trustco Fields. Book on Matchpoint or message the LivPadel SKW line ahead.",
     "primarySourceUrl": "https://livpadel.co.za/sport-klub-windhoek",
-    "secondarySourceUrl": "https://livpadel.co.za/contact-us",
+    "secondarySourceUrl": "https://livpadelnamibia-na.matchpoint.com.es",
     "sourceTypes": "LivPadel SKW club page + contact (Wika Street, phone, email); Matchpoint booking",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "FIND tick 2026-09-26. Prior LivPadel Windhoek pass was zero-result before street+phone cleared evidence bar."
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "FIND tick 2026-09-26. Prior LivPadel Windhoek pass was zero-result before street+phone cleared evidence bar.; tick 2026-10-14 WhatsApp=TEL from livpadel.co.za SKW page",
+    "whatsapp": "+264 85 807 3141"
   },
   {
     "recordId": "NAM-VEN-008",

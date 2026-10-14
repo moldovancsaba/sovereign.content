@@ -5,7 +5,7 @@
     "city": "Gaborone",
     "region": "South-East",
     "countryCode": "BW",
-    "line1": "Game City, Western Bypass",
+    "line1": "Gamecity Shopping Centre, Gaborone",
     "lat": -24.6866328,
     "lng": 25.8789722,
     "geoPrecision": "street",
@@ -21,8 +21,8 @@
     "secondarySourceUrl": "https://gamecitypadel.co.bw/about/",
     "sourceTypes": "Club site About page",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-23",
-    "researchNotes": "First Botswana research seed \u2014 country had zero published listings before this pass"
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "First Botswana research seed \u2014 country had zero published listings before this pass; tick 2026-10-14 phone from gamecitypadel.co.bw/contact"
   },
   {
     "recordId": "BWA-VEN-002",
