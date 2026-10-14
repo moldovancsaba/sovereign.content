@@ -1,0 +1,27 @@
+{
+  "appliedAt": "2026-10-14T02:01:31.619Z",
+  "results": [
+    {
+      "recordId": "TUN-VEN-029",
+      "id": "research-tun-ven-029",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-tun-ven-029",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-002",
+      "id": "research-civ-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

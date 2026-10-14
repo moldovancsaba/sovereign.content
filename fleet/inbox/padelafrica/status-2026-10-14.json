@@ -1,33 +1,31 @@
 {
   "client": "padelafrica",
   "date": "2026-10-14",
-  "tickUtc": "2026-10-14T01:03Z",
+  "tickUtc": "2026-10-14T02:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "TUN-VEN-019 skip_closed; scanned 558",
+  "qualityNote": "TUN-VEN-019 skip_closed; scanned 559",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 93,
+    "passCount": 94,
     "pendingCandidates": 0
   },
   "find": {
     "seeded": [
-      "TUN-VEN-028",
-      "GMB-VEN-003"
+      "TUN-VEN-029"
     ],
     "enriched": [
-      "GMB-VEN-002",
-      "MDG-VEN-004"
+      "CIV-VEN-002"
     ],
     "zeroResult": [
-      "GM Bakau/Fajara"
+      "SL Bo/Kenema"
     ],
     "skipped": [
       "ZA densify",
