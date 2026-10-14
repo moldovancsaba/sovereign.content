@@ -670,5 +670,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-14",
     "researchNotes": "FIND tick 2026-10-14 — Ben Arous densify; secondary phone +216 53 585 703 noted on BalleJaune but primary +216 24 041 133 retained."
+  },
+  {
+    "recordId": "TUN-VEN-028",
+    "name": "Go Play Padel",
+    "city": "Hammamet",
+    "region": "Nabeul",
+    "countryCode": "TN",
+    "line1": "Route de la Ceinture, Bir Bou Rekba 8050",
+    "lat": 36.4191605,
+    "lng": 10.6002986,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive Bir Bou Rekba pin — distinct from Padel Hammamet (Mrezga Route Touristique)",
+    "website": "https://openresa.com/club/GoPlayPadelHammamet/contact",
+    "phone": "+216 22 888 848",
+    "email": null,
+    "instagram": "https://www.instagram.com/goplaypadelhammamet/",
+    "venueModel": "own_premises",
+    "seasonNote": "Outdoor WPT-standard court; confirm hours via OpenResa / Instagram.",
+    "description": "Go Play Padel is a Bir Bou Rekba / Hammamet outdoor club on Route de la Ceinture with a published phone and Instagram — distinct from Padel Hammamet in Mrezga. A clear Cap Bon densify pick for tournament and open-play sessions. Call or message ahead to book.",
+    "primarySourceUrl": "https://openresa.com/club/GoPlayPadelHammamet/contact",
+    "secondarySourceUrl": "https://www.courtpro.com/clubs/tunisia/bir-bou-rekba/go-play-padel",
+    "sourceTypes": "OpenResa contact; CourtPro; Padelmesh; Padel Tunisia events",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "FIND tick 2026-10-14 — Hammamet belt densify."
   }
 ]

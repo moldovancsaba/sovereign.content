@@ -1,35 +1,36 @@
 {
   "client": "padelafrica",
   "date": "2026-10-14",
-  "tickUtc": "2026-10-14T00:02Z",
+  "tickUtc": "2026-10-14T01:03Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "TUN-VEN-019 skip_closed; scanned 556",
+  "qualityNote": "TUN-VEN-019 skip_closed; scanned 558",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 92,
+    "passCount": 93,
     "pendingCandidates": 0
   },
   "find": {
     "seeded": [
-      "TUN-VEN-027"
+      "TUN-VEN-028",
+      "GMB-VEN-003"
     ],
     "enriched": [
-      "MDG-VEN-001"
+      "GMB-VEN-002",
+      "MDG-VEN-004"
     ],
     "zeroResult": [
-      "MR Nouadhibou"
+      "GM Bakau/Fajara"
     ],
     "skipped": [
       "ZA densify",
-      "CourtPro Ermelo duplicate",
       "actu-padel thrash"
     ]
   },

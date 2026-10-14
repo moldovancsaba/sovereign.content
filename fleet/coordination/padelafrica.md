@@ -1733,3 +1733,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **TUN-VEN-027 LOB Legends Club** created DISCOVERED. **MDG-VEN-001** Tropical IG/FB/WhatsApp enrich. MR Nouadhibou → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-14 — padelafrica (tick ~01:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** bounded padellands pass **93** (Ghana harvest 0); pending 0.
+
+**FIND / ingest:** **TUN-VEN-028 Go Play Padel** + **GMB-VEN-003 Senegambia Beach Hotel Padel** created DISCOVERED. **GMB-VEN-002** Facebook enrich; **MDG-VEN-004** Playbox IG/FB enrich. Bakau/Fajara → zero-result (no padel).
+
+Not claiming PUBLISHED.

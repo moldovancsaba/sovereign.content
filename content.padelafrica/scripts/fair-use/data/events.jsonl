@@ -4193,3 +4193,5 @@
 {"at":"2026-10-13T23:00:37.521Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery_harvest","url":"https://www.courtpro.com/clubs/south-africa","harvested":1}
 {"at":"2026-10-14T00:01:00.534Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/south-africa/ermelo/10by20-padel-club-ermelo"}
 {"at":"2026-10-14T00:01:01.209Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/south-africa/ermelo/10by20-padel-club-ermelo","candidateId":"fair-courtpro-10by20-padel-club-ermelo","reasonCode":"seeded"}
+{"at":"2026-10-14T01:01:01.315Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/ghana/"}
+{"at":"2026-10-14T01:01:03.817Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/ghana/","harvested":0}

@@ -49,8 +49,34 @@
     "secondarySourceUrl": "https://g7sportcenter-gm.matchpoint.com.es/",
     "sourceTypes": "Matchpoint club portal",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-13",
-    "researchNotes": "Evidence: Matchpoint portal street+phone +220 7700009 + email. Nominatim Vibe Fitness Kololi as locality pin.; tick 07:00 enrich Instagram @g7sportcentergambia + email",
-    "instagram": "https://www.instagram.com/g7sportcentergambia/"
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "Evidence: Matchpoint portal street+phone +220 7700009 + email. Nominatim Vibe Fitness Kololi as locality pin.; tick 07:00 enrich Instagram @g7sportcentergambia + email; tick 2026-10-14 enrich Facebook from My Gambia directory",
+    "instagram": "https://www.instagram.com/g7sportcentergambia/",
+    "facebook": "https://www.facebook.com/profile.php?id=61570391949430"
+  },
+  {
+    "recordId": "GMB-VEN-003",
+    "name": "Senegambia Beach Hotel Padel",
+    "city": "Kololi",
+    "region": "West Coast",
+    "countryCode": "GM",
+    "line1": "Senegambia Beach Hotel, Kololi",
+    "lat": 13.443337,
+    "lng": -16.722278,
+    "geoPrecision": "venue",
+    "geoSource": "operator/directory",
+    "geoNote": "Hotel pin from directory geocode — two padel courts listed by travel/operator sources",
+    "website": "https://senegambiahotel.com/",
+    "phone": "+220 200 0342",
+    "email": "info@senegambiahotel.com",
+    "venueModel": "resort",
+    "seasonNote": "Resort amenity courts — confirm guest/visitor access with hotel reception.",
+    "description": "Senegambia Beach Hotel lists two padel courts on the Kololi / Senegambia Strip — a clear third Gambia option distinct from Kololi Beach Resort and G7 Sport Center. Published hotel phone and email. Call reception to confirm court access and booking for hotel guests and visitors.",
+    "primarySourceUrl": "https://senegambiahotel.com/",
+    "secondarySourceUrl": "https://padellands.com/en/accommodation-with-padel-courts/senegambia-beach-hotel/",
+    "sourceTypes": "First-party hotel site; Padel Lands accommodation listing; FirstChoice amenity note (two courts)",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "FIND tick 2026-10-14 — under-covered GM densify; Bakau/Fajara Club had no padel evidence."
   }
 ]
