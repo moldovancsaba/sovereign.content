@@ -3023,5 +3023,22 @@
     "status": "rejected_hub",
     "extractedAt": "2026-10-13T22:01:34.487Z",
     "rejectReason": "guide_or_hub_name"
+  },
+  {
+    "candidateId": "fair-courtpro-10by20-padel-club-ermelo",
+    "sourceId": "courtpro",
+    "sourceName": "CourtPro club directory",
+    "name": "10by20 Padel Club Ermelo",
+    "citationUrl": "https://www.courtpro.com/clubs/south-africa/ermelo/10by20-padel-club-ermelo",
+    "website": "",
+    "countryHint": "South Africa",
+    "researchSources": [
+      "https://www.courtpro.com/clubs/south-africa/ermelo/10by20-padel-club-ermelo"
+    ],
+    "researchNote": "Discovered via CourtPro club directory fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) — phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) → contactLinks; bare WhatsApp → wa.me; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "skipped_duplicate",
+    "extractedAt": "2026-10-14T00:01:01.205Z",
+    "rejectReason": "already_seeded_ZAF-VEN-164",
+    "promotedRecordId": "ZAF-VEN-164"
   }
 ]

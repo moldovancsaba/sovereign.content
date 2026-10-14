@@ -1725,3 +1725,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **KEN-VEN-031 Tudor Padel** + **TUN-VEN-023 Casa Del Padel Sfax** created DISCOVERED. **NGA-VEN-006** PadelBay Instagram enrich. BJ Porto-Novo + GN Kindia → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-14 — padelafrica (tick ~00:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** pass **92**; CourtPro Ermelo → **skipped_duplicate** (ZAF-VEN-164); pending 0.
+
+**FIND / ingest:** **TUN-VEN-027 LOB Legends Club** created DISCOVERED. **MDG-VEN-001** Tropical IG/FB/WhatsApp enrich. MR Nouadhibou → zero-result.
+
+Not claiming PUBLISHED.

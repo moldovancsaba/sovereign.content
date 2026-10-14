@@ -644,5 +644,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — Ben Arous densify; Padel Lands alternate phone +216 98 307 504 not retained (first-party/CourtPro agree on 98 702 060)."
+  },
+  {
+    "recordId": "TUN-VEN-027",
+    "name": "LOB Legends Club",
+    "city": "Ben Arous",
+    "region": "Ben Arous",
+    "countryCode": "TN",
+    "line1": "19 Rue du Mercure, ZI Ben Arous 2013",
+    "lat": 36.7537633,
+    "lng": 10.2401018,
+    "geoPrecision": "venue",
+    "geoSource": "courtpro/padelrevive",
+    "geoNote": "CourtPro/PadelRevive pin — distinct from Euphoria Ezzahra and Padel Megrine",
+    "website": "https://ballejaune.com/club/loblegends/contact",
+    "phone": "+216 24 041 133",
+    "email": null,
+    "instagram": "https://www.instagram.com/lob_legends/",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 06:30–02:00 (Padelmesh); four indoor courts (17m ceiling).",
+    "description": "LOB Legends Club puts four high-ceiling indoor courts on Rue du Mercure in ZI Ben Arous — a clear Banlieue Sud densify pick distinct from Euphoria Ezzahra and Padel Megrine. Published phone and Instagram; FTT tournament host. Call or message ahead for late-night indoor sessions.",
+    "primarySourceUrl": "https://ballejaune.com/club/loblegends/contact",
+    "secondarySourceUrl": "https://www.courtpro.com/clubs/tunisia/ben-arous/lob-legends-club",
+    "sourceTypes": "BalleJaune contact; CourtPro; Padelmesh; Padel Tunisia tournament pages",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "FIND tick 2026-10-14 — Ben Arous densify; secondary phone +216 53 585 703 noted on BalleJaune but primary +216 24 041 133 retained."
   }
 ]

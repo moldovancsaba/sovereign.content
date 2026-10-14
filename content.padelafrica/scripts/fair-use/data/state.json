@@ -1444,9 +1444,7 @@
       "lastError": null
     },
     "courtpro": {
-      "queue": [
-        "https://www.courtpro.com/clubs/south-africa/ermelo/10by20-padel-club-ermelo"
-      ],
+      "queue": [],
       "done": {
         "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club": {
           "at": "2026-10-13T13:02:47.063Z",
@@ -1467,11 +1465,16 @@
           "at": "2026-10-13T17:01:12.345Z",
           "reasonCode": "seeded",
           "reason": "seeded"
+        },
+        "https://www.courtpro.com/clubs/south-africa/ermelo/10by20-padel-club-ermelo": {
+          "at": "2026-10-14T00:01:01.209Z",
+          "reasonCode": "seeded",
+          "reason": "seeded"
         }
       },
       "discoveryCursor": 6,
-      "leadsAdded": 4,
-      "lastFetchAt": "2026-10-13T23:00:37.045Z",
+      "leadsAdded": 5,
+      "lastFetchAt": "2026-10-14T00:01:00.533Z",
       "lastError": null
     },
     "playtomic-directory": {
@@ -1495,6 +1498,6 @@
       "lastError": null
     }
   },
-  "passCount": 91,
-  "lastPassAt": "2026-10-13T23:01:00.329Z"
+  "passCount": 92,
+  "lastPassAt": "2026-10-14T00:01:01.209Z"
 }
