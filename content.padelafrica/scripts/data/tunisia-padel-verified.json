@@ -747,5 +747,33 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-10-14",
     "researchNotes": "FIND tick 2026-10-14 \u2014 Sousse/Kantaoui densify. Instagram @padelx.tn rumoured but not independently confirmed this tick \u2014 omitted. Seabel Alhambra hotel padel left as enrich candidate for TUN-VEN-009 (different phone/city)."
+  },
+  {
+    "recordId": "TUN-VEN-031",
+    "name": "Seabel Padel Club Alhambra",
+    "city": "Port El Kantaoui",
+    "region": "Sousse",
+    "countryCode": "TN",
+    "line1": "H\u00f4tel Seabel Alhambra Beach Golf & Spa, Port El Kantaoui",
+    "lat": 35.9004991,
+    "lng": 10.5878467,
+    "geoPrecision": "venue",
+    "geoSource": "nominatim",
+    "geoNote": "OSM H\u00f4tel Seabel Alhambra way pin",
+    "website": "https://www.seabelhotels.com/fr/seabel-alhambra-beach-golf-spa/padel-tennis-club/",
+    "phone": "+216 54 811 800",
+    "whatsapp": "+216 54 811 800",
+    "email": "alhambra.resa@seabelhotels.com",
+    "instagram": "https://www.instagram.com/seabel_padel_club/",
+    "facebook": "https://www.facebook.com/Seabel-Padel-Club-61556260584962",
+    "venueModel": "club_shared",
+    "seasonNote": "Padelmesh lists 07:00\u201323:00; reserve via WhatsApp +216 54 811 800.",
+    "description": "Seabel Padel Club Alhambra is the hotel padel club at Seabel Alhambra Beach Golf & Spa in Port El Kantaoui \u2014 three outdoor courts distinct from the Kal\u00e2a Kebira Seabel indoor listing (TUN-VEN-009) and from Padel X / Padelium Marhaba. First-party hotel padel page, WhatsApp booking line, and published Instagram/Facebook.",
+    "primarySourceUrl": "https://www.seabelhotels.com/fr/seabel-alhambra-beach-golf-spa/padel-tennis-club/",
+    "secondarySourceUrl": "https://padelmesh.com/en/tn/hammam-sousse/clubs/seabel-padel-tennis-club",
+    "sourceTypes": "Seabel Hotels padel page (3 courts + 54811800); Padelmesh (IG/FB handles + hours); Padel Magazine WhatsApp note",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "FIND tick 2026-10-14 \u2014 distinct from TUN-VEN-009 (Zaarna Est Kal\u00e2a Kebira / 53 536 070 indoor). FB URL from Padelmesh @Seabel-Padel-Club-61556260584962 slug."
   }
 ]

@@ -1,0 +1,27 @@
+{
+  "appliedAt": "2026-10-14T05:02:14.072Z",
+  "results": [
+    {
+      "recordId": "KEN-VEN-033",
+      "id": "research-ken-ven-033",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-ken-ven-033",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-031",
+      "id": "research-tun-ven-031",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-tun-ven-031",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}

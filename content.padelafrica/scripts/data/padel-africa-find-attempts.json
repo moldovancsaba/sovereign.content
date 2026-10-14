@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T04:02:39.064963+00:00",
+  "updatedAt": "2026-10-14T05:02:13.345954+00:00",
   "attempts": [
     {
       "cc": "CF",
@@ -3097,6 +3097,29 @@
       "city": "Monrovia",
       "outcome": "zero-result",
       "note": "No evidence-grade padel club; federation/hotel amenity claims only"
+    },
+    {
+      "at": "2026-10-14T05:02:13.345954+00:00",
+      "cc": "KE",
+      "city": "Diani Beach",
+      "outcome": "seeded",
+      "recordId": "KEN-VEN-033",
+      "note": "Play Padel Diani first-party + Playtomic + WhatsApp"
+    },
+    {
+      "at": "2026-10-14T05:02:13.345954+00:00",
+      "cc": "TN",
+      "city": "Port El Kantaoui",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-031",
+      "note": "Seabel Alhambra hotel padel distinct from TUN-VEN-009 Kal\u00e2a Kebira"
+    },
+    {
+      "at": "2026-10-14T05:02:13.345954+00:00",
+      "cc": "ML",
+      "city": "Bamako",
+      "outcome": "zero-result",
+      "note": "No evidence-grade padel club after cooldown"
     }
   ]
 }

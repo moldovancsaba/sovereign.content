@@ -1765,3 +1765,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **TUN-VEN-030 Padel X Port El Kantaoui** created DISCOVERED. **CIV-VEN-008** padeldesjardins.com enrich; **CIV-VEN-009** phone normalize. LR Monrovia → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-14 — padelafrica (tick ~05:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** bounded matchpoint pass **99** (fetch_error soft-skip); pending 0; skip actu-padel thrash.
+
+**FIND / ingest:** **KEN-VEN-033 Play Padel Diani** + **TUN-VEN-031 Seabel Padel Club Alhambra** created DISCOVERED (Alhambra distinct from TUN-VEN-009 Kalâa Kebira). ML Bamako → zero-result.
+
+Not claiming PUBLISHED.

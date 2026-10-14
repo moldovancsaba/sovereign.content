@@ -1,38 +1,36 @@
 {
   "client": "padelafrica",
   "date": "2026-10-14",
-  "tickUtc": "2026-10-14T04:03Z",
+  "tickUtc": "2026-10-14T05:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "TUN-VEN-019 skip_closed; scanned 561",
+  "qualityNote": "TUN-VEN-019 skip_closed; scanned 563",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 98,
+    "passCount": 99,
     "pendingCandidates": 0
   },
   "find": {
     "seeded": [
-      "TUN-VEN-030"
+      "KEN-VEN-033",
+      "TUN-VEN-031"
     ],
-    "enriched": [
-      "CIV-VEN-008",
-      "CIV-VEN-009"
-    ],
+    "enriched": [],
     "zeroResult": [
-      "LR Monrovia"
+      "ML Bamako"
     ],
     "skipped": [
-      "playtomic-directory fetch_error soft-skip",
+      "matchpoint fetch_error soft-skip",
       "actu-padel thrash",
       "ZA densify",
-      "Seabel Alhambra (possible TUN-VEN-009 enrich later)"
+      "ST Club Santana amenity-thin"
     ]
   },
   "hitlBacklog": 0,

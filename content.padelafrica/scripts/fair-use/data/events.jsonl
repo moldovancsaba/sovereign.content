@@ -4203,3 +4203,5 @@
 {"at":"2026-10-14T03:16:02.716Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/nigeria/lagos/the-padel-club-lagos-nigeria","candidateId":"fair-courtpro-the-padel-club-lagos-nigeria","reasonCode":"seeded"}
 {"at":"2026-10-14T04:01:18.939Z","type":"fair_use_attempt","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/south-africa/"}
 {"at":"2026-10-14T04:01:19.009Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/south-africa/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-10-14T05:00:59.725Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
+{"at":"2026-10-14T05:01:00.371Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}

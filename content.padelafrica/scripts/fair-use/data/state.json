@@ -1105,9 +1105,9 @@
       "done": {},
       "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-13T13:11:53.289Z",
+      "lastFetchAt": "2026-10-14T05:00:59.724Z",
       "lastError": {
-        "at": "2026-10-13T13:11:54.004Z",
+        "at": "2026-10-14T05:01:00.371Z",
         "url": "https://www.matchpoint.com.es/",
         "reasonCode": "fetch_error"
       }
@@ -1503,6 +1503,6 @@
       "lastError": null
     }
   },
-  "passCount": 98,
-  "lastPassAt": "2026-10-14T04:01:19.010Z"
+  "passCount": 99,
+  "lastPassAt": "2026-10-14T05:01:00.371Z"
 }
