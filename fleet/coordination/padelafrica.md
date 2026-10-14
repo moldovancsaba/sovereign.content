@@ -1757,3 +1757,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **ETH-VEN-001 Addis Padel Club** created DISCOVERED (first ET seed — CourtPro + addispadel.com + WhatsApp). **CIV-VEN-004** Doinsport booking URL enrich. Ace Padel Marcory skipped (already OSM).
 
 Not claiming PUBLISHED.
+
+### 2026-10-14 — padelafrica (tick ~04:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** bounded playtomic-directory pass **98** (ZA discovery fetch_error soft-skip); pending 0; skip actu-padel thrash.
+
+**FIND / ingest:** **TUN-VEN-030 Padel X Port El Kantaoui** created DISCOVERED. **CIV-VEN-008** padeldesjardins.com enrich; **CIV-VEN-009** phone normalize. LR Monrovia → zero-result.
+
+Not claiming PUBLISHED.

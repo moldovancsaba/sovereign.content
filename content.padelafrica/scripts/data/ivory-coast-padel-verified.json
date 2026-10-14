@@ -188,13 +188,14 @@
     "phone": "+225 07 11 46 75 65",
     "venueModel": "own_premises",
     "seasonNote": "Hours not listed yet \u2014 call ahead.",
-    "description": "Padel Des Jardins is a Deux-Plateaux Vallons leisure venue listing padel, pickleball and p\u00e9tanque with a published Cocody phone. A clear recommendation when you want a named Abidjan padel stop in the Plateaux belt beyond Danga and Marcory. Secondary directory mobiles circulate \u2014 primary GoAfricaOnline number retained; locality pin until a street geocode is confirmed.",
-    "primarySourceUrl": "https://www.goafricaonline.com/ci/1200791-padel-jardins-centre-loisirs-abidjan-cote-ivoire",
-    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/cote-divoire/",
-    "sourceTypes": "GoAfricaOnline directory; Padel Lands CI directory",
+    "description": "Padel Des Jardins is a Cocody Deux-Plateaux Vallon leisure club with padel (plus pickleball and p\u00e9tanque) and a published club phone and booking site. A clear Abidjan recommendation when you want Vallon courts beyond Padelta and Magic Club. Book online or call ahead.",
+    "primarySourceUrl": "https://padeldesjardins.com/",
+    "secondarySourceUrl": "https://www.goafricaonline.com/ci/1200791-padel-jardins-centre-loisirs-abidjan-cote-ivoire",
+    "sourceTypes": "Padel Des Jardins booking site; GoAfricaOnline Deux-Plateaux Vallon + phone",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Also listed +225 07 10 77 39 16 on Padel Lands \u2014 primary +225 07 11 46 75 65 from GoAfricaOnline"
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "Also listed +225 07 10 77 39 16 on Padel Lands \u2014 primary +225 07 11 46 75 65 from GoAfricaOnline; tick 2026-10-14 enrich first-party booking URL (IG/FB still unpublished)",
+    "website": "https://padeldesjardins.com/"
   },
   {
     "recordId": "CIV-VEN-009",
@@ -208,7 +209,7 @@
     "geoPrecision": "locality",
     "geoSource": "nominatim",
     "geoNote": "Bi\u00e9try / Boulevard Phillipe Gr\u00e9goire Yac\u00e9 corridor \u2014 house number not separately geocoded",
-    "phone": "+225 07 14 93 9393",
+    "phone": "+225 07 14 93 93 93",
     "venueModel": "own_premises",
     "seasonNote": "Hours not listed yet \u2014 call ahead.",
     "description": "Padel Square Abidjan lists Boulevard de Marseille in Bi\u00e9try Zone 4 with a published phone distinct from District Padel Marcory on the same boulevard. A clear recommendation when you want a named Bi\u00e9try padel stop in the Zone 4 belt. Locality pin only until a building geocode is confirmed.",
@@ -216,7 +217,7 @@
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/cote-divoire/",
     "sourceTypes": "Padel Lands club card; CI directory",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Distinct phone from CIV-VEN-005 District Padel (+225 07 10 11 11 11)"
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "Distinct phone from CIV-VEN-005 District Padel (+225 07 10 11 11 11); tick 2026-10-14 phone digit-group normalize from Padel Lands"
   }
 ]

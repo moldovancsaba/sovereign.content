@@ -1,35 +1,38 @@
 {
   "client": "padelafrica",
   "date": "2026-10-14",
-  "tickUtc": "2026-10-14T03:16Z",
+  "tickUtc": "2026-10-14T04:03Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "TUN-VEN-019 skip_closed; scanned 560",
+  "qualityNote": "TUN-VEN-019 skip_closed; scanned 561",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 97,
+    "passCount": 98,
     "pendingCandidates": 0
   },
   "find": {
     "seeded": [
-      "ETH-VEN-001"
+      "TUN-VEN-030"
     ],
     "enriched": [
-      "CIV-VEN-004"
+      "CIV-VEN-008",
+      "CIV-VEN-009"
     ],
-    "zeroResult": [],
+    "zeroResult": [
+      "LR Monrovia"
+    ],
     "skipped": [
-      "CourtPro Lagos skipped_duplicate NGA-VEN-002",
-      "Ace Padel Marcory already OSM",
+      "playtomic-directory fetch_error soft-skip",
       "actu-padel thrash",
-      "ZA densify"
+      "ZA densify",
+      "Seabel Alhambra (possible TUN-VEN-009 enrich later)"
     ]
   },
   "hitlBacklog": 0,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T03:03:31.479183+00:00",
+  "updatedAt": "2026-10-14T04:02:39.064963+00:00",
   "attempts": [
     {
       "cc": "CF",
@@ -3074,6 +3074,29 @@
       "outcome": "enriched",
       "recordId": "CIV-VEN-004",
       "note": "Doinsport booking URL; Ace Padel skipped (already OSM osm-node-12650488436)"
+    },
+    {
+      "at": "2026-10-14T04:02:39.064963+00:00",
+      "cc": "TN",
+      "city": "Port El Kantaoui",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-030",
+      "note": "Padel X marina pin + phone; Sousse densify"
+    },
+    {
+      "at": "2026-10-14T04:02:39.064963+00:00",
+      "cc": "CI",
+      "city": "Abidjan",
+      "outcome": "enriched",
+      "recordId": "CIV-VEN-008",
+      "note": "padeldesjardins.com booking URL"
+    },
+    {
+      "at": "2026-10-14T04:02:39.064963+00:00",
+      "cc": "LR",
+      "city": "Monrovia",
+      "outcome": "zero-result",
+      "note": "No evidence-grade padel club; federation/hotel amenity claims only"
     }
   ]
 }
