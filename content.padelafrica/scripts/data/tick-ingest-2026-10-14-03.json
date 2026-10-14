@@ -1,0 +1,27 @@
+{
+  "appliedAt": "2026-10-14T03:03:39.612Z",
+  "results": [
+    {
+      "recordId": "ETH-VEN-001",
+      "id": "research-eth-ven-001",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-eth-ven-001",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-004",
+      "id": "research-civ-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

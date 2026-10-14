@@ -4197,3 +4197,7 @@
 {"at":"2026-10-14T01:01:03.817Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/ghana/","harvested":0}
 {"at":"2026-10-14T02:00:46.643Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/"}
 {"at":"2026-10-14T02:00:47.036Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery_harvest","url":"https://ballejaune.com/","harvested":0}
+{"at":"2026-10-14T03:00:34.291Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery","url":"https://www.courtpro.com/clubs/nigeria"}
+{"at":"2026-10-14T03:00:35.213Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery_harvest","url":"https://www.courtpro.com/clubs/nigeria","harvested":1}
+{"at":"2026-10-14T03:16:02.510Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/nigeria/lagos/the-padel-club-lagos-nigeria"}
+{"at":"2026-10-14T03:16:02.716Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/nigeria/lagos/the-padel-club-lagos-nigeria","candidateId":"fair-courtpro-the-padel-club-lagos-nigeria","reasonCode":"seeded"}

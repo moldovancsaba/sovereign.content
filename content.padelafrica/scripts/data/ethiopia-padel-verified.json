@@ -1,0 +1,27 @@
+[
+  {
+    "recordId": "ETH-VEN-001",
+    "name": "Addis Padel Club",
+    "city": "Addis Ababa",
+    "region": "Lideta",
+    "countryCode": "ET",
+    "line1": "Near 2P49+5WC, Lideta",
+    "lat": 9.0114751,
+    "lng": 38.7288996,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Lideta subcity pin \u2014 CourtPro Plus Code 2P49+5WC not rooftop-geocoded",
+    "website": "https://addispadel.com/",
+    "phone": "+251 988 747 248",
+    "whatsapp": "+251 988 747 248",
+    "venueModel": "own_premises",
+    "seasonNote": "CourtPro lists reception 08:00\u201320:00 and court booking 08:00\u201322:00; confirm on site.",
+    "description": "Addis Padel Club is Ethiopia\u2019s first published operating padel venue in Lideta, Addis Ababa, with a first-party site and CourtPro court cards (Center Court + outdoor Standard Court 1). A clear under-covered-country FIND seed after the Sept 2025 launch-only audit. Message WhatsApp or use the club site before peak hours.",
+    "primarySourceUrl": "https://addispadel.com/",
+    "secondarySourceUrl": "https://www.courtpro.com/clubs/ethiopia/addis-ababa/addis-padel-club",
+    "sourceTypes": "Addis Padel first-party site; CourtPro Lideta listing (Plus Code + courts + hours); GeezJobs contact phones",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-10-14",
+    "researchNotes": "FIND tick 2026-10-14 \u2014 ET past zero-result cooldown; CourtPro + first-party site upgrade launching-only Sept audit. Second phone +251 116 890 069 also published on GeezJobs; WhatsApp uses 988 line."
+  }
+]

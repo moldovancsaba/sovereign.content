@@ -1749,3 +1749,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **TUN-VEN-029 Padel Yasmine Hammamet** created DISCOVERED. **CIV-VEN-002** WePadel IG/FB/WhatsApp enrich. SL Bo/Kenema → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-14 — padelafrica (tick ~03:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** pass **97**; CourtPro Lagos → **skipped_duplicate** (NGA-VEN-002); pending 0; skip actu-padel thrash.
+
+**FIND / ingest:** **ETH-VEN-001 Addis Padel Club** created DISCOVERED (first ET seed — CourtPro + addispadel.com + WhatsApp). **CIV-VEN-004** Doinsport booking URL enrich. Ace Padel Marcory skipped (already OSM).
+
+Not claiming PUBLISHED.

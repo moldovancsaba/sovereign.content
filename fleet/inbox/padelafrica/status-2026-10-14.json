@@ -1,35 +1,35 @@
 {
   "client": "padelafrica",
   "date": "2026-10-14",
-  "tickUtc": "2026-10-14T02:02Z",
+  "tickUtc": "2026-10-14T03:16Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "TUN-VEN-019 skip_closed; scanned 559",
+  "qualityNote": "TUN-VEN-019 skip_closed; scanned 560",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 94,
+    "passCount": 97,
     "pendingCandidates": 0
   },
   "find": {
     "seeded": [
-      "TUN-VEN-029"
+      "ETH-VEN-001"
     ],
     "enriched": [
-      "CIV-VEN-002"
+      "CIV-VEN-004"
     ],
-    "zeroResult": [
-      "SL Bo/Kenema"
-    ],
+    "zeroResult": [],
     "skipped": [
-      "ZA densify",
-      "actu-padel thrash"
+      "CourtPro Lagos skipped_duplicate NGA-VEN-002",
+      "Ace Padel Marcory already OSM",
+      "actu-padel thrash",
+      "ZA densify"
     ]
   },
   "hitlBacklog": 0,

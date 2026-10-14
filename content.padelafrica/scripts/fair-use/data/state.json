@@ -1470,11 +1470,16 @@
           "at": "2026-10-14T00:01:01.209Z",
           "reasonCode": "seeded",
           "reason": "seeded"
+        },
+        "https://www.courtpro.com/clubs/nigeria/lagos/the-padel-club-lagos-nigeria": {
+          "at": "2026-10-14T03:16:02.716Z",
+          "reasonCode": "seeded",
+          "reason": "seeded"
         }
       },
-      "discoveryCursor": 6,
-      "leadsAdded": 5,
-      "lastFetchAt": "2026-10-14T00:01:00.533Z",
+      "discoveryCursor": 7,
+      "leadsAdded": 6,
+      "lastFetchAt": "2026-10-14T03:16:02.509Z",
       "lastError": null
     },
     "playtomic-directory": {
@@ -1498,6 +1503,6 @@
       "lastError": null
     }
   },
-  "passCount": 94,
-  "lastPassAt": "2026-10-14T02:00:47.037Z"
+  "passCount": 97,
+  "lastPassAt": "2026-10-14T03:16:02.716Z"
 }

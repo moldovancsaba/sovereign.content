@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T16:20:00Z",
+  "updatedAt": "2026-10-14T03:03:31.479183+00:00",
   "attempts": [
     {
       "cc": "CF",
@@ -3058,6 +3058,22 @@
       "city": "Libreville",
       "outcome": "enriched",
       "recordId": "GAB-VEN-003"
+    },
+    {
+      "at": "2026-10-14T03:03:31.479183+00:00",
+      "cc": "ET",
+      "city": "Addis Ababa",
+      "outcome": "seeded",
+      "recordId": "ETH-VEN-001",
+      "note": "CourtPro + addispadel.com + WhatsApp; past Sept zero-result cooldown"
+    },
+    {
+      "at": "2026-10-14T03:03:31.479183+00:00",
+      "cc": "CI",
+      "city": "Abidjan",
+      "outcome": "enriched",
+      "recordId": "CIV-VEN-004",
+      "note": "Doinsport booking URL; Ace Padel skipped (already OSM osm-node-12650488436)"
     }
   ]
 }
