@@ -1,0 +1,43 @@
+{
+  "client": "padelafrica",
+  "date": "2026-10-17",
+  "tickUtc": "2026-10-17T22:03Z",
+  "timer": "padel-find-tick",
+  "writesPath": "ingest_only",
+  "ingestOnlyReality": true,
+  "qualityAtCeiling": false,
+  "qualityLoopApplied": 1,
+  "qualityNote": "TUN-VEN-019 compose_about 45→80; scanned 569",
+  "pipelineFeed": {
+    "batches": 2,
+    "ok": 60,
+    "total": 60
+  },
+  "fairUse": {
+    "passCount": 102,
+    "pendingCandidates": 0
+  },
+  "find": {
+    "seeded": [
+      "MAR-VEN-049",
+      "MAR-VEN-050",
+      "TUN-VEN-033",
+      "EGY-VEN-018"
+    ],
+    "enriched": [
+      "TUN-VEN-007",
+      "EGY-VEN-001",
+      "EGY-VEN-002"
+    ],
+    "zeroResult": [
+      "LR Monrovia"
+    ],
+    "skipped": [
+      "actu-padel thrash",
+      "env-reset gap Oct14 08:00–Oct17 22:00"
+    ]
+  },
+  "hitlBacklog": 0,
+  "claimedPublished": false,
+  "note": "Env reset mid-gap; SC re-cloned; secrets restored from env. MAR-049/050 create hit existing PUBLISHED → reprocess:true. Not claiming PUBLISHED."
+}

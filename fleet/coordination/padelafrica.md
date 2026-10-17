@@ -1773,3 +1773,33 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **KEN-VEN-033 Play Padel Diani** + **TUN-VEN-031 Seabel Padel Club Alhambra** created DISCOVERED (Alhambra distinct from TUN-VEN-009 Kalâa Kebira). ML Bamako → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-14 — padelafrica (tick ~06:00 UTC) — catch-up
+
+**Note:** Commit landed (`6581941`); coordination append was missing after env churn — logged here.
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** africapadel pass **100**; pending 0.
+
+**FIND / ingest:** **TUN-VEN-032 Sidi Bou Said** + **ZMB-VEN-013 Serve Padel** created DISCOVERED. Contact enriches Marsa / Pinnacle / Deuce / Pulse cluster.
+
+Not claiming PUBLISHED.
+
+### 2026-10-14 — padelafrica (tick ~07:00 UTC) — catch-up
+
+**Note:** Commit landed (`72afde1`); coordination append was missing after env churn — logged here.
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (TUN-019 skip_closed). **Fair-use:** analistas pass **101**; pending 0.
+
+**FIND / ingest:** Contact enrich wave **NAM-001/007**, **MOZ-003**, **GHA-001**, **NGA-005**, **ZMB-002/003**, **BWA-001**. GH Kumasi → zero-result.
+
+Not claiming PUBLISHED.
+
+### 2026-10-17 — padelafrica (tick ~22:00 UTC)
+
+**Note:** Cloud env reset wiped SC checkout + agent helpers between ~08:00 Oct 14 and this tick. Re-cloned SC; restored ingest/GitHub helpers from env. 08:00 bookkeeping never pushed.
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** applied **TUN-VEN-019** About compose (45→80); scanned 569. **Fair-use:** bounded padel-maroc pass **102** (harvest 0); skip actu-padel thrash; pending actionable 0.
+
+**FIND / ingest:** Seeded/reprocessed **MAR-VEN-049 The Naw Club**, **MAR-VEN-050 Golden Padel Club Tangier** (create hit existing PUBLISHED → `reprocess:true`), **TUN-VEN-033 Re-serve Padel**, **EGY-VEN-018 SR Padel Al Zohour**. Enriched **TUN-VEN-007**, **EGY-VEN-001/002**. LR Monrovia → zero-result (launching-only).
+
+Not claiming PUBLISHED.

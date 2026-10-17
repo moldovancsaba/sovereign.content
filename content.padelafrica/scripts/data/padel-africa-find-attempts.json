@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T07:01:30.620755+00:00",
+  "updatedAt": "2026-10-17T22:03:03.666406+00:00",
   "attempts": [
     {
       "cc": "CF",
@@ -3232,6 +3232,55 @@
       "city": "Kumasi",
       "outcome": "zero-result",
       "note": "Still no evidence-grade padel club beyond Accra cluster"
+    },
+    {
+      "at": "2026-10-17T22:03:03.666406+00:00",
+      "cc": "MA",
+      "city": "Rabat",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-049"
+    },
+    {
+      "at": "2026-10-17T22:03:03.666406+00:00",
+      "cc": "MA",
+      "city": "Tangier",
+      "outcome": "seeded",
+      "recordId": "MAR-VEN-050"
+    },
+    {
+      "at": "2026-10-17T22:03:03.666406+00:00",
+      "cc": "TN",
+      "city": "El Mnihla",
+      "outcome": "seeded",
+      "recordId": "TUN-VEN-033"
+    },
+    {
+      "at": "2026-10-17T22:03:03.666406+00:00",
+      "cc": "EG",
+      "city": "New Cairo",
+      "outcome": "seeded",
+      "recordId": "EGY-VEN-018"
+    },
+    {
+      "at": "2026-10-17T22:03:03.666406+00:00",
+      "cc": "TN",
+      "city": "Nabeul",
+      "outcome": "enriched",
+      "recordId": "TUN-VEN-007"
+    },
+    {
+      "at": "2026-10-17T22:03:03.666406+00:00",
+      "cc": "EG",
+      "city": "Alexandria",
+      "outcome": "enriched",
+      "recordId": "EGY-VEN-001"
+    },
+    {
+      "at": "2026-10-17T22:03:03.666406+00:00",
+      "cc": "LR",
+      "city": "Monrovia",
+      "outcome": "zero-result",
+      "note": "Padel House Liberia Sinkor still launching-only; no bookable first-party contact"
     }
   ]
 }

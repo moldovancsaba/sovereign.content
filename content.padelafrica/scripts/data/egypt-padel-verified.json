@@ -21,8 +21,9 @@
     "secondarySourceUrl": "https://www.padelfip.com/events/fip-promises-alenxandria/",
     "sourceTypes": "WePadel first-party site; FIP tournament listing; Actu Padel",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Contact email info@wepadeleg.com retained over a typo domain variant on one contact page"
+    "lastVerifiedUtc": "2026-10-17",
+    "researchNotes": "Contact email info@wepadeleg.com retained over a typo domain variant on one contact page; tick 2026-10-17 WhatsApp/email from wepadeleg.com",
+    "whatsapp": "+20 128 451 1819"
   },
   {
     "recordId": "EGY-VEN-002",
@@ -46,7 +47,9 @@
     "secondarySourceUrl": "https://latiendaegypt.com/blogs/padel-insights/padel-in-egypt-where-to-play",
     "sourceTypes": "WePadel first-party site; La Tienda Egypt court guide",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-10-17",
+    "whatsapp": "+20 128 451 1819",
+    "researchNotes": "; tick 2026-10-17 WhatsApp/email from wepadeleg.com"
   },
   {
     "recordId": "EGY-VEN-003",
@@ -411,5 +414,29 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND tick 2026-09-26T19"
+  },
+  {
+    "recordId": "EGY-VEN-018",
+    "name": "SR Padel Al Zohour Club",
+    "city": "New Cairo",
+    "region": "Cairo",
+    "countryCode": "EG",
+    "line1": "El Tesaeen Street, 5th Settlement",
+    "lat": 30.0632671,
+    "lng": 31.4544799,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "5th Settlement / New Cairo pin \u2014 Sport Royale Al Zohour 5 outdoor courts",
+    "phone": "+20 111 994 7790",
+    "instagram": "https://www.instagram.com/srpadeleg/",
+    "venueModel": "club_shared",
+    "seasonNote": "Padelmesh lists 09:00\u201304:00 daily; confirm before late slots.",
+    "description": "SR Padel Al Zohour Club offers five outdoor Sport Royale courts on El Tesaeen Street in New Cairo\u2019s 5th Settlement \u2014 a clear Egypt densify pick beyond the Alexandria WePadel cluster. Published phone and Instagram @srpadeleg for bookings and academy enquiries.",
+    "primarySourceUrl": "https://padelmesh.com/en/eg/new-cairo/clubs/sport-royale-al-zohour-club",
+    "secondarySourceUrl": "https://www.instagram.com/srpadeleg/",
+    "sourceTypes": "Padelmesh (5 courts + phone + hours + IG handles)",
+    "confidence": "Medium",
+    "lastVerifiedUtc": "2026-10-17",
+    "researchNotes": "FIND tick 2026-10-17 \u2014 New Cairo densify. Also lists @srpadelacademy."
   }
 ]

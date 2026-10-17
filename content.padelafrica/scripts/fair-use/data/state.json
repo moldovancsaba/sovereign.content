@@ -23,7 +23,7 @@
       "done": {},
       "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-13T19:06:15.062Z",
+      "lastFetchAt": "2026-10-17T22:02:15.317Z",
       "lastError": null
     },
     "actu-padel": {
@@ -1503,6 +1503,6 @@
       "lastError": null
     }
   },
-  "passCount": 101,
-  "lastPassAt": "2026-10-14T07:00:46.242Z"
+  "passCount": 102,
+  "lastPassAt": "2026-10-17T22:02:15.933Z"
 }
