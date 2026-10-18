@@ -4227,3 +4227,5 @@
 {"at":"2026-10-18T15:00:44.248Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/senegal/","status":404,"blocked":false,"reasonCode":"fetch_error"}
 {"at":"2026-10-18T16:00:46.268Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery","url":"https://playtomic.com/clubs"}
 {"at":"2026-10-18T16:00:46.350Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery_harvest","url":"https://playtomic.com/clubs","harvested":0}
+{"at":"2026-10-18T17:00:46.013Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery","url":"https://findapadelcourt.co.za/"}
+{"at":"2026-10-18T17:00:46.315Z","type":"fair_use_attempt","sourceId":"findapadelcourt-za","mode":"discovery_harvest","url":"https://findapadelcourt.co.za/","harvested":0}

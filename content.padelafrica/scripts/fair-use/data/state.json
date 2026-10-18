@@ -417,9 +417,9 @@
     "findapadelcourt-za": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 5,
+      "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-13T19:07:03.047Z",
+      "lastFetchAt": "2026-10-18T17:00:46.013Z",
       "lastError": {
         "at": "2026-10-13T19:07:03.251Z",
         "url": "https://findapadelcourt.co.za/durban",
@@ -1513,6 +1513,6 @@
       "lastError": null
     }
   },
-  "passCount": 110,
-  "lastPassAt": "2026-10-18T16:00:46.351Z"
+  "passCount": 111,
+  "lastPassAt": "2026-10-18T17:00:46.316Z"
 }

@@ -848,5 +848,32 @@
     "lastVerifiedUtc": "2026-10-18",
     "verifiedAt": "2026-10-18",
     "researchNotes": "FIND tick 2026-10-18T16. First Tigoni/Kiambu seed. Website is Playtomic booking URL (not Instagram)."
+  },
+  {
+    "recordId": "KEN-VEN-035",
+    "name": "254 Racquet Club",
+    "city": "Nairobi",
+    "region": "Loresho",
+    "countryCode": "KE",
+    "line1": "Loresho Ridge, next to Nigerian High Commission Residence",
+    "lat": -1.2508532,
+    "lng": 36.7602762,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Nominatim Loresho Ridge way pin — not rooftop-surveyed; club lists Nigerian High Commission Residence landmark",
+    "website": "https://www.254racquetclub.com/",
+    "phone": "+254 719 254 254",
+    "whatsapp": "+254 719 254 254",
+    "email": "operations@254racquetclub.com",
+    "venueModel": "own_premises",
+    "seasonNote": "Open daily 07:00–22:00; two covered padel courts bookable via Playtomic and the 254 Racquet Club app.",
+    "description": "254 Racquet Club is East Africa’s pay-as-you-play multi-racquet club on Loresho Ridge with two covered padel courts, first-party site, and Playtomic booking — a clear Westlands/Loresho recommendation beyond Gigiri Pulse and Destination Tigoni. Book on Playtomic or call the club line ahead for peak evenings.",
+    "primarySourceUrl": "https://www.254racquetclub.com/",
+    "secondarySourceUrl": "https://playtomic.com/clubs/254-racquet-club",
+    "sourceTypes": "254racquetclub.com home/contacts/padel pages (phone+email+Loresho Ridge); Playtomic 254 Racquet Club (2 covered courts+hours)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-18",
+    "verifiedAt": "2026-10-18",
+    "researchNotes": "FIND tick 2026-10-18T17. Website is first-party (not Instagram). Ignored nairobi.life contact bleed from Destination Padel. No official Instagram located — not invented."
   }
 ]

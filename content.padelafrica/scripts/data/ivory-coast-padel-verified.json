@@ -358,5 +358,30 @@
     "lastVerifiedUtc": "2026-10-18",
     "verifiedAt": "2026-10-18",
     "researchNotes": "FIND tick 2026-10-18T16. Phone +225 0556505012 normalized. Locality pin until a single street geocode is confirmed."
+  },
+  {
+    "recordId": "CIV-VEN-015",
+    "name": "Crossoverdose Gym",
+    "city": "Abidjan",
+    "region": "Marcory Résidentiel",
+    "countryCode": "CI",
+    "line1": "Rue de l'Olympe, Marcory Résidentiel",
+    "lat": 5.314571,
+    "lng": -3.998737,
+    "geoPrecision": "street",
+    "geoSource": "place_card",
+    "geoNote": "CROSS FIT OVERDOSE place card pin on Rue de l'Olympe / Marcory — not rooftop-surveyed",
+    "phone": "+225 07 08 98 98 60",
+    "whatsapp": "+225 07 08 98 98 60",
+    "venueModel": "shared_facility",
+    "seasonNote": "Gym/fitness venue with padel courts listed on Padel Lands; hours listed open daily on Baab — confirm court booking ahead.",
+    "description": "Crossoverdose Gym (also listed as Cross Fit Overdose) adds padel courts in Marcory Résidentiel on Rue de l'Olympe — a clear Marcory densify stop beyond WePadel on Boulevard Achalme and Elite Club. A useful recommendation when you want bookable Marcory courts with a published club phone. Call or WhatsApp ahead to confirm court access.",
+    "primarySourceUrl": "https://padellands.com/pistas-de-padel/crossoverdose-gym/",
+    "secondarySourceUrl": "https://baab.ci/loisirs_baab/crossfit-overdose-2/",
+    "sourceTypes": "Padel Lands Crossoverdose Gym card (Marcory+phone); Baab Crossfit Overdose (Rue de l'Olympe + 07 08 98 98 60); place card coords",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-18",
+    "verifiedAt": "2026-10-18",
+    "researchNotes": "FIND tick 2026-10-18T17. Phone +2250708989860 normalized. Distinct from CIV-VEN-002 WePadel Marcory (Boulevard Achalme). No official Instagram located — not invented. Baab also lists 01 02 59 21 02; primary phone from Padel Lands/place card used for WhatsApp."
   }
 ]

@@ -1,47 +1,38 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T16:02Z",
+  "tickUtc": "2026-10-18T17:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 583; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 585; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 110,
+    "passCount": 111,
     "pendingCandidates": 1,
-    "note": "playtomic clubs harvest 0; padelrevive DE hub still pending not promoted"
+    "note": "findapadelcourt-za harvest 0; padelrevive DE hub still pending not promoted"
   },
   "find": {
     "seeded": [
-      "CIV-VEN-014",
-      "KEN-VEN-034"
+      "CIV-VEN-015",
+      "KEN-VEN-035"
     ],
-    "enriched": [
-      "CIV-VEN-003",
-      "CIV-VEN-004",
-      "CIV-VEN-006",
-      "CIV-VEN-008",
-      "MDG-VEN-003",
-      "MDG-VEN-008"
-    ],
-    "zeroResult": [
-      "AO Lobito",
-      "AO Huambo"
-    ],
+    "enriched": [],
+    "zeroResult": [],
     "skipped": [
       "actu-padel thrash",
       "fair-padelrevive DE Senegal hub",
-      "Sports Garden Zone 4 name-only"
+      "Sports Garden Zone 4 name-only",
+      "Padel House Abidjan ouverture prochaine"
     ]
   },
   "hitlBacklog": 0,
   "claimedPublished": false,
-  "note": "SC main still ahead locally \u2014 GITHUB_TOKEN empty. Not claiming PUBLISHED."
+  "note": "SC main still ahead locally — GITHUB_TOKEN empty / push blocked. Not claiming PUBLISHED."
 }

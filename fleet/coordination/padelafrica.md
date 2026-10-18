@@ -1868,3 +1868,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-18 — padelafrica (tick ~17:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 585). **Fair-use:** findapadelcourt-za pass **111** (harvest 0); padelrevive DE hub still pending, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **CIV-VEN-015 Crossoverdose Gym** (Marcory Rue de l'Olympe, phone+WhatsApp) + **KEN-VEN-035 254 Racquet Club** (Loresho Ridge, first-party site+email+Playtomic) created DISCOVERED. No Instagram invent. Arena/Dojo/B Fit still unseeded (no fresh first-party evidence this tick).
+
+Not claiming PUBLISHED.
+
