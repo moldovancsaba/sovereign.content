@@ -1,35 +1,43 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T17:02Z",
+  "tickUtc": "2026-10-18T18:01Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
-  "qualityAtCeiling": true,
-  "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 585; belowThreshold 0",
+  "qualityAtCeiling": false,
+  "qualityLoopApplied": 1,
+  "qualityNote": "applied KEN-VEN-037 About compose 70→90; scanned 587; belowThreshold 0 after apply",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 111,
+    "passCount": 112,
     "pendingCandidates": 1,
-    "note": "findapadelcourt-za harvest 0; padelrevive DE hub still pending not promoted"
+    "note": "africapadel harvest 0; padelrevive DE Senegal hub still needs_verify not promoted"
   },
   "find": {
     "seeded": [
-      "CIV-VEN-015",
-      "KEN-VEN-035"
+      "KEN-VEN-036",
+      "KEN-VEN-037"
     ],
-    "enriched": [],
-    "zeroResult": [],
+    "enriched": [
+      "KEN-VEN-001",
+      "KEN-VEN-004",
+      "KEN-VEN-006",
+      "KEN-VEN-016",
+      "KEN-VEN-018",
+      "KEN-VEN-032",
+      "BEN-VEN-001"
+    ],
+    "zeroResult": [
+      "Arena Padel Nairobi (no phone/IG/booking)"
+    ],
     "skipped": [
       "actu-padel thrash",
-      "fair-padelrevive DE Senegal hub",
-      "Sports Garden Zone 4 name-only",
-      "Padel House Abidjan ouverture prochaine"
+      "fair-padelrevive DE Senegal hub"
     ]
   },
   "hitlBacklog": 0,

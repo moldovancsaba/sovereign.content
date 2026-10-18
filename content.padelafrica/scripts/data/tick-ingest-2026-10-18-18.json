@@ -1,0 +1,104 @@
+{
+  "appliedAt": "2026-10-18T18:01:28.526Z",
+  "results": [
+    {
+      "recordId": "KEN-VEN-036",
+      "id": "research-ken-ven-036",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-ken-ven-036",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-037",
+      "id": "research-ken-ven-037",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-ken-ven-037",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-001",
+      "id": "research-ken-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ken-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-004",
+      "id": "research-ken-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ken-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-006",
+      "id": "research-ken-ven-006",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ken-ven-006",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-016",
+      "id": "research-ken-ven-016",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ken-ven-016",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-018",
+      "id": "research-ken-ven-018",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ken-ven-018",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-032",
+      "id": "research-ken-ven-032",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ken-ven-032",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "BEN-VEN-001",
+      "id": "research-ben-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-ben-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

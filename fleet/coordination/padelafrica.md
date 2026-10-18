@@ -1876,3 +1876,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-18 — padelafrica (tick ~18:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** applied **KEN-VEN-037** About (70→90); scanned 587. **Fair-use:** africapadel pass **112** (harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **KEN-VEN-036 BFit Arena** (Karen Academy Road, first-party+Playtomic+IG @bfit.ke) + **KEN-VEN-037 Dojo Wellness Club** (320 Ngong Road, first-party+Playtomic+IG @dojokenya) created DISCOVERED. WhatsApp enrich **KEN-001/004/006/016/018/032** + **BEN-001**. Arena Padel Nairobi → zero-result (name-only directories). UG/RW densify leads already seeded.
+
+Not claiming PUBLISHED.
+
