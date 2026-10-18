@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T13:02:25.069Z",
+  "updatedAt": "2026-10-18T14:01:56.455Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3564,6 +3564,50 @@
       "outcome": "skipped",
       "at": "2026-10-18T13:02:25.069Z",
       "note": "fair-padelrevive DE hub needs_verify not promoted"
+    },
+    {
+      "cc": "GH",
+      "city": "Tema",
+      "outcome": "seeded",
+      "at": "2026-10-18T14:01:56.455Z",
+      "note": "GHA-VEN-012 Pamela Enterprises CourtPro",
+      "recordId": "GHA-VEN-012"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan",
+      "outcome": "seeded",
+      "at": "2026-10-18T14:01:56.455Z",
+      "note": "CIV-VEN-011 Ace Padel Marcory",
+      "recordId": "CIV-VEN-011"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan",
+      "outcome": "skipped",
+      "at": "2026-10-18T14:01:56.455Z",
+      "note": "Padel House padelhouse.ci still ouverture prochaine"
+    },
+    {
+      "cc": "ET",
+      "city": "Bahir Dar",
+      "outcome": "zero-result",
+      "at": "2026-10-18T14:01:56.455Z",
+      "note": "stadiums/sports only — no padel evidence"
+    },
+    {
+      "cc": "KE",
+      "city": "Kisumu",
+      "outcome": "zero-result",
+      "at": "2026-10-18T14:01:56.455Z",
+      "note": "actu-padel stubs only; Public Service Club lorem hours — insufficient"
+    },
+    {
+      "cc": "GH",
+      "city": "Adenta",
+      "outcome": "enriched",
+      "at": "2026-10-18T14:01:56.455Z",
+      "note": "GHA-010 Boho phone/street"
     }
   ]
 }

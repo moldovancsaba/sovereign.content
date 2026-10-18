@@ -9,9 +9,9 @@
           "reason": "guide_or_hub_name"
         }
       },
-      "discoveryCursor": 8,
+      "discoveryCursor": 9,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-14T01:01:01.314Z",
+      "lastFetchAt": "2026-10-18T14:00:51.439Z",
       "lastError": {
         "at": "2026-09-28T00:07:56.548Z",
         "url": "https://padellands.com/en/pistas-de-padel/otros-paises/libya/",
@@ -1513,6 +1513,6 @@
       "lastError": null
     }
   },
-  "passCount": 107,
-  "lastPassAt": "2026-10-18T13:00:35.706Z"
+  "passCount": 108,
+  "lastPassAt": "2026-10-18T14:00:52.020Z"
 }

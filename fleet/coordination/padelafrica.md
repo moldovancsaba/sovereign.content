@@ -1844,3 +1844,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-18 — padelafrica (tick ~14:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 579). **Fair-use:** padellands pass **108** (Tanzania harvest 0); padelrevive DE hub still pending, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **GHA-VEN-012 Pamela Enterprises Tema** + **CIV-VEN-011 Ace Padel Abidjan** created DISCOVERED. Enriched **GHA-010** Boho phone/street; **CIV-007/009** WhatsApp; **NGA-002/003** WhatsApp/IG. Skipped Padel House (ouverture prochaine). ET Bahir Dar + KE Kisumu → zero-result.
+
+Not claiming PUBLISHED.
+

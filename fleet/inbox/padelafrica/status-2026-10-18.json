@@ -1,41 +1,42 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T13:03Z",
+  "tickUtc": "2026-10-18T14:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 577; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 579; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 107,
+    "passCount": 108,
     "pendingCandidates": 1,
-    "note": "padelrevive DE Senegal hub queued needs_verify \u2014 not promoted"
+    "note": "padellands Tanzania harvest 0; padelrevive DE hub still pending not promoted"
   },
   "find": {
     "seeded": [
-      "CIV-VEN-010",
-      "ZMB-VEN-015"
+      "GHA-VEN-012",
+      "CIV-VEN-011"
     ],
     "enriched": [
-      "TGO-VEN-001",
-      "TGO-VEN-002",
-      "BDI-VEN-001",
-      "MDG-VEN-002"
+      "GHA-VEN-010",
+      "CIV-VEN-007",
+      "CIV-VEN-009",
+      "NGA-VEN-002",
+      "NGA-VEN-003"
     ],
     "zeroResult": [
-      "NE Niamey",
-      "TD N'Djamena",
-      "LS Maseru"
+      "ET Bahir Dar",
+      "KE Kisumu"
     ],
     "skipped": [
       "actu-padel thrash",
+      "Padel House Abidjan ouverture prochaine",
       "fair-padelrevive DE Senegal hub"
     ]
   },

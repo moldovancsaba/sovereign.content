@@ -170,8 +170,9 @@
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/cote-divoire/",
     "sourceTypes": "Baab Ivoire Padel listing (Rue Zéphirs + phone); Padel Lands Ivoire Padel Club row; App Store Ivoire Padel booking app",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Court count listed as 4 — not asserted. Distinct from CIV-VEN-002 WePadel Marcory."
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 4 — not asserted. Distinct from CIV-VEN-002 WePadel Marcory. FIND 2026-10-18T14 WhatsApp from published phone.",
+    "whatsapp": "+225 07 48 89 88 88"
   },
   {
     "recordId": "CIV-VEN-008",
@@ -217,8 +218,9 @@
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/cote-divoire/",
     "sourceTypes": "Padel Lands club card; CI directory",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-14",
-    "researchNotes": "Distinct phone from CIV-VEN-005 District Padel (+225 07 10 11 11 11); tick 2026-10-14 phone digit-group normalize from Padel Lands"
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "Distinct phone from CIV-VEN-005 District Padel (+225 07 10 11 11 11); tick 2026-10-14 phone digit-group normalize from Padel Lands FIND 2026-10-18T14 WhatsApp from published phone.",
+    "whatsapp": "+225 07 14 93 93 93"
   },
   {
     "recordId": "CIV-VEN-010",
@@ -246,5 +248,31 @@
     "lastVerifiedUtc": "2026-10-18",
     "verifiedAt": "2026-10-18",
     "researchNotes": "FIND tick 2026-10-18T13. First non-Abidjan CIV seed this wave. Instagram not asserted. Court count not asserted."
+  },
+  {
+    "recordId": "CIV-VEN-011",
+    "name": "Ace Padel Abidjan",
+    "city": "Abidjan",
+    "region": "Marcory",
+    "countryCode": "CI",
+    "line1": "Rue des Marjolaines / 1086 Rue Yves Mankambou, Marcory",
+    "lat": 5.274336,
+    "lng": -3.976147,
+    "geoPrecision": "street",
+    "geoSource": "operator_maps",
+    "geoNote": "Place listing pin Rue des Marjolaines Marcory; alternate Yves Mankambou pin nearby",
+    "phone": "+225 01 02 36 06 27",
+    "whatsapp": "+225 01 02 36 06 27",
+    "instagram": "https://www.instagram.com/acepadel_ci/",
+    "venueModel": "own_premises",
+    "seasonNote": "Hours not listed on directory cards — message Instagram/WhatsApp ahead.",
+    "description": "Ace Padel Abidjan is a Marcory padel club with a published phone, Instagram @acepadel_ci, and a listing among Padel CI partner clubs. A clear Abidjan recommendation when you want Marcory courts beyond WePadel and Ivoire Padel. WhatsApp or IG ahead to book.",
+    "primarySourceUrl": "https://padel.ci/",
+    "secondarySourceUrl": "https://www.abidjanpadel.com/",
+    "sourceTypes": "Padel CI partner directory; Smatch/abidjanpadel partner list; place listing phone+street; Instagram @acepadel_ci",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-18",
+    "verifiedAt": "2026-10-18",
+    "researchNotes": "FIND tick 2026-10-18T14. Distinct from France Ace Padel Évry LinkedIn noise. Padel House Abidjan skipped this tick (site still shows ouverture prochaine)."
   }
 ]
