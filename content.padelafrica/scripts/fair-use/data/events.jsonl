@@ -4233,3 +4233,5 @@
 {"at":"2026-10-18T18:00:29.493Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}
 {"at":"2026-10-18T19:00:25.129Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery","url":"https://padelafrica.com/tournaments"}
 {"at":"2026-10-18T19:00:25.260Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery_harvest","url":"https://padelafrica.com/tournaments","harvested":0}
+{"at":"2026-10-18T20:00:30.019Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery","url":"https://www.analistaspadel.com/"}
+{"at":"2026-10-18T20:00:30.844Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/","harvested":0}

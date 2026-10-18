@@ -185,5 +185,33 @@
     "lastVerifiedUtc": "2026-10-18",
     "verifiedAt": "2026-10-18",
     "researchNotes": "FIND tick 2026-10-18T19. First Tete seed. Website is TieSports booking URL (not Instagram)."
+  },
+  {
+    "recordId": "MOZ-VEN-008",
+    "name": "Pro Gym Matola Padel",
+    "city": "Matola",
+    "region": "Maputo Province",
+    "countryCode": "MZ",
+    "line1": "Parque dos Poetas, Avenida União Africana (Jardim Municipal)",
+    "lat": -25.9651721,
+    "lng": 32.4552216,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Nominatim Parque dos Poetas park pin — padel arena in front of Pro Gym Matola",
+    "website": "https://www.progym.co.mz/gyms/matola",
+    "phone": "+258 85 551 5551",
+    "whatsapp": "+258 85 551 5551",
+    "email": "info@progym.co.mz",
+    "instagram": "https://www.instagram.com/mozprogym/",
+    "venueModel": "shared_facility",
+    "seasonNote": "Padel courts at the outdoor sports arena in front of Pro Gym Matola; gym hours Mon–Fri 05:00–22:00 / Sat 06:00–18:00 / Sun 06:00–13:00 — confirm court booking ahead.",
+    "description": "Pro Gym Matola puts padel courts in the Parque dos Poetas sports arena on Avenida União Africana — a clear Matola densify stop beyond Maputo’s Marginal cluster, with first-party site, Instagram @mozprogym, and a published club phone. Call or WhatsApp the Matola line ahead to reserve.",
+    "primarySourceUrl": "https://www.progym.co.mz/gyms/matola",
+    "secondarySourceUrl": "https://clubs.tiesports.com/en/mozambique",
+    "sourceTypes": "progym.co.mz Matola page (Parque dos Poetas+phone+email+padel arena); Instagram @mozprogym; TieSports Pro Gym listing",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-18",
+    "verifiedAt": "2026-10-18",
+    "researchNotes": "FIND tick 2026-10-18T20. Matola site phone +258855515551 used as primary; admin +258844414441 noted. Distinct from Just Play / Elite Matola."
   }
 ]

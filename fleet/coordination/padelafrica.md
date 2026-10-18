@@ -1892,3 +1892,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-18 — padelafrica (tick ~20:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 592). **Fair-use:** analistas pass **114** (harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **MOZ-VEN-008 Pro Gym Matola Padel** (Parque dos Poetas, first-party+IG @mozprogym) + **MDG-VEN-009 Parklife Alarobia** + **MDG-VEN-010 Nosy Padel Center** created DISCOVERED. Enriched **MDG-001** Tropical phone/email; **MRT-001** WhatsApp. LR Monrovia → launching-only zero-result. Skipped Just Play Matola (no phone) / ATEMA (team vs venue ambiguity).
+
+Not claiming PUBLISHED.
+

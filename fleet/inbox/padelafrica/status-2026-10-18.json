@@ -1,42 +1,41 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T19:02Z",
+  "tickUtc": "2026-10-18T20:01Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 589; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 592; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 113,
+    "passCount": 114,
     "pendingCandidates": 1,
-    "note": "padelafrica-apc tournaments harvest 0; padelrevive DE Senegal hub still needs_verify not promoted"
+    "note": "analistas harvest 0; padelrevive DE Senegal hub still needs_verify not promoted"
   },
   "find": {
     "seeded": [
-      "MOZ-VEN-006",
-      "MOZ-VEN-007"
+      "MOZ-VEN-008",
+      "MDG-VEN-009",
+      "MDG-VEN-010"
     ],
     "enriched": [
-      "MOZ-VEN-005",
-      "MOZ-VEN-001",
-      "SLE-VEN-002"
+      "MDG-VEN-001",
+      "MRT-VEN-001"
     ],
     "zeroResult": [
-      "BF Ouagadougou (essay-only / no club contact)"
+      "LR Monrovia Padel House (launching-only / no contact)"
     ],
     "skipped": [
       "actu-padel thrash",
       "fair-padelrevive DE Senegal hub",
-      "Tanzanite Sports Hub (padel not in live booking sports)",
-      "Elite Matola (+351 phone only / no street)",
-      "A1 Matola (no phone)"
+      "Just Play Matola (no phone)",
+      "ATEMA (team/club ambiguity vs Urban Futsal host)"
     ]
   },
   "hitlBacklog": 0,
