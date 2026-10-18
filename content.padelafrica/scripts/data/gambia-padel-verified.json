@@ -21,11 +21,12 @@
     "secondarySourceUrl": "https://kololi.com/contact/",
     "sourceTypes": "Kololi Beach Resort first-party padel and contact pages",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-13",
-    "researchNotes": "Not a duplicate of osm-way-1503420104 (Seaview Plaza) — different host property; tick 07:00 enrich WhatsApp +220877134203; tick 2026-10-13 enrich IG/FB/WhatsApp from first-party contact block",
-    "whatsapp": "https://wa.me/220877134203",
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "Not a duplicate of osm-way-1503420104 (Seaview Plaza) — different host property; tick 07:00 enrich WhatsApp +220877134203; tick 2026-10-13 enrich IG/FB/WhatsApp from first-party contact block FIND/enrich 2026-10-18T23",
+    "whatsapp": "+220 877 134 203",
     "instagram": "https://www.instagram.com/kololibeachresort/",
-    "facebook": "https://www.facebook.com/Kololibeachresort"
+    "facebook": "https://www.facebook.com/Kololibeachresort",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "GMB-VEN-002",

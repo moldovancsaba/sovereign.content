@@ -13,7 +13,7 @@
     "geoNote": "Nominatim named POI Cotonou Padel Club on Route des Pêches, Togbin-Fandji",
     "website": "https://cotonoupadelclub.carrd.co/",
     "phone": "+229 01 46 09 95 72",
-    "email": null,
+    "email": "info@cotonou-padelclub.com",
     "venueModel": "outdoors",
     "seasonNote": "Booking via Doinsport / club contact; FIP Bronze Cotónu 2026 host venue",
     "description": "Cotonou Padel Club anchors Benin padel on Route des Pêches in Togbin with a published club phone and booking stack. Nominatim pins the named club on the coastal road. Book ahead for evening sessions and events.",
@@ -22,9 +22,10 @@
     "sourceTypes": "Club site; Doinsport; Nominatim POI",
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-18",
-    "researchNotes": "Evidence: club carrd + Doinsport + phone +229 01 46 09 95 72; street Togbin Route des Pêches; Nominatim named POI. Empty benin-padel-verified.json filled as first BJ seed.; tick 27 social/booking enrich (IG + DoInSport); FIND 2026-10-18T18 WhatsApp/IG confirm from club channels.",
+    "researchNotes": "Evidence: club carrd + Doinsport + phone +229 01 46 09 95 72; street Togbin Route des Pêches; Nominatim named POI. Empty benin-padel-verified.json filled as first BJ seed.; tick 27 social/booking enrich (IG + DoInSport); FIND 2026-10-18T18 WhatsApp/IG confirm from club channels. FIND/enrich 2026-10-18T23",
     "instagram": "https://www.instagram.com/padelclub.ctn/",
     "facebook": "https://www.facebook.com/cotonoupadelclub",
-    "whatsapp": "+229 01 46 09 95 72"
+    "whatsapp": "+229 01 46 09 95 72",
+    "verifiedAt": "2026-10-18"
   }
 ]

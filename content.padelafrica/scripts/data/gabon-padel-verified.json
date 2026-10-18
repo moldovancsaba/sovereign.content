@@ -20,9 +20,11 @@
     "secondarySourceUrl": "https://padellands.com/pistas-de-padel/otros-paises/gabon/",
     "sourceTypes": "Gabon4you; Classico app; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-29",
-    "researchNotes": "Primary phone is the first of two published numbers (+241 77 93 00 60 secondary); Padel Lands reports one court; tick 27 app/Facebook enrich",
-    "facebook": "https://www.facebook.com/leclassico.club"
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "Primary phone is the first of two published numbers (+241 77 93 00 60 secondary); Padel Lands reports one court; tick 27 app/Facebook enrich FIND/enrich 2026-10-18T23",
+    "facebook": "https://www.facebook.com/leclassico.club",
+    "whatsapp": "+241 66 86 77 88",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "GAB-VEN-002",
@@ -45,11 +47,13 @@
     "secondarySourceUrl": "https://padellands.com/pistas-de-padel/otros-paises/gabon/",
     "sourceTypes": "Hôtel du Parc Eden Sport page; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-13",
+    "lastVerifiedUtc": "2026-10-18",
     "instagram": "https://www.instagram.com/eden_club_portgentil/",
     "facebook": "https://www.facebook.com/edenclubpog",
     "email": "info@hotelduparcpog.com",
-    "researchNotes": "tick 2026-10-13 enrich — Instagram @eden_club_portgentil + Facebook edenclubpog from Hôtel du Parc / Annuaire Gabon"
+    "researchNotes": "tick 2026-10-13 enrich — Instagram @eden_club_portgentil + Facebook edenclubpog from Hôtel du Parc / Annuaire Gabon FIND/enrich 2026-10-18T23",
+    "whatsapp": "+241 65 35 42 86",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "GAB-VEN-003",

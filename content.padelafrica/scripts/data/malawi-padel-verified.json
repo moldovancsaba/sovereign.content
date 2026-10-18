@@ -19,10 +19,12 @@
     "secondarySourceUrl": "https://www.pulse-mw.com/",
     "sourceTypes": "Pulse Park contact page (address + phones + email); first-party facilities page (2 padel courts)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-14",
+    "lastVerifiedUtc": "2026-10-18",
     "phone": "+265 999 834 444",
     "email": "info@pulse-mw.com",
-    "researchNotes": "FIND tick 2026-09-26 phone/address backfill from pulse-mw.com/contact.; tick 2026-10-14 email from pulse-mw.com contact"
+    "researchNotes": "FIND tick 2026-09-26 phone/address backfill from pulse-mw.com/contact.; tick 2026-10-14 email from pulse-mw.com contact FIND/enrich 2026-10-18T23",
+    "whatsapp": "+265 999 834 444",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "MWI-VEN-002",
@@ -69,10 +71,11 @@
     "secondarySourceUrl": "https://padelzone-mw.com/",
     "sourceTypes": "Padel Zone first-party site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-29",
+    "lastVerifiedUtc": "2026-10-18",
     "instagram": "https://www.instagram.com/padelzonemw/",
     "whatsapp": "+265 997 639 330",
-    "researchNotes": "FIND tick 24 — under-covered social/contact enrichment (not ZA densify).; tick 27 first-party site enrich"
+    "researchNotes": "FIND tick 24 — under-covered social/contact enrichment (not ZA densify).; tick 27 first-party site enrich FIND/enrich 2026-10-18T23",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "MWI-VEN-004",
@@ -96,8 +99,9 @@
     "secondarySourceUrl": "https://tigersportmw.com/",
     "sourceTypes": "Club site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Evidence: tigersportmw.com activities padel + A3 behind Bishop Mackenzie +265 981150000. Nominatim Bishop Mackenzie pin."
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "Evidence: tigersportmw.com activities padel + A3 behind Bishop Mackenzie +265 981150000. Nominatim Bishop Mackenzie pin. FIND/enrich 2026-10-18T23",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "MWI-VEN-005",

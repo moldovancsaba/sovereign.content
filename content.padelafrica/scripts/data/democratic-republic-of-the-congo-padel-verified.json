@@ -47,9 +47,11 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/sporting-padel-belle-vue/",
     "sourceTypes": "Balle Jaune; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-29",
-    "researchNotes": "Primary phone is the first of two published numbers; tick 27 IG enrich @sporting.padel.bellevue",
-    "instagram": "https://www.instagram.com/sporting.padel.bellevue/"
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "Primary phone is the first of two published numbers; tick 27 IG enrich @sporting.padel.bellevue FIND/enrich 2026-10-18T23",
+    "instagram": "https://www.instagram.com/sporting.padel.bellevue/",
+    "whatsapp": "+243 901 222 223",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "COD-VEN-003",
@@ -121,8 +123,10 @@
     "secondarySourceUrl": "https://www.instagram.com/chl_padel_club/",
     "sourceTypes": "OpenResa; Instagram",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Primary phone is the first of two published numbers"
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "Primary phone is the first of two published numbers FIND/enrich 2026-10-18T23",
+    "whatsapp": "+243 850 212 222",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "COD-VEN-006",

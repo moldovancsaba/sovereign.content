@@ -21,11 +21,12 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/padel-zim-harare/",
     "sourceTypes": "Club site; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "OSM Old Georgians osm-way-443984820 already live",
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "OSM Old Georgians osm-way-443984820 already live FIND/enrich 2026-10-18T23",
     "instagram": "https://www.instagram.com/padelzim/",
     "facebook": "https://www.facebook.com/padelzim",
-    "whatsapp": "+263 78 701 7650"
+    "whatsapp": "+263 78 701 7650",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "ZWE-VEN-002",
@@ -126,8 +127,9 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/padel-on-101/",
     "sourceTypes": "Club site; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "Evidence: club contact page phone +263 771 693 668; booking URL; street on club + Padel Lands. Nominatim street pin Churchill Ave Gunhill."
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "Evidence: club contact page phone +263 771 693 668; booking URL; street on club + Padel Lands. Nominatim street pin Churchill Ave Gunhill. FIND/enrich 2026-10-18T23",
+    "verifiedAt": "2026-10-18"
   },
   {
     "recordId": "ZWE-VEN-006",

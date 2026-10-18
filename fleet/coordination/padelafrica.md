@@ -1915,3 +1915,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **EGY-VEN-019 Red Sea Padel** (Hurghada El-Bahr, phone+WhatsApp+IG @red_sea_padel_) + **EGY-VEN-020 Padel Spot Alexandria** (Abis corridor, Skedda booking+phone+IG @padelspot_eg) created DISCOVERED. Enriched **TUN-VEN-020** 2S Monastir phone/email/website from 2spadel.tn; **EGY-VEN-006** Hurghada Padel WhatsApp align. ET secondary cities → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-18 — padelafrica (tick ~23:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** applied **MUS-VEN-010** About (65→100); scanned 597. **Fair-use:** padel-without-borders pass **117** (403 soft-skip); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **MUS-VEN-009 Moka Rangers Sports Club** (La Promenade, 4 covered courts, phone+email+IG) + **MUS-VEN-010 FitLife Padel** (Vanilla Connect, distinct from ClubHouse) created DISCOVERED. Enrich wave: **TGO-003** email/WhatsApp; **COD-005/002** WhatsApp; **GNQ-001/003** email/site/WhatsApp; **GIN-001** IG/WhatsApp; **MWI-001/003/004** email/WhatsApp; **ZWE-001/005** email; **GAB-001/002** WhatsApp; **KEN-009** email; **BEN-001** email; **GMB-001/RWA-002** WhatsApp digit form. ML/BF → zero-result.
+
+Not claiming PUBLISHED.

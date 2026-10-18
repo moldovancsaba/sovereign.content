@@ -1,39 +1,48 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T22:02Z",
+  "tickUtc": "2026-10-18T23:05Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
-  "qualityAtCeiling": true,
-  "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 595; belowThreshold 0",
+  "qualityAtCeiling": false,
+  "qualityLoopApplied": 1,
+  "qualityNote": "applied MUS-VEN-010 About 65→100; scanned 597; belowThreshold 0 after apply",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 116,
-    "pendingCandidates": 0,
-    "note": "courtpro Senegal harvest 2 (no new promotable / likely skip_duplicate); skip actu-padel thrash; padelrevive DE Senegal hub previously seeded — not re-promoted"
+    "passCount": 117,
+    "pendingCandidates": 1,
+    "note": "padel-without-borders 403 soft-skip; padelrevive DE Senegal hub still needs_verify not promoted; skip actu-padel thrash"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-019",
-      "EGY-VEN-020"
+      "MUS-VEN-009",
+      "MUS-VEN-010"
     ],
     "enriched": [
-      "TUN-VEN-020",
-      "EGY-VEN-006"
+      "TGO-VEN-003",
+      "COD-VEN-005",
+      "GNQ-VEN-001",
+      "GIN-VEN-001",
+      "MWI-VEN-001",
+      "ZWE-VEN-005",
+      "BEN-VEN-001",
+      "RWA-VEN-002"
     ],
     "zeroResult": [
-      "ET Bahir Dar / Mekelle / Hawassa (secondary)",
-      "CourtPro Senegal harvest (no new vs existing SEN fixtures)"
+      "ML Bamako",
+      "BF Ouagadougou/Bobo",
+      "UG/RW densify (already seeded)",
+      "KE coastal / TZ mainland (already seeded)"
     ],
     "skipped": [
       "actu-padel thrash",
-      "known CourtPro Senegal duplicates"
+      "fair-padelrevive DE Senegal hub",
+      "Mindelo tennis-only (no padel evidence)"
     ]
   },
   "hitlBacklog": 0,

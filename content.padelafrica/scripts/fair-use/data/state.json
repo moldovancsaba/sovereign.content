@@ -932,11 +932,11 @@
     "padel-without-borders": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 2,
+      "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-13T19:10:04.653Z",
+      "lastFetchAt": "2026-10-18T23:00:49.207Z",
       "lastError": {
-        "at": "2026-10-13T13:10:23.202Z",
+        "at": "2026-10-18T23:00:49.302Z",
         "url": "https://www.padelwithoutborders.com/",
         "reasonCode": "http_blocked"
       }
@@ -1516,6 +1516,6 @@
       "lastError": null
     }
   },
-  "passCount": 116,
-  "lastPassAt": "2026-10-18T22:00:42.802Z"
+  "passCount": 117,
+  "lastPassAt": "2026-10-18T23:00:49.302Z"
 }
