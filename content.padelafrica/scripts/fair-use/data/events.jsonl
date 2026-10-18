@@ -4225,3 +4225,5 @@
 {"at":"2026-10-18T14:00:52.018Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/tanzania/","harvested":0}
 {"at":"2026-10-18T15:00:43.983Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/senegal/"}
 {"at":"2026-10-18T15:00:44.248Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/senegal/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-10-18T16:00:46.268Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery","url":"https://playtomic.com/clubs"}
+{"at":"2026-10-18T16:00:46.350Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery_harvest","url":"https://playtomic.com/clubs","harvested":0}

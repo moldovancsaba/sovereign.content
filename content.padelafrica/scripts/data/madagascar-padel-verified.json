@@ -75,9 +75,10 @@
     "secondarySourceUrl": "https://lamakoo.app/",
     "sourceTypes": "Padel Lands Ambatobe listing (phone); Lamakoo app contact; Madaonsort Ambatobe listing",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-13",
-    "researchNotes": "FIND tick 2026-09-25. Court count listed as 2 — not asserted. Distinct from MDG-VEN-001 Tropical and MDG-VEN-002 Garden Ivandry.; tick 2026-10-13 enrich Instagram @lamakoopadelcenter_",
-    "instagram": "https://www.instagram.com/lamakoopadelcenter_/"
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 2 — not asserted. Distinct from MDG-VEN-001 Tropical and MDG-VEN-002 Garden Ivandry.; tick 2026-10-13 enrich Instagram @lamakoopadelcenter_ FIND 2026-10-18T16 WhatsApp from published phone.",
+    "instagram": "https://www.instagram.com/lamakoopadelcenter_/",
+    "whatsapp": "+261 34 07 369 94"
   },
   {
     "recordId": "MDG-VEN-004",
@@ -200,7 +201,8 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/padel-club-tamatave/",
     "sourceTypes": "OpenResa; Padel Lands; FMP club space",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Evidence: OpenResa club + Padel Lands phone +261389136442 + locality Toamasina 501. Nominatim Toamasina."
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "Evidence: OpenResa club + Padel Lands phone +261389136442 + locality Toamasina 501. Nominatim Toamasina. FIND 2026-10-18T16 WhatsApp from published phone.",
+    "whatsapp": "+261 38 91 364 42"
   }
 ]

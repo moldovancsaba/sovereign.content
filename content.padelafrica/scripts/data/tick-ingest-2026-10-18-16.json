@@ -1,0 +1,94 @@
+{
+  "appliedAt": "2026-10-18T16:02:17.052Z",
+  "results": [
+    {
+      "recordId": "CIV-VEN-014",
+      "id": "research-civ-ven-014",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-civ-ven-014",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-034",
+      "id": "research-ken-ven-034",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-ken-ven-034",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-003",
+      "id": "research-civ-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      },
+      "note": "whatsapp_phone_aligned"
+    },
+    {
+      "recordId": "CIV-VEN-004",
+      "id": "research-civ-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-006",
+      "id": "research-civ-ven-006",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-006",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-008",
+      "id": "research-civ-ven-008",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-civ-ven-008",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MDG-VEN-003",
+      "id": "research-mdg-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mdg-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MDG-VEN-008",
+      "id": "research-mdg-ven-008",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mdg-ven-008",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

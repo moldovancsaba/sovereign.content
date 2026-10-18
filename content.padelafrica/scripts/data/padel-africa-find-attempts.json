@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T15:01:20.588Z",
+  "updatedAt": "2026-10-18T16:02:13.522Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3659,6 +3659,43 @@
       "outcome": "zero-result",
       "at": "2026-10-18T15:01:20.588Z",
       "note": "sports clubs only — no padel evidence"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan",
+      "outcome": "seeded",
+      "at": "2026-10-18T16:02:13.522Z",
+      "note": "CIV-VEN-014 Le Temple du Padel 2 Plateaux",
+      "recordId": "CIV-VEN-014"
+    },
+    {
+      "cc": "KE",
+      "city": "Tigoni",
+      "outcome": "seeded",
+      "at": "2026-10-18T16:02:13.522Z",
+      "note": "KEN-VEN-034 Destination Padel Playtomic",
+      "recordId": "KEN-VEN-034"
+    },
+    {
+      "cc": "AO",
+      "city": "Lobito",
+      "outcome": "zero-result",
+      "at": "2026-10-18T16:02:13.522Z",
+      "note": "no evidence-grade padel beyond Luanda cluster"
+    },
+    {
+      "cc": "AO",
+      "city": "Huambo",
+      "outcome": "zero-result",
+      "at": "2026-10-18T16:02:13.522Z",
+      "note": "no evidence-grade padel club"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan",
+      "outcome": "enriched",
+      "at": "2026-10-18T16:02:13.522Z",
+      "note": "CIV-003/004/006/008 WhatsApp wave"
     }
   ]
 }

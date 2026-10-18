@@ -29,3 +29,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **CIV-VEN-012 Ivoire Arena** + **CIV-VEN-013 Elite Club Marcory** created DISCOVERED. Enriched **NAM-005** Atlantis Matchpoint/email/street; **ZMB-003** Xtreme first-party. BW Francistown (District 267 opening-only) / UG Jinja / ZM Livingstone → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-18 — padelafrica (tick ~16:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 583). **Fair-use:** playtomic pass **110** (clubs harvest 0); padelrevive DE hub still pending, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **CIV-VEN-014 Le Temple du Padel** + **KEN-VEN-034 Destination Padel Tigoni** created DISCOVERED. Enriched **CIV-003/004/006/008** WhatsApp wave; **MDG-003/008** WhatsApp. AO Lobito/Huambo → zero-result. Sports Garden Zone 4 skipped (name-only on padel.ci).
+
+Not claiming PUBLISHED.

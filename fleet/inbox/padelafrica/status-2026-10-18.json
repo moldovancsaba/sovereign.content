@@ -1,41 +1,44 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T15:01Z",
+  "tickUtc": "2026-10-18T16:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 581; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 583; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 109,
+    "passCount": 110,
     "pendingCandidates": 1,
-    "note": "ballejaune Senegal 404 soft-skip; padelrevive DE hub still pending not promoted"
+    "note": "playtomic clubs harvest 0; padelrevive DE hub still pending not promoted"
   },
   "find": {
     "seeded": [
-      "CIV-VEN-012",
-      "CIV-VEN-013"
+      "CIV-VEN-014",
+      "KEN-VEN-034"
     ],
     "enriched": [
-      "NAM-VEN-005",
-      "ZMB-VEN-003"
+      "CIV-VEN-003",
+      "CIV-VEN-004",
+      "CIV-VEN-006",
+      "CIV-VEN-008",
+      "MDG-VEN-003",
+      "MDG-VEN-008"
     ],
     "zeroResult": [
-      "BW Francistown",
-      "UG Jinja",
-      "ZM Livingstone"
+      "AO Lobito",
+      "AO Huambo"
     ],
     "skipped": [
       "actu-padel thrash",
-      "District 267 Q4 2026 opening",
-      "fair-padelrevive DE Senegal hub"
+      "fair-padelrevive DE Senegal hub",
+      "Sports Garden Zone 4 name-only"
     ]
   },
   "hitlBacklog": 0,

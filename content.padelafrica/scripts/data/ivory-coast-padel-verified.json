@@ -73,10 +73,11 @@
     "secondarySourceUrl": "https://www.padelfip.com/events/fip-silver-ivory-coast-ii-2025/",
     "sourceTypes": "Padel Magic Club site (phone+hours); FIP Silver Ivory Coast venue card (Central Tennis Club Cocody address)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-13",
-    "researchNotes": "FIND tick 2026-09-25 Abidjan deepen. Court count from operator page not asserted in description.; tick 2026-10-13 enrich IG/FB from first-party footer",
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "FIND tick 2026-09-25 Abidjan deepen. Court count from operator page not asserted in description.; tick 2026-10-13 enrich IG/FB from first-party footer FIND 2026-10-18T16 WhatsApp from published phone.",
     "instagram": "https://www.instagram.com/padelmagic.ci/",
-    "facebook": "https://www.facebook.com/padelmagic.ci"
+    "facebook": "https://www.facebook.com/padelmagic.ci",
+    "whatsapp": "+225 07 67 076 755"
   },
   {
     "recordId": "CIV-VEN-004",
@@ -99,8 +100,9 @@
     "secondarySourceUrl": "https://ballejaune.com/club/abidjanpadel/contact",
     "sourceTypes": "Doinsport Abidjan Padel booking; Ballejaune contact (Laguna Golf + phone); map listings",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-14",
-    "researchNotes": "FIND tick 2026-09-25. Distinct from CIV-VEN-001 Padelta Cocody Danga and CIV-VEN-003 Magic Club.; tick 2026-10-14 enrich first-party Doinsport booking URL (IG/FB still unpublished)"
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "FIND tick 2026-09-25. Distinct from CIV-VEN-001 Padelta Cocody Danga and CIV-VEN-003 Magic Club.; tick 2026-10-14 enrich first-party Doinsport booking URL (IG/FB still unpublished) FIND 2026-10-18T16 WhatsApp from published phone.",
+    "whatsapp": "+225 07 59 23 00 00"
   },
   {
     "recordId": "CIV-VEN-005",
@@ -141,14 +143,15 @@
     "website": "https://padelzone.ci/",
     "phone": "+225 07 08 23 21 21",
     "venueModel": "own_premises",
-    "seasonNote": "Hours via club; book by phone or site.",
+    "seasonNote": "Hours via club; book by phone or site. AfricaBZ also lists landline +225 27 21 52 79 63; mobile retained as primary.",
     "description": "Padel Zone Abidjan is a Zone 4 Marcory padel club on Rue du Docteur Blanchard with a published phone on BalleJaune and first-party site padelzone.ci. A clear recommendation when you want Zone 4 courts beyond District Padel on Boulevard de Marseille. Call or book via the club site ahead.",
     "primarySourceUrl": "https://ballejaune.com/club/padelzoneci/contact",
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/cote-divoire/",
     "sourceTypes": "BalleJaune Padel Zone contact (Dr Blanchard + phone + site); Padel Lands Côte d'Ivoire directory row",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. BalleJaune shows 708232121; Padel Lands also lists landline +225 27 21 52 7963 — mobile retained as primary. Court count not asserted. Distinct from CIV-VEN-005 District."
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "FIND tick 2026-09-25. BalleJaune shows 708232121; Padel Lands also lists landline +225 27 21 52 7963 — mobile retained as primary. Court count not asserted. Distinct from CIV-VEN-005 District. FIND 2026-10-18T16 WhatsApp from mobile; BalleJaune contact corroborates Zone 4 Blanchard.",
+    "whatsapp": "+225 07 08 23 21 21"
   },
   {
     "recordId": "CIV-VEN-007",
@@ -194,9 +197,10 @@
     "secondarySourceUrl": "https://www.goafricaonline.com/ci/1200791-padel-jardins-centre-loisirs-abidjan-cote-ivoire",
     "sourceTypes": "Padel Des Jardins booking site; GoAfricaOnline Deux-Plateaux Vallon + phone",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-14",
-    "researchNotes": "Also listed +225 07 10 77 39 16 on Padel Lands — primary +225 07 11 46 75 65 from GoAfricaOnline; tick 2026-10-14 enrich first-party booking URL (IG/FB still unpublished)",
-    "website": "https://padeldesjardins.com/"
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "Also listed +225 07 10 77 39 16 on Padel Lands — primary +225 07 11 46 75 65 from GoAfricaOnline; tick 2026-10-14 enrich first-party booking URL (IG/FB still unpublished) FIND 2026-10-18T16 WhatsApp from published phone.",
+    "website": "https://padeldesjardins.com/",
+    "whatsapp": "+225 07 11 46 75 65"
   },
   {
     "recordId": "CIV-VEN-009",
@@ -328,5 +332,31 @@
     "lastVerifiedUtc": "2026-10-18",
     "verifiedAt": "2026-10-18",
     "researchNotes": "FIND tick 2026-10-18T15. Alternate Matchpoint email Eliteclub.ci@gmail.com noted; primary info@eliteclubci.com retained from operator site."
+  },
+  {
+    "recordId": "CIV-VEN-014",
+    "name": "Le Temple du Padel",
+    "city": "Abidjan",
+    "region": "Cocody / 2 Plateaux",
+    "countryCode": "CI",
+    "line1": "2 Plateaux, Rue des Jardins / Zone 4 Rue Pierre et Marie Curie",
+    "lat": 5.3696652,
+    "lng": -3.991954,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "2 Plateaux / Cocody locality pin — dual directory streets (Rue des Jardins + Zone 4 Curie) not rooftop-resolved",
+    "phone": "+225 05 56 50 50 12",
+    "whatsapp": "+225 05 56 50 50 12",
+    "instagram": "https://www.instagram.com/letempledupadel/",
+    "venueModel": "own_premises",
+    "seasonNote": "Book via LE TEMPLE DU PADEL app (LiveXperience); hours not independently printed.",
+    "description": "Le Temple du Padel is a named Abidjan club spanning 2 Plateaux and Zone 4 listings, with a published phone, Instagram @letempledupadel, and a dedicated booking app. A clear recommendation when you want bookable courts beyond Padel des Jardins in the 2 Plateaux cluster. Message WhatsApp or use the club app ahead.",
+    "primarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/cote-divoire/",
+    "secondarySourceUrl": "https://www.abidjanpadel.com/",
+    "sourceTypes": "Padel Lands Côte d'Ivoire card (dual address+phone); Smatch partner list; Instagram @letempledupadel; LiveXperience club app",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-18",
+    "verifiedAt": "2026-10-18",
+    "researchNotes": "FIND tick 2026-10-18T16. Phone +225 0556505012 normalized. Locality pin until a single street geocode is confirmed."
   }
 ]
