@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T09:02:10.366803+00:00",
+  "updatedAt": "2026-10-18T10:01:46.549482+00:00",
   "attempts": [
     {
       "cc": "CF",
@@ -3344,6 +3344,83 @@
       "city": "Accra",
       "outcome": "skipped_duplicate",
       "note": "CourtPro the-padel-club-ghana = GHA-VEN-002"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "AO",
+      "city": "Luanda",
+      "outcome": "seeded",
+      "note": "Academia Live Active Nova Vida Playtomic + first-party"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "ZW",
+      "city": "Harare",
+      "outcome": "enriched",
+      "note": "Padel Zim Hub/Highlands IG/FB/WhatsApp"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "ZW",
+      "city": "Bulawayo",
+      "outcome": "enriched",
+      "note": "Padel Zim Bulawayo WhatsApp + brand social"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "DZ",
+      "city": "Oran",
+      "outcome": "enriched",
+      "note": "Central + Vibora WhatsApp"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "SZ",
+      "city": "Malkerns",
+      "outcome": "enriched",
+      "note": "LivPadel WhatsApp"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "DJ",
+      "city": "Djibouti",
+      "outcome": "enriched",
+      "note": "Djibouti Padel One WhatsApp"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "MW",
+      "city": "Blantyre",
+      "outcome": "enriched",
+      "note": "Hashtag Fitness first-party phone/email/street"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "TZ",
+      "city": "Dodoma",
+      "outcome": "zero-result",
+      "note": "No evidence-grade padel club beyond Dar/Arusha/Mwanza/Zanzibar"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "CV",
+      "city": "Mindelo",
+      "outcome": "zero-result",
+      "note": "Job ads were Portugal Vila do Conde Mindelo — not Cabo Verde"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "SZ",
+      "city": "Mbabane",
+      "outcome": "zero-result",
+      "note": "Still only LivPadel Malkerns evidence-grade"
+    },
+    {
+      "at": "2026-10-18T10:01:46.549482+00:00",
+      "cc": "GH",
+      "city": "Accra",
+      "outcome": "skipped_duplicate",
+      "note": "CourtPro candidate fair-courtpro-the-padel-club-ghana = GHA-VEN-002"
     }
   ]
 }

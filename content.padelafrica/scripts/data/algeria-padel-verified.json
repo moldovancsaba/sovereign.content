@@ -46,7 +46,8 @@
     "sourceTypes": "Official website; Google Business/Maps; directory; official social",
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-22",
-    "dataConflicts": "Court count is 9 in Padel Lands and 10 in official promotional material — count omitted from About"
+    "dataConflicts": "Court count is 9 in Padel Lands and 10 in official promotional material — count omitted from About",
+    "whatsapp": "+213 770 05 95 21"
   },
   {
     "recordId": "ALG-VEN-003",
@@ -68,7 +69,8 @@
     "secondarySourceUrl": "https://www.padelfip.com/federation/algeria/",
     "sourceTypes": "Google Business/Maps; official social; federation cross-check",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-09-22",
+    "whatsapp": "+213 550 33 23 17"
   },
   {
     "recordId": "ALG-VEN-004",

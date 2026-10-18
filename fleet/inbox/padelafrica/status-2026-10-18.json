@@ -1,37 +1,40 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T09:02Z",
+  "tickUtc": "2026-10-18T10:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 571",
+  "qualityNote": "ceiling; scanned 572",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 103,
+    "passCount": 104,
     "pendingCandidates": 0
   },
   "find": {
     "seeded": [
-      "LBY-VEN-004",
-      "ZMB-VEN-014"
+      "AGO-VEN-019"
     ],
     "enriched": [
-      "LBY-VEN-001",
-      "MOZ-VEN-004",
-      "COD-VEN-001",
-      "UGA-VEN-001",
-      "UGA-VEN-002",
-      "RWA-VEN-001"
+      "ZWE-VEN-001",
+      "ZWE-VEN-002",
+      "ZWE-VEN-003",
+      "ALG-VEN-002",
+      "ALG-VEN-003",
+      "SWZ-VEN-001",
+      "DJI-VEN-001",
+      "MWI-VEN-005"
     ],
     "zeroResult": [
-      "ZM Ndola"
+      "TZ Dodoma",
+      "CV Mindelo",
+      "SZ Mbabane"
     ],
     "skipped": [
       "actu-padel thrash",
@@ -40,5 +43,5 @@
   },
   "hitlBacklog": 0,
   "claimedPublished": false,
-  "note": "Prior 22:00 SC commit still unpushed (GITHUB_TOKEN empty). Not claiming PUBLISHED."
+  "note": "SC main still ahead locally (22:00+09:00+this tick) — GITHUB_TOKEN empty. Not claiming PUBLISHED."
 }

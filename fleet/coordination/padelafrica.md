@@ -1811,3 +1811,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **LBY-VEN-004 Padel Park Benghazi** + **ZMB-VEN-014 The Padel Hub** (Roma) created DISCOVERED. Enriched **LBY-001** IG/WhatsApp, **MOZ-004** Time2padel IG/WhatsApp, **COD-001** Blue Padel create+WhatsApp, **UGA-001/002** WhatsApp, **RWA-001** Bounce booking WhatsApp. ZM Ndola → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-18 — padelafrica (tick ~10:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 572). **Fair-use:** CourtPro detail pass **104** → Ghana candidate **skipped_duplicate** (GHA-VEN-002); pending actionable 0.
+
+**FIND / ingest:** **AGO-VEN-019 Academia Live Active Padel** (Nova Vida) created DISCOVERED. Contact enrich **ZWE-001/002/003** Padel Zim IG/FB/WhatsApp, **ALG-002/003** WhatsApp, **SWZ-001**, **DJI-001**, **MWI-005** Hashtag Fitness first-party. TZ Dodoma / CV Mindelo / SZ Mbabane → zero-result.
+
+Not claiming PUBLISHED.

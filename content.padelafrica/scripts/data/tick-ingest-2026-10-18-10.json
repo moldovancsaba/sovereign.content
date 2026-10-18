@@ -1,0 +1,104 @@
+{
+  "appliedAt": "2026-10-18T10:01:58.459Z",
+  "results": [
+    {
+      "recordId": "AGO-VEN-019",
+      "id": "research-ago-ven-019",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-ago-ven-019",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZWE-VEN-001",
+      "id": "research-zwe-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zwe-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ZWE-VEN-002",
+      "id": "research-zwe-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zwe-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ZWE-VEN-003",
+      "id": "research-zwe-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zwe-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ALG-VEN-002",
+      "id": "research-alg-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-alg-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ALG-VEN-003",
+      "id": "research-alg-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-alg-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "SWZ-VEN-001",
+      "id": "research-swz-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-swz-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "DJI-VEN-001",
+      "id": "research-dji-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-dji-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MWI-VEN-005",
+      "id": "research-mwi-ven-005",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mwi-ven-005",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

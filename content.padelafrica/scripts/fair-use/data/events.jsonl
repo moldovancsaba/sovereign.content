@@ -4213,3 +4213,5 @@
 {"at":"2026-10-17T22:02:15.932Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}
 {"at":"2026-10-18T09:00:40.738Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery","url":"https://www.courtpro.com/clubs/ghana"}
 {"at":"2026-10-18T09:00:41.230Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery_harvest","url":"https://www.courtpro.com/clubs/ghana","harvested":1}
+{"at":"2026-10-18T10:00:31.453Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/ghana/accra/the-padel-club-ghana"}
+{"at":"2026-10-18T10:00:31.661Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/ghana/accra/the-padel-club-ghana","candidateId":"fair-courtpro-the-padel-club-ghana","reasonCode":"seeded"}

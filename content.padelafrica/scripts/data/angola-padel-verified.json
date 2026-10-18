@@ -431,5 +431,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — distinct from AGO-VEN-005 KOOL PADEL; Instagram handle from TiePadel branding @padelpatriota."
+  },
+  {
+    "recordId": "AGO-VEN-019",
+    "name": "Academia Live Active Padel",
+    "city": "Luanda",
+    "region": "Nova Vida",
+    "countryCode": "AO",
+    "line1": "Rua 35, Nova Vida",
+    "lat": -8.901319,
+    "lng": 13.225313,
+    "geoPrecision": "street",
+    "geoSource": "operator_maps",
+    "geoNote": "Place listing pin 36XG+F4G / R. 35 Nova Vida — aligns with first-party Rua 35 address",
+    "website": "https://www.liveactive.ao/",
+    "phone": "+244 926 838 585",
+    "whatsapp": "+244 921 637 902",
+    "instagram": "https://www.instagram.com/liveactive_academia/",
+    "facebook": null,
+    "email": "padel@liveactive.ao",
+    "venueModel": "own_premises",
+    "seasonNote": "Padel activity opened Oct 2026 per club site; Playtomic booking hours Mon–Fri 07:00–23:00, Sat–Sun 08:00–23:00. General info line +244 921 637 902.",
+    "description": "Academia Live Active brings bookable padel courts to Rua 35 in Nova Vida, Luanda — a first-party association venue with Playtomic reservations, a padel school, and published padel WhatsApp/email distinct from older Luanda clubs. A clear recommendation when you want a Nova Vida pin with modern court booking rather than only the coastal and Talatona clusters. Reserve on Playtomic or message the padel line before peak evening slots.",
+    "primarySourceUrl": "https://www.liveactive.ao/",
+    "secondarySourceUrl": "https://playtomic.com/clubs/padel-live-active",
+    "sourceTypes": "First-party liveactive.ao (address, padel phone/email/WhatsApp, opening narrative); Playtomic club card (courts, hours, Rua 35 Nova Vida).",
+    "verifiedAt": "2026-10-18"
   }
 ]
