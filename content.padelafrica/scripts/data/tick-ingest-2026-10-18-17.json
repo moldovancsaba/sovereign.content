@@ -1,0 +1,27 @@
+{
+  "appliedAt": "2026-10-18T17:02:17.850Z",
+  "results": [
+    {
+      "recordId": "CIV-VEN-015",
+      "id": "research-civ-ven-015",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-civ-ven-015",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "KEN-VEN-035",
+      "id": "research-ken-ven-035",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-ken-ven-035",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    }
+  ]
+}
