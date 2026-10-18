@@ -920,12 +920,12 @@
     "ballejaune": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-14T02:00:46.643Z",
+      "lastFetchAt": "2026-10-18T15:00:43.983Z",
       "lastError": {
-        "at": "2026-10-13T19:04:42.600Z",
-        "url": "https://ballejaune.com/gabon/",
+        "at": "2026-10-18T15:00:44.248Z",
+        "url": "https://ballejaune.com/senegal/",
         "reasonCode": "fetch_error"
       }
     },
@@ -1513,6 +1513,6 @@
       "lastError": null
     }
   },
-  "passCount": 108,
-  "lastPassAt": "2026-10-18T14:00:52.020Z"
+  "passCount": 109,
+  "lastPassAt": "2026-10-18T15:00:44.248Z"
 }

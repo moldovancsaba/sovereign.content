@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T14:01:56.455Z",
+  "updatedAt": "2026-10-18T15:01:20.588Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3608,6 +3608,57 @@
       "outcome": "enriched",
       "at": "2026-10-18T14:01:56.455Z",
       "note": "GHA-010 Boho phone/street"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan",
+      "outcome": "seeded",
+      "at": "2026-10-18T15:01:20.588Z",
+      "note": "CIV-VEN-012 Ivoire Arena Zone 4",
+      "recordId": "CIV-VEN-012"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan",
+      "outcome": "seeded",
+      "at": "2026-10-18T15:01:20.588Z",
+      "note": "CIV-VEN-013 Elite Club Marcory Cap Sud",
+      "recordId": "CIV-VEN-013"
+    },
+    {
+      "cc": "NA",
+      "city": "Walvis Bay",
+      "outcome": "enriched",
+      "at": "2026-10-18T15:01:20.588Z",
+      "note": "NAM-005 Atlantis Matchpoint email street"
+    },
+    {
+      "cc": "ZM",
+      "city": "Lusaka",
+      "outcome": "enriched",
+      "at": "2026-10-18T15:01:20.588Z",
+      "note": "ZMB-003 Xtreme first-party"
+    },
+    {
+      "cc": "BW",
+      "city": "Francistown",
+      "outcome": "zero-result",
+      "at": "2026-10-18T15:01:20.588Z",
+      "note": "District 267 Q4 2026 opening only — Gaborone pitch"
+    },
+    {
+      "cc": "UG",
+      "city": "Jinja",
+      "outcome": "zero-result",
+      "at": "2026-10-18T15:01:20.588Z",
+      "note": "no evidence-grade padel club"
+    },
+    {
+      "cc": "ZM",
+      "city": "Livingstone",
+      "outcome": "zero-result",
+      "at": "2026-10-18T15:01:20.588Z",
+      "note": "sports clubs only — no padel evidence"
     }
   ]
 }

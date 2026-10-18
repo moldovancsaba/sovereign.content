@@ -1,42 +1,40 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T14:02Z",
+  "tickUtc": "2026-10-18T15:01Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 579; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 581; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 108,
+    "passCount": 109,
     "pendingCandidates": 1,
-    "note": "padellands Tanzania harvest 0; padelrevive DE hub still pending not promoted"
+    "note": "ballejaune Senegal 404 soft-skip; padelrevive DE hub still pending not promoted"
   },
   "find": {
     "seeded": [
-      "GHA-VEN-012",
-      "CIV-VEN-011"
+      "CIV-VEN-012",
+      "CIV-VEN-013"
     ],
     "enriched": [
-      "GHA-VEN-010",
-      "CIV-VEN-007",
-      "CIV-VEN-009",
-      "NGA-VEN-002",
-      "NGA-VEN-003"
+      "NAM-VEN-005",
+      "ZMB-VEN-003"
     ],
     "zeroResult": [
-      "ET Bahir Dar",
-      "KE Kisumu"
+      "BW Francistown",
+      "UG Jinja",
+      "ZM Livingstone"
     ],
     "skipped": [
       "actu-padel thrash",
-      "Padel House Abidjan ouverture prochaine",
+      "District 267 Q4 2026 opening",
       "fair-padelrevive DE Senegal hub"
     ]
   },
