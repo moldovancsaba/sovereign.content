@@ -1,41 +1,41 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T20:01Z",
+  "tickUtc": "2026-10-18T21:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 592; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 593; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 114,
+    "passCount": 115,
     "pendingCandidates": 1,
-    "note": "analistas harvest 0; padelrevive DE Senegal hub still needs_verify not promoted"
+    "note": "matchpoint fetch_error soft-skip; padelrevive DE Senegal hub still needs_verify not promoted"
   },
   "find": {
     "seeded": [
-      "MOZ-VEN-008",
-      "MDG-VEN-009",
-      "MDG-VEN-010"
+      "TZA-VEN-012"
     ],
     "enriched": [
-      "MDG-VEN-001",
-      "MRT-VEN-001"
+      "AGO-VEN-014",
+      "GHA-VEN-007",
+      "GHA-VEN-009"
     ],
     "zeroResult": [
-      "LR Monrovia Padel House (launching-only / no contact)"
+      "ZM Ndola/Kitwe/Livingstone",
+      "GH Kumasi/Takoradi/Cape Coast",
+      "AO Huambo/Lobito/Benguela"
     ],
     "skipped": [
       "actu-padel thrash",
       "fair-padelrevive DE Senegal hub",
-      "Just Play Matola (no phone)",
-      "ATEMA (team/club ambiguity vs Urban Futsal host)"
+      "Padel SMASH Maputo (IG only / no phone)"
     ]
   },
   "hitlBacklog": 0,

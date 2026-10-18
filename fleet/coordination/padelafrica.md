@@ -1900,3 +1900,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-18 — padelafrica (tick ~21:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 593). **Fair-use:** matchpoint pass **115** (fetch_error soft-skip); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **TZA-VEN-012 Simba Padel Zanzibar** (Nungwi/Jomba, first-party+WhatsApp +34 published) created DISCOVERED. Enriched **AGO-014** Max Padel phone/email/TieSports; **GHA-007** Mamba Club phone/IG; **GHA-009** Padel Zone phone/street. ZM Copperbelt / GH secondary cities / AO Huambo-Lobito → zero-result. Padel SMASH Maputo skipped (IG-only).
+
+Not claiming PUBLISHED.
+

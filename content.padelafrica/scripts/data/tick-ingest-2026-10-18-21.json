@@ -1,0 +1,49 @@
+{
+  "appliedAt": "2026-10-18T21:01:55.360Z",
+  "results": [
+    {
+      "recordId": "TZA-VEN-012",
+      "id": "research-tza-ven-012",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-tza-ven-012",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "AGO-VEN-014",
+      "id": "research-ago-ven-014",
+      "ok": true,
+      "mode": "create_fallback",
+      "res": {
+        "cardId": "research-ago-ven-014",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "GHA-VEN-007",
+      "id": "research-gha-ven-007",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gha-ven-007",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GHA-VEN-009",
+      "id": "research-gha-ven-009",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gha-ven-009",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

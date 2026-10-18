@@ -272,5 +272,32 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-10-13",
     "researchNotes": "FIND tick 2026-10-13 — under-covered Mwanza densify; padelrevive explicitly separates this venue from Ryan's Bay TZA-VEN-008."
+  },
+  {
+    "recordId": "TZA-VEN-012",
+    "name": "Simba Padel Zanzibar",
+    "city": "Nungwi",
+    "region": "Zanzibar North",
+    "countryCode": "TZ",
+    "line1": "Jomba Road, near Nungwi / Kendwa (1 min from Nungwi Airport)",
+    "lat": -5.752121,
+    "lng": 39.310121,
+    "geoPrecision": "locality",
+    "geoSource": "place_card",
+    "geoNote": "Simba Padel place card pin on Jomba Road / Kilindi — not rooftop-surveyed",
+    "website": "https://simbapadel.com/",
+    "phone": "+34 676 519 443",
+    "whatsapp": "+34 676 519 443",
+    "instagram": "https://www.instagram.com/simbapadelzanzibar/",
+    "venueModel": "own_premises",
+    "seasonNote": "Two courts near Nungwi; WhatsApp booking published on Padel Lands. First-party site still carries a coming-soon banner — confirm live slots via WhatsApp before travel.",
+    "description": "Simba Padel Zanzibar puts two courts on Jomba Road near Nungwi Airport — a clear north-coast densify stop beyond The Hub Bwejuu, Zanzibar Padel Kiwengwa, and Karibu Shangani, with first-party site and WhatsApp booking. Message WhatsApp ahead to confirm open hours.",
+    "primarySourceUrl": "https://simbapadel.com/",
+    "secondarySourceUrl": "https://padellands.com/pistas-de-padel/simba-padel-zanzibar/",
+    "sourceTypes": "simbapadel.com; Padel Lands Simba card (Jomba+WhatsApp +34); place card coords; Instagram @simbapadelzanzibar",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-18",
+    "verifiedAt": "2026-10-18",
+    "researchNotes": "FIND tick 2026-10-18T21. Spanish WhatsApp is the published club line (not invented). Website is first-party (not Instagram)."
   }
 ]
