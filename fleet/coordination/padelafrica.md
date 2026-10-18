@@ -1884,3 +1884,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-18 — padelafrica (tick ~19:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 589). **Fair-use:** padelafrica-apc pass **113** (tournaments harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **MOZ-VEN-006 Elite Padel Club Maputo** (Glória Mall, TieSports+phone) + **MOZ-VEN-007 Club Padel Moz** (Tete — first inland seed, TieSports+IG @clubpadelmoz) created DISCOVERED. Enriched **MOZ-005** Play Padel phone/email/street; **MOZ-001** Gayle WhatsApp/IG; **SLE-002** Royal Fitness IG. Skipped Tanzanite (no padel in live booking UI), Elite Matola (+351-only), A1 Matola (no phone). BF Ouagadougou → zero-result.
+
+Not claiming PUBLISHED.
+

@@ -1,43 +1,42 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T18:01Z",
+  "tickUtc": "2026-10-18T19:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
-  "qualityAtCeiling": false,
-  "qualityLoopApplied": 1,
-  "qualityNote": "applied KEN-VEN-037 About compose 70→90; scanned 587; belowThreshold 0 after apply",
+  "qualityAtCeiling": true,
+  "qualityLoopApplied": 0,
+  "qualityNote": "ceiling; scanned 589; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 112,
+    "passCount": 113,
     "pendingCandidates": 1,
-    "note": "africapadel harvest 0; padelrevive DE Senegal hub still needs_verify not promoted"
+    "note": "padelafrica-apc tournaments harvest 0; padelrevive DE Senegal hub still needs_verify not promoted"
   },
   "find": {
     "seeded": [
-      "KEN-VEN-036",
-      "KEN-VEN-037"
+      "MOZ-VEN-006",
+      "MOZ-VEN-007"
     ],
     "enriched": [
-      "KEN-VEN-001",
-      "KEN-VEN-004",
-      "KEN-VEN-006",
-      "KEN-VEN-016",
-      "KEN-VEN-018",
-      "KEN-VEN-032",
-      "BEN-VEN-001"
+      "MOZ-VEN-005",
+      "MOZ-VEN-001",
+      "SLE-VEN-002"
     ],
     "zeroResult": [
-      "Arena Padel Nairobi (no phone/IG/booking)"
+      "BF Ouagadougou (essay-only / no club contact)"
     ],
     "skipped": [
       "actu-padel thrash",
-      "fair-padelrevive DE Senegal hub"
+      "fair-padelrevive DE Senegal hub",
+      "Tanzanite Sports Hub (padel not in live booking sports)",
+      "Elite Matola (+351 phone only / no street)",
+      "A1 Matola (no phone)"
     ]
   },
   "hitlBacklog": 0,

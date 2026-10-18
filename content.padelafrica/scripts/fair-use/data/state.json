@@ -1507,12 +1507,12 @@
     "padelafrica-apc": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-13T19:08:33.722Z",
+      "lastFetchAt": "2026-10-18T19:00:25.128Z",
       "lastError": null
     }
   },
-  "passCount": 112,
-  "lastPassAt": "2026-10-18T18:00:29.493Z"
+  "passCount": 113,
+  "lastPassAt": "2026-10-18T19:00:25.261Z"
 }
