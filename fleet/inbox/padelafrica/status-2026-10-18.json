@@ -1,0 +1,44 @@
+{
+  "client": "padelafrica",
+  "date": "2026-10-18",
+  "tickUtc": "2026-10-18T09:02Z",
+  "timer": "padel-find-tick",
+  "writesPath": "ingest_only",
+  "ingestOnlyReality": true,
+  "qualityAtCeiling": true,
+  "qualityLoopApplied": 0,
+  "qualityNote": "ceiling; scanned 571",
+  "pipelineFeed": {
+    "batches": 2,
+    "ok": 60,
+    "total": 60
+  },
+  "fairUse": {
+    "passCount": 103,
+    "pendingCandidates": 0
+  },
+  "find": {
+    "seeded": [
+      "LBY-VEN-004",
+      "ZMB-VEN-014"
+    ],
+    "enriched": [
+      "LBY-VEN-001",
+      "MOZ-VEN-004",
+      "COD-VEN-001",
+      "UGA-VEN-001",
+      "UGA-VEN-002",
+      "RWA-VEN-001"
+    ],
+    "zeroResult": [
+      "ZM Ndola"
+    ],
+    "skipped": [
+      "actu-padel thrash",
+      "CourtPro GHA the-padel-club-ghana duplicate GHA-VEN-002"
+    ]
+  },
+  "hitlBacklog": 0,
+  "claimedPublished": false,
+  "note": "Prior 22:00 SC commit still unpushed (GITHUB_TOKEN empty). Not claiming PUBLISHED."
+}

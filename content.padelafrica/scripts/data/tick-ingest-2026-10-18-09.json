@@ -1,0 +1,94 @@
+{
+  "appliedAt": "2026-10-18T09:02:28.313Z",
+  "results": [
+    {
+      "recordId": "LBY-VEN-004",
+      "id": "research-lby-ven-004",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-lby-ven-004",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZMB-VEN-014",
+      "id": "research-zmb-ven-014",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zmb-ven-014",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "LBY-VEN-001",
+      "id": "research-lby-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-lby-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MOZ-VEN-004",
+      "id": "research-moz-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-moz-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "COD-VEN-001",
+      "id": "research-cod-ven-001",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-cod-ven-001",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "UGA-VEN-001",
+      "id": "research-uga-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-uga-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "UGA-VEN-002",
+      "id": "research-uga-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-uga-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "RWA-VEN-001",
+      "id": "research-rwa-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-rwa-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ],
+  "codCreateAt": "2026-10-18T09:02:40.442Z"
+}

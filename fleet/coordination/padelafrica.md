@@ -1803,3 +1803,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** Seeded/reprocessed **MAR-VEN-049 The Naw Club**, **MAR-VEN-050 Golden Padel Club Tangier** (create hit existing PUBLISHED → `reprocess:true`), **TUN-VEN-033 Re-serve Padel**, **EGY-VEN-018 SR Padel Al Zohour**. Enriched **TUN-VEN-007**, **EGY-VEN-001/002**. LR Monrovia → zero-result (launching-only).
 
 Not claiming PUBLISHED.
+
+### 2026-10-18 — padelafrica (tick ~09:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 571). **Fair-use:** bounded CourtPro pass **103** (Ghana harvest → **skipped_duplicate** GHA-VEN-002); pending actionable 0; skip actu-padel thrash.
+
+**FIND / ingest:** **LBY-VEN-004 Padel Park Benghazi** + **ZMB-VEN-014 The Padel Hub** (Roma) created DISCOVERED. Enriched **LBY-001** IG/WhatsApp, **MOZ-004** Time2padel IG/WhatsApp, **COD-001** Blue Padel create+WhatsApp, **UGA-001/002** WhatsApp, **RWA-001** Bounce booking WhatsApp. ZM Ndola → zero-result.
+
+Not claiming PUBLISHED.

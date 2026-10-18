@@ -20,7 +20,9 @@
     "secondarySourceUrl": "https://padelhouse.ly/",
     "sourceTypes": "Padel House first-party site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-09-22",
+    "whatsapp": "+218 92 003 4333",
+    "instagram": "https://www.instagram.com/padelhouse.ly/"
   },
   {
     "recordId": "LBY-VEN-002",
@@ -67,5 +69,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-23",
     "researchNotes": "FIND tick 2026-09-23. Phone +218 91-1909494 from Padel Lands; App Store listing confirms padel/padbol court booking for Mendoza Club."
+  },
+  {
+    "recordId": "LBY-VEN-004",
+    "name": "Padel Park Benghazi",
+    "city": "Benghazi",
+    "region": "Al-Qawasha",
+    "countryCode": "LY",
+    "line1": "Near Al-Qawasha, Tripoli Road",
+    "lat": 32.027878,
+    "lng": 20.054543,
+    "geoPrecision": "locality",
+    "geoSource": "operator_maps",
+    "geoNote": "Operator-published Google Maps pin q=32.027878,20.054543 (Al-Qawasha / Tripoli Road) — not rooftop-surveyed",
+    "website": null,
+    "phone": "+218 94 300 7007",
+    "whatsapp": "+218 94 300 7007",
+    "instagram": null,
+    "facebook": null,
+    "email": null,
+    "venueModel": "own_premises",
+    "seasonNote": "Separate women’s booking line +218 92 900 0304 published on operator posts; men’s/general +218 94 300 7007. Hours not listed — message ahead.",
+    "description": "Padel Park Benghazi is a named padel destination in Al-Qawasha on the Tripoli Road — the first evidence-grade Benghazi seed beyond the Tripoli cluster, with published coaching slots and separate women’s and men’s booking lines. A clear recommendation when you want a coastal Cyrenaica padel pin rather than only Tripoli venues. WhatsApp or call ahead; no first-party website published yet.",
+    "primarySourceUrl": "https://www.localgymsandfitness.com/LY/Benghazi/1271082966088456/Padel-Park-%D8%A8%D8%A7%D8%AF%D9%84-%D8%A8%D8%A7%D8%B1%D9%83",
+    "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/libya-en/",
+    "sourceTypes": "Operator Facebook/local listing with Benghazi Al-Qawasha address, dual booking phones, and Google Maps pin; Libya padel directory context for Tripoli cluster contrast.",
+    "verifiedAt": "2026-10-18"
   }
 ]

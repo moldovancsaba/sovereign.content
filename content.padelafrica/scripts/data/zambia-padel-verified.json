@@ -14,7 +14,7 @@
     "phone": "+260 772 825 738",
     "email": "deucepadelclub@gmail.com",
     "venueModel": "outdoors",
-    "seasonNote": "Daily 05:00\u201300:00",
+    "seasonNote": "Daily 05:00–00:00",
     "description": "Deuce Padel Club offers two courts on Mumana Road in Olympia / Roma, Lusaka, with online booking and published phone and email. A clear recommendation when you want named Zambia padel with long daily hours. Confirm peak vs off-peak rates when you book.",
     "primarySourceUrl": "https://www.deuce-zm.com/",
     "secondarySourceUrl": "https://www.deuce-zm.com/contact-4",
@@ -58,7 +58,7 @@
     "lng": 28.2821819,
     "geoPrecision": "locality",
     "geoSource": "nominatim",
-    "geoNote": "Emmasdale locality pin \u2014 club publishes Mwalanse Road, Emmasdale, Lusaka; street not separately geocoded",
+    "geoNote": "Emmasdale locality pin — club publishes Mwalanse Road, Emmasdale, Lusaka; street not separately geocoded",
     "website": "https://www.xtremepadelzambia.com/",
     "phone": "+260 977 604 408",
     "email": "info@extremepadelzambia.com",
@@ -93,7 +93,7 @@
     "sourceTypes": "Padel Lands Zambia directory (Lamasat Complex address + phones)",
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Directory-only Medium. Alternate phone +260 776 259 999 also listed. Court count listed as 5 \u2014 not asserted. Distinct from existing Lusaka samples."
+    "researchNotes": "FIND tick 2026-09-25. Directory-only Medium. Alternate phone +260 776 259 999 also listed. Court count listed as 5 — not asserted. Distinct from existing Lusaka samples."
   },
   {
     "recordId": "ZMB-VEN-005",
@@ -106,7 +106,7 @@
     "lng": 28.2929028,
     "geoPrecision": "street",
     "geoSource": "nominatim",
-    "geoNote": "Isunga Close residential way pin, Kamwala \u2014 plot 1092 not rooftop-geocoded",
+    "geoNote": "Isunga Close residential way pin, Kamwala — plot 1092 not rooftop-geocoded",
     "website": "https://padelmates.se/club/e906ace409c54bc68abf1f1c0137a25c",
     "phone": "+260 771 473 734",
     "venueModel": "own_premises",
@@ -117,7 +117,7 @@
     "sourceTypes": "Padel Mates Isunga club card (Isunga Cl + phone + hours); Zambia padel directory context",
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Court count listed as 3 on operator card \u2014 not asserted. Distinct from ZMB-VEN-001\u2013004."
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 3 on operator card — not asserted. Distinct from ZMB-VEN-001–004."
   },
   {
     "recordId": "ZMB-VEN-006",
@@ -135,7 +135,7 @@
     "phone": "+260 573 471 749",
     "email": null,
     "venueModel": "indoors",
-    "seasonNote": "Daily 06:00\u201323:59; Padel Mates booking",
+    "seasonNote": "Daily 06:00–23:59; Padel Mates booking",
     "description": "Elevate Padel & Event Center puts indoor courts on Grey Zulu Bypass / Makeni Road in Lusaka with a published phone and Padel Mates booking. Distinct from Deuce, Isunga, and Xtreme. Book ahead for evening sessions.",
     "primarySourceUrl": "https://padelmates.se/club/0cb75804f903404b989677b3173a8e59",
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/zambia/",
@@ -196,7 +196,7 @@
   },
   {
     "recordId": "ZMB-VEN-009",
-    "name": "Atl\u00e9tico Lusaka Complex Padel",
+    "name": "Atlético Lusaka Complex Padel",
     "city": "Lusaka",
     "region": "Lusaka Province",
     "countryCode": "ZM",
@@ -205,16 +205,16 @@
     "lng": 28.3135934,
     "geoPrecision": "street",
     "geoSource": "nominatim",
-    "geoNote": "Kasiba Road Lusaka street corridor \u2014 Long Acres / Mass Media pin near Lukasu\u2013Kasiba corner",
+    "geoNote": "Kasiba Road Lusaka street corridor — Long Acres / Mass Media pin near Lukasu–Kasiba corner",
     "website": "https://atleticolusaka.com/index.php/complex/",
     "phone": "+260 767 905 860",
     "email": "info@atleticolusaka.com",
     "venueModel": "own_premises",
-    "seasonNote": "Book via Atl\u00e9tico Lusaka online booking; call for padel court availability.",
-    "description": "Atl\u00e9tico Lusaka Complex on the corner of Lukasu and Kasiba Road in Long Acres publishes padel courts alongside football, swimming and tennis, with a first-party phone and online booking. A clear Lusaka recommendation when you want a named Long Acres multi-sport stop beyond Deuce Roma and Summit Linda. Call or book ahead for court slots.",
+    "seasonNote": "Book via Atlético Lusaka online booking; call for padel court availability.",
+    "description": "Atlético Lusaka Complex on the corner of Lukasu and Kasiba Road in Long Acres publishes padel courts alongside football, swimming and tennis, with a first-party phone and online booking. A clear Lusaka recommendation when you want a named Long Acres multi-sport stop beyond Deuce Roma and Summit Linda. Call or book ahead for court slots.",
     "primarySourceUrl": "https://atleticolusaka.com/index.php/complex/",
     "secondarySourceUrl": "https://booking.atleticolusaka.com/en",
-    "sourceTypes": "Atl\u00e9tico Lusaka complex + booking pages (address, phone, email, padel listed)",
+    "sourceTypes": "Atlético Lusaka complex + booking pages (address, phone, email, padel listed)",
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND tick 2026-09-26. Prefer first-party +260 767905860 over third-party directory alternate."
@@ -235,13 +235,13 @@
     "phone": "+260 96 265 4808",
     "venueModel": "own_premises",
     "seasonNote": "Confirm court hours with the arena by phone.",
-    "description": "Fallsway Arena on Kelvin Siwale Road in Lusaka lists padel courts with a published phone and arena website, in the Show Grounds corridor. A clear recommendation when you want a named Kelvin Siwale padel stop beyond the Makeni cluster. Call ahead \u2014 court inventory is not published as a live booking grid in this pass.",
+    "description": "Fallsway Arena on Kelvin Siwale Road in Lusaka lists padel courts with a published phone and arena website, in the Show Grounds corridor. A clear recommendation when you want a named Kelvin Siwale padel stop beyond the Makeni cluster. Call ahead — court inventory is not published as a live booking grid in this pass.",
     "primarySourceUrl": "https://padellands.com/en/padel-courts/fallsway-arena/",
     "secondarySourceUrl": "https://www.zambiadirectory.com/lusaka/food-dining/gourmet-restaurant",
     "sourceTypes": "Padel Lands Fallsway (Kelvin Siwale + phone); Zambia Directory Gourmet@Fallsway (2374 Kelvin Siwale); Yandex Fallsway Arena",
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "FIND tick 2026-09-26. Street+phone hold; first-party padel page thin \u2014 Medium confidence."
+    "researchNotes": "FIND tick 2026-09-26. Street+phone hold; first-party padel page thin — Medium confidence."
   },
   {
     "recordId": "ZMB-VEN-011",
@@ -264,7 +264,7 @@
     "sourceTypes": "Makeni Islamic Society Trust first-party phone/email + TrustPadel",
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-28",
-    "researchNotes": "FIND tick 24 \u2014 under-covered Zambia densify (not ZA East Rand)."
+    "researchNotes": "FIND tick 24 — under-covered Zambia densify (not ZA East Rand)."
   },
   {
     "recordId": "ZMB-VEN-012",
@@ -286,7 +286,7 @@
     "sourceTypes": "Padellands directory phone + street address",
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-09-28",
-    "researchNotes": "FIND tick 24 \u2014 under-covered Zambia densify."
+    "researchNotes": "FIND tick 24 — under-covered Zambia densify."
   },
   {
     "recordId": "ZMB-VEN-013",
@@ -299,18 +299,44 @@
     "lng": 28.3065455,
     "geoPrecision": "locality",
     "geoSource": "nominatim",
-    "geoNote": "Kwacha Road Lusaka pin \u2014 Flave / plot rooftop not geocoded",
+    "geoNote": "Kwacha Road Lusaka pin — Flave / plot rooftop not geocoded",
     "website": null,
     "phone": "+260 77 103 7225",
     "instagram": "https://www.instagram.com/serve_padel_and_play/",
     "venueModel": "own_premises",
     "seasonNote": "Directory lists 24/7 access; confirm with club before late-night play.",
-    "description": "Serve Padel & Play sits on Kwacha Road next to Flave Restaurant in Lusaka \u2014 a clear densify pick beyond Deuce Olympia/Roma and the Summit/Xtreme cluster. Published phone and Instagram for court bookings and coaching enquiries.",
+    "description": "Serve Padel & Play sits on Kwacha Road next to Flave Restaurant in Lusaka — a clear densify pick beyond Deuce Olympia/Roma and the Summit/Xtreme cluster. Published phone and Instagram for court bookings and coaching enquiries.",
     "primarySourceUrl": "https://www.bestpadel.com/serve-padel-and-play-zm",
     "secondarySourceUrl": "https://www.courtbrain.com/lusaka-zambia/chilanga/serve-padel-and-play",
     "sourceTypes": "BestPadel directory (Kwacha Rd + phone); CourtBrain address pin; Instagram @serve_padel_and_play",
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-10-14",
-    "researchNotes": "FIND tick 2026-10-14 \u2014 Lusaka densify under-covered relative to ZA. No first-party website found this tick."
+    "researchNotes": "FIND tick 2026-10-14 — Lusaka densify under-covered relative to ZA. No first-party website found this tick."
+  },
+  {
+    "recordId": "ZMB-VEN-014",
+    "name": "The Padel Hub",
+    "city": "Lusaka",
+    "region": "Roma",
+    "countryCode": "ZM",
+    "line1": "Plot 29, Ngwezi Road, Roma",
+    "lat": -15.3692103,
+    "lng": 28.3066814,
+    "geoPrecision": "street",
+    "geoSource": "nominatim",
+    "geoNote": "Ngwezi Road, Roma Nominatim pin — Plot 29 from first-party site",
+    "website": "https://padelhubzambia.com/",
+    "phone": "+260 977 681 501",
+    "whatsapp": "+260 977 681 501",
+    "instagram": null,
+    "facebook": null,
+    "email": "Padelhubzambia@gmail.com",
+    "venueModel": "own_premises",
+    "seasonNote": "First-party hours Mon–Thu 06:00–23:00; Fri–Sun 06:00–01:00. Two covered courts; membership early-bird through 2026-03-31.",
+    "description": "The Padel Hub brings roof-covered padel courts to Ngwezi Road in Roma, Lusaka — a distinct first-party booking destination from Deuce’s Mumana Road and Bonaventure’s Makeni hub. A clear recommendation when you want covered courts with published membership and family amenities on site. Book or message via the club site before peak evening slots.",
+    "primarySourceUrl": "https://padelhubzambia.com/",
+    "secondarySourceUrl": null,
+    "sourceTypes": "First-party padelhubzambia.com (address, phone, email, hours, covered-court claim).",
+    "verifiedAt": "2026-10-18"
   }
 ]

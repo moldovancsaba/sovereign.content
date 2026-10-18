@@ -1444,7 +1444,9 @@
       "lastError": null
     },
     "courtpro": {
-      "queue": [],
+      "queue": [
+        "https://www.courtpro.com/clubs/ghana/accra/the-padel-club-ghana"
+      ],
       "done": {
         "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club": {
           "at": "2026-10-13T13:02:47.063Z",
@@ -1477,9 +1479,9 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 7,
+      "discoveryCursor": 8,
       "leadsAdded": 6,
-      "lastFetchAt": "2026-10-14T03:16:02.509Z",
+      "lastFetchAt": "2026-10-18T09:00:40.738Z",
       "lastError": null
     },
     "playtomic-directory": {
@@ -1503,6 +1505,6 @@
       "lastError": null
     }
   },
-  "passCount": 102,
-  "lastPassAt": "2026-10-17T22:02:15.933Z"
+  "passCount": 103,
+  "lastPassAt": "2026-10-18T09:00:41.231Z"
 }
