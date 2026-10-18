@@ -4237,3 +4237,5 @@
 {"at":"2026-10-18T20:00:30.844Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/","harvested":0}
 {"at":"2026-10-18T21:00:38.135Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
 {"at":"2026-10-18T21:00:38.804Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-10-18T22:00:42.274Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery","url":"https://www.courtpro.com/clubs/senegal"}
+{"at":"2026-10-18T22:00:42.802Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery_harvest","url":"https://www.courtpro.com/clubs/senegal","harvested":2}

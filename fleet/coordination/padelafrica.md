@@ -1908,3 +1908,10 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-18 — padelafrica (tick ~22:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 595). **Fair-use:** courtpro pass **116** (Senegal harvest 2, no new promotable); skip actu-padel thrash.
+
+**FIND / ingest:** **EGY-VEN-019 Red Sea Padel** (Hurghada El-Bahr, phone+WhatsApp+IG @red_sea_padel_) + **EGY-VEN-020 Padel Spot Alexandria** (Abis corridor, Skedda booking+phone+IG @padelspot_eg) created DISCOVERED. Enriched **TUN-VEN-020** 2S Monastir phone/email/website from 2spadel.tn; **EGY-VEN-006** Hurghada Padel WhatsApp align. ET secondary cities → zero-result.
+
+Not claiming PUBLISHED.

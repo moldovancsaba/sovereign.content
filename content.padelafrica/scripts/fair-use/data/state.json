@@ -1449,7 +1449,10 @@
       "lastError": null
     },
     "courtpro": {
-      "queue": [],
+      "queue": [
+        "https://www.courtpro.com/clubs/senegal/dakar/dpc-dakar-padel-club",
+        "https://www.courtpro.com/clubs/senegal/ngaparou/padel-club-ngaparou"
+      ],
       "done": {
         "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club": {
           "at": "2026-10-13T13:02:47.063Z",
@@ -1487,9 +1490,9 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 8,
+      "discoveryCursor": 9,
       "leadsAdded": 7,
-      "lastFetchAt": "2026-10-18T10:00:31.452Z",
+      "lastFetchAt": "2026-10-18T22:00:42.274Z",
       "lastError": null
     },
     "playtomic-directory": {
@@ -1513,6 +1516,6 @@
       "lastError": null
     }
   },
-  "passCount": 115,
-  "lastPassAt": "2026-10-18T21:00:38.805Z"
+  "passCount": 116,
+  "lastPassAt": "2026-10-18T22:00:42.802Z"
 }

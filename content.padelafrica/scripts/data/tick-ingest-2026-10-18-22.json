@@ -1,0 +1,49 @@
+{
+  "appliedAt": "2026-10-18T22:02:29.730Z",
+  "results": [
+    {
+      "recordId": "EGY-VEN-019",
+      "id": "research-egy-ven-019",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-019",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-020",
+      "id": "research-egy-ven-020",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-020",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-020",
+      "id": "research-tun-ven-020",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-020",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-006",
+      "id": "research-egy-ven-006",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-egy-ven-006",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}
