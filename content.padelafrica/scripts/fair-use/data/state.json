@@ -1492,12 +1492,12 @@
     "playtomic-directory": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 5,
+      "discoveryCursor": 6,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-14T04:01:18.939Z",
+      "lastFetchAt": "2026-10-18T12:00:58.744Z",
       "lastError": {
-        "at": "2026-10-14T04:01:19.009Z",
-        "url": "https://directory.playtomic.io/south-africa/",
+        "at": "2026-10-18T12:00:58.851Z",
+        "url": "https://directory.playtomic.io/kenya/",
         "reasonCode": "fetch_error"
       }
     },
@@ -1510,6 +1510,6 @@
       "lastError": null
     }
   },
-  "passCount": 105,
-  "lastPassAt": "2026-10-18T11:00:56.551Z"
+  "passCount": 106,
+  "lastPassAt": "2026-10-18T12:00:58.852Z"
 }

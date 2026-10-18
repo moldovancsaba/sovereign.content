@@ -4217,3 +4217,5 @@
 {"at":"2026-10-18T10:00:31.661Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/ghana/accra/the-padel-club-ghana","candidateId":"fair-courtpro-the-padel-club-ghana","reasonCode":"seeded"}
 {"at":"2026-10-18T11:00:56.237Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-in-senegal/"}
 {"at":"2026-10-18T11:00:56.551Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-senegal/","harvested":1}
+{"at":"2026-10-18T12:00:58.745Z","type":"fair_use_attempt","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/kenya/"}
+{"at":"2026-10-18T12:00:58.851Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/kenya/","reasonCode":"fetch_error","error":"fetch failed"}

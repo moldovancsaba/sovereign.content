@@ -1,0 +1,38 @@
+{
+  "appliedAt": "2026-10-18T12:03:45.921Z",
+  "results": [
+    {
+      "recordId": "SEN-VEN-011",
+      "id": "research-sen-ven-011",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-sen-ven-011",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "SEN-VEN-004",
+      "id": "research-sen-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-sen-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "SEN-VEN-009",
+      "id": "research-sen-ven-009",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-sen-ven-009",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

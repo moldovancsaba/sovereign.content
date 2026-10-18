@@ -93,8 +93,10 @@
     "secondarySourceUrl": "https://keur-immo.com/senegal/annonce-immobiliere-senegal/ngaparou-villa-avec-piscine-a-louer-284/",
     "sourceTypes": "Padel Lands club card (address+phone); Keur-Immo Ngaparou listing independently landmarks Blu/Blue Padel",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND until-found deepen Thiès cell 2026-09-25 → Ngaparou (Thiès Region / Petite Côte adjacent). Not in excludeNames. Court count (5) from Padel Lands not asserted in description. Phone +221 78 190 69 60 from padellands only."
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "FIND until-found deepen Thiès cell 2026-09-25 → Ngaparou (Thiès Region / Petite Côte adjacent). Not in excludeNames. Court count (5) from Padel Lands not asserted in description. Phone +221 78 190 69 60 from padellands only. FIND tick 2026-10-18T12 contact: IG @blupadelngap + WhatsApp from published phone.",
+    "instagram": "https://www.instagram.com/blupadelngap/",
+    "whatsapp": "+221 78 190 69 60"
   },
   {
     "recordId": "SEN-VEN-005",
@@ -212,8 +214,10 @@
     "secondarySourceUrl": "https://www.ranchbango.com/",
     "sourceTypes": "Hotel activities page (padel court + phone/WhatsApp/email/address)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25T16 — Saint-Louis deepen; unique padel claim on ranch site with published contacts"
+    "lastVerifiedUtc": "2026-10-18",
+    "researchNotes": "FIND tick 2026-09-25T16 — Saint-Louis deepen; unique padel claim on ranch site with published contacts FIND tick 2026-10-18T12 WhatsApp Bango Padel +221 78 918 02 13 promoted to contactLinks.",
+    "whatsapp": "+221 78 918 02 13",
+    "instagram": null
   },
   {
     "recordId": "SEN-VEN-010",
@@ -238,5 +242,32 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Also listed +221 33 825 76 35 / +221 77 502 37 97 — primary +221 33 864 56 55 retained from GoAfricaOnline + Balle Jaune"
+  },
+  {
+    "recordId": "SEN-VEN-011",
+    "name": "Casa De Padel Ngaparou",
+    "city": "Ngaparou",
+    "region": "Thiès",
+    "countryCode": "SN",
+    "line1": "FX52+P8, Ngaparou",
+    "lat": 14.459425,
+    "lng": -17.049961,
+    "geoPrecision": "street",
+    "geoSource": "plus_code",
+    "geoNote": "Open Location Code FX52+P8 pin from Padel Lands + place listing — not rooftop-surveyed",
+    "website": "https://casadepadel-sn.matchpoint.com.es/Index.aspx",
+    "phone": "+221 77 957 55 55",
+    "whatsapp": "+221 77 957 55 55",
+    "instagram": "https://www.instagram.com/casadepadelsn/",
+    "venueModel": "own_premises",
+    "seasonNote": "Tripadvisor club hours commonly listed 08:00–21:30 — confirm on Matchpoint before travel.",
+    "description": "Casa De Padel Ngaparou is a named Petite Côte padel club at FX52+P8 with Matchpoint booking, a published phone, and Instagram @casadepadelsn. A clear recommendation when you want bookable Ngaparou courts beyond Blu Padel and Padel Club Ngaparou. Book on Matchpoint or WhatsApp ahead for peak evenings.",
+    "primarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/senegal/",
+    "secondarySourceUrl": "https://casadepadel-sn.matchpoint.com.es/Index.aspx",
+    "sourceTypes": "Padel Lands Senegal card (FX52+P8 + phone); Matchpoint booking site; Instagram @casadepadelsn; Tripadvisor attraction card",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-18",
+    "verifiedAt": "2026-10-18",
+    "researchNotes": "FIND tick 2026-10-18T12. Distinct from SEN-VEN-004 Blu and SEN-VEN-005 Padel Club Ngaparou (different phone/plus-code). Court count (5) from Padel Lands not asserted. Phone +221779575555 normalized; IG not used as Website."
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T11:01:35.436014+00:00",
+  "updatedAt": "2026-10-18T12:03:44.877Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3463,6 +3463,42 @@
       "city": "Port Harcourt",
       "outcome": "zero-result",
       "note": "Tennis clubs only — no evidence-grade padel"
+    },
+    {
+      "cc": "SN",
+      "city": "Ngaparou",
+      "outcome": "seeded",
+      "at": "2026-10-18T12:03:44.877Z",
+      "note": "SEN-VEN-011 Casa De Padel Ngaparou (Matchpoint+IG+phone); distinct Blu/PCN",
+      "recordId": "SEN-VEN-011"
+    },
+    {
+      "cc": "CG",
+      "city": "Brazzaville",
+      "outcome": "skipped",
+      "at": "2026-10-18T12:03:44.877Z",
+      "note": "Kennys already COG-VEN-001"
+    },
+    {
+      "cc": "ML",
+      "city": "Bamako",
+      "outcome": "zero-result",
+      "at": "2026-10-18T12:03:44.877Z",
+      "note": "no_new_operating_club_beyond_known_sparse"
+    },
+    {
+      "cc": "BF",
+      "city": "Bobo-Dioulasso",
+      "outcome": "zero-result",
+      "at": "2026-10-18T12:03:44.877Z",
+      "note": "no_operating_padel_evidence"
+    },
+    {
+      "cc": "NG",
+      "city": "Port Harcourt",
+      "outcome": "zero-result",
+      "at": "2026-10-18T12:03:44.877Z",
+      "note": "no_new_operating_club"
     }
   ]
 }
