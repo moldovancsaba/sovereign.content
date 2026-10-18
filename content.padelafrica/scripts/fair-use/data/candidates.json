@@ -3077,5 +3077,21 @@
     "extractedAt": "2026-10-18T10:00:31.658Z",
     "duplicateOf": "GHA-VEN-002",
     "resolvedAt": "2026-10-18T10:01:46.543929+00:00"
+  },
+  {
+    "candidateId": "fair-padelrevive-padel-in-senegal-alle-clubs-courts",
+    "sourceId": "padelrevive",
+    "sourceName": "PadelRevive Africa",
+    "name": "Padel in Senegal: alle Clubs & Courts",
+    "citationUrl": "https://padelrevive.com/de/padel-clubs-in-senegal/",
+    "website": "",
+    "cityHint": "Dakar",
+    "countryHint": "Senegal",
+    "researchSources": [
+      "https://padelrevive.com/de/padel-clubs-in-senegal/"
+    ],
+    "researchNote": "Discovered via PadelRevive Africa fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) — phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) → contactLinks; bare WhatsApp → wa.me; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "needs_verify",
+    "extractedAt": "2026-10-18T13:00:35.701Z"
   }
 ]

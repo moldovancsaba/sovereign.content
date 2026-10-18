@@ -338,5 +338,32 @@
     "secondarySourceUrl": null,
     "sourceTypes": "First-party padelhubzambia.com (address, phone, email, hours, covered-court claim).",
     "verifiedAt": "2026-10-18"
+  },
+  {
+    "recordId": "ZMB-VEN-015",
+    "name": "Padel Zone Lusaka",
+    "city": "Lusaka",
+    "region": "Lusaka Province",
+    "countryCode": "ZM",
+    "line1": "Chilimbulu Road, Kamwala",
+    "lat": -15.428637,
+    "lng": 28.290131,
+    "geoPrecision": "street",
+    "geoSource": "operator_maps",
+    "geoNote": "Place listing pin on Chilimbulu Rd Kamwala — not rooftop-surveyed",
+    "website": "https://www.padelzonezm.com/",
+    "phone": "+260 571 420 444",
+    "whatsapp": "+260 571 420 444",
+    "instagram": "https://www.instagram.com/padel_zone_zm/",
+    "venueModel": "own_premises",
+    "seasonNote": "Directory hours commonly 08:00–23:00 — confirm on padelzonezm.com before peak evenings.",
+    "description": "Padel Zone Lusaka is a named Kamwala club on Chilimbulu Road with a first-party booking site, published phone and Instagram @padel_zone_zm. A clear Lusaka recommendation beyond The Padel Hub and Xtreme samples when you want Kamwala courts. Book on padelzonezm.com or WhatsApp ahead.",
+    "primarySourceUrl": "https://www.padelzonezm.com/",
+    "secondarySourceUrl": "https://padelmates.se/club/1cff5e3d246441fc97d365bb63ae764c",
+    "sourceTypes": "Operator site padelzonezm.com; Padel Mates club card (Chilimbulu + phone); Instagram @padel_zone_zm",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-18",
+    "verifiedAt": "2026-10-18",
+    "researchNotes": "FIND tick 2026-10-18T13. Not previously in ZMB fixtures. IG not used as Website."
   }
 ]

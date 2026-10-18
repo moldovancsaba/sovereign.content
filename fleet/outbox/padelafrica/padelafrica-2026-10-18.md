@@ -5,3 +5,11 @@
 **FIND / ingest:** **SEN-VEN-011 Casa De Padel Ngaparou** created DISCOVERED (Matchpoint + IG @casadepadelsn + phone; distinct Blu/PCN). Enriched **SEN-004** Blu IG/WhatsApp; **SEN-009** Ranch WhatsApp. CG Brazzaville Kennys skipped (already COG-VEN-001). ML Bamako / BF Bobo / NG Port Harcourt → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-18 — padelafrica (tick ~13:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 577). **Fair-use:** padelrevive pass **107** (DE Senegal hub queued, not promoted); pending 1; skip actu-padel thrash.
+
+**FIND / ingest:** **CIV-VEN-010 ARENA Complexe Sportif Bassam** + **ZMB-VEN-015 Padel Zone Lusaka** created DISCOVERED. Enriched **TGO-001/002** IG/WhatsApp; **BDI-001** WhatsApp/hours; **MDG-002** Garden Padel phone/email. NE Niamey / TD N'Djamena / LS Maseru → zero-result (essay-only markets).
+
+Not claiming PUBLISHED.

@@ -362,9 +362,7 @@
       }
     },
     "padelrevive": {
-      "queue": [
-        "https://padelrevive.com/de/padel-clubs-in-senegal/"
-      ],
+      "queue": [],
       "done": {
         "https://padelrevive.com/de/padel-clubs-in-afrika/": {
           "at": "2026-09-25T05:04:49.884Z",
@@ -400,11 +398,16 @@
           "at": "2026-10-13T22:01:34.491Z",
           "reasonCode": "seeded",
           "reason": "seeded"
+        },
+        "https://padelrevive.com/de/padel-clubs-in-senegal/": {
+          "at": "2026-10-18T13:00:35.705Z",
+          "reasonCode": "seeded",
+          "reason": "seeded"
         }
       },
       "discoveryCursor": 8,
-      "leadsAdded": 6,
-      "lastFetchAt": "2026-10-18T11:00:56.237Z",
+      "leadsAdded": 7,
+      "lastFetchAt": "2026-10-18T13:00:35.346Z",
       "lastError": {
         "at": "2026-09-25T15:10:56.262Z",
         "url": "https://padelrevive.com/padel-clubs-in-africa/",
@@ -1510,6 +1513,6 @@
       "lastError": null
     }
   },
-  "passCount": 106,
-  "lastPassAt": "2026-10-18T12:00:58.852Z"
+  "passCount": 107,
+  "lastPassAt": "2026-10-18T13:00:35.706Z"
 }

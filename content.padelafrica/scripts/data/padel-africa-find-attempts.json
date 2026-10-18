@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T12:03:44.877Z",
+  "updatedAt": "2026-10-18T13:02:25.069Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3499,6 +3499,71 @@
       "outcome": "zero-result",
       "at": "2026-10-18T12:03:44.877Z",
       "note": "no_new_operating_club"
+    },
+    {
+      "cc": "CI",
+      "city": "Grand-Bassam",
+      "outcome": "seeded",
+      "at": "2026-10-18T13:02:25.069Z",
+      "note": "CIV-VEN-010 ARENA Complexe Sportif Bassam first-party",
+      "recordId": "CIV-VEN-010"
+    },
+    {
+      "cc": "ZM",
+      "city": "Lusaka",
+      "outcome": "seeded",
+      "at": "2026-10-18T13:02:25.069Z",
+      "note": "ZMB-VEN-015 Padel Zone Chilimbulu Kamwala",
+      "recordId": "ZMB-VEN-015"
+    },
+    {
+      "cc": "TG",
+      "city": "Lomé",
+      "outcome": "enriched",
+      "at": "2026-10-18T13:02:25.069Z",
+      "note": "TGO-001/002 contact IG WhatsApp"
+    },
+    {
+      "cc": "BI",
+      "city": "Bujumbura",
+      "outcome": "enriched",
+      "at": "2026-10-18T13:02:25.069Z",
+      "note": "BDI-001 WhatsApp email hours"
+    },
+    {
+      "cc": "MG",
+      "city": "Antananarivo",
+      "outcome": "enriched",
+      "at": "2026-10-18T13:02:25.069Z",
+      "note": "MDG-002 Garden Padel phone/email"
+    },
+    {
+      "cc": "NE",
+      "city": "Niamey",
+      "outcome": "zero-result",
+      "at": "2026-10-18T13:02:25.069Z",
+      "note": "PWB essay only; no named operating club"
+    },
+    {
+      "cc": "TD",
+      "city": "N'Djamena",
+      "outcome": "zero-result",
+      "at": "2026-10-18T13:02:25.069Z",
+      "note": "PWB essay only; no named operating club"
+    },
+    {
+      "cc": "LS",
+      "city": "Maseru",
+      "outcome": "zero-result",
+      "at": "2026-10-18T13:02:25.069Z",
+      "note": "PWB essay only; no named operating club"
+    },
+    {
+      "cc": "fair",
+      "city": "padelrevive-de-senegal-hub",
+      "outcome": "skipped",
+      "at": "2026-10-18T13:02:25.069Z",
+      "note": "fair-padelrevive DE hub needs_verify not promoted"
     }
   ]
 }

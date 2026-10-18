@@ -1,0 +1,72 @@
+{
+  "appliedAt": "2026-10-18T13:02:26.857Z",
+  "results": [
+    {
+      "recordId": "CIV-VEN-010",
+      "id": "research-civ-ven-010",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-civ-ven-010",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZMB-VEN-015",
+      "id": "research-zmb-ven-015",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zmb-ven-015",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "TGO-VEN-001",
+      "id": "research-tgo-ven-001",
+      "ok": true,
+      "mode": "create_fallback",
+      "res": {
+        "cardId": "research-tgo-ven-001",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "TGO-VEN-002",
+      "id": "research-tgo-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tgo-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "BDI-VEN-001",
+      "id": "research-bdi-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-bdi-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      },
+      "note": "email_removed_reprocess"
+    },
+    {
+      "recordId": "MDG-VEN-002",
+      "id": "research-mdg-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mdg-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

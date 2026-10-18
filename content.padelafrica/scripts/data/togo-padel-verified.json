@@ -19,7 +19,11 @@
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/togo-en/",
     "sourceTypes": "Club site; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-10-18",
+    "instagram": "https://www.instagram.com/lafriklub_togo/",
+    "whatsapp": "+228 96 96 89 89",
+    "email": "contact@lafriklubtogo.com",
+    "researchNotes": " FIND 2026-10-18T13 contact: IG @lafriklub_togo + WhatsApp/email from sports booking pages."
   },
   {
     "recordId": "TGO-VEN-002",
@@ -35,17 +39,18 @@
     "geoNote": "Tokoin-Wuiti / Didjolé belt locality — street not separately geocoded",
     "phone": "+228 90 94 46 39",
     "venueModel": "outdoors",
-    "seasonNote": "Hours not listed yet.",
+    "seasonNote": "Matchpoint: daily 08:00–00:00.",
     "description": "Padel Family Club is a four-court Lomé padel destination in Didjolé near Pharmacie Jahnap. A solid recommendation when you want capacity beyond Afriklub; call ahead because only a locality pin and phone are verified.",
     "primarySourceUrl": "https://padellands.com/en/padel-courts/padel-family-club/",
     "secondarySourceUrl": "https://padelfamilyclub-tg.matchpoint.com.es/index.aspx",
     "sourceTypes": "Padel Lands; Matchpoint contact (Rue 152 AFG + email)",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-10-13",
+    "lastVerifiedUtc": "2026-10-18",
     "email": "padelfamilyclub228@gmail.com",
     "website": "https://padelfamilyclub-tg.matchpoint.com.es/",
-    "researchNotes": " FIND tick 2026-09-26 Rue 152 AFG + email backfill.; tick 08:00 contact confirm Padel Lands +22890944639",
-    "whatsapp": "+228 90 94 46 39"
+    "researchNotes": " FIND tick 2026-09-26 Rue 152 AFG + email backfill.; tick 08:00 contact confirm Padel Lands +22890944639 FIND 2026-10-18T13 IG @padelfamilyclub.tg + Matchpoint hours; email already on fixture.",
+    "whatsapp": "+228 90 94 46 39",
+    "instagram": "https://www.instagram.com/padelfamilyclub.tg/"
   },
   {
     "recordId": "TGO-VEN-003",

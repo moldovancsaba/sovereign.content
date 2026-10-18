@@ -1,42 +1,45 @@
 {
   "client": "padelafrica",
   "date": "2026-10-18",
-  "tickUtc": "2026-10-18T12:04Z",
+  "tickUtc": "2026-10-18T13:03Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 575; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 577; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 106,
-    "pendingCandidates": 0,
-    "note": "playtomic-directory Kenya fetch_error soft-skip"
+    "passCount": 107,
+    "pendingCandidates": 1,
+    "note": "padelrevive DE Senegal hub queued needs_verify \u2014 not promoted"
   },
   "find": {
     "seeded": [
-      "SEN-VEN-011"
+      "CIV-VEN-010",
+      "ZMB-VEN-015"
     ],
     "enriched": [
-      "SEN-VEN-004",
-      "SEN-VEN-009"
+      "TGO-VEN-001",
+      "TGO-VEN-002",
+      "BDI-VEN-001",
+      "MDG-VEN-002"
     ],
     "zeroResult": [
-      "ML Bamako",
-      "BF Bobo-Dioulasso",
-      "NG Port Harcourt"
+      "NE Niamey",
+      "TD N'Djamena",
+      "LS Maseru"
     ],
     "skipped": [
       "actu-padel thrash",
-      "CG Brazzaville Kennys already COG-VEN-001"
+      "fair-padelrevive DE Senegal hub"
     ]
   },
   "hitlBacklog": 0,
   "claimedPublished": false,
-  "note": "SC main still ahead locally (5 after this commit) \u2014 GITHUB_TOKEN empty. Not claiming PUBLISHED."
+  "note": "SC main still ahead locally \u2014 GITHUB_TOKEN empty. Not claiming PUBLISHED."
 }
