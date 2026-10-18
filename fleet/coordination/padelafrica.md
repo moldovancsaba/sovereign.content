@@ -1819,3 +1819,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **AGO-VEN-019 Academia Live Active Padel** (Nova Vida) created DISCOVERED. Contact enrich **ZWE-001/002/003** Padel Zim IG/FB/WhatsApp, **ALG-002/003** WhatsApp, **SWZ-001**, **DJI-001**, **MWI-005** Hashtag Fitness first-party. TZ Dodoma / CV Mindelo / SZ Mbabane → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-18 — padelafrica (tick ~11:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** applied **SYC-VEN-006** About (83→100). **Fair-use:** padelrevive Senegal pass **105** (DE hub queued, not promoted); pending 0.
+
+**FIND / ingest:** **NGA-VEN-013 iPadel Osogbo** + **SYC-VEN-006 Anantara Maia Praslin** created DISCOVERED. Enriched **AGO-002** Baía phone/email/WhatsApp; **NGA-006** PadelBay WhatsApp. BF Bobo + NG Port Harcourt → zero-result.
+
+Not claiming PUBLISHED.

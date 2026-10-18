@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T10:01:46.549482+00:00",
+  "updatedAt": "2026-10-18T11:01:35.436014+00:00",
   "attempts": [
     {
       "cc": "CF",
@@ -3421,6 +3421,48 @@
       "city": "Accra",
       "outcome": "skipped_duplicate",
       "note": "CourtPro candidate fair-courtpro-the-padel-club-ghana = GHA-VEN-002"
+    },
+    {
+      "at": "2026-10-18T11:01:35.436014+00:00",
+      "cc": "NG",
+      "city": "Osogbo",
+      "outcome": "seeded",
+      "note": "iPadel Ofatedo phone + site + IG"
+    },
+    {
+      "at": "2026-10-18T11:01:35.436014+00:00",
+      "cc": "SC",
+      "city": "Praslin",
+      "outcome": "seeded",
+      "note": "Anantara Maia padel WhatsApp package"
+    },
+    {
+      "at": "2026-10-18T11:01:35.436014+00:00",
+      "cc": "AO",
+      "city": "Luanda",
+      "outcome": "enriched",
+      "note": "Baía Padel phone/email/WhatsApp"
+    },
+    {
+      "at": "2026-10-18T11:01:35.436014+00:00",
+      "cc": "NG",
+      "city": "Owerri",
+      "outcome": "enriched",
+      "note": "PadelBay WhatsApp"
+    },
+    {
+      "at": "2026-10-18T11:01:35.436014+00:00",
+      "cc": "BF",
+      "city": "Bobo-Dioulasso",
+      "outcome": "zero-result",
+      "note": "Muraz tennis/squash only — no padel evidence"
+    },
+    {
+      "at": "2026-10-18T11:01:35.436014+00:00",
+      "cc": "NG",
+      "city": "Port Harcourt",
+      "outcome": "zero-result",
+      "note": "Tennis clubs only — no evidence-grade padel"
     }
   ]
 }

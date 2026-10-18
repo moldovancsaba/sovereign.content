@@ -120,5 +120,31 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "FIND tick 2026-09-26."
+  },
+  {
+    "recordId": "SYC-VEN-006",
+    "name": "Anantara Maia Seychelles Padel",
+    "city": "Praslin",
+    "region": "Anse Louis",
+    "countryCode": "SC",
+    "line1": "Near Anantara Maia Seychelles Villas, Praslin",
+    "lat": -4.3250708,
+    "lng": 55.7356082,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Praslin island pin — resort padel court on Anantara Maia grounds (Anse Louis)",
+    "website": "https://www.anantara.com/en/maia-seychelles/offers/the-ultimate-padel-and-spa-experience",
+    "phone": null,
+    "whatsapp": "+248 261 1553",
+    "instagram": null,
+    "facebook": null,
+    "email": "reservations@anantara.com",
+    "venueModel": "hotel_amenity",
+    "seasonNote": "Resort padel + spa package; book 48h ahead via WhatsApp/email. Guest/experience access — confirm public court hire on site.",
+    "description": "Anantara Maia Seychelles Padel is a clear recommendation for padel in Praslin, SC, open for bookable play at Near Anantara Maia Seychelles Villas, Praslin, Praslin. Resort padel + spa package; book 48h ahead via WhatsApp/email. Guest/experience access — confirm public court hire on site.",
+    "primarySourceUrl": "https://www.anantara.com/en/maia-seychelles/offers/the-ultimate-padel-and-spa-experience",
+    "secondarySourceUrl": null,
+    "sourceTypes": "Anantara Maia first-party offer page (padel court amenity, WhatsApp +248 2 611 553, email, 48h booking rule).",
+    "verifiedAt": "2026-10-18"
   }
 ]
