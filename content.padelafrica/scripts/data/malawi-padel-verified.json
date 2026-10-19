@@ -128,9 +128,10 @@
     "secondarySourceUrl": "https://hashtagfitness.webtics.digital/contact/",
     "sourceTypes": "Malawi Voice FCB Padel Cup host coverage; BizMalawi Hashtag listing (Kidney Crescent + phone); Times Group final coverage",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "FIND tick 2026-09-26. LinkedIn/FCB posts also label venue Hashtag Padel Courts Blantyre.",
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-26. LinkedIn/FCB posts also label venue Hashtag Padel Courts Blantyre. FIND/enrich 2026-10-19T18 Instagram @hashtagfitness.mw + contact email confirmed on Hashtag Fitness contact page.",
     "whatsapp": "+265 880 636 826",
-    "email": "hello@hashtagfitness.mw"
+    "email": "hello@hashtagfitness.mw",
+    "instagram": "https://www.instagram.com/hashtagfitness.mw/"
   }
 ]

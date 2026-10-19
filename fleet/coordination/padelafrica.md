@@ -2068,3 +2068,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** First Beheira cell **EGY-VEN-041 Yalla Padel Damanhour** + **CIV-VEN-019 Padel Palmeraie** (Riviera Faya) created DISCOVERED. Enriched **CIV-001** Padelta phone/WhatsApp to +225 01 73 33 33 33; **KEN-002/007/008/009/011/015** WhatsApp=mobile wave. Skipped Padel House Abidjan (ouverture prochaine). EG Benha + CI Yamoussoukro/Bouaké → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~18:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 643). **Fair-use:** padelfip pass **136** (harvest 0); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** First Kafr El Sheikh cell **EGY-VEN-042 X3 Padel** + densify **EGY-VEN-043 Padel Planet** (Police Club); first El Gouna **EGY-VEN-044 El Gouna Padel** (Skedda booking, not Website); Abidjan densify **CIV-VEN-020 Sports Garden Zone 4** created DISCOVERED. Enriched **MWI-005** Hashtag Fitness Instagram @hashtagfitness.mw. EG Sohag + CI Korhogo → zero-result.
+
+Not claiming PUBLISHED.

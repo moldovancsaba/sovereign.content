@@ -443,9 +443,9 @@
     "padelfip": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-19T02:00:32.662Z",
+      "lastFetchAt": "2026-10-19T18:01:33.230Z",
       "lastError": null
     },
     "africapadel": {
@@ -1520,6 +1520,6 @@
       "lastError": null
     }
   },
-  "passCount": 135,
-  "lastPassAt": "2026-10-19T17:00:42.461Z"
+  "passCount": 136,
+  "lastPassAt": "2026-10-19T18:01:33.762Z"
 }

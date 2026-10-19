@@ -1,40 +1,36 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T17:01Z",
+  "tickUtc": "2026-10-19T18:05Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 639; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 643; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 135,
+    "passCount": 136,
     "pendingCandidates": 2,
-    "note": "padel-llc harvest 0; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "padelfip harvest 0; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-041",
-      "CIV-VEN-019"
+      "EGY-VEN-042",
+      "EGY-VEN-043",
+      "EGY-VEN-044",
+      "CIV-VEN-020"
     ],
     "enriched": [
-      "CIV-VEN-001",
-      "KEN-VEN-002",
-      "KEN-VEN-007",
-      "KEN-VEN-008",
-      "KEN-VEN-009",
-      "KEN-VEN-011",
-      "KEN-VEN-015"
+      "MWI-VEN-005"
     ],
     "zeroResult": [
-      "EG Benha",
-      "CI Yamoussoukro/Bouaké"
+      "EG Sohag",
+      "CI Korhogo"
     ],
     "skipped": [
       "actu-padel thrash",

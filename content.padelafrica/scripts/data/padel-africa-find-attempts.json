@@ -4473,6 +4473,55 @@
       "outcome": "skipped",
       "at": "2026-10-19T17:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "Kafr El Sheikh",
+      "outcome": "seeded",
+      "at": "2026-10-19T18:05:00.000Z",
+      "note": "EGY-042 X3 + EGY-043 Padel Planet"
+    },
+    {
+      "cc": "EG",
+      "city": "El Gouna",
+      "outcome": "seeded",
+      "at": "2026-10-19T18:05:00.000Z",
+      "note": "EGY-044 El Gouna Padel"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan Zone 4",
+      "outcome": "seeded",
+      "at": "2026-10-19T18:05:00.000Z",
+      "note": "CIV-020 Sports Garden"
+    },
+    {
+      "cc": "MW",
+      "city": "Blantyre",
+      "outcome": "enriched",
+      "at": "2026-10-19T18:05:00.000Z",
+      "note": "MWI-005 Hashtag IG/email"
+    },
+    {
+      "cc": "EG",
+      "city": "Sohag",
+      "outcome": "zero-result",
+      "at": "2026-10-19T18:05:00.000Z",
+      "note": "no public padel club evidence"
+    },
+    {
+      "cc": "CI",
+      "city": "Korhogo",
+      "outcome": "zero-result",
+      "at": "2026-10-19T18:05:00.000Z",
+      "note": "no public padel infrastructure"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T18:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]
 }

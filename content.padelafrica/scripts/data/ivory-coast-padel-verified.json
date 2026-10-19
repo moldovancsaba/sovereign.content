@@ -494,5 +494,33 @@
     "lastVerifiedUtc": "2026-10-19",
     "verifiedAt": "2026-10-19",
     "researchNotes": "FIND tick 2026-10-19T17. Padel House Abidjan skipped — operator site still says ouverture prochaine."
+  },
+  {
+    "recordId": "CIV-VEN-020",
+    "name": "Sports Garden Zone 4",
+    "city": "Abidjan",
+    "region": "Lagunes",
+    "countryCode": "CI",
+    "line1": "Zone 4, Marcory, Abidjan (8275+8C2)",
+    "lat": 5.313262,
+    "lng": -3.991477,
+    "geoPrecision": "place",
+    "geoSource": "map_listing",
+    "geoNote": "8275+8C2 Marcory place pin from public map listing",
+    "website": null,
+    "phone": "+225 07 14 56 55 55",
+    "email": null,
+    "instagram": null,
+    "whatsapp": "+225 07 14 56 55 55",
+    "venueModel": "outdoors",
+    "seasonNote": "Open daily ~08:00–23:30 per place card; also listed on padel.ci partner clubs — call ahead for padel court slots.",
+    "description": "Sports Garden Zone 4 in Marcory is a named Abidjan padel partner club with a published phone and place pin. A clear densify stop beside Padel Square, District, and Padel Zone. Call or WhatsApp ahead — no first-party website asserted.",
+    "primarySourceUrl": "https://exa.ai/library/place/z1w3640rb8h",
+    "secondarySourceUrl": "https://padel.ci/",
+    "sourceTypes": "Public place card (Zone 4 Marcory + phone + coords); padel.ci Sports Garden partner listing",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T18. Distinct from CIV-006 Padel Zone and CIV-005 District / CIV-009 Square. Doinsport app host not used as Website."
   }
 ]
