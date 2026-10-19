@@ -1,38 +1,40 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T08:02Z",
+  "tickUtc": "2026-10-19T09:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 612; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 613; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 126,
+    "passCount": 127,
     "pendingCandidates": 2,
-    "note": "playtomic harvest 0; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash"
+    "note": "ballejaune Côte d’Ivoire 404 soft-skip; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-021",
-      "EGY-VEN-022"
+      "EGY-VEN-023"
     ],
     "enriched": [
-      "MOZ-VEN-003",
-      "CMR-VEN-006",
-      "SEN-VEN-006",
-      "BWA-VEN-003",
-      "BWA-VEN-005"
+      "GHA-VEN-005",
+      "GHA-VEN-008",
+      "AGO-VEN-001",
+      "AGO-VEN-013",
+      "AGO-VEN-015",
+      "GAB-VEN-003",
+      "TZA-VEN-003"
     ],
     "zeroResult": [
-      "ZM Ndola/Kitwe",
-      "KE Kisumu"
+      "AO Benguela/Huambo/Lobito",
+      "GH Cape Coast/Kumasi",
+      "ET Dire Dawa/Hawassa"
     ],
     "skipped": [
       "actu-padel thrash",

@@ -18,11 +18,13 @@
     "secondarySourceUrl": "https://padelpush.co/padel-clubs/angola/luanda",
     "sourceTypes": "Official first-party source plus specialist directory",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
+    "lastVerifiedUtc": "2026-10-19",
     "website": "https://www.padel4um.ao/",
     "phone": "+244 933 233 556",
     "email": "padel4um@padel4all.ao",
-    "researchNotes": "PadelPush lists the same site as Clube Padel Hotel Fórum; treated as one venue."
+    "researchNotes": "PadelPush lists the same site as Clube Padel Hotel Fórum; treated as one venue.; FIND/enrich 2026-10-19T09 — WhatsApp from published club phone",
+    "whatsapp": "+244 933 233 556",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "AGO-VEN-002",
@@ -284,10 +286,13 @@
     "secondarySourceUrl": null,
     "sourceTypes": "PadelTeams tournament contact (+244 933 468 800 / email); AngoRussia inauguration coverage",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Phone backfill from tournament listing; not inventing court count",
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Phone backfill from tournament listing; not inventing court count; FIND/enrich 2026-10-19T09 — IG @dragonpadelboavida (contact only, not Website) + WhatsApp from phone",
     "phone": "+244 933 468 800",
-    "email": "dragonpadelboavida@forling.net"
+    "email": "dragonpadelboavida@forling.net",
+    "instagram": "https://www.instagram.com/dragonpadelboavida/",
+    "whatsapp": "+244 933 468 800",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "AGO-VEN-014",
@@ -329,17 +334,19 @@
     "geoSource": "nominatim",
     "geoNote": "Geocoded from: Banco de Fomento Angola, Torre Cuanza Norte/Cuanza Sul, Belas Business Park, Talatona, Município do Talatona, Luanda, An",
     "venueModel": "own_premises",
-    "seasonNote": "Hours not listed yet.",
+    "seasonNote": "Weekdays/weekends 06:00–23:00 (TieSports club card).",
     "description": "Playtime Belas Club on Avenida Luanda Sul near Belas Shopping publishes a WhatsApp/phone and email for Luanda padel among family leisure amenities. A useful Belas recommendation when you want Luanda Sul courts. Call or WhatsApp ahead to confirm padel desk hours and guest access.",
-    "primarySourceUrl": "https://padellands.com/en/padel-courts/play-time-belas-club/",
+    "primarySourceUrl": "https://clubs.tiesports.com/pt/angola/Playtime_1219120721",
     "secondarySourceUrl": "https://www.vivreenangola.com/bonnes-adresses/playtime-belas-clube/",
     "sourceTypes": "Padel Lands Play Time Belas; Vivre en Angola (phone/email); Instagram @playtime_angola WhatsApp",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Phone backfill +244 922 959 974",
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Phone backfill +244 922 959 974; FIND/enrich 2026-10-19T09 — TieSports booking URL replaces padellands Website; WhatsApp from phone",
     "phone": "+244 922 959 974",
     "email": "geral@playtime.co.ao",
-    "website": "https://padellands.com/en/padel-courts/play-time-belas-club/"
+    "website": "https://clubs.tiesports.com/pt/angola/Playtime_1219120721",
+    "whatsapp": "+244 922 959 974",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "AGO-VEN-016",

@@ -545,5 +545,31 @@
     "lastVerifiedUtc": "2026-10-19",
     "verifiedAt": "2026-10-19",
     "researchNotes": "FIND tick 2026-10-19T08 — Port Said densify. No first-party website/IG asserted. Distinct from Style Padel and Padel Up Courts Port Said."
+  },
+  {
+    "recordId": "EGY-VEN-023",
+    "name": "Padel Up Courts Port Said",
+    "city": "Port Said",
+    "region": "Port Said Governorate",
+    "countryCode": "EG",
+    "line1": "قرية النورس السياحية / شارع طرح البحر (Tarh Al Bahr), Port Said",
+    "lat": 31.272301,
+    "lng": 32.310914,
+    "geoPrecision": "street",
+    "geoSource": "place_card",
+    "geoNote": "Padel Up Courts place card pin Tarh Al Bahr / Al Nawras corridor — not rooftop-surveyed",
+    "website": null,
+    "phone": "+20 122 445 6669",
+    "whatsapp": "+20 122 445 6669",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily ~10:00–03:00 (place card hours).",
+    "description": "Padel Up Courts Port Said puts bookable courts on Tarh Al Bahr / Al Nawras with a published phone — a third Port Said densify stop beside Style Padel and PadZone, distinct from the Cairo Nasr City Padel Up HQ. Call or WhatsApp ahead for late-night sessions.",
+    "primarySourceUrl": "https://padelmaps.org/clubs/egypt/port-said",
+    "secondarySourceUrl": "https://padelup.co/",
+    "sourceTypes": "Place card (Tarh Al Bahr coords + phone + hours); Padel Maps Port Said club list; brand site is Cairo HQ only — not used as Port Said Website",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T09. Distinct from EGY-VEN-008 Padel Up Nasr City. Website left null — padelup.co contact is Cairo office; Port Said is a courts location with place-card phone."
   }
 ]

@@ -1996,3 +1996,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **EGY-VEN-021 Style Padel Port Said** + **EGY-VEN-022 PadZone Port Said** created DISCOVERED (first Port Said city cell). Enriched **MOZ-003** TieSports email/website/hours; **CMR-006** Website≠Instagram fix; **SEN-006** IG @padelsenegal + WhatsApp/hours; **BWA-003/005** Blue Tree + Maun emails. ZM Copperbelt + KE Kisumu → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~09:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 613). **Fair-use:** ballejaune pass **127** (Côte d’Ivoire 404 soft-skip); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **EGY-VEN-023 Padel Up Courts Port Said** (Tarh Al Bahr) created DISCOVERED. Enriched **GHA-005** Matchpoint/email; **GHA-008** padeltowngh.com; **AGO-001/013/015** WhatsApp+IG+TieSports; **GAB-003** WhatsApp; **TZA-003** Bounce Warehouse WhatsApp. AO Benguela/Huambo + GH Cape Coast/Kumasi + ET secondary → zero-result.
+
+Not claiming PUBLISHED.

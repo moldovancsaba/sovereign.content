@@ -920,12 +920,12 @@
     "ballejaune": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 2,
+      "discoveryCursor": 3,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-18T15:00:43.983Z",
+      "lastFetchAt": "2026-10-19T09:00:25.444Z",
       "lastError": {
-        "at": "2026-10-18T15:00:44.248Z",
-        "url": "https://ballejaune.com/senegal/",
+        "at": "2026-10-19T09:00:25.668Z",
+        "url": "https://ballejaune.com/cote-divoire/",
         "reasonCode": "fetch_error"
       }
     },
@@ -1520,6 +1520,6 @@
       "lastError": null
     }
   },
-  "passCount": 126,
-  "lastPassAt": "2026-10-19T08:00:59.359Z"
+  "passCount": 127,
+  "lastPassAt": "2026-10-19T09:00:25.669Z"
 }

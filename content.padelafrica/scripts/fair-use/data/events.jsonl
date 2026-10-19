@@ -4259,3 +4259,5 @@
 {"at":"2026-10-19T07:00:48.324Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/angola/","reasonCode":"fetch_error","error":"fetch failed"}
 {"at":"2026-10-19T08:00:58.892Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery","url":"https://playtomic.io/"}
 {"at":"2026-10-19T08:00:59.359Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery_harvest","url":"https://playtomic.io/","harvested":0}
+{"at":"2026-10-19T09:00:25.444Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/cote-divoire/"}
+{"at":"2026-10-19T09:00:25.668Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/cote-divoire/","status":404,"blocked":false,"reasonCode":"fetch_error"}

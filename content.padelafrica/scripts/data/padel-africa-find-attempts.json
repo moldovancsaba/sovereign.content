@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T08:05:00.000Z",
+  "updatedAt": "2026-10-19T09:05:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3997,6 +3997,69 @@
       "outcome": "skipped",
       "at": "2026-10-19T08:05:00.000Z",
       "note": "fair-padelrevive DE hub needs_verify not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "Port Said",
+      "outcome": "seeded",
+      "at": "2026-10-19T09:05:00.000Z",
+      "note": "EGY-VEN-023 Padel Up Courts Tarh Al Bahr"
+    },
+    {
+      "cc": "GH",
+      "city": "Accra",
+      "outcome": "enriched",
+      "at": "2026-10-19T09:05:00.000Z",
+      "note": "GHA-005 Matchpoint/email; GHA-008 padeltowngh.com"
+    },
+    {
+      "cc": "AO",
+      "city": "Luanda",
+      "outcome": "enriched",
+      "at": "2026-10-19T09:05:00.000Z",
+      "note": "AGO-001/013/015 WhatsApp+IG+TieSports"
+    },
+    {
+      "cc": "GA",
+      "city": "Libreville",
+      "outcome": "enriched",
+      "at": "2026-10-19T09:05:00.000Z",
+      "note": "GAB-003 WhatsApp"
+    },
+    {
+      "cc": "TZ",
+      "city": "Arusha",
+      "outcome": "enriched",
+      "at": "2026-10-19T09:05:00.000Z",
+      "note": "TZA-003 Bounce Warehouse email/site"
+    },
+    {
+      "cc": "AO",
+      "city": "Benguela/Huambo/Lobito",
+      "outcome": "zero-result",
+      "at": "2026-10-19T09:05:00.000Z",
+      "note": "no dedicated padel club evidence beyond Luanda/Lubango"
+    },
+    {
+      "cc": "GH",
+      "city": "Cape Coast/Kumasi",
+      "outcome": "zero-result",
+      "at": "2026-10-19T09:05:00.000Z",
+      "note": "Accra/Tema-only densify remains"
+    },
+    {
+      "cc": "ET",
+      "city": "Dire Dawa/Hawassa",
+      "outcome": "zero-result",
+      "at": "2026-10-19T09:05:00.000Z",
+      "note": "Addis-only inventory"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T09:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]
 }
