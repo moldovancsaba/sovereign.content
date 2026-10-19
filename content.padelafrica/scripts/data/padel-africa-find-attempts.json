@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T09:05:00.000Z",
+  "updatedAt": "2026-10-19T10:05:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -4059,6 +4059,55 @@
       "city": "Dakar",
       "outcome": "skipped",
       "at": "2026-10-19T09:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "MZ",
+      "city": "Maputo/Matola",
+      "outcome": "seeded",
+      "at": "2026-10-19T10:05:00.000Z",
+      "note": "MOZ-009 Indoor Padel Zone + MOZ-010 Elite Matola"
+    },
+    {
+      "cc": "CG",
+      "city": "Brazzaville/Pointe-Noire",
+      "outcome": "enriched",
+      "at": "2026-10-19T10:05:00.000Z",
+      "note": "COG-001 hours; COG-002/005 WhatsApp"
+    },
+    {
+      "cc": "CD",
+      "city": "Kinshasa",
+      "outcome": "enriched",
+      "at": "2026-10-19T10:05:00.000Z",
+      "note": "COD-001 Matchpoint secondary phone note"
+    },
+    {
+      "cc": "SL",
+      "city": "Freetown",
+      "outcome": "enriched",
+      "at": "2026-10-19T10:05:00.000Z",
+      "note": "SLE-002 Website≠IG guard"
+    },
+    {
+      "cc": "CV",
+      "city": "Mindelo",
+      "outcome": "zero-result",
+      "at": "2026-10-19T10:05:00.000Z",
+      "note": "no dedicated São Vicente padel club evidence"
+    },
+    {
+      "cc": "MZ",
+      "city": "Nampula/Quelimane/Nacala",
+      "outcome": "zero-result",
+      "at": "2026-10-19T10:05:00.000Z",
+      "note": "Maputo corridor densify only"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T10:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]

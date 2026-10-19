@@ -22,10 +22,10 @@
     "secondarySourceUrl": "https://www.primature.gouv.cg/2026/06/10/le-premier-ministre-inaugure-le-centre-commercial-k-galerie/",
     "sourceTypes": "Booking platform; Prime Minister inauguration report; Instagram",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-18",
-    "researchNotes": "KENNYS PADEL and K PADEL are the same K Galerie venue FIND/enrich 2026-10-18T23",
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "KENNYS PADEL and K PADEL are the same K Galerie venue FIND/enrich 2026-10-18T23; FIND/enrich 2026-10-19T10 — Matchpoint hours confirm 09:00–22:00",
     "whatsapp": "+242 06 150 2967",
-    "verifiedAt": "2026-10-18"
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "COG-VEN-002",
@@ -49,8 +49,10 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/tennis-club-brazzaville/",
     "sourceTypes": "Booking platform; TrustPadel; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-13",
-    "researchNotes": "Primary phone is the first of two published numbers; address wordings differ across sources; tick 11:00 phone +242066623512 BalleJaune contact"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Primary phone is the first of two published numbers; address wordings differ across sources; tick 11:00 phone +242066623512 BalleJaune contact; FIND/enrich 2026-10-19T10 — WhatsApp from published Brazzaville club phone",
+    "whatsapp": "+242 06 662 3512",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "COG-VEN-003",
@@ -127,7 +129,9 @@
     "secondarySourceUrl": "https://www.africabizinfo.com/fr-CG/le-derrick-06-660-2600",
     "sourceTypes": "Petit Futé 2026; AfricaBizInfo; TripAdvisor",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Primary phone/email only; two other phones and a second email published in directories"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Primary phone/email only; two other phones and a second email published in directories; FIND/enrich 2026-10-19T10 — WhatsApp from published Le Derrick phone",
+    "whatsapp": "+242 06 660 2600",
+    "verifiedAt": "2026-10-19"
   }
 ]

@@ -2004,3 +2004,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **EGY-VEN-023 Padel Up Courts Port Said** (Tarh Al Bahr) created DISCOVERED. Enriched **GHA-005** Matchpoint/email; **GHA-008** padeltowngh.com; **AGO-001/013/015** WhatsApp+IG+TieSports; **GAB-003** WhatsApp; **TZA-003** Bounce Warehouse WhatsApp. AO Benguela/Huambo + GH Cape Coast/Kumasi + ET secondary → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~10:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** padel-maroc pass **128** (annuaire harvest 0); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **MOZ-VEN-009 Indoor Padel Zone** (Maputo, TieSports email) + **MOZ-VEN-010 Elite Padel Club Matola** created DISCOVERED. Enriched **COG-001/002/005** hours/WhatsApp; **COD-001** Matchpoint secondary phone note; **SLE-002** Website≠IG guard. CV Mindelo + MZ Nampula corridor → zero-result.
+
+Not claiming PUBLISHED.
