@@ -3110,5 +3110,20 @@
     "researchNote": "Discovered via CourtPro club directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) — phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) → contactLinks; bare WhatsApp → wa.me; if no street use city-level line1 + OSM city pin (locality).",
     "status": "needs_verify",
     "extractedAt": "2026-10-19T06:00:29.350Z"
+  },
+  {
+    "candidateId": "fair-courtpro-padel-club-ngaparou",
+    "sourceId": "courtpro",
+    "sourceName": "CourtPro club directory",
+    "name": "Padel club ngaparou",
+    "citationUrl": "https://www.courtpro.com/clubs/senegal/ngaparou/padel-club-ngaparou",
+    "website": "",
+    "countryHint": "Senegal",
+    "researchSources": [
+      "https://www.courtpro.com/clubs/senegal/ngaparou/padel-club-ngaparou"
+    ],
+    "researchNote": "Discovered via CourtPro club directory fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) — phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) → contactLinks; bare WhatsApp → wa.me; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "needs_verify",
+    "extractedAt": "2026-10-19T22:00:38.292Z"
   }
 ]
