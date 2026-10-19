@@ -4251,3 +4251,5 @@
 {"at":"2026-10-19T03:00:46.365Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/","harvested":0}
 {"at":"2026-10-19T04:01:49.602Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-in-tanzania/"}
 {"at":"2026-10-19T04:01:49.941Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-tanzania/","harvested":0}
+{"at":"2026-10-19T05:00:27.500Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/libya/"}
+{"at":"2026-10-19T05:00:28.824Z","type":"fair_use_reject","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/libya/","status":404,"blocked":false,"reasonCode":"fetch_error"}

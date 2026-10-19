@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T04:03:15.223Z",
+  "updatedAt": "2026-10-19T05:01:32.926Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3801,6 +3801,55 @@
       "outcome": "zero-result",
       "at": "2026-10-19T04:03:15.223Z",
       "note": "no public padel infrastructure"
+    },
+    {
+      "cc": "TN",
+      "city": "Gabès",
+      "outcome": "seeded",
+      "at": "2026-10-19T05:01:32.926Z",
+      "note": "TUN-034 Park Sky + TUN-035 La Vingtaine"
+    },
+    {
+      "cc": "TN",
+      "city": "Dar Chaabane",
+      "outcome": "seeded",
+      "at": "2026-10-19T05:01:32.926Z",
+      "note": "TUN-036 Padel Factory Nabeul"
+    },
+    {
+      "cc": "TN",
+      "city": "Nabeul",
+      "outcome": "enriched",
+      "at": "2026-10-19T05:01:32.926Z",
+      "note": "TUN-007 OpenResa/hours/WhatsApp align"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "enriched",
+      "at": "2026-10-19T05:01:32.926Z",
+      "note": "SEN-001/002/003 WhatsApp"
+    },
+    {
+      "cc": "LR",
+      "city": "Monrovia",
+      "outcome": "zero-result",
+      "at": "2026-10-19T05:01:32.926Z",
+      "note": "Padel House Liberia launching-only — no live booking contact"
+    },
+    {
+      "cc": "LS",
+      "city": "Maseru",
+      "outcome": "zero-result",
+      "at": "2026-10-19T05:01:32.926Z",
+      "note": "no dedicated padel club evidence"
+    },
+    {
+      "cc": "GH",
+      "city": "Kumasi",
+      "outcome": "zero-result",
+      "at": "2026-10-19T05:01:32.926Z",
+      "note": "Accra-only densify remains"
     }
   ]
 }

@@ -1964,3 +1964,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-19 — padelafrica (tick ~05:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 607). **Fair-use:** padellands pass **123** (Libya EN 404 soft-skip); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **TUN-VEN-034 Padel Park Sky** + **TUN-VEN-035 Padel Club La Vingtaine** (Gabès densify) + **TUN-VEN-036 Padel Factory Nabeul** (Dar Chaabane) created DISCOVERED. Enriched **TUN-007** OpenResa/hours/WhatsApp; **SEN-001/002/003** WhatsApp. LR Monrovia / LS Maseru / GH Kumasi → zero-result.
+
+Not claiming PUBLISHED.
+

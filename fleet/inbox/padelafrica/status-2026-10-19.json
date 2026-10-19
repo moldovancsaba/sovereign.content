@@ -1,49 +1,43 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T04:03Z",
+  "tickUtc": "2026-10-19T05:01Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 604; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 607; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 122,
+    "passCount": 123,
     "pendingCandidates": 1,
-    "note": "padelrevive Tanzania harvest 0; padelrevive DE Senegal hub still needs_verify not promoted; skip actu-padel thrash"
+    "note": "padellands Libya 404 soft-skip; padelrevive DE Senegal hub still needs_verify not promoted; skip actu-padel thrash"
   },
   "find": {
     "seeded": [
-      "LBY-VEN-005"
+      "TUN-VEN-034",
+      "TUN-VEN-035",
+      "TUN-VEN-036"
     ],
     "enriched": [
-      "LBY-VEN-001",
-      "LBY-VEN-002",
-      "LBY-VEN-003",
-      "MAR-VEN-027",
-      "MAR-VEN-035",
-      "MAR-VEN-016",
-      "MAR-VEN-024",
-      "MAR-VEN-009",
-      "CPV-VEN-001",
-      "COG-VEN-003",
-      "COG-VEN-004"
+      "TUN-VEN-007",
+      "SEN-VEN-001",
+      "SEN-VEN-002",
+      "SEN-VEN-003"
     ],
     "zeroResult": [
-      "ML Bamako",
-      "ET Dire Dawa/Hawassa/Mekelle",
-      "TD N'Djamena"
+      "LR Monrovia (launching-only)",
+      "LS Maseru",
+      "GH Kumasi"
     ],
     "skipped": [
       "actu-padel thrash",
-      "fair-padelrevive DE Senegal hub",
-      "Oxygen IG handle unconfirmed"
+      "fair-padelrevive DE Senegal hub"
     ]
   },
   "hitlBacklog": 0,
