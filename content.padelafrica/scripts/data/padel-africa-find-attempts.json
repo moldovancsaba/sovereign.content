@@ -4620,6 +4620,55 @@
       "outcome": "skipped",
       "at": "2026-10-19T20:05:00.000Z",
       "note": "padelrevive Angola harvest 1 — duplicates already in AGO fixtures"
+    },
+    {
+      "cc": "EG",
+      "city": "6th of October",
+      "outcome": "seeded",
+      "at": "2026-10-19T21:05:00.000Z",
+      "note": "EGY-055 Beats Wahat + EGY-057 Avenue + EGY-058 SD Grove"
+    },
+    {
+      "cc": "EG",
+      "city": "Sheikh Zayed",
+      "outcome": "seeded",
+      "at": "2026-10-19T21:05:00.000Z",
+      "note": "EGY-056 Beats Khamayel + EGY-059 SR Zed"
+    },
+    {
+      "cc": "GH",
+      "city": "Accra",
+      "outcome": "enriched",
+      "at": "2026-10-19T21:05:00.000Z",
+      "note": "GHA-004 Aura IG; GHA-005 place pin + Website≠Matchpoint"
+    },
+    {
+      "cc": "ZM",
+      "city": "Lusaka",
+      "outcome": "enriched",
+      "at": "2026-10-19T21:05:00.000Z",
+      "note": "ZMB-001 Deuce IG/WhatsApp"
+    },
+    {
+      "cc": "EG",
+      "city": "Banha",
+      "outcome": "zero-result",
+      "at": "2026-10-19T21:05:00.000Z",
+      "note": "still no public padel club evidence"
+    },
+    {
+      "cc": "NE",
+      "city": "Niamey",
+      "outcome": "zero-result",
+      "at": "2026-10-19T21:05:00.000Z",
+      "note": "no public padel infrastructure"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T21:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "appliedAt": "2026-10-19T21:02:05.106Z",
+  "results": [
+    {
+      "recordId": "EGY-VEN-055",
+      "id": "research-egy-ven-055",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-055",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-056",
+      "id": "research-egy-ven-056",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-056",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-057",
+      "id": "research-egy-ven-057",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-057",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-058",
+      "id": "research-egy-ven-058",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-058",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-059",
+      "id": "research-egy-ven-059",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-059",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "GHA-VEN-004",
+      "id": "research-gha-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gha-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GHA-VEN-005",
+      "id": "research-gha-ven-005",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gha-ven-005",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ZMB-VEN-001",
+      "id": "research-zmb-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zmb-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}
