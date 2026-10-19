@@ -73,8 +73,10 @@
     "secondarySourceUrl": "https://ballejaune.com/club/Padel2001",
     "sourceTypes": "OpenResa; Balle Jaune",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "No public email, street pin, hours or court count in the audit"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "No public email, street pin, hours or court count in the audit; FIND/enrich 2026-10-19T04 WhatsApp from published phone",
+    "whatsapp": "+242 05 263 2586",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "COG-VEN-004",
@@ -97,8 +99,11 @@
     "secondarySourceUrl": "https://squashchamps.com/venue/cerclboucgxn",
     "sourceTypes": "Booking/contact page; SquashChamps; historic press",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-22",
-    "dataConflicts": "Two-court padel inventory from SquashChamps only — not independently corroborated in the audit"
+    "lastVerifiedUtc": "2026-10-19",
+    "dataConflicts": "Two-court padel inventory from SquashChamps only — not independently corroborated in the audit",
+    "whatsapp": "+242 06 669 6069",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND/enrich 2026-10-19T04 WhatsApp from published phone"
   },
   {
     "recordId": "COG-VEN-005",

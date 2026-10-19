@@ -4249,3 +4249,5 @@
 {"at":"2026-10-19T02:00:33.020Z","type":"fair_use_attempt","sourceId":"padelfip","mode":"discovery_harvest","url":"https://www.padelfip.com/live/","harvested":0}
 {"at":"2026-10-19T03:00:45.313Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery","url":"https://premierpadel.com/"}
 {"at":"2026-10-19T03:00:46.365Z","type":"fair_use_attempt","sourceId":"premierpadel","mode":"discovery_harvest","url":"https://premierpadel.com/","harvested":0}
+{"at":"2026-10-19T04:01:49.602Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery","url":"https://padelrevive.com/padel-in-tanzania/"}
+{"at":"2026-10-19T04:01:49.941Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-tanzania/","harvested":0}

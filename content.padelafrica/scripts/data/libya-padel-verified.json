@@ -14,15 +14,16 @@
     "website": "https://padelhouse.ly/",
     "phone": "+218 92 003 4333",
     "venueModel": "own_premises",
-    "seasonNote": "Hours not listed yet. Book via WhatsApp.",
+    "seasonNote": "Book online 24/7; open 7 days (operator site).",
     "description": "Padel House brings indoor air-conditioned padel courts to Ain Zara in Tripoli — among Libya’s first covered, climate-controlled padel venues with WhatsApp booking. A clear recommendation when you want a named Tripoli padel destination rather than hunting anonymous pitches. Message ahead for availability; VIP rooms are separate from court hire.",
     "primarySourceUrl": "https://padelhouse.ly/",
     "secondarySourceUrl": "https://padelhouse.ly/",
     "sourceTypes": "Padel House first-party site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
+    "lastVerifiedUtc": "2026-10-19",
     "whatsapp": "+218 92 003 4333",
-    "instagram": "https://www.instagram.com/padelhouse.ly/"
+    "instagram": "https://www.instagram.com/padelhouse.ly/",
+    "researchNotes": "FIND/enrich 2026-10-19T04 seasonNote refresh from padelhouse.ly"
   },
   {
     "recordId": "LBY-VEN-002",
@@ -44,8 +45,10 @@
     "secondarySourceUrl": "https://www.padelwithoutborders.com/libya-padel/",
     "sourceTypes": "Padel Lands Libya directory; Padel Without Borders Libya overview; LinkedIn Game for Life event at ملعب الزياني",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-23",
-    "researchNotes": "FIND tick 2026-09-23. Phone +218 92-0005302 from Padel Lands; no first-party website verified in the audit window — directory + event corroboration retained."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-23. Phone +218 92-0005302 from Padel Lands; no first-party website verified in the audit window — directory + event corroboration retained.; FIND/enrich 2026-10-19T04 WhatsApp from published phone",
+    "whatsapp": "+218 92 000 5302",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "LBY-VEN-003",
@@ -67,8 +70,10 @@
     "secondarySourceUrl": "https://www.padelwithoutborders.com/libya-padel/",
     "sourceTypes": "Padel Lands Libya directory; Padel Without Borders; Mendoza Club sports booking app listing",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-23",
-    "researchNotes": "FIND tick 2026-09-23. Phone +218 91-1909494 from Padel Lands; App Store listing confirms padel/padbol court booking for Mendoza Club."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-23. Phone +218 91-1909494 from Padel Lands; App Store listing confirms padel/padbol court booking for Mendoza Club.; FIND/enrich 2026-10-19T04 WhatsApp from published phone",
+    "whatsapp": "+218 91 190 9494",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "LBY-VEN-004",
@@ -95,5 +100,31 @@
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/libya-en/",
     "sourceTypes": "Operator Facebook/local listing with Benghazi Al-Qawasha address, dual booking phones, and Google Maps pin; Libya padel directory context for Tripoli cluster contrast.",
     "verifiedAt": "2026-10-18"
+  },
+  {
+    "recordId": "LBY-VEN-005",
+    "name": "Oxygen Sports Club Padel",
+    "city": "Tripoli",
+    "region": "Tripoli",
+    "countryCode": "LY",
+    "line1": "Gorji Street, Qurji",
+    "lat": 32.866988,
+    "lng": 13.134954,
+    "geoPrecision": "locality",
+    "geoSource": "operator_maps",
+    "geoNote": "Place listing pin Gorji St / Qurji — first-party site does not publish rooftop coords",
+    "website": "https://www.oxygensc.ly/",
+    "phone": "+218 91 184 4555",
+    "whatsapp": "+218 91 184 4555",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 07:00–01:00 (place listing).",
+    "description": "Oxygen Sports Club brings premium padel courts to Gorji Street in Qurji, Tripoli, with a first-party booking site and published club phone. A clear Tripoli densify stop beyond Padel House Ain Zara, Zeyani on Omar Almukhtar, and Mendoza in Abu Salim. Book on oxygensc.ly or call ahead for evening slots.",
+    "primarySourceUrl": "https://www.oxygensc.ly/",
+    "secondarySourceUrl": "https://www.linkedin.com/company/oxygensc",
+    "sourceTypes": "First-party oxygensc.ly; place listing phone/hours/coords; LinkedIn club card",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T04. Instagram @oxygen.padel.ly not asserted — handle not confirmed on first-party site."
   }
 ]

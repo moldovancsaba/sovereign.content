@@ -1956,3 +1956,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-19 — padelafrica (tick ~04:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 604). **Fair-use:** padelrevive pass **122** (Tanzania harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **LBY-VEN-005 Oxygen Sports Club Padel** (Gorji/Qurji Tripoli, oxygensc.ly+phone+WhatsApp) created DISCOVERED. Enriched **LBY-001/002/003**; **MAR-027/035** Padel Factory IG @padelfactoryagadir+WhatsApp; **MAR-016/024/009** Urban/Carré WhatsApp; **CPV-001** + **COG-003/004** WhatsApp. ML Bamako / ET secondary / TD → zero-result. Oxygen Instagram not asserted without first-party confirm.
+
+Not claiming PUBLISHED.
+

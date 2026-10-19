@@ -1,44 +1,49 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T03:04Z",
+  "tickUtc": "2026-10-19T04:03Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 603; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 604; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 121,
+    "passCount": 122,
     "pendingCandidates": 1,
-    "note": "premierpadel harvest 0; padelrevive DE Senegal hub still needs_verify not promoted; skip actu-padel thrash"
+    "note": "padelrevive Tanzania harvest 0; padelrevive DE Senegal hub still needs_verify not promoted; skip actu-padel thrash"
   },
   "find": {
     "seeded": [
-      "AGO-VEN-020"
+      "LBY-VEN-005"
     ],
     "enriched": [
-      "CMR-VEN-002",
-      "TUN-VEN-015",
-      "TUN-VEN-016",
-      "ZMB-VEN-008",
-      "AGO-VEN-003",
-      "AGO-VEN-018"
+      "LBY-VEN-001",
+      "LBY-VEN-002",
+      "LBY-VEN-003",
+      "MAR-VEN-027",
+      "MAR-VEN-035",
+      "MAR-VEN-016",
+      "MAR-VEN-024",
+      "MAR-VEN-009",
+      "CPV-VEN-001",
+      "COG-VEN-003",
+      "COG-VEN-004"
     ],
     "zeroResult": [
-      "ZM Copperbelt Ndola/Kitwe/Livingstone",
-      "BF Ouagadougou (no new dedicated club beyond Lancaster/KABB)"
+      "ML Bamako",
+      "ET Dire Dawa/Hawassa/Mekelle",
+      "TD N'Djamena"
     ],
     "skipped": [
       "actu-padel thrash",
       "fair-padelrevive DE Senegal hub",
-      "MA Urban Royal/Padel Factory/Carre already seeded",
-      "TN Sfax Eleven/Just/Casa already seeded"
+      "Oxygen IG handle unconfirmed"
     ]
   },
   "hitlBacklog": 0,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T03:04:05.899Z",
+  "updatedAt": "2026-10-19T04:03:15.223Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3745,6 +3745,62 @@
       "outcome": "skipped",
       "at": "2026-10-19T03:04:05.899Z",
       "note": "Eleven/Just/Casa already seeded — enrich only"
+    },
+    {
+      "cc": "LY",
+      "city": "Tripoli",
+      "outcome": "seeded",
+      "at": "2026-10-19T04:03:15.223Z",
+      "note": "LBY-VEN-005 Oxygen Sports Club oxygensc.ly+phone"
+    },
+    {
+      "cc": "LY",
+      "city": "Tripoli",
+      "outcome": "enriched",
+      "at": "2026-10-19T04:03:15.223Z",
+      "note": "LBY-001/002/003 seasonNote+WhatsApp"
+    },
+    {
+      "cc": "MA",
+      "city": "Agadir/Marrakech",
+      "outcome": "enriched",
+      "at": "2026-10-19T04:03:15.223Z",
+      "note": "Padel Factory IG/WA + Urban/Carre WhatsApp"
+    },
+    {
+      "cc": "CV",
+      "city": "Praia",
+      "outcome": "enriched",
+      "at": "2026-10-19T04:03:15.223Z",
+      "note": "CPV-001 WhatsApp"
+    },
+    {
+      "cc": "CG",
+      "city": "Pointe-Noire",
+      "outcome": "enriched",
+      "at": "2026-10-19T04:03:15.223Z",
+      "note": "COG-003/004 WhatsApp"
+    },
+    {
+      "cc": "ML",
+      "city": "Bamako",
+      "outcome": "zero-result",
+      "at": "2026-10-19T04:03:15.223Z",
+      "note": "no dedicated padel club evidence"
+    },
+    {
+      "cc": "ET",
+      "city": "Dire Dawa/Hawassa/Mekelle",
+      "outcome": "zero-result",
+      "at": "2026-10-19T04:03:15.223Z",
+      "note": "Addis-only inventory"
+    },
+    {
+      "cc": "TD",
+      "city": "N'Djamena",
+      "outcome": "zero-result",
+      "at": "2026-10-19T04:03:15.223Z",
+      "note": "no public padel infrastructure"
     }
   ]
 }
