@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T14:05:00.000Z",
+  "updatedAt": "2026-10-19T15:05:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -4325,6 +4325,55 @@
       "city": "Dakar",
       "outcome": "skipped",
       "at": "2026-10-19T14:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "Ras El-Bar",
+      "outcome": "seeded",
+      "at": "2026-10-19T15:05:00.000Z",
+      "note": "EGY-037 PADEL RAS-El BAR + EGY-038 On Point"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "enriched",
+      "at": "2026-10-19T15:05:00.000Z",
+      "note": "SEN-010 Olympique IG/WhatsApp/email"
+    },
+    {
+      "cc": "CM",
+      "city": "Yaoundé",
+      "outcome": "enriched",
+      "at": "2026-10-19T15:05:00.000Z",
+      "note": "CMR-005 BENDO WhatsApp field"
+    },
+    {
+      "cc": "AO",
+      "city": "Luanda",
+      "outcome": "enriched",
+      "at": "2026-10-19T15:05:00.000Z",
+      "note": "AGO WhatsApp=mobile wave"
+    },
+    {
+      "cc": "EG",
+      "city": "Suez City",
+      "outcome": "zero-result",
+      "at": "2026-10-19T15:05:00.000Z",
+      "note": "no public padel club evidence (Suez Rd Cairo hits excluded)"
+    },
+    {
+      "cc": "LR",
+      "city": "Monrovia",
+      "outcome": "zero-result",
+      "at": "2026-10-19T15:05:00.000Z",
+      "note": "Padel House Sinkor announced only; no live contact bar"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T15:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]

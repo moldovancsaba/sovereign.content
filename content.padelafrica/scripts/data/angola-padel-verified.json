@@ -97,10 +97,11 @@
     "secondarySourceUrl": "https://do-padel.com/dopadel/clubs/angola/luanda/luanda",
     "sourceTypes": "Playtomic CLUBE DESPORTIVO MIRAMAX; do-padel directory; club contact posts",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
+    "lastVerifiedUtc": "2026-10-19",
     "website": "https://playtomic.com/clubs/clube-miramax",
     "phone": "+244 922 740 250",
-    "researchNotes": "Phone backfill 2026-09-26: club contact 922 740 250 published on Miramax operator LinkedIn posts (football/tennis hire); Playtomic booking URL already present."
+    "researchNotes": "Phone backfill 2026-09-26: club contact 922 740 250 published on Miramax operator LinkedIn posts (football/tennis hire); Playtomic booking URL already present. FIND 2026-10-19T15 WhatsApp=published mobile booking line.",
+    "whatsapp": "+244 922 740 250"
   },
   {
     "recordId": "AGO-VEN-005",
@@ -121,10 +122,11 @@
     "secondarySourceUrl": "https://wanderlog.com/place/details/10525867/kool-park",
     "sourceTypes": "Playtomic KOOL PADEL; Kool Park complex phone listings",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-26",
+    "lastVerifiedUtc": "2026-10-19",
     "website": "https://playtomic.com/clubs/kool-padel",
     "phone": "+244 924 369 546",
-    "researchNotes": "Phone is Kool Park complex contact colocated at Rua 4 Lar do Patriota — not a dedicated padel desk invent"
+    "researchNotes": "Phone is Kool Park complex contact colocated at Rua 4 Lar do Patriota — not a dedicated padel desk invent FIND 2026-10-19T15 WhatsApp=published mobile booking line.",
+    "whatsapp": "+244 924 369 546"
   },
   {
     "recordId": "AGO-VEN-006",
@@ -213,10 +215,11 @@
     "secondarySourceUrl": "https://check-in.ao/events/standard-bank-padel-open-2026",
     "sourceTypes": "Directory, booking platform and event organiser",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22",
+    "lastVerifiedUtc": "2026-10-19",
     "website": "https://playtomic.com/clubs/premier-padel-club-standard-bank",
     "phone": "+244 925 012 025",
-    "researchNotes": "Hosted the 2026 Standard Bank Padel Open."
+    "researchNotes": "Hosted the 2026 Standard Bank Padel Open. FIND 2026-10-19T15 WhatsApp=published mobile booking line.",
+    "whatsapp": "+244 925 012 025"
   },
   {
     "recordId": "AGO-VEN-010",
@@ -262,10 +265,11 @@
     "secondarySourceUrl": "https://playtomic.com/clubs/smash-padel-angola",
     "sourceTypes": "Directory plus booking platform",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-26",
+    "lastVerifiedUtc": "2026-10-19",
     "website": "https://playtomic.com/clubs/smash-padel-angola",
-    "researchNotes": "Court-count conflict retained rather than resolved speculatively.; phone from Padel Lands / Playtomic 2026-09-26",
-    "phone": "+244 945 767 373"
+    "researchNotes": "Court-count conflict retained rather than resolved speculatively.; phone from Padel Lands / Playtomic 2026-09-26 FIND 2026-10-19T15 WhatsApp=published mobile booking line.",
+    "phone": "+244 945 767 373",
+    "whatsapp": "+244 945 767 373"
   },
   {
     "recordId": "AGO-VEN-013",
@@ -367,11 +371,12 @@
     "secondarySourceUrl": "https://www.hoteisangola.com/alojamento/hotels/lubango/kimbo-soba.html",
     "sourceTypes": "Independent travel review plus hotel directory",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-24",
+    "lastVerifiedUtc": "2026-10-19",
     "website": null,
     "phone": "+244 922 396 462",
     "email": null,
-    "researchNotes": "FIND until-found tick 2026-09-24 (AO Lubango deepen_large). After AO Benguela/Lobito zero-results. Phone on LNL review; OSM building pin. Court count cited as two functional in review — not invented."
+    "researchNotes": "FIND until-found tick 2026-09-24 (AO Lubango deepen_large). After AO Benguela/Lobito zero-results. Phone on LNL review; OSM building pin. Court count cited as two functional in review — not invented. FIND 2026-10-19T15 WhatsApp=published mobile booking line.",
+    "whatsapp": "+244 922 396 462"
   },
   {
     "recordId": "AGO-VEN-012",
@@ -394,8 +399,9 @@
     "secondarySourceUrl": "https://www.travelweekly.com/Hotels/Luanda-Angola/Hotel-de-Convencoes-Talatona-p59258654",
     "sourceTypes": "TiePadel club card; HCTA address cross-check",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "TiePadel lists Talatona CCb4 GU02; TravelWeekly HCTA Rua Luanda Sul Talatona CCB4 GU02"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "TiePadel lists Talatona CCb4 GU02; TravelWeekly HCTA Rua Luanda Sul Talatona CCB4 GU02 FIND 2026-10-19T15 WhatsApp=published mobile booking line.",
+    "whatsapp": "+244 933 864 444"
   },
   {
     "recordId": "AGO-VEN-017",

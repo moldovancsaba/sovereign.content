@@ -869,12 +869,12 @@
     "padelmap": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 8,
+      "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-19T00:01:28.714Z",
+      "lastFetchAt": "2026-10-19T15:00:40.563Z",
       "lastError": {
-        "at": "2026-10-19T00:01:28.833Z",
-        "url": "https://padelmap.net/courts/senegal",
+        "at": "2026-10-19T15:00:40.703Z",
+        "url": "https://padelmap.net/courts/south-africa",
         "reasonCode": "http_blocked"
       }
     },
@@ -1520,6 +1520,6 @@
       "lastError": null
     }
   },
-  "passCount": 132,
-  "lastPassAt": "2026-10-19T14:01:08.007Z"
+  "passCount": 133,
+  "lastPassAt": "2026-10-19T15:00:40.704Z"
 }

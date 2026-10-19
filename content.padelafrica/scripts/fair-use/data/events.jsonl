@@ -4271,3 +4271,5 @@
 {"at":"2026-10-19T13:00:41.536Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/padel-en-africa/","harvested":0}
 {"at":"2026-10-19T14:01:07.800Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/"}
 {"at":"2026-10-19T14:01:08.007Z","type":"fair_use_reject","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/","status":403,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-10-19T15:00:40.564Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/south-africa"}
+{"at":"2026-10-19T15:00:40.704Z","type":"fair_use_reject","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/south-africa","status":429,"blocked":true,"reasonCode":"http_blocked"}
