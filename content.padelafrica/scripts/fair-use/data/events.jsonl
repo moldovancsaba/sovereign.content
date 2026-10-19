@@ -4241,3 +4241,5 @@
 {"at":"2026-10-18T22:00:42.802Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"discovery_harvest","url":"https://www.courtpro.com/clubs/senegal","harvested":2}
 {"at":"2026-10-18T23:00:49.207Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/"}
 {"at":"2026-10-18T23:00:49.302Z","type":"fair_use_reject","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/","status":403,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-10-19T00:01:28.714Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/senegal"}
+{"at":"2026-10-19T00:01:28.833Z","type":"fair_use_reject","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/senegal","status":429,"blocked":true,"reasonCode":"http_blocked"}

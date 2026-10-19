@@ -1923,3 +1923,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **MUS-VEN-009 Moka Rangers Sports Club** (La Promenade, 4 covered courts, phone+email+IG) + **MUS-VEN-010 FitLife Padel** (Vanilla Connect, distinct from ClubHouse) created DISCOVERED. Enrich wave: **TGO-003** email/WhatsApp; **COD-005/002** WhatsApp; **GNQ-001/003** email/site/WhatsApp; **GIN-001** IG/WhatsApp; **MWI-001/003/004** email/WhatsApp; **ZWE-001/005** email; **GAB-001/002** WhatsApp; **KEN-009** email; **BEN-001** email; **GMB-001/RWA-002** WhatsApp digit form. ML/BF → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~00:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 600). **Fair-use:** padelmap pass **118** (Senegal 429 soft-skip); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **MUS-VEN-011 RM Club Tamarin** (5 covered courts, Cap Tamarin) + **MUS-VEN-012 Labourdonnais Sports Club** (Mapou, 3 courts) + **MUS-VEN-013 Studio by RM Azuri** (3 covered courts) created DISCOVERED. Enriched **SYC-002** Labriz WhatsApp; **SLE-001** Young Sportsmen WhatsApp. LS Maseru / LR Monrovia → zero-result (essay/launching-only).
+
+Not claiming PUBLISHED.
