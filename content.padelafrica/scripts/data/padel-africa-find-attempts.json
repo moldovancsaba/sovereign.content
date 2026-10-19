@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T07:02:28.719Z",
+  "updatedAt": "2026-10-19T08:05:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3934,6 +3934,69 @@
       "outcome": "zero-result",
       "at": "2026-10-19T07:02:28.719Z",
       "note": "Gaborone/Maun-only inventory"
+    },
+    {
+      "cc": "EG",
+      "city": "Port Said",
+      "outcome": "seeded",
+      "at": "2026-10-19T08:05:00.000Z",
+      "note": "EGY-VEN-021 Style Padel + EGY-VEN-022 PadZone"
+    },
+    {
+      "cc": "MZ",
+      "city": "Maputo",
+      "outcome": "enriched",
+      "at": "2026-10-19T08:05:00.000Z",
+      "note": "MOZ-003 TieSports email/website/hours"
+    },
+    {
+      "cc": "CM",
+      "city": "Yaoundé",
+      "outcome": "enriched",
+      "at": "2026-10-19T08:05:00.000Z",
+      "note": "CMR-006 Website≠Instagram fix"
+    },
+    {
+      "cc": "SN",
+      "city": "Saly Portudal",
+      "outcome": "enriched",
+      "at": "2026-10-19T08:05:00.000Z",
+      "note": "SEN-006 IG @padelsenegal + WhatsApp/hours"
+    },
+    {
+      "cc": "BW",
+      "city": "Gaborone/Maun",
+      "outcome": "enriched",
+      "at": "2026-10-19T08:05:00.000Z",
+      "note": "BWA-003 Blue Tree email; BWA-005 Maun email"
+    },
+    {
+      "cc": "ZM",
+      "city": "Ndola/Kitwe",
+      "outcome": "zero-result",
+      "at": "2026-10-19T08:05:00.000Z",
+      "note": "no dedicated Copperbelt padel club evidence"
+    },
+    {
+      "cc": "KE",
+      "city": "Kisumu",
+      "outcome": "zero-result",
+      "at": "2026-10-19T08:05:00.000Z",
+      "note": "actu-padel directory only — no first-party contact bar"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T08:05:00.000Z",
+      "note": "CourtPro DPC fair-use candidate = duplicate SEN-VEN-002"
+    },
+    {
+      "cc": "SN",
+      "city": "padelrevive-de-senegal-hub",
+      "outcome": "skipped",
+      "at": "2026-10-19T08:05:00.000Z",
+      "note": "fair-padelrevive DE hub needs_verify not promoted"
     }
   ]
 }

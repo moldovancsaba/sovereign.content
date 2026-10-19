@@ -1988,3 +1988,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **CIV-VEN-016 Padel San-Pedro** (San-Pédro coast, phone+IG) + **MAR-VEN-051 YOUPAD Club** (Oujda) created DISCOVERED. Enriched **MAR-007/010/018/036/038** (Padel Spot phone; TCMT Instagram off Website; WhatsApp wave). CI Yamoussoukro/Bouaké + BW Francistown → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~08:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 612). **Fair-use:** playtomic pass **126** (harvest 0); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **EGY-VEN-021 Style Padel Port Said** + **EGY-VEN-022 PadZone Port Said** created DISCOVERED (first Port Said city cell). Enriched **MOZ-003** TieSports email/website/hours; **CMR-006** Website≠Instagram fix; **SEN-006** IG @padelsenegal + WhatsApp/hours; **BWA-003/005** Blue Tree + Maun emails. ZM Copperbelt + KE Kisumu → zero-result.
+
+Not claiming PUBLISHED.
