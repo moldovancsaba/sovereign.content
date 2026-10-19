@@ -1451,9 +1451,7 @@
       "lastError": null
     },
     "courtpro": {
-      "queue": [
-        "https://www.courtpro.com/clubs/senegal/ngaparou/padel-club-ngaparou"
-      ],
+      "queue": [],
       "done": {
         "https://www.courtpro.com/clubs/united-states/mauldin/40forty-padel-club": {
           "at": "2026-10-13T13:02:47.063Z",
@@ -1494,11 +1492,16 @@
           "at": "2026-10-19T06:00:29.355Z",
           "reasonCode": "seeded",
           "reason": "seeded"
+        },
+        "https://www.courtpro.com/clubs/senegal/ngaparou/padel-club-ngaparou": {
+          "at": "2026-10-19T22:00:38.295Z",
+          "reasonCode": "seeded",
+          "reason": "seeded"
         }
       },
       "discoveryCursor": 9,
-      "leadsAdded": 8,
-      "lastFetchAt": "2026-10-19T06:00:29.007Z",
+      "leadsAdded": 9,
+      "lastFetchAt": "2026-10-19T22:00:38.049Z",
       "lastError": null
     },
     "playtomic-directory": {
@@ -1522,6 +1525,6 @@
       "lastError": null
     }
   },
-  "passCount": 139,
-  "lastPassAt": "2026-10-19T21:00:48.977Z"
+  "passCount": 140,
+  "lastPassAt": "2026-10-19T22:00:38.296Z"
 }

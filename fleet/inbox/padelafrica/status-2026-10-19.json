@@ -1,46 +1,43 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T21:03Z",
+  "tickUtc": "2026-10-19T22:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 658; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 663; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 139,
-    "pendingCandidates": 2,
-    "note": "padellands Tunisia harvest 0; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "passCount": 140,
+    "pendingCandidates": 3,
+    "note": "courtpro seeded fair-courtpro-padel-club-ngaparou (= SEN-VEN-005 duplicate, not promoted); padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-055",
-      "EGY-VEN-056",
-      "EGY-VEN-057",
-      "EGY-VEN-058",
-      "EGY-VEN-059"
+      "EGY-VEN-060",
+      "EGY-VEN-061",
+      "EGY-VEN-062",
+      "TZA-VEN-013",
+      "MAR-VEN-052"
     ],
-    "enriched": [
-      "GHA-VEN-004",
-      "GHA-VEN-005",
-      "ZMB-VEN-001"
-    ],
+    "enriched": [],
     "zeroResult": [
-      "EG Banha",
-      "NE Niamey"
+      "EG New Administrative Capital",
+      "TD N'Djamena"
     ],
     "skipped": [
       "actu-padel thrash",
       "findapadelcourt-za densify",
       "Padel House Abidjan ouverture prochaine",
       "fair-padelrevive DE Senegal hub",
-      "fair-courtpro-dpc-dakar-padel-club duplicate SEN-VEN-002"
+      "fair-courtpro-dpc-dakar-padel-club duplicate SEN-VEN-002",
+      "fair-courtpro-padel-club-ngaparou duplicate SEN-VEN-005"
     ]
   },
   "hitlBacklog": 0,

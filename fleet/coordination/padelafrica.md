@@ -2100,3 +2100,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** First 6th of October cell **EGY-VEN-055 Padel Beats Wahat** + densify **EGY-VEN-057 Padel Avenue** + **EGY-VEN-058 SD Grove West**; Sheikh Zayed **EGY-VEN-056 Padel Beats Khamayel** + **EGY-VEN-059 SR Zed Park** created DISCOVERED. Enriched **GHA-004** Aura IG; **GHA-005** place pin + Website≠Matchpoint; **ZMB-001** Deuce IG/WhatsApp. EG Banha + NE Niamey → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~22:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 663). **Fair-use:** courtpro pass **140** (seeded Ngaparou candidate = duplicate SEN-VEN-005, not promoted); padelrevive DE hub still needs_verify; CourtPro DPC = duplicate SEN-VEN-002; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** First Obour cell **EGY-VEN-060 Padel Mondo** + densify **EGY-VEN-061 Padel Spot**; SD densify **EGY-VEN-062 ChillOut Albanafseg**; Dar densify **TZA-VEN-013 Smash Social Club**; Casablanca densify **MAR-VEN-052 Padel Pro** created DISCOVERED. EG New Administrative Capital + TD N'Djamena → zero-result.
+
+Not claiming PUBLISHED.

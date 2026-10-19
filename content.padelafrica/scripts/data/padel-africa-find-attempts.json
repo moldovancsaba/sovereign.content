@@ -4669,6 +4669,62 @@
       "outcome": "skipped",
       "at": "2026-10-19T21:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "Obour",
+      "outcome": "seeded",
+      "at": "2026-10-19T22:05:00.000Z",
+      "note": "EGY-060 Mondo + EGY-061 Spot"
+    },
+    {
+      "cc": "EG",
+      "city": "New Cairo Rehab",
+      "outcome": "seeded",
+      "at": "2026-10-19T22:05:00.000Z",
+      "note": "EGY-062 SD ChillOut"
+    },
+    {
+      "cc": "TZ",
+      "city": "Dar es Salaam Mbezi",
+      "outcome": "seeded",
+      "at": "2026-10-19T22:05:00.000Z",
+      "note": "TZA-013 Smash Social"
+    },
+    {
+      "cc": "MA",
+      "city": "Casablanca Lissasfa",
+      "outcome": "seeded",
+      "at": "2026-10-19T22:05:00.000Z",
+      "note": "MAR-052 Padel Pro"
+    },
+    {
+      "cc": "EG",
+      "city": "New Administrative Capital",
+      "outcome": "zero-result",
+      "at": "2026-10-19T22:05:00.000Z",
+      "note": "malls only; no dedicated padel evidence"
+    },
+    {
+      "cc": "TD",
+      "city": "N'Djamena",
+      "outcome": "zero-result",
+      "at": "2026-10-19T22:05:00.000Z",
+      "note": "no public padel infrastructure"
+    },
+    {
+      "cc": "SN",
+      "city": "Ngaparou",
+      "outcome": "skipped",
+      "at": "2026-10-19T22:05:00.000Z",
+      "note": "CourtPro Padel club ngaparou = duplicate SEN-VEN-005 phone"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T22:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]
 }

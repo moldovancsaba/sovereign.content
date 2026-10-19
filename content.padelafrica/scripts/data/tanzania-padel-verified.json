@@ -301,5 +301,33 @@
     "lastVerifiedUtc": "2026-10-18",
     "verifiedAt": "2026-10-18",
     "researchNotes": "FIND tick 2026-10-18T21. Spanish WhatsApp is the published club line (not invented). Website is first-party (not Instagram)."
+  },
+  {
+    "recordId": "TZA-VEN-013",
+    "name": "Smash Social Club",
+    "city": "Dar es Salaam",
+    "region": "Dar es Salaam",
+    "countryCode": "TZ",
+    "line1": "Mbezi Beach, Dar es Salaam (76JM+3G3)",
+    "lat": -6.7198625,
+    "lng": 39.233796875,
+    "geoPrecision": "place",
+    "geoSource": "plus_code",
+    "geoNote": "Open Location Code 76JM+3G3 recovered for Mbezi Beach",
+    "website": "https://www.smashsocial.club/",
+    "phone": "+255 723 450 500",
+    "email": null,
+    "instagram": "https://www.instagram.com/smashsocial.club/",
+    "whatsapp": "+255 723 450 500",
+    "venueModel": "outdoors",
+    "seasonNote": "Courts daily 06:00–midnight; book via Play by Point / club site — Play by Point is booking host, not Website.",
+    "description": "Smash Social Club puts ocean-front padel (and pickleball) courts in Mbezi Beach, Dar es Salaam, with a first-party site, Instagram @smashsocial.club, and published phone. A clear densify recommendation beyond Slipway Padel Centre and Masaki PSA. Call, WhatsApp, or book ahead for evening socials.",
+    "primarySourceUrl": "https://www.smashsocial.club/",
+    "secondarySourceUrl": "https://smashsocialclub.playbypoint.com/",
+    "sourceTypes": "Smash Social first-party site (Mbezi Beach padel); Play by Point booking desk phone + plus code",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T22. Distinct from TZA-001 Slipway and TZA-004 PSA Masaki."
   }
 ]

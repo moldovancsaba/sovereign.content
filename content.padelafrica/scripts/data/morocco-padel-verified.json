@@ -1269,5 +1269,33 @@
     "lastVerifiedUtc": "2026-10-19",
     "verifiedAt": "2026-10-19",
     "researchNotes": "FIND tick 2026-10-19T07 — Oujda densify. No separate http website — Instagram retained as contact only (not Website)."
+  },
+  {
+    "recordId": "MAR-VEN-052",
+    "name": "Padel Pro Casablanca",
+    "city": "Casablanca",
+    "region": "Casablanca-Settat",
+    "countryCode": "MA",
+    "line1": "Km 8, Zone Industrielle Lissasfa, next to City Club Lissasfa, Casablanca",
+    "lat": 33.530322,
+    "lng": -7.666584,
+    "geoPrecision": "place",
+    "geoSource": "map_listing",
+    "geoNote": "City Club Lissasfa / Sidi Maârouf place pin from public map listing",
+    "website": null,
+    "phone": "+212 654 601 811",
+    "email": null,
+    "instagram": "https://www.instagram.com/padelpromaroc/",
+    "whatsapp": "+212 654 601 811",
+    "venueModel": "outdoors",
+    "seasonNote": "Daily ~09:00–23:00 per directory cards; call/WhatsApp ahead for court booking.",
+    "description": "Padel Pro Casablanca is a dedicated padel club next to City Club Lissasfa in Sidi Maârouf with a published phone and Instagram @padelpromaroc. A clear Casablanca densify recommendation beyond Depot 4 and Padel 4. Call or WhatsApp ahead — first-party padel-pro.ma host unresolved at verify time; Instagram is contact only, not Website.",
+    "primarySourceUrl": "https://exa.ai/library/place/jb3d8dwvf8c",
+    "secondarySourceUrl": "https://activityz.ma/casablanca/padel-pro/",
+    "sourceTypes": "Public place card (City Club Lissasfa + phone + coords); Activityz / Vibora Padel Pro Casablanca listings",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T22. www.padel-pro.ma DNS unresolved — website left null."
   }
 ]
