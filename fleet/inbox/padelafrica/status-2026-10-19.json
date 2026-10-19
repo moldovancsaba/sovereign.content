@@ -1,42 +1,45 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T16:01Z",
+  "tickUtc": "2026-10-19T17:01Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 637; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 639; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 134,
+    "passCount": 135,
     "pendingCandidates": 2,
-    "note": "matchpoint fetch_error soft-skip; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "padel-llc harvest 0; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-039",
-      "EGY-VEN-040",
-      "CIV-VEN-017",
-      "CIV-VEN-018"
+      "EGY-VEN-041",
+      "CIV-VEN-019"
     ],
     "enriched": [
-      "MWI-VEN-001",
-      "MWI-VEN-002",
-      "MWI-VEN-004"
+      "CIV-VEN-001",
+      "KEN-VEN-002",
+      "KEN-VEN-007",
+      "KEN-VEN-008",
+      "KEN-VEN-009",
+      "KEN-VEN-011",
+      "KEN-VEN-015"
     ],
     "zeroResult": [
-      "EG Asyut",
-      "LR Monrovia"
+      "EG Benha",
+      "CI Yamoussoukro/Bouaké"
     ],
     "skipped": [
       "actu-padel thrash",
       "findapadelcourt-za densify",
+      "Padel House Abidjan ouverture prochaine",
       "fair-padelrevive DE Senegal hub",
       "fair-courtpro-dpc-dakar-padel-club duplicate SEN-VEN-002"
     ]

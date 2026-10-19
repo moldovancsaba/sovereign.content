@@ -4275,3 +4275,5 @@
 {"at":"2026-10-19T15:00:40.704Z","type":"fair_use_reject","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/south-africa","status":429,"blocked":true,"reasonCode":"http_blocked"}
 {"at":"2026-10-19T16:00:43.573Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
 {"at":"2026-10-19T16:00:44.235Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-10-19T17:00:41.304Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery","url":"https://padel.llc/"}
+{"at":"2026-10-19T17:00:42.460Z","type":"fair_use_attempt","sourceId":"padel-llc","mode":"discovery_harvest","url":"https://padel.llc/","harvested":0}

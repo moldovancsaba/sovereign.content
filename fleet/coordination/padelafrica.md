@@ -2060,3 +2060,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** First Menoufia cell **EGY-VEN-039 I-PADEL Shebin** + **EGY-VEN-040 Justpadel**; Assinie **CIV-VEN-017 Aura Beach Padel** + **CIV-VEN-018 Coucoué Lodge Padel** created DISCOVERED. Enriched **MWI-001** Pulse Instagram; **MWI-002/004** WhatsApp. EG Asyut + LR Monrovia → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~17:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 639). **Fair-use:** padel-llc pass **135** (harvest 0); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** First Beheira cell **EGY-VEN-041 Yalla Padel Damanhour** + **CIV-VEN-019 Padel Palmeraie** (Riviera Faya) created DISCOVERED. Enriched **CIV-001** Padelta phone/WhatsApp to +225 01 73 33 33 33; **KEN-002/007/008/009/011/015** WhatsApp=mobile wave. Skipped Padel House Abidjan (ouverture prochaine). EG Benha + CI Yamoussoukro/Bouaké → zero-result.
+
+Not claiming PUBLISHED.

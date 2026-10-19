@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T16:05:00.000Z",
+  "updatedAt": "2026-10-19T17:05:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -4416,6 +4416,62 @@
       "city": "Dakar",
       "outcome": "skipped",
       "at": "2026-10-19T16:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "Damanhour",
+      "outcome": "seeded",
+      "at": "2026-10-19T17:05:00.000Z",
+      "note": "EGY-041 Yalla Padel"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan Riviera Faya",
+      "outcome": "seeded",
+      "at": "2026-10-19T17:05:00.000Z",
+      "note": "CIV-019 Padel Palmeraie"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan",
+      "outcome": "enriched",
+      "at": "2026-10-19T17:05:00.000Z",
+      "note": "CIV-001 Padelta WhatsApp/phone update"
+    },
+    {
+      "cc": "KE",
+      "city": "multi",
+      "outcome": "enriched",
+      "at": "2026-10-19T17:05:00.000Z",
+      "note": "KEN WhatsApp=mobile wave"
+    },
+    {
+      "cc": "EG",
+      "city": "Benha",
+      "outcome": "zero-result",
+      "at": "2026-10-19T17:05:00.000Z",
+      "note": "no public padel club evidence"
+    },
+    {
+      "cc": "CI",
+      "city": "Yamoussoukro/Bouaké",
+      "outcome": "zero-result",
+      "at": "2026-10-19T17:05:00.000Z",
+      "note": "no public padel infrastructure"
+    },
+    {
+      "cc": "CI",
+      "city": "Abidjan Zone 3",
+      "outcome": "skipped",
+      "at": "2026-10-19T17:05:00.000Z",
+      "note": "Padel House ouverture prochaine — not seeded"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T17:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]

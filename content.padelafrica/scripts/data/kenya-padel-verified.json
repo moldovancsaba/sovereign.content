@@ -45,9 +45,10 @@
     "secondarySourceUrl": "https://nairobi.life/padel-courts-in-nairobi/padel-254/",
     "sourceTypes": "Playtomic Padel254; Nairobi.life directory phone",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
+    "lastVerifiedUtc": "2026-10-19",
     "phone": "+254 740 726 783",
-    "researchNotes": " FIND tick 2026-09-26 phone backfill +254 740 726 783."
+    "researchNotes": " FIND tick 2026-09-26 phone backfill +254 740 726 783. FIND 2026-10-19T17 WhatsApp=published mobile booking line.",
+    "whatsapp": "+254 740 726 783"
   },
   {
     "recordId": "KEN-VEN-003",
@@ -172,8 +173,9 @@
     "secondarySourceUrl": "https://local.nation.co.ke/nakuru/sports/trendy-padel-sport-lands-in-nakuru-4952006",
     "sourceTypes": "Royal Padelzone first-party site (phone+email+hours+Milimani address); Daily Nation Nakuru padel feature",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-24",
-    "researchNotes": "FIND until-found deepen_large tick 2026-09-24 (Nakuru). Not in excludeNames."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND until-found deepen_large tick 2026-09-24 (Nakuru). Not in excludeNames. FIND 2026-10-19T17 WhatsApp=published mobile booking line.",
+    "whatsapp": "+254 745 042 952"
   },
   {
     "recordId": "KEN-VEN-008",
@@ -197,8 +199,9 @@
     "secondarySourceUrl": "https://www.thepadelpointkenya.com/locations/",
     "sourceTypes": "Operator contact page (address+phone+email+hours); locations page (Ngong Racecourse primary)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick kick 2026-09-25. LinkedIn also lists +254 703 503 000 — primary contact page phone used. Court count claimed as four on locations page — not asserted."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick kick 2026-09-25. LinkedIn also lists +254 703 503 000 — primary contact page phone used. Court count claimed as four on locations page — not asserted. FIND 2026-10-19T17 WhatsApp=published mobile booking line.",
+    "whatsapp": "+254 712 351 237"
   },
   {
     "recordId": "KEN-VEN-009",
@@ -222,9 +225,10 @@
     "secondarySourceUrl": "https://mvitapadel.com/",
     "sourceTypes": "Club contact page (phone+email+Mvita Tennis Club location); Actu Padel directory Kaunda Ave Plus Code",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-18",
-    "researchNotes": "FIND tick 2026-09-25T15 — Mombasa deepen; 0702 919 689 / info@mvitapadel.com published; Actu lists Kaunda Ave WMPF+5WJ FIND/enrich 2026-10-18T23",
-    "verifiedAt": "2026-10-18"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25T15 — Mombasa deepen; 0702 919 689 / info@mvitapadel.com published; Actu lists Kaunda Ave WMPF+5WJ FIND/enrich 2026-10-18T23 FIND 2026-10-19T17 WhatsApp=published mobile booking line.",
+    "verifiedAt": "2026-10-18",
+    "whatsapp": "+254 702 919 689"
   },
   {
     "recordId": "KEN-VEN-010",
@@ -273,8 +277,9 @@
     "secondarySourceUrl": "https://rooftoppadel.co.ke/",
     "sourceTypes": "Padel Lands; club site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Evidence: Padel Lands Greenwood village +254 756666665; Nominatim Greenwood Village Nyali."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Evidence: Padel Lands Greenwood village +254 756666665; Nominatim Greenwood Village Nyali. FIND 2026-10-19T17 WhatsApp=published mobile booking line.",
+    "whatsapp": "+254 756 666 665"
   },
   {
     "recordId": "KEN-VEN-012",
@@ -373,8 +378,9 @@
     "secondarySourceUrl": "https://padelplussports.com/",
     "sourceTypes": "Official Padel Plus Sports contact page",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "Karen densify; phone+email from contact.html"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Karen densify; phone+email from contact.html FIND 2026-10-19T17 WhatsApp=published mobile booking line.",
+    "whatsapp": "+254 745 290 271"
   },
   {
     "recordId": "KEN-VEN-016",

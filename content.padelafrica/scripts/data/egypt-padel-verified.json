@@ -1049,5 +1049,33 @@
     "lastVerifiedUtc": "2026-10-19",
     "verifiedAt": "2026-10-19",
     "researchNotes": "FIND tick 2026-10-19T16. Phone optional per LISTING-STANDARDS; distinct from EGY-039."
+  },
+  {
+    "recordId": "EGY-VEN-041",
+    "name": "Yalla Padel Damanhour",
+    "city": "Damanhour",
+    "region": "Beheira Governorate",
+    "countryCode": "EG",
+    "line1": "Naqraha, Damanhour",
+    "lat": 31.04439,
+    "lng": 30.45921,
+    "geoPrecision": "place",
+    "geoSource": "map_listing",
+    "geoNote": "Naqraha place pin from public map listing / Padelmesh",
+    "website": null,
+    "phone": "+20 150 711 2901",
+    "email": null,
+    "instagram": "https://www.instagram.com/yallapadel1/",
+    "whatsapp": "+20 150 711 2901",
+    "venueModel": "outdoors",
+    "seasonNote": "Directory lists 24/7 opens; call/WhatsApp ahead for academy and tournament slots.",
+    "description": "Yalla Padel Damanhour is a clear recommendation for the first Beheira padel cell in Naqraha, with three outdoor courts, Instagram @yallapadel1, and a published phone. Call or WhatsApp ahead — no first-party website asserted.",
+    "primarySourceUrl": "https://padelmesh.com/en/eg/damanhour/clubs/yalla-padel-damanhour",
+    "secondarySourceUrl": null,
+    "sourceTypes": "Padelmesh Yalla Padel Damanhour card (Naqraha + phone + IG handles); public map card phone/coords",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T17. First Beheira governorate seed. Padelmesh lists @Yallapadel/@yallaapadel/@yallapadel1 — using yallapadel1 as canonical IG URL."
   }
 ]
