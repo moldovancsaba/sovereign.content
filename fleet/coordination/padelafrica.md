@@ -2052,3 +2052,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** Ras El-Bar densify **EGY-VEN-037 PADEL RAS-El BAR** + **EGY-VEN-038 On Point Padel** created DISCOVERED. Enriched **SEN-010** Olympique IG/WhatsApp/email; **CMR-005** BENDO WhatsApp field; **AGO-004/005/009/011/012/016** WhatsApp=mobile wave. EG Suez City + LR Monrovia → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~16:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 637). **Fair-use:** matchpoint pass **134** (fetch_error soft-skip); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** First Menoufia cell **EGY-VEN-039 I-PADEL Shebin** + **EGY-VEN-040 Justpadel**; Assinie **CIV-VEN-017 Aura Beach Padel** + **CIV-VEN-018 Coucoué Lodge Padel** created DISCOVERED. Enriched **MWI-001** Pulse Instagram; **MWI-002/004** WhatsApp. EG Asyut + LR Monrovia → zero-result.
+
+Not claiming PUBLISHED.

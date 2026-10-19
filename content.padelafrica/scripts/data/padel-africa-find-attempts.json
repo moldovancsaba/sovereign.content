@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T15:05:00.000Z",
+  "updatedAt": "2026-10-19T16:05:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -4374,6 +4374,48 @@
       "city": "Dakar",
       "outcome": "skipped",
       "at": "2026-10-19T15:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "Shebin El Kom",
+      "outcome": "seeded",
+      "at": "2026-10-19T16:05:00.000Z",
+      "note": "EGY-039 I-PADEL + EGY-040 Justpadel"
+    },
+    {
+      "cc": "CI",
+      "city": "Assinie",
+      "outcome": "seeded",
+      "at": "2026-10-19T16:05:00.000Z",
+      "note": "CIV-017 Aura Beach + CIV-018 Coucoué Lodge"
+    },
+    {
+      "cc": "MW",
+      "city": "Lilongwe",
+      "outcome": "enriched",
+      "at": "2026-10-19T16:05:00.000Z",
+      "note": "MWI-001 IG + MWI-002/004 WhatsApp"
+    },
+    {
+      "cc": "EG",
+      "city": "Asyut",
+      "outcome": "zero-result",
+      "at": "2026-10-19T16:05:00.000Z",
+      "note": "inPlay names without phone/IG bar"
+    },
+    {
+      "cc": "LR",
+      "city": "Monrovia",
+      "outcome": "zero-result",
+      "at": "2026-10-19T16:05:00.000Z",
+      "note": "Padel House announced only"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T16:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]

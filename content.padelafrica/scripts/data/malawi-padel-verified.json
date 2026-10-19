@@ -19,12 +19,13 @@
     "secondarySourceUrl": "https://www.pulse-mw.com/",
     "sourceTypes": "Pulse Park contact page (address + phones + email); first-party facilities page (2 padel courts)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-18",
+    "lastVerifiedUtc": "2026-10-19",
     "phone": "+265 999 834 444",
     "email": "info@pulse-mw.com",
-    "researchNotes": "FIND tick 2026-09-26 phone/address backfill from pulse-mw.com/contact.; tick 2026-10-14 email from pulse-mw.com contact FIND/enrich 2026-10-18T23",
+    "researchNotes": "FIND tick 2026-09-26 phone/address backfill from pulse-mw.com/contact.; tick 2026-10-14 email from pulse-mw.com contact FIND/enrich 2026-10-18T23 FIND 2026-10-19T16 Instagram @pulseparkmw from operator social links.",
     "whatsapp": "+265 999 834 444",
-    "verifiedAt": "2026-10-18"
+    "verifiedAt": "2026-10-18",
+    "instagram": "https://www.instagram.com/pulseparkmw/"
   },
   {
     "recordId": "MWI-VEN-002",
@@ -47,7 +48,9 @@
     "secondarySourceUrl": "https://go-padel.net/",
     "sourceTypes": "OpenResa contact; GoPadel site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-10-19",
+    "whatsapp": "+265 884 550 045",
+    "researchNotes": " FIND 2026-10-19T16 WhatsApp=published mobile."
   },
   {
     "recordId": "MWI-VEN-003",
@@ -99,9 +102,10 @@
     "secondarySourceUrl": "https://tigersportmw.com/",
     "sourceTypes": "Club site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-18",
-    "researchNotes": "Evidence: tigersportmw.com activities padel + A3 behind Bishop Mackenzie +265 981150000. Nominatim Bishop Mackenzie pin. FIND/enrich 2026-10-18T23",
-    "verifiedAt": "2026-10-18"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Evidence: tigersportmw.com activities padel + A3 behind Bishop Mackenzie +265 981150000. Nominatim Bishop Mackenzie pin. FIND/enrich 2026-10-18T23 FIND 2026-10-19T16 WhatsApp=published mobile.",
+    "verifiedAt": "2026-10-18",
+    "whatsapp": "+265 981 150 000"
   },
   {
     "recordId": "MWI-VEN-005",
