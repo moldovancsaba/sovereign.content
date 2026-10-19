@@ -453,7 +453,7 @@
       "done": {},
       "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-18T18:00:29.061Z",
+      "lastFetchAt": "2026-10-19T11:00:34.990Z",
       "lastError": null
     },
     "padelivu": {
@@ -1520,6 +1520,6 @@
       "lastError": null
     }
   },
-  "passCount": 128,
-  "lastPassAt": "2026-10-19T10:00:47.336Z"
+  "passCount": 129,
+  "lastPassAt": "2026-10-19T11:00:35.415Z"
 }

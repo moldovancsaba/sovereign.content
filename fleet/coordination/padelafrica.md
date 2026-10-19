@@ -2012,3 +2012,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **MOZ-VEN-009 Indoor Padel Zone** (Maputo, TieSports email) + **MOZ-VEN-010 Elite Padel Club Matola** created DISCOVERED. Enriched **COG-001/002/005** hours/WhatsApp; **COD-001** Matchpoint secondary phone note; **SLE-002** Website≠IG guard. CV Mindelo + MZ Nampula corridor → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~11:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling. **Fair-use:** africapadel pass **129** (harvest 0); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** **EGY-VEN-024 Padel Station Ismailia** + **EGY-VEN-025 Padel Fox Ismailia** + **RWA-VEN-004 Bounce Kacyiru** (Mövenpick) + **MRT-VEN-002 Infinity Club Nouakchott** created DISCOVERED. Enriched **RWA-001** Bounce email/site. ML Bamako + NE Niamey + MZ Just Play (no contact) → zero-result.
+
+Not claiming PUBLISHED.

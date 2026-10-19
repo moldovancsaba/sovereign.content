@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T10:05:00.000Z",
+  "updatedAt": "2026-10-19T11:05:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -4108,6 +4108,55 @@
       "city": "Dakar",
       "outcome": "skipped",
       "at": "2026-10-19T10:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "Ismailia",
+      "outcome": "seeded",
+      "at": "2026-10-19T11:05:00.000Z",
+      "note": "EGY-024 Padel Station + EGY-025 Padel Fox"
+    },
+    {
+      "cc": "RW",
+      "city": "Kigali",
+      "outcome": "seeded",
+      "at": "2026-10-19T11:05:00.000Z",
+      "note": "RWA-004 Bounce Kacyiru Mövenpick; RWA-001 email"
+    },
+    {
+      "cc": "MR",
+      "city": "Nouakchott",
+      "outcome": "seeded",
+      "at": "2026-10-19T11:05:00.000Z",
+      "note": "MRT-002 Infinity Club"
+    },
+    {
+      "cc": "ML",
+      "city": "Bamako",
+      "outcome": "zero-result",
+      "at": "2026-10-19T11:05:00.000Z",
+      "note": "no dedicated padel club evidence"
+    },
+    {
+      "cc": "NE",
+      "city": "Niamey",
+      "outcome": "zero-result",
+      "at": "2026-10-19T11:05:00.000Z",
+      "note": "no public padel infrastructure"
+    },
+    {
+      "cc": "MZ",
+      "city": "Matola Just Play",
+      "outcome": "zero-result",
+      "at": "2026-10-19T11:05:00.000Z",
+      "note": "TieSports listing without phone/email bar"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T11:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]

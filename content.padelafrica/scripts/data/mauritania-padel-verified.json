@@ -25,5 +25,32 @@
     "whatsapp": "+222 37 62 27 06",
     "instagram": "https://www.instagram.com/saharapadelclub/",
     "verifiedAt": "2026-10-19"
+  },
+  {
+    "recordId": "MRT-VEN-002",
+    "name": "Infinity Club Nouakchott",
+    "city": "Nouakchott",
+    "region": "Nouakchott Ouest",
+    "countryCode": "MR",
+    "line1": "Near 42F4+FRR, Nouakchott",
+    "lat": 18.12406,
+    "lng": -15.993042,
+    "geoPrecision": "locality",
+    "geoSource": "place_card",
+    "geoNote": "Infinity place card Plus Code 42F4+FRR — not rooftop-surveyed",
+    "website": "https://infinityclub.simplybook.me/v2/",
+    "phone": "+222 46 44 26 26",
+    "whatsapp": "+222 46 44 26 26",
+    "instagram": "https://www.instagram.com/infinity_sportsacademy/",
+    "venueModel": "own_premises",
+    "seasonNote": "SimplyBook lists Padel 1H / Padel Pro / PadelFast products; hours vary by day on booking page.",
+    "description": "Infinity Club Nouakchott books padel hours on SimplyBook alongside football and pétanque — a clear second Mauritanian densify stop beside Sahara Padel Club. Book on SimplyBook or WhatsApp ahead.",
+    "primarySourceUrl": "https://infinityclub.simplybook.me/v2/",
+    "secondarySourceUrl": "https://booking.page/en/company/page/infinityclub",
+    "sourceTypes": "Infinity SimplyBook (Padel 1H products + maps pin); place card phone; Instagram @infinity_sportsacademy; ArenaGo padel open coverage",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T11. Distinct from MRT-VEN-001 Sahara Padel (Tevragh Zeina). Website is SimplyBook booking (not Instagram)."
   }
 ]
