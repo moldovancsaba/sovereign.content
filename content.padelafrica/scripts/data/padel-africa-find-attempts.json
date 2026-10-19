@@ -4564,6 +4564,62 @@
       "outcome": "skipped",
       "at": "2026-10-19T19:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "New Cairo Suez Rd",
+      "outcome": "seeded",
+      "at": "2026-10-19T20:05:00.000Z",
+      "note": "EGY-050 Black Eagle"
+    },
+    {
+      "cc": "EG",
+      "city": "New Cairo SD",
+      "outcome": "seeded",
+      "at": "2026-10-19T20:05:00.000Z",
+      "note": "EGY-051 NIC + EGY-052 Hayah"
+    },
+    {
+      "cc": "EG",
+      "city": "Quesna",
+      "outcome": "seeded",
+      "at": "2026-10-19T20:05:00.000Z",
+      "note": "EGY-053 Padel Park"
+    },
+    {
+      "cc": "EG",
+      "city": "10th of Ramadan",
+      "outcome": "seeded",
+      "at": "2026-10-19T20:05:00.000Z",
+      "note": "EGY-054 Tie Break"
+    },
+    {
+      "cc": "EG",
+      "city": "Aswan",
+      "outcome": "zero-result",
+      "at": "2026-10-19T20:05:00.000Z",
+      "note": "no public padel club evidence"
+    },
+    {
+      "cc": "ML",
+      "city": "Bamako",
+      "outcome": "zero-result",
+      "at": "2026-10-19T20:05:00.000Z",
+      "note": "no public padel infrastructure"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T20:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "AO",
+      "city": "Luanda",
+      "outcome": "skipped",
+      "at": "2026-10-19T20:05:00.000Z",
+      "note": "padelrevive Angola harvest 1 — duplicates already in AGO fixtures"
     }
   ]
 }
