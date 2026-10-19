@@ -162,7 +162,7 @@
     "geoPrecision": "locality",
     "geoSource": "nominatim",
     "geoNote": "Tangier Avenue Essalam locality pin (Plus Code Q59Q+2G4) — club lot not rooftop-geocoded",
-    "website": "https://www.instagram.com/tcmt.padel.club",
+    "website": null,
     "phone": "+212 615 118 933",
     "email": "tcmt.padel@gmail.com",
     "venueModel": "own_premises",
@@ -172,8 +172,11 @@
     "secondarySourceUrl": "https://sam.ma/ar/loisir/tcmt-padel-tanger",
     "sourceTypes": "Padel Maroc club directory (address+phone+email+2 covered courts); SAM.ma venue card (Avenue Essalam+phone+Instagram)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25 Tangier sparse cell. Secondary phones +212 666 528 787 (SAM) / +212 658 097 020 also listed — primary Padel Maroc retained. Court count from directory not asserted in description."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25 Tangier sparse cell. Secondary phones +212 666 528 787 (SAM) / +212 658 097 020 also listed — primary Padel Maroc retained. Court count from directory not asserted in description.; FIND/enrich 2026-10-19T07 moved IG off Website field; WhatsApp from published phone",
+    "instagram": "https://www.instagram.com/tcmt.padel.club/",
+    "whatsapp": "+212 615 118 933",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "MAR-VEN-008",
@@ -249,8 +252,10 @@
     "secondarySourceUrl": "https://royaltennisclubdefes.com/",
     "sourceTypes": "Padel Maroc directory (2 courts+address+phone+email); RTCF/FCC club site (Complexe El Merja address+phones)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25 Fes deepen. Secondary landline +212 535 65 58 36 (Petit Futé) and RTCF mobiles also listed — primary Padel Maroc mobile retained. Court count from directory not asserted in description."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25 Fes deepen. Secondary landline +212 535 65 58 36 (Petit Futé) and RTCF mobiles also listed — primary Padel Maroc mobile retained. Court count from directory not asserted in description.; FIND/enrich 2026-10-19T07 WhatsApp from published phone",
+    "whatsapp": "+212 716 746 417",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "MAR-VEN-011",
@@ -447,8 +452,10 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/padel-hub-tanger/",
     "sourceTypes": "Actu Padel club card (Desserte Qur Golf + phone); Padel Lands Padel Hub Tanger card",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25 fair-use promote. Court count listed as 2 — not asserted. Distinct from MAR-VEN-007 TCMT Padel."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25 fair-use promote. Court count listed as 2 — not asserted. Distinct from MAR-VEN-007 TCMT Padel.; FIND/enrich 2026-10-19T07 WhatsApp from published phone",
+    "whatsapp": "+212 665-692032",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "MAR-VEN-019",
@@ -895,8 +902,10 @@
     "secondarySourceUrl": "https://activityz.ma/oujda/sporting-tennis-club-oujda/",
     "sourceTypes": "Padel Maroc annuaire (Club STCO Parc Lalla Aicha + phone); Activityz STCO listing (hours/rates)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-27",
-    "researchNotes": "FIND tick 06 — new Oujda city cell. Court count listed as 2 on annuaire — not asserted."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 06 — new Oujda city cell. Court count listed as 2 on annuaire — not asserted.; FIND/enrich 2026-10-19T07 WhatsApp from published phone",
+    "whatsapp": "+212 667 17 93 34",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "MAR-VEN-037",
@@ -928,22 +937,25 @@
     "city": "Fes",
     "region": "Fès-Meknès",
     "countryCode": "MA",
-    "line1": "Route d'Imouzzer",
-    "lat": 34.0092478,
-    "lng": -4.9954955,
+    "line1": "Route d'Imouzzer, Hay Essalam",
+    "lat": 34.002816,
+    "lng": -4.999603,
     "geoPrecision": "locality",
-    "geoSource": "nominatim",
-    "geoNote": "Route d'Imouzzer / Avenue Moulay Abdellah corridor pin — exact club gate not geocoded",
+    "geoSource": "operator_maps",
+    "geoNote": "Place listing pin Hay Essalam / Route d'Imouzzer corridor",
     "website": "https://matchwecan.com/ousedivertir/le-padel-spot-club/",
     "venueModel": "commercial_club",
-    "seasonNote": "Operating club hosting Fas Padel Cup events; phone optional — confirm via club channels.",
-    "description": "Le Padel Spot Club sits on the Route d'Imouzzer in Fès with corroboration from Match We Can, PadelSet install references, and Fas Padel Cup event listings. Densifies Fès beyond Fes Country Club and Cité de Sports Adarissa under the phone-optional evidence bar. Improve contact details when a first-party phone appears.",
+    "seasonNote": "Daily 08:00–23:00 (place listing).",
+    "description": "Le Padel Spot Club sits on the Route d'Imouzzer in Hay Essalam, Fès, with a published booking phone — densifying Fès beyond Fes Country Club and Cité de Sports Adarissa. Call or WhatsApp ahead for evening slots.",
     "primarySourceUrl": "https://matchwecan.com/ousedivertir/le-padel-spot-club/",
     "secondarySourceUrl": "https://padelset.ma/",
     "sourceTypes": "Match We Can venue page (Route d'Imouzzer) + PadelSet Morocco installs (Padel Spot Fès Full Panoramic)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-27",
-    "researchNotes": "FIND tick 07 — Fès densify. Phone optional city/corridor pin."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 07 — Fès densify. Phone optional city/corridor pin.; FIND/enrich 2026-10-19T07 phone+WhatsApp+place pin",
+    "phone": "+212 662 252 609",
+    "whatsapp": "+212 662 252 609",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "MAR-VEN-039",
@@ -1231,5 +1243,31 @@
     "confidence": "Medium",
     "lastVerifiedUtc": "2026-10-17",
     "researchNotes": "FIND tick 2026-10-17 — recover unpushed 08:00 seed."
+  },
+  {
+    "recordId": "MAR-VEN-051",
+    "name": "YOUPAD Club",
+    "city": "Oujda",
+    "region": "Oriental",
+    "countryCode": "MA",
+    "line1": "Boulevard Al Irfane",
+    "lat": 34.653732,
+    "lng": -1.911911,
+    "geoPrecision": "locality",
+    "geoSource": "operator_maps",
+    "geoNote": "Place listing Oujda / Hay Essaada pin — Bd Al Irfane from Padel House directory",
+    "phone": "+212 659 996 440",
+    "whatsapp": "+212 659 996 440",
+    "instagram": "https://www.instagram.com/youpadclub24/",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 08:30–22:00 (place listing); book via YOUPAD CLUB app.",
+    "description": "YOUPAD Club puts padel (and football) courts on Boulevard Al Irfane in Oujda with a published phone, Instagram and a dedicated booking app — a clear Oriental densify stop beyond Sporting Tennis Club Oujda. Call, WhatsApp or use the club app ahead of peak evenings.",
+    "primarySourceUrl": "https://www.instagram.com/youpadclub24/",
+    "secondarySourceUrl": "https://www.padelhouse.ma/blogs/accueil/terrains-et-clubs-de-padel-au-maroc",
+    "sourceTypes": "Place listing (phone, hours, coords); Instagram @youpadclub24; Padel House directory (Bd Al Irfane); YOUPAD CLUB booking app",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T07 — Oujda densify. No separate http website — Instagram retained as contact only (not Website)."
   }
 ]

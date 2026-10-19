@@ -1980,3 +1980,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+
+### 2026-10-19 — padelafrica (tick ~07:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 610). **Fair-use:** playtomic-directory pass **125** (Angola fetch_error soft-skip); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **CIV-VEN-016 Padel San-Pedro** (San-Pédro coast, phone+IG) + **MAR-VEN-051 YOUPAD Club** (Oujda) created DISCOVERED. Enriched **MAR-007/010/018/036/038** (Padel Spot phone; TCMT Instagram off Website; WhatsApp wave). CI Yamoussoukro/Bouaké + BW Francistown → zero-result.
+
+Not claiming PUBLISHED.

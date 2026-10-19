@@ -383,5 +383,32 @@
     "lastVerifiedUtc": "2026-10-18",
     "verifiedAt": "2026-10-18",
     "researchNotes": "FIND tick 2026-10-18T17. Phone +2250708989860 normalized. Distinct from CIV-VEN-002 WePadel Marcory (Boulevard Achalme). No official Instagram located — not invented. Baab also lists 01 02 59 21 02; primary phone from Padel Lands/place card used for WhatsApp."
+  },
+  {
+    "recordId": "CIV-VEN-016",
+    "name": "Padel San-Pedro",
+    "city": "San-Pédro",
+    "region": "Bas-Sassandra",
+    "countryCode": "CI",
+    "line1": "Near San-Pédro",
+    "lat": 4.735325,
+    "lng": -6.630365,
+    "geoPrecision": "locality",
+    "geoSource": "operator_maps",
+    "geoNote": "Place listing city pin San-Pédro — street not published",
+    "website": null,
+    "phone": "+225 01 40 41 85 30",
+    "whatsapp": "+225 01 40 41 85 30",
+    "instagram": "https://www.instagram.com/padel.sanpedro/",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 07:00–22:00 (place listing).",
+    "description": "Padel San-Pedro brings padel courts to San-Pédro on the Bas-Sassandra coast with a published club phone and Instagram — the first evidence-grade seed outside Abidjan/Grand-Bassam for Côte d’Ivoire. A clear recommendation when you want western-coast padel rather than only the Abidjan cluster. Call or WhatsApp ahead; street-level pin improves when published.",
+    "primarySourceUrl": "https://www.instagram.com/padel.sanpedro/",
+    "secondarySourceUrl": "https://www.instagram.com/padel.sanpedro/",
+    "sourceTypes": "Place listing (phone, hours, coords); Instagram @padel.sanpedro",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T07 — new San-Pédro city cell. Website left as Instagram only because no separate http site published; Instagram also in contactLinks."
   }
 ]

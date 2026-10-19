@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T06:02:00.236Z",
+  "updatedAt": "2026-10-19T07:02:28.719Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3899,6 +3899,41 @@
       "outcome": "zero-result",
       "at": "2026-10-19T06:02:00.236Z",
       "note": "Kampala-only densify remains"
+    },
+    {
+      "cc": "CI",
+      "city": "San-Pédro",
+      "outcome": "seeded",
+      "at": "2026-10-19T07:02:28.719Z",
+      "note": "CIV-VEN-016 Padel San-Pedro phone+IG"
+    },
+    {
+      "cc": "MA",
+      "city": "Oujda",
+      "outcome": "seeded",
+      "at": "2026-10-19T07:02:28.719Z",
+      "note": "MAR-VEN-051 YOUPAD Club"
+    },
+    {
+      "cc": "MA",
+      "city": "Fes/Tangier/Oujda",
+      "outcome": "enriched",
+      "at": "2026-10-19T07:02:28.719Z",
+      "note": "Padel Spot phone; TCMT IG-off-Website; WhatsApp wave"
+    },
+    {
+      "cc": "CI",
+      "city": "Yamoussoukro/Bouaké",
+      "outcome": "zero-result",
+      "at": "2026-10-19T07:02:28.719Z",
+      "note": "no dedicated club evidence"
+    },
+    {
+      "cc": "BW",
+      "city": "Francistown",
+      "outcome": "zero-result",
+      "at": "2026-10-19T07:02:28.719Z",
+      "note": "Gaborone/Maun-only inventory"
     }
   ]
 }

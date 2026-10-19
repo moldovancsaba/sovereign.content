@@ -1502,12 +1502,12 @@
     "playtomic-directory": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 6,
+      "discoveryCursor": 7,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-18T12:00:58.744Z",
+      "lastFetchAt": "2026-10-19T07:00:48.213Z",
       "lastError": {
-        "at": "2026-10-18T12:00:58.851Z",
-        "url": "https://directory.playtomic.io/kenya/",
+        "at": "2026-10-19T07:00:48.324Z",
+        "url": "https://directory.playtomic.io/angola/",
         "reasonCode": "fetch_error"
       }
     },
@@ -1520,6 +1520,6 @@
       "lastError": null
     }
   },
-  "passCount": 124,
-  "lastPassAt": "2026-10-19T06:00:29.356Z"
+  "passCount": 125,
+  "lastPassAt": "2026-10-19T07:00:48.324Z"
 }

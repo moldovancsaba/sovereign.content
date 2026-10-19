@@ -1,37 +1,38 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T06:02Z",
+  "tickUtc": "2026-10-19T07:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 608; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 610; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 124,
+    "passCount": 125,
     "pendingCandidates": 2,
-    "note": "courtpro seeded DPC Dakar candidate (duplicate of SEN-VEN-002 — not promoted); padelrevive DE Senegal hub still needs_verify; skip actu-padel thrash"
+    "note": "playtomic-directory Angola fetch_error soft-skip; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash"
   },
   "find": {
     "seeded": [
-      "TUN-VEN-037"
+      "CIV-VEN-016",
+      "MAR-VEN-051"
     ],
     "enriched": [
-      "ALG-VEN-001",
-      "ALG-VEN-004",
-      "ALG-VEN-005",
-      "SEN-VEN-002",
-      "UGA-VEN-003"
+      "MAR-VEN-007",
+      "MAR-VEN-010",
+      "MAR-VEN-018",
+      "MAR-VEN-036",
+      "MAR-VEN-038"
     ],
     "zeroResult": [
-      "DZ Constantine/Annaba",
-      "UG Entebbe/Jinja"
+      "CI Yamoussoukro/Bouaké",
+      "BW Francistown"
     ],
     "skipped": [
       "actu-padel thrash",
@@ -41,5 +42,5 @@
   },
   "hitlBacklog": 0,
   "claimedPublished": false,
-  "note": "SC main still ahead locally — GITHUB_TOKEN empty / push blocked. Not claiming PUBLISHED."
+  "note": "SC push retry this tick (PAT present). Not claiming PUBLISHED."
 }
