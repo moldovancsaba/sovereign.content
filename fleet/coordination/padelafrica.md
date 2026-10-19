@@ -1947,3 +1947,12 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **NGA-VEN-014 Padel Up Ibadan** (Jibowu Crescent, phone+WhatsApp+IG @padelupibadan) created DISCOVERED. Enriched **CMR-004** ORA email/WhatsApp; **GHA-002** The Padel Club email/WhatsApp/IG; **NGA-007/012/009** WhatsApp/IG. GH Kumasi/Takoradi + NG Port Harcourt → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~03:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 603). **Fair-use:** premierpadel pass **121** (harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **AGO-VEN-020 Premier Padel Club** (Talatona Rua AL 41 / Playtomic+phone+WhatsApp) created DISCOVERED. Enriched **CMR-002** Kimalé IG @kimale_multisports_237 + WhatsApp; **TUN-015** Eleven IG/WhatsApp; **TUN-016** Just WhatsApp; **ZMB-008** Bonaventure email/Facebook/WhatsApp; **AGO-003/018** WhatsApp. ZM Copperbelt → zero-result. MA Urban/Factory + TN Sfax densify leads already seeded.
+
+Not claiming PUBLISHED.
+

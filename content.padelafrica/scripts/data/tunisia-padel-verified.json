@@ -365,8 +365,11 @@
     "secondarySourceUrl": "https://elevenpadelclub.tn/",
     "sourceTypes": "Eleven Padel Club first-party site (address, phone, email)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "FIND tick 2026-09-26."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-26.; FIND/enrich 2026-10-19T03 IG @eleven_padel_club + WhatsApp from published phone",
+    "instagram": "https://www.instagram.com/eleven_padel_club/",
+    "whatsapp": "+216 24 202 707",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "TUN-VEN-016",
@@ -390,8 +393,10 @@
     "secondarySourceUrl": "https://www.justpadel.tn/",
     "sourceTypes": "Just Padel first-party site (address, phone, email, booking FAQ)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-26",
-    "researchNotes": "FIND tick 2026-09-26."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-26.; FIND/enrich 2026-10-19T03 WhatsApp from published phone; no first-party IG URL asserted",
+    "whatsapp": "+216 51 902 000",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "TUN-VEN-017",

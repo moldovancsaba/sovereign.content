@@ -69,10 +69,12 @@
     "secondarySourceUrl": "https://do-padel.com/dopadel/clubs/angola/luanda/luanda",
     "sourceTypes": "Live booking platform plus specialist directory",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-26",
+    "lastVerifiedUtc": "2026-10-19",
     "website": "https://playtomic.com/clubs/casa-de-padel-angola-cdp",
-    "researchNotes": "PadelNPlay reports five courts, while Playtomic exposes six named courts; six retained with conflict noted.; phone from Padel Lands 2026-09-26",
-    "phone": "+244 924 224 404"
+    "researchNotes": "PadelNPlay reports five courts, while Playtomic exposes six named courts; six retained with conflict noted.; phone from Padel Lands 2026-09-26; FIND/enrich 2026-10-19T03 WhatsApp from published phone",
+    "phone": "+244 924 224 404",
+    "whatsapp": "+244 924 224 404",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "AGO-VEN-004",
@@ -437,8 +439,10 @@
     "secondarySourceUrl": "https://www.tiepadel.com/padelloungepatriota",
     "sourceTypes": "TieSports club page; TiePadel directory",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-13",
-    "researchNotes": "FIND tick 2026-10-13 — distinct from AGO-VEN-005 KOOL PADEL; Instagram handle from TiePadel branding @padelpatriota."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-13 — distinct from AGO-VEN-005 KOOL PADEL; Instagram handle from TiePadel branding @padelpatriota.; FIND/enrich 2026-10-19T03 WhatsApp from published phone",
+    "whatsapp": "+244 939 799 298",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "AGO-VEN-019",
@@ -465,5 +469,32 @@
     "secondarySourceUrl": "https://playtomic.com/clubs/padel-live-active",
     "sourceTypes": "First-party liveactive.ao (address, padel phone/email/WhatsApp, opening narrative); Playtomic club card (courts, hours, Rua 35 Nova Vida).",
     "verifiedAt": "2026-10-18"
+  },
+  {
+    "recordId": "AGO-VEN-020",
+    "name": "Premier Padel Club",
+    "city": "Talatona",
+    "region": "Luanda",
+    "countryCode": "AO",
+    "line1": "Rua AL 41, junto ao condomínio Kizomba",
+    "lat": -8.909366,
+    "lng": 13.184853,
+    "geoPrecision": "locality",
+    "geoSource": "operator_maps",
+    "geoNote": "Place listing pin Via AL41 / Talatona — Playtomic street published; not rooftop-geocoded",
+    "website": "https://playtomic.com/clubs/premier-padel-club-standard-bank",
+    "phone": "+244 925 012 025",
+    "whatsapp": "+244 925 012 025",
+    "venueModel": "own_premises",
+    "indoorHint": true,
+    "seasonNote": "Daily 06:00–00:00 (Playtomic).",
+    "description": "Premier Padel Club (also listed as Premier Padel Club Standard Bank) brings indoor panoramic courts to Rua AL 41 in Talatona next to the Kizomba condominium, with Playtomic booking and a published club phone. A clear Luanda-south recommendation when you want covered Talatona courts beyond Padel Park and Playtime Belas. Reserve on Playtomic or call ahead for peak evenings.",
+    "primarySourceUrl": "https://playtomic.com/clubs/premier-padel-club-standard-bank",
+    "secondarySourceUrl": "https://padellands.com/pistas-de-padel/premier-padel-club-luanda/",
+    "sourceTypes": "Playtomic club card (address, hours, courts); place listing phone; Padel Lands pin",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T03 — under-covered Talatona densify. Global tour IG @premierpadel NOT asserted as club contact. Court count on Playtomic varies by named courts — not asserted."
   }
 ]

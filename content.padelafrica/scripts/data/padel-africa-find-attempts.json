@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T16:02:13.522Z",
+  "updatedAt": "2026-10-19T03:04:05.899Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3696,6 +3696,55 @@
       "outcome": "enriched",
       "at": "2026-10-18T16:02:13.522Z",
       "note": "CIV-003/004/006/008 WhatsApp wave"
+    },
+    {
+      "cc": "AO",
+      "city": "Talatona",
+      "outcome": "seeded",
+      "at": "2026-10-19T03:04:05.899Z",
+      "note": "AGO-VEN-020 Premier Padel Club Playtomic+phone"
+    },
+    {
+      "cc": "CM",
+      "city": "Douala",
+      "outcome": "enriched",
+      "at": "2026-10-19T03:04:05.899Z",
+      "note": "CMR-VEN-002 Kimale IG+WhatsApp"
+    },
+    {
+      "cc": "TN",
+      "city": "Sfax",
+      "outcome": "enriched",
+      "at": "2026-10-19T03:04:05.899Z",
+      "note": "TUN-015/016 Eleven IG+WA / Just WA"
+    },
+    {
+      "cc": "ZM",
+      "city": "Lusaka",
+      "outcome": "enriched",
+      "at": "2026-10-19T03:04:05.899Z",
+      "note": "ZMB-VEN-008 Bonaventure email/FB/WA"
+    },
+    {
+      "cc": "ZM",
+      "city": "Ndola/Kitwe/Livingstone",
+      "outcome": "zero-result",
+      "at": "2026-10-19T03:04:05.899Z",
+      "note": "Copperbelt densify — Lusaka-only inventory"
+    },
+    {
+      "cc": "MA",
+      "city": "Casablanca",
+      "outcome": "skipped",
+      "at": "2026-10-19T03:04:05.899Z",
+      "note": "Urban Royal/Padel Factory/Carre already seeded"
+    },
+    {
+      "cc": "TN",
+      "city": "Sfax",
+      "outcome": "skipped",
+      "at": "2026-10-19T03:04:05.899Z",
+      "note": "Eleven/Just/Casa already seeded — enrich only"
     }
   ]
 }

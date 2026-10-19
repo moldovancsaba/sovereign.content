@@ -1,42 +1,44 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T02:03Z",
+  "tickUtc": "2026-10-19T03:04Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 602; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 603; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 120,
+    "passCount": 121,
     "pendingCandidates": 1,
-    "note": "padelfip live harvest 0; padelrevive DE Senegal hub still needs_verify not promoted; skip actu-padel thrash"
+    "note": "premierpadel harvest 0; padelrevive DE Senegal hub still needs_verify not promoted; skip actu-padel thrash"
   },
   "find": {
     "seeded": [
-      "NGA-VEN-014"
+      "AGO-VEN-020"
     ],
     "enriched": [
-      "CMR-VEN-004",
-      "GHA-VEN-002",
-      "NGA-VEN-007",
-      "NGA-VEN-012",
-      "NGA-VEN-009"
+      "CMR-VEN-002",
+      "TUN-VEN-015",
+      "TUN-VEN-016",
+      "ZMB-VEN-008",
+      "AGO-VEN-003",
+      "AGO-VEN-018"
     ],
     "zeroResult": [
-      "GH Kumasi/Takoradi",
-      "NG Port Harcourt",
-      "ALG Akhy/OXYGÉN (no first-party padel contact beyond existing phone)"
+      "ZM Copperbelt Ndola/Kitwe/Livingstone",
+      "BF Ouagadougou (no new dedicated club beyond Lancaster/KABB)"
     ],
     "skipped": [
       "actu-padel thrash",
-      "fair-padelrevive DE Senegal hub"
+      "fair-padelrevive DE Senegal hub",
+      "MA Urban Royal/Padel Factory/Carre already seeded",
+      "TN Sfax Eleven/Just/Casa already seeded"
     ]
   },
   "hitlBacklog": 0,
