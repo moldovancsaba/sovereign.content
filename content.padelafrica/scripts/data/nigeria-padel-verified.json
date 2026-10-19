@@ -174,8 +174,10 @@
     "secondarySourceUrl": "https://padelrevive.com/padel-in-nigeria/",
     "sourceTypes": "Padel Lands club card (Off Magazine Road Jericho, +234 7048674098, 3 courts); PadelRevive Nigeria directory (Ibadan pin)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-24",
-    "researchNotes": "FIND until-found tick 2026-09-24 (NG Ibadan deepen). First southwest Nigeria seed beyond Lagos cluster."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND until-found tick 2026-09-24 (NG Ibadan deepen). First southwest Nigeria seed beyond Lagos cluster. FIND/enrich 2026-10-19T02",
+    "whatsapp": "+234 704 867 4098",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "NGA-VEN-008",
@@ -222,8 +224,11 @@
     "secondarySourceUrl": "https://www.instagram.com/magicpadel.abuja/",
     "sourceTypes": "WakaAbuja venue review (address + WhatsApp/phone + hours); Instagram handle cited",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25T16 — Abuja deepen; phone published on WakaAbuja review; no dedicated club website yet"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25T16 — Abuja deepen; phone published on WakaAbuja review; no dedicated club website yet FIND/enrich 2026-10-19T02",
+    "instagram": "https://www.instagram.com/magicpadel.abuja/",
+    "whatsapp": "+234 703 449 0556",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "NGA-VEN-010",
@@ -295,8 +300,10 @@
     "secondarySourceUrl": "https://padellands.com/pistas-de-padel/otros-paises/nigeria/",
     "sourceTypes": "Padel Lands Nigeria directory (Mabushi + phone)",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-27",
-    "researchNotes": "FIND tick 03 — phone-optional bar; city pin OK. Distinct from Extreme Arena Kano (NGA-VEN-008)."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 03 — phone-optional bar; city pin OK. Distinct from Extreme Arena Kano (NGA-VEN-008). FIND/enrich 2026-10-19T02",
+    "whatsapp": "+234 707 315 1515",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "NGA-VEN-013",
@@ -323,5 +330,31 @@
     "secondarySourceUrl": "https://padelrevive.com/padel-in-nigeria/",
     "sourceTypes": "Operator site URL + phone from place listing; PadelRevive Nigeria directory pin for Osogbo; Instagram @ipadeltennis_.",
     "verifiedAt": "2026-10-18"
+  },
+  {
+    "recordId": "NGA-VEN-014",
+    "name": "Padel Up Ibadan",
+    "city": "Ibadan",
+    "region": "Oyo",
+    "countryCode": "NG",
+    "line1": "23 Jibowu Crescent, Iyaganku",
+    "lat": 7.374298,
+    "lng": 3.865861,
+    "geoPrecision": "street",
+    "geoSource": "place_card",
+    "geoNote": "Padel Up Ibadan place card pin Iyaganku GRA — not rooftop-surveyed",
+    "phone": "+234 707 777 6494",
+    "whatsapp": "+234 707 777 6494",
+    "instagram": "https://www.instagram.com/padelupibadan/",
+    "venueModel": "own_premises",
+    "seasonNote": "Daily 11:00–23:00 (directory/review); three standard courts; coaching and café on site.",
+    "description": "Padel Up Ibadan puts three standard courts on Jibowu Crescent in Iyaganku with a published phone and Instagram @padelupibadan — a clear Ibadan densify stop beside Padel Pro Club Jericho. Call or WhatsApp ahead for peak evenings and coaching.",
+    "primarySourceUrl": "https://sabiabuja.com/padel-up-ibadan-a-review/",
+    "secondarySourceUrl": "https://padelrevive.com/padel-in-nigeria/",
+    "sourceTypes": "SabiAbuja review (address+phone+IG+hours+3 courts); PadelRevive Nigeria map; place card coords",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T02. Distinct from NGA-VEN-007 Padel Pro Club Ibadan (Jericho Magazine Rd)."
   }
 ]

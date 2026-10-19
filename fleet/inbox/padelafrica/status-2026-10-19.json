@@ -1,41 +1,38 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T01:03Z",
+  "tickUtc": "2026-10-19T02:03Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 601; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 602; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 119,
+    "passCount": 120,
     "pendingCandidates": 1,
-    "note": "padel-llc harvest 0; padelrevive DE Senegal hub still needs_verify not promoted; skip actu-padel thrash"
+    "note": "padelfip live harvest 0; padelrevive DE Senegal hub still needs_verify not promoted; skip actu-padel thrash"
   },
   "find": {
     "seeded": [
-      "MUS-VEN-014"
+      "NGA-VEN-014"
     ],
     "enriched": [
-      "ETH-VEN-001",
-      "ALG-VEN-002",
-      "ALG-VEN-003",
-      "MRT-VEN-001",
-      "CMR-VEN-003",
-      "NAM-VEN-001",
-      "NAM-VEN-004"
+      "CMR-VEN-004",
+      "GHA-VEN-002",
+      "NGA-VEN-007",
+      "NGA-VEN-012",
+      "NGA-VEN-009"
     ],
     "zeroResult": [
-      "KM Moroni (federation-only, no club venue)",
-      "ER Asmara (essay-only)",
-      "ST São Tomé (no club evidence)",
-      "O2 Padel Pro Dodo Club (installer/no phone)"
+      "GH Kumasi/Takoradi",
+      "NG Port Harcourt",
+      "ALG Akhy/OXYGÉN (no first-party padel contact beyond existing phone)"
     ],
     "skipped": [
       "actu-padel thrash",

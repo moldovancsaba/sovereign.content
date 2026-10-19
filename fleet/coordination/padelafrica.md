@@ -1939,3 +1939,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **MUS-VEN-014 Mont Choisy Leisure & Wellness Centre** (2 padel courts, booking phone+email) created DISCOVERED. Enriched **ETH-001** IG @addis.padel.club; **ALG-002/003** IG/WhatsApp; **MRT-001** WhatsApp/IG; **CMR-003/006** WhatsApp; **NAM-001/004** WhatsApp/email. KM/ER/ST → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~02:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 602). **Fair-use:** padelfip pass **120** (harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **NGA-VEN-014 Padel Up Ibadan** (Jibowu Crescent, phone+WhatsApp+IG @padelupibadan) created DISCOVERED. Enriched **CMR-004** ORA email/WhatsApp; **GHA-002** The Padel Club email/WhatsApp/IG; **NGA-007/012/009** WhatsApp/IG. GH Kumasi/Takoradi + NG Port Harcourt → zero-result.
+
+Not claiming PUBLISHED.

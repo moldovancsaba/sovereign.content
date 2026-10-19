@@ -1,0 +1,71 @@
+{
+  "appliedAt": "2026-10-19T02:01:38.446Z",
+  "results": [
+    {
+      "recordId": "NGA-VEN-014",
+      "id": "research-nga-ven-014",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-nga-ven-014",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "CMR-VEN-004",
+      "id": "research-cmr-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-cmr-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "GHA-VEN-002",
+      "id": "research-gha-ven-002",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gha-ven-002",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "NGA-VEN-007",
+      "id": "research-nga-ven-007",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-nga-ven-007",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "NGA-VEN-012",
+      "id": "research-nga-ven-012",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-nga-ven-012",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "NGA-VEN-009",
+      "id": "research-nga-ven-009",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-nga-ven-009",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

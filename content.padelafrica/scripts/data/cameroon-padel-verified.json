@@ -72,8 +72,11 @@
     "secondarySourceUrl": "https://www.google.com/maps/place/ORA%20Wellness,%20Hydrocarbures,%20Douala",
     "sourceTypes": "Official venue site; Google Maps place",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Email obfuscated on site — not invented; physical overlap with Pro Padel unresolved"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Email obfuscated on site — not invented; physical overlap with Pro Padel unresolved FIND/enrich 2026-10-19T02",
+    "email": "info@oracomplex.com",
+    "whatsapp": "+237 671 990 990",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "CMR-VEN-005",
