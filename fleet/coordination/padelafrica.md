@@ -2036,3 +2036,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** First Mansoura cell — **EGY-VEN-029 Padel.H**, **EGY-VEN-030 A4 Padel**, **EGY-VEN-031 Emirates Padel** + **ZWE-VEN-008 Padel Zim Pauling Road** created DISCOVERED. Enriched **SEN-005** WhatsApp; **MDG-005** Facebook/WhatsApp; **ZWE-004/005/006** WhatsApp wave; **NAM-003** Wanderers Instagram. ML Bamako + BF Bobo-Dioulasso → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~14:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 631). **Fair-use:** padel-without-borders pass **132** (403 soft-skip); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** Mansoura densify **EGY-VEN-032 LUPO** + **EGY-VEN-033 Ace Town**; first Zagazig **EGY-VEN-034 PADEL ten** + **EGY-VEN-035 Porto Padel**; first Damietta **EGY-VEN-036 PADEL93** created DISCOVERED. Enriched **SEN-007** Mama Padel move to Grand Théâtre + IG/WhatsApp; **SEN-008** Padel City WhatsApp + padelcity.sn. NE Niamey + TD N'Djamena → zero-result.
+
+Not claiming PUBLISHED.

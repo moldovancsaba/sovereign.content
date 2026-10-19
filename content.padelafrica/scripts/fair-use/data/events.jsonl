@@ -4269,3 +4269,5 @@
 {"at":"2026-10-19T12:00:41.002Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery_harvest","url":"https://padelafrica.com/","harvested":0}
 {"at":"2026-10-19T13:00:39.717Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery","url":"https://www.analistaspadel.com/padel-en-africa/"}
 {"at":"2026-10-19T13:00:41.536Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/padel-en-africa/","harvested":0}
+{"at":"2026-10-19T14:01:07.800Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/"}
+{"at":"2026-10-19T14:01:08.007Z","type":"fair_use_reject","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/category/africa/","status":403,"blocked":true,"reasonCode":"http_blocked"}

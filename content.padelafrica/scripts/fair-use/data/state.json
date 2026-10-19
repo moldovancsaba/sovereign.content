@@ -932,12 +932,12 @@
     "padel-without-borders": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-18T23:00:49.207Z",
+      "lastFetchAt": "2026-10-19T14:01:07.800Z",
       "lastError": {
-        "at": "2026-10-18T23:00:49.302Z",
-        "url": "https://www.padelwithoutborders.com/",
+        "at": "2026-10-19T14:01:08.007Z",
+        "url": "https://www.padelwithoutborders.com/category/africa/",
         "reasonCode": "http_blocked"
       }
     },
@@ -1520,6 +1520,6 @@
       "lastError": null
     }
   },
-  "passCount": 131,
-  "lastPassAt": "2026-10-19T13:00:41.537Z"
+  "passCount": 132,
+  "lastPassAt": "2026-10-19T14:01:08.007Z"
 }
