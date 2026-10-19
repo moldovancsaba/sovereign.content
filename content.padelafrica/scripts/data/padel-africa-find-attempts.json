@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T05:01:32.926Z",
+  "updatedAt": "2026-10-19T06:02:00.236Z",
   "attempts": [
     {
       "cc": "CF",
@@ -3850,6 +3850,55 @@
       "outcome": "zero-result",
       "at": "2026-10-19T05:01:32.926Z",
       "note": "Accra-only densify remains"
+    },
+    {
+      "cc": "TN",
+      "city": "Rafraf",
+      "outcome": "seeded",
+      "at": "2026-10-19T06:02:00.236Z",
+      "note": "TUN-VEN-037 Padel Resort Rafraf villa court"
+    },
+    {
+      "cc": "DZ",
+      "city": "Oran/Algiers",
+      "outcome": "enriched",
+      "at": "2026-10-19T06:02:00.236Z",
+      "note": "ALG-001 Area Wellness contacts; ALG-004/005 WhatsApp"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "enriched",
+      "at": "2026-10-19T06:02:00.236Z",
+      "note": "SEN-002 IG @dakarpadelclub"
+    },
+    {
+      "cc": "UG",
+      "city": "Kigo",
+      "outcome": "enriched",
+      "at": "2026-10-19T06:02:00.236Z",
+      "note": "UGA-003 Serena WhatsApp+IG"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T06:02:00.236Z",
+      "note": "CourtPro DPC fair-use candidate = duplicate SEN-VEN-002"
+    },
+    {
+      "cc": "DZ",
+      "city": "Constantine/Annaba",
+      "outcome": "zero-result",
+      "at": "2026-10-19T06:02:00.236Z",
+      "note": "no new first-party club beyond Oran/Algiers sample"
+    },
+    {
+      "cc": "UG",
+      "city": "Entebbe/Jinja",
+      "outcome": "zero-result",
+      "at": "2026-10-19T06:02:00.236Z",
+      "note": "Kampala-only densify remains"
     }
   ]
 }

@@ -920,5 +920,32 @@
     "lastVerifiedUtc": "2026-10-19",
     "verifiedAt": "2026-10-19",
     "researchNotes": "FIND tick 2026-10-19T05 — Nabeul densify beyond TUN-VEN-007. Instagram not asserted (directory handle ambiguous)."
+  },
+  {
+    "recordId": "TUN-VEN-037",
+    "name": "Padel Resort Rafraf",
+    "city": "Rafraf",
+    "region": "Bizerte Governorate",
+    "countryCode": "TN",
+    "line1": "Forêt Lahmari",
+    "lat": 37.17833,
+    "lng": 10.230846,
+    "geoPrecision": "locality",
+    "geoSource": "operator_maps",
+    "geoNote": "Place listing pin Forêt Lahmari / Rafraf — private villa padel resort",
+    "website": "https://padel-villa.com/villas/147",
+    "phone": "+216 58 595 900",
+    "whatsapp": "+216 58 595 900",
+    "instagram": "https://www.instagram.com/padel_resort_rafraf/",
+    "venueModel": "resort",
+    "seasonNote": "Private villa booking; court hours commonly listed ~07:00–00:00 on place cards.",
+    "description": "Padel Resort Rafraf is a private villa padel stay in Forêt Lahmari, Rafraf (Bizerte), with an outdoor artificial-grass court, pool and garden — a clear Cap Nord densify stop beyond Greater Tunis and Cap Bon clubs. Book the villa/court via the published phone or Instagram; confirm access for non-staying players before you travel.",
+    "primarySourceUrl": "https://padel-villa.com/villas/147",
+    "secondarySourceUrl": "https://padellands.com/en/alojamientos-pistas/otros-paises-al/tunisia-ac/",
+    "sourceTypes": "Padel Villa listing; place listing phone/hours/coords; Padel Lands accommodations",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T06 — Bizerte densify. Villa rental with private court — not a public multi-court club."
   }
 ]

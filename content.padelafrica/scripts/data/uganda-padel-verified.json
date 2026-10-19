@@ -68,12 +68,15 @@
     "venueModel": "resort",
     "seasonNote": "Daily 06:00–22:00 (operator padel section); equipment hire at Maisha Health Club.",
     "description": "Lake Victoria Serena Padel is the lakeside resort court at Lake Victoria Serena Golf Resort & Spa on Lweza-Kigo Road with published phone and Maisha Health Club booking. A clear Greater Kampala recommendation beyond Herman and Smash when you want resort courts toward Entebbe Road. Call or email Maisha to book.",
-    "primarySourceUrl": "https://www.serenahotels.com/lake-victoria",
+    "primarySourceUrl": "https://www.serenahotels.com/experiences/padel-tennis-at-lake-victoria-serena-golf-resort-spa",
     "secondarySourceUrl": "https://www.serenahotels.com/lake-victoria",
     "sourceTypes": "Serena Hotels Lake Victoria page (padel hours + phone + Maisha email + Lweza-Kigo Road address)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Court count not asserted. Distinct from UGA-VEN-001 Herman and UGA-VEN-002 Smash Bukoto."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25. Court count not asserted. Distinct from UGA-VEN-001 Herman and UGA-VEN-002 Smash Bukoto.; FIND/enrich 2026-10-19T06 WhatsApp+IG from Serena padel experience page",
+    "whatsapp": "+256 313 221000",
+    "instagram": "https://www.instagram.com/lakevictoriaserena/",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "UGA-VEN-004",

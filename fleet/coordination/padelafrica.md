@@ -1972,3 +1972,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-19 — padelafrica (tick ~06:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 608). **Fair-use:** courtpro pass **124** (seeded DPC Dakar candidate — **duplicate** of SEN-VEN-002, not promoted); padelrevive DE hub still needs_verify; skip actu-padel thrash.
+
+**FIND / ingest:** **TUN-VEN-037 Padel Resort Rafraf** (Bizerte villa court, phone+IG) created DISCOVERED. Enriched **ALG-001** Area Wellness IG/FB/email/WhatsApp; **ALG-004/005** WhatsApp; **SEN-002** IG @dakarpadelclub; **UGA-003** Serena WhatsApp/IG. DZ Constantine/Annaba + UG Entebbe/Jinja → zero-result.
+
+Not claiming PUBLISHED.
+

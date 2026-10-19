@@ -15,13 +15,20 @@
     "venueModel": "own_premises",
     "indoorHint": true,
     "courtsReported": "2",
-    "seasonNote": "Hours vary by source; directories commonly report morning-to-evening sessions",
+    "seasonNote": "Daily 06:30–22:00; closed Friday (guide-oran / place listing).",
     "description": "Area Wellness Club brings padel to Bir El Djir in Oran, inside the Résidence Hasnaoui / Cité El Ryad belt. Two indoor courts sit in a broader wellness club — a strong recommendation when you want covered rallies in Oran’s eastern suburbs rather than an open dusty pitch. Call ahead for court times; this is a named club address with a local fitness setting around the padel.",
-    "primarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/algeria-en/",
-    "secondarySourceUrl": "https://trustpadel.com/country/play-padel-in-algeria/",
+    "primarySourceUrl": "https://guide-oran.com/en/area-wellness/",
+    "secondarySourceUrl": "https://padellands.com/pistas-de-padel/area-wellness-club-oran/",
     "sourceTypes": "Google Business/Maps; padel directory; installer portfolio",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-10-19",
+    "instagram": "https://www.instagram.com/areawellnessclubofficiel/",
+    "facebook": "https://www.facebook.com/AreaWellnessClub",
+    "email": "areawellness31@gmail.com",
+    "whatsapp": "+213 558 80 00 00",
+    "website": "https://guide-oran.com/en/area-wellness/",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND/enrich 2026-10-19T06 IG/FB/email/WhatsApp/hours from guide-oran + place listing"
   },
   {
     "recordId": "ALG-VEN-002",
@@ -95,7 +102,10 @@
     "primarySourceUrl": "https://www.google.com/maps/search/?api=1&query=Akhy%20Padel%20Indoor%20Rouiba%20Algeria",
     "sourceTypes": "Google Business/Maps",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22"
+    "lastVerifiedUtc": "2026-10-19",
+    "whatsapp": "+213 549 42 31 70",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND/enrich 2026-10-19T06 WhatsApp from published phone"
   },
   {
     "recordId": "ALG-VEN-005",
@@ -116,8 +126,10 @@
     "secondarySourceUrl": "https://www.waze.com/live-map/directions?to=place.ChIJi6e4bl6vjxIRV2PZ4e8O2So",
     "sourceTypes": "Google Business/Maps; Waze; app-store description",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Same physical site as historical Padel Oxygen (ALG-HIS-001); only the live arena is seeded"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Same physical site as historical Padel Oxygen (ALG-HIS-001); only the live arena is seeded; FIND/enrich 2026-10-19T06 WhatsApp from published phone",
+    "whatsapp": "+213 560 00 35 35",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "ALG-VEN-006",

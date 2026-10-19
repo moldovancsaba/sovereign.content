@@ -3093,5 +3093,22 @@
     "researchNote": "Discovered via PadelRevive Africa fair-use one-lead research. No external club website extracted — agent must confirm an official URL before ingest. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) — phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) → contactLinks; bare WhatsApp → wa.me; if no street use city-level line1 + OSM city pin (locality).",
     "status": "needs_verify",
     "extractedAt": "2026-10-18T13:00:35.701Z"
+  },
+  {
+    "candidateId": "fair-courtpro-dpc-dakar-padel-club",
+    "sourceId": "courtpro",
+    "sourceName": "CourtPro club directory",
+    "name": "DPC (DAKAR PADEL CLUB)",
+    "citationUrl": "https://www.courtpro.com/clubs/senegal/dakar/dpc-dakar-padel-club",
+    "website": "https://ballejaune.com/club/Dpc",
+    "cityHint": "DAKAR",
+    "countryHint": "Senegal",
+    "researchSources": [
+      "https://www.courtpro.com/clubs/senegal/dakar/dpc-dakar-padel-club",
+      "https://ballejaune.com/club/Dpc"
+    ],
+    "researchNote": "Discovered via CourtPro club directory fair-use one-lead research. Official club website is the Find/ingest target; directory page is citation only. Status needs_verify: clear evidence bar (docs/LISTING-STANDARDS.md) — phone/email optional; official WhatsApp/Instagram/Facebook/X http(s) → contactLinks; bare WhatsApp → wa.me; if no street use city-level line1 + OSM city pin (locality).",
+    "status": "needs_verify",
+    "extractedAt": "2026-10-19T06:00:29.350Z"
   }
 ]

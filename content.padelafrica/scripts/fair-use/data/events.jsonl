@@ -4253,3 +4253,5 @@
 {"at":"2026-10-19T04:01:49.941Z","type":"fair_use_attempt","sourceId":"padelrevive","mode":"discovery_harvest","url":"https://padelrevive.com/padel-in-tanzania/","harvested":0}
 {"at":"2026-10-19T05:00:27.500Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/libya/"}
 {"at":"2026-10-19T05:00:28.824Z","type":"fair_use_reject","sourceId":"padellands","mode":"discovery","url":"https://padellands.com/en/pistas-de-padel/otros-paises/libya/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-10-19T06:00:29.009Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/senegal/dakar/dpc-dakar-padel-club"}
+{"at":"2026-10-19T06:00:29.356Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/senegal/dakar/dpc-dakar-padel-club","candidateId":"fair-courtpro-dpc-dakar-padel-club","reasonCode":"seeded"}
