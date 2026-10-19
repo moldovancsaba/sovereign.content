@@ -912,9 +912,9 @@
     "analistas": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-18T20:00:30.018Z",
+      "lastFetchAt": "2026-10-19T13:00:39.717Z",
       "lastError": null
     },
     "ballejaune": {
@@ -1520,6 +1520,6 @@
       "lastError": null
     }
   },
-  "passCount": 130,
-  "lastPassAt": "2026-10-19T12:00:41.002Z"
+  "passCount": 131,
+  "lastPassAt": "2026-10-19T13:00:41.537Z"
 }

@@ -125,8 +125,9 @@
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/senegal/",
     "sourceTypes": "SenPages directory (address+phone+hours); Padel Lands Senegal club card (matching phone)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND until-found deepen Mbour cell 2026-09-25 → Ngaparou (Département de M'bour). Not in excludeNames. Court count (2) from Padel Lands not asserted. Phone +221 77 153 40 20 matched on SenPages + Padel Lands."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND until-found deepen Mbour cell 2026-09-25 → Ngaparou (Département de M'bour). Not in excludeNames. Court count (2) from Padel Lands not asserted. Phone +221 77 153 40 20 matched on SenPages + Padel Lands. FIND 2026-10-19T13 WhatsApp=phone from Padel Lands / padelinn Ngaparou cards.",
+    "whatsapp": "+221 77 153 40 20"
   },
   {
     "recordId": "SEN-VEN-006",

@@ -1,38 +1,41 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T12:02Z",
+  "tickUtc": "2026-10-19T13:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
-  "qualityAtCeiling": false,
-  "qualityLoopApplied": 1,
-  "qualityNote": "scanned 622; belowThreshold 1 → applied compose_about EGY-VEN-028 (65→80)",
+  "qualityAtCeiling": true,
+  "qualityLoopApplied": 0,
+  "qualityNote": "ceiling; scanned 626; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 130,
+    "passCount": 131,
     "pendingCandidates": 2,
-    "note": "padelafrica-apc harvest 0; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "analistas harvest 0; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-026",
-      "EGY-VEN-027",
-      "EGY-VEN-028"
+      "EGY-VEN-029",
+      "EGY-VEN-030",
+      "EGY-VEN-031",
+      "ZWE-VEN-008"
     ],
     "enriched": [
-      "EGY-VEN-017",
-      "GMB-VEN-002",
-      "GMB-VEN-003",
-      "TGO-VEN-003"
+      "SEN-VEN-005",
+      "MDG-VEN-005",
+      "ZWE-VEN-004",
+      "ZWE-VEN-005",
+      "ZWE-VEN-006",
+      "NAM-VEN-003"
     ],
     "zeroResult": [
-      "BF Bobo-Dioulasso",
-      "SO Mogadishu"
+      "ML Bamako",
+      "BF Bobo-Dioulasso"
     ],
     "skipped": [
       "actu-padel thrash",

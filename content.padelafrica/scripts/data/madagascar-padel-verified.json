@@ -126,8 +126,10 @@
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/madagascar-en/",
     "sourceTypes": "Padel Lands Padel 57 card (Lot 57 Masinandriana + phone); Madagascar country directory row",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Court count listed as 1 — not asserted. No first-party site found within tick; phone+address from directory only."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 1 — not asserted. No first-party site found within tick; phone+address from directory only. FIND 2026-10-19T13 Facebook profile + WhatsApp=phone from place card / Padel Lands.",
+    "facebook": "https://www.facebook.com/profile.php?id=100086830943560",
+    "whatsapp": "+261 32 66 463 13"
   },
   {
     "recordId": "MDG-VEN-006",

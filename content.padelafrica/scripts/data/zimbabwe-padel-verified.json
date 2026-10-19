@@ -102,8 +102,10 @@
     "secondarySourceUrl": "https://padelzim.com/",
     "sourceTypes": "Matchpoint multi-site list (Borrowdale Brooke Estate + hours); operator homepage sister venues",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Phone shared with Highlands WhatsApp on operator homepage — Medium until dedicated desk number published. Distinct estate site from Hub/Highlands."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25. Phone shared with Highlands WhatsApp on operator homepage — Medium until dedicated desk number published. Distinct estate site from Hub/Highlands. FIND 2026-10-19T13 WhatsApp/IG from shared Padel Zim operator.",
+    "whatsapp": "+263 78 846 8435",
+    "instagram": "https://www.instagram.com/padelzim/"
   },
   {
     "recordId": "ZWE-VEN-005",
@@ -127,9 +129,10 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/padel-on-101/",
     "sourceTypes": "Club site; Padel Lands",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-18",
-    "researchNotes": "Evidence: club contact page phone +263 771 693 668; booking URL; street on club + Padel Lands. Nominatim street pin Churchill Ave Gunhill. FIND/enrich 2026-10-18T23",
-    "verifiedAt": "2026-10-18"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Evidence: club contact page phone +263 771 693 668; booking URL; street on club + Padel Lands. Nominatim street pin Churchill Ave Gunhill. FIND/enrich 2026-10-18T23 FIND 2026-10-19T13 WhatsApp=phone from padelon101.com contact.",
+    "verifiedAt": "2026-10-18",
+    "whatsapp": "+263 771 693 668"
   },
   {
     "recordId": "ZWE-VEN-006",
@@ -153,8 +156,9 @@
     "secondarySourceUrl": "https://www.stablesports.org/",
     "sourceTypes": "Club site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "Evidence: stablesports.org contact street + phone +263 777745066. Site claims four padel courts; not inventing beyond published. Nominatim Kingsmead Road West."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Evidence: stablesports.org contact street + phone +263 777745066. Site claims four padel courts; not inventing beyond published. Nominatim Kingsmead Road West. FIND 2026-10-19T13 WhatsApp=phone from stablesports.org contact.",
+    "whatsapp": "+263 777 745 066"
   },
   {
     "recordId": "ZWE-VEN-007",
@@ -178,5 +182,33 @@
     "confidence": "High",
     "lastVerifiedUtc": "2026-09-26",
     "researchNotes": "Opened ~Mar 2026 per WestProp coverage; phone from Padel Lands"
+  },
+  {
+    "recordId": "ZWE-VEN-008",
+    "name": "Padel Zim Pauling Road",
+    "city": "Harare",
+    "region": "Harare",
+    "countryCode": "ZW",
+    "line1": "20-22 Pauling Road, Harare",
+    "lat": -17.8292,
+    "lng": 31.0522,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Harare locality pin — Pauling Road street not rooftop-geocoded",
+    "website": "https://padelzim.com/",
+    "phone": "+263 77 754 7001",
+    "email": "padelzim@gmail.com",
+    "instagram": "https://www.instagram.com/padelzim/",
+    "whatsapp": "+263 77 754 7001",
+    "venueModel": "outdoors",
+    "seasonNote": "Operator lists Mon–Sun 06:00–22:00; WhatsApp Pauling line on padelzim.com.",
+    "description": "Padel Zim Pauling Road is a clear Harare densify recommendation at 20–22 Pauling Road, distinct from The Hub on The Chase and Highlands Sports Club, with WhatsApp booking on the operator site. Message ahead for evening slots.",
+    "primarySourceUrl": "https://padelzim.com/",
+    "secondarySourceUrl": "https://padelzim.com/index.aspx",
+    "sourceTypes": "Padel Zim operator site (Pauling Road address + WhatsApp +263 77 754 7001)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T13. Distinct from ZWE-VEN-001 Hub, ZWE-VEN-002 Highlands, ZWE-VEN-003 Bulawayo (shares Bulawayo WhatsApp digit pattern historically — Pauling phone taken from operator Pauling block)."
   }
 ]

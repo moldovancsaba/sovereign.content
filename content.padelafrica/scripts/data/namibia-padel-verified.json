@@ -72,8 +72,9 @@
     "secondarySourceUrl": "https://padellands.com/pistas-de-padel/wanderers-padel/",
     "sourceTypes": "Matchpoint club contact (Wanderers Sports Club + phone + email + hours); Padel Lands directory (Tunschel street + 2 courts listed)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Court count listed as 2 — not asserted. Distinct from NAM-VEN-001 Olympia and NAM-VEN-002 United."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25. Court count listed as 2 — not asserted. Distinct from NAM-VEN-001 Olympia and NAM-VEN-002 United. FIND 2026-10-19T13 Instagram @wandererspadel from Matchpoint/contact pages.",
+    "instagram": "https://www.instagram.com/wandererspadel/"
   },
   {
     "recordId": "NAM-VEN-004",

@@ -2028,3 +2028,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **EGY-VEN-026 Padel Bay Ismailia** + **EGY-VEN-027 Smash Padel Tanta** + **EGY-VEN-028 Smash Padel El Mahalla** created DISCOVERED. Enriched **EGY-017** 15-Love WhatsApp; **GMB-002/003** WhatsApp + Matchpoint email; **TGO-003** app note (no invented Website). BF Bobo-Dioulasso + SO Mogadishu → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~13:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 626). **Fair-use:** analistas pass **131** (harvest 0); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** First Mansoura cell — **EGY-VEN-029 Padel.H**, **EGY-VEN-030 A4 Padel**, **EGY-VEN-031 Emirates Padel** + **ZWE-VEN-008 Padel Zim Pauling Road** created DISCOVERED. Enriched **SEN-005** WhatsApp; **MDG-005** Facebook/WhatsApp; **ZWE-004/005/006** WhatsApp wave; **NAM-003** Wanderers Instagram. ML Bamako + BF Bobo-Dioulasso → zero-result.
+
+Not claiming PUBLISHED.

@@ -1,0 +1,115 @@
+{
+  "appliedAt": "2026-10-19T13:02:49.966Z",
+  "results": [
+    {
+      "recordId": "EGY-VEN-029",
+      "id": "research-egy-ven-029",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-029",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-030",
+      "id": "research-egy-ven-030",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-030",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-031",
+      "id": "research-egy-ven-031",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-031",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "ZWE-VEN-008",
+      "id": "research-zwe-ven-008",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-zwe-ven-008",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "SEN-VEN-005",
+      "id": "research-sen-ven-005",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-sen-ven-005",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MDG-VEN-005",
+      "id": "research-mdg-ven-005",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mdg-ven-005",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ZWE-VEN-004",
+      "id": "research-zwe-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zwe-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ZWE-VEN-005",
+      "id": "research-zwe-ven-005",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zwe-ven-005",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "ZWE-VEN-006",
+      "id": "research-zwe-ven-006",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-zwe-ven-006",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "NAM-VEN-003",
+      "id": "research-nam-ven-003",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-nam-ven-003",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}
