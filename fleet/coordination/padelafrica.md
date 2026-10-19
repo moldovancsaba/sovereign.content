@@ -2108,3 +2108,12 @@ Not claiming PUBLISHED.
 **FIND / ingest:** First Obour cell **EGY-VEN-060 Padel Mondo** + densify **EGY-VEN-061 Padel Spot**; SD densify **EGY-VEN-062 ChillOut Albanafseg**; Dar densify **TZA-VEN-013 Smash Social Club**; Casablanca densify **MAR-VEN-052 Padel Pro** created DISCOVERED. EG New Administrative Capital + TD N'Djamena → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~23:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 668). **Fair-use:** playtomic-directory pass **141** (Zambia fetch_error soft-skip); marked CourtPro DPC = SEN-VEN-002 + Ngaparou = SEN-VEN-005 skipped_duplicate; padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** First Shorouk cell **EGY-VEN-063 SR Padel NIS** + densify **EGY-VEN-066 SD Shorouk Sports Club**; first Mokattam cell **EGY-VEN-064 Padel Yard** + densify **EGY-VEN-065 Padelhouse**; Gaborone densify **BWA-VEN-006 InterSport Molapo Crossing** created DISCOVERED. EG New Administrative Capital + TD N'Djamena → zero-result.
+
+Not claiming PUBLISHED.
+

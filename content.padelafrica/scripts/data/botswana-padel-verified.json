@@ -126,5 +126,32 @@
     "researchNotes": "FIND tick 26 under-covered BW (not ZA). Secondary phone +267 76 776 727 Maipelo also published on club homepage. Court count not asserted.; FIND/enrich 2026-10-19T08 — maunsportsclub.com contact email + WhatsApp from published phone",
     "whatsapp": "+267 71 917 845",
     "verifiedAt": "2026-10-19"
+  },
+  {
+    "recordId": "BWA-VEN-006",
+    "name": "InterSport Molapo Crossing Padel",
+    "city": "Gaborone",
+    "region": "South-East District",
+    "countryCode": "BW",
+    "line1": "Molapo Crossing, Ground Floor / Molapo Piazza, Block 6",
+    "lat": -24.6430481,
+    "lng": 25.8857696,
+    "geoPrecision": "place",
+    "geoSource": "nominatim",
+    "geoNote": "OSM shop node Molapo crossing on Western Bypass",
+    "website": "https://intersport.co.bw/",
+    "phone": "+267 78 083 773",
+    "email": "support@intersportbw.pro",
+    "whatsapp": "+267 78 083 773",
+    "venueModel": "outdoors",
+    "seasonNote": "Molapo Crossing lists padel Mon–Sun ~09:00–22:00 on Piazza; book via intersport.co.bw.",
+    "description": "InterSport Molapo Crossing puts bookable padel courts on the Molapo Piazza ground floor in Gaborone with first-party intersport.co.bw, published WhatsApp/phone, and support email. A clear under-covered Botswana densify stop beside Gamecity and the 10by20 cells. Call, WhatsApp, or book on the operator site ahead.",
+    "primarySourceUrl": "https://intersport.co.bw/",
+    "secondarySourceUrl": "https://molapocrossing.co.bw/shops",
+    "sourceTypes": "InterSport Botswana site (padel booking + phone/email); Molapo Crossing shops (padel courts on Piazza)",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T23. Mall page also lists +267 75 242 293; operator WhatsApp +267 78 083 773 used as primary."
   }
 ]

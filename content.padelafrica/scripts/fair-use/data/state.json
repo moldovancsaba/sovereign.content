@@ -1507,12 +1507,12 @@
     "playtomic-directory": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 7,
+      "discoveryCursor": 8,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-19T07:00:48.213Z",
+      "lastFetchAt": "2026-10-19T23:00:52.797Z",
       "lastError": {
-        "at": "2026-10-19T07:00:48.324Z",
-        "url": "https://directory.playtomic.io/angola/",
+        "at": "2026-10-19T23:00:52.896Z",
+        "url": "https://directory.playtomic.io/zambia/",
         "reasonCode": "fetch_error"
       }
     },
@@ -1525,6 +1525,6 @@
       "lastError": null
     }
   },
-  "passCount": 140,
-  "lastPassAt": "2026-10-19T22:00:38.296Z"
+  "passCount": 141,
+  "lastPassAt": "2026-10-19T23:00:52.897Z"
 }

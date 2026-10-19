@@ -4287,3 +4287,5 @@
 {"at":"2026-10-19T21:00:48.976Z","type":"fair_use_attempt","sourceId":"padellands","mode":"discovery_harvest","url":"https://padellands.com/en/pistas-de-padel/otros-paises/tunisia/","harvested":0}
 {"at":"2026-10-19T22:00:38.050Z","type":"fair_use_attempt","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/senegal/ngaparou/padel-club-ngaparou"}
 {"at":"2026-10-19T22:00:38.295Z","type":"fair_use_seed","sourceId":"courtpro","mode":"detail","url":"https://www.courtpro.com/clubs/senegal/ngaparou/padel-club-ngaparou","candidateId":"fair-courtpro-padel-club-ngaparou","reasonCode":"seeded"}
+{"at":"2026-10-19T23:00:52.797Z","type":"fair_use_attempt","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/zambia/"}
+{"at":"2026-10-19T23:00:52.896Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/zambia/","reasonCode":"fetch_error","error":"fetch failed"}

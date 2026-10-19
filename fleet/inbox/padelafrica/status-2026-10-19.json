@@ -1,30 +1,30 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T22:02Z",
+  "tickUtc": "2026-10-19T23:03Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 663; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 668; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 140,
-    "pendingCandidates": 3,
-    "note": "courtpro seeded fair-courtpro-padel-club-ngaparou (= SEN-VEN-005 duplicate, not promoted); padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "passCount": 141,
+    "pendingCandidates": 1,
+    "note": "playtomic-directory Zambia fetch_error soft-skip (pass still increments); marked CourtPro DPC = SEN-VEN-002 and Ngaparou = SEN-VEN-005 skipped_duplicate; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-060",
-      "EGY-VEN-061",
-      "EGY-VEN-062",
-      "TZA-VEN-013",
-      "MAR-VEN-052"
+      "EGY-VEN-063",
+      "EGY-VEN-064",
+      "EGY-VEN-065",
+      "EGY-VEN-066",
+      "BWA-VEN-006"
     ],
     "enriched": [],
     "zeroResult": [
