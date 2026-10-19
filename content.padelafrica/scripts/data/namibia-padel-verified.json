@@ -21,9 +21,10 @@
     "secondarySourceUrl": "https://namibiapadel.com/Pages/11-the_club_namibia_padel",
     "sourceTypes": "Namibia Padel official site",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-14",
-    "researchNotes": "Swakopmund site is OSM osm-node-12477757278 — enrich only, do not duplicate; tick 2026-10-14 WhatsApp booking line from namibiapadel.com news",
-    "whatsapp": "+264 85 798 3160"
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Swakopmund site is OSM osm-node-12477757278 — enrich only, do not duplicate; tick 2026-10-14 WhatsApp booking line from namibiapadel.com news FIND/enrich 2026-10-19T01",
+    "whatsapp": "+264 85 798 3160",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "NAM-VEN-002",
@@ -96,8 +97,10 @@
     "secondarySourceUrl": "https://www.ournamibia.com/articles/lifestyle/the-growing-popularity-of-padel-in-namibia",
     "sourceTypes": "Operator site Swakopmund contact (Platz Am Meer + phone + email); OurNamibia feature (Dec 2024 coastal opening)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Same operator brand as NAM-VEN-001 but distinct Swakopmund venue. Matchpoint also lists 081 716 9915 — operator homepage 9914 used."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "FIND tick 2026-09-25. Same operator brand as NAM-VEN-001 but distinct Swakopmund venue. Matchpoint also lists 081 716 9915 — operator homepage 9914 used. FIND/enrich 2026-10-19T01",
+    "whatsapp": "+264 81 716 9914",
+    "verifiedAt": "2026-10-19"
   },
   {
     "recordId": "NAM-VEN-005",

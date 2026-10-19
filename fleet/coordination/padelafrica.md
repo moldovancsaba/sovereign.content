@@ -1931,3 +1931,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **MUS-VEN-011 RM Club Tamarin** (5 covered courts, Cap Tamarin) + **MUS-VEN-012 Labourdonnais Sports Club** (Mapou, 3 courts) + **MUS-VEN-013 Studio by RM Azuri** (3 covered courts) created DISCOVERED. Enriched **SYC-002** Labriz WhatsApp; **SLE-001** Young Sportsmen WhatsApp. LS Maseru / LR Monrovia → zero-result (essay/launching-only).
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~01:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 601). **Fair-use:** padel-llc pass **119** (harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash.
+
+**FIND / ingest:** **MUS-VEN-014 Mont Choisy Leisure & Wellness Centre** (2 padel courts, booking phone+email) created DISCOVERED. Enriched **ETH-001** IG @addis.padel.club; **ALG-002/003** IG/WhatsApp; **MRT-001** WhatsApp/IG; **CMR-003/006** WhatsApp; **NAM-001/004** WhatsApp/email. KM/ER/ST → zero-result.
+
+Not claiming PUBLISHED.

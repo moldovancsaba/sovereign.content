@@ -45,8 +45,11 @@
     "secondarySourceUrl": "https://padellands.com/en/padel-courts/pro-padel-cameroun/",
     "sourceTypes": "Booking platform; Padel Lands; CourtPro",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-22",
-    "dataConflicts": "BP values and possible ORA Complex co-location unresolved — not merged"
+    "lastVerifiedUtc": "2026-10-19",
+    "dataConflicts": "BP values and possible ORA Complex co-location unresolved — not merged",
+    "whatsapp": "+237 697 777 111",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND/enrich 2026-10-19T01"
   },
   {
     "recordId": "CMR-VEN-004",
@@ -117,7 +120,9 @@
     "secondarySourceUrl": "https://www.instagram.com/elitepadelyaounde/",
     "sourceTypes": "Padel Lands Elite Padel Yaounde (phone + Dragages) + Instagram @elitepadelyaounde / @elitepadelyde",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-27",
-    "researchNotes": "Revisit 2026-09-27 — tick 05 skipped hiring-only; phone+IG now printed. May overlap OSM osm-way-1524068106 if already live — research id still seeded for DISCOVERED backfill."
+    "lastVerifiedUtc": "2026-10-19",
+    "researchNotes": "Revisit 2026-09-27 — tick 05 skipped hiring-only; phone+IG now printed. May overlap OSM osm-way-1524068106 if already live — research id still seeded for DISCOVERED backfill. FIND/enrich 2026-10-19T01",
+    "whatsapp": "+237 674 85 87 28",
+    "verifiedAt": "2026-10-19"
   }
 ]

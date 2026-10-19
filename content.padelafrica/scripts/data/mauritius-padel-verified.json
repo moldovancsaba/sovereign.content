@@ -333,5 +333,32 @@
     "lastVerifiedUtc": "2026-10-19",
     "verifiedAt": "2026-10-19",
     "researchNotes": "FIND tick 2026-10-19T00. Distinct from MUS-VEN-003/011 RM siblings."
+  },
+  {
+    "recordId": "MUS-VEN-014",
+    "name": "Mont Choisy Leisure & Wellness Centre",
+    "city": "Grand Baie",
+    "region": "Pamplemousses",
+    "countryCode": "MU",
+    "line1": "Mont Choisy / Chemin Vingt Pieds corridor, Grand Baie",
+    "lat": -20.0130199,
+    "lng": 57.584627,
+    "geoPrecision": "locality",
+    "geoSource": "nominatim",
+    "geoNote": "Grand Baie locality pin — leisure centre padel courts not rooftop-surveyed",
+    "website": "https://www.montchoisy.com/lifestyle/",
+    "phone": "+230 265 0398",
+    "whatsapp": "+230 265 0398",
+    "email": "bookings@montchoisyleisure.com",
+    "venueModel": "club_shared",
+    "seasonNote": "Centre Mon–Sat 08:00–20:00; Sun & PH 08:00–14:00 (brochure). Two padel courts; book via reception / Myhomeclub app.",
+    "description": "Mont Choisy Leisure & Wellness Centre offers two padel courts amid tennis and gym facilities in Grand Baie with a published booking phone and email — a clear north densify stop beside Isla and Urban Sport. Call or email bookings ahead for court time.",
+    "primarySourceUrl": "https://www.montchoisy.com/wp-content/uploads/2022/03/Mont-Choisy-Leisure-and-Wellness-Centre-brochure-v6-031221-1.pdf",
+    "secondarySourceUrl": "https://www.montchoisy.com/lifestyle/",
+    "sourceTypes": "Mont Choisy Leisure brochure (padel courts + phone + email + hours); lifestyle page",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-19",
+    "verifiedAt": "2026-10-19",
+    "researchNotes": "FIND tick 2026-10-19T01. Distinct from Isla/Urban Sport Grand Baie. Palya lists 2 courts at Mont Choisy Golf amenity."
   }
 ]
