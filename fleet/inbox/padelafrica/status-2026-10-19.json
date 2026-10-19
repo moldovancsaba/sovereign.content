@@ -1,38 +1,41 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T14:02Z",
+  "tickUtc": "2026-10-19T15:01Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 631; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 633; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 132,
+    "passCount": 133,
     "pendingCandidates": 2,
-    "note": "padel-without-borders 403 soft-skip; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "padelmap 429 soft-skip; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-032",
-      "EGY-VEN-033",
-      "EGY-VEN-034",
-      "EGY-VEN-035",
-      "EGY-VEN-036"
+      "EGY-VEN-037",
+      "EGY-VEN-038"
     ],
     "enriched": [
-      "SEN-VEN-007",
-      "SEN-VEN-008"
+      "SEN-VEN-010",
+      "CMR-VEN-005",
+      "AGO-VEN-004",
+      "AGO-VEN-005",
+      "AGO-VEN-009",
+      "AGO-VEN-011",
+      "AGO-VEN-012",
+      "AGO-VEN-016"
     ],
     "zeroResult": [
-      "NE Niamey",
-      "TD N'Djamena"
+      "EG Suez City",
+      "LR Monrovia"
     ],
     "skipped": [
       "actu-padel thrash",

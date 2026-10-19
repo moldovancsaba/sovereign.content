@@ -2044,3 +2044,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** Mansoura densify **EGY-VEN-032 LUPO** + **EGY-VEN-033 Ace Town**; first Zagazig **EGY-VEN-034 PADEL ten** + **EGY-VEN-035 Porto Padel**; first Damietta **EGY-VEN-036 PADEL93** created DISCOVERED. Enriched **SEN-007** Mama Padel move to Grand Théâtre + IG/WhatsApp; **SEN-008** Padel City WhatsApp + padelcity.sn. NE Niamey + TD N'Djamena → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~15:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 633). **Fair-use:** padelmap pass **133** (429 soft-skip); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** Ras El-Bar densify **EGY-VEN-037 PADEL RAS-El BAR** + **EGY-VEN-038 On Point Padel** created DISCOVERED. Enriched **SEN-010** Olympique IG/WhatsApp/email; **CMR-005** BENDO WhatsApp field; **AGO-004/005/009/011/012/016** WhatsApp=mobile wave. EG Suez City + LR Monrovia → zero-result.
+
+Not claiming PUBLISHED.
