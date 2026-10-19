@@ -4522,6 +4522,48 @@
       "outcome": "skipped",
       "at": "2026-10-19T18:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "Minya",
+      "outcome": "seeded",
+      "at": "2026-10-19T19:05:00.000Z",
+      "note": "EGY-045 Padel 55"
+    },
+    {
+      "cc": "EG",
+      "city": "Beni Suef",
+      "outcome": "seeded",
+      "at": "2026-10-19T19:05:00.000Z",
+      "note": "EGY-046 Padel Zone + EGY-047 Ten Eleven 1011"
+    },
+    {
+      "cc": "EG",
+      "city": "Cairo Suez Road",
+      "outcome": "seeded",
+      "at": "2026-10-19T19:05:00.000Z",
+      "note": "EGY-048 Four Corners + EGY-049 Padel Squad"
+    },
+    {
+      "cc": "EG",
+      "city": "Fayoum",
+      "outcome": "zero-result",
+      "at": "2026-10-19T19:05:00.000Z",
+      "note": "sport clubs only; no dedicated padel evidence"
+    },
+    {
+      "cc": "EG",
+      "city": "Luxor",
+      "outcome": "zero-result",
+      "at": "2026-10-19T19:05:00.000Z",
+      "note": "no public padel club evidence"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T19:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]
 }

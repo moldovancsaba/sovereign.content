@@ -1191,9 +1191,9 @@
     "premierpadel": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 2,
+      "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-19T03:00:45.313Z",
+      "lastFetchAt": "2026-10-19T19:00:34.120Z",
       "lastError": null
     },
     "thepadeldirectory": {
@@ -1520,6 +1520,6 @@
       "lastError": null
     }
   },
-  "passCount": 136,
-  "lastPassAt": "2026-10-19T18:01:33.762Z"
+  "passCount": 137,
+  "lastPassAt": "2026-10-19T19:00:34.677Z"
 }

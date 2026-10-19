@@ -1,36 +1,35 @@
 {
   "client": "padelafrica",
   "date": "2026-10-19",
-  "tickUtc": "2026-10-19T18:05Z",
+  "tickUtc": "2026-10-19T19:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 643; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 648; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 136,
+    "passCount": 137,
     "pendingCandidates": 2,
-    "note": "padelfip harvest 0; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "premierpadel harvest 0; padelrevive DE Senegal hub still needs_verify; CourtPro DPC duplicate SEN-VEN-002 not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-042",
-      "EGY-VEN-043",
-      "EGY-VEN-044",
-      "CIV-VEN-020"
+      "EGY-VEN-045",
+      "EGY-VEN-046",
+      "EGY-VEN-047",
+      "EGY-VEN-048",
+      "EGY-VEN-049"
     ],
-    "enriched": [
-      "MWI-VEN-005"
-    ],
+    "enriched": [],
     "zeroResult": [
-      "EG Sohag",
-      "CI Korhogo"
+      "EG Fayoum",
+      "EG Luxor"
     ],
     "skipped": [
       "actu-padel thrash",
