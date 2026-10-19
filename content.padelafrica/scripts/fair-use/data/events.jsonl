@@ -4265,3 +4265,5 @@
 {"at":"2026-10-19T10:00:47.336Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}
 {"at":"2026-10-19T11:00:34.991Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery","url":"https://www.africapadel.com/"}
 {"at":"2026-10-19T11:00:35.414Z","type":"fair_use_attempt","sourceId":"africapadel","mode":"discovery_harvest","url":"https://www.africapadel.com/","harvested":0}
+{"at":"2026-10-19T12:00:40.905Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery","url":"https://padelafrica.com/"}
+{"at":"2026-10-19T12:00:41.002Z","type":"fair_use_attempt","sourceId":"padelafrica-apc","mode":"discovery_harvest","url":"https://padelafrica.com/","harvested":0}

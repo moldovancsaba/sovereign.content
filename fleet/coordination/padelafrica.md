@@ -2020,3 +2020,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** **EGY-VEN-024 Padel Station Ismailia** + **EGY-VEN-025 Padel Fox Ismailia** + **RWA-VEN-004 Bounce Kacyiru** (Mövenpick) + **MRT-VEN-002 Infinity Club Nouakchott** created DISCOVERED. Enriched **RWA-001** Bounce email/site. ML Bamako + NE Niamey + MZ Just Play (no contact) → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-19 — padelafrica (tick ~12:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** applied 1 (EGY-VEN-028 About 65→80; scanned 622). **Fair-use:** padelafrica-apc pass **130** (harvest 0); padelrevive DE hub still needs_verify, not promoted; CourtPro DPC = duplicate SEN-VEN-002, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** **EGY-VEN-026 Padel Bay Ismailia** + **EGY-VEN-027 Smash Padel Tanta** + **EGY-VEN-028 Smash Padel El Mahalla** created DISCOVERED. Enriched **EGY-017** 15-Love WhatsApp; **GMB-002/003** WhatsApp + Matchpoint email; **TGO-003** app note (no invented Website). BF Bobo-Dioulasso + SO Mogadishu → zero-result.
+
+Not claiming PUBLISHED.

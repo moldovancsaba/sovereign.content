@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T11:05:00.000Z",
+  "updatedAt": "2026-10-19T12:05:00.000Z",
   "attempts": [
     {
       "cc": "CF",
@@ -4157,6 +4157,62 @@
       "city": "Dakar",
       "outcome": "skipped",
       "at": "2026-10-19T11:05:00.000Z",
+      "note": "CourtPro DPC / padelrevive DE hub not promoted"
+    },
+    {
+      "cc": "EG",
+      "city": "Ismailia",
+      "outcome": "seeded",
+      "at": "2026-10-19T12:05:00.000Z",
+      "note": "EGY-026 Padel Bay"
+    },
+    {
+      "cc": "EG",
+      "city": "Tanta/Mahalla",
+      "outcome": "seeded",
+      "at": "2026-10-19T12:05:00.000Z",
+      "note": "EGY-027 Smash Tanta + EGY-028 Smash Mahalla"
+    },
+    {
+      "cc": "EG",
+      "city": "El Mahalla",
+      "outcome": "enriched",
+      "at": "2026-10-19T12:05:00.000Z",
+      "note": "EGY-017 15-Love WhatsApp"
+    },
+    {
+      "cc": "GM",
+      "city": "Kololi",
+      "outcome": "enriched",
+      "at": "2026-10-19T12:05:00.000Z",
+      "note": "GMB-002/003 WhatsApp + G7 Matchpoint email"
+    },
+    {
+      "cc": "TG",
+      "city": "Lomé",
+      "outcome": "enriched",
+      "at": "2026-10-19T12:05:00.000Z",
+      "note": "TGO-003 app noted; no invented Website"
+    },
+    {
+      "cc": "BF",
+      "city": "Bobo-Dioulasso",
+      "outcome": "zero-result",
+      "at": "2026-10-19T12:05:00.000Z",
+      "note": "Ouaga-only inventory"
+    },
+    {
+      "cc": "SO",
+      "city": "Mogadishu",
+      "outcome": "zero-result",
+      "at": "2026-10-19T12:05:00.000Z",
+      "note": "no public padel club evidence"
+    },
+    {
+      "cc": "SN",
+      "city": "Dakar",
+      "outcome": "skipped",
+      "at": "2026-10-19T12:05:00.000Z",
       "note": "CourtPro DPC / padelrevive DE hub not promoted"
     }
   ]
