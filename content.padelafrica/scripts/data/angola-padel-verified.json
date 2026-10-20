@@ -141,14 +141,16 @@
     "geoSource": "nominatim",
     "geoNote": "Geocoded from: Município do Talatona, Luanda, Angola",
     "venueModel": "own_premises",
-    "seasonNote": "Daily 06:00–23:00",
+    "seasonNote": "Daily 06:00–23:00 Book via Playtomic booking host — Playtomic is not Website.",
     "description": "Padel da Villa offers padel inside Condomínio Vila Araújo in Talatona — two courts with café, restaurant and hire on a residential-club setting. A solid recommendation for Talatona players who want courts close to home without crossing into the denser city centre. Daily early-morning to late-evening sessions.",
     "primarySourceUrl": "https://do-padel.com/dopadel/clubs/angola/luanda/luanda",
     "secondarySourceUrl": "https://playtomic.com/clubs/padel-da-villa",
     "sourceTypes": "Directory plus booking platform",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22",
-    "website": "https://playtomic.com/clubs/padel-da-villa"
+    "lastVerifiedUtc": "2026-10-20",
+    "website": null,
+    "verifiedAt": "2026-10-20",
+    "researchNotes": "; FIND/enrich 2026-10-20T01 — Website≠Playtomic"
   },
   {
     "recordId": "AGO-VEN-007",
@@ -163,14 +165,16 @@
     "geoSource": "nominatim",
     "geoNote": "Geocoded from: Distrito Urbano da Ingombota, Município de Luanda, Luanda, Angola",
     "venueModel": "own_premises",
-    "seasonNote": "Daily 06:00–00:00",
+    "seasonNote": "Daily 06:00–00:00 Book via Playtomic booking host — Playtomic is not Website.",
     "description": "Padel Mania CTL is an Ingombotas padel club on Rua Frederico das Necessidades Branco in central Luanda. Two courts with café, restaurant and hire — a practical recommendation when you want padel in the Ingombota urban district rather than a southern suburb trip. Open early through midnight most days.",
     "primarySourceUrl": "https://do-padel.com/dopadel/clubs/angola/luanda/luanda",
     "secondarySourceUrl": "https://playtomic.com/clubs/padel-mania-ctl",
     "sourceTypes": "Directory plus booking platform",
     "confidence": "Medium-high",
-    "lastVerifiedUtc": "2026-09-22",
-    "website": "https://playtomic.com/clubs/padel-mania-ctl"
+    "lastVerifiedUtc": "2026-10-20",
+    "website": null,
+    "verifiedAt": "2026-10-20",
+    "researchNotes": "; FIND/enrich 2026-10-20T01 — Website≠Playtomic"
   },
   {
     "recordId": "AGO-VEN-008",

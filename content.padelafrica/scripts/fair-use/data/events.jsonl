@@ -4291,3 +4291,5 @@
 {"at":"2026-10-19T23:00:52.896Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/zambia/","reasonCode":"fetch_error","error":"fetch failed"}
 {"at":"2026-10-20T00:01:32.716Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery","url":"https://playtomic.com/clubs"}
 {"at":"2026-10-20T00:01:32.819Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery_harvest","url":"https://playtomic.com/clubs","harvested":0}
+{"at":"2026-10-20T01:00:46.784Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/maroc/"}
+{"at":"2026-10-20T01:00:47.068Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/maroc/","status":404,"blocked":false,"reasonCode":"fetch_error"}

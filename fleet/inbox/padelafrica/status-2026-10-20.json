@@ -1,46 +1,45 @@
 {
   "client": "padelafrica",
   "date": "2026-10-20",
-  "tickUtc": "2026-10-20T00:04Z",
+  "tickUtc": "2026-10-20T01:01Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 672; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 677; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 142,
+    "passCount": 143,
     "pendingCandidates": 1,
-    "note": "playtomic pass 142 harvest 0; padelrevive DE Senegal hub still needs_verify, not promoted; CourtPro DPC/Ngaparou already skipped_duplicate; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "ballejaune maroc 404 soft-skip (pass still increments); padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-067",
-      "EGY-VEN-068",
-      "EGY-VEN-069",
-      "EGY-VEN-070"
+      "EGY-VEN-071",
+      "EGY-VEN-072",
+      "EGY-VEN-073",
+      "EGY-VEN-074",
+      "EGY-VEN-075"
     ],
     "enriched": [
-      "UGA-VEN-002",
-      "KEN-VEN-023"
+      "AGO-VEN-006",
+      "AGO-VEN-007"
     ],
     "zeroResult": [
-      "ML Bamako",
-      "LR Monrovia",
-      "LS Maseru",
-      "InterSport Acacia Phakalane (soon to open)"
+      "RW Musanze",
+      "RW Rubavu",
+      "EGY-040 Justpadel phone still unpublished"
     ],
     "skipped": [
       "actu-padel thrash",
       "findapadelcourt-za densify",
-      "Padel House Abidjan ouverture prochaine",
       "fair-padelrevive DE Senegal hub",
-      "FLY PADEL Ismailia likely same Saha campus as EGY-025 Padel Fox"
+      "InterSport Acacia Phakalane soon to open"
     ]
   },
   "hitlBacklog": 0,

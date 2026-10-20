@@ -922,12 +922,12 @@
     "ballejaune": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 3,
+      "discoveryCursor": 4,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-19T09:00:25.444Z",
+      "lastFetchAt": "2026-10-20T01:00:46.784Z",
       "lastError": {
-        "at": "2026-10-19T09:00:25.668Z",
-        "url": "https://ballejaune.com/cote-divoire/",
+        "at": "2026-10-20T01:00:47.068Z",
+        "url": "https://ballejaune.com/maroc/",
         "reasonCode": "fetch_error"
       }
     },
@@ -1525,6 +1525,6 @@
       "lastError": null
     }
   },
-  "passCount": 142,
-  "lastPassAt": "2026-10-20T00:01:32.819Z"
+  "passCount": 143,
+  "lastPassAt": "2026-10-20T01:00:47.068Z"
 }

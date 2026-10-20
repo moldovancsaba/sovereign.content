@@ -2125,3 +2125,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-20 — padelafrica (tick ~01:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 677). **Fair-use:** ballejaune pass **143** (maroc 404 soft-skip); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** SR densify **EGY-VEN-071 Ard El Kheil** + **EGY-VEN-072 Platinum Katameya Residence** + **EGY-VEN-074 Royal Sporting Club**; **EGY-VEN-073 Sky Padel New Cairo**; **EGY-VEN-075 RePadel Sunrise** created DISCOVERED. Enriched **AGO-006/007** Website≠Playtomic. RW Musanze/Rubavu → zero-result.
+
+Not claiming PUBLISHED.
+
