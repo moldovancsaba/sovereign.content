@@ -127,12 +127,13 @@
     "secondarySourceUrl": "https://greenviewsresidential.com/padel-in-accra/",
     "sourceTypes": "Greenviews Accra guide (address+phone); Jubo Padel project card (Spintex Rd); Yandex Maps phone corroboration",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-19",
-    "researchNotes": "FIND kick tick 2026-09-25 Accra deepen — not in prior GHA-VEN-001..004 sample.; FIND/enrich 2026-10-19T09 — Matchpoint booking site + s2sportscomplex@gmail.com; WhatsApp from published phone FIND/enrich 2026-10-19T21 place pin; Matchpoint booking host removed from Website.",
+    "lastVerifiedUtc": "2026-10-20",
+    "researchNotes": "FIND kick tick 2026-09-25 Accra deepen — not in prior GHA-VEN-001..004 sample.; FIND/enrich 2026-10-19T09 — Matchpoint booking site + s2sportscomplex@gmail.com; WhatsApp from published phone FIND/enrich 2026-10-19T21 place pin; Matchpoint booking host removed from Website.; FIND/enrich 2026-10-20T11 Instagram @s2sportclub; Matchpoint host not used as Website",
     "website": null,
     "email": "s2sportscomplex@gmail.com",
     "whatsapp": "+233 59 710 6358",
-    "verifiedAt": "2026-10-19"
+    "verifiedAt": "2026-10-19",
+    "instagram": "https://www.instagram.com/s2sportclub/"
   },
   {
     "recordId": "GHA-VEN-006",

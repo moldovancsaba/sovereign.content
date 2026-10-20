@@ -2205,3 +2205,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** October densify **EGY-VEN-112 Padel Hub Move**; Heliopolis densify **EGY-VEN-113 Four Corners Sheraton Park**; Maadi densify **EGY-VEN-114 Padel Up Elite**; Alexandria densify **EGY-VEN-115 The Hit** + **EGY-VEN-116 Padel Square** created DISCOVERED. Enriched **EGY-004** Alex Padel phone/IG; **EGY-110/111** Hub IG/email. ML/LR first venues + Padel Plus/Almazah Zone → zero-result / skip.
 
 Not claiming PUBLISHED.
+
+### 2026-10-20 — padelafrica (tick ~11:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 724). **Fair-use:** playtomic-directory pass **153** (fetch_error soft-skip); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** Alexandria densify **EGY-VEN-117 SR Padel Indoor** + **EGY-VEN-118 WePadel Kings Yard** + **EGY-VEN-119 WePadel Alex West** created DISCOVERED. Enriched **EGY-013** Galleria IG/WhatsApp; **EGY-001/002** WePadel IG; **GHA-005** S2 Instagram. ML/LR first venues → zero-result. Timer expires ~11:57Z — left subscribed.
+
+Not claiming PUBLISHED.

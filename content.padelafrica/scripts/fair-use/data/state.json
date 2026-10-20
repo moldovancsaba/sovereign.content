@@ -1507,12 +1507,12 @@
     "playtomic-directory": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 10,
+      "discoveryCursor": 1,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-20T10:00:40.664Z",
+      "lastFetchAt": "2026-10-20T11:00:31.592Z",
       "lastError": {
-        "at": "2026-10-20T10:00:40.742Z",
-        "url": "https://directory.playtomic.io/ghana/",
+        "at": "2026-10-20T11:00:31.658Z",
+        "url": "https://directory.playtomic.io/",
         "reasonCode": "fetch_error"
       }
     },
@@ -1525,6 +1525,6 @@
       "lastError": null
     }
   },
-  "passCount": 152,
-  "lastPassAt": "2026-10-20T10:00:40.743Z"
+  "passCount": 153,
+  "lastPassAt": "2026-10-20T11:00:31.659Z"
 }

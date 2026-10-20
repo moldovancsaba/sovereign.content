@@ -4311,3 +4311,5 @@
 {"at":"2026-10-20T09:00:41.384Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/nigeria/","reasonCode":"fetch_error","error":"fetch failed"}
 {"at":"2026-10-20T10:00:40.664Z","type":"fair_use_attempt","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/ghana/"}
 {"at":"2026-10-20T10:00:40.742Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/ghana/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-10-20T11:00:31.592Z","type":"fair_use_attempt","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/"}
+{"at":"2026-10-20T11:00:31.658Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/","reasonCode":"fetch_error","error":"fetch failed"}
