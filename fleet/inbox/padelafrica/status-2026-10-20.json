@@ -1,45 +1,45 @@
 {
   "client": "padelafrica",
   "date": "2026-10-20",
-  "tickUtc": "2026-10-20T06:03Z",
+  "tickUtc": "2026-10-20T07:01Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 705; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 709; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 148,
+    "passCount": 149,
     "pendingCandidates": 1,
-    "note": "padel-without-borders pass 148 http_blocked 403 soft-skip; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "padelmap pass 149 http_blocked 429 soft-skip; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-097",
-      "EGY-VEN-098",
-      "EGY-VEN-099",
-      "EGY-VEN-100",
-      "EGY-VEN-101",
-      "EGY-VEN-102"
+      "EGY-VEN-103",
+      "EGY-VEN-104",
+      "EGY-VEN-105",
+      "MDG-VEN-011"
     ],
     "enriched": [
-      "ZMB-VEN-003",
-      "ZMB-VEN-014"
+      "GHA-VEN-001",
+      "NAM-VEN-001",
+      "NAM-VEN-004",
+      "MOZ-VEN-004",
+      "MOZ-VEN-006"
     ],
     "zeroResult": [
-      "RW Musanze padel",
-      "ZM Kitwe densify"
+      "GH Kumasi",
+      "Super Padel New Cairo (no phone)"
     ],
     "skipped": [
       "actu-padel thrash",
       "findapadelcourt-za densify",
-      "fair-padelrevive DE Senegal hub",
-      "Elite Padel Zambia Mosque Road unclear vs ZMB-011"
+      "fair-padelrevive DE Senegal hub"
     ]
   },
   "hitlBacklog": 0,

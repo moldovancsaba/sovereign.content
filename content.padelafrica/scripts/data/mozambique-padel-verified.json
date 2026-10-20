@@ -84,11 +84,11 @@
     "region": "Sofala",
     "countryCode": "MZ",
     "line1": "Estrada Carlos Pereira, Estoril",
-    "lat": -19.8415273,
-    "lng": 34.9023715,
-    "geoPrecision": "locality",
-    "geoSource": "nominatim",
-    "geoNote": "Praia do Estoril / Macuti Beira pin — Estrada Carlos Pereira not rooftop-geocoded",
+    "lat": -19.831513,
+    "lng": 34.906038,
+    "geoPrecision": "place",
+    "geoSource": "map_listing",
+    "geoNote": "Time2Padel Beira / Clube Padel da Beira place pin from public map listing",
     "website": "https://go.tieplayer.com/Time2padel",
     "phone": "+258 84 411 1817",
     "email": "tiago@visioluz.com",
@@ -99,10 +99,11 @@
     "secondarySourceUrl": "https://clubs.tiesports.com/en/mozambique/Time2padel",
     "sourceTypes": "TieSports Time2padel club page (Estrada Carlos Pereira Estoril + phone + email; 3 courts claimed)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Court count claimed as 3 — not asserted. Distinct from Maputo and Tofo samples.",
+    "lastVerifiedUtc": "2026-10-20",
+    "researchNotes": "FIND tick 2026-09-25. Court count claimed as 3 — not asserted. Distinct from Maputo and Tofo samples.; FIND/enrich 2026-10-20T07 place pin upgrade",
     "whatsapp": "+258 84 411 1817",
-    "instagram": "https://www.instagram.com/time2padel_beira/"
+    "instagram": "https://www.instagram.com/time2padel_beira/",
+    "verifiedAt": "2026-10-20"
   },
   {
     "recordId": "MOZ-VEN-005",
@@ -156,9 +157,9 @@
     "secondarySourceUrl": "https://www.tietennis.com/ElitePadelClubMaputo",
     "sourceTypes": "TieSports Elite Padel Club Maputo (Gloria Mall+phone+email); TieTennis club card",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-18",
-    "verifiedAt": "2026-10-18",
-    "researchNotes": "FIND tick 2026-10-18T19. Distinct from MOZ-VEN-001 Gayle (same mall, different operator/phone). Phone +258840650088 normalized."
+    "lastVerifiedUtc": "2026-10-20",
+    "verifiedAt": "2026-10-20",
+    "researchNotes": "FIND tick 2026-10-18T19. Distinct from MOZ-VEN-001 Gayle (same mall, different operator/phone). Phone +258840650088 normalized.; FIND/enrich 2026-10-20T07 WhatsApp from published phone"
   },
   {
     "recordId": "MOZ-VEN-007",

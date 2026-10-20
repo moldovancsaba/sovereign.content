@@ -1,0 +1,104 @@
+{
+  "appliedAt": "2026-10-20T07:02:27.997Z",
+  "results": [
+    {
+      "recordId": "EGY-VEN-103",
+      "id": "research-egy-ven-103",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-103",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-104",
+      "id": "research-egy-ven-104",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-104",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-105",
+      "id": "research-egy-ven-105",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-105",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MDG-VEN-011",
+      "id": "research-mdg-ven-011",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-mdg-ven-011",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "GHA-VEN-001",
+      "id": "research-gha-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-gha-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "NAM-VEN-001",
+      "id": "research-nam-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-nam-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "NAM-VEN-004",
+      "id": "research-nam-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-nam-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MOZ-VEN-004",
+      "id": "research-moz-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-moz-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MOZ-VEN-006",
+      "id": "research-moz-ven-006",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-moz-ven-006",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

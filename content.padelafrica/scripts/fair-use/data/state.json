@@ -871,12 +871,12 @@
     "padelmap": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-19T15:00:40.563Z",
+      "lastFetchAt": "2026-10-20T07:00:42.068Z",
       "lastError": {
-        "at": "2026-10-19T15:00:40.703Z",
-        "url": "https://padelmap.net/courts/south-africa",
+        "at": "2026-10-20T07:00:42.195Z",
+        "url": "https://padelmap.net/courts/egypt",
         "reasonCode": "http_blocked"
       }
     },
@@ -1525,6 +1525,6 @@
       "lastError": null
     }
   },
-  "passCount": 148,
-  "lastPassAt": "2026-10-20T06:03:34.175Z"
+  "passCount": 149,
+  "lastPassAt": "2026-10-20T07:00:42.196Z"
 }

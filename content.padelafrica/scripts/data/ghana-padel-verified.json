@@ -19,11 +19,13 @@
     "secondarySourceUrl": "https://padelrevive.com/padel-in-ghana/",
     "sourceTypes": "Clan 7 first-party site; PadelRevive",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-14",
-    "researchNotes": "Sample audit — Ghana has additional Accra venues not seeded in this pass; phone+WhatsApp from clan7.club 2026-09-26; tick 2026-10-14 Phone+WhatsApp from clan7.club footer; IG @clan7.club",
+    "lastVerifiedUtc": "2026-10-20",
+    "researchNotes": "Sample audit — Ghana has additional Accra venues not seeded in this pass; phone+WhatsApp from clan7.club 2026-09-26; tick 2026-10-14 Phone+WhatsApp from clan7.club footer; IG @clan7.club; FIND/enrich 2026-10-20T07 email hello@clan7.club from first-party about page",
     "phone": "+233 556 767 777",
     "whatsapp": "+233 556 767 777",
-    "instagram": "https://www.instagram.com/clan7.club/"
+    "instagram": "https://www.instagram.com/clan7.club/",
+    "email": "hello@clan7.club",
+    "verifiedAt": "2026-10-20"
   },
   {
     "recordId": "GHA-VEN-002",

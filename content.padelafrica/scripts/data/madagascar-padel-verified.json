@@ -257,5 +257,32 @@
     "lastVerifiedUtc": "2026-10-18",
     "verifiedAt": "2026-10-18",
     "researchNotes": "FIND tick 2026-10-18T20. Phone +261380946409. No first-party website located — Website left empty (not Instagram)."
+  },
+  {
+    "recordId": "MDG-VEN-011",
+    "name": "ATEMA Padel Club",
+    "city": "Antananarivo",
+    "region": "Analamanga",
+    "countryCode": "MG",
+    "line1": "Lalana VVS, Soarano",
+    "lat": -18.912937,
+    "lng": 47.543744,
+    "geoPrecision": "place",
+    "geoSource": "map_listing",
+    "geoNote": "ATEMA Padel Club place pin from public map listing",
+    "website": null,
+    "phone": "+261 34 47 518 28",
+    "email": null,
+    "whatsapp": "+261 34 47 518 28",
+    "venueModel": "outdoors",
+    "seasonNote": "CourtPro hours ~06:00–22:00 daily. Confirm booking when calling.",
+    "description": "ATEMA Padel Club publishes a phone and place pin on Lalana VVS in Soarano, Antananarivo. A clear densify stop beyond Tropical, Garden Ivandry and Lamakoo when you want central Tana courts. Call or WhatsApp ahead — no first-party website asserted this pass.",
+    "primarySourceUrl": "https://exa.ai/library/place/33c235q8qqj",
+    "secondarySourceUrl": "https://www.courtpro.com/clubs/madagascar/antananarivo/atema-padel-club",
+    "sourceTypes": "Public place card (coords + phone); CourtPro ATEMA listing + hours",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-20",
+    "verifiedAt": "2026-10-20",
+    "researchNotes": "FIND tick 2026-10-20T07. Distinct from MDG-007 Urban Futsal Andraharo (tournament host)."
   }
 ]

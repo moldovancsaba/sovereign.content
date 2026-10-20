@@ -4303,3 +4303,5 @@
 {"at":"2026-10-20T05:00:36.218Z","type":"fair_use_attempt","sourceId":"analistas","mode":"discovery_harvest","url":"https://www.analistaspadel.com/","harvested":0}
 {"at":"2026-10-20T06:03:34.054Z","type":"fair_use_attempt","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/"}
 {"at":"2026-10-20T06:03:34.175Z","type":"fair_use_reject","sourceId":"padel-without-borders","mode":"discovery","url":"https://www.padelwithoutborders.com/","status":403,"blocked":true,"reasonCode":"http_blocked"}
+{"at":"2026-10-20T07:00:42.068Z","type":"fair_use_attempt","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/egypt"}
+{"at":"2026-10-20T07:00:42.195Z","type":"fair_use_reject","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/egypt","status":429,"blocked":true,"reasonCode":"http_blocked"}

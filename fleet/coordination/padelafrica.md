@@ -2173,3 +2173,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** New Cairo densify **EGY-VEN-097 Dragons** + **EGY-VEN-098 Padel 101** + **EGY-VEN-099 SD Galleria Moon Valley**; first NEWGIZA **EGY-VEN-100 SD El Alsson**; October densify **EGY-VEN-101 Padelhouse Central**; Heliopolis densify **EGY-VEN-102 Golden Point** created DISCOVERED. Enriched **ZMB-003** WhatsApp; **ZMB-014** Padel Hub email. RW Musanze + ZM Kitwe → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-20 — padelafrica (tick ~07:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 709). **Fair-use:** padelmap pass **149** (429 soft-skip); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** New Cairo densify **EGY-VEN-103 X-Padel Tayran** + **EGY-VEN-104 X-Padel Riviera Heights** + **EGY-VEN-105 SR District 5**; Antananarivo densify **MDG-VEN-011 ATEMA Padel Club** created DISCOVERED. Enriched **GHA-001** Clan email; **NAM-001/004** IG/FB; **MOZ-004** Beira place pin; **MOZ-006** WhatsApp. Super Padel (no phone) + GH Kumasi → zero-result / skip.
+
+Not claiming PUBLISHED.
