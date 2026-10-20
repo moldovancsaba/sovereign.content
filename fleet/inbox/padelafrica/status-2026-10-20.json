@@ -1,45 +1,43 @@
 {
   "client": "padelafrica",
   "date": "2026-10-20",
-  "tickUtc": "2026-10-20T07:01Z",
+  "tickUtc": "2026-10-20T08:03Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 709; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 712; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 149,
+    "passCount": 150,
     "pendingCandidates": 1,
-    "note": "padelmap pass 149 http_blocked 429 soft-skip; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "matchpoint pass 150 fetch_error soft-skip; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-103",
-      "EGY-VEN-104",
-      "EGY-VEN-105",
-      "MDG-VEN-011"
+      "EGY-VEN-106",
+      "EGY-VEN-107",
+      "EGY-VEN-108"
     ],
     "enriched": [
-      "GHA-VEN-001",
-      "NAM-VEN-001",
-      "NAM-VEN-004",
-      "MOZ-VEN-004",
-      "MOZ-VEN-006"
+      "BFA-VEN-001",
+      "GAB-VEN-001",
+      "GAB-VEN-003"
     ],
     "zeroResult": [
-      "GH Kumasi",
-      "Super Padel New Cairo (no phone)"
+      "BJ densify beyond Cotonou Padel Club",
+      "BFA KABB phone"
     ],
     "skipped": [
       "actu-padel thrash",
       "findapadelcourt-za densify",
-      "fair-padelrevive DE Senegal hub"
+      "fair-padelrevive DE Senegal hub",
+      "SLE/GAB/BFA already seeded for found clubs"
     ]
   },
   "hitlBacklog": 0,
