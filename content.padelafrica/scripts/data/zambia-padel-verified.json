@@ -71,9 +71,10 @@
     "secondarySourceUrl": "https://padellands.com/en/pistas-de-padel/otros-paises/zambia/",
     "sourceTypes": "Xtreme Padel Zambia site; Padel Lands directory",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-18",
-    "researchNotes": "FIND tick 2026-09-23. Email domain on contact form is extremepadelzambia.com (as published); site host is xtremepadelzambia.com.; tick 2026-10-14 email confirmed on xtremepadelzambia.com FIND 2026-10-18T15 first-party site + email + WhatsApp from published phone.",
-    "whatsapp": "+260 977 604 408"
+    "lastVerifiedUtc": "2026-10-20",
+    "researchNotes": "FIND tick 2026-09-23. Email domain on contact form is extremepadelzambia.com (as published); site host is xtremepadelzambia.com.; tick 2026-10-14 email confirmed on xtremepadelzambia.com FIND 2026-10-18T15 first-party site + email + WhatsApp from published phone.; FIND/enrich 2026-10-20T06 WhatsApp from published phone",
+    "whatsapp": "+260 977 604 408",
+    "verifiedAt": "2026-10-20"
   },
   {
     "recordId": "ZMB-VEN-004",
@@ -343,7 +344,8 @@
     "primarySourceUrl": "https://padelhubzambia.com/",
     "secondarySourceUrl": null,
     "sourceTypes": "First-party padelhubzambia.com (address, phone, email, hours, covered-court claim).",
-    "verifiedAt": "2026-10-18"
+    "verifiedAt": "2026-10-20",
+    "lastVerifiedUtc": "2026-10-20"
   },
   {
     "recordId": "ZMB-VEN-015",

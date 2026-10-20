@@ -2165,3 +2165,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** New Cairo densify **EGY-VEN-091 Vamos** + **EGY-VEN-093 Cairo Padel** + **EGY-VEN-095 Q Padel** + **EGY-VEN-096 Padel 15**; Zayed densify **EGY-VEN-092 Padelhood Aeon**; October densify **EGY-VEN-094 Padel House Six Ten** created DISCOVERED. Enriched **BWA-001** Gamecity IG/FB; **MWI-001** Pulse email; **CMR-004** ORA email/WhatsApp. Padbol ZED skipped (not padel). UG Lubowa under-construction → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-20 — padelafrica (tick ~06:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 705). **Fair-use:** padel-without-borders pass **148** (403 soft-skip); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** New Cairo densify **EGY-VEN-097 Dragons** + **EGY-VEN-098 Padel 101** + **EGY-VEN-099 SD Galleria Moon Valley**; first NEWGIZA **EGY-VEN-100 SD El Alsson**; October densify **EGY-VEN-101 Padelhouse Central**; Heliopolis densify **EGY-VEN-102 Golden Point** created DISCOVERED. Enriched **ZMB-003** WhatsApp; **ZMB-014** Padel Hub email. RW Musanze + ZM Kitwe → zero-result.
+
+Not claiming PUBLISHED.

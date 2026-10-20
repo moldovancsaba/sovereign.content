@@ -1,46 +1,45 @@
 {
   "client": "padelafrica",
   "date": "2026-10-20",
-  "tickUtc": "2026-10-20T05:01Z",
+  "tickUtc": "2026-10-20T06:03Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 699; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 705; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 147,
+    "passCount": 148,
     "pendingCandidates": 1,
-    "note": "analistas pass 147 harvest 0; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "padel-without-borders pass 148 http_blocked 403 soft-skip; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-091",
-      "EGY-VEN-092",
-      "EGY-VEN-093",
-      "EGY-VEN-094",
-      "EGY-VEN-095",
-      "EGY-VEN-096"
+      "EGY-VEN-097",
+      "EGY-VEN-098",
+      "EGY-VEN-099",
+      "EGY-VEN-100",
+      "EGY-VEN-101",
+      "EGY-VEN-102"
     ],
     "enriched": [
-      "BWA-VEN-001",
-      "MWI-VEN-001",
-      "CMR-VEN-004"
+      "ZMB-VEN-003",
+      "ZMB-VEN-014"
     ],
     "zeroResult": [
-      "UG Lubowa/Bugolobi new courts (under construction)",
-      "ET Addis second club"
+      "RW Musanze padel",
+      "ZM Kitwe densify"
     ],
     "skipped": [
       "actu-padel thrash",
       "findapadelcourt-za densify",
       "fair-padelrevive DE Senegal hub",
-      "Padbol ZED (padbol sport, not padel)"
+      "Elite Padel Zambia Mosque Road unclear vs ZMB-011"
     ]
   },
   "hitlBacklog": 0,
