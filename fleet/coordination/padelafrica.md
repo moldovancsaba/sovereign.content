@@ -2133,3 +2133,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-20 — padelafrica (tick ~02:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 682). **Fair-use:** padel-maroc pass **144** (harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** RePadel densify **EGY-VEN-076 Janaty**; SR densify **EGY-VEN-077 Club 7 Maadi** + **EGY-VEN-080 Palm Hills**; Sheraton densify **EGY-VEN-078 Spirit Padel** + **EGY-VEN-079 Trophy Padel** created DISCOVERED. Enriched **MAR-039** WiPadel Website≠Playtomic. ZM Kitwe/Ndola → zero-result.
+
+Not claiming PUBLISHED.
+

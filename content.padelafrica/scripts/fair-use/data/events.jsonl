@@ -4293,3 +4293,5 @@
 {"at":"2026-10-20T00:01:32.819Z","type":"fair_use_attempt","sourceId":"playtomic","mode":"discovery_harvest","url":"https://playtomic.com/clubs","harvested":0}
 {"at":"2026-10-20T01:00:46.784Z","type":"fair_use_attempt","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/maroc/"}
 {"at":"2026-10-20T01:00:47.068Z","type":"fair_use_reject","sourceId":"ballejaune","mode":"discovery","url":"https://ballejaune.com/maroc/","status":404,"blocked":false,"reasonCode":"fetch_error"}
+{"at":"2026-10-20T02:01:01.765Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery","url":"https://padel.co.ma/annuaire-des-clubs/"}
+{"at":"2026-10-20T02:01:05.031Z","type":"fair_use_attempt","sourceId":"padel-maroc","mode":"discovery_harvest","url":"https://padel.co.ma/annuaire-des-clubs/","harvested":0}

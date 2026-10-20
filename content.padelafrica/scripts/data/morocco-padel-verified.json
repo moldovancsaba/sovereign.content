@@ -969,16 +969,17 @@
     "geoPrecision": "locality",
     "geoSource": "nominatim",
     "geoNote": "El Jadida city pin — Km 7 Route de Casablanca not precisely geocoded",
-    "website": "https://playtomic.com/clubs/wipadel-el-jadida",
+    "website": null,
     "venueModel": "commercial_club",
-    "seasonNote": "Playtomic lists daytime hours commonly ~08:30–17:00; phone optional.",
+    "seasonNote": "Playtomic lists daytime hours commonly ~08:30–17:00; phone optional. Playtomic is booking host, not Website.",
     "description": "WiPadel El Jadida lists padel courts at Km 7 on the Route de Casablanca with live Playtomic booking. Opens the El Jadida Atlantic coast cell beyond Casablanca densify under the phone-optional evidence bar. Confirm evening availability before travel.",
     "primarySourceUrl": "https://playtomic.com/clubs/wipadel-el-jadida",
     "secondarySourceUrl": "https://trustpadel.com/padel-courts/wipadel-el-jadida/",
     "sourceTypes": "Playtomic booking (Km 7 Route de Casablanca) + TrustPadel listing",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-27",
-    "researchNotes": "FIND tick 08 — new El Jadida city cell. Court counts not asserted."
+    "lastVerifiedUtc": "2026-10-20",
+    "researchNotes": "FIND tick 08 — new El Jadida city cell. Court counts not asserted.; FIND/enrich 2026-10-20T02 — Website≠Playtomic",
+    "verifiedAt": "2026-10-20"
   },
   {
     "recordId": "MAR-VEN-040",
