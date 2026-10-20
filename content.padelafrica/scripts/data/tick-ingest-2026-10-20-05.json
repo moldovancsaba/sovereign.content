@@ -1,0 +1,104 @@
+{
+  "appliedAt": "2026-10-20T05:02:21.345Z",
+  "results": [
+    {
+      "recordId": "EGY-VEN-091",
+      "id": "research-egy-ven-091",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-091",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-092",
+      "id": "research-egy-ven-092",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-092",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-093",
+      "id": "research-egy-ven-093",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-093",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-094",
+      "id": "research-egy-ven-094",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-094",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-095",
+      "id": "research-egy-ven-095",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-095",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-096",
+      "id": "research-egy-ven-096",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-096",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "BWA-VEN-001",
+      "id": "research-bwa-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-bwa-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "MWI-VEN-001",
+      "id": "research-mwi-ven-001",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mwi-ven-001",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "CMR-VEN-004",
+      "id": "research-cmr-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-cmr-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

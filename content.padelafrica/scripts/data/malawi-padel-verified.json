@@ -19,12 +19,12 @@
     "secondarySourceUrl": "https://www.pulse-mw.com/",
     "sourceTypes": "Pulse Park contact page (address + phones + email); first-party facilities page (2 padel courts)",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-19",
+    "lastVerifiedUtc": "2026-10-20",
     "phone": "+265 999 834 444",
     "email": "info@pulse-mw.com",
-    "researchNotes": "FIND tick 2026-09-26 phone/address backfill from pulse-mw.com/contact.; tick 2026-10-14 email from pulse-mw.com contact FIND/enrich 2026-10-18T23 FIND 2026-10-19T16 Instagram @pulseparkmw from operator social links.",
+    "researchNotes": "FIND tick 2026-09-26 phone/address backfill from pulse-mw.com/contact.; tick 2026-10-14 email from pulse-mw.com contact FIND/enrich 2026-10-18T23 FIND 2026-10-19T16 Instagram @pulseparkmw from operator social links.; FIND/enrich 2026-10-20T05 email + alt phone +265 995 993 313 on first-party site",
     "whatsapp": "+265 999 834 444",
-    "verifiedAt": "2026-10-18",
+    "verifiedAt": "2026-10-20",
     "instagram": "https://www.instagram.com/pulseparkmw/"
   },
   {

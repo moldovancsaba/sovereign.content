@@ -2157,3 +2157,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** Zayed densify **EGY-VEN-086 Lets Padel** + **EGY-VEN-087 Padel Dose** + **EGY-VEN-088 Padel Tribe** + **EGY-VEN-089 Pro Padel El Seginy**; October densify **EGY-VEN-090 Mexico Padel West Somid**; Tunis densify **TUN-VEN-038 Padel Club Central** created DISCOVERED. Enriched **TUN-008** Country Club Instagram; **TUN-015** Eleven place pin. ET Addis second club → zero-result.
 
 Not claiming PUBLISHED.
+
+### 2026-10-20 — padelafrica (tick ~05:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 699). **Fair-use:** analistas pass **147** (harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** New Cairo densify **EGY-VEN-091 Vamos** + **EGY-VEN-093 Cairo Padel** + **EGY-VEN-095 Q Padel** + **EGY-VEN-096 Padel 15**; Zayed densify **EGY-VEN-092 Padelhood Aeon**; October densify **EGY-VEN-094 Padel House Six Ten** created DISCOVERED. Enriched **BWA-001** Gamecity IG/FB; **MWI-001** Pulse email; **CMR-004** ORA email/WhatsApp. Padbol ZED skipped (not padel). UG Lubowa under-construction → zero-result.
+
+Not claiming PUBLISHED.
