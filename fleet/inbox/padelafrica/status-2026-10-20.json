@@ -1,43 +1,45 @@
 {
   "client": "padelafrica",
   "date": "2026-10-20",
-  "tickUtc": "2026-10-20T03:01Z",
+  "tickUtc": "2026-10-20T04:01Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 687; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 693; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 145,
+    "passCount": 146,
     "pendingCandidates": 1,
-    "note": "africapadel pass 145 harvest 0; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "padelafrica-apc pass 146 harvest 0; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-081",
-      "EGY-VEN-082",
-      "EGY-VEN-083",
-      "EGY-VEN-084",
-      "EGY-VEN-085"
+      "EGY-VEN-086",
+      "EGY-VEN-087",
+      "EGY-VEN-088",
+      "EGY-VEN-089",
+      "EGY-VEN-090",
+      "TUN-VEN-038"
     ],
     "enriched": [
-      "GHA-VEN-002",
-      "GHA-VEN-008"
+      "TUN-VEN-008",
+      "TUN-VEN-015"
     ],
     "zeroResult": [
-      "GH Kumasi",
-      "GH Tema densify beyond Pamela"
+      "ET Addis second club",
+      "RW Musanze/Rubavu"
     ],
     "skipped": [
       "actu-padel thrash",
       "findapadelcourt-za densify",
-      "fair-padelrevive DE Senegal hub"
+      "fair-padelrevive DE Senegal hub",
+      "EGY-012 Padel It Arkan already seeded"
     ]
   },
   "hitlBacklog": 0,

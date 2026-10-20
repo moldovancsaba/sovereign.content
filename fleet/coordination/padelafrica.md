@@ -2149,3 +2149,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+
+### 2026-10-20 — padelafrica (tick ~04:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 693). **Fair-use:** padelafrica-apc pass **146** (harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** Zayed densify **EGY-VEN-086 Lets Padel** + **EGY-VEN-087 Padel Dose** + **EGY-VEN-088 Padel Tribe** + **EGY-VEN-089 Pro Padel El Seginy**; October densify **EGY-VEN-090 Mexico Padel West Somid**; Tunis densify **TUN-VEN-038 Padel Club Central** created DISCOVERED. Enriched **TUN-008** Country Club Instagram; **TUN-015** Eleven place pin. ET Addis second club → zero-result.
+
+Not claiming PUBLISHED.

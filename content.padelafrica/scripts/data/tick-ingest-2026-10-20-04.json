@@ -1,0 +1,93 @@
+{
+  "appliedAt": "2026-10-20T04:02:53.468Z",
+  "results": [
+    {
+      "recordId": "EGY-VEN-086",
+      "id": "research-egy-ven-086",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-086",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-087",
+      "id": "research-egy-ven-087",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-087",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-088",
+      "id": "research-egy-ven-088",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-088",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-089",
+      "id": "research-egy-ven-089",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-089",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-090",
+      "id": "research-egy-ven-090",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-090",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-038",
+      "id": "research-tun-ven-038",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-tun-ven-038",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-008",
+      "id": "research-tun-ven-008",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-008",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "TUN-VEN-015",
+      "id": "research-tun-ven-015",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-tun-ven-015",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

@@ -1519,12 +1519,12 @@
     "padelafrica-apc": {
       "queue": [],
       "done": {},
-      "discoveryCursor": 1,
+      "discoveryCursor": 2,
       "leadsAdded": 0,
-      "lastFetchAt": "2026-10-19T12:00:40.904Z",
+      "lastFetchAt": "2026-10-20T04:01:16.965Z",
       "lastError": null
     }
   },
-  "passCount": 145,
-  "lastPassAt": "2026-10-20T03:00:45.375Z"
+  "passCount": 146,
+  "lastPassAt": "2026-10-20T04:01:17.088Z"
 }
