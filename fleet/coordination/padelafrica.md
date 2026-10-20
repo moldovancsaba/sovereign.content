@@ -2141,3 +2141,11 @@ Not claiming PUBLISHED.
 
 Not claiming PUBLISHED.
 
+### 2026-10-20 — padelafrica (tick ~03:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 687). **Fair-use:** africapadel pass **145** (harvest 0); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** First Nasr City cell **EGY-VEN-081 HPadel** + densify **EGY-VEN-084 Padel Point Ramage**; Maadi densify **EGY-VEN-082 Pro Padel**; New Cairo densify **EGY-VEN-083 Padel Point Sky Resort**; Zayed densify **EGY-VEN-085 The Match Padel** created DISCOVERED. Enriched **GHA-002** Website≠Matchpoint; **GHA-008** courts phone. GH Kumasi → zero-result.
+
+Not claiming PUBLISHED.
+

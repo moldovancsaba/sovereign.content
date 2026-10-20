@@ -37,21 +37,21 @@
     "geoPrecision": "locality",
     "geoSource": "nominatim",
     "geoNote": "Adjiringanor locality — Karroum Street not separately geocoded",
-    "website": "https://thepadelclub-gh.matchpoint.com.es/",
+    "website": "https://www.thepadelclubghana.com/",
     "phone": "+233 53 110 0127",
     "venueModel": "own_premises",
-    "seasonNote": "Monday–Saturday 06:00–22:30; Sunday 09:00–22:30",
+    "seasonNote": "Monday–Saturday 06:00–22:30; Sunday 09:00–22:30 Matchpoint is booking host, not Website.",
     "description": "The Padel Club Ghana brings Matchpoint booking to Karroum Street in Adjiringanor / East Legon — coaching and open play with weekday early-morning through late-evening hours. A solid recommendation when you want East Accra padel beyond Airport West. Call ahead for coach sessions; Sunday opens later than weekdays.",
     "primarySourceUrl": "https://thepadelclub-gh.matchpoint.com.es/",
     "secondarySourceUrl": "https://padelrevive.com/padel-in-ghana/",
     "sourceTypes": "Matchpoint booking; PadelRevive",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-19",
+    "lastVerifiedUtc": "2026-10-20",
     "email": "info@thepadelclubghana.com",
     "whatsapp": "+233 53 110 0127",
     "instagram": "https://www.instagram.com/the_padel_club_ghana/",
-    "verifiedAt": "2026-10-19",
-    "researchNotes": "FIND/enrich 2026-10-19T02"
+    "verifiedAt": "2026-10-20",
+    "researchNotes": "FIND/enrich 2026-10-19T02; FIND/enrich 2026-10-20T03 — Website=thepadelclubghana.com (≠Matchpoint)"
   },
   {
     "recordId": "GHA-VEN-003",
@@ -196,7 +196,7 @@
     "geoSource": "padelrevive_courtpro",
     "geoNote": "PadelRevive CourtPro pin colocated with OSM Aviation Social Centre (Airport Bypass)",
     "website": "https://padeltowngh.com/",
-    "phone": "+233 302 780 215",
+    "phone": "+233 55 666 6336",
     "whatsapp": "+233 551 464 466",
     "instagram": "https://www.instagram.com/padeltown.gh/",
     "venueModel": "hosted_facility",
@@ -206,9 +206,9 @@
     "secondarySourceUrl": "https://www.aviationsocialcentregh.com/contact/",
     "sourceTypes": "Padel Town Ghana App Store listing (court booking); Aviation Social Centre contact (Airport By-Pass + phone + WhatsApp); PadelRevive Accra map pin",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-10-19",
-    "researchNotes": "FIND tick 25 under-covered GH densify (not ZA). Phone/WhatsApp are Aviation Social Centre published lines hosting the courts; club app is primary booking channel. Court count not asserted.; FIND/enrich 2026-10-19T09 — first-party padeltowngh.com contact (Aviation Social Center); keep existing phones",
-    "verifiedAt": "2026-10-19"
+    "lastVerifiedUtc": "2026-10-20",
+    "researchNotes": "FIND tick 25 under-covered GH densify (not ZA). Phone/WhatsApp are Aviation Social Centre published lines hosting the courts; club app is primary booking channel. Court count not asserted.; FIND/enrich 2026-10-19T09 — first-party padeltowngh.com contact (Aviation Social Center); keep existing phones; FIND/enrich 2026-10-20T03 — courts phone from padeltowngh.com contact (Aviation desk +233 302 780 215 retained in notes)",
+    "verifiedAt": "2026-10-20"
   },
   {
     "recordId": "GHA-VEN-009",
