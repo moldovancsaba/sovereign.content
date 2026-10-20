@@ -153,8 +153,11 @@
     "secondarySourceUrl": "https://www.soavina.club/lancement-du-terrain-de-padel-du-club-du-grand-soavina-antananarivo/",
     "sourceTypes": "Operator contact page (address+phones+emails); padel launch article; Padel Lands Soavina Atmosphère card",
     "confidence": "High",
-    "lastVerifiedUtc": "2026-09-25",
-    "researchNotes": "FIND tick 2026-09-25. Secondary phone +261 32 11 884 54 also published — primary 884 52 retained. Court count not asserted."
+    "lastVerifiedUtc": "2026-10-20",
+    "researchNotes": "FIND tick 2026-09-25. Secondary phone +261 32 11 884 54 also published — primary 884 52 retained. Court count not asserted.; FIND/enrich 2026-10-20T09 IG/FB @espacesoavina + WhatsApp=published club phone from LinkedIn/club pages",
+    "instagram": "https://www.instagram.com/espacesoavina/",
+    "facebook": "https://www.facebook.com/espacesoavina",
+    "whatsapp": "+261 32 11 884 52"
   },
   {
     "recordId": "MDG-VEN-007",

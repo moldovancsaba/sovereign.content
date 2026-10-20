@@ -1,0 +1,93 @@
+{
+  "appliedAt": "2026-10-20T09:03:48.072Z",
+  "results": [
+    {
+      "recordId": "EGY-VEN-109",
+      "id": "research-egy-ven-109",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-109",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-110",
+      "id": "research-egy-ven-110",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-110",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-111",
+      "id": "research-egy-ven-111",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-111",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "CIV-VEN-021",
+      "id": "research-civ-ven-021",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-civ-ven-021",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "MDG-VEN-006",
+      "id": "research-mdg-ven-006",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-mdg-ven-006",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "SOM-VEN-001",
+      "id": "research-som-ven-001",
+      "ok": true,
+      "mode": "create_fallback",
+      "res": {
+        "cardId": "research-som-ven-001",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-011",
+      "id": "research-egy-ven-011",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-egy-ven-011",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "UGA-VEN-004",
+      "id": "research-uga-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-uga-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

@@ -4307,3 +4307,5 @@
 {"at":"2026-10-20T07:00:42.195Z","type":"fair_use_reject","sourceId":"padelmap","mode":"discovery","url":"https://padelmap.net/courts/egypt","status":429,"blocked":true,"reasonCode":"http_blocked"}
 {"at":"2026-10-20T08:03:28.001Z","type":"fair_use_attempt","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/"}
 {"at":"2026-10-20T08:03:28.636Z","type":"fair_use_reject","sourceId":"matchpoint","mode":"discovery","url":"https://www.matchpoint.com.es/","reasonCode":"fetch_error","error":"fetch failed"}
+{"at":"2026-10-20T09:00:41.278Z","type":"fair_use_attempt","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/nigeria/"}
+{"at":"2026-10-20T09:00:41.384Z","type":"fair_use_reject","sourceId":"playtomic-directory","mode":"discovery","url":"https://directory.playtomic.io/nigeria/","reasonCode":"fetch_error","error":"fetch failed"}

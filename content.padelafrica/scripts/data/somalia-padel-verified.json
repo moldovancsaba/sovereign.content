@@ -10,18 +10,19 @@
     "lng": 44.061803,
     "geoPrecision": "locality",
     "geoSource": "nominatim",
-    "geoNote": "Hargeisa city pin \u2014 street address not published on club site",
+    "geoNote": "Hargeisa city pin — street address not published on club site",
     "website": "https://padelsl.com/",
     "phone": "+252 63 933 3362",
     "email": "info@padelsl.com",
     "venueModel": "outdoors",
     "seasonNote": "Hours not listed yet.",
-    "description": "PadelSL is Somaliland\u2019s first padel club in Hargeisa, with four outdoor courts and published phone and email. A clear recommendation when you want named padel in the Horn of Africa under ISO SO \u2014 call ahead because only a city pin is verified, not a street geocode.",
+    "description": "PadelSL is Somaliland’s first padel club in Hargeisa, with four outdoor courts and published phone and email. A clear recommendation when you want named padel in the Horn of Africa under ISO SO — call ahead because only a city pin is verified, not a street geocode.",
     "primarySourceUrl": "https://padelsl.com/",
     "secondarySourceUrl": "https://padelsl.com/",
     "sourceTypes": "PadelSL official site",
     "confidence": "Medium",
-    "lastVerifiedUtc": "2026-09-22",
-    "researchNotes": "Club brands as Somaliland; catalogued under ISO SO. No Mogadishu venue verified."
+    "lastVerifiedUtc": "2026-10-20",
+    "researchNotes": "Club brands as Somaliland; catalogued under ISO SO. No Mogadishu venue verified.; FIND/enrich 2026-10-20T09 WhatsApp=published club phone from padelsl.com",
+    "whatsapp": "+252 63 933 3362"
   }
 ]

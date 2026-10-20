@@ -2189,3 +2189,11 @@ Not claiming PUBLISHED.
 **FIND / ingest:** First Settlement densify **EGY-VEN-106 The Bridge HuB**; Fifth Settlement densify **EGY-VEN-107 Padel Ace Triumph**; Heliopolis densify **EGY-VEN-108 Padel Ace Galaa** created DISCOVERED. Enriched **BFA-001** Lancaster WhatsApp; **GAB-003** Beach Club IG/FB; **GAB-001** secondary phone note. BJ/SLE densify already seeded → zero-result / skip.
 
 Not claiming PUBLISHED.
+
+### 2026-10-20 — padelafrica (tick ~09:00 UTC)
+
+**Pipeline:** feed ×2 → **60/60**. **Quality:** ceiling (scanned 716). **Fair-use:** playtomic-directory pass **151** (fetch_error soft-skip); padelrevive DE hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify.
+
+**FIND / ingest:** Heliopolis densify **EGY-VEN-109 UPadel Tiba Rose**; Zayed densify **EGY-VEN-110 Padel Hub Allegria**; New Cairo densify **EGY-VEN-111 Padel Hub Villette**; Abidjan densify **CIV-VEN-021 Padel House** created DISCOVERED. Enriched **MDG-006** Soavina IG/FB/WhatsApp; **SOM-001** WhatsApp; **EGY-011** J Padel Facebook/WhatsApp; **UGA-004** PadelX Instagram. ML/LR/NE first venues → zero-result.
+
+Not claiming PUBLISHED.

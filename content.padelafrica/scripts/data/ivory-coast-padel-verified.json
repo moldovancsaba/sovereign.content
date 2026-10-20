@@ -522,5 +522,33 @@
     "lastVerifiedUtc": "2026-10-19",
     "verifiedAt": "2026-10-19",
     "researchNotes": "FIND tick 2026-10-19T18. Distinct from CIV-006 Padel Zone and CIV-005 District / CIV-009 Square. Doinsport app host not used as Website."
+  },
+  {
+    "recordId": "CIV-VEN-021",
+    "name": "Padel House Abidjan",
+    "city": "Abidjan",
+    "region": "Lagunes",
+    "countryCode": "CI",
+    "line1": "Zone 3, Marcory",
+    "lat": 5.299904,
+    "lng": -3.993263,
+    "geoPrecision": "place",
+    "geoSource": "map_listing",
+    "geoNote": "Public place card pin Marcory Zone 3 for Padel House",
+    "website": "https://padelhouse.ci/",
+    "phone": "+225 07 99 99 88 88",
+    "email": "contact@padelhouse.ci",
+    "instagram": "https://www.instagram.com/padelhouse.ci/",
+    "whatsapp": "+225 07 99 99 88 88",
+    "venueModel": "outdoors",
+    "seasonNote": "First-party site lists hours 07:00–23:00 and 'Ouverture prochaine' banner — treat as launching / confirm open play before travel.",
+    "description": "Padel House Abidjan is an outdoor Zone 3 Marcory club with a first-party site, published phone/email, Instagram @padelhouse.ci, and place-pin coords. A clear densify stop beyond District, Square, and Sports Garden. Confirm opening status on padelhouse.ci before booking.",
+    "primarySourceUrl": "https://padelhouse.ci/",
+    "secondarySourceUrl": "https://padellands.com/pistas-de-padel/padel-house-abidjan/",
+    "sourceTypes": "padelhouse.ci (phone + email + Zone 3 + hours); Padel Lands phone; place card coords; IG @padelhouse.ci; padel.ci partner list",
+    "confidence": "High",
+    "lastVerifiedUtc": "2026-10-20",
+    "verifiedAt": "2026-10-20",
+    "researchNotes": "FIND tick 2026-10-20T09. Distinct from CIV-005 District, CIV-009 Square, CIV-020 Sports Garden. Matchpoint/booking app hosts not used as Website."
   }
 ]

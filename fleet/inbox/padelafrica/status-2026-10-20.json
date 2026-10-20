@@ -1,43 +1,49 @@
 {
   "client": "padelafrica",
   "date": "2026-10-20",
-  "tickUtc": "2026-10-20T08:03Z",
+  "tickUtc": "2026-10-20T09:03Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 712; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 716; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 150,
+    "passCount": 151,
     "pendingCandidates": 1,
-    "note": "matchpoint pass 150 fetch_error soft-skip; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "playtomic-directory nigeria pass 151 fetch_error soft-skip; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-106",
-      "EGY-VEN-107",
-      "EGY-VEN-108"
+      "EGY-VEN-109",
+      "EGY-VEN-110",
+      "EGY-VEN-111",
+      "CIV-VEN-021"
     ],
     "enriched": [
-      "BFA-VEN-001",
-      "GAB-VEN-001",
-      "GAB-VEN-003"
+      "MDG-VEN-006",
+      "SOM-VEN-001",
+      "EGY-VEN-011",
+      "UGA-VEN-004"
     ],
     "zeroResult": [
-      "BJ densify beyond Cotonou Padel Club",
-      "BFA KABB phone"
+      "ML Bamako first venue",
+      "LR Padel House Liberia (no contact beyond essay)",
+      "NE/TD/LSO/GNB first venue",
+      "BJ densify beyond Cotonou",
+      "GIN densify beyond Riviera",
+      "BFA-002 KABB phone"
     ],
     "skipped": [
       "actu-padel thrash",
       "findapadelcourt-za densify",
       "fair-padelrevive DE Senegal hub",
-      "SLE/GAB/BFA already seeded for found clubs"
+      "Padel Hub MOVE Gym (city pin only, no campus contact beyond shared phone — Allegria/Villette seeded)"
     ]
   },
   "hitlBacklog": 0,
