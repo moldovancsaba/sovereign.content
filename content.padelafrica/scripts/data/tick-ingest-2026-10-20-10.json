@@ -1,0 +1,93 @@
+{
+  "appliedAt": "2026-10-20T10:02:20.879Z",
+  "results": [
+    {
+      "recordId": "EGY-VEN-112",
+      "id": "research-egy-ven-112",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-112",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-113",
+      "id": "research-egy-ven-113",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-113",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-114",
+      "id": "research-egy-ven-114",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-114",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-115",
+      "id": "research-egy-ven-115",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-115",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-116",
+      "id": "research-egy-ven-116",
+      "ok": true,
+      "mode": "create",
+      "res": {
+        "cardId": "research-egy-ven-116",
+        "state": "DISCOVERED",
+        "created": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-004",
+      "id": "research-egy-ven-004",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-egy-ven-004",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-110",
+      "id": "research-egy-ven-110",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-egy-ven-110",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    },
+    {
+      "recordId": "EGY-VEN-111",
+      "id": "research-egy-ven-111",
+      "ok": true,
+      "mode": "reprocess",
+      "res": {
+        "cardId": "research-egy-ven-111",
+        "state": "DISCOVERED",
+        "reprocessed": true
+      }
+    }
+  ]
+}

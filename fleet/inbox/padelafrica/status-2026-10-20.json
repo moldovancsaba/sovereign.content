@@ -1,49 +1,47 @@
 {
   "client": "padelafrica",
   "date": "2026-10-20",
-  "tickUtc": "2026-10-20T09:03Z",
+  "tickUtc": "2026-10-20T10:02Z",
   "timer": "padel-find-tick",
   "writesPath": "ingest_only",
   "ingestOnlyReality": true,
   "qualityAtCeiling": true,
   "qualityLoopApplied": 0,
-  "qualityNote": "ceiling; scanned 716; belowThreshold 0",
+  "qualityNote": "ceiling; scanned 721; belowThreshold 0",
   "pipelineFeed": {
     "batches": 2,
     "ok": 60,
     "total": 60
   },
   "fairUse": {
-    "passCount": 151,
+    "passCount": 152,
     "pendingCandidates": 1,
-    "note": "playtomic-directory nigeria pass 151 fetch_error soft-skip; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
+    "note": "playtomic-directory ghana pass 152 fetch_error soft-skip; padelrevive DE Senegal hub still needs_verify, not promoted; skip actu-padel thrash; skipped findapadelcourt-za densify this tick"
   },
   "find": {
     "seeded": [
-      "EGY-VEN-109",
-      "EGY-VEN-110",
-      "EGY-VEN-111",
-      "CIV-VEN-021"
+      "EGY-VEN-112",
+      "EGY-VEN-113",
+      "EGY-VEN-114",
+      "EGY-VEN-115",
+      "EGY-VEN-116"
     ],
     "enriched": [
-      "MDG-VEN-006",
-      "SOM-VEN-001",
-      "EGY-VEN-011",
-      "UGA-VEN-004"
+      "EGY-VEN-004",
+      "EGY-VEN-110",
+      "EGY-VEN-111"
     ],
     "zeroResult": [
       "ML Bamako first venue",
-      "LR Padel House Liberia (no contact beyond essay)",
-      "NE/TD/LSO/GNB first venue",
-      "BJ densify beyond Cotonou",
-      "GIN densify beyond Riviera",
-      "BFA-002 KABB phone"
+      "LR/NE/LSO/GNB first venue",
+      "Padel Plus Nasr City (no contact)",
+      "The Padel Zone Almazah (no contact)"
     ],
     "skipped": [
       "actu-padel thrash",
       "findapadelcourt-za densify",
       "fair-padelrevive DE Senegal hub",
-      "Padel Hub MOVE Gym (city pin only, no campus contact beyond shared phone — Allegria/Villette seeded)"
+      "EGY-008 Padel Up Nasr City already seeded (Elite Maadi is distinct campus)"
     ]
   },
   "hitlBacklog": 0,
