@@ -1102,9 +1102,9 @@
           "reason": "seeded"
         }
       },
-      "discoveryCursor": 2,
+      "discoveryCursor": 1,
       "leadsAdded": 30,
-      "lastFetchAt": "2026-10-19T08:00:58.891Z",
+      "lastFetchAt": "2026-10-20T00:01:32.716Z",
       "lastError": null
     },
     "matchpoint": {
@@ -1525,6 +1525,6 @@
       "lastError": null
     }
   },
-  "passCount": 141,
-  "lastPassAt": "2026-10-19T23:00:52.897Z"
+  "passCount": 142,
+  "lastPassAt": "2026-10-20T00:01:32.819Z"
 }
